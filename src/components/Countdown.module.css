@@ -1,0 +1,125 @@
+.heroCountdown {
+  flex-shrink: 0;
+}
+
+.countdownCard {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 24px;
+  padding: 40px 48px 32px;
+  box-shadow: var(--shadow-xl);
+  text-align: center;
+  min-width: 340px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-theme="dark"] .countdownCard {
+  background: rgba(20, 18, 34, 0.75);
+}
+
+[data-theme="light"] .countdownCard {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.countdownCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl), 0 10px 30px rgba(214, 36, 110, 0.15);
+}
+
+.countdownGrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.countdownUnit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.countdownNum {
+  font-family: var(--font-headline), 'Bebas Neue', sans-serif;
+  font-size: clamp(3.5rem, 8vw, 5rem);
+  line-height: 1;
+  background: var(--brand-gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 400;
+}
+
+.countdownLabel {
+  font-family: var(--font-ui), 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.countdownSep {
+  font-family: var(--font-headline), 'Bebas Neue', sans-serif;
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  color: var(--brand-magenta);
+  margin-bottom: 24px;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from { opacity: 0.6; }
+  to { opacity: 1; }
+}
+
+.countdownTag {
+  display: inline-block;
+  margin-top: 24px;
+  font-family: var(--font-ui), 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--brand-magenta);
+  padding: 6px 20px;
+  background: rgba(214, 36, 110, 0.08);
+  border-radius: 100px;
+  border: 1px solid rgba(214, 36, 110, 0.15);
+}
+
+[data-theme="dark"] .countdownTag {
+  background: rgba(214, 36, 110, 0.15);
+}
+
+.releaseDateContainer {
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 20px;
+}
+
+.releaseDateLabel {
+  font-family: var(--font-ui), 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.releaseDateValue {
+  font-family: var(--font-headline), 'Bebas Neue', sans-serif;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: 0.03em;
+  background: var(--brand-gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  font-weight: 400;
+}

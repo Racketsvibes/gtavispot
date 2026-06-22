@@ -1,0 +1,56 @@
+.playerWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10; /* Match the news card image aspect ratio exactly */
+  background: #000;
+  overflow: hidden;
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.cover {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.thumbnail {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.cover:hover .thumbnail {
+  transform: scale(1.03);
+}
+
+.playIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 56px;
+  height: 56px;
+  background: rgba(214, 36, 110, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 4px 20px rgba(214, 36, 110, 0.4);
+  z-index: 2;
+}
+
+.cover:hover .playIcon {
+  transform: translate(-50%, -50%) scale(1.1);
+  background: var(--brand-pink);
+}

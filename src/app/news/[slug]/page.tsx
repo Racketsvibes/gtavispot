@@ -1,0 +1,123 @@
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import Image from 'next/image';
+import { getArticleBySlug, getAllArticleSlugs } from '@/data/newsContent';
+import styles from './page.module.css';
+
+interface Props {
+  params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  return getAllArticleSlugs().map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({ params }: Props) {
+  const { slug } = await params;
+  const article = getArticleBySlug(slug);
+  if (!article) return {};
+
+  const imageUrl = article.featureImage 
+    ? `https://gtavispot.com${article.featureImage}` 
+    : 'https://gtavispot.com/images/desktop.webp';
+
+  return {
+    title: `${article.title} | GTA Vi Spot`,
+    description: article.metaDescription,
+    alternates: {
+      canonical: `https://gtavispot.com/news/${slug}/`,
+    },
+    openGraph: {
+      title: article.title,
+      description: article.metaDescription,
+      url: `https://gtavispot.com/news/${slug}/`,
+      type: 'article',
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: article.focusKeyword || article.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title,
+      description: article.metaDescription,
+      images: [imageUrl],
+    },
+  };
+}
+
+export default async function ArticlePage({ params }: Props) {
+  const { slug } = await params;
+  const article = getArticleBySlug(slug);
+  if (!article) notFound();
+
+  return (
+    <div className={styles.wrapper}>
+      {/* Breadcrumbs */}
+      <div className={`container ${styles.breadcrumbs}`}>
+        <Link href="/" className={styles.breadLink}>Home</Link>
+        <span className={styles.breadSep}>/</span>
+        <Link href="/news/" className={styles.breadLink}>News</Link>
+        <span className={styles.breadSep}>/</span>
+        <span className={styles.breadCurrent}>{article.h1}</span>
+      </div>
+
+      <article className={`container ${styles.article}`}>
+        <header className={styles.header}>
+          <span className={styles.categoryBadge}>GTA 6 NEWS</span>
+          <h1 className={styles.title}>{article.h1}</h1>
+          <div className={styles.meta}>
+            <span className={styles.metaItem}>By <strong>{article.author}</strong></span>
+            <span className={styles.metaSep}>•</span>
+            <span className={styles.metaItem}>Published: {article.publishedDate}</span>
+            <span className={styles.metaSep}>•</span>
+            <span className={styles.metaItem}>Last Updated: {article.modifiedDate}</span>
+          </div>
+        </header>
+
+        <div className={styles.divider} />
+
+        {article.featureImage && (
+          <div className={styles.featureImageContainer}>
+            <Image 
+              src={article.featureImage} 
+              alt={article.focusKeyword || article.title} 
+              width={1200}
+              height={630}
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+              className={styles.featureImage} 
+            />
+          </div>
+        )}
+
+        <div className={styles.body}>
+          {article.content}
+        </div>
+
+        {article.videoSchema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "VideoObject",
+                "name": article.videoSchema.name,
+                "description": article.videoSchema.description,
+                "thumbnailUrl": article.videoSchema.thumbnailUrl,
+                "uploadDate": article.videoSchema.uploadDate,
+                "duration": article.videoSchema.duration,
+                "contentUrl": article.videoSchema.contentUrl,
+                "embedUrl": article.videoSchema.embedUrl,
+              }),
+            }}
+          />
+        )}
+      </article>
+    </div>
+  );
+}

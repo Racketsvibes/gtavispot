@@ -1,0 +1,53 @@
+.toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-light);
+  transition: all 0.25s ease;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.toggle:hover {
+  background: var(--surface-hover);
+  color: var(--brand-magenta);
+  border-color: var(--brand-magenta);
+  transform: scale(1.05);
+}
+
+.toggle:active {
+  transform: scale(0.95);
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+.hidden {
+  opacity: 0;
+  transform: rotate(-90deg) scale(0.5);
+  pointer-events: none;
+}
+
+.placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--bg-tertiary);
+  flex-shrink: 0;
+}
