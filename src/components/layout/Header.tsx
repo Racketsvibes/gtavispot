@@ -71,6 +71,14 @@ const moreNav = [
   { label: 'FAQ', href: '/faq/' },
 ];
 
+const policiesNav = [
+  { label: 'Privacy Policy', href: '/privacy-policy/' },
+  { label: 'Terms of Service', href: '/terms-of-service/' },
+  { label: 'Cookie Policy', href: '/cookie-policy/' },
+  { label: 'Disclaimer', href: '/disclaimer/' },
+  { label: 'DMCA Policy', href: '/dmca/' },
+];
+
 export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -78,6 +86,7 @@ export default function Header() {
   const [newsOpen, setNewsOpen] = useState(false);
   const [mapOpen, setMapOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
+  const [policiesOpen, setPoliciesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   // Helper to check if a nav section is active
@@ -87,10 +96,17 @@ export default function Header() {
   const getDropdownBtnClass = (basePath: string) =>
     `${styles.navLink} ${styles.moreBtn} ${isActive(basePath) ? styles.navLinkActive : ''}`;
 
+  const isPolicyActive = () => 
+    ['/privacy-policy', '/terms-of-service', '/cookie-policy', '/disclaimer', '/dmca'].some(path => pathname?.startsWith(path));
+
+  const getPoliciesDropdownBtnClass = () =>
+    `${styles.navLink} ${styles.moreBtn} ${isPolicyActive() ? styles.navLinkActive : ''}`;
+
   const storyRef = useRef<HTMLDivElement>(null);
   const newsRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
   const moreRef = useRef<HTMLDivElement>(null);
+  const policiesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -112,6 +128,9 @@ export default function Header() {
       }
       if (moreRef.current && !moreRef.current.contains(target)) {
         setMoreOpen(false);
+      }
+      if (policiesRef.current && !policiesRef.current.contains(target)) {
+        setPoliciesOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -251,6 +270,51 @@ export default function Header() {
               </Link>
             ))}
 
+            <Link href="/about/" className={getNavClass('/about')}>
+              About
+            </Link>
+
+            <Link href="/contact/" className={getNavClass('/contact')}>
+              Contact
+            </Link>
+
+            {/* Policies Dropdown */}
+            <div
+              className={styles.moreWrapper}
+              ref={policiesRef}
+              onMouseEnter={() => setPoliciesOpen(true)}
+              onMouseLeave={() => setPoliciesOpen(false)}
+            >
+              <button
+                className={getPoliciesDropdownBtnClass()}
+                onClick={() => setPoliciesOpen(!policiesOpen)}
+                aria-expanded={policiesOpen}
+                aria-haspopup="true"
+                type="button"
+              >
+                Policies
+                <svg className={`${styles.moreChevron} ${policiesOpen ? styles.chevronUp : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              {policiesOpen && (
+                <div className={styles.dropdown}>
+                  <div className={styles.dropdownGrid}>
+                    {policiesNav.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={styles.dropdownLink}
+                        onClick={() => setPoliciesOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* More Dropdown */}
             <div
               className={styles.moreWrapper}
@@ -358,6 +422,27 @@ export default function Header() {
             <span className={styles.mobileNavLabel}>Other Topics</span>
             <div className={styles.mobileLinkGrid}>
               {[...primaryNav, ...moreNav].map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={styles.mobileNavLink}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className={styles.mobileNavSection}>
+            <span className={styles.mobileNavLabel}>Site & Policies</span>
+            <div className={styles.mobileLinkGrid}>
+              <Link href="/about/" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>
+                About
+              </Link>
+              <Link href="/contact/" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>
+                Contact Us
+              </Link>
+              {policiesNav.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
