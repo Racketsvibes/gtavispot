@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
@@ -64,6 +65,16 @@ export const grassrivers: MapArticleData = {
       <p>
         The game portrays the contrast between the protected national park areas and the commercial developments on the borders. Tourists visit the swamp for airboat tours and alligator feeding shows, while local residents live in isolated communities deep within the wetlands.
       </p>
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/Grassrivers-GTAVI.webp" 
+          alt="GTA 6 Grassrivers Everglades wetlands gameplay screenshot" 
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage} 
+        />
+      </div>
       <p>
         The area features a distinct subculture, with local characters participating in illegal swamp racing, alligator wrestling, and home-brewed distilling. This makes the region a key location for unique side missions and random encounters.
       </p>
