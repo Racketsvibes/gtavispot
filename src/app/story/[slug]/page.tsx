@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getStoryArticleBySlug, getAllStoryArticleSlugs } from '@/data/storyContent';
+import ShareButtons from '@/components/ShareButtons';
 import {
   getBreadcrumbsSchema,
   getArticleSchema,
@@ -144,6 +145,8 @@ export default async function StoryArticlePage({ params }: Props) {
         <div className={styles.body}>
           {article.content}
         </div>
+
+        <ShareButtons url={`https://gtavispot.com/story/${slug}/`} title={article.title} />
 
         {article.videoSchema && (
           <script

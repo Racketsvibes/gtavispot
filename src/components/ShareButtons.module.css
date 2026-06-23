@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+@media (min-width: 640px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.label {
+  font-family: var(--font-ui), sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.buttonList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.shareButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.shareButton svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+/* Hover effects */
+.shareButton:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.x:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000;
+}
+
+[data-theme="dark"] .x:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.facebook:hover {
+  background-color: #1877f2;
+  color: #ffffff;
+  border-color: #1877f2;
+}
+
+.reddit:hover {
+  background-color: #ff4500;
+  color: #ffffff;
+  border-color: #ff4500;
+}
+
+.whatsapp:hover {
+  background-color: #25d366;
+  color: #ffffff;
+  border-color: #25d366;
+}
+
+.copy:hover {
+  background: var(--brand-gradient);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.copyActive {
+  background: #22c55e !important;
+  color: #ffffff !important;
+  border-color: #22c55e !important;
+}
+
+.copiedMessage {
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.85rem;
+  color: #22c55e;
+  font-weight: 500;
+  animation: fadeIn 0.2s ease-out;
+}
+
+[data-theme="dark"] .copiedMessage {
+  color: #4ade80;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(-5px); }
+  to { opacity: 1; transform: translateX(0); }
+}

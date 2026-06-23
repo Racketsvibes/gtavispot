@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getMapArticleBySlug, getAllMapArticleSlugs } from '@/data/mapContent';
+import ShareButtons from '@/components/ShareButtons';
 import {
   getBreadcrumbsSchema,
   getArticleSchema,
@@ -144,6 +145,8 @@ export default async function MapArticlePage({ params }: Props) {
         <div className={styles.body}>
           {article.content}
         </div>
+
+        <ShareButtons url={`https://gtavispot.com/map/${slug}/`} title={article.title} />
       </article>
     </div>
   );
