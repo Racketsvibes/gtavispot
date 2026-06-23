@@ -6,9 +6,10 @@ import styles from './ShareButtons.module.css';
 interface ShareButtonsProps {
   url: string;
   title: string;
+  isTop?: boolean;
 }
 
-export default function ShareButtons({ url, title }: ShareButtonsProps) {
+export default function ShareButtons({ url, title, isTop = false }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
 
   const handleShare = (shareUrl: string) => {
@@ -26,8 +27,8 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
   const encodedTitle = encodeURIComponent(title);
 
   return (
-    <div className={styles.container}>
-      <span className={styles.label}>Share This Article</span>
+    <div className={`${styles.container} ${isTop ? styles.topContainer : ''}`}>
+      <span className={styles.label}>{isTop ? 'Share:' : 'Share This Article'}</span>
       <div className={styles.buttonList}>
         {/* Twitter / X */}
         <button

@@ -126,6 +126,8 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </header>
 
+        <ShareButtons url={`https://gtavispot.com/news/${slug}/`} title={article.title} isTop />
+
         <div className={styles.divider} />
 
         {article.featureImage && (

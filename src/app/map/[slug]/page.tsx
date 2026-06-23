@@ -126,6 +126,8 @@ export default async function MapArticlePage({ params }: Props) {
           </div>
         </header>
 
+        <ShareButtons url={`https://gtavispot.com/map/${slug}/`} title={article.title} isTop />
+
         <div className={styles.divider} />
 
         {article.featureImage && (
