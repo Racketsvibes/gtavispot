@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getAllArticles } from '@/data/newsContent';
+import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -19,6 +20,18 @@ export default function NewsHubPage() {
 
   return (
     <div className={styles.wrapper}>
+      {/* Breadcrumbs Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            getBreadcrumbsSchema([
+              { name: 'Home', url: 'https://gtavispot.com' },
+              { name: 'News Hub', url: 'https://gtavispot.com/news/' }
+            ])
+          )
+        }}
+      />
       <header className={styles.header}>
         <div className={`container ${styles.headerInner}`}>
           <span className={styles.categoryLabel}>LATEST UPDATES</span>

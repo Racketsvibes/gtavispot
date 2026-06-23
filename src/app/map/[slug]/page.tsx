@@ -2,6 +2,12 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getMapArticleBySlug, getAllMapArticleSlugs } from '@/data/mapContent';
+import {
+  getBreadcrumbsSchema,
+  getArticleSchema,
+  getFAQSchema,
+  getFaqsFromFile
+} from '@/lib/schema';
 import styles from './page.module.css';
 
 interface Props {
@@ -55,8 +61,48 @@ export default async function MapArticlePage({ params }: Props) {
   const article = getMapArticleBySlug(slug);
   if (!article) notFound();
 
+  const imageUrl = article.featureImage 
+    ? `https://gtavispot.com${article.featureImage}` 
+    : 'https://gtavispot.com/images/desktop.webp';
+
+  // Generate Schemas
+  const breadcrumbs = getBreadcrumbsSchema([
+    { name: 'Home', url: 'https://gtavispot.com' },
+    { name: 'Map Hub', url: 'https://gtavispot.com/map/' },
+    { name: article.h1, url: `https://gtavispot.com/map/${slug}/` }
+  ]);
+
+  const articleSchema = getArticleSchema({
+    headline: article.h1,
+    description: article.metaDescription,
+    imageUrl,
+    datePublished: article.publishedDate,
+    dateModified: article.modifiedDate,
+    authorName: article.author,
+    url: `https://gtavispot.com/map/${slug}/`
+  });
+
+  const faqs = getFaqsFromFile(slug, 'map');
+  const faqSchema = getFAQSchema(faqs);
+
   return (
     <div className={styles.wrapper}>
+      {/* Schema Markups */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+
       {/* Breadcrumbs */}
       <div className={`container ${styles.breadcrumbs}`}>
         <Link href="/" className={styles.breadLink}>Home</Link>

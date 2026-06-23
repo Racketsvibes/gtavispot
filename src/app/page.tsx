@@ -4,6 +4,12 @@ import Countdown from '@/components/Countdown';
 import YoutubePlayer from '@/components/YoutubePlayer';
 import FAQAccordion from '@/components/FAQAccordion';
 import HeroWatchTrailer from '@/components/HeroWatchTrailer';
+import {
+  getWebSiteSchema,
+  getOrganizationSchema,
+  getFAQSchema,
+  getBreadcrumbsSchema
+} from '@/lib/schema';
 import styles from './page.module.css';
 
 /* ── Static Data ── */
@@ -104,6 +110,40 @@ const faqs = [
 export default function HomePage() {
   return (
     <div className={styles.page}>
+      {/* Search & Brand Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(getWebSiteSchema()) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(getOrganizationSchema()) }}
+      />
+      
+      {/* Breadcrumbs Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            getBreadcrumbsSchema([
+              { name: 'Home', url: 'https://gtavispot.com' }
+            ])
+          )
+        }}
+      />
+
+      {/* FAQ Schema */}
+      {(() => {
+        const homeFaqs = faqs.map(f => ({ question: f.q, answer: f.a }));
+        const faqSchema = getFAQSchema(homeFaqs);
+        return faqSchema ? (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          />
+        ) : null;
+      })()}
+
       {/* VideoObject Schema for SEO indexing */}
       <script
         type="application/ld+json"

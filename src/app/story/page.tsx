@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { getStoryArticleBySlug, getAllStoryArticles } from '@/data/storyContent';
+import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -20,6 +21,18 @@ export default function StoryHubPage() {
 
   return (
     <div className={styles.wrapper}>
+      {/* Breadcrumbs Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            getBreadcrumbsSchema([
+              { name: 'Home', url: 'https://gtavispot.com' },
+              { name: 'Story Hub', url: 'https://gtavispot.com/story/' }
+            ])
+          )
+        }}
+      />
       {/* Header */}
       <header className={styles.header}>
         <div className={`container ${styles.headerInner}`}>
