@@ -314,3 +314,55 @@
   height: 100%;
   border: 0;
 }
+
+/* Pre-order Storefront Buttons */
+.preorderContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 32px 0;
+  align-items: center;
+}
+
+.preorderBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  color: var(--text-primary);
+  font-family: var(--font-ui), sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.preorderBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.preorderBtn svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.psBtn:hover {
+  background-color: #0037ae !important;
+  color: #ffffff !important;
+  border-color: #0037ae !important;
+}
+
+.xboxBtn:hover {
+  background-color: #107c10 !important;
+  color: #ffffff !important;
+  border-color: #107c10 !important;
+}
