@@ -59,7 +59,7 @@ export default function CookiePolicyPage() {
 
         <h2>Contact Us</h2>
         <p>
-          If you have any questions about our use of cookies, please contact us by email at <code>admin@gtavispot.com</code>.
+          If you have any questions about our use of cookies, please contact us by email at <code>gtavispot@gmail.com</code>.
         </p>
       </main>
     </div>

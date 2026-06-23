@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
           At <strong>GTA Vi Spot</strong>, accessible from <a href="https://gtavispot.com">gtavispot.com</a>, the privacy of our visitors is highly important. This Privacy Policy document outlines the types of information we collect and record, and how we use it.
         </p>
         <p>
-          If you have additional questions or require more information about our Privacy Policy, don't hesitate to contact us at <code>admin@gtavispot.com</code>.
+          If you have additional questions or require more information about our Privacy Policy, don't hesitate to contact us at <code>gtavispot@gmail.com</code>.
         </p>
 
         <h2>Information We Collect</h2>
@@ -73,7 +73,7 @@ export default function PrivacyPolicyPage() {
           <li><strong>Restrict Processing:</strong> Limitations on how we handle your data.</li>
         </ul>
         <p>
-          If you make a request, we have one month to respond to you. Please email us at <code>admin@gtavispot.com</code> if you wish to exercise these rights.
+          If you make a request, we have one month to respond to you. Please email us at <code>gtavispot@gmail.com</code> if you wish to exercise these rights.
         </p>
 
         <h2>Children's Privacy Protection</h2>

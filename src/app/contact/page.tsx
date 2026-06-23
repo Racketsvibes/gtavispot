@@ -44,12 +44,10 @@ export default function ContactPage() {
         <div className={styles.richText} style={{ marginBottom: '32px' }}>
           <h2>Direct Contacts</h2>
           <p>
-            Prefer direct email? Reach our team directly depending on your inquiry:
+            Prefer direct email? Reach our team at:
           </p>
           <ul>
-            <li><strong>General & Admin:</strong> <code>admin@gtavispot.com</code></li>
-            <li><strong>Editorial & Tips:</strong> <code>editorial@gtavispot.com</code></li>
-            <li><strong>Advertising & Partnerships:</strong> <code>advertising@gtavispot.com</code></li>
+            <li><strong>All Inquiries:</strong> <code>gtavispot@gmail.com</code></li>
           </ul>
         </div>
 

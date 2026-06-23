@@ -30,7 +30,7 @@ export default function DmcaPage() {
 
         <h2>DMCA Infringement Notices</h2>
         <p>
-          If you are a copyright owner, or authorized to act on behalf of one, please report alleged copyright infringements taking place on our website by sending a written notice to our designated copyright agent at: <code>admin@gtavispot.com</code>.
+          If you are a copyright owner, or authorized to act on behalf of one, please report alleged copyright infringements taking place on our website by sending a written notice to our designated copyright agent at: <code>gtavispot@gmail.com</code>.
         </p>
         <p>
           To be effective under the DMCA, your notice must include all of the following:
@@ -48,7 +48,7 @@ export default function DmcaPage() {
         <p>
           Please email your completed DMCA notice to:
           <br />
-          📩 <strong>Email:</strong> <code>admin@gtavispot.com</code>
+          📩 <strong>Email:</strong> <code>gtavispot@gmail.com</code>
           <br />
           Subject line: <strong>DMCA Copyright Infringement Notice</strong>
         </p>
