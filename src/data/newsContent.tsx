@@ -31,6 +31,7 @@ export interface ArticleData {
   author: string;
   content: React.ReactNode;
   featureImage?: string;
+  featureImageAlt?: string;
   videoSchema?: VideoSchema;
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
@@ -11,7 +12,8 @@ export const gta6ReleaseDate: ArticleData = {
   publishedDate: 'June 17, 2026',
   modifiedDate: 'June 21, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/Cluster_1/GTA_6_Release_Date.webp',
+  featureImage: '/images/Cluster_1/GTA vi Release Date.webp',
+  featureImageAlt: 'GTA vi Release Date.webp - GTA 6 Release Date - Focus Keyword: GTA 6 release date',
   videoSchema: {
     name: 'Grand Theft Auto VI Trailer 1',
     description: 'The official first trailer for Grand Theft Auto VI, showcasing Vice City and the state of Leonida.',
@@ -134,6 +136,18 @@ export const gta6ReleaseDate: ArticleData = {
       <p>
         Yes, Rockstar Games and parent company Take-Two Interactive confirmed the target date. The developers announced the shift to late 2026 following a thorough review of the title's development timeline. The decision to finalize November 19 was made to avoid the bugs that plagued other high-profile launches in recent gaming history.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTA_6_Screenshot.webp" 
+          alt="GTA 6 Release Date Confirmation - Official GTA VI Gameplay Scene" 
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage} 
+        />
+      </div>
+
       <p>
         According to developers speaking anonymously, the game is fully playable from start to finish. The remaining time is dedicated to debugging, optimizing framerates on standard consoles, and finalizing the ambitious GTA Online components. Rockstar wants a clean launch, particularly after the record-setting reception of the first trailer, which gathered over 100 million views in 24 hours on YouTube.
       </p>
