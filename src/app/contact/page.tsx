@@ -10,20 +10,41 @@ export default function ContactPage() {
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!name || !email || !message) return;
     
     setLoading(true);
-    // Simulate API request
-    setTimeout(() => {
+    setError('');
+    setSubmitted(false);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, subject, message }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSubmitted(true);
+        setName('');
+        setEmail('');
+        setMessage('');
+      } else {
+        setError(data.error || 'Failed to send message. Please try again.');
+      }
+    } catch (err) {
+      console.error('Contact Form Submission Error:', err);
+      setError('An error occurred. Please check your connection and try again.');
+    } finally {
       setLoading(false);
-      setSubmitted(true);
-      setName('');
-      setEmail('');
-      setMessage('');
-    }, 1000);
+    }
   };
 
   return (
@@ -58,6 +79,12 @@ export default function ContactPage() {
         {submitted ? (
           <div className={styles.successMessage}>
             <strong>Message Received!</strong> We've got your message and will read it soon. Our team typically replies within 48 hours. Thanks for reaching out to GTA Vi Spot!
+          </div>
+        ) : null}
+
+        {error ? (
+          <div className={styles.errorMessage}>
+            <strong>Submission Error:</strong> {error}
           </div>
         ) : null}
 

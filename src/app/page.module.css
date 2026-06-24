@@ -879,6 +879,38 @@
   background: var(--brand-pink);
 }
 
+.newsletterFormWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.newsletterSuccess {
+  font-size: 0.9rem;
+  color: #22c55e;
+  font-weight: 500;
+  margin-top: 4px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.newsletterError {
+  font-size: 0.9rem;
+  color: #ef4444;
+  font-weight: 500;
+  margin-top: 4px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+[data-theme="dark"] .newsletterSuccess {
+  color: #4ade80;
+}
+
+[data-theme="dark"] .newsletterError {
+  color: #f87171;
+}
+
 /* ══════════════════════════════════════════════
    RESPONSIVE — TABLET
    ══════════════════════════════════════════════ */

@@ -4,6 +4,7 @@ import Countdown from '@/components/Countdown';
 import YoutubePlayer from '@/components/YoutubePlayer';
 import FAQAccordion from '@/components/FAQAccordion';
 import HeroWatchTrailer from '@/components/HeroWatchTrailer';
+import NewsletterForm from '@/components/NewsletterForm';
 import {
   getWebSiteSchema,
   getOrganizationSchema,
@@ -494,10 +495,7 @@ export default function HomePage() {
               <p className={styles.newsletterDesc}>Subscribe to our newsletter for the latest GTA VI news, trailers, and exclusive updates.</p>
             </div>
           </div>
-          <div className={styles.newsletterForm}>
-            <input type="email" placeholder="Enter your email address" className={styles.newsletterInput} aria-label="Email address" />
-            <button className={styles.newsletterBtn} type="button">Subscribe</button>
-          </div>
+          <NewsletterForm />
         </div>
       </section>
 
