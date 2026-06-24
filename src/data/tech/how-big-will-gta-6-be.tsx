@@ -12,16 +12,16 @@ export const howBigWillGta6Be: ArticleData = {
   featureImage: '/images/tech/how-big-will-gta-6-be.webp',
   featureImageAlt: 'How Big Will GTA 6 Be - Expected GTA 6 file size and storage guide',
   videoSchema: {
-    name: 'Grand Theft Auto VI Official Trailer 1',
-    description: 'Watch the official reveal trailer for Grand Theft Auto VI, heading to the neon-soaked streets of Vice City and beyond.',
+    name: 'How big do you think the GTA 6 download size will be? Watch GTFM on IGN!',
+    description: 'IGN discusses the potential storage requirements and download size of GTA 6 on PS5, Xbox Series X|S, and PC, addressing the viral 600GB rumors.',
     thumbnailUrl: [
-      'https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg',
-      'https://img.youtube.com/vi/QdBZY2fkU-0/sddefault.jpg'
+      'https://img.youtube.com/vi/KCDyDy_eVSc/maxresdefault.jpg',
+      'https://img.youtube.com/vi/KCDyDy_eVSc/sddefault.jpg'
     ],
-    uploadDate: '2023-12-05T00:10:00Z',
-    duration: 'PT1M31S',
-    contentUrl: 'https://www.youtube.com/watch?v=QdBZY2fkU-0',
-    embedUrl: 'https://www.youtube.com/embed/QdBZY2fkU-0'
+    uploadDate: '2026-06-18T00:00:00Z',
+    duration: 'PT34S',
+    contentUrl: 'https://youtube.com/shorts/KCDyDy_eVSc',
+    embedUrl: 'https://www.youtube.com/embed/KCDyDy_eVSc'
   },
   content: (
     <>
@@ -119,23 +119,23 @@ export const howBigWillGta6Be: ArticleData = {
         As the table shows, the file size has multiplied significantly due to the vastly increased map detail and asset complexity. If you want to know <strong>how many gb is gta 6</strong> going to take up, preparing at least 200 GB of free space is the safest bet.
       </p>
 
-      <h2>Official Reveal Trailer & Graphics Details</h2>
+      <h2>IGN Discussion: How Big Will the GTA 6 Download Be?</h2>
       <p>
-        The incredible visual fidelity shown in the official trailer confirms why the game requires so much space. Watch the trailer below to see the neon-soaked streets and dense traffic details that will load seamlessly on your SSD:
+        Industry experts and fans have been hotly debating the eventual storage size of the game. Watch this IGN GTFM discussion on the expected GTA 6 size and how storage constraints will affect players:
       </p>
 
       <div className="videoContainer">
         <iframe
           className="videoEmbed"
-          src="https://www.youtube.com/embed/QdBZY2fbU-0"
-          title="Grand Theft Auto VI Official Trailer 1"
+          src="https://www.youtube.com/embed/KCDyDy_eVSc"
+          title="How big do you think the GTA 6 download size will be? Watch GTFM on IGN!"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
       </div>
 
       <p>
-        The trailer highlights complex reflections, ray tracing, and highly detailed player models like Jason and Lucia. Rendering this level of realism requires high-resolution assets that directly increase the storage footprint.
+        As discussed in the video, while there are rumors of the game exceeding 600 GB, the real-world file size will likely be far more optimized to fit standard console SSDs. High-speed storage streaming allows Rockstar to load assets dynamically, reducing the need for an excessively bloated download size.
       </p>
 
       <div className="callout">
