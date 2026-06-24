@@ -286,7 +286,7 @@ export default function Header() {
                 aria-haspopup="true"
                 type="button"
               >
-                About & Policies
+                About
                 <svg className={`${styles.moreChevron} ${policiesOpen ? styles.chevronUp : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="6 9 12 15 18 9" />
                 </svg>
@@ -428,7 +428,7 @@ export default function Header() {
             </div>
           </div>
           <div className={styles.mobileNavSection}>
-            <span className={styles.mobileNavLabel}>About & Policies</span>
+            <span className={styles.mobileNavLabel}>About</span>
             <div className={styles.mobileLinkGrid}>
               {policiesNav.map((item) => (
                 <Link
