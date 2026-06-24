@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArticleData } from '../techContent';
+import styles from '../../app/tech/[slug]/page.module.css';
 
 export const howBigWillGta6Be: ArticleData = {
   title: 'How Big Will GTA 6 Be? Expected File Size & Rumors',
@@ -25,20 +26,20 @@ export const howBigWillGta6Be: ArticleData = {
   },
   content: (
     <>
-      <div className="quickAnswer">
-        <span className="quickAnswerTitle">Quick Size Summary</span>
-        <ul className="quickAnswerList">
-          <li className="quickAnswerItem">
-            <span className="quickAnswerDot">•</span>
-            <strong>Expected Install Size:</strong> Analysts expect a size of <strong>150 GB to 200 GB</strong>.
+      <div className={styles.quickAnswer}>
+        <span className={styles.quickAnswerTitle}>Quick Size Summary</span>
+        <ul className={styles.quickAnswerList}>
+          <li className={styles.quickAnswerItem}>
+            <span className={styles.quickAnswerDot}>•</span>
+            <span><strong>Expected Install Size:</strong> Analysts expect a size of <strong>150 GB to 200 GB</strong>.</span>
           </li>
-          <li className="quickAnswerItem">
-            <span className="quickAnswerDot">•</span>
-            <strong>600 GB+ Rumors:</strong> Viral social media posts claiming a 676.7 GB size are 100% fake.
+          <li className={styles.quickAnswerItem}>
+            <span className={styles.quickAnswerDot}>•</span>
+            <span><strong>600 GB+ Rumors:</strong> Viral social media posts claiming a 676.7 GB size are 100% fake.</span>
           </li>
-          <li className="quickAnswerItem">
-            <span className="quickAnswerDot">•</span>
-            <strong>Consoles:</strong> It's current-gen only, releasing on PS5 and Xbox Series X|S.
+          <li className={styles.quickAnswerItem}>
+            <span className={styles.quickAnswerDot}>•</span>
+            <span><strong>Consoles:</strong> It's current-gen only, releasing on PS5 and Xbox Series X|S.</span>
           </li>
         </ul>
       </div>
@@ -124,9 +125,9 @@ export const howBigWillGta6Be: ArticleData = {
         Industry experts and fans have been hotly debating the eventual storage size of the game. Watch this IGN GTFM discussion on the expected GTA 6 size and how storage constraints will affect players:
       </p>
 
-      <div className="videoContainer">
+      <div className={styles.shortsContainer}>
         <iframe
-          className="videoEmbed"
+          className={styles.shortsEmbed}
           src="https://www.youtube.com/embed/KCDyDy_eVSc"
           title="How big do you think the GTA 6 download size will be? Watch GTFM on IGN!"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -138,8 +139,8 @@ export const howBigWillGta6Be: ArticleData = {
         As discussed in the video, while there are rumors of the game exceeding 600 GB, the real-world file size will likely be far more optimized to fit standard console SSDs. High-speed storage streaming allows Rockstar to load assets dynamically, reducing the need for an excessively bloated download size.
       </p>
 
-      <div className="callout">
-        <span className="calloutTitle">Key Storage Tips</span>
+      <div className={styles.callout}>
+        <span className={styles.calloutTitle}>Key Storage Tips</span>
         <ul>
           <li>Avoid buying third-party SSDs without verifying speed requirements for PS5 or Xbox Series X|S.</li>
           <li>You don't need to clear 600 GB; plan for a realistic 150 GB to 200 GB footprint instead.</li>
@@ -148,34 +149,34 @@ export const howBigWillGta6Be: ArticleData = {
       </div>
 
       <h2>Frequently Asked Questions</h2>
-      <div className="faqSection">
-        <div className="faqItem">
-          <h3 className="faqQuestion">How big will GTA 6 be?</h3>
-          <p className="faqAnswer">
+      <div className={styles.faqSection}>
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How big will GTA 6 be?</h3>
+          <p className={styles.faqAnswer}>
             While Rockstar has not officially confirmed the size, GTA 6 is expected to require between 150 GB and 200 GB of SSD storage space at launch.
           </p>
         </div>
-        <div className="faqItem">
-          <h3 className="faqQuestion">How many GB will GTA 6 be?</h3>
-          <p className="faqAnswer">
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How many GB will GTA 6 be?</h3>
+          <p className={styles.faqAnswer}>
             Most industry estimates expect the download to require around 150 GB of storage space on current-generation consoles.
           </p>
         </div>
-        <div className="faqItem">
-          <h3 className="faqQuestion">Is the 600 GB size rumor for GTA 6 real?</h3>
-          <p className="faqAnswer">
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Is the 600 GB size rumor for GTA 6 real?</h3>
+          <p className={styles.faqAnswer}>
             No, the rumor claiming a 676.7 GB size is fake. It was created by a parody account and has been debunked by gaming outlets.
           </p>
         </div>
-        <div className="faqItem">
-          <h3 className="faqQuestion">Will GTA 6 play on PS4 or Xbox One?</h3>
-          <p className="faqAnswer">
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Will GTA 6 play on PS4 or Xbox One?</h3>
+          <p className={styles.faqAnswer}>
             No, GTA 6 is built exclusively for current-generation hardware (PlayStation 5 and Xbox Series X|S) and will not be available on PS4 or Xbox One.
           </p>
         </div>
-        <div className="faqItem">
-          <h3 className="faqQuestion">Do I need an SSD to play GTA 6?</h3>
-          <p className="faqAnswer">
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Do I need an SSD to play GTA 6?</h3>
+          <p className={styles.faqAnswer}>
             Yes, both next-gen consoles utilize custom high-speed SSDs, and the PC version (when released) will definitely require an SSD to handle the game's seamless open-world streaming.
           </p>
         </div>
@@ -185,5 +186,5 @@ export const howBigWillGta6Be: ArticleData = {
         For more information on gameplay systems, check our summary of the latest <a href="/news/gta-6-new-features/">GTA 6 new features</a>.
       </p>
     </>
-  )
+  ),
 };
