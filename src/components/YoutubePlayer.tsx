@@ -28,7 +28,11 @@ export default function YoutubePlayer({ videoId, thumbnailUrl, title }: YoutubeP
           className={styles.iframe}
         />
       ) : (
-        <div className={styles.cover} onClick={handlePlay}>
+        <button 
+          className={styles.cover} 
+          onClick={handlePlay} 
+          aria-label={`Play video: ${title}`}
+        >
           <Image
             src={thumbnailUrl}
             alt={title}
@@ -36,13 +40,14 @@ export default function YoutubePlayer({ videoId, thumbnailUrl, title }: YoutubeP
             sizes="(max-width: 768px) 100vw, 33vw"
             className={styles.thumbnail}
             priority
+            fetchPriority="high"
           />
-          <div className={styles.playIcon} aria-label="Play video">
+          <div className={styles.playIcon} aria-hidden="true">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
               <polygon points="5 3 19 12 5 21 5 3" />
             </svg>
           </div>
-        </div>
+        </button>
       )}
     </div>
   );

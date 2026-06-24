@@ -75,7 +75,7 @@ export default function Countdown() {
               <span className={styles.countdownLabel}>Sec</span>
             </div>
           </div>
-          <span className={styles.countdownTag}>LOADING COUNTDOWN</span>
+          <span className={styles.countdownTag}>UNTIL LAUNCH</span>
         </div>
       </div>
     );

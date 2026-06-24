@@ -374,7 +374,7 @@
 }
 
 .newsDate {
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-size: 0.85rem;
 }
 
@@ -538,7 +538,7 @@
 
 .quickLinkDesc {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   line-height: 1.3;
 }
 

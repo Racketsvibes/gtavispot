@@ -105,7 +105,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className={styles.linkCol}>
-            <h4 className={styles.colHeading}>Explore</h4>
+            <h3 className={styles.colHeading}>Explore</h3>
             <ul className={styles.linkList}>
               {quickLinks.map((link) => (
                 <li key={link.href}>
@@ -119,7 +119,7 @@ export default function Footer() {
 
           {/* More Links */}
           <div className={styles.linkCol}>
-            <h4 className={styles.colHeading}>More</h4>
+            <h3 className={styles.colHeading}>More</h3>
             <ul className={styles.linkList}>
               {moreLinks.map((link) => (
                 <li key={link.href}>
@@ -133,7 +133,7 @@ export default function Footer() {
 
           {/* Legal */}
           <div className={styles.linkCol}>
-            <h4 className={styles.colHeading}>Legal</h4>
+            <h3 className={styles.colHeading}>Legal</h3>
             <ul className={styles.linkList}>
               {legalLinks.map((link) => (
                 <li key={link.href}>
