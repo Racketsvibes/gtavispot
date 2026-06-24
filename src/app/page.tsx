@@ -179,6 +179,15 @@ export default function HomePage() {
           HERO SECTION
           ════════════════════════════════════════ */}
       <section className={styles.hero}>
+        <Image
+          src="/images/desktop.webp"
+          alt="GTA 6 Vice City background artwork"
+          fill
+          priority
+          sizes="100vw"
+          quality={85}
+          className={styles.heroBg}
+        />
         <div className={`container ${styles.heroInner}`}>
           <div className={styles.heroContent}>
             <span className={styles.heroSubtitle}>Rockstar Games Presents</span>
