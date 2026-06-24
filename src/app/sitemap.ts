@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllMapArticleSlugs } from '@/data/mapContent';
 import { getAllArticleSlugs } from '@/data/newsContent';
 import { getAllStoryArticleSlugs } from '@/data/storyContent';
+import { getAllTechArticleSlugs } from '@/data/techContent';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://gtavispot.com';
@@ -53,6 +54,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/tech/`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/about/`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
@@ -96,5 +103,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
-  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes];
+  const techRoutes = getAllTechArticleSlugs().map((slug) => ({
+    url: `${baseUrl}/tech/${slug}/`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes];
 }

@@ -9,6 +9,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource — latest news, interactive ma
 - [Map Hub](https://gtavispot.com/map/)
 - [News Hub](https://gtavispot.com/news/)
 - [Story & Characters](https://gtavispot.com/story/)
+- [Tech & Platform](https://gtavispot.com/tech/)
 
 ## Map Articles
 - [Vice City District Guide](https://gtavispot.com/map/vice-city/)
@@ -49,6 +50,9 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource — latest news, interactive ma
 - [How Long to Beat](https://gtavispot.com/story/how-long-to-beat/)
 - [Ending Explained](https://gtavispot.com/story/ending/)
 - [Dual Protagonists System](https://gtavispot.com/story/dual-protagonists/)
+
+## Tech & Platform Articles
+- [How Big Will GTA 6 Be](https://gtavispot.com/tech/how-big-will-gta-6-be/)
 
 ## Utility & Legal Pages
 - [About Us](https://gtavispot.com/about/)
