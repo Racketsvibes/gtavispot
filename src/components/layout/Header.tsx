@@ -72,6 +72,8 @@ const moreNav = [
 ];
 
 const policiesNav = [
+  { label: 'About Us', href: '/about/' },
+  { label: 'Contact Us', href: '/contact/' },
   { label: 'Privacy Policy', href: '/privacy-policy/' },
   { label: 'Terms of Service', href: '/terms-of-service/' },
   { label: 'Cookie Policy', href: '/cookie-policy/' },
@@ -97,7 +99,7 @@ export default function Header() {
     `${styles.navLink} ${styles.moreBtn} ${isActive(basePath) ? styles.navLinkActive : ''}`;
 
   const isPolicyActive = () => 
-    ['/privacy-policy', '/terms-of-service', '/cookie-policy', '/disclaimer', '/dmca'].some(path => pathname?.startsWith(path));
+    ['/about', '/contact', '/privacy-policy', '/terms-of-service', '/cookie-policy', '/disclaimer', '/dmca'].some(path => pathname?.startsWith(path));
 
   const getPoliciesDropdownBtnClass = () =>
     `${styles.navLink} ${styles.moreBtn} ${isPolicyActive() ? styles.navLinkActive : ''}`;
@@ -270,15 +272,7 @@ export default function Header() {
               </Link>
             ))}
 
-            <Link href="/about/" className={getNavClass('/about')}>
-              About
-            </Link>
-
-            <Link href="/contact/" className={getNavClass('/contact')}>
-              Contact
-            </Link>
-
-            {/* Policies Dropdown */}
+            {/* About & Policies Dropdown */}
             <div
               className={styles.moreWrapper}
               ref={policiesRef}
@@ -292,7 +286,7 @@ export default function Header() {
                 aria-haspopup="true"
                 type="button"
               >
-                Policies
+                About & Policies
                 <svg className={`${styles.moreChevron} ${policiesOpen ? styles.chevronUp : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="6 9 12 15 18 9" />
                 </svg>
@@ -434,14 +428,8 @@ export default function Header() {
             </div>
           </div>
           <div className={styles.mobileNavSection}>
-            <span className={styles.mobileNavLabel}>Site & Policies</span>
+            <span className={styles.mobileNavLabel}>About & Policies</span>
             <div className={styles.mobileLinkGrid}>
-              <Link href="/about/" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>
-                About
-              </Link>
-              <Link href="/contact/" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>
-                Contact Us
-              </Link>
               {policiesNav.map((item) => (
                 <Link
                   key={item.href}
