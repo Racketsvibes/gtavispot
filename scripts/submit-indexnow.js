@@ -1,0 +1,69 @@
+const fs = require('fs');
+const path = require('path');
+
+const host = 'gtavispot.com';
+const key = 'bacf7e8314b44fce9959351a60306ed8';
+const keyLocation = `https://${host}/${key}.txt`;
+const baseUrl = `https://${host}`;
+
+const getSlugs = (dirPath) => {
+  const fullPath = path.resolve(__dirname, '..', dirPath);
+  if (!fs.existsSync(fullPath)) return [];
+  return fs.readdirSync(fullPath)
+    .filter(file => file.endsWith('.tsx') && !file.startsWith('index'))
+    .map(file => file.replace('.tsx', ''));
+};
+
+const newsSlugs = getSlugs('src/data/news');
+const mapSlugs = getSlugs('src/data/map');
+const storySlugs = getSlugs('src/data/story');
+
+const staticRoutes = [
+  '/',
+  '/news/',
+  '/map/',
+  '/story/',
+  '/about/',
+  '/contact/',
+  '/privacy-policy/',
+  '/terms-of-service/',
+  '/cookie-policy/',
+  '/disclaimer/',
+  '/dmca/'
+];
+
+const urlList = [
+  ...staticRoutes.map(route => `${baseUrl}${route}`),
+  ...newsSlugs.map(slug => `${baseUrl}/news/${slug}/`),
+  ...mapSlugs.map(slug => `${baseUrl}/map/${slug}/`),
+  ...storySlugs.map(slug => `${baseUrl}/story/${slug}/`)
+];
+
+console.log(`Submitting ${urlList.length} URLs to IndexNow...`);
+
+const data = JSON.stringify({
+  host,
+  key,
+  keyLocation,
+  urlList
+});
+
+fetch('https://api.indexnow.org/indexnow', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json; charset=utf-8'
+  },
+  body: data
+})
+.then(res => {
+  if (res.ok) {
+    console.log('IndexNow submission successful!');
+  } else {
+    res.text().then(text => {
+      console.error(`IndexNow submission failed: ${res.status} - ${text}`);
+    });
+  }
+})
+.catch(err => {
+  console.error('Error submitting to IndexNow:', err);
+});
