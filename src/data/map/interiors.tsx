@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const interiors: MapArticleData = {
-  title: 'GTA 6 Interiors — All 700+ Enterable Buildings Guide',
-  metaDescription: 'GTA 6 has 700+ enterable buildings — more than any Rockstar game ever. Full list of every shop, bar, casino and interior with secrets marked.',
+  title: 'GTA 6 Interiors: All 700+ Enterable Buildings Guide',
+  metaDescription: 'GTA 6 has 700+ enterable buildings: more than any Rockstar game ever. Full list of every shop, bar, casino, and interior with secrets marked.',
   focusKeyword: 'GTA 6 interiors',
-  h1: 'GTA 6 Interiors — All Enterable Buildings & Shops Guide',
+  h1: 'GTA 6 Interiors: All Enterable Buildings & Shops Guide',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Screenshot.webp',
   content: (

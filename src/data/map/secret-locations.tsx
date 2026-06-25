@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const secretLocations: MapArticleData = {
-  title: 'GTA 6 Secret Locations — Every Hidden Area on the Map',
-  metaDescription: 'All GTA 6 secret locations found — hidden islands, underground areas, secret bases, bunkers, caves and every off-map spot the community has discovered.',
+  title: 'GTA 6 Secret Locations: Every Hidden Area on the Map',
+  metaDescription: 'All GTA 6 secret locations found: hidden islands, underground areas, secret bases, bunkers, caves, and every off-map spot the community has discovered.',
   focusKeyword: 'GTA 6 secret locations',
-  h1: 'GTA 6 Secret Locations — Every Hidden Area & Map Secret',
+  h1: 'GTA 6 Secret Locations: Every Hidden Area & Map Secret',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Shop_view.webp',
   content: (

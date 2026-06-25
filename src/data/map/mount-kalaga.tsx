@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const mountKalaga: MapArticleData = {
-  title: 'GTA 6 Mount Kalaga — Secrets, Easter Eggs & Peak Guide',
-  metaDescription: 'GTA 6 Mount Kalaga secrets guide — everything found at the peak, Easter eggs, Chiliad mystery replacement, parachute jumps and hidden locations.',
+  title: 'GTA 6 Mount Kalaga: Secrets, Easter Eggs & Peak Guide',
+  metaDescription: 'GTA 6 Mount Kalaga secrets guide: everything found at the peak, Easter eggs, the Chiliad mystery replacement, parachute jumps, and hidden locations.',
   focusKeyword: 'GTA 6 Mount Kalaga',
-  h1: 'GTA 6 Mount Kalaga — Every Secret, Easter Egg & Peak Guide',
+  h1: 'GTA 6 Mount Kalaga: Every Secret, Easter Egg & Peak Guide',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Mount_Kalaga_National_Park_02.webp',
   content: (

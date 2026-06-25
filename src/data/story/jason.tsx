@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const jason: StoryArticleData = {
-  title: 'GTA 6 Jason Guide — Character, Backstory & Abilities',
-  metaDescription: 'Complete GTA 6 Jason guide — backstory, voice actor, special abilities, relationship with Lucia and everything confirmed about GTA VI\'s male protagonist.',
+  title: 'GTA 6 Jason Guide: Character, Backstory & Abilities',
+  metaDescription: 'Complete GTA 6 Jason guide: backstory, voice actor, special abilities, relationship with Lucia, and everything confirmed about the male protagonist.',
   focusKeyword: 'GTA 6 Jason',
-  h1: 'GTA 6 Jason — Full Character Guide, Backstory & Abilities',
+  h1: 'GTA 6 Jason: Full Character Guide, Backstory & Abilities',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_03.webp',
   content: (

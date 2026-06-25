@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const sideMissions: StoryArticleData = {
-  title: 'GTA 6 Side Missions Guide — Strangers & Optional Quests',
-  metaDescription: 'Every GTA 6 side mission listed — optional quests, stranger tasks, random events, missable content and which side missions are needed for 100% completion.',
+  title: 'GTA 6 Side Missions Guide: Strangers & Optional Quests',
+  metaDescription: 'Every GTA 6 side mission listed: optional quests, stranger tasks, random events, missable content, and which side missions are needed for 100% completion.',
   focusKeyword: 'GTA 6 side missions',
-  h1: 'GTA 6 Side Missions — All Optional Quests, Strangers & Events',
+  h1: 'GTA 6 Side Missions: All Optional Quests, Strangers & Events',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Shop_view.webp',
   content: (

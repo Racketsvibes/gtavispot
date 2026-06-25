@@ -4,12 +4,12 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Delay: ArticleData = {
-  title: 'GTA 6 Delay History — Every Delay Explained',
+  title: 'GTA 6 Delay History: Every Delay Explained',
   metaDescription: 'GTA 6 was delayed from 2025 to November 19, 2026. Here is the full delay history, every reason explained, and whether another delay is possible.',
   focusKeyword: 'GTA 6 delay',
-  h1: 'GTA 6 Delay History — Every Delay Explained',
+  h1: 'GTA 6 Delay History: Every Delay Explained',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Delay_and_History.webp',
   content: (

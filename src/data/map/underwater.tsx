@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const underwater: MapArticleData = {
-  title: 'GTA 6 Underwater — Secrets, Sharks, Sunken Ships & Guide',
-  metaDescription: 'GTA 6 underwater guide — find sharks, dolphins, sunken ships, hidden treasure and every underwater Easter egg in Leonida\'s ocean and waterways.',
+  title: 'GTA 6 Underwater: Secrets, Sharks, Sunken Ships & Guide',
+  metaDescription: 'GTA 6 underwater guide: find sharks, dolphins, sunken ships, hidden treasure, and every underwater Easter egg in Leonida\'s ocean and waterways.',
   focusKeyword: 'GTA 6 underwater',
-  h1: 'GTA 6 Underwater — Sharks, Sunken Ships & Diving Guide',
+  h1: 'GTA 6 Underwater: Sharks, Sunken Ships & Diving Guide',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_09.webp',
   content: (

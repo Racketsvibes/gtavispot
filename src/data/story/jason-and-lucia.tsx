@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const jasonAndLucia: StoryArticleData = {
-  title: 'GTA 6 Jason & Lucia — Relationship, Dynamic & Theme Guide',
+  title: 'GTA 6 Jason & Lucia: Relationship, Dynamic & Theme Guide',
   metaDescription: 'How do Jason and Lucia work in GTA 6? Full guide to their relationship, the Bonnie-and-Clyde inspired story, dual protagonist switching system explained.',
   focusKeyword: 'GTA 6 Jason and Lucia',
-  h1: 'GTA 6 Jason & Lucia — Relationship, Dynamic & Bonnie & Clyde Theme',
+  h1: 'GTA 6 Jason & Lucia: Relationship, Dynamic & Bonnie & Clyde Theme',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_landscape.webp',
   content: (

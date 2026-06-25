@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const oceanBeach: MapArticleData = {
-  title: 'GTA 6 Ocean Beach — District Guide, Locations & Activities',
-  metaDescription: 'GTA 6 Ocean Beach guide — pastel hotels, neon nightclubs, beach activities and all secrets in Vice City\'s most iconic district.',
+  title: 'GTA 6 Ocean Beach: District Guide, Locations & Activities',
+  metaDescription: 'GTA 6 Ocean Beach guide: pastel hotels, neon nightclubs, beach activities, and all secrets in Vice City\'s most iconic district.',
   focusKeyword: 'GTA 6 Ocean Beach',
-  h1: 'GTA 6 Ocean Beach — All Hotels, Nightclubs & District Guide',
+  h1: 'GTA 6 Ocean Beach: All Hotels, Nightclubs & District Guide',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_02.webp',
   content: (

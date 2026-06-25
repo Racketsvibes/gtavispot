@@ -5,12 +5,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const grassrivers: MapArticleData = {
-  title: 'GTA 6 Grassrivers — Everglades Region Guide & Secrets',
-  metaDescription: 'GTA 6 Grassrivers guide — explore the Everglades-inspired wetlands region. All wildlife, hunting spots, biker gang territory, hidden secrets and Easter eggs.',
+  title: 'GTA 6 Grassrivers: Everglades Region Guide & Secrets',
+  metaDescription: 'GTA 6 Grassrivers guide: explore the Everglades-inspired wetlands region. All wildlife, hunting spots, biker gang territory, hidden secrets, and Easter eggs.',
   focusKeyword: 'GTA 6 Grassrivers',
-  h1: 'GTA 6 Grassrivers — Complete Everglades Region Guide & Wildlife',
+  h1: 'GTA 6 Grassrivers: Complete Everglades Region Guide & Wildlife',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_01.webp',
   content: (

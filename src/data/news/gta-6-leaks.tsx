@@ -4,12 +4,12 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Leaks: ArticleData = {
-  title: 'GTA 6 Leaks & Rumours — Confirmed vs Unconfirmed',
-  metaDescription: 'All GTA 6 leaks tracked and verified — confirmed facts vs unconfirmed rumours. Updated every time new insider information surfaces.',
+  title: 'GTA 6 Leaks & Rumors: Confirmed vs Unconfirmed',
+  metaDescription: 'All GTA 6 leaks tracked and verified: confirmed facts vs unconfirmed rumors. Updated every time new insider information surfaces.',
   focusKeyword: 'GTA 6 leaks',
-  h1: 'GTA 6 Leaks & Rumours — Confirmed vs Unconfirmed',
+  h1: 'GTA 6 Leaks & Rumors: Confirmed vs Unconfirmed',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
    featureImage: '/images/Cluster_1/GTA_6_Leaks_&_Rumours.webp',
   content: (

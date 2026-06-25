@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const missions: StoryArticleData = {
-  title: 'GTA 6 Missions List — All Story Missions & Order',
-  metaDescription: 'Complete GTA 6 mission list — all story missions in order, how many there are, heist missions, hardest missions and every walkthrough link in one place.',
+  title: 'GTA 6 Missions List: All Story Missions & Order',
+  metaDescription: 'Complete GTA 6 mission list: all story missions in order, how many there are, heist missions, hardest missions, and every walkthrough link in one place.',
   focusKeyword: 'GTA 6 missions',
-  h1: 'GTA 6 All Story Missions — Complete Mission List & Order',
+  h1: 'GTA 6 All Story Missions: Complete Mission List & Order',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Fight.webp',
   content: (

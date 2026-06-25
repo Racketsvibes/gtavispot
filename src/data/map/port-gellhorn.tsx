@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const portGellhorn: MapArticleData = {
-  title: 'GTA 6 Port Gellhorn — Location Guide & Secrets',
-  metaDescription: 'GTA 6 Port Gellhorn guide — explore the cruise ship capital of Leonida. All missions, secrets, Easter eggs and locations mapped out.',
+  title: 'GTA 6 Port Gellhorn: Location Guide & Secrets',
+  metaDescription: 'GTA 6 Port Gellhorn guide: explore the cruise ship capital of Leonida. All missions, secrets, Easter eggs, and locations mapped out.',
   focusKeyword: 'GTA 6 Port Gellhorn',
-  h1: 'GTA 6 Port Gellhorn — Full Location Guide, Cruise Ship & Secrets',
+  h1: 'GTA 6 Port Gellhorn: Full Location Guide, Cruise Ship & Secrets',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Port_Gellhorn/Port_Gellhorn_01.webp',
   content: (

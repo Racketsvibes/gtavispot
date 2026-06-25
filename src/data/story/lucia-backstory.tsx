@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const luciaBackstory: StoryArticleData = {
-  title: 'GTA 6 Lucia Backstory — Liberty City, Origin & Full Lore',
-  metaDescription: 'GTA 6 Lucia\'s full backstory — why she was in prison, her Liberty City origins, criminal history and how her past shapes the entire GTA VI narrative.',
+  title: 'GTA 6 Lucia Backstory: Liberty City, Origin & Full Lore',
+  metaDescription: 'GTA 6 Lucia\'s full backstory: why she was in prison, her Liberty City origins, criminal history, and how her past shapes the entire GTA VI narrative.',
   focusKeyword: 'GTA 6 Lucia backstory',
-  h1: 'GTA 6 Lucia Backstory — Full Origin, Liberty City & Lore Explained',
+  h1: 'GTA 6 Lucia Backstory: Full Origin, Liberty City & Lore Explained',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_05.webp',
   content: (

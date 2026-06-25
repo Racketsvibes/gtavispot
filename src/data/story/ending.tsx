@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const ending: StoryArticleData = {
-  title: 'GTA 6 Ending Explained — All Endings & Post-Credits',
-  metaDescription: 'GTA 6 all endings explained — which ending is canon, does Lucia or Jason die, the secret ending, post-credits scene and what it means for GTA\'s future.',
+  title: 'GTA 6 Ending Explained: All Endings & Post-Credits',
+  metaDescription: 'GTA 6 all endings explained: which ending is canon, does Lucia or Jason die, the secret ending, the post-credits scene, and what it means for the future.',
   focusKeyword: 'GTA 6 ending',
-  h1: 'GTA 6 Ending Explained — All Endings & Secret Ending Guide',
+  h1: 'GTA 6 Ending Explained: All Endings & Secret Ending Guide',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/desktop.webp',
   videoSchema: {

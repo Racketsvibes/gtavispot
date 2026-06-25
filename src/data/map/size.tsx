@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const size: MapArticleData = {
-  title: 'GTA 6 Map Size — How Big Is It vs GTA 5, RDR2 & More',
-  metaDescription: 'GTA 6 map size revealed — Leonida is confirmed 2.7x larger than GTA 5. Full comparison vs RDR2, Cyberpunk 2077, Skyrim and every major open world.',
+  title: 'GTA 6 Map Size: How Big Is It vs GTA 5, RDR2 & More',
+  metaDescription: 'GTA 6 map size revealed: Leonida is confirmed 2.7x larger than GTA 5. Full comparison vs RDR2, Cyberpunk 2077, Skyrim, and every major open world.',
   focusKeyword: 'GTA 6 map size',
-  h1: 'GTA 6 Map Size — How Big Is It vs GTA 5 & RDR2?',
+  h1: 'GTA 6 Map Size: How Big Is It vs GTA 5 & RDR2?',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Map_Size.webp',
   content: (

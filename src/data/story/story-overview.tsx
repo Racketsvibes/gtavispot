@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const storyOverview: StoryArticleData = {
-  title: 'GTA 6 Story Overview — Plot, Characters & Full Guide',
-  metaDescription: 'Complete GTA 6 story guide — meet Lucia and Jason, explore the Bonnie-and-Clyde-inspired narrative, all missions and everything confirmed about the plot.',
+  title: 'GTA 6 Story Overview: Plot, Characters & Full Guide',
+  metaDescription: 'Complete GTA 6 story guide: meet Lucia and Jason, explore the Bonnie-and-Clyde-inspired narrative, all missions, and everything confirmed about the plot.',
   focusKeyword: 'GTA 6 story',
-  h1: 'GTA 6 Story — Protagonists, Plot, Characters & Full Story Guide',
+  h1: 'GTA 6 Story: Protagonists, Plot, Characters & Full Story Guide',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/desktop.webp',
   content: (

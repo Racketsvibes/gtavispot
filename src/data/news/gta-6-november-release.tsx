@@ -4,12 +4,12 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6NovemberRelease: ArticleData = {
-  title: 'GTA 6 November 19 Launch — What You Need to Know',
+  title: 'GTA 6 November 19 Launch: What You Need to Know',
   metaDescription: 'GTA 6 launches November 19, 2026. Find your local unlock time, preload start date, day one server status and everything to prepare for launch.',
   focusKeyword: 'GTA 6 November release',
-  h1: 'GTA 6 November 19 Launch — Everything to Know',
+  h1: 'GTA 6 November 19 Launch: Everything to Know',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_November_Launch.webp',
   content: (

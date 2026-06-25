@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const walkthrough: StoryArticleData = {
-  title: 'GTA 6 Walkthrough — Story Mode Guide & All Missions',
-  metaDescription: 'Full GTA 6 story walkthrough — every mission guide, gold medal tips, act-by-act breakdown and everything you need to complete GTA VI story mode 100%.',
+  title: 'GTA 6 Walkthrough: Story Mode Guide & All Missions',
+  metaDescription: 'Full GTA 6 story walkthrough: every mission guide, gold medal tips, act-by-act breakdown, and everything you need to complete the story mode 100%.',
   focusKeyword: 'GTA 6 walkthrough',
-  h1: 'GTA 6 Walkthrough — Complete Story Mode Guide & All Missions',
+  h1: 'GTA 6 Walkthrough: Complete Story Mode Guide & All Missions',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Screenshot.webp',
   videoSchema: {

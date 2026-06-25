@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const lucia: StoryArticleData = {
-  title: 'GTA 6 Lucia Guide — Character, Backstory & Abilities',
-  metaDescription: 'GTA 6 Lucia guide — backstory, voice actress, special abilities, Liberty City origins and everything confirmed about GTA VI\'s female lead.',
+  title: 'GTA 6 Lucia Guide: Character, Backstory & Abilities',
+  metaDescription: 'GTA 6 Lucia guide: backstory, voice actress, special abilities, Liberty City origins, and everything confirmed about the female lead.',
   focusKeyword: 'GTA 6 Lucia',
-  h1: 'GTA 6 Lucia — Full Character Guide, Backstory & Abilities',
+  h1: 'GTA 6 Lucia: Full Character Guide, Backstory & Abilities',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_03.webp',
   content: (

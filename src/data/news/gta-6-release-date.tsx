@@ -5,12 +5,12 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6ReleaseDate: ArticleData = {
-  title: 'GTA 6 Release Date — November 19, 2026 Confirmed',
-  metaDescription: 'GTA 6 releases November 19, 2026 on PS5 and Xbox Series X. Confirmed by Take-Two CEO. PC date, preload times, unlock clock — all here.',
+  title: 'GTA 6 Release Date: November 19, 2026 Confirmed',
+  metaDescription: 'GTA 6 releases November 19, 2026 on PS5 and Xbox Series X. Confirmed by Take-Two CEO. PC date, preload times, and unlock clock are all here.',
   focusKeyword: 'GTA 6 release date',
-  h1: 'GTA 6 Release Date — November 19, 2026 Confirmed',
+  h1: 'GTA 6 Release Date: November 19, 2026 Confirmed',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA vi Release Date.webp',
   featureImageAlt: 'GTA vi Release Date.webp - GTA 6 Release Date - Focus Keyword: GTA 6 release date',

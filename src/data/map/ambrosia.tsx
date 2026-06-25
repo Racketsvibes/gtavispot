@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const ambrosia: MapArticleData = {
-  title: 'GTA 6 Ambrosia — Location, Guide & Sugar Refinery Secrets',
-  metaDescription: 'GTA 6 Ambrosia location guide — explore the industrial sugar refinery town, biker gang territory, hidden secrets and all Easter eggs in this Grassrivers outpost.',
+  title: 'GTA 6 Ambrosia: Location, Guide & Sugar Refinery Secrets',
+  metaDescription: 'GTA 6 Ambrosia location guide: explore the industrial sugar refinery town, biker gang territory, hidden secrets, and all Easter eggs in this Grassrivers outpost.',
   focusKeyword: 'GTA 6 Ambrosia',
-  h1: 'GTA 6 Ambrosia — Location Guide, Sugar Refinery & Secrets',
+  h1: 'GTA 6 Ambrosia: Location Guide, Sugar Refinery & Secrets',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_01.webp',
   content: (

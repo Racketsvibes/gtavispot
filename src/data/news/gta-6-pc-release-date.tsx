@@ -4,12 +4,12 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6PcReleaseDate: ArticleData = {
-  title: 'GTA 6 PC Release Date — When Is It Coming to PC?',
+  title: 'GTA 6 PC Release Date: When Is It Coming to PC?',
   metaDescription: 'GTA 6 is not coming to PC at launch. Find out when the PC port is expected, what specs you\'ll need, and whether it\'ll be on Steam or Epic.',
   focusKeyword: 'GTA 6 PC release date',
-  h1: 'GTA 6 PC Release Date — Expectations & Specs',
+  h1: 'GTA 6 PC Release Date: Expectations & Specs',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
   content: (

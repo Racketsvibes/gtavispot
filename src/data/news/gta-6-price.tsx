@@ -4,12 +4,12 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Price: ArticleData = {
-  title: 'GTA 6 Price — All Editions, Costs & Is It Worth It?',
-  metaDescription: 'GTA 6 price confirmed — standard, special and collector editions explained. Find out how much each version costs and where to get the cheapest deal.',
+  title: 'GTA 6 Price: All Editions, Costs & Is It Worth It?',
+  metaDescription: 'GTA 6 price confirmed: standard, special and collector editions explained. Find out how much each version costs and where to get the cheapest deal.',
   focusKeyword: 'GTA 6 price',
-  h1: 'GTA 6 Price — All Editions & Expected Costs',
+  h1: 'GTA 6 Price: All Editions & Expected Costs',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_vi_Price.webp',
   content: (

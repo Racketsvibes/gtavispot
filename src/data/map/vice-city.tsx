@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const viceCity: MapArticleData = {
-  title: 'GTA 6 Vice City — Full District Map, Locations & Guide',
-  metaDescription: 'GTA 6 Vice City guide — explore every district, landmark, beach and secret in Rockstar\'s reimagined Miami. Interactive district map included.',
+  title: 'GTA 6 Vice City: Full District Map, Locations & Guide',
+  metaDescription: 'GTA 6 Vice City guide: explore every district, landmark, beach, and secret in Rockstar\'s reimagined Miami. Interactive district map included.',
   focusKeyword: 'GTA 6 Vice City',
-  h1: 'GTA 6 Vice City — All Districts, Locations & Map Guide',
+  h1: 'GTA 6 Vice City: All Districts, Locations & Map Guide',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_01.webp',
   content: (

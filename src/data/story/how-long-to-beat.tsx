@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const howLongToBeat: StoryArticleData = {
-  title: 'GTA 6 How Long to Beat — Story, 100% & Playtimes',
+  title: 'GTA 6 How Long to Beat: Story, 100% & Playtimes',
   metaDescription: 'GTA 6 story takes approximately 35-45 hours to beat. Add side missions for 60-70 hours, or 100% completion at 80+ hours. Full time breakdown vs GTA 5 and RDR2.',
   focusKeyword: 'GTA 6 how long to beat',
-  h1: 'GTA 6 How Long to Beat — Story, Side Missions & 100% Times',
+  h1: 'GTA 6 How Long to Beat: Story, Side Missions & 100% Times',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Screenshot.webp',
   content: (

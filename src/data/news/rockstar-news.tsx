@@ -4,12 +4,12 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const rockstarNews: ArticleData = {
-  title: 'Rockstar Games News — Latest GTA 6 Developer Updates',
+  title: 'Rockstar Games News: Latest GTA 6 Developer Updates',
   metaDescription: 'Every official Rockstar Games and Take-Two statement about GTA 6 in one place. Earnings call highlights, developer blogs and social announcements.',
   focusKeyword: 'Rockstar Games GTA 6',
-  h1: 'Rockstar Games GTA 6 News — Developer Updates',
+  h1: 'Rockstar Games GTA 6 News: Developer Updates',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Developer_Update.webp',
   content: (

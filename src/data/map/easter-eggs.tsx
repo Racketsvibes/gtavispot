@@ -4,12 +4,12 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const easterEggs: MapArticleData = {
-  title: 'GTA 6 Easter Eggs — Every Secret & Reference Found',
-  metaDescription: 'All GTA 6 Easter eggs found — UFOs, pop culture references, movie callbacks, mythical creatures and every hidden secret the community has discovered.',
+  title: 'GTA 6 Easter Eggs: Every Secret & Reference Found',
+  metaDescription: 'All GTA 6 Easter eggs found: UFOs, pop culture references, movie callbacks, mythical creatures, and every hidden secret the community has discovered.',
   focusKeyword: 'GTA 6 easter eggs',
-  h1: 'GTA 6 Easter Eggs — Every Secret & Pop Culture Reference',
+  h1: 'GTA 6 Easter Eggs: Every Secret & Pop Culture Reference',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Screenshot.webp',
   content: (

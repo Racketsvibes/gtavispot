@@ -4,13 +4,13 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const leonidaKeys: MapArticleData = {
-  title: 'GTA 6 Leonida Keys — Complete Island Guide & Map',
-  metaDescription: 'Complete GTA 6 Leonida Keys guide — every island, boating routes, fishing spots, hidden secrets and Easter eggs in GTA VI\'s Florida Keys region.',
+  title: 'GTA 6 Leonida Keys: Complete Island Guide & Map',
+  metaDescription: 'Complete GTA 6 Leonida Keys guide: every island, boating routes, fishing spots, hidden secrets, and Easter eggs in GTA VI\'s Florida Keys region.',
   focusKeyword: 'GTA 6 Leonida Keys',
-  h1: 'GTA 6 Leonida Keys — Full Island Guide, Map & All Secrets',
+  h1: 'GTA 6 Leonida Keys: Full Island Guide, Map & All Secrets',
   publishedDate: 'June 18, 2026',
   author: 'Marcus Vance',
-  modifiedDate: 'June 18, 2026',
+  modifiedDate: 'June 25, 2026',
   featureImage: '/images/GTAVI_Screenshots/Places/Leonida_Keys/Leonida_Keys_01.webp',
   content: (
     <>

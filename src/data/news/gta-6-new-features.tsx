@@ -4,12 +4,12 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6NewFeatures: ArticleData = {
-  title: 'GTA 6 New Features — Every Confirmed Change vs GTA 5',
-  metaDescription: 'All confirmed GTA 6 features listed — new NPC AI, dual protagonists, 700+ interiors, Leonida map and everything else officially revealed so far.',
+  title: 'GTA 6 New Features: Every Confirmed Change vs GTA 5',
+  metaDescription: 'All confirmed GTA 6 features listed, including new NPC AI, dual protagonists, 700+ interiors, Leonida map, and everything officially revealed so far.',
   focusKeyword: 'GTA 6 new features',
-  h1: 'GTA 6 New Features — Confirmed Changes & Upgrades',
+  h1: 'GTA 6 New Features: Confirmed Changes & Upgrades',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_New_Features.webp',
   content: (

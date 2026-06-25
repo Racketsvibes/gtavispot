@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const dualProtagonists: StoryArticleData = {
-  title: 'GTA 6 Dual Protagonists — Switching System Guide',
-  metaDescription: 'GTA 6 dual protagonist guide — how to switch between Jason and Lucia, ability differences, which character is better to play and when switching happens.',
+  title: 'GTA 6 Dual Protagonists: Switching System Guide',
+  metaDescription: 'GTA 6 dual protagonist guide: how to switch between Jason and Lucia, ability differences, which character is better to play, and when switching happens.',
   focusKeyword: 'GTA 6 dual protagonists',
-  h1: 'GTA 6 Dual Protagonists — How the Jason & Lucia System Works',
+  h1: 'GTA 6 Dual Protagonists: How the Jason & Lucia System Works',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_01/Jason_and_Lucia_01_landscape.webp',
   content: (

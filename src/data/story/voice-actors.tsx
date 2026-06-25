@@ -4,12 +4,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const voiceActors: StoryArticleData = {
-  title: 'GTA 6 Voice Actors — Full Cast & Performers Guide',
-  metaDescription: 'GTA 6 full voice cast — find out who voices Lucia and Jason, every confirmed voice actor and their career highlights for GTA VI\'s record-breaking cast.',
+  title: 'GTA 6 Voice Actors: Full Cast & Performers Guide',
+  metaDescription: 'GTA 6 full voice cast: find out who voices Lucia and Jason, every confirmed voice actor, and their career highlights for the record-breaking cast.',
   focusKeyword: 'GTA 6 voice actors',
-  h1: 'GTA 6 Voice Actors — Full Cast List & Character Performers',
+  h1: 'GTA 6 Voice Actors: Full Cast List & Character Performers',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 21, 2026',
+  modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_06.webp',
   content: (
