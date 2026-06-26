@@ -161,7 +161,7 @@ export const gta6Leaks: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Will GTA 6 cost $150?</h3>
           <p className={styles.faqAnswer}>
-            No, the rumor of a $150 standard edition price is debunked. The game will follow standard AAA pricing ($70).
+            No, the rumor of a $150 standard edition price is debunked. The game will follow standard AAA pricing ($79.99).
           </p>
         </div>
 

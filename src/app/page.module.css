@@ -203,39 +203,31 @@
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
 }
 
-.wishlistBtn {
+.staticPlatformBadge {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.65rem 1.6rem;
+  gap: 0.85rem;
+  padding: 0.85rem 2rem;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 50px;
   color: white;
   font-family: var(--font-ui), 'Barlow Condensed', sans-serif;
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: all 0.25s ease;
-  cursor: pointer;
-  text-decoration: none;
+  letter-spacing: 1.2px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  user-select: none;
 }
 
-.wishlistBtn:hover {
-  background: rgba(255, 255, 255, 0.18);
-  border-color: rgba(255, 255, 255, 0.4);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.08);
-  color: white;
-}
-
-.wishlistBtn svg {
-  width: 20px;
-  height: 20px;
+.staticPlatformBadge svg {
+  width: 22px;
+  height: 22px;
   color: white;
   flex-shrink: 0;
 }
+
 
 /* ══════════════════════════════════════════════
    COMMON SECTION STYLES
