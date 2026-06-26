@@ -55,6 +55,7 @@ const storySubNav = [
 ];
 
 const primaryNav = [
+  { label: 'Characters', href: '/story/gta-6-characters/' },
   { label: 'Guides', href: '/guides/' },
   { label: 'Cheats', href: '/cheats/' },
   { label: 'Weapons', href: '/weapons/' },

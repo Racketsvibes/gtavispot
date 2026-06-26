@@ -56,7 +56,7 @@ export const gta6NewFeatures: ArticleData = {
 
       <h2>Dual Protagonist Swap System</h2>
       <p>
-        GTA 6 features a dual protagonist system, introducing Lucia and Jason. While GTA 5 featured three characters scattered across Los Santos, GTA 6 keeps the protagonists together. Their stories are linked, and their relationship affects how certain missions play out.
+        GTA 6 features a dual protagonist system, introducing Lucia and Jason. While GTA 5 featured three characters scattered across Los Santos, GTA 6 keeps the protagonists together. Their stories are linked, and their relationship affects how certain missions play out. To explore the full cast list, check out our guide on <Link href="/story/gta-6-characters/">GTA 6 Characters</Link>.
       </p>
       <p>
         The character swap system has been updated. The swap animation is faster, transitioning viewpoints without the long aerial zoom-out of GTA 5. During cooperative heist missions, players can switch between Lucia and Jason to coordinate tactical approaches.

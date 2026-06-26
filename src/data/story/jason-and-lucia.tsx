@@ -42,7 +42,7 @@ export const jasonAndLucia: StoryArticleData = {
 
       <h2>What Is the Relationship Between Jason and Lucia?</h2>
       <p>
-        Jason and Lucia are romantic partners bound by a shared life of crime. Unlike previous games where protagonists worked together out of convenience or greed, their relationship is built on mutual survival and affection.
+        Jason and Lucia are romantic partners bound by a shared life of crime. Unlike previous games where protagonists worked together out of convenience or greed, their relationship is built on mutual survival and affection. To see how they fit into the broader roster of <Link href="/story/gta-6-characters/">GTA vi Characters</Link>, check out our full characters directory.
       </p>
       <p>
         The story explores the emotional toll of running from the law. Dialogue sequences in vehicles and safehouses showcase their arguments, showing the strain of dealing with police pressure, cartel threats, and mounting debts.

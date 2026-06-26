@@ -11,6 +11,8 @@ import { sideMissions } from './story/side-missions';
 import { ending } from './story/ending';
 import { howLongToBeat } from './story/how-long-to-beat';
 import { dualProtagonists } from './story/dual-protagonists';
+import { gta6Characters } from './story/gta-6-characters';
+
 
 export interface VideoSchema {
   name: string;
@@ -48,6 +50,7 @@ const storyArticlesMap: Record<string, StoryArticleData> = {
   'ending': ending,
   'how-long-to-beat': howLongToBeat,
   'dual-protagonists': dualProtagonists,
+  'gta-6-characters': gta6Characters,
 };
 
 export function getStoryArticleBySlug(slug: string): StoryArticleData | undefined {

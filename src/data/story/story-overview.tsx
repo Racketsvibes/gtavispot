@@ -53,7 +53,7 @@ export const storyOverview: StoryArticleData = {
 
       <h2>Who Are the Main Characters in GTA 6?</h2>
       <p>
-        The campaign is built entirely around the cooperation of its dual protagonists. Unlike previous entries with sprawling casts of playable leads, this structure focuses on a deep personal relationship:
+        The campaign is built entirely around the cooperation of its dual protagonists. To learn about all the major players, check our list of <Link href="/story/gta-6-characters/">GTA 6 characters</Link>. Unlike previous entries with sprawling casts of playable leads, this structure focuses on a deep personal relationship:
       </p>
       <ul>
         <li><strong>Lucia:</strong> A street-smart Leonida native with a complex criminal past and a fresh release from prison. She is determined to avoid returning to a cell, making her decisions calculated yet highly dangerous. For more details, explore our <Link href="/story/lucia/">GTA 6 Lucia guide</Link>.</li>
