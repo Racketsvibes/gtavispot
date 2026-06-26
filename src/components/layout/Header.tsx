@@ -56,14 +56,14 @@ const storySubNav = [
 
 const primaryNav = [
   { label: 'Characters', href: '/story/gta-6-characters/' },
-  { label: 'Guides', href: '/guides/' },
   { label: 'Cheats', href: '/cheats/' },
   { label: 'Weapons', href: '/weapons/' },
-  { label: 'Online', href: '/online/' },
   { label: 'Vehicles', href: '/vehicles/' },
 ];
 
 const moreNav = [
+  { label: 'Guides', href: '/guides/' },
+  { label: 'Online', href: '/online/' },
   { label: 'Tech & Platform', href: '/tech/' },
   { label: 'Trophies', href: '/trophies/' },
   { label: 'Mods', href: '/mods/' },
@@ -349,6 +349,14 @@ export default function Header() {
           </nav>
 
           <div className={styles.actions}>
+            <Link href="/news/gta-6-pre-order/" className={styles.preOrderHeaderBtn} aria-label="Pre-Order GTA 6 Now">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className={styles.preOrderIcon}>
+                <circle cx="9" cy="21" r="1" />
+                <circle cx="20" cy="21" r="1" />
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+              </svg>
+              <span>Pre-Order Now</span>
+            </Link>
             <ThemeToggle />
             <button
               className={styles.hamburger}

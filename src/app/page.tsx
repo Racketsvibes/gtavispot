@@ -16,6 +16,14 @@ import styles from './page.module.css';
 /* ── Static Data ── */
 const latestNews = [
   {
+    title: 'GTA 6 Pre-Order Guide: Editions & Bonuses Live',
+    desc: 'Compare Standard and Ultimate editions, explore pre-order bonuses, and lock in the Vintage Vice City Pack.',
+    date: 'June 25, 2026',
+    tag: 'PRE-ORDER',
+    href: '/news/gta-6-pre-order/',
+    img: '/ultimate edition and Bounses/GTA 6 Ultimate Edition.webp',
+  },
+  {
     title: 'GTA VI Official Trailer Breaks Internet Records',
     desc: 'The official reveal trailer becomes the most viewed video in 24 hours on YouTube.',
     date: 'May 15, 2024',
@@ -30,14 +38,6 @@ const latestNews = [
     tag: 'NEWS',
     href: '/map/vice-city/',
     img: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_01.webp',
-  },
-  {
-    title: 'GTA VI: What We Know So Far',
-    desc: 'All the confirmed details, leaks, and rumors about GTA VI.',
-    date: 'May 5, 2024',
-    tag: 'NEWS',
-    href: '/news/gta-6-new-features/',
-    img: '/images/Cluster_1/GTA_6_New_Features.webp',
   },
 ];
 
@@ -202,6 +202,9 @@ export default function HomePage() {
               open-world series yet.
             </p>
             <div className={styles.heroCtas}>
+              <Link href="/news/gta-6-pre-order/" className={styles.ctaPreOrder}>
+                Pre-Order Now
+              </Link>
               <Link href="/news/" className={styles.ctaPrimary}>
                 Explore GTA VI
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">

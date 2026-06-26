@@ -108,6 +108,33 @@
   flex-wrap: wrap;
 }
 
+.ctaPreOrder {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.75rem;
+  border-radius: 25px;
+  font-family: var(--font-ui), 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #ffccd5;
+  color: #0c0a14;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(255, 179, 193, 0.3);
+  text-decoration: none;
+}
+
+.ctaPreOrder:hover {
+  background-color: #ffb3c1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 179, 193, 0.5);
+  color: #0c0a14;
+}
+
 .ctaPrimary {
   display: inline-flex;
   align-items: center;
