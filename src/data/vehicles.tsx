@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArticleData } from '../newsContent';
-import styles from '../../app/news/[slug]/page.module.css';
+import { ArticleData } from './newsContent';
+import styles from '../app/news/[slug]/page.module.css';
 
 export const gta6Vehicles: ArticleData = {
   title: 'GTA 6 Vehicles: Confirmed Cars, Bikes, Boats & Planes',
@@ -66,9 +66,24 @@ export const gta6Vehicles: ArticleData = {
       <p>
         Rockstar has packed the streets of Leonida with classic <strong>GTA 6 cars</strong> and imports. You'll spot everything from low-slung supercars to daily sedans cruising down Ocean Drive. Brand names like Pfister, Pegassi, Obey, and Grotti return with highly detailed interactive dashboards.
       </p>
+      <ul>
+        <li><strong>Grotti Cheetah:</strong> The legendary mid-engine supercar (Ultimate Edition bonus).</li>
+        <li><strong>Vapid Ganado:</strong> A new retro-styled custom muscle cruiser.</li>
+        <li><strong>Pfister Comet S2:</strong> A sleek Porsche-inspired next-gen sports car.</li>
+        <li><strong>Bravado Banshee:</strong> The iconic twin-turbo Viper-styled racer.</li>
+        <li><strong>Pegassi Zorrusso:</strong> A modern hypercar built for high speeds.</li>
+        <li><strong>Bravado Vigero ZX:</strong> A heavy-duty modern muscle beast.</li>
+      </ul>
       <p>
         From delivery vans to off-road pickups, the selection of <strong>GTA 6 Trucks</strong> covers heavy-duty utilities. Heavy vehicles show distinct frame twisting and suspension sag when loaded or jumping curbs. The handling varies heavily between empty cargo beds and fully loaded tankers.
       </p>
+      <ul>
+        <li><strong>Bravado Bison:</strong> A versatile crew-cab utility pickup truck.</li>
+        <li><strong>Vapid Speedo:</strong> The standard commercial transport van.</li>
+        <li><strong>Benefactor Dubsta:</strong> A premium off-road G-Wagon styling cruiser.</li>
+        <li><strong>Landstalker XL:</strong> A luxury full-sized family SUV.</li>
+        <li><strong>Declasse Granger:</strong> The heavy-duty federal agency choice.</li>
+      </ul>
 
       <div className={styles.featureImageContainer}>
         <Image
@@ -88,6 +103,13 @@ export const gta6Vehicles: ArticleData = {
       <p>
         If you prefer high-speed highway lanes, a nimble <strong>gta 6 motorcycle</strong> like the Shitzu PCJ-600 is your best option. These two-wheelers feature improved crash physics. Hit a curb at high speed and your rider will launch over the handlebars with realistic ragdoll mechanics.
       </p>
+      <ul>
+        <li><strong>Dinka Enduro:</strong> A durable dual-sport off-road bike (Ultimate Edition bonus).</li>
+        <li><strong>Shitzu PCJ-600:</strong> The classic high-performance street crotch rocket.</li>
+        <li><strong>Maibatsu Sanchez:</strong> The iconic lightweight dirt-racing motorcycle.</li>
+        <li><strong>Western Zombie Chopper:</strong> A custom low-slung cruiser for highway lanes.</li>
+        <li><strong>Pegassi Faggio:</strong> The beloved lightweight city utility scooter.</li>
+      </ul>
 
       <h2>What GTA 6 Boats and Watercraft Can You Pilot?</h2>
       <p>
@@ -96,6 +118,13 @@ export const gta6Vehicles: ArticleData = {
       <p>
         Airboats are crucial for navigating the shallow swamp areas of the Grassrivers Everglades. Unlike traditional deep-hull speedboats, these flat-bottomed craft slide over mudbanks and reeds. This makes them perfect escape options when escaping local sheriffs.
       </p>
+      <ul>
+        <li><strong>Shitzu Squalo:</strong> A high-speed offshore speedboat built for smuggling runs.</li>
+        <li><strong>Speedophile Seashark:</strong> A nimble, quick personal jet ski.</li>
+        <li><strong>Crest Kayak:</strong> A lightweight personal rowing kayak.</li>
+        <li><strong>Nagasaki Dinghy:</strong> The standard military-grade rigid inflatable boat.</li>
+        <li><strong>Everglades Airboat:</strong> Flat-bottomed swamp fan boat for the Grassrivers wetlands.</li>
+      </ul>
 
       <div className={styles.featureImageContainer}>
         <Image
@@ -112,9 +141,22 @@ export const gta6Vehicles: ArticleData = {
       <p>
         Take to the skies with various <strong>gta 6 planes</strong>, from light props to luxury jets. Skyward flight provides a massive view of the entire Leonida map. You can steel cargo planes from regional airports or purchase luxury jets through the in-game internet.
       </p>
+      <ul>
+        <li><strong>Buckingham Shamal:</strong> A premium twin-engine executive business jet.</li>
+        <li><strong>Mammoth Dodo:</strong> A sea-plane capable of landing on coastal waters.</li>
+        <li><strong>JoBuilt Mammatus:</strong> A lightweight prop aircraft for regional airports.</li>
+        <li><strong>Buckingham Luxor:</strong> A luxury gold-class private transportation jet.</li>
+        <li><strong>Western Company Duster:</strong> A vintage crop-dusting biplane.</li>
+      </ul>
       <p>
         For precise landing on skyscraper pads, the standard police and civilian <strong>gta 6 helicopter</strong> models return. Helicopters are excellent for escaping five-star wanted levels. You'll need to watch out for local anti-air defenses and police tactical units.
       </p>
+      <ul>
+        <li><strong>Buzzard Attack Chopper:</strong> A compact military helicopter with dual miniguns.</li>
+        <li><strong>Buckingham Swift:</strong> A luxury twin-engine business helicopter.</li>
+        <li><strong>Sea Sparrow:</strong> An amphibious utility helicopter with water landing pontoons.</li>
+        <li><strong>Police Maverick:</strong> The standard helicopter used for high wanted levels.</li>
+      </ul>
 
       <h2>How Do GTA 5 Vehicles Compare to GTA 6?</h2>
       <p>
@@ -202,14 +244,6 @@ export const gta6Vehicles: ArticleData = {
       <p>
         The selection of <strong>GTA 6 Vehicles</strong> will satisfy every gearhead looking to tear up Vice City's Ocean Beach or off-road through the keys. Prepare your garage today by exploring the latest options in the <Link href="/news/gta-6-pre-order/">GTA 6 Pre-Order Guide</Link>.
       </p>
-
-      <h2>Suggested Image Alt Text</h2>
-      <ul>
-        <li><code>gta-6-vehicles-feature.webp</code>: Cinematic featured banner showing sports cars and custom off-road buggies on a sunset street in Vice City.</li>
-        <li><code>95_Grotti_Cheetah.webp</code>: Retro 1995 Grotti Cheetah sports car with exclusive Shore Drive livery in GTA 6.</li>
-        <li><code>67_Vapid_Dominator_Buggy.webp</code>: 1967 Vapid Dominator Buggy custom off-road vehicle navigating dirt tracks.</li>
-        <li><code>Watercraft_2.webp</code>: Sleek Shitzu Squalo speedboat cruising through open waters in Leonida.</li>
-      </ul>
     </>
   )
 };

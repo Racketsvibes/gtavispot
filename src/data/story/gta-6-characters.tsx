@@ -89,7 +89,7 @@ export const gta6Characters: StoryArticleData = {
       </p>
       <ul>
         <li><strong>Military Background:</strong> Serves as the primary combat specialist with enhanced recoil control and weapon handling.</li>
-        <li><strong>Getaway Driver:</strong> Possesses superior vehicle handling stats, especially for off-road escapes and chases. He can hotwire most <Link href="/news/gta-6-vehicles/">GTA 6 cars</Link> and motorcycles faster than standard NPCs.</li>
+        <li><strong>Getaway Driver:</strong> Possesses superior vehicle handling stats, especially for off-road escapes and chases. He can hotwire most <Link href="/vehicles/">GTA 6 cars</Link> and motorcycles faster than standard NPCs.</li>
         <li><strong>Combat Focus Ability:</strong> Triggers a slow-motion precision-aiming window to neutralize multiple targets rapidly.</li>
         <li><strong>Weapon Specialist:</strong> Starts with higher weapon control and handles heavy weaponry like grenade launchers.</li>
       </ul>

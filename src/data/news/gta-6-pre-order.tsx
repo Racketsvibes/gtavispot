@@ -73,7 +73,7 @@ export const gta6PreOrder: ArticleData = {
 
       <h3>Grotti Cheetah Sports Car</h3>
       <p>
-        The legendary <strong>'95 Grotti Cheetah</strong> makes its return. Complete with a retro-futuristic Shore Drive livery, you'll unlock this mid-90s sports car in the later chapters of the main story. Learn more about the other available models in our <Link href="/news/gta-6-vehicles/">GTA vi Vehicles</Link> roster.
+        The legendary <strong>'95 Grotti Cheetah</strong> makes its return. Complete with a retro-futuristic Shore Drive livery, you'll unlock this mid-90s sports car in the later chapters of the main story. Learn more about the other available models in our <Link href="/vehicles/">GTA vi Vehicles</Link> roster.
       </p>
 
       <div className={styles.featureImageContainer}>

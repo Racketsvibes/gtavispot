@@ -45,7 +45,7 @@ export const gta6NewFeatures: ArticleData = {
         The core of GTA 6's upgrades is the RAGE 9 engine. Rockstar's proprietary engine has been rewritten to support next-generation rendering techniques. The engine features real-time global illumination, dynamic ray-traced reflections, and volumetric cloud rendering that changes based on local humidity and wind direction.
       </p>
       <p>
-        Physics rendering has also received significant upgrades. Vehicle handling is more realistic, with tire deformation and suspension systems reacting to road surfaces; you can view the full list of rides in our <Link href="/news/gta-6-vehicles/">GTA 6 Vehicles</Link> breakdown. Crash physics have been overhauled to show realistic metal crumpling, paint scrapes, and glass shattering, making high-speed pursuits more dangerous.
+        Physics rendering has also received significant upgrades. Vehicle handling is more realistic, with tire deformation and suspension systems reacting to road surfaces; you can view the full list of rides in our <Link href="/vehicles/">GTA 6 Vehicles</Link> breakdown. Crash physics have been overhauled to show realistic metal crumpling, paint scrapes, and glass shattering, making high-speed pursuits more dangerous.
       </p>
       <p>
         According to Take-Two Interactive's software patent filings detailing advanced AI navigation, the engine also features a dynamic pathfinding network. This system allows NPCs to make intelligent routing decisions based on traffic density and weather conditions. This patented system ensures that the streets of Vice City feel alive and responsive.

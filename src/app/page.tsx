@@ -79,7 +79,7 @@ const latestGuides = [
   {
     title: 'Best Vehicles in GTA VI',
     desc: 'Top cars, bikes, boats & where to find them.',
-    href: '/news/gta-6-vehicles/',
+    href: '/vehicles/',
     img: '/images/GTA_6_Vehicles.webp',
   },
 ];
