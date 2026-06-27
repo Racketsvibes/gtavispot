@@ -158,6 +158,17 @@ export const gta6Vehicles: ArticleData = {
         <li><strong>Police Maverick:</strong> The standard helicopter used for high wanted levels.</li>
       </ul>
 
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/Mount_Kalaga_National_Park_02.webp"
+          alt="Amphibious Sea Sparrow helicopter flying near Mount Kalaga peak in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
+
       <h2>How Do GTA 5 Vehicles Compare to GTA 6?</h2>
       <p>
         Compared to the handling of <strong>GTA v Vehicles</strong>, the new game shifts toward a weightier, more realistic model. Vehicles no longer feel like they float on top of the road surface. Wind drag, tire wear, and wet pavement have distinct impacts on acceleration and cornering.
