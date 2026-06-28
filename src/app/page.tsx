@@ -385,14 +385,14 @@ export default function HomePage() {
       </section>
 
       {/* ════════════════════════════════════════
-          VICE CITY MAP & VEHICLES
+          VICE CITY MAP, VEHICLES & WEAPONS
           ════════════════════════════════════════ */}
       <section className={styles.section}>
         <div className="container">
           <div className={styles.mapVehiclesGrid}>
             <div className={styles.featureCard}>
               <div className={styles.featureImgWrap}>
-                <Image src="/images/GTA_6_MAp.webp" alt="Vice City Map" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/images/GTA_6_MAp.webp" alt="Vice City Map" fill sizes="(max-width: 768px) 100vw, 33vw" />
               </div>
               <div className={styles.featureBody}>
                 <h2 className={styles.featureTitle}>Vice City Map</h2>
@@ -405,7 +405,7 @@ export default function HomePage() {
             </div>
             <div className={styles.featureCard}>
               <div className={styles.featureImgWrap}>
-                <Image src="/images/GTA_6_Vehicles.webp" alt="Vehicles" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/images/GTA_6_Vehicles.webp" alt="Vehicles" fill sizes="(max-width: 768px) 100vw, 33vw" />
               </div>
               <div className={styles.featureBody}>
                 <h2 className={styles.featureTitle}>Vehicles</h2>
@@ -414,6 +414,19 @@ export default function HomePage() {
                   helicopters, the choices are endless.
                 </p>
                 <Link href="/vehicles/" className={styles.ctaPrimary}>Browse Vehicles →</Link>
+              </div>
+            </div>
+            <div className={styles.featureCard}>
+              <div className={styles.featureImgWrap}>
+                <Image src="/images/gta-6-weapons-wheel.webp" alt="GTA 6 Weapons arsenal" fill sizes="(max-width: 768px) 100vw, 33vw" />
+              </div>
+              <div className={styles.featureBody}>
+                <h2 className={styles.featureTitle}>Weapons</h2>
+                <p className={styles.featureDesc}>
+                  Equip tactical assault rifles, heavy LMGs, and custom workbenches
+                  for high-stakes missions.
+                </p>
+                <Link href="/weapons/" className={styles.ctaPrimary}>Browse Weapons →</Link>
               </div>
             </div>
           </div>
