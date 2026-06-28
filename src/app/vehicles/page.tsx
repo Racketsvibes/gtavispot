@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { gta6Vehicles } from '@/data/vehicles';
 import ShareButtons from '@/components/ShareButtons';
-import { getBreadcrumbsSchema, getFAQSchema } from '@/lib/schema';
+import { getBreadcrumbsSchema, getFAQSchema, getSEOTitle } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'GTA 6 Vehicles: Confirmed Cars, Bikes, Boats & Planes | GTA Vi Spot',
+  title: getSEOTitle(gta6Vehicles.title),
   description: gta6Vehicles.metaDescription,
   alternates: {
     canonical: 'https://gtavispot.com/vehicles/',

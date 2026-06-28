@@ -4,8 +4,8 @@ import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'GTA 6 News — Latest Updates, Trailers & Announcements | GTA Vi Spot',
-  description: 'Latest GTA 6 news, trailers, leaks and announcements. Updated daily as Rockstar confirms new details ahead of the November 19, 2026 launch.',
+  title: 'GTA 6 News: Latest Updates & Guides | GTA Vi Spot',
+  description: 'Read the latest GTA 6 news, official trailers, gameplay leaks, and announcements. Updated daily with verified Rockstar Games coverage.',
   alternates: {
     canonical: 'https://gtavispot.com/news/',
   },

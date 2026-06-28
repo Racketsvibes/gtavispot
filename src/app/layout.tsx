@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: '%s | GTA Vi Spot',
   },
   description:
-    'Your ultimate GTA 6 resource — latest news, interactive map, character guides, cheat codes, and everything confirmed for the November 19, 2026 launch on PS5 and Xbox Series X.',
+    'Your ultimate GTA 6 resource: latest news, interactive Leonida map, character guides, cheats, and launch details for the November 19, 2026 release.',
   icons: {
     icon: '/icon.png',
     shortcut: '/favicon.ico',

@@ -4,8 +4,8 @@ import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'GTA 6 Tech & Platform Hub — Specs, Requirements & Guides | GTA Vi Spot',
-  description: 'GTA 6 system requirements, file sizes, platforms, and technical guides. Get the latest tech details ahead of the November 19, 2026 launch.',
+  title: 'GTA 6 Tech, Specs & Requirements | GTA Vi Spot',
+  description: 'Get the latest GTA 6 system requirements, download sizes, supported platforms, and technical engine updates ahead of the November 19, 2026 launch.',
   alternates: {
     canonical: 'https://gtavispot.com/tech/',
   },

@@ -7,7 +7,8 @@ import {
   getBreadcrumbsSchema,
   getArticleSchema,
   getFAQSchema,
-  getFaqsFromFile
+  getFaqsFromFile,
+  getSEOTitle
 } from '@/lib/schema';
 import styles from './page.module.css';
 
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props) {
     : 'https://gtavispot.com/images/desktop.webp';
 
   return {
-    title: `${article.title} | GTA Vi Spot`,
+    title: getSEOTitle(article.title),
     description: article.metaDescription,
     alternates: {
       canonical: `https://gtavispot.com/news/${slug}/`,
