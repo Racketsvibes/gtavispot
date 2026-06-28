@@ -71,7 +71,6 @@ export default function VehiclesPage() {
         </div>
 
         <header className={styles.header}>
-          <span className={styles.categoryBadge}>VEHICLE CLUSTER</span>
           <h1 className={styles.title}>{gta6Vehicles.h1}</h1>
           <div className={styles.meta}>
             <span>By <strong>{gta6Vehicles.author}</strong></span>

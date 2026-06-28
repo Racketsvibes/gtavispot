@@ -70,7 +70,6 @@ export default function WeaponsPage() {
         </div>
 
         <header className={styles.header}>
-          <span className={styles.categoryBadge}>WEAPONS CLUSTER</span>
           <h1 className={styles.title}>{gta6Weapons.h1}</h1>
           <div className={styles.meta}>
             <span>By <strong>{gta6Weapons.author}</strong></span>
