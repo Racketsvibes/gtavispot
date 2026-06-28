@@ -65,7 +65,7 @@ export const gta6NewFeatures: ArticleData = {
         For details on when you can pre-order and secure the game, see our <Link href="/news/gta-6-pre-order/">GTA 6 pre-order guide</Link> for retail listings.
       </p>
       <p>
-        When you are not controlling the other protagonist, an improved companion AI takes over. The AI will seek cover, return fire, and assist with objectives without player input. This cooperative system changes how players approach heists and combat, encouraging teamwork between the two characters.
+        When you are not controlling the other protagonist, an improved companion AI takes over. The AI will seek cover, return fire, and assist with objectives without player input. This cooperative system changes how players approach heists and combat, encouraging teamwork between the two characters. This combat overhaul is further supported by the new <Link href="/weapons/">gta 6 weapons</Link> system, which introduces a weapon wheel limit and realistic weight properties.
       </p>
 
       <h2>Wanted System and Police AI Overhaul</h2>

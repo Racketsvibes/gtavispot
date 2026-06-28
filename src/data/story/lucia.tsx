@@ -86,7 +86,7 @@ export const lucia: StoryArticleData = {
         <li><strong>Refined lockpicking:</strong> She bypasses mechanical safes and vehicle ignitions in seconds, allowing fast getaways without triggering alarms.</li>
       </ul>
       <p>
-        This skill set makes her the ideal character for executing silent bank robberies or infiltrating cartel warehouses. Players can upgrade these skills by completing stealth side missions and purchasing hacking gear from black-market electronics dealers.
+        This skill set makes her the ideal character for executing silent bank robberies or infiltrating cartel warehouses. Whether she's using stealth or entering loud, having the right gear from the <Link href="/weapons/">gta 6 weapons List</Link> is essential for survival. Players can upgrade these skills by completing stealth side missions and purchasing hacking gear from black-market electronics dealers.
       </p>
 
       <h2>Lucia's Relationship with Jason</h2>

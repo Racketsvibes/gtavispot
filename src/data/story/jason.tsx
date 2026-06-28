@@ -72,7 +72,7 @@ export const jason: StoryArticleData = {
         <li><strong>Target Highlighting:</strong> Automatically marks explosive objects, gas tanks, and weapon crates in red, allowing you to clear enemy outposts quickly.</li>
       </ul>
       <p>
-        This skill set makes him the best character to play during chaotic shootouts, helicopter pursuits, or high-speed escapes. You can build this ability by landing headshots, executing perfect drift turns, and completing shooting range challenges.
+        This skill set makes him the best character to play during chaotic shootouts, helicopter pursuits, or high-speed escapes. This skill set is highly effective when paired with the heavy-duty firearms from the official <Link href="/weapons/">gta vi weapons</Link> list, such as the M249 LMG or Duke sniper rifle. You can build this ability by landing headshots, executing perfect drift turns, and completing shooting range challenges.
       </p>
       <p>
         To see how this ability compares to Lucia's stealth options, check our guide to <Link href="/story/dual-protagonists/">GTA 6 character switching and mechanics</Link>.
