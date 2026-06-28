@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const host = 'gtavispot.com';
+const host = 'www.gtavispot.com';
 const key = 'bacf7e8314b44fce9959351a60306ed8';
 const keyLocation = `https://${host}/${key}.txt`;
 const baseUrl = `https://${host}`;
