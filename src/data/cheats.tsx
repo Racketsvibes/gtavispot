@@ -119,6 +119,9 @@ export const gta6Cheats: ArticleData = {
       <p>
         To execute these inputs, type the PC command console keyword using the tilde (<strong>~</strong>) key, dial the phone number on your character's cell phone, or press the buttons quickly on your controller.
       </p>
+      <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontStyle: 'italic', marginBottom: '1rem' }}>
+        *Note: Directional inputs (Up, Down, Left, Right) must be entered on your console D-pad. Enter button sequences quickly during active gameplay.*
+      </p>
 
       <div style={{ overflowX: 'auto', marginBottom: '2rem' }}>
         <table className="compare-table" style={{ width: '100%', borderCollapse: 'collapse', marginTop: '1rem' }}>
@@ -134,71 +137,71 @@ export const gta6Cheats: ArticleData = {
           <tbody>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Invincibility (5 Min)</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>👉, ❌, 👉, 👈, 👉, R1, 👉, 👈, ❌, 🔺</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>👉, 🅰️, 👉, 👈, 👉, RB, 👉, 👈, 🅰️, 👁️</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Right, X, Right, Left, Right, R1, Right, Left, X, Triangle</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Right, A, Right, Left, Right, RB, Right, Left, A, Y</td>
               <td style={{ padding: '0.75rem 1rem' }}>PAINKILLER</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-724-654-5537</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Max Health & Armor</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>O, L1, 🔺, R2, ❌, ⏹️, O, 👉, ⏹️, L1, L1, L1</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>B, LB, Y, RT, A, X, B, 👉, X, LB, LB, LB</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Circle, L1, Triangle, R2, X, Square, Circle, Right, Square, L1, L1, L1</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>B, LB, Y, RT, A, X, B, Right, X, LB, LB, LB</td>
               <td style={{ padding: '0.75rem 1rem' }}>TURTLE</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-887-853</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Give Weapons & Ammo</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>🔺, R2, 👈, L1, ❌, 👉, 🔺, 👇, ⏹️, L1, L1, L1</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Y, RT, 👈, LB, A, 👉, Y, 👇, X, LB, LB, LB</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Triangle, R2, Left, L1, X, Right, Triangle, Down, Square, L1, L1, L1</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Y, RT, Left, LB, A, Right, Y, Down, X, LB, LB, LB</td>
               <td style={{ padding: '0.75rem 1rem' }}>TOOLUP</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-866-587</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Lower Wanted Level</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>R1, R1, O, R2, 👉, 👈, 👉, 👈, 👉, 👈</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>RB, RB, B, RT, 👉, 👈, 👉, 👈, 👉, 👈</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>R1, R1, Circle, R2, Right, Left, Right, Left, Right, Left</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>RB, RB, B, RT, Right, Left, Right, Left, Right, Left</td>
               <td style={{ padding: '0.75rem 1rem' }}>LAWYERUP</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-529-93787</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Raise Wanted Level</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>R1, R1, O, R2, 👈, 👉, 👈, 👉, 👈, 👉</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>RB, RB, B, RT, 👈, 👉, 👈, 👉, 👈, 👉</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>R1, R1, Circle, R2, Left, Right, Left, Right, Left, Right</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>RB, RB, B, RT, Left, Right, Left, Right, Left, Right</td>
               <td style={{ padding: '0.75rem 1rem' }}>FUGITIVE</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-384-48483</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Spawn Buzzard Chopper</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>O, O, L1, O, O, O, L1, L2, R1, 🔺, O, 🔺</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Circle, Circle, L1, Circle, Circle, Circle, L1, L2, R1, Triangle, Circle, Triangle</td>
               <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>B, B, LB, B, B, B, LB, LT, RB, Y, B, Y</td>
               <td style={{ padding: '0.75rem 1rem' }}>BUZZOFF</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-289-9633</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Give Parachute</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>👈, 👉, L1, L2, R1, R2, R2, 👈, 👈, 👉, L1</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>👈, 👉, LB, LT, RB, RT, RT, 👈, 👈, 👉, LB</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Left, Right, L1, L2, R1, R2, R2, Left, Left, Right, L1</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Left, Right, LB, LT, RB, RT, RT, Left, Left, Right, LB</td>
               <td style={{ padding: '0.75rem 1rem' }}>SKYDIVE</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-759-3483</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Super Jump</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>👈, 👈, 🔺, 🔺, 👉, 👉, 👈, 👉, ⏹️, R1, R2</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>👈, 👈, Y, Y, 👉, 👉, 👈, 👉, X, RB, RT</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Left, Left, Triangle, Triangle, Right, Right, Left, Right, Square, R1, R2</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Left, Left, Y, Y, Right, Right, Left, Right, X, RB, RT</td>
               <td style={{ padding: '0.75rem 1rem' }}>HOPTOIT</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-467-8648</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Fast Run</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>🔺, 👈, 👉, 👉, L2, L1, ⏹️</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Y, 👈, 👉, 👉, LT, LB, X</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Triangle, Left, Right, Right, L2, L1, Square</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>Y, Left, Right, Right, LT, LB, X</td>
               <td style={{ padding: '0.75rem 1rem' }}>CATCHME</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-228-8463</td>
             </tr>
             <tr>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Spawn Comet Sports Car</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>R1, O, R2, 👉, L1, L2, ❌, ❌, ⏹️, R1</td>
-              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>RB, B, RT, 👉, LB, LT, A, A, X, RB</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>R1, Circle, R2, Right, L1, L2, X, X, Square, R1</td>
+              <td style={{ padding: '0.75rem 1rem', fontSize: '0.85rem' }}>RB, B, RT, Right, LB, LT, A, A, X, RB</td>
               <td style={{ padding: '0.75rem 1rem' }}>COMET</td>
               <td style={{ padding: '0.75rem 1rem' }}>1-999-266-38</td>
             </tr>
@@ -220,6 +223,34 @@ export const gta6Cheats: ArticleData = {
       <p>
         Bookmark this page to secure the complete <strong>gta 6 cheats</strong> database as soon as search queries and in-game findings uncover verified inputs on launch day.
       </p>
+
+      <h2>GTA 6 Cheats: Frequently Asked Questions</h2>
+      <div className={styles.faqSection}>
+        <div className={styles.faqItem}>
+          <span className={styles.faqQuestion}>Will GTA 6 have a money cheat code?</span>
+          <p className={styles.faqAnswer}>
+            Historically, Rockstar Games does not include money cheats in Story Mode to preserve the in-game economy and mission progression. You will need to complete heists and side activities to earn cash.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <span className={styles.faqQuestion}>Does using cheats in GTA 6 lock achievements and trophies?</span>
+          <p className={styles.faqAnswer}>
+            Yes, entering cheat codes will lock trophies and achievements for your active play session. It is highly recommended to save your game to a separate slot before activating any codes.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <span className={styles.faqQuestion}>Can you use GTA 6 cheats in the multiplayer online mode?</span>
+          <p className={styles.faqAnswer}>
+            No, cheat codes are strictly disabled in GTA 6 Online to prevent exploitation and keep multiplayer matches fair. They only work in the single-player campaign.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <span className={styles.faqQuestion}>What are the expected formats for GTA 6 cheats?</span>
+          <p className={styles.faqAnswer}>
+            The codes are expected to be activated using three methods: inputting button combinations on your controller, dialing phone numbers on your in-game smartphone, and typing text keywords into the PC command console.
+          </p>
+        </div>
+      </div>
     </>
   )
 };
