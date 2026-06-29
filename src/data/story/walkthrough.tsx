@@ -67,7 +67,7 @@ export const walkthrough: StoryArticleData = {
         The campaign is structured as a series of connected missions that you launch by visiting letter icons on the map. The story focuses on the coordination between Lucia and Jason, requiring players to utilize their individual abilities during missions.
       </p>
       <p>
-        To complete the campaign efficiently, you should focus on upgrading your weapons at Ammu-Nation outlets and modifying your getaway cars at local custom shops. Having bulletproof tires and armor modifications makes the later getaway missions significantly easier.
+        To complete the campaign efficiently, you should focus on upgrading your weapons at Ammu-Nation outlets and modifying your getaway cars at local custom shops. Having bulletproof tires and armor modifications makes the later getaway missions significantly easier. Alternatively, if you are looking to skip the grind entirely and experiment with the physics engine, entering a verified <Link href="/cheats/">gta 6 cheats Code</Link> can instantly give you max health, weapon loadouts, or heavy combat vehicles.
       </p>
       <p>
         For a complete listing of every mission in the game, visit our <Link href="/story/missions/">GTA 6 missions list and order guide</Link>.

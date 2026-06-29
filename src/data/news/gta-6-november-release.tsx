@@ -65,7 +65,7 @@ export const gta6NovemberRelease: ArticleData = {
         To compare pricing tiers and see which retail edition is right for you, check our <Link href="/news/gta-6-price/">GTA 6 price and editions guide</Link>.
       </p>
       <p>
-        This strategy also gives players a full weekend to experience the game. By launching on Thursday, players who take Friday off can secure a four-day weekend to explore the state of Leonida, increasing early engagement and player reviews.
+        This strategy also gives players a full weekend to experience the game. By launching on Thursday, players who take Friday off can secure a four-day weekend to explore the state of Leonida, increasing early engagement and player reviews. Many players will also spend this weekend testing the limits of the physics engine using the newly uncovered <Link href="/cheats/">gta vi cheats</Link> systems.
       </p>
 
       <h2>Competitor Shifts: Clearing the Fall 2026 Calendar</h2>
