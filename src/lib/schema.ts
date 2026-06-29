@@ -164,11 +164,7 @@ export function getFaqsFromFile(slug: string, category: 'news' | 'map' | 'story'
   }
 }
 
-// Helper to dynamically adjust SEO title length by omitting suffix if limit is exceeded
 export function getSEOTitle(baseTitle: string): string {
-  const suffix = ' | GTA Vi Spot';
-  if (baseTitle.length + suffix.length <= 55) {
-    return `${baseTitle}${suffix}`;
-  }
-  return baseTitle;
+  // Strip any hardcoded suffix to prevent Next.js layout metadata template from double-appending it
+  return baseTitle.replace(' | GTA Vi Spot', '');
 }

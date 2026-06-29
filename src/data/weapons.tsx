@@ -5,7 +5,7 @@ import { ArticleData } from './newsContent';
 import styles from '../app/news/[slug]/page.module.css';
 
 export const gta6Weapons: ArticleData = {
-  title: 'GTA 6 Weapons List: All Confirmed Guns | GTA Vi Spot',
+  title: 'GTA 6 Weapons List: All Confirmed Guns',
   metaDescription: 'The official GTA 6 weapons list. Learn how the new limited inventory carry system and weapons wheel work, and compare GTA 5 vs GTA 6 combat gear today.',
   focusKeyword: 'gta 6 weapons',
   h1: 'GTA 6 Weapons List: All Confirmed Guns & Gear',

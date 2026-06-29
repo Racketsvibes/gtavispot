@@ -5,7 +5,7 @@ import { ArticleData } from './newsContent';
 import styles from '../app/news/[slug]/page.module.css';
 
 export const gta6Cheats: ArticleData = {
-  title: 'GTA 6 Cheats: Expected Codes & Launch Guide | GTA Vi Spot',
+  title: 'GTA 6 Cheats: Expected Codes & Launch Guide',
   metaDescription: 'All GTA 6 cheats. Compare GTA 5 vs GTA 6 cheat codes, explore expected button combinations or phone dials, and see the full list of GTA 5 codes today.',
   focusKeyword: 'gta 6 cheats',
   h1: 'GTA 6 Cheats: Expected Codes & Launch Guide',
