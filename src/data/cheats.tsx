@@ -50,7 +50,7 @@ export const gta6Cheats: ArticleData = {
         You should expect early leak lists to circulate within hours of release. However, we recommend avoiding unverified sites claiming to have codes today, as they are currently distributing fake inputs that do not work. Once verified codes are uncovered by players, we will list them here instantly.
       </p>
       <p>
-        To ensure your platform is ready to run the game on launch day, you can check out our detailed guide on the <Link href="/news/gta-6-release-date/">GTA 6 release date</Link> and platform specs.
+        To ensure your platform is ready to run the game on launch day, you can check out our detailed guide on the <Link href="/news/gta-6-release-date/">GTA 6 release date</Link> and platform specs, or read our answers to common questions in the <Link href="/faq/">GTA 6 FAQ page</Link>.
       </p>
 
       <div className={styles.featureImageContainer}>

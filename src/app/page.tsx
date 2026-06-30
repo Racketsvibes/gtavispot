@@ -92,7 +92,7 @@ const latestGuides = [
 const faqs = [
   {
     q: 'When is the GTA VI release date?',
-    a: 'Grand Theft Auto VI is officially scheduled to release in Fall 2025. Rockstar Games confirmed this window in recent parent company financial reports.',
+    a: 'Grand Theft Auto VI is officially scheduled to release on November 19, 2026. Take-Two Interactive confirmed this launch date for current-generation consoles in recent statements.',
   },
   {
     q: 'What platforms will GTA VI be on?',

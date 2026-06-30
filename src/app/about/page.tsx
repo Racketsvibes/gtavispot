@@ -44,7 +44,7 @@ export default function AboutPage() {
         <ul>
           <li><strong>Direct Source Checks:</strong> We link directly to official Take-Two Interactive investor documentation and Rockstar Newswire releases.</li>
           <li><strong>Frame Analysis:</strong> Graphical assets, screenshots, and trailer clips are analyzed using high-fidelity footage to confirm map markers and car models.</li>
-          <li><strong>Zero Clickbait:</strong> If a rumor is unverified, we label it clearly as a rumor or don't write about it at all.</li>
+          <li><strong>Zero Clickbait:</strong> If a rumor is unverified, we label it clearly as a rumor or don't write about it at all. Read our responses to common questions on our <Link href="/faq/">GTA 6 FAQ page</Link>.</li>
         </ul>
 
         <h2>How We Support the Site</h2>
