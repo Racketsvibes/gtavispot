@@ -5,8 +5,8 @@ import RelatedPosts from '@/components/RelatedPosts';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Grand Theft Auto 6 FAQ Hub — GTA Vi Spot',
-  description: 'Find direct, verified answers to the most common GTA 6 questions regarding release dates, platforms, gameplay features, story, characters, map size, and PC requirements.',
+  title: 'GTA 6 FAQ Hub: Direct & Verified Answers | GTA Vi Spot',
+  description: 'Get direct and verified answers to the most common GTA 6 questions. Explore release dates, character details, map sizes, cheats, and system requirements.',
   alternates: {
     canonical: 'https://gtavispot.com/faq/',
   },
