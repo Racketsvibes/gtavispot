@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { gta6Cheats } from '@/data/cheats';
 import ShareButtons from '@/components/ShareButtons';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getBreadcrumbsSchema, getFAQSchema, getSEOTitle } from '@/lib/schema';
 import styles from './page.module.css';
 
@@ -91,6 +92,9 @@ export default function CheatsPage() {
 
         {/* Share buttons (bottom) */}
         <ShareButtons isTop={false} url="https://gtavispot.com/cheats/" title={gta6Cheats.title} />
+      </div>
+      <div className="container">
+        <RelatedPosts />
       </div>
     </div>
   );

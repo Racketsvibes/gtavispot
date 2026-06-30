@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getTechArticleBySlug, getAllTechArticleSlugs } from '@/data/techContent';
 import ShareButtons from '@/components/ShareButtons';
+import RelatedPosts from '@/components/RelatedPosts';
 import {
   getBreadcrumbsSchema,
   getArticleSchema,
@@ -170,6 +171,9 @@ export default async function TechArticlePage({ params }: Props) {
           />
         )}
       </article>
+      <div className="container">
+        <RelatedPosts />
+      </div>
     </div>
   );
 }

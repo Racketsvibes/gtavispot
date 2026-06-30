@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { getBreadcrumbsSchema, getFAQSchema } from '@/lib/schema';
 import FAQHubClient from './FAQHubClient';
+import RelatedPosts from '@/components/RelatedPosts';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -249,74 +249,7 @@ export default function FAQHubPage() {
       <div className="container" style={{ marginTop: '20px' }}>
         <FAQHubClient faqs={faqs} />
 
-        {/* Showcases / Further Reading section */}
-        <section className={styles.mediaSection}>
-          <h2 className={styles.mediaSectionTitle}>Explore More Guides</h2>
-          <div className={styles.mediaGrid}>
-            <div className={styles.mediaCard}>
-              <div className={styles.mediaImgWrap}>
-                <Image
-                  src="/images/GTA_6_MAp.webp"
-                  alt="GTA 6 Leonida Map District Guide"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 30vw"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-              <div className={styles.mediaBody}>
-                <h3 className={styles.mediaTitle}>Leonida Map Guide</h3>
-                <p className={styles.mediaDesc}>
-                  Dive into the districts of Vice City, Grassrivers swamps, and Keys islands.
-                </p>
-                <Link href="/map/" className={styles.mediaCta}>
-                  View Map Hub →
-                </Link>
-              </div>
-            </div>
-
-            <div className={styles.mediaCard}>
-              <div className={styles.mediaImgWrap}>
-                <Image
-                  src="/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_03.webp"
-                  alt="GTA 6 Lucia Caminos and Jason Duval Story Guide"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 30vw"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-              <div className={styles.mediaBody}>
-                <h3 className={styles.mediaTitle}>Story & Characters</h3>
-                <p className={styles.mediaDesc}>
-                  Meet Lucia and Jason, explore their dynamic, and read the mission walkthroughs.
-                </p>
-                <Link href="/story/" className={styles.mediaCta}>
-                  Meet Cast →
-                </Link>
-              </div>
-            </div>
-
-            <div className={styles.mediaCard}>
-              <div className={styles.mediaImgWrap}>
-                <Image
-                  src="/images/gta-6-cheats-feature.webp"
-                  alt="GTA 6 Cheat Codes and Phone Numbers"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 30vw"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-              <div className={styles.mediaBody}>
-                <h3 className={styles.mediaTitle}>Cheat Codes Guide</h3>
-                <p className={styles.mediaDesc}>
-                  Check out the expected cell phone dials, controller inputs, and PC codes.
-                </p>
-                <Link href="/cheats/" className={styles.mediaCta}>
-                  Browse Cheats →
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
+        <RelatedPosts />
       </div>
     </div>
   );
