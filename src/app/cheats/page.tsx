@@ -94,7 +94,7 @@ export default function CheatsPage() {
         <ShareButtons isTop={false} url="https://gtavispot.com/cheats/" title={gta6Cheats.title} />
       </div>
       <div className="container">
-        <RelatedPosts />
+        <RelatedPosts category="cheats" currentSlug="cheats" />
       </div>
     </div>
   );

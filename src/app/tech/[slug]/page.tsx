@@ -172,7 +172,7 @@ export default async function TechArticlePage({ params }: Props) {
         )}
       </article>
       <div className="container">
-        <RelatedPosts />
+        <RelatedPosts category="tech" currentSlug={slug} />
       </div>
     </div>
   );

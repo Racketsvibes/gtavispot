@@ -153,7 +153,7 @@ export default async function MapArticlePage({ params }: Props) {
         <ShareButtons url={`https://gtavispot.com/map/${slug}/`} title={article.title} />
       </article>
       <div className="container">
-        <RelatedPosts />
+        <RelatedPosts category="map" currentSlug={slug} />
       </div>
     </div>
   );

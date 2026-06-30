@@ -249,7 +249,7 @@ export default function FAQHubPage() {
       <div className="container" style={{ marginTop: '20px' }}>
         <FAQHubClient faqs={faqs} />
 
-        <RelatedPosts />
+        <RelatedPosts category="faq" currentSlug="faq" />
       </div>
     </div>
   );

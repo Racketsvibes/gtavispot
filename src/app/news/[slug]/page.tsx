@@ -172,7 +172,7 @@ export default async function ArticlePage({ params }: Props) {
         )}
       </article>
       <div className="container">
-        <RelatedPosts />
+        <RelatedPosts category="news" currentSlug={slug} />
       </div>
     </div>
   );
