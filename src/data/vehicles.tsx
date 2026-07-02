@@ -253,7 +253,7 @@ export const gta6Vehicles: ArticleData = {
       </div>
 
       <p>
-        The selection of <strong>GTA 6 Vehicles</strong> will satisfy every gearhead looking to tear up Vice City's Ocean Beach or off-road through the keys. Prepare your garage today by exploring the latest options in the <Link href="/news/gta-6-pre-order/">GTA 6 Pre-Order Guide</Link>.
+        The selection of <strong>GTA 6 Vehicles</strong> will satisfy every gearhead looking to tear up Vice City's Ocean Beach or off-road through the keys. Prepare your garage today by exploring the latest options in the <Link href="/news/gta-6-pre-order/">GTA 6 Pre-Order Guide</Link>, or check out our <Link href="/guides/">GTA 6 ultimate guide</Link> to plan your escape routes.
       </p>
     </>
   )

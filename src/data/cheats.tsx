@@ -221,7 +221,7 @@ export const gta6Cheats: ArticleData = {
         These mechanics allow players to test and push the physics of the game to its absolute limit. Whether you are flying helicopters through storms or using low-gravity features to jump off skyscrapers, having access to sandbox shortcuts keeps the open-world sandbox extremely engaging.
       </p>
       <p>
-        Bookmark this page to secure the complete <strong>gta 6 cheats</strong> database as soon as search queries and in-game findings uncover verified inputs on launch day.
+        Bookmark this page to secure the complete <strong>gta 6 cheats</strong> database as soon as search queries and in-game findings uncover verified inputs on launch day. For more details on heists, side missions, and launch day setup options, visit our comprehensive <Link href="/guides/">GTA 6 complete guide 2026</Link>.
       </p>
 
       <h2>GTA 6 Cheats: Frequently Asked Questions</h2>

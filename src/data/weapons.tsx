@@ -320,7 +320,7 @@ export const gta6Weapons: ArticleData = {
       </table>
 
       <p>
-        These changes force you to plan your encounters. If you're going to raid a stash house, choosing the right tool from the <strong>gta 6 weapons List</strong> is the difference between survival and a trip to the local hospital.
+        These changes force you to plan your encounters. If you're going to raid a stash house, choosing the right tool from the <strong>gta 6 weapons List</strong> is the difference between survival and a trip to the local hospital. To learn how these combat systems tie into the game's broader mechanics like police bodycams and wanted levels, explore our <Link href="/guides/">GTA 6 features guide</Link>.
       </p>
 
       <h2>GTA 6 Weapons: Frequently Asked Questions</h2>
