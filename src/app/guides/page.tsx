@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { gta6Guides } from '@/data/guides';
 import ShareButtons from '@/components/ShareButtons';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getBreadcrumbsSchema, getFAQSchema, getSEOTitle } from '@/lib/schema';
 import styles from './page.module.css';
 
@@ -94,6 +95,9 @@ export default function GuidesPage() {
 
         {/* Share buttons (bottom) */}
         <ShareButtons isTop={false} url="https://gtavispot.com/guides/" title={gta6Guides.title} />
+      </div>
+      <div className="container">
+        <RelatedPosts category="guides" currentSlug="guides" />
       </div>
     </div>
   );

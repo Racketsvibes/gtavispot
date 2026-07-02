@@ -65,8 +65,9 @@ const curatedRelations: Record<string, string[]> = {
   'underwater': ['secret-locations', 'leonida-keys', 'easter-eggs'],
 
   // Special / Hub Pages
-  'cheats': ['gta-6-release-date', 'walkthrough', 'secret-locations'],
-  'faq': ['gta-6-release-date', 'gta-6-characters', 'vice-city'],
+  'cheats': ['guides', 'walkthrough', 'gta-6-release-date'],
+  'faq': ['guides', 'gta-6-release-date', 'gta-6-characters'],
+  'guides': ['cheats', 'walkthrough', 'gta-6-release-date'],
 };
 
 export default function RelatedPosts({ category, currentSlug }: RelatedPostsProps) {
@@ -145,6 +146,17 @@ export default function RelatedPosts({ category, currentSlug }: RelatedPostsProp
     img: '/images/desktop.webp',
     href: '/faq/',
     cta: 'View FAQ Hub →',
+  });
+
+  // Add Guides Hub
+  catalog.push({
+    slug: 'guides',
+    category: 'guides',
+    title: 'GTA 6 Ultimate Guide Hub',
+    desc: 'Prepare for launch day with confirmed features, protagonist skills, and map layouts.',
+    img: '/images/gta-6-guide-feature.webp',
+    href: '/guides/',
+    cta: 'View Guide Hub →',
   });
 
   // 2. Select related posts based on currentSlug
