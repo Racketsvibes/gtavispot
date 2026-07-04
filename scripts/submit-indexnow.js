@@ -21,8 +21,13 @@ const techSlugs = getSlugs('src/data/tech');
 
 const staticRoutes = [
   '/',
-  '/news/',
+  '/vehicles/',
+  '/weapons/',
+  '/cheats/',
+  '/guides/',
   '/map/',
+  '/news/',
+  '/faq/',
   '/story/',
   '/tech/',
   '/about/',
