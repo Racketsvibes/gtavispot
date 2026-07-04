@@ -56,22 +56,29 @@ const data = JSON.stringify({
   urlList
 });
 
-fetch('https://api.indexnow.org/indexnow', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json; charset=utf-8'
-  },
-  body: data
-})
-.then(res => {
-  if (res.ok) {
-    console.log('IndexNow submission successful!');
-  } else {
-    res.text().then(text => {
-      console.error(`IndexNow submission failed: ${res.status} - ${text}`);
-    });
-  }
-})
-.catch(err => {
-  console.error('Error submitting to IndexNow:', err);
+const endpoints = [
+  { name: 'IndexNow Org', url: 'https://api.indexnow.org/indexnow' },
+  { name: 'Yandex', url: 'https://yandex.com/indexnow' }
+];
+
+endpoints.forEach(endpoint => {
+  fetch(endpoint.url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json; charset=utf-8'
+    },
+    body: data
+  })
+  .then(res => {
+    if (res.ok) {
+      console.log(`IndexNow submission to ${endpoint.name} successful!`);
+    } else {
+      res.text().then(text => {
+        console.error(`IndexNow submission to ${endpoint.name} failed: ${res.status} - ${text}`);
+      });
+    }
+  })
+  .catch(err => {
+    console.error(`Error submitting to ${endpoint.name}:`, err);
+  });
 });
