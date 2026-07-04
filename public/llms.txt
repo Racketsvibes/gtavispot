@@ -4,10 +4,11 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: July 2, 2026: Added GTA 6 Guides Hub.*
+*Last updated: July 4, 2026: Added Release Date standalone navigation and India pricing/FAQ updates.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
+- [Release Date](https://gtavispot.com/news/gta-6-release-date/)
 - [Map Hub](https://gtavispot.com/map/)
 - [News Hub](https://gtavispot.com/news/)
 - [Story & Characters](https://gtavispot.com/story/)

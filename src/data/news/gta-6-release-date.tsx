@@ -11,7 +11,7 @@ export const gta6ReleaseDate: ArticleData = {
   focusKeyword: 'GTA 6 release date',
   h1: 'GTA 6 Release Date: November 19, 2026 Confirmed',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'July 4, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA vi Release Date.webp',
   featureImageAlt: 'GTA vi Release Date.webp - GTA 6 Release Date - Focus Keyword: GTA 6 release date',
@@ -243,6 +243,13 @@ export const gta6ReleaseDate: ArticleData = {
           <h3 className={styles.faqQuestion}>Will GTA 6 run at 60 FPS on base PS5?</h3>
           <p className={styles.faqAnswer}>
             No, the base PS5 version will target a locked 30 FPS to maintain the high graphic detail and physics simulations.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>When was GTA 6 announced?</h3>
+          <p className={styles.faqAnswer}>
+            GTA 6 was first officially confirmed to be in active development by Rockstar Games on February 4, 2022. The first official trailer was announced on November 8, 2023, and subsequently released on December 4, 2023.
           </p>
         </div>
       </section>

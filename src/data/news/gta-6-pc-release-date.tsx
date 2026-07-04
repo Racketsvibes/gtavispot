@@ -9,7 +9,7 @@ export const gta6PcReleaseDate: ArticleData = {
   focusKeyword: 'GTA 6 PC release date',
   h1: 'GTA 6 PC Release Date: Expectations & Specs',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'July 4, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
   content: (
@@ -180,6 +180,13 @@ export const gta6PcReleaseDate: ArticleData = {
           <h3 className={styles.faqQuestion}>Will GTA 6 support PC mods?</h3>
           <p className={styles.faqAnswer}>
             Yes, the PC version will likely support single-player mods, following Rockstar's typical support patterns for their community.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>When is GTA 6 coming out on PC?</h3>
+          <p className={styles.faqAnswer}>
+            The GTA 6 PC release date is expected in late 2027 or early 2028, roughly 12 to 14 months after the initial console launch.
           </p>
         </div>
       </section>

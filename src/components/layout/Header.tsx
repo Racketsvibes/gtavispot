@@ -6,6 +6,7 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import ThemeToggle from './ThemeToggle';
+import CommandPalette from '../command/CommandPalette';
 import styles from './Header.module.css';
 
 const newsSubNav = [
@@ -55,6 +56,7 @@ const storySubNav = [
 ];
 
 const primaryNav = [
+  { label: 'Release Date', href: '/news/gta-6-release-date/' },
   { label: 'Characters', href: '/story/gta-6-characters/' },
   { label: 'Cheats', href: '/cheats/' },
   { label: 'Weapons', href: '/weapons/' },
@@ -357,6 +359,7 @@ export default function Header() {
               </svg>
               <span>Pre-Order Now</span>
             </Link>
+            <CommandPalette />
             <ThemeToggle />
             <button
               className={styles.hamburger}

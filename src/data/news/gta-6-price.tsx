@@ -9,7 +9,7 @@ export const gta6Price: ArticleData = {
   focusKeyword: 'GTA 6 price',
   h1: 'GTA 6 Price: All Editions & Expected Costs',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'July 4, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_vi_Price.webp',
   content: (
@@ -93,6 +93,14 @@ export const gta6Price: ArticleData = {
       </p>
 
 
+      <h2>GTA 6 Price in India (Estimated)</h2>
+      <p>
+        Console players in India can expect pricing to follow standard next-generation regional conversions. The estimated <strong>gta vi price in india</strong> is expected to be approximately <strong>₹5,999</strong> for the Standard Edition and <strong>₹7,999</strong> for the Ultimate Edition. This aligns with pricing tiers for AAA releases on the Indian PlayStation Store and Xbox Store.
+      </p>
+      <p>
+        Official retail distribution across India will be managed by local distributors, with pre-orders live on platforms like Amazon India and Games The Shop, alongside digital platforms.
+      </p>
+
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
         <p>
@@ -105,9 +113,16 @@ export const gta6Price: ArticleData = {
         <h2>Frequently Asked Questions</h2>
         
         <div className={styles.faqItem}>
-          <h3 className={styles.faqQuestion}>How much will GTA 6 cost?</h3>
+          <h3 className={styles.faqQuestion}>How much is GTA 6?</h3>
           <p className={styles.faqAnswer}>
-            The standard edition of GTA 6 will cost $79.99 (£79.99 / €89.99) at launch, matching standard AAA next-gen pricing.
+            GTA 6 Standard Edition is priced at $79.99 (£79.99 / €89.99 / ₹5,999) at retail launch, matching next-gen premium tiers.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How much will GTA 6 cost UK?</h3>
+          <p className={styles.faqAnswer}>
+            In the United Kingdom, the Standard Edition of GTA 6 is expected to cost £79.99, while the Ultimate Edition is priced at £99.99.
           </p>
         </div>
 
