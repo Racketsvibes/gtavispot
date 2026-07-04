@@ -5,7 +5,7 @@ import { getAllStoryArticleSlugs } from '@/data/storyContent';
 import { getAllTechArticleSlugs } from '@/data/techContent';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://gtavispot.com';
+  const baseUrl = 'https://www.gtavispot.com';
 
   const mapRoutes = getAllMapArticleSlugs().map((slug) => ({
     url: `${baseUrl}/map/${slug}/`,
