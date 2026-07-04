@@ -36,23 +36,23 @@ export default function CountdownTimer() {
   // Server-side rendering fallback
   if (!isMounted) {
     return (
-      <div style={{ display: 'flex', gap: '12px', margin: '20px 0', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', margin: '24px 0', flexWrap: 'wrap' }}>
         {['Days', 'Hours', 'Mins', 'Secs'].map((label) => (
           <div
             key={label}
             style={{
               background: 'var(--bg-secondary)',
-              padding: '12px 20px',
-              borderRadius: '12px',
+              padding: '18px 24px',
+              borderRadius: '16px',
               border: '1px solid var(--border-light)',
-              minWidth: '70px',
+              minWidth: '100px',
               textAlign: 'center',
             }}
           >
             <span
               style={{
                 display: 'block',
-                fontSize: '1.8rem',
+                fontSize: '2.5rem',
                 fontWeight: 'bold',
                 color: 'var(--brand-magenta)',
               }}
@@ -61,7 +61,7 @@ export default function CountdownTimer() {
             </span>
             <span
               style={{
-                fontSize: '0.75rem',
+                fontSize: '0.85rem',
                 textTransform: 'uppercase',
                 color: 'var(--text-muted)',
               }}
@@ -75,14 +75,14 @@ export default function CountdownTimer() {
   }
 
   return (
-    <div style={{ display: 'flex', gap: '12px', margin: '20px 0', flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', margin: '24px 0', flexWrap: 'wrap' }}>
       <div
         style={{
           background: 'var(--bg-secondary)',
-          padding: '12px 20px',
-          borderRadius: '12px',
+          padding: '18px 24px',
+          borderRadius: '16px',
           border: '1px solid var(--border-light)',
-          minWidth: '70px',
+          minWidth: '100px',
           textAlign: 'center',
           boxShadow: '0 4px 15px rgba(253, 58, 105, 0.1)',
         }}
@@ -90,7 +90,7 @@ export default function CountdownTimer() {
         <span
           style={{
             display: 'block',
-            fontSize: '1.8rem',
+            fontSize: '2.5rem',
             fontWeight: 'bold',
             color: 'var(--brand-magenta)',
             fontFamily: 'var(--font-headline), sans-serif',
@@ -100,7 +100,7 @@ export default function CountdownTimer() {
         </span>
         <span
           style={{
-            fontSize: '0.75rem',
+            fontSize: '0.85rem',
             textTransform: 'uppercase',
             color: 'var(--text-muted)',
             fontFamily: 'var(--font-ui), sans-serif',
@@ -112,10 +112,10 @@ export default function CountdownTimer() {
       <div
         style={{
           background: 'var(--bg-secondary)',
-          padding: '12px 20px',
-          borderRadius: '12px',
+          padding: '18px 24px',
+          borderRadius: '16px',
           border: '1px solid var(--border-light)',
-          minWidth: '70px',
+          minWidth: '100px',
           textAlign: 'center',
           boxShadow: '0 4px 15px rgba(138, 43, 226, 0.1)',
         }}
@@ -123,7 +123,7 @@ export default function CountdownTimer() {
         <span
           style={{
             display: 'block',
-            fontSize: '1.8rem',
+            fontSize: '2.5rem',
             fontWeight: 'bold',
             color: 'var(--brand-purple-light, #bd93f9)',
             fontFamily: 'var(--font-headline), sans-serif',
@@ -133,7 +133,7 @@ export default function CountdownTimer() {
         </span>
         <span
           style={{
-            fontSize: '0.75rem',
+            fontSize: '0.85rem',
             textTransform: 'uppercase',
             color: 'var(--text-muted)',
             fontFamily: 'var(--font-ui), sans-serif',
@@ -145,10 +145,10 @@ export default function CountdownTimer() {
       <div
         style={{
           background: 'var(--bg-secondary)',
-          padding: '12px 20px',
-          borderRadius: '12px',
+          padding: '18px 24px',
+          borderRadius: '16px',
           border: '1px solid var(--border-light)',
-          minWidth: '70px',
+          minWidth: '100px',
           textAlign: 'center',
           boxShadow: '0 4px 15px rgba(253, 58, 105, 0.1)',
         }}
@@ -156,7 +156,7 @@ export default function CountdownTimer() {
         <span
           style={{
             display: 'block',
-            fontSize: '1.8rem',
+            fontSize: '2.5rem',
             fontWeight: 'bold',
             color: 'var(--brand-magenta)',
             fontFamily: 'var(--font-headline), sans-serif',
@@ -166,7 +166,7 @@ export default function CountdownTimer() {
         </span>
         <span
           style={{
-            fontSize: '0.75rem',
+            fontSize: '0.85rem',
             textTransform: 'uppercase',
             color: 'var(--text-muted)',
             fontFamily: 'var(--font-ui), sans-serif',
@@ -178,10 +178,10 @@ export default function CountdownTimer() {
       <div
         style={{
           background: 'var(--bg-secondary)',
-          padding: '12px 20px',
-          borderRadius: '12px',
+          padding: '18px 24px',
+          borderRadius: '16px',
           border: '1px solid var(--border-light)',
-          minWidth: '70px',
+          minWidth: '100px',
           textAlign: 'center',
           boxShadow: '0 4px 15px rgba(138, 43, 226, 0.1)',
         }}
@@ -189,7 +189,7 @@ export default function CountdownTimer() {
         <span
           style={{
             display: 'block',
-            fontSize: '1.8rem',
+            fontSize: '2.5rem',
             fontWeight: 'bold',
             color: 'var(--brand-purple-light, #bd93f9)',
             fontFamily: 'var(--font-headline), sans-serif',
@@ -199,7 +199,7 @@ export default function CountdownTimer() {
         </span>
         <span
           style={{
-            fontSize: '0.75rem',
+            fontSize: '0.85rem',
             textTransform: 'uppercase',
             color: 'var(--text-muted)',
             fontFamily: 'var(--font-ui), sans-serif',

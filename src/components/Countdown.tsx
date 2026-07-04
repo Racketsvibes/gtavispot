@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import styles from './Countdown.module.css';
 
 interface TimeLeft {
@@ -75,7 +76,9 @@ export default function Countdown() {
               <span className={styles.countdownLabel}>Sec</span>
             </div>
           </div>
-          <span className={styles.countdownTag}>UNTIL LAUNCH</span>
+          <Link href="/news/gta-6-release-date/" className={styles.releaseDateBtn}>
+            Release Date
+          </Link>
         </div>
       </div>
     );
@@ -111,9 +114,9 @@ export default function Countdown() {
             <span className={styles.countdownLabel}>Sec</span>
           </div>
         </div>
-        <span className={styles.countdownTag}>
-          {isLaunched ? 'LAUNCHED' : 'UNTIL LAUNCH'}
-        </span>
+        <Link href="/news/gta-6-release-date/" className={styles.releaseDateBtn}>
+          Release Date
+        </Link>
       </div>
     </div>
   );

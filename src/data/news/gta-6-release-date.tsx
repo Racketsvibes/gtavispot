@@ -32,7 +32,7 @@ export const gta6ReleaseDate: ArticleData = {
         Grand Theft Auto 6 releases worldwide on <strong>November 19, 2026</strong>. Take-Two Interactive CEO Strauss Zelnick officially confirmed this launch window during their recent earnings report, locking in the next generation of open-world gaming. The game launches simultaneously on PlayStation 5 and Xbox Series X|S, leaving PC players to wait for a subsequent port.
       </p>
 
-      <h2>GTA 6 Countdown</h2>
+      <h2 style={{ textAlign: 'center' }}>GTA 6 Countdown</h2>
       <CountdownTimer />
 
       <div className={styles.quickAnswer}>

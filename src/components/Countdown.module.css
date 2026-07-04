@@ -1,5 +1,6 @@
 .heroCountdown {
   flex-shrink: 0;
+  margin-top: -35px; /* Lift the countdown card slightly higher */
 }
 
 .countdownCard {
@@ -125,4 +126,31 @@
   background-clip: text;
   margin: 0;
   font-weight: 400;
+}
+
+.releaseDateBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  padding: 0.85rem 2rem;
+  border-radius: 25px; /* Pill shape matching PRE-ORDER button */
+  font-family: var(--font-ui), 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: var(--brand-magenta);
+  color: white !important;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(214, 36, 110, 0.3);
+}
+
+.releaseDateBtn:hover {
+  background-color: var(--brand-pink);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(214, 36, 110, 0.55);
 }
