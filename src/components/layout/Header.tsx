@@ -6,7 +6,6 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import ThemeToggle from './ThemeToggle';
-import CommandPalette from '../command/CommandPalette';
 import styles from './Header.module.css';
 
 const newsSubNav = [
@@ -359,7 +358,6 @@ export default function Header() {
               </svg>
               <span>Pre-Order Now</span>
             </Link>
-            <CommandPalette />
             <ThemeToggle />
             <button
               className={styles.hamburger}
