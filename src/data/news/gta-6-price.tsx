@@ -9,7 +9,7 @@ export const gta6Price: ArticleData = {
   focusKeyword: 'GTA 6 price',
   h1: 'GTA 6 Price: All Editions & Expected Costs',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'July 4, 2026',
+  modifiedDate: 'July 7, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_vi_Price.webp',
   content: (
@@ -75,7 +75,7 @@ export const gta6Price: ArticleData = {
         Strauss Zelnick has stated that launching a high-profile game like GTA 6 on a subscription service on day one does not make economic sense for the company. The massive development budget requires traditional retail sales to recover costs and generate profit. Subscription platforms will likely have to wait several years before seeing GTA 6 on their services.
       </p>
       <p>
-        This policy also applies to Take-Two's own subscription service, GTA+. While GTA+ members will likely receive exclusive monthly bonuses, clothing items, and GTA Online cash, they will still need to purchase the base game at retail to play, ensuring a traditional sales model.
+        This policy also applies to Take-Two's own subscription service, GTA+. While members of the <Link href="/online/gta-plus/">premium GTA Online subscription</Link> will likely receive exclusive monthly bonuses, clothing items, and cash, they will still need to purchase the base game at retail to play, ensuring a traditional sales model.
       </p>
 
       <h2>Is the $80 Price Tag Justified?</h2>

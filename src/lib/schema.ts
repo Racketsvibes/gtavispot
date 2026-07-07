@@ -127,7 +127,7 @@ export function getArticleSchema(input: ArticleSchemaInput) {
 }
 
 // 6. Build-Time FAQ Parser
-export function getFaqsFromFile(slug: string, category: 'news' | 'map' | 'story' | 'tech'): { question: string; answer: string }[] {
+export function getFaqsFromFile(slug: string, category: 'news' | 'map' | 'story' | 'tech' | 'online'): { question: string; answer: string }[] {
   try {
     const filePath = path.join(process.cwd(), 'src/data', category, `${slug}.tsx`);
     if (!fs.existsSync(filePath)) {

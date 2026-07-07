@@ -9,7 +9,7 @@ export const gta6PcReleaseDate: ArticleData = {
   focusKeyword: 'GTA 6 PC release date',
   h1: 'GTA 6 PC Release Date: Expectations & Specs',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'July 4, 2026',
+  modifiedDate: 'July 7, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
   content: (
@@ -135,7 +135,7 @@ export const gta6PcReleaseDate: ArticleData = {
         Following the release model of Red Dead Redemption 2, the game is expected to be exclusive to the Rockstar Games Launcher and the Epic Games Store for the first 30 days. After this initial window, the game will likely launch on Steam, requiring players to link their accounts to the Rockstar Social Club client to play.
       </p>
       <p>
-        This launcher requirement also ensures that Rockstar can manage anti-cheat systems for GTA Online directly, helping to maintain a fair gaming environment for all players on PC.
+        This launcher requirement also ensures that Rockstar can manage anti-cheat systems for GTA Online directly, helping to maintain a fair gaming environment for all players on PC. PC players can also manage their <Link href="/online/gta-plus/">GTA Plus subscription</Link> directly through the launcher to claim monthly rewards in the multiplayer sandbox.
       </p>
 
       <div className={styles.callout}>

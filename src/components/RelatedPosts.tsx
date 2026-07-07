@@ -4,6 +4,7 @@ import { getAllArticles } from '@/data/newsContent';
 import { getAllStoryArticles } from '@/data/storyContent';
 import { getAllMapArticles } from '@/data/mapContent';
 import { getAllTechArticles } from '@/data/techContent';
+import { getAllOnlineArticles } from '@/data/onlineContent';
 import styles from './RelatedPosts.module.css';
 
 interface RelatedPostsProps {
@@ -64,6 +65,9 @@ const curatedRelations: Record<string, string[]> = {
   'easter-eggs': ['secret-locations', 'interiors', 'underwater'],
   'underwater': ['secret-locations', 'leonida-keys', 'easter-eggs'],
 
+  // Online articles
+  'gta-plus': ['gta-6-pc-release-date', 'gta-6-price', 'gta-6-pre-order'],
+
   // Special / Hub Pages
   'cheats': ['guides', 'walkthrough', 'gta-6-release-date'],
   'faq': ['guides', 'gta-6-release-date', 'gta-6-characters'],
@@ -123,6 +127,19 @@ export default function RelatedPosts({ category, currentSlug }: RelatedPostsProp
       img: article.featureImage || '/images/desktop.webp',
       href: `/tech/${slug}/`,
       cta: 'Read Tech Spec →',
+    });
+  });
+
+  // Add Online
+  getAllOnlineArticles().forEach(({ slug, article }) => {
+    catalog.push({
+      slug,
+      category: 'online',
+      title: article.h1 || article.title,
+      desc: article.metaDescription,
+      img: article.featureImage || '/images/desktop.webp',
+      href: `/online/${slug}/`,
+      cta: 'Read Guide →',
     });
   });
 

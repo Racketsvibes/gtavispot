@@ -3,6 +3,7 @@ import { getAllMapArticleSlugs } from '@/data/mapContent';
 import { getAllArticleSlugs } from '@/data/newsContent';
 import { getAllStoryArticleSlugs } from '@/data/storyContent';
 import { getAllTechArticleSlugs } from '@/data/techContent';
+import { getAllOnlineArticleSlugs } from '@/data/onlineContent';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://www.gtavispot.com';
@@ -131,6 +132,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly' as const,
       priority: 0.3,
     },
+    {
+      url: `${baseUrl}/online/`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
   ];
 
   const techRoutes = getAllTechArticleSlugs().map((slug) => ({
@@ -140,5 +147,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes];
+  const onlineRoutes = getAllOnlineArticleSlugs().map((slug) => ({
+    url: `${baseUrl}/online/${slug}/`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes, ...onlineRoutes];
 }
