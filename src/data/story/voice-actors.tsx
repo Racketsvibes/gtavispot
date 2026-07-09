@@ -9,7 +9,7 @@ export const voiceActors: StoryArticleData = {
   focusKeyword: 'GTA 6 voice actors',
   h1: 'GTA 6 Voice Actors: Full Cast List & Character Performers',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'July 9, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_06.webp',
   content: (
@@ -115,6 +115,9 @@ export const voiceActors: StoryArticleData = {
       </table>
       <p>
         This structured table displays the key actors who drive the main campaign. Each supporting character underwent the same rigorous casting process, ensuring the dialogue stays consistent across the entire map.
+      </p>
+      <p>
+        For instance, Spain-born actor Oscar Jaenada has been heavily linked by fans to the role of the Vice Port cartel contact. Read our overview of the <Link href="/story/gta-6-raul-bautista/">gta 6 raul bautista cast leaks</Link> to check out the latest visual comparisons and social media teases.
       </p>
 
       <h2>The Motion Capture and Performance Capture Process</h2>

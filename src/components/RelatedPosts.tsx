@@ -50,6 +50,7 @@ const curatedRelations: Record<string, string[]> = {
   'ending': ['walkthrough', 'missions', 'how-long-to-beat'],
   'how-long-to-beat': ['walkthrough', 'missions', 'story-overview'],
   'dual-protagonists': ['jason-and-lucia', 'lucia', 'jason'],
+  'gta-6-raul-bautista': ['gta-6-characters', 'voice-actors', 'jason-and-lucia'],
 
   // Map articles
   'vice-city': ['ocean-beach', 'size', 'interiors'],

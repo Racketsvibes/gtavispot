@@ -10,7 +10,7 @@ export const gta6Characters: StoryArticleData = {
   focusKeyword: 'GTA 6 Characters',
   h1: 'GTA 6 Characters: Protagonists, Cast & Real Life Rumors',
   publishedDate: 'June 26, 2026',
-  modifiedDate: 'June 26, 2026',
+  modifiedDate: 'July 9, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/gta-6-characters-feature.webp',
   content: (
@@ -190,7 +190,7 @@ export const gta6Characters: StoryArticleData = {
         />
       </div>
       <p>
-        Raul Bautista is a veteran bank robber with connections to South American cartels. He assists the protagonists in planning their high-profile bank robberies.
+        Raul Bautista is a veteran bank robber with connections to South American cartels. He assists the protagonists in planning their high-profile bank robberies. For a detailed breakdown of his background, see our complete <Link href="/story/gta-6-raul-bautista/">GTA 6 Raul Bautista</Link> character profile.
       </p>
       <ul>
         <li><strong>Crew Veteran:</strong> Brings decades of bank robbery experience to heist planning sessions.</li>
