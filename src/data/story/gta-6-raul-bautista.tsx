@@ -5,7 +5,7 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6RaulBautista: StoryArticleData = {
-  title: 'GTA 6 Raul Bautista: Character Profile, Cast Rumors & Heists',
+  title: 'GTA 6 Raul Bautista Guide: Heists, Cast & Real Leaks',
   metaDescription: 'Discover who GTA 6 Raul Bautista is. Get the latest leaks about his bank heists in Vice City, his relation to Lucia and Jason, and Spanish cast rumors.',
   focusKeyword: 'gta 6 raul bautista',
   h1: 'GTA 6 Raul Bautista: Character Profile, Cast Rumors & Heists',
@@ -61,7 +61,7 @@ export const gta6RaulBautista: StoryArticleData = {
           className={styles.featureImage} 
         />
         <p className="text-center text-muted mt-2" style={{ fontSize: '0.9rem' }}>
-          Official artwork depicting Raul Bautista holding an assault rifle outside Sinfrontera National Bank.
+          Official artwork depicting Raul Bautista holding an assault rifle outside Sinfrontera National Bank (Image credit: Rockstar Games).
         </p>
       </div>
 
@@ -87,7 +87,7 @@ export const gta6RaulBautista: StoryArticleData = {
           className={styles.featureImage} 
         />
         <p className="text-center text-muted mt-2" style={{ fontSize: '0.9rem' }}>
-          Raul Bautista acts as a crew recruiter and heist mentor in Leonida.
+          Raul Bautista acts as a crew recruiter and heist mentor in Leonida (Image credit: Rockstar Games).
         </p>
       </div>
 
@@ -110,7 +110,7 @@ export const gta6RaulBautista: StoryArticleData = {
           className={styles.featureImage} 
         />
         <p className="text-center text-muted mt-2" style={{ fontSize: '0.9rem' }}>
-          Spanish actor Oscar Jaenada is highly rumored to voice Raul Bautista in the game.
+          Spanish actor Oscar Jaenada is highly rumored to voice Raul Bautista in the game (Image credit: Rockstar Games).
         </p>
       </div>
 
