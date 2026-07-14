@@ -10,6 +10,7 @@ import { gta6NovemberRelease } from './news/gta-6-november-release';
 import { gta6PcReleaseDate } from './news/gta-6-pc-release-date';
 import { gta6CoverArt } from './news/gta-6-cover-art';
 import { rockstarNews } from './news/rockstar-news';
+import { gta6PreOrderSales } from './news/gta-6-pre-order-sales';
 
 export interface VideoSchema {
   name: string;
@@ -47,6 +48,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-pc-release-date': gta6PcReleaseDate,
   'gta-6-cover-art': gta6CoverArt,
   'rockstar-news': rockstarNews,
+  'gta-6-pre-order-sales': gta6PreOrderSales,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {

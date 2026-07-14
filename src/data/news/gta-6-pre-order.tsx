@@ -19,7 +19,7 @@ export const gta6PreOrder: ArticleData = {
   content: (
     <>
       <p>
-        GTA 6 pre-orders are officially live as of <strong>June 25, 2026</strong>, for PS5 and Xbox Series X|S. The game launches on November 19, 2026, with standard and ultimate packages available on all digital storefronts. You can reserve your copy today to lock in your bonuses and prepare for the return to Vice City.
+        GTA 6 pre-orders are officially live as of <strong>June 25, 2026</strong>, for PS5 and Xbox Series X|S. The game launches on November 19, 2026, with standard and ultimate packages available on all digital storefronts. Initial data shows a massive wave of <Link href="/news/gta-6-pre-order-sales/">pre-order performance figures</Link> indicating this will be the largest media launch in history. You can reserve your copy today to lock in your bonuses and prepare for the return to Vice City.
       </p>
 
       <PreOrderWidget />

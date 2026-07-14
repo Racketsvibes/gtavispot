@@ -15,7 +15,7 @@ export const gta6Price: ArticleData = {
   content: (
     <>
       <p>
-        The launch of Grand Theft Auto 6 will align with the pricing model for premium AAA next-generation games, starting at <strong>$79.99</strong>. Take-Two Interactive leadership has dismissed internet rumors claiming a higher entry price. Players can pre-order standard and ultimate editions across all stores.
+        The launch of Grand Theft Auto 6 will align with the pricing model for premium AAA next-generation games, starting at <strong>$79.99</strong>. Take-Two Interactive leadership has dismissed internet rumors claiming a higher entry price. Players can pre-order standard and ultimate editions across all stores, and early reports on <Link href="/news/gta-6-pre-order-sales/">pre-order sales numbers</Link> indicate high demand for the premium options.
       </p>
 
       <div className={styles.quickAnswer}>
