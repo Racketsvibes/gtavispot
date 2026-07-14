@@ -45,6 +45,10 @@ export const gta6PreOrderSales: ArticleData = {
         While Take-Two Interactive has not officially released hard unit metrics, retail analysts and digital store charts confirm the massive surge in consumer demand. Third-party trackers highlight that the game has instantly dominated digital sales lists worldwide. This momentum proves that consumer interest has only intensified during the decade-long wait since the previous installment.
       </p>
 
+      <p>
+        During Take-Two's earnings call, CEO Strauss Zelnick remarked: <strong>"We want to make sure that we deliver much more value than what we charge."</strong> This sentiment aligns with their decision to maintain standard next-gen pricing while attempting to outpace all previous franchise sales.
+      </p>
+
       <h2>How Are the GTA 6 Pre Order Sales Performing So Far?</h2>
       <p>
         Since the booking portal went live on June 25, 2026, the game has held the top spot on the PlayStation Store "All games" sales list in almost every region. Because digital store charts rank games by total revenue rather than raw unit volume, the high price point of the Ultimate Edition ($99.99) has propelled the game to the top of these rankings.
