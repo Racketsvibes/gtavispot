@@ -181,7 +181,7 @@ export const gta6PreOrder: ArticleData = {
 
       <h2>Editions Compared: Standard vs. Ultimate</h2>
       <p>
-        Compare the features and pricing of the two officially confirmed packages below:
+        Compare the features and pricing of the two officially confirmed packages below. For an in-depth review of each option, check out our breakdown of the <Link href="/news/gta-6-ultimate-edition-vs-standard/">edition variations and comparative features</Link> to help make your final decision.
       </p>
 
       <table>

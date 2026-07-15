@@ -29,14 +29,15 @@ const curatedRelations: Record<string, string[]> = {
   'gta-6-delay': ['gta-6-release-date', 'gta-6-november-release', 'gta-6-pre-order'],
   'gta-6-trailer-3': ['gta-6-cover-art', 'gta-6-new-features', 'rockstar-news'],
   'gta-6-leaks': ['gta-6-new-features', 'gta-6-trailer-3', 'rockstar-news'],
-  'gta-6-price': ['gta-6-pre-order', 'gta-6-pre-order-sales', 'gta-6-release-date'],
-  'gta-6-pre-order': ['gta-6-price', 'gta-6-pre-order-sales', 'gta-6-release-date'],
+  'gta-6-price': ['gta-6-pre-order', 'gta-6-ultimate-edition-vs-standard', 'gta-6-pre-order-sales'],
+  'gta-6-pre-order': ['gta-6-price', 'gta-6-ultimate-edition-vs-standard', 'gta-6-pre-order-sales'],
   'gta-6-new-features': ['gta-6-trailer-3', 'gta-6-leaks', 'rockstar-news'],
   'gta-6-november-release': ['gta-6-release-date', 'gta-6-delay', 'gta-6-pc-release-date'],
   'gta-6-pc-release-date': ['gta-6-release-date', 'gta-6-delay', 'gta-6-november-release'],
   'gta-6-cover-art': ['gta-6-trailer-3', 'rockstar-news', 'gta-6-pre-order'],
   'rockstar-news': ['gta-6-trailer-3', 'gta-6-new-features', 'gta-6-cover-art'],
   'gta-6-pre-order-sales': ['gta-6-pre-order', 'gta-6-price', 'gta-6-release-date'],
+  'gta-6-ultimate-edition-vs-standard': ['gta-6-pre-order', 'gta-6-price', 'gta-6-pre-order-sales'],
 
   // Story articles
   'gta-6-characters': ['lucia', 'jason', 'jason-and-lucia'],

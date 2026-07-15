@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: July 14, 2026: Added GTA 6 pre-order sales article.*
+*Last updated: July 15, 2026: Added GTA 6 Ultimate Edition vs Standard article.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -50,6 +50,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Cover Art Breakdown](https://gtavispot.com/news/gta-6-cover-art/)
 - [Developer Updates](https://gtavispot.com/news/rockstar-news/)
 - [Pre-Order Sales](https://gtavispot.com/news/gta-6-pre-order-sales/)
+- [Ultimate Edition vs Standard](https://gtavispot.com/news/gta-6-ultimate-edition-vs-standard/)
 
 ## Story & Character Guides
 - [GTA 6 Characters Guide](https://gtavispot.com/story/gta-6-characters/)
