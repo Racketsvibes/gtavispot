@@ -1,0 +1,35 @@
+export interface PostMetadata {
+  title: string;
+  desc: string;
+  date: string;
+  tag: string;
+  href: string;
+  img: string;
+}
+
+export const latestPublishedPosts: PostMetadata[] = [
+  {
+    title: 'GTA 6 Ultimate Edition vs Standard: Which One is Worth It?',
+    desc: 'Compare GTA 6 Standard and Ultimate editions. Discover pre-order prices, exclusive safehouse vehicles, weapon patterns, and bonus clothing packs.',
+    date: 'July 15, 2026',
+    tag: 'PRE-ORDER',
+    href: '/news/gta-6-ultimate-edition-vs-standard/',
+    img: '/ultimate edition and Bounses/GTA 6 Ultimate Edition.webp',
+  },
+  {
+    title: 'GTA 6 Pre-Order Sales: Global Numbers and Comparison Table',
+    desc: 'Explore updated GTA 6 pre-order sales numbers, country-wise pre-order stats, and comparison tables showing how GTA 6 sales compare to GTA 5.',
+    date: 'July 14, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-pre-order-sales/',
+    img: '/images/media__1784136051222.jpg',
+  },
+  {
+    title: 'GTA 6 Pre-Order Guide: Editions & Bonuses Live',
+    desc: 'Compare Standard and Ultimate editions, explore pre-order bonuses, and lock in the Vintage Vice City Pack.',
+    date: 'June 25, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-pre-order/',
+    img: '/ultimate edition and Bounses/GTA 6 Ultimate Edition.webp',
+  },
+];

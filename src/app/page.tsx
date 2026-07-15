@@ -11,6 +11,7 @@ import {
   getFAQSchema,
   getBreadcrumbsSchema
 } from '@/lib/schema';
+import { latestPublishedPosts } from '@/data/postsMetadata';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -18,33 +19,7 @@ export const metadata = {
   description: 'Your ultimate GTA 6 guide. Get the latest verified news, interactive Vice City map, story character profiles, specs, and launch countdown.',
 };
 
-/* ── Static Data ── */
-const latestNews = [
-  {
-    title: 'GTA 6 Pre-Order Guide: Editions & Bonuses Live',
-    desc: 'Compare Standard and Ultimate editions, explore pre-order bonuses, and lock in the Vintage Vice City Pack.',
-    date: 'June 25, 2026',
-    tag: 'PRE-ORDER',
-    href: '/news/gta-6-pre-order/',
-    img: '/ultimate edition and Bounses/GTA 6 Ultimate Edition.webp',
-  },
-  {
-    title: 'GTA VI Official Trailer Breaks Internet Records',
-    desc: 'The official reveal trailer becomes the most viewed video in 24 hours on YouTube.',
-    date: 'May 15, 2024',
-    tag: 'NEWS',
-    href: '/news/gta-6-trailer-3/',
-    img: '/images/Cluster_1/GTA_Vi_Trailer_3.webp',
-  },
-  {
-    title: 'Welcome to Vice City',
-    desc: 'A modern take on the iconic city with stunning visuals and incredible detail.',
-    date: 'May 10, 2024',
-    tag: 'NEWS',
-    href: '/map/vice-city/',
-    img: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_01.webp',
-  },
-];
+
 
 const mainCharacters = [
   {
@@ -266,11 +241,11 @@ export default function HomePage() {
             {/* Right — News Grid */}
             <div>
               <div className={styles.sectionHeader}>
-                <h2 className={styles.sectionTitle}>Latest News</h2>
+                <h2 className={styles.sectionTitle}>Latest Updates</h2>
                 <Link href="/news/" className={styles.viewAll}>View All News →</Link>
               </div>
               <div className={styles.newsGrid}>
-                {latestNews.map((news) => (
+                {latestPublishedPosts.map((news) => (
                   <Link href={news.href} key={news.title} className={styles.newsCard}>
                     <div className={styles.newsImgWrap}>
                       <Image src={news.img} alt={news.title} fill sizes="(max-width: 768px) 100vw, 25vw" />
