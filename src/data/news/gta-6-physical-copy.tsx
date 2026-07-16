@@ -262,49 +262,54 @@ export const gta6PhysicalCopy: ArticleData = {
         />
       </div>
 
-      <h2>FAQs About the GTA 6 Physical Copy</h2>
-      <p>
-        Here are answers to the most common questions circulating on forums regarding the physical release format:
-      </p>
+      <section className={styles.faqSection}>
+        <h2>FAQs About the GTA 6 Physical Copy</h2>
+        <p>
+          Here are answers to the most common questions circulating on forums regarding the physical release format:
+        </p>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', margin: '24px 0' }}>
-        <div>
-          <h4 style={{ margin: '0 0 8px 0', fontSize: '1.1rem', color: 'var(--brand-magenta)' }}>Does the GTA 6 physical edition contain a disc?</h4>
-          <p style={{ margin: 0 }}>
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Does the GTA 6 physical edition contain a disc?</h3>
+          <p className={styles.faqAnswer}>
             No, the physical edition doesn't contain a Blu-ray disc. It includes only a digital voucher code printed on a cardboard insert inside the case.
           </p>
         </div>
-        <div>
-          <h4 style={{ margin: '0 0 8px 0', fontSize: '1.1rem', color: 'var(--brand-magenta)' }}>Can I buy a physical edition for Xbox Series S or PS5 Digital Edition?</h4>
-          <p style={{ margin: 0 }}>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Can I buy a physical edition for Xbox Series S or PS5 Digital Edition?</h3>
+          <p className={styles.faqAnswer}>
             Yes, because the physical case contains a digital voucher code instead of a disc, it's fully compatible with all digital-only consoles.
           </p>
         </div>
-        <div>
-          <h4 style={{ margin: '0 0 8px 0', fontSize: '1.1rem', color: 'var(--brand-magenta)' }}>When is the GTA 6 disc release date at retail stores?</h4>
-          <p style={{ margin: 0 }}>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>When is the GTA 6 disc release date at retail stores?</h3>
+          <p className={styles.faqAnswer}>
             The physical boxed edition will be available at retailers on November 12, 2026, allowing players to redeem their codes and pre-load files before the November 19 launch.
           </p>
         </div>
-        <div>
-          <h4 style={{ margin: '0 0 8px 0', fontSize: '1.1rem', color: 'var(--brand-magenta)' }}>Will there be a physical map inside the GTA 6 box?</h4>
-          <p style={{ margin: 0 }}>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Will there be a physical map inside the GTA 6 box?</h3>
+          <p className={styles.faqAnswer}>
             No, Rockstar Games has omitted the traditional printed paper map from the standard physical release package to reduce paper consumption.
           </p>
         </div>
-        <div>
-          <h4 style={{ margin: '0 0 8px 0', fontSize: '1.1rem', color: 'var(--brand-magenta)' }}>Can I resell or trade in my GTA 6 physical copy?</h4>
-          <p style={{ margin: 0 }}>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Can I resell or trade in my GTA 6 physical copy?</h3>
+          <p className={styles.faqAnswer}>
             No, the digital code can only be redeemed once and binds permanently to your console account, making used game trade-ins impossible.
           </p>
         </div>
-        <div>
-          <h4 style={{ margin: '0 0 8px 0', fontSize: '1.1rem', color: 'var(--brand-magenta)' }}>Why are some game stores boycotting the GTA 6 physical copy?</h4>
-          <p style={{ margin: 0 }}>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Why are some game stores boycotting the GTA 6 physical copy?</h3>
+          <p className={styles.faqAnswer}>
             Some independent retail shops are refusing to stock code-in-box products because they can't participate in the profitable pre-owned game resale market.
           </p>
         </div>
-      </div>
+      </section>
 
       <p>
         Gamers planning to secure a <strong>gta 6 physical copy</strong> should expect a standard retail case carrying a digital voucher slip rather than a physical Blu-ray disc. 
