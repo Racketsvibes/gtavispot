@@ -12,6 +12,7 @@ import { gta6CoverArt } from './news/gta-6-cover-art';
 import { rockstarNews } from './news/rockstar-news';
 import { gta6PreOrderSales } from './news/gta-6-pre-order-sales';
 import { gta6UltimateVsStandard } from './news/gta-6-ultimate-edition-vs-standard';
+import { gta6PhysicalCopy } from './news/gta-6-physical-copy';
 
 export interface VideoSchema {
   name: string;
@@ -51,6 +52,7 @@ const articlesMap: Record<string, ArticleData> = {
   'rockstar-news': rockstarNews,
   'gta-6-pre-order-sales': gta6PreOrderSales,
   'gta-6-ultimate-edition-vs-standard': gta6UltimateVsStandard,
+  'gta-6-physical-copy': gta6PhysicalCopy,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {

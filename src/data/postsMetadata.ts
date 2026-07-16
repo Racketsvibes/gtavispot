@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Physical Copy: Disc Release & Pre-Order Details',
+    desc: 'Will GTA 6 have a disc? Read our full guide on the GTA 6 physical copy, including disc pre-orders, no-disc rumors, and code-in-box edition differences.',
+    date: 'July 16, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-physical-copy/',
+    img: '/images/gta-6-physical-copy-box.webp',
+  },
+  {
     title: 'GTA 6 Ultimate Edition vs Standard: Which One is Worth It?',
     desc: 'Compare GTA 6 Standard and Ultimate editions. Discover pre-order prices, exclusive safehouse vehicles, weapon patterns, and bonus clothing packs.',
     date: 'July 15, 2026',

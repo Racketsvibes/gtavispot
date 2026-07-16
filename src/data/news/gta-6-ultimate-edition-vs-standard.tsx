@@ -10,7 +10,7 @@ export const gta6UltimateVsStandard: ArticleData = {
   focusKeyword: 'gta 6 ultimate edition vs standard',
   h1: 'GTA 6 Ultimate Edition vs Standard: Which One to Buy?',
   publishedDate: 'July 15, 2026',
-  modifiedDate: 'July 15, 2026',
+  modifiedDate: 'July 16, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_landscape.webp',
   content: (
@@ -47,7 +47,7 @@ export const gta6UltimateVsStandard: ArticleData = {
 
       <h2>GTA 6 Ultimate Edition vs Standard: Key Differences</h2>
       <p>
-        The primary differences between the two packages lie in the exclusive digital content and access to custom safehouses. The Standard Edition grants full access to the base game client and the Vintage Vice City pre-order bonuses. The Ultimate Edition builds on this foundation by adding custom vehicles, high-end weaponry, and custom shops around Leonida.
+        The primary differences between the two packages lie in the exclusive digital content and access to custom safehouses. The Standard Edition grants full access to the base game client and the Vintage Vice City pre-order bonuses. This structure applies whether you purchase a digital version or a <Link href="/news/gta-6-physical-copy/">gta 6 physical copy</Link> from a retail store. The Ultimate Edition builds on this foundation by adding custom vehicles, high-end weaponry, and custom shops around Leonida.
       </p>
       
       <p>

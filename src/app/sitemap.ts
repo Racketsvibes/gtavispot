@@ -15,12 +15,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
-  const newsRoutes = getAllArticleSlugs().map((slug) => ({
-    url: `${baseUrl}/news/${slug}/`,
-    lastModified: new Date(),
-    changeFrequency: 'daily' as const,
-    priority: 0.8,
-  }));
+  const newsModifiedDates: Record<string, string> = {
+    'gta-6-physical-copy': '2026-07-16',
+    'gta-6-ultimate-edition-vs-standard': '2026-07-16',
+    'gta-6-pre-order': '2026-07-16',
+    'gta-6-pre-order-sales': '2026-07-14',
+    'gta-6-release-date': '2026-06-25',
+  };
+
+  const newsRoutes = getAllArticleSlugs().map((slug) => {
+    const dateStr = newsModifiedDates[slug];
+    const lastModified = dateStr ? new Date(dateStr) : new Date();
+    return {
+      url: `${baseUrl}/news/${slug}/`,
+      lastModified,
+      changeFrequency: 'daily' as const,
+      priority: 0.8,
+    };
+  });
 
   const storyRoutes = getAllStoryArticleSlugs().map((slug) => ({
     url: `${baseUrl}/story/${slug}/`,
