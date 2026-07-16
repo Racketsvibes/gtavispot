@@ -159,12 +159,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
-  const onlineRoutes = getAllOnlineArticleSlugs().map((slug) => ({
-    url: `${baseUrl}/online/${slug}/`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
-  }));
+  const onlineModifiedDates: Record<string, string> = {
+    'the-kortz-center-heist': '2026-07-16',
+    'gta-plus': '2026-07-07',
+  };
+
+  const onlineRoutes = getAllOnlineArticleSlugs().map((slug) => {
+    const dateStr = onlineModifiedDates[slug];
+    const lastModified = dateStr ? new Date(dateStr) : new Date();
+    return {
+      url: `${baseUrl}/online/${slug}/`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    };
+  });
 
   return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes, ...onlineRoutes];
 }

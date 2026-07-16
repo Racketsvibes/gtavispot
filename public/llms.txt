@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: July 16, 2026: Added GTA 6 Physical Copy article.*
+*Last updated: July 16, 2026: Added GTA Online The Kortz Center Heist guide.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -22,6 +22,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 
 ## GTA Online Articles
 - [GTA+ Subscription Guide](https://gtavispot.com/online/gta-plus/)
+- [The Kortz Center Heist Guide](https://gtavispot.com/online/the-kortz-center-heist/)
 
 ## Map Articles
 - [Vice City District Guide](https://gtavispot.com/map/vice-city/)

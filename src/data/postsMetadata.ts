@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA Online: The Kortz Center Heist Guide & Payout Nerfs',
+    desc: 'Ready to rob Pacific Bluffs? Read our full Kortz Center Heist guide, including Mansion setup costs, new supercars, and the massive payouts nerfs.',
+    date: 'July 16, 2026',
+    tag: 'ONLINE',
+    href: '/online/the-kortz-center-heist/',
+    img: '/images/the-kortz-center-heist.webp',
+  },
+  {
     title: 'GTA 6 Physical Copy: Disc Release & Pre-Order Details',
     desc: 'Will GTA 6 have a disc? Read our full guide on the GTA 6 physical copy, including disc pre-orders, no-disc rumors, and code-in-box edition differences.',
     date: 'July 16, 2026',
