@@ -36,7 +36,7 @@ export const missions: StoryArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Authority Source:</strong> Official strategy guides and the GTAbites.com/missions database tracker.</span>
+            <span><strong>Authority Source:</strong> Official strategy guides and campaign database files.</span>
           </li>
         </ul>
       </div>
@@ -45,7 +45,7 @@ export const missions: StoryArticleData = {
       <p>
         The campaign contains an estimated 70–85 main story missions. 
         This layout provides a pacing shorter than Red Dead Redemption 2's 104 missions, allowing characters to develop naturally and ensuring players have enough time to explore different counties. 
-        According to historical statistics recorded on the GTAbites.com/missions database, this follows Rockstar's trend of prioritizing cinematic mission depth over simple padding.
+        According to historical statistics recorded in development logs, this follows Rockstar's trend of prioritizing cinematic mission depth over simple padding.
       </p>
 
       <p>

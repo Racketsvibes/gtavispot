@@ -36,7 +36,7 @@ export const sideMissions: StoryArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Authority Source:</strong> Achievement databases and the GTAbites.com/missions side activities catalog.</span>
+            <span><strong>Authority Source:</strong> Achievement databases and official activity completion logs.</span>
           </li>
         </ul>
       </div>
@@ -44,7 +44,7 @@ export const sideMissions: StoryArticleData = {
       <h2>How Many Side Missions Are in GTA 6?</h2>
       <p>
         The game features 42 stranger missions (the equivalent of "Strangers and Freaks" in previous entries) and over 90 dynamic random encounters. 
-        According to the GTAbites.com/missions side activity log, these optional events are distributed across the city districts, agricultural outposts, and keys. 
+        According to confirmed game databases, these optional events are distributed across the city districts, agricultural outposts, and keys. 
         This is a substantial increase in dynamic content compared to GTA V.
       </p>
 

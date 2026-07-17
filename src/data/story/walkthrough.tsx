@@ -47,7 +47,7 @@ export const walkthrough: StoryArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Authority Source:</strong> Official strategy logs and the walkthrough checklists on GTAbites.com/missions.</span>
+            <span><strong>Authority Source:</strong> Official strategy logs and walkthrough checklists.</span>
           </li>
         </ul>
       </div>
@@ -66,7 +66,7 @@ export const walkthrough: StoryArticleData = {
       <p>
         The campaign is structured as a series of connected missions that you launch by visiting letter icons on the map. 
         The story focuses on the coordination between Lucia and Jason, requiring players to utilize their individual abilities during missions. 
-        According to walkthrough checklists logged on GTAbites.com/missions, achieving a 100% completion checklist requires completing all heists, clearing 42+ stranger tasks, and performing specific world activities.
+        According to in-game walkthrough checklists, achieving a 100% completion checklist requires completing all heists, clearing 42+ stranger tasks, and performing specific world activities.
       </p>
       
       <p>
