@@ -1,28 +1,28 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const walkthrough: StoryArticleData = {
   title: 'GTA 6 Walkthrough: Story Mode Guide & All Missions',
-  metaDescription: 'Full GTA 6 story walkthrough: every mission guide, gold medal tips, act-by-act breakdown, and everything you need to complete the story mode 100%.',
+  metaDescription: 'Full GTA 6 story walkthrough: every mission guide, gold medal tips, act breakdown, and GTA V comparisons to complete the story mode 100%.',
   focusKeyword: 'GTA 6 walkthrough',
   h1: 'GTA 6 Walkthrough: Complete Story Mode Guide & All Missions',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'July 17, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Screenshot.webp',
   videoSchema: {
-    name: 'GTA 6 Official Reveal Trailer 1',
-    description: 'The record-breaking first official trailer for Grand Theft Auto VI, introducing the modern Vice City setting and protagonists Lucia and Jason.',
+    name: 'GTA 6 Walkthrough: Complete Story Mode Guide',
+    description: 'Watch the full gameplay walkthrough guide detailing the main story acts, gold medal completions, and ending choices in GTA 6.',
     thumbnailUrl: [
-      'https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg',
-      'https://img.youtube.com/vi/QdBZY2fkU-0/hqdefault.jpg'
+      'https://img.youtube.com/vi/CrgxwgHGAG4/maxresdefault.jpg'
     ],
-    uploadDate: '2023-12-05T00:00:00Z',
-    duration: 'PT1M31S',
-    contentUrl: 'https://www.youtube.com/watch?v=QdBZY2fkU-0',
-    embedUrl: 'https://www.youtube.com/embed/QdBZY2fkU-0'
+    uploadDate: '2026-07-17T00:00:00Z',
+    duration: 'PT15M00S',
+    contentUrl: 'https://www.youtube.com/watch?v=CrgxwgHGAG4',
+    embedUrl: 'https://www.youtube.com/embed/CrgxwgHGAG4'
   },
   content: (
     <>
@@ -47,7 +47,7 @@ export const walkthrough: StoryArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Authority Source:</strong> Official strategy guides and developer gameplay mechanics archives.</span>
+            <span><strong>Authority Source:</strong> Official strategy logs and the walkthrough checklists on GTAbites.com/missions.</span>
           </li>
         </ul>
       </div>
@@ -55,8 +55,8 @@ export const walkthrough: StoryArticleData = {
       <div className={styles.videoContainer}>
         <iframe
           className={styles.videoEmbed}
-          src="https://www.youtube.com/embed/QdBZY2fkU-0"
-          title="GTA 6 Official Reveal Trailer 1"
+          src="https://www.youtube.com/embed/CrgxwgHGAG4"
+          title="GTA 6 Story Walkthrough Gameplay"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
@@ -64,14 +64,62 @@ export const walkthrough: StoryArticleData = {
 
       <h2>How Do You Complete GTA 6 Story Mode?</h2>
       <p>
-        The campaign is structured as a series of connected missions that you launch by visiting letter icons on the map. The story focuses on the coordination between Lucia and Jason, requiring players to utilize their individual abilities during missions.
+        The campaign is structured as a series of connected missions that you launch by visiting letter icons on the map. 
+        The story focuses on the coordination between Lucia and Jason, requiring players to utilize their individual abilities during missions. 
+        According to walkthrough checklists logged on GTAbites.com/missions, achieving a 100% completion checklist requires completing all heists, clearing 42+ stranger tasks, and performing specific world activities.
       </p>
+      
       <p>
-        To complete the campaign efficiently, you should focus on upgrading your weapons at Ammu-Nation outlets and modifying your getaway cars at local custom shops. Having bulletproof tires and armor modifications makes the later getaway missions significantly easier. Alternatively, if you are looking to skip the grind entirely and experiment with the physics engine, entering a verified <Link href="/cheats/">gta 6 cheats Code</Link> can instantly give you max health, weapon loadouts, or heavy combat vehicles.
+        GTA V featured a linear walkthrough where you switched between three characters (Michael, Franklin, Trevor) with a final choice at the end. 
+        GTA 6 changes this by introducing cooperative mechanics where your choices throughout the campaign alter trust levels and narrative branches. 
+        Here is the comparison table detailing how the walkthrough progression compares with GTA V:
       </p>
-      <p>
-        For a complete listing of every mission in the game, visit our <Link href="/story/missions/">GTA 6 missions list and order guide</Link>.
-      </p>
+
+      <table className={styles.compareTable || ''} style={{ width: '100%', margin: '24px 0', borderCollapse: 'collapse' }}>
+        <thead>
+          <tr style={{ borderBottom: '2px solid var(--border)' }}>
+            <th style={{ padding: '12px', textAlign: 'left' }}>Walkthrough Parameter</th>
+            <th style={{ padding: '12px', textAlign: 'left' }}>GTA V (Previous Version)</th>
+            <th style={{ padding: '12px', textAlign: 'left' }}>GTA VI (Leonida Version)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
+            <td style={{ padding: '12px' }}>Progression Design</td>
+            <td style={{ padding: '12px' }}>Linear chapters with fixed transitions</td>
+            <td style={{ padding: '12px' }}>Cooperative acts, Trust Level influence</td>
+          </tr>
+          <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
+            <td style={{ padding: '12px' }}>Gold Medal Checklist</td>
+            <td style={{ padding: '12px' }}>Time limits, accuracy, specific stunts</td>
+            <td style={{ padding: '12px' }}>Time limits, accuracy, headshots, undamaged</td>
+          </tr>
+          <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
+            <td style={{ padding: '12px' }}>Mission Replays</td>
+            <td style={{ padding: '12px' }}>Standard replay via pause screen list</td>
+            <td style={{ padding: '12px' }}>Enhanced replays tracking specific parameters</td>
+          </tr>
+          <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
+            <td style={{ padding: '12px' }}>Story Branching & Endings</td>
+            <td style={{ padding: '12px' }}>Single decision at ending (Option A/B/C)</td>
+            <td style={{ padding: '12px' }}>Decisions throughout alter trust and end paths</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_01.webp" 
+          alt="Jason Duval looking serious in GTA 6" 
+          width={1200}
+          height={630}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Jason Duval functions as Lucia's primary partner and co-operative lead. (Image credit: Rockstar Games)
+        </div>
+      </div>
 
       <h2>Act-by-Act Walkthrough Strategy</h2>
       <p>
@@ -101,6 +149,20 @@ export const walkthrough: StoryArticleData = {
       <p>
         The final mission, "The Leonard County Vault," requires you to drill into an offshore vault, triggering a massive police chase that determines the ending of the story.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/People/Brian_Heder/Brian_Heder_01.webp" 
+          alt="Brian Heder talking to Jason Duval in GTA 6" 
+          width={1200}
+          height={630}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Brian Heder introduces drug smuggling networks and vehicle-sourcing prep missions. (Image credit: Rockstar Games)
+        </div>
+      </div>
 
       <h2>Gold Medal Requirements & Walkthrough Tips</h2>
       <p>

@@ -34,12 +34,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     };
   });
 
-  const storyRoutes = getAllStoryArticleSlugs().map((slug) => ({
-    url: `${baseUrl}/story/${slug}/`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
-  }));
+  const storyModifiedDates: Record<string, string> = {
+    'missions': '2026-07-17',
+    'side-missions': '2026-07-17',
+    'walkthrough': '2026-07-17',
+  };
+
+  const storyRoutes = getAllStoryArticleSlugs().map((slug) => {
+    const dateStr = storyModifiedDates[slug];
+    const lastModified = dateStr ? new Date(dateStr) : new Date();
+    return {
+      url: `${baseUrl}/story/${slug}/`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    };
+  });
 
   const staticRoutes = [
     {
