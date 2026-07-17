@@ -332,9 +332,28 @@
 }
 
 .newsGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
   gap: 1.5rem;
+  padding-bottom: 1.25rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--brand-magenta) var(--surface-hover);
+}
+
+.newsGrid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.newsGrid::-webkit-scrollbar-track {
+  background: var(--surface-hover);
+  border-radius: 4px;
+}
+
+.newsGrid::-webkit-scrollbar-thumb {
+  background: var(--brand-magenta);
+  border-radius: 4px;
 }
 
 .newsCard {
@@ -345,6 +364,8 @@
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 0 0 calc(33.333% - 1rem);
+  scroll-snap-align: start;
 }
 
 .newsCard:hover {
@@ -968,8 +989,8 @@
     grid-template-columns: 1fr;
   }
 
-  .newsGrid {
-    grid-template-columns: repeat(3, 1fr);
+  .newsCard {
+    flex: 0 0 calc(50% - 0.75rem);
   }
 
   .charactersGrid {
@@ -1018,8 +1039,8 @@
     font-size: clamp(3rem, 12vw, 4.5rem);
   }
 
-  .newsGrid {
-    grid-template-columns: 1fr;
+  .newsCard {
+    flex: 0 0 85%;
   }
 
   .charactersGrid {

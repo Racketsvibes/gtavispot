@@ -38,7 +38,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     date: 'July 14, 2026',
     tag: 'NEWS',
     href: '/news/gta-6-pre-order-sales/',
-    img: '/images/media__1784136051222.jpg',
+    img: '/images/media__1784136051222.webp',
   },
   {
     title: 'GTA 6 Pre-Order Guide: Editions & Bonuses Live',
