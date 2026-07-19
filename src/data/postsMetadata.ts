@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Hacker: Sentencing, Retrial & Latest Updates',
+    desc: 'Get the latest updates on the GTA 6 hacker, Arion Kurtaj. Learn about the Lapsus$ cyberattack, his court sentence, and the November 2026 retrial.',
+    date: 'July 19, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-hacker/',
+    img: '/images/gta-6-hacker-leak.webp',
+  },
+  {
     title: 'GTA Online: The Kortz Center Heist Guide & Payout Nerfs',
     desc: 'Ready to rob Pacific Bluffs? Read our full Kortz Center Heist guide, including Mansion setup costs, new supercars, and the massive payouts nerfs.',
     date: 'July 16, 2026',

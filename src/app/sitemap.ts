@@ -16,6 +16,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   const newsModifiedDates: Record<string, string> = {
+    'gta-6-hacker': '2026-07-19',
+    'gta-6-leaks': '2026-07-19',
     'gta-6-physical-copy': '2026-07-16',
     'gta-6-ultimate-edition-vs-standard': '2026-07-16',
     'gta-6-pre-order': '2026-07-16',

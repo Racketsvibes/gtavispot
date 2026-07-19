@@ -9,7 +9,7 @@ export const gta6Leaks: ArticleData = {
   focusKeyword: 'GTA 6 leaks',
   h1: 'GTA 6 Leaks & Rumors: Confirmed vs Unconfirmed',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'July 19, 2026',
   author: 'Marcus Vance',
    featureImage: '/images/Cluster_1/GTA_6_Leaks_&_Rumours.webp',
   content: (
@@ -45,7 +45,7 @@ export const gta6Leaks: ArticleData = {
         On September 18, 2022, a user named "teapotuberhacker" uploaded 90 videos containing early development footage of GTA 6 to GTAForums. This security breach represented the most significant leak in modern gaming history. The footage showed debug gameplay, animation assets, physics testing, and character dialogue.
       </p>
       <p>
-        Rockstar Games released a statement confirming the intrusion, stating that an unauthorized third party had accessed confidential systems. However, they assured players that the breach would not delay long-term development. The hacker was identified as a member of the Lapsus$ hacking group and was prosecuted in a London court.
+        Rockstar Games released a statement confirming the intrusion, stating that an unauthorized third party had accessed confidential systems. However, they assured players that the breach would not delay long-term development. The hacker was identified as a member of the Lapsus$ hacking group and was prosecuted in a London court. The case brought international attention to the <Link href="/news/gta-6-hacker/">Arion Kurtaj cyberattacks</Link>, demonstrating the vulnerability of major studios.
       </p>
       <p>
         According to court proceedings and Wikipedia reports on the Lapsus$ hacker trials, the perpetrator was Arion Kurtaj, an 18-year-old who used a retail hotel television and an Amazon Fire Stick to breach Rockstar's internal Slack servers. Kurtaj was sentenced to indefinite hospital placement due to security risks, closing the legal chapter of the intrusion.
