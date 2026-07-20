@@ -34,13 +34,6 @@
   transition: transform 0.4s ease;
 }
 
-@media (max-width: 768px) {
-  .thumbnail {
-    object-fit: contain;
-    background: #06040a;
-  }
-}
-
 .cover:hover .thumbnail {
   transform: scale(1.03);
 }
