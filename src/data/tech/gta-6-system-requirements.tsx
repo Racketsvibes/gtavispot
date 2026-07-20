@@ -12,8 +12,8 @@ export const gta6SystemRequirements: ArticleData = {
   publishedDate: 'July 20, 2026',
   modifiedDate: 'July 20, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
-  featureImageAlt: 'GTA 6 system requirements hardware breakdown for PlayStation 5 and Xbox Series X',
+  featureImage: '/images/tech/gta-6-system-requirements.webp',
+  featureImageAlt: 'GTA 6 system requirements hardware specs for PlayStation 5 and Xbox Series X',
   videoSchema: {
     name: 'GTA 6 System Requirements & Console Performance Analysis',
     description: 'Technical analysis of PlayStation 5, PS5 Pro, and Xbox Series X|S hardware requirements and 60 FPS performance targets for Grand Theft Auto VI.',
@@ -147,8 +147,8 @@ export const gta6SystemRequirements: ArticleData = {
 
       <div className={styles.featureImageContainer}>
         <Image 
-          src="/images/Vice_City_01.332891cf.webp" 
-          alt="GTA 6 Vice City rendering showcase highlighting lighting performance and density" 
+          src="/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_01.webp" 
+          alt="GTA 6 Vice City graphics and performance mode lighting rendering showcase" 
           width={1200}
           height={630}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"

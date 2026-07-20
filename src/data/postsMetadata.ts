@@ -14,7 +14,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     date: 'July 20, 2026',
     tag: 'TECH',
     href: '/tech/gta-6-system-requirements/',
-    img: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
+    img: '/images/tech/gta-6-system-requirements.webp',
   },
   {
     title: 'GTA 6 Hacker: Sentencing, Retrial & Latest Updates',
