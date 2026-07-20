@@ -1,7 +1,7 @@
 .playerWrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 16/10; /* Match the news card image aspect ratio exactly */
+  aspect-ratio: 16/9; /* Match 16:9 video and thumbnail ratio */
   background: #000;
   overflow: hidden;
 }
@@ -23,14 +23,22 @@
   overflow: hidden;
   padding: 0;
   border: none;
-  background: none;
+  background: #000;
   display: block;
   text-align: left;
 }
 
 .thumbnail {
   object-fit: cover;
+  object-position: center;
   transition: transform 0.4s ease;
+}
+
+@media (max-width: 768px) {
+  .thumbnail {
+    object-fit: contain;
+    background: #06040a;
+  }
 }
 
 .cover:hover .thumbnail {

@@ -375,13 +375,15 @@
 
 .newsImgWrap {
   position: relative;
-  aspect-ratio: 16/10;
+  aspect-ratio: 16/9;
   width: 100%;
   overflow: hidden;
+  background: #06040a;
 }
 
 .newsImgWrap img {
   object-fit: cover;
+  object-position: center;
   transition: transform 0.4s ease;
 }
 
@@ -1040,7 +1042,12 @@
   }
 
   .newsCard {
-    flex: 0 0 85%;
+    flex: 0 0 88%;
+  }
+
+  .newsImgWrap img {
+    object-fit: contain;
+    background: #06040a;
   }
 
   .charactersGrid {
