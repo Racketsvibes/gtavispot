@@ -164,12 +164,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
-  const techRoutes = getAllTechArticleSlugs().map((slug) => ({
-    url: `${baseUrl}/tech/${slug}/`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
-  }));
+  const techModifiedDates: Record<string, string> = {
+    'gta-6-system-requirements': '2026-07-20',
+  };
+
+  const techRoutes = getAllTechArticleSlugs().map((slug) => {
+    const dateStr = techModifiedDates[slug];
+    const lastModified = dateStr ? new Date(dateStr) : new Date();
+    return {
+      url: `${baseUrl}/tech/${slug}/`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    };
+  });
 
   const onlineModifiedDates: Record<string, string> = {
     'the-kortz-center-heist': '2026-07-16',

@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 System Requirements: PS5 & Xbox Hardware Specs',
+    desc: 'Check GTA 6 system requirements for PS5, PS5 Pro, and Xbox Series X|S. Compare 60fps performance mode targets, console hardware specs, and PC details.',
+    date: 'July 20, 2026',
+    tag: 'TECH',
+    href: '/tech/gta-6-system-requirements/',
+    img: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
+  },
+  {
     title: 'GTA 6 Hacker: Sentencing, Retrial & Latest Updates',
     desc: 'Get the latest updates on the GTA 6 hacker, Arion Kurtaj. Learn about the Lapsus$ cyberattack, his court sentence, and the November 2026 retrial.',
     date: 'July 19, 2026',

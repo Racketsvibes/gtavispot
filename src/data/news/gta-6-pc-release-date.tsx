@@ -121,7 +121,7 @@ export const gta6PcReleaseDate: ArticleData = {
       </ul>
 
       <p>
-        The CPU requirement will be a bottleneck. GTA 6 features dense crowds and complex AI routines, which require high processing power. Players planning to play on PC will need a modern multi-core processor to maintain stable framerates.
+        The CPU requirement will be a bottleneck. GTA 6 features dense crowds and complex AI routines, which require high processing power. Players planning to play on PC will need a modern multi-core processor to maintain stable framerates. For a detailed breakdown of launch hardware specifications and console frame rate targets, see our <Link href="/tech/gta-6-system-requirements/">console hardware and performance analysis</Link>.
       </p>
       <p>
         If you want to read about why the release dates might change or check the history of Rockstar's schedule shifts, see our <Link href="/news/gta-6-delay/">GTA 6 delay history timeline</Link>.

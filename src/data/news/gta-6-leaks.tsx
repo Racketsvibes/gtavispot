@@ -131,7 +131,7 @@ export const gta6Leaks: ArticleData = {
         For details on when you can pre-order and secure exclusive physical editions, see our <Link href="/news/gta-6-pre-order/">GTA 6 pre-order guide</Link>.
       </p>
       <p>
-        These script names also confirmed several minor activities, including golf, tennis, drag racing, and street robbery encounters. While these activities are standard for the series, their references in the active script database confirms they have been built into the engine, ensuring a feature-rich launch in November 2026.
+        These script names also confirmed several minor activities, including golf, tennis, drag racing, and street robbery encounters. The leaked debug metrics also provided key data on CPU thread utilization, which we analyze in our <Link href="/tech/gta-6-system-requirements/">console system requirements breakdown</Link>.
       </p>
 
       <div className={styles.callout}>
