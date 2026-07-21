@@ -165,6 +165,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ];
 
   const techModifiedDates: Record<string, string> = {
+    'gta-6-pc-requirements': '2026-07-21',
     'gta-6-system-requirements': '2026-07-20',
   };
 

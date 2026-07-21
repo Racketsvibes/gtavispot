@@ -1,6 +1,7 @@
 import React from 'react';
 import { howBigWillGta6Be } from './tech/how-big-will-gta-6-be';
 import { gta6SystemRequirements } from './tech/gta-6-system-requirements';
+import { gta6PcRequirements } from './tech/gta-6-pc-requirements';
 
 export interface VideoSchema {
   name: string;
@@ -29,6 +30,7 @@ export interface ArticleData {
 const techArticlesMap: Record<string, ArticleData> = {
   'how-big-will-gta-6-be': howBigWillGta6Be,
   'gta-6-system-requirements': gta6SystemRequirements,
+  'gta-6-pc-requirements': gta6PcRequirements,
 };
 
 export function getTechArticleBySlug(slug: string): ArticleData | undefined {

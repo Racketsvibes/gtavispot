@@ -57,7 +57,7 @@ export const howBigWillGta6Be: ArticleData = {
         Most industry reports suggest the final <strong>gta 6 size in gb</strong> will land somewhere between 150 GB and 200 GB. This aligns with modern AAA games that feature high-resolution textures, dense NPC environments, and advanced physics.
       </p>
       <p>
-        Comparing this to other Rockstar games, <em>Red Dead Redemption 2</em> takes up roughly 150 GB of storage. Given the advanced visual improvements and massive map size of the Leonida state, a slightly higher file size is the most realistic estimate.
+        Comparing this to other Rockstar games, <em>Red Dead Redemption 2</em> takes up roughly 150 GB of storage. Given the advanced visual improvements and massive map size of the Leonida state, a slightly higher file size is the most realistic estimate. For desktop gamers planning storage upgrades, see our full guide on <Link href="/tech/gta-6-pc-requirements/">gta 6 ssd requirements</Link>.
       </p>
 
       <h2>Debunking the Fake 676.7 GB Storage Rumors</h2>

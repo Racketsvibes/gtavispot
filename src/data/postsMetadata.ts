@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 PC Requirements: Specs, Hardware & RAM Guide',
+    desc: 'Check official gta 6 pc requirements for minimum, recommended, and ultra 4K specs. Compare GTA 5 vs GTA 6 hardware, laptop setups, and RAM baseline.',
+    date: 'July 21, 2026',
+    tag: 'TECH',
+    href: '/tech/gta-6-pc-requirements/',
+    img: '/images/tech/gta-6-pc-requirements.webp',
+  },
+  {
     title: 'GTA 6 System Requirements: PS5 & Xbox Hardware Specs',
     desc: 'Check GTA 6 system requirements for PS5, PS5 Pro, and Xbox Series X|S. Compare 60fps performance mode targets, console hardware specs, and PC details.',
     date: 'July 20, 2026',

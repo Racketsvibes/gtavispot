@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: July 20, 2026: Added GTA 6 System Requirements article.*
+*Last updated: July 21, 2026: Added GTA 6 PC Requirements article.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -73,6 +73,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 ## Tech & Platform Articles
 - [How Big Will GTA 6 Be](https://gtavispot.com/tech/how-big-will-gta-6-be/)
 - [GTA 6 System Requirements](https://gtavispot.com/tech/gta-6-system-requirements/)
+- [GTA 6 PC Requirements](https://gtavispot.com/tech/gta-6-pc-requirements/)
 
 ## Utility & Legal Pages
 - [About Us](https://gtavispot.com/about/)
