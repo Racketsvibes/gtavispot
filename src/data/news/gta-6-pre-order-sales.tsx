@@ -12,7 +12,7 @@ export const gta6PreOrderSales: ArticleData = {
   publishedDate: 'July 14, 2026',
   modifiedDate: 'July 14, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/GTAVI_Artwork_images/Official_Cover_Art/Official_Cover_Art_landscape.webp',
+  featureImage: '/images/Cluster_1/GTA_VI_Pre-order.webp',
   content: (
     <>
       <p>

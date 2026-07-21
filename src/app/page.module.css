@@ -282,7 +282,7 @@
    ══════════════════════════════════════════════ */
 .trailerNewsGrid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 360px minmax(0, 1fr);
   gap: 2.5rem;
   align-items: stretch;
 }
