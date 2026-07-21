@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { ArticleData } from '../techContent';
 import styles from '../../app/tech/[slug]/page.module.css';
 
