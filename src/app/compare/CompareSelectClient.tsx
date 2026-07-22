@@ -12,6 +12,15 @@ interface SelectorEntity {
   type: string;
 }
 
+interface ArticleMetadata {
+  title: string;
+  desc: string;
+  date: string;
+  tag: string;
+  href: string;
+  img: string;
+}
+
 interface CompareSelectClientProps {
   entities: {
     character: SelectorEntity[];
@@ -20,9 +29,10 @@ interface CompareSelectClientProps {
     weapon: SelectorEntity[];
     business: SelectorEntity[];
   };
+  articles: ArticleMetadata[];
 }
 
-export default function CompareSelectClient({ entities }: CompareSelectClientProps) {
+export default function CompareSelectClient({ entities, articles }: CompareSelectClientProps) {
   const router = useRouter();
   const [activeCategory, setActiveCategory] = useState<keyof typeof entities>('character');
 
@@ -157,6 +167,51 @@ export default function CompareSelectClient({ entities }: CompareSelectClientPro
             ))}
           </div>
         </div>
+
+        {/* Comparison Guides & Articles */}
+        {articles && articles.length > 0 && (
+          <div className="space-y-4 pt-4">
+            <span className="text-xs font-bold uppercase tracking-wider text-gray-500 block text-center">
+              Comparison Guides &amp; Articles
+            </span>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {articles.map((article) => (
+                <Link
+                  key={article.title}
+                  href={article.href}
+                  className="group rounded-3xl border border-white/5 bg-[#12141c]/40 hover:bg-[#181d28]/60 overflow-hidden transition-all hover:border-pink-500/25 flex flex-col sm:flex-row"
+                >
+                  <div className="relative w-full sm:w-2/5 aspect-[16/9] sm:aspect-auto sm:min-h-[140px] overflow-hidden">
+                    <img
+                      src={article.img}
+                      alt={article.title}
+                      className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
+                    <div>
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-[9px] font-bold text-pink-500 bg-pink-500/10 px-2 py-0.5 rounded uppercase tracking-wider">
+                          {article.tag}
+                        </span>
+                        <span className="text-[9px] text-gray-500">{article.date}</span>
+                      </div>
+                      <h3 className="font-bold text-sm text-gray-200 line-clamp-2 group-hover:text-white transition-colors">
+                        {article.title}
+                      </h3>
+                      <p className="text-xs text-gray-400 line-clamp-2 mt-1 leading-relaxed">
+                        {article.desc}
+                      </p>
+                    </div>
+                    <span className="text-[10px] font-bold text-pink-400 group-hover:text-pink-300 flex items-center gap-1">
+                      Read Comparison <ArrowRight className="h-3 w-3" />
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

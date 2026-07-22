@@ -5,6 +5,7 @@ import { locationApplication } from '@/backend/application/location.application'
 import { vehicleApplication } from '@/backend/application/vehicle.application';
 import { weaponApplication } from '@/backend/application/weapon.application';
 import { businessApplication } from '@/backend/application/business.application';
+import { latestPublishedPosts } from '@/data/postsMetadata';
 import CompareSelectClient from './CompareSelectClient';
 
 export const metadata: Metadata = {
@@ -54,5 +55,7 @@ export default async function ComparePage() {
     business: mapList(bus, 'business'),
   };
 
-  return <CompareSelectClient entities={data} />;
+  const compareArticles = latestPublishedPosts.filter(post => post.tag === 'COMPARE');
+
+  return <CompareSelectClient entities={data} articles={compareArticles} />;
 }
