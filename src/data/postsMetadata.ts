@@ -9,8 +9,8 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
-    title: 'GTA 6 vs GTA 5: Full Comparison, Map, Graphics & Price',
-    desc: 'Compare GTA 6 vs GTA 5 across map size, graphics, pricing, story, and online mechanics. Explore key differences, file sizes, and generational features.',
+    title: 'GTA 6 vs GTA 5: Full Comparison & Key Differences',
+    desc: 'Check our full GTA 6 vs GTA 5 comparison guide. Compare map size, Lucia & Jason vs Michael & Trevor, next-gen graphics, launch prices, and system specs.',
     date: 'July 22, 2026',
     tag: 'COMPARE',
     href: '/compare/gta-6-vs-gta-5/',
