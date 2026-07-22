@@ -4,6 +4,7 @@ import { getAllArticleSlugs } from '@/data/newsContent';
 import { getAllStoryArticleSlugs } from '@/data/storyContent';
 import { getAllTechArticleSlugs } from '@/data/techContent';
 import { getAllOnlineArticleSlugs } from '@/data/onlineContent';
+import { getAllCompareArticleSlugs } from '@/data/compareContent';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://www.gtavispot.com';
@@ -196,5 +197,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     };
   });
 
-  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes, ...onlineRoutes];
+  const compareModifiedDates: Record<string, string> = {
+    'gta-6-vs-gta-5': '2026-07-22',
+  };
+
+  const compareRoutes = getAllCompareArticleSlugs().map((slug) => {
+    const dateStr = compareModifiedDates[slug];
+    const lastModified = dateStr ? new Date(dateStr) : new Date();
+    return {
+      url: `${baseUrl}/compare/${slug}/`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    };
+  });
+
+  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes, ...onlineRoutes, ...compareRoutes];
 }

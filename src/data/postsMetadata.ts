@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 vs GTA 5: Full Comparison, Map, Graphics & Price',
+    desc: 'Compare GTA 6 vs GTA 5 across map size, graphics, pricing, story, and online mechanics. Explore key differences, file sizes, and generational features.',
+    date: 'July 22, 2026',
+    tag: 'COMPARE',
+    href: '/compare/gta-6-vs-gta-5/',
+    img: '/images/compare/gta-6-vs-gta-5.webp',
+  },
+  {
     title: 'GTA 6 PC Requirements: Specs, Hardware & RAM Guide',
     desc: 'Check official gta 6 pc requirements for minimum, recommended, and ultra 4K specs. Compare GTA 5 vs GTA 6 hardware, laptop setups, and RAM baseline.',
     date: 'July 21, 2026',
