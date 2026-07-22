@@ -13,7 +13,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     desc: 'Check our full GTA 6 vs GTA 5 comparison guide. Compare map size, Lucia & Jason vs Michael & Trevor, next-gen graphics, launch prices, and system specs.',
     date: 'July 22, 2026',
     tag: 'COMPARE',
-    href: '/compare/gta-6-vs-gta-5/',
+    href: '/compare/',
     img: '/images/compare/gta-6-vs-gta-5.webp',
   },
   {
