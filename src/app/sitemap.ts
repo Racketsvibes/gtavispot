@@ -121,6 +121,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/compare/gta-6-vs-gta-5/`,
+      lastModified: new Date('2026-07-23'),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/about/`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,

@@ -189,7 +189,7 @@ export const gta6PcRequirements: ArticleData = {
 
       <h2>GTA 5 Requirements for PC vs GTA 6 PC Requirements (Comparison Table)</h2>
       <p>
-        Comparing historical hardware baselines highlights the massive technological leap between GTA V and GTA VI on desktop systems. For a comprehensive overview of map size, gameplay changes, and pricing differences, check our complete <Link href="/compare/">GTA 6 vs GTA 5 differences</Link> breakdown. The comparison table below contrasts original <strong>gta 5 requirements for pc</strong> specs with predicted GTA 6 hardware baselines:
+        Comparing historical hardware baselines highlights the massive technological leap between GTA V and GTA VI on desktop systems. For a comprehensive overview of map size, gameplay changes, and pricing differences, check our complete <Link href="/compare/gta-6-vs-gta-5/">GTA 6 vs GTA 5 differences</Link> breakdown. The comparison table below contrasts original <strong>gta 5 requirements for pc</strong> specs with predicted GTA 6 hardware baselines:
       </p>
 
       <table>

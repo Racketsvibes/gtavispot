@@ -1,557 +1,109 @@
 import React from 'react';
-import { Metadata } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
-import ShareButtons from '@/components/ShareButtons';
-import RelatedPosts from '@/components/RelatedPosts';
-import styles from '../tech/[slug]/page.module.css';
+import { getAllCompareArticles } from '@/data/compareContent';
+import { getBreadcrumbsSchema } from '@/lib/schema';
+import styles from '../tech/page.module.css';
 
-export const metadata: Metadata = {
-  title: 'GTA 6 vs GTA 5: Full Comparison & Key Differences',
-  description: 'Check our full GTA 6 vs GTA 5 comparison guide. Compare map size, Lucia & Jason vs Michael & Trevor, next-gen graphics, launch prices, and system specs.',
+export const metadata = {
+  title: 'GTA 6 Comparisons & Key Differences | GTA Vi Spot',
+  description: 'Explore side-by-side comparisons of GTA 6 vs GTA 5 and other franchise titles. Compare settings, map size, protagonists, pricing, and system requirements.',
   alternates: {
     canonical: 'https://gtavispot.com/compare/',
   },
-  openGraph: {
-    title: 'GTA 6 vs GTA 5: Full Comparison & Key Differences',
-    description: 'Check our full GTA 6 vs GTA 5 comparison guide. Compare map size, Lucia & Jason vs Michael & Trevor, next-gen graphics, launch prices, and system specs.',
-    url: 'https://gtavispot.com/compare/',
-    type: 'article',
-    images: [
-      {
-        url: 'https://gtavispot.com/images/compare/gta-6-vs-gta-5.webp',
-        width: 1200,
-        height: 630,
-        alt: 'GTA 6 vs GTA 5 visual comparison showing Los Santos and Vice City sunset side by side',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'GTA 6 vs GTA 5: Full Comparison & Key Differences',
-    description: 'Check our full GTA 6 vs GTA 5 comparison guide. Compare map size, Lucia & Jason vs Michael & Trevor, next-gen graphics, launch prices, and system specs.',
-    images: ['https://gtavispot.com/images/compare/gta-6-vs-gta-5.webp'],
-  },
 };
 
-export default function ComparePage() {
-  const pageUrl = 'https://gtavispot.com/compare/';
-  const pageTitle = 'GTA 6 vs GTA 5: Full Comparison & Key Differences';
+export default function CompareHubPage() {
+  const articles = getAllCompareArticles();
 
-  const breadcrumbsSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://gtavispot.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Compare",
-        "item": pageUrl
-      }
-    ]
-  };
-
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "GTA 6 vs GTA 5: Full Comparison & Key Differences",
-    "description": "Check our full GTA 6 vs GTA 5 comparison guide. Compare map size, Lucia & Jason vs Michael & Trevor, next-gen graphics, launch prices, and system specs.",
-    "image": "https://gtavispot.com/images/compare/gta-6-vs-gta-5.webp",
-    "datePublished": "2026-07-22T00:00:00Z",
-    "dateModified": "2026-07-23T00:00:00Z",
-    "author": {
-      "@type": "Person",
-      "name": "Marcus Vance"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "GTA VI Spot",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://gtavispot.com/images/logo.webp"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": pageUrl
-    }
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much larger is the GTA 6 map compared to GTA 5?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The state of Leonida in GTA 6 is estimated to be roughly 2.5 times larger than GTA 5's Los Santos and Blaine County map. Leonida features six distinct environmental zones, including three major cities and massive Everglades wetlands, compared to GTA 5's single urban hub."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Will GTA 6 run at 60 FPS like GTA 5?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "While GTA 5 achieves 60 FPS on current-gen consoles, GTA 6 is targeted to run at a locked 30 FPS on PS5 and Xbox Series X due to heavy CPU simulation loads from dense NPC populations, traffic physics, and global ray tracing. A 60 FPS performance mode is rumored but unconfirmed."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the price difference between GTA 6 and GTA 5 at launch?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "GTA 6 Standard Edition is officially priced at $79.99 and the Ultimate Edition at $99.99 for PS5 and Xbox Series X|S. By comparison, GTA 5 launched in 2013 at the standard seventh-generation price of $59.99."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Will GTA 6 have multiple playable protagonists like GTA 5?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, but with a different dynamic. GTA 6 features a dual-protagonist crime duo (Lucia and Jason) with a shared inventory and relationship mechanics. GTA 5 featured three separate protagonists (Michael, Franklin, and Trevor) whose stories crossed paths in Los Santos."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is GTA 6 launching on PC alongside PS5 and Xbox?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. Rockstar Games has officially announced GTA 6 for PlayStation 5 and Xbox Series X|S only for the November 19, 2026 launch. Following Rockstar's historical release cycles, the PC version is expected to debut 12 to 18 months later, likely in late 2027 or early 2028."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does the wanted system differ in GTA 6 vs GTA 5?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "GTA 6 introduces a dynamic wanted system that tracks player descriptions, including specific clothing, masks, and vehicles. Changing your outfit or vehicle out of sight allows you to break pursuits instantly. GTA 5 used a binary cone-of-vision system where hiding in tunnels or bushes was the primary escape route."
-        }
-      }
-    ]
-  };
+  // Pinned article is 'gta-6-vs-gta-5'
+  const pinnedArticle = articles.find(a => a.slug === 'gta-6-vs-gta-5');
+  const otherArticles = articles.filter(a => a.slug !== 'gta-6-vs-gta-5');
 
   return (
     <div className={styles.wrapper}>
-      {/* Schema Markups */}
+      {/* Breadcrumbs Schema */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            getBreadcrumbsSchema([
+              { name: 'Home', url: 'https://gtavispot.com' },
+              { name: 'Compare', url: 'https://gtavispot.com/compare/' }
+            ])
+          )
+        }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-
-      {/* Breadcrumbs */}
-      <div className={`container ${styles.breadcrumbs}`}>
-        <Link href="/" className={styles.breadLink}>Home</Link>
-        <span className={styles.breadSep}>/</span>
-        <span className={styles.breadCurrent}>GTA 6 vs GTA 5</span>
-      </div>
-
-      <article className={`container ${styles.article}`}>
-        <header className={styles.header}>
-          <span className={styles.categoryBadge}>GTA 6 COMPARISON HUB</span>
-          <h1 className={styles.title}>{pageTitle}</h1>
-          <div className={styles.meta}>
-            <span className={styles.metaItem}>By <strong>Marcus Vance</strong></span>
-            <span className={styles.metaSep}>•</span>
-            <span className={styles.metaItem}>Published: July 22, 2026</span>
-            <span className={styles.metaSep}>•</span>
-            <span className={styles.metaItem}>Last Updated: July 23, 2026</span>
-          </div>
-        </header>
-
-        <ShareButtons url={pageUrl} title={pageTitle} isTop />
-
-        <div className={styles.divider} />
-
-        <div className={styles.featureImageContainer}>
-          <Image 
-            src="/images/compare/gta-6-vs-gta-5.webp" 
-            alt="GTA 6 vs GTA 5 graphic comparison showing Los Santos and Vice City sunset split screen" 
-            width={1200}
-            height={630}
-            priority
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-            className={styles.featureImage} 
-          />
+      <header className={styles.header}>
+        <div className={`container ${styles.headerInner}`}>
+          <span className={styles.categoryLabel}>GAME COMPARISONS</span>
+          <h1 className={styles.title}>
+            GTA 6 <span className="text-gradient">Comparisons</span>
+          </h1>
+          <p className={styles.desc}>
+            Side-by-side breakdowns of Grand Theft Auto VI against GTA V, previous franchise landmarks, and competitor titles. Contrast map sizes, game mechanics, and graphics engines.
+          </p>
         </div>
+      </header>
 
-        <div className={styles.body}>
-          <p>
-            Deciding whether <strong>GTA 6 vs GTA 5</strong> represents the single biggest technological leap in open world evolution requires assessing how Rockstar Games has rebuilt its systems over the past decade. With Grand Theft Auto V selling over 230 million copies GTA 5 worldwide, Grand Theft Auto VI carries the weight of replacing a cultural phenomenon when it launches on November 19, 2026.
-          </p>
-
-          <div className={styles.quickAnswer}>
-            <span className={styles.quickAnswerTitle}>Quick Comparison: RAGE 9 Engine Generational Leap</span>
-            <ul className={styles.quickAnswerList}>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Map Scale:</strong> GTA 6 features Leonida, a state modeled after Florida, which is roughly 2.5x larger than GTA 5's Los Santos.</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Protagonists:</strong> A dual dynamic duo (Lucia and Jason) replaces the three-character structure of Michael, Franklin, and Trevor.</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Launch Price:</strong> GTA 6 debuts at $79.99 Standard / $99.99 Ultimate, compared to GTA 5's original $59.99 launch price.</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Storage Size:</strong> GTA 6 occupies 150–200 GB on SSD storage, compared to GTA 5's current 105 GB install footprint.</span>
-              </li>
-            </ul>
-          </div>
-
-          <h2>GTA 6 vs GTA 5: The Ultimate Generational Comparison</h2>
-          <p>
-            To help you digest how these two titles compare across key features, the structured breakdown below highlights the primary architectural differences between Los Santos and the new state of Leonida:
-          </p>
-
-          <table>
-            <thead>
-              <tr>
-                <th>Feature / Metric</th>
-                <th>Grand Theft Auto V (Los Santos)</th>
-                <th>Grand Theft Auto VI (Leonida State)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Official Setting</strong></td>
-                <td>Los Santos city &amp; Blaine County (Southern California)</td>
-                <td>Leonida State, including Vice City (Florida)</td>
-              </tr>
-              <tr>
-                <td><strong>Map Size (Estimated)</strong></td>
-                <td>~75 km² total landmass</td>
-                <td>~180-200 km² landmass (2.5x larger)</td>
-              </tr>
-              <tr>
-                <td><strong>Protagonists</strong></td>
-                <td>Michael De Santa, Franklin Clinton, Trevor Philips</td>
-                <td>Lucia and Jason (Cooperative crime partners)</td>
-              </tr>
-              <tr>
-                <td><strong>Playable Platforms</strong></td>
-                <td>PS3, PS4, PS5, Xbox 360, Xbox One, Xbox Series X|S, PC</td>
-                <td>PlayStation 5, Xbox Series X|S (No PC at launch)</td>
-              </tr>
-              <tr>
-                <td><strong>Required Storage</strong></td>
-                <td>~105 GB on modern HDD or SSD</td>
-                <td>150–200 GB (High-speed NVMe SSD mandatory)</td>
-              </tr>
-              <tr>
-                <td><strong>Base Launch Price</strong></td>
-                <td>$59.99 Standard Edition (2013)</td>
-                <td>$79.99 Standard / $99.99 Ultimate (2026)</td>
-              </tr>
-              <tr>
-                <td><strong>Engine Architecture</strong></td>
-                <td>Rockstar Games engine (RAGE 7)</td>
-                <td>RAGE engine upgrade (RAGE 9 with Ray Tracing)</td>
-              </tr>
-              <tr>
-                <td><strong>Online Integration</strong></td>
-                <td>GTA Online (P2P matchmaking lobbies)</td>
-                <td>GTA Online Successor (Roleplay integration &amp; dedicated features)</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <h2 id="map-size">GTA 6 vs GTA 5 map size</h2>
-          <p>
-            Map scale represents the most immediate physical difference between these two worlds. In GTA 5, Blaine County and Los Santos provide a dense urban playground flanked by a single mountainous desert region covering roughly 75 square kilometers.
-          </p>
-          <p>
-            By contrast, examining the <strong>GTA 6 map size km2</strong> reveals an environment estimated to span over 180 square kilometers. The Leonida state vs Los Santos comparison is not just about raw territory; it is about geographical diversity. Rather than three basic zones, GTA VI divides Leonida into six distinct environmental zones. 
-          </p>
-          <p>
-            These zones include the neon-drenched metropolis of Vice City, the swampy Grassrivers everglades, the sandy vacation resorts of the Leonida Keys, the heavy industrial complexes of Ambrosia, the rustic agricultural fields of Port Gellhorn, and the high-elevation peaks of Mount Kalaga.
-          </p>
-
-          <div className={styles.quickAnswer} style={{ margin: '1.5rem 0' }}>
-            <span className={styles.quickAnswerTitle}>Key Map Size Differences</span>
-            <ul className={styles.quickAnswerList}>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Total Landmass:</strong> GTA 6 covers roughly 180-200 km² compared to GTA 5's 75 km².</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Geographical Zones:</strong> 6 distinct environmental zones in Leonida vs. 3 basic regions in Los Santos/Blaine County.</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Urban Density:</strong> Three major city hubs (Vice City, Port Gellhorn, and Ambrosia) vs. one primary metropolitan area (Los Santos).</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Water Bodies:</strong> Dynamic Everglades (Grassrivers) and key islands (Leonida Keys) vs. a single encircling ocean.</span>
-              </li>
-            </ul>
-          </div>
-
-          <div className={styles.featureImageContainer}>
-            <Image 
-              src="/images/GTA_6_Map_Size.webp" 
-              alt="GTA 6 Map Size vs GTA 5 Map Size visual km2 comparison outline" 
-              width={1200}
-              height={630}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-              className={styles.featureImage} 
-            />
-          </div>
-
-          <h2 id="graphics">GTA 6 vs GTA 5 graphics comparison</h2>
-          <p>
-            Graphics technology has undergone a massive shift since GTA 5 first debuted on seventh-generation consoles in 2013. GTA 5 relied on baked static shadow maps and simple screen-space reflections, which looked great for its era but lacked realistic light propagation.
-          </p>
-          <p>
-            GTA 6 introduces a massive RAGE engine upgrade that targets native hardware-accelerated global illumination and real-time path-traced reflections. The <strong>GTA 6 ray tracing vs GTA 5 graphics</strong> differences are evident in how light behaves in wet conditions. Sunset reflections off wet asphalt in Vice City display accurate light bounces that shift dynamically with passing traffic.
-          </p>
-          <p>
-            Rockstar has also integrated next-generation physics pipelines, featuring strand-by-strand hair physics for main characters, custom clothing deformation during movement, and reactive water ripples that deform based on boat hull speed.
-          </p>
-
-          <div className={styles.quickAnswer} style={{ margin: '1.5rem 0' }}>
-            <span className={styles.quickAnswerTitle}>Key Graphical Overhauls</span>
-            <ul className={styles.quickAnswerList}>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Ray Tracing Baseline:</strong> GTA 6 targets real-time ray-traced global illumination and reflection pipelines, whereas GTA 5 relies on static baked shadow maps.</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Character Physics:</strong> Next-generation strand-by-strand hair physics and custom clothing deformation vs. legacy static models.</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Environment Interaction:</strong> Dynamic weather physics, deforming water bodies, and volumetric clouds vs. traditional skybox rendering.</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Performance Ratios:</strong> Locked 30 FPS target for fidelity on base consoles due to dense crowd AI simulation vs. 60 FPS performance modes in GTA 5.</span>
-              </li>
-            </ul>
-          </div>
-
-          <h2 id="story">GTA 6 vs GTA 5 story and protagonists</h2>
-          <p>
-            Narrative structure has shifted from a chaotic trio to an intimate crime partnership. GTA 5 divided player attention across three distinct characters. Michael, Franklin, and Trevor's stories crossed paths in Los Santos:
-          </p>
-          <ul className={styles.quickAnswerList} style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
-            <li className={styles.quickAnswerItem}>
-              <span className={styles.quickAnswerDot}>•</span>
-              <span>Michael, a retired bank robber;</span>
-            </li>
-            <li className={styles.quickAnswerItem}>
-              <span className={styles.quickAnswerDot}>•</span>
-              <span>Franklin, a street hustler; and</span>
-            </li>
-            <li className={styles.quickAnswerItem}>
-              <span className={styles.quickAnswerDot}>•</span>
-              <span>Trevor, a volatile drug runner.</span>
-            </li>
-          </ul>
-
-          <div className={styles.featureImageContainer}>
-            <Image 
-              src="/images/compare/gta-5-main-characters.webp" 
-              alt="GTA 5 main characters Michael, Franklin, and Trevor lineup showcase" 
-              width={1200}
-              height={630}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-              className={styles.featureImage} 
-            />
-          </div>
-
-          <p>
-            GTA 6 centers around a dual-character love story featuring the <strong>GTA 6 Lucia Jason protagonists</strong>. Heavily inspired by Bonnie and Clyde, players switch between these cooperative partners:
-          </p>
-          <ul className={styles.quickAnswerList} style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
-            <li className={styles.quickAnswerItem}>
-              <span className={styles.quickAnswerDot}>•</span>
-              <span>Lucia, a street-smart former inmate, and</span>
-            </li>
-            <li className={styles.quickAnswerItem}>
-              <span className={styles.quickAnswerDot}>•</span>
-              <span>Jason, her tactical partner.</span>
-            </li>
-          </ul>
-
-          <p>
-            This cooperative structure introduces deep gameplay changes. Instead of separate bank accounts, the duo shares heist loot, coordinates tactical breaches, and displays emotional responses that shift based on choices made during campaigns.
-          </p>
-
-          <div className={styles.featureImageContainer}>
-            <Image 
-              src="/images/compare/gta-5-prologue-mission.webp" 
-              alt="GTA 5 prologue bank heist mission showing early gameplay graphics" 
-              width={1200}
-              height={630}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-              className={styles.featureImage} 
-            />
-          </div>
-
-          <h2 id="wanted-system">GTA 6 wanted system how it works</h2>
-          <p>
-            Police AI and escape mechanics have been completely overhauled for the next-gen exclusive. In GTA 5, the wanted system operated on a binary radar basis. Once you broke the police line-of-sight, you simply waited for the flashing stars to disappear, often by hiding in subway tunnels or the Los Santos storm drain.
-          </p>
-          <p>
-            Evaluating the <strong>GTA 6 wanted system how it works</strong> reveals a highly tactical simulation. Police dispatch units no longer spawn instantly; they require visual confirmation of your crimes or calls from witnesses holding mobile devices. 
-          </p>
-          <p>
-            Once a pursuit begins, dispatchers log your physical characteristics. Officers will track you by your clothes, masks, and vehicle license plates. To successfully escape, players must change outfits, swap cars in low-visibility alleys, or purchase disguises.
-          </p>
-
-          <h2 id="online">GTA 6 vs GTA 5 online mode</h2>
-          <p>
-            Grand Theft Auto Online has been Take-Two Interactive's most successful commercial product, generating billions in revenue over its lifecycle. However, GTA Online is built on legacy peer-to-peer matchmaking codes, making it highly susceptible to hackers and network latency.
-          </p>
-          <p>
-            The <strong>GTA 6 vs GTA 5 online mode</strong> comparison showcases how Rockstar plans to integrate community-driven platforms. Following Rockstar's acquisition of the FiveM roleplay platform, the GTA Online successor is expected to feature native roleplay tools, custom server hosting configurations, and dedicated servers to eliminate lag.
-          </p>
-
-          <div className={styles.featureImageContainer}>
-            <Image 
-              src="/images/compare/gta-5-grass-roots-michael.webp" 
-              alt="GTA 5 Grass Roots mission showing Michael De Santa gameplay" 
-              width={1200}
-              height={630}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-              className={styles.featureImage} 
-            />
-          </div>
-
-          <h2 id="price">GTA 6 vs GTA 5 price and launch details</h2>
-          <p>
-            Upgrading to a next-gen sandbox comes with higher launch costs and platform limits. While GTA 5 originally debuted on PS3 and Xbox 360 at the standard price of $59.99, GTA 6 is launching exclusively at $79.99 for the Standard Edition and $99.99 for the Ultimate pre-order bundle.
-          </p>
-          <p>
-            Furthermore, platform availability is highly restricted. The game is a <strong>GTA 6 PS5 Xbox only no PC</strong> launch on November 19, 2026. PC players must wait for a desktop port. 
-          </p>
-          <p>
-            Storage footprints have also expanded. You will need a high-speed NVMe SSD with at least 150 GB of free space, representing a massive jump over GTA 5's legacy 105 GB size.
-          </p>
-
-          <div className={styles.quickAnswer} style={{ margin: '1.5rem 0' }}>
-            <span className={styles.quickAnswerTitle}>Key Pricing &amp; Launch Statistics</span>
-            <ul className={styles.quickAnswerList}>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>GTA 5 Launch Price (2013):</strong> $59.99 (Standard Edition).</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>GTA 6 Launch Price (2026):</strong> $79.99 (Standard Edition) | $99.99 (Ultimate Edition).</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>Launch Platforms:</strong> PS5 &amp; Xbox Series X|S only (No PC at launch) vs. PS3 &amp; Xbox 360 (GTA 5's original platform).</span>
-              </li>
-              <li className={styles.quickAnswerItem}>
-                <span className={styles.quickAnswerDot}>•</span>
-                <span><strong>SSD File Size Requirement:</strong> 150 GB to 200 GB NVMe SSD space vs. GTA 5's current 105 GB install footprint.</span>
-              </li>
-            </ul>
-          </div>
-
-          <h2>GTA 5 Cut Content Returning in GTA 6</h2>
-          <p>
-            In a fascinating developer update, legacy Rockstar Games engineer John Ricchio confirmed that several mini-games and interactive systems originally cut from GTA 5 due to hardware limits will return in the RAGE 9 engine:
-          </p>
-
-          <blockquote style={{ borderLeft: '4px solid var(--brand-magenta)', paddingLeft: '1rem', fontStyle: 'italic', margin: '1.5rem 0' }}>
-            "During the development of GTA V, we had to scrap complex mini-games like 3-on-3 street basketball, dynamic bowling, and ocean surfing because the Xbox 360 and PS3 CPUs couldn't handle the physics loops alongside the open-world simulation. With the next-gen hardware baseline of GTA VI, we've been able to bring these interactive sports back to life in Vice City."
-            <br />
-            <strong style={{ fontStyle: 'normal', display: 'block', marginTop: '0.5rem' }}>— John Ricchio, Former Rockstar Games Systems Programmer (July 21, 2026)</strong>
-          </blockquote>
-
-          <p>
-            For more details on when the PC version will launch, read our <Link href="/news/gta-6-pc-release-date/">GTA 6 PC release date window analysis</Link>. If you need to prepare your computer's specs for the eventual launch, consult our guide on <Link href="/tech/gta-6-pc-requirements/">GTA 6 PC requirements</Link>.
-          </p>
-
-          <div className={styles.callout}>
-            <span className={styles.calloutTitle}>Key Comparison Verdict</span>
-            <p>
-              GTA 6 represents a massive generational leap over GTA 5, offering a map that is 2.5x larger, fully path-traced ray tracing graphics, a complex clothing-tracked wanted system, and a dual-protagonist love story that overrides GTA 5's legacy design.
+      {/* Pinned Compare Article Section */}
+      {pinnedArticle && (
+        <section className={`container ${styles.pinnedSection}`}>
+          <div className={styles.pinnedCard}>
+            <div className={styles.pinnedBadge}>FEATURED COMPARISON</div>
+            <h2 className={styles.pinnedTitle}>
+              <Link href={`/compare/${pinnedArticle.slug}/`} className={styles.pinnedLink}>
+                {pinnedArticle.article.h1}
+              </Link>
+            </h2>
+            <p className={styles.pinnedDesc}>
+              {pinnedArticle.article.metaDescription}
             </p>
+            <div className={styles.pinnedMeta}>
+              <span>By <strong>{pinnedArticle.article.author}</strong></span>
+              <span className={styles.metaSep}>•</span>
+              <span>Last Updated: {pinnedArticle.article.modifiedDate}</span>
+            </div>
+            <Link href={`/compare/${pinnedArticle.slug}/`} className={styles.pinnedCta}>
+              Read Comparison Guide
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </Link>
           </div>
+        </section>
+      )}
 
-          <section className={styles.faqSection}>
-            <h2>Frequently Asked Questions</h2>
-
-            <div className={styles.faqItem}>
-              <h3 className={styles.faqQuestion}>How much larger is the GTA 6 map compared to GTA 5?</h3>
-              <p className={styles.faqAnswer}>
-                The state of Leonida in GTA 6 is estimated to be roughly 2.5 times larger than GTA 5's Los Santos and Blaine County map. Leonida features six distinct environmental zones, including three major cities and massive Everglades wetlands, compared to GTA 5's single urban hub.
-              </p>
-            </div>
-
-            <div className={styles.faqItem}>
-              <h3 className={styles.faqQuestion}>Will GTA 6 run at 60 FPS like GTA 5?</h3>
-              <p className={styles.faqAnswer}>
-                While GTA 5 achieves 60 FPS on current-gen consoles, GTA 6 is targeted to run at a locked 30 FPS on PS5 and Xbox Series X due to heavy CPU simulation loads from dense NPC populations, traffic physics, and global ray tracing. A 60 FPS performance mode is rumored but unconfirmed.
-              </p>
-            </div>
-
-            <div className={styles.faqItem}>
-              <h3 className={styles.faqQuestion}>What is the price difference between GTA 6 and GTA 5 at launch?</h3>
-              <p className={styles.faqAnswer}>
-                GTA 6 Standard Edition is officially priced at $79.99 and the Ultimate Edition at $99.99 for PS5 and Xbox Series X|S. By comparison, GTA 5 launched in 2013 at the standard seventh-generation price of $59.99.
-              </p>
-            </div>
-
-            <div className={styles.faqItem}>
-              <h3 className={styles.faqQuestion}>Will GTA 6 have multiple playable protagonists like GTA 5?</h3>
-              <p className={styles.faqAnswer}>
-                Yes, but with a different dynamic. GTA 6 features a dual-protagonist crime duo (Lucia and Jason) with a shared inventory and relationship mechanics. GTA 5 featured three separate protagonists (Michael, Franklin, and Trevor) whose stories crossed paths in Los Santos.
-              </p>
-            </div>
-
-            <div className={styles.faqItem}>
-              <h3 className={styles.faqQuestion}>Is GTA 6 launching on PC alongside PS5 and Xbox?</h3>
-              <p className={styles.faqAnswer}>
-                No. Rockstar Games has officially announced GTA 6 for PlayStation 5 and Xbox Series X|S only for the November 19, 2026 launch. Following Rockstar's historical release cycles, the PC version is expected to debut 12 to 18 months later, likely in late 2027 or early 2028.
-              </p>
-            </div>
-
-            <div className={styles.faqItem}>
-              <h3 className={styles.faqQuestion}>How does the wanted system differ in GTA 6 vs GTA 5?</h3>
-              <p className={styles.faqAnswer}>
-                GTA 6 introduces a wanted system that tracks player descriptions, including specific clothing, masks, and vehicles. Changing your outfit or vehicle out of sight allows you to break pursuits instantly. GTA 5 used a binary cone-of-vision system where hiding in tunnels or bushes was the primary escape route.
-              </p>
-            </div>
-          </section>
-
-          <p>
-            As we approach the November 2026 launch date, stay tuned for the latest news as we track <strong>GTA 6 vs GTA 5</strong> comparisons.
-          </p>
-        </div>
-
-        <ShareButtons url={pageUrl} title={pageTitle} />
-      </article>
-
-      <div className="container">
-        <RelatedPosts category="compare" currentSlug="compare" />
-      </div>
+      {/* Grid of Other Articles */}
+      {otherArticles.length > 0 && (
+        <section className={`container ${styles.articlesSection}`}>
+          <h2 className={styles.sectionTitle}>More Articles</h2>
+          <div className={styles.grid}>
+            {otherArticles.map(({ slug, article }) => (
+              <article key={slug} className={styles.card}>
+                <div className={styles.cardHeader}>
+                  <span className={styles.cardBadge}>GTA 6 COMPARISON</span>
+                </div>
+                <div className={styles.cardContent}>
+                  <h3 className={styles.cardTitle}>
+                    <Link href={`/compare/${slug}/`} className={styles.cardLink}>
+                      {article.h1}
+                    </Link>
+                  </h3>
+                  <p className={styles.cardDesc}>
+                    {article.metaDescription}
+                  </p>
+                  <div className={styles.cardMeta}>
+                    <span>By {article.author}</span>
+                    <span className={styles.metaSep}>•</span>
+                    <span>{article.modifiedDate}</span>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }
