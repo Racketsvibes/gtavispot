@@ -317,7 +317,7 @@ export const gta6PcRequirements: ArticleData = {
       </section>
 
       <p>
-        To monitor official desktop release announcements and digital store availability, stay connected with our <Link href="/news/gta-6-pc-release-date/">GTA 6 PC launch tracker</Link> to stay updated on hardware news and official <strong>gta 6 pc requirements</strong>.
+        To monitor official desktop release announcements and digital store availability, stay connected with our <Link href="/news/gta-6-pc-release-date/">GTA 6 PC launch tracker</Link> to stay updated on hardware news and official <strong>gta 6 pc requirements</strong>. If you are debating whether to purchase a next-gen setup for launch night, read our editorial exploring <Link href="/compare/is-gta-6-worth-buying-in-2026/">is gta 6 worth the price</Link> in detail.
       </p>
     </>
   ),

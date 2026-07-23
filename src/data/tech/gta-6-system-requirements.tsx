@@ -305,7 +305,7 @@ export const gta6SystemRequirements: ArticleData = {
       </section>
 
       <p>
-        For official release schedules and time zone launch details, consult our <Link href="/news/gta-6-release-date/">official console release schedule</Link>. To see how these console requirements stack up against previous Rockstar Games titles, check our full <Link href="/compare/gta-6-vs-gta-5/">GTA 6 vs GTA 5 map size</Link> and graphics breakdown.
+        For official release schedules and time zone launch details, consult our <Link href="/news/gta-6-release-date/">official console release schedule</Link>. To see how these console requirements stack up against previous Rockstar Games titles, check our full <Link href="/compare/gta-6-vs-gta-5/">GTA 6 vs GTA 5 map size</Link> and graphics breakdown. If you are still deciding on launch day setups, read our complete guide analyzing <Link href="/compare/is-gta-6-worth-buying-in-2026/">should I pre order gta 6</Link> ahead of time.
       </p>
     </>
   ),

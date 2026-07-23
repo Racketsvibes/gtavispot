@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Is GTA 6 Worth Buying in 2026? Price & Value Analysis',
+    desc: 'Is GTA 6 worth buying in 2026? Compare standard vs ultimate editions, check PS5 & Xbox specs, pre-order bonuses, launch prices, and PC release details.',
+    date: 'July 23, 2026',
+    tag: 'COMPARE',
+    href: '/compare/is-gta-6-worth-buying-in-2026/',
+    img: '/images/compare/is-gta-6-worth-buying-in-2026.webp',
+  },
+  {
     title: 'GTA 6 vs GTA 5: Full Comparison & Key Differences',
     desc: 'Check our full GTA 6 vs GTA 5 comparison guide. Compare map size, Lucia & Jason vs Michael & Trevor, next-gen graphics, launch prices, and system specs.',
     date: 'July 22, 2026',
