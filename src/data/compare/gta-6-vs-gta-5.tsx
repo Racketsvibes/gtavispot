@@ -328,6 +328,56 @@ export const gta6VsGta5: ArticleData = {
           GTA 6 represents a massive generational leap over GTA 5, offering a map that is 2.5x larger, fully path-traced ray tracing graphics, a complex clothing-tracked wanted system, and a dual-protagonist love story that overrides GTA 5's legacy design.
         </p>
       </div>
+
+      <section className={styles.faqSection}>
+        <h2>Frequently Asked Questions</h2>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How much larger is the GTA 6 map compared to GTA 5?</h3>
+          <p className={styles.faqAnswer}>
+            The state of Leonida in GTA 6 is estimated to be roughly 2.5 times larger than GTA 5's Los Santos and Blaine County map. Leonida features six distinct environmental zones, including three major cities and massive Everglades wetlands, compared to GTA 5's single urban hub.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Will GTA 6 run at 60 FPS like GTA 5?</h3>
+          <p className={styles.faqAnswer}>
+            While GTA 5 achieves 60 FPS on current-gen consoles, GTA 6 is targeted to run at a locked 30 FPS on PS5 and Xbox Series X due to heavy CPU simulation loads from dense NPC populations, traffic physics, and global ray tracing. A 60 FPS performance mode is rumored but unconfirmed.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>What is the price difference between GTA 6 and GTA 5 at launch?</h3>
+          <p className={styles.faqAnswer}>
+            GTA 6 Standard Edition is officially priced at $79.99 and the Ultimate Edition at $99.99 for PS5 and Xbox Series X|S. By comparison, GTA 5 launched in 2013 at the standard seventh-generation price of $59.99.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Will GTA 6 have multiple playable protagonists like GTA 5?</h3>
+          <p className={styles.faqAnswer}>
+            Yes, but with a different dynamic. GTA 6 features a dual-protagonist crime duo (Lucia and Jason) with a shared inventory and relationship mechanics. GTA 5 featured three separate protagonists (Michael, Franklin, and Trevor) whose stories crossed paths in Los Santos.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Is GTA 6 launching on PC alongside PS5 and Xbox?</h3>
+          <p className={styles.faqAnswer}>
+            No. Rockstar Games has officially announced GTA 6 for PlayStation 5 and Xbox Series X|S only for the November 19, 2026 launch. Following Rockstar's historical release cycles, the PC version is expected to debut 12 to 18 months later, likely in late 2027 or early 2028.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How does the wanted system differ in GTA 6 vs GTA 5?</h3>
+          <p className={styles.faqAnswer}>
+            GTA 6 introduces a wanted system that tracks player descriptions, including specific clothing, masks, and vehicles. Changing your outfit or vehicle out of sight allows you to break pursuits instantly. GTA 5 used a binary cone-of-vision system where hiding in tunnels or bushes was the primary escape route.
+          </p>
+        </div>
+      </section>
+
+      <p>
+        As we approach the November 2026 launch date, stay tuned for the latest news as we track <strong>GTA 6 vs GTA 5</strong> comparisons.
+      </p>
     </>
   ),
 };
