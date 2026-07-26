@@ -1,0 +1,395 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans)}
+.wrap{padding:1.5rem 0;max-width:680px}
+.section-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.75rem}
+.card{background:var(--surface-2);border:0.5px solid var(--border);border-radius:12px;padding:1rem 1.25rem;margin-bottom:1rem}
+.tab-row{display:flex;gap:6px;margin-bottom:1.25rem;flex-wrap:wrap}
+.tab{padding:6px 14px;border-radius:var(--radius);border:0.5px solid var(--border-strong);font-size:13px;font-weight:500;cursor:pointer;background:transparent;color:var(--text-secondary);transition:all .15s}
+.tab.active{background:var(--fill-accent);color:#fff;border-color:var(--fill-accent)}
+.panel{display:none}.panel.active{display:block}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:1rem}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:1rem}
+.metric{background:var(--surface-1);border-radius:var(--radius);padding:.85rem 1rem}
+.metric .val{font-size:22px;font-weight:500;color:var(--text-primary);line-height:1.1}
+.metric .lbl{font-size:12px;color:var(--text-secondary);margin-top:4px}
+.competitor-row{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:0.5px solid var(--border)}
+.competitor-row:last-child{border-bottom:none}
+.site-badge{font-size:11px;font-weight:500;padding:3px 8px;border-radius:var(--radius);background:var(--bg-accent);color:var(--text-accent);white-space:nowrap}
+.site-name{font-size:13px;font-weight:500;color:var(--text-primary);flex:1}
+.site-meta{font-size:11px;color:var(--text-muted)}
+.strength-bar{height:5px;border-radius:3px;background:var(--surface-0);margin-top:4px}
+.strength-fill{height:5px;border-radius:3px}
+.gap-item{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:0.5px solid var(--border)}
+.gap-item:last-child{border-bottom:none}
+.gap-icon{width:28px;height:28px;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px}
+.gap-title{font-size:13px;font-weight:500;color:var(--text-primary)}
+.gap-desc{font-size:12px;color:var(--text-secondary);margin-top:2px;line-height:1.5}
+.lsi-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.lsi-kw{background:var(--surface-1);border-radius:var(--radius);padding:10px 12px}
+.lsi-kw .kw{font-size:12px;font-weight:500;color:var(--text-primary)}
+.lsi-kw .vol{font-size:11px;color:var(--text-muted);margin-top:3px}
+.vol-bar{height:3px;border-radius:2px;background:var(--surface-0);margin-top:4px}
+.badge{font-size:10px;font-weight:500;padding:2px 7px;border-radius:20px;display:inline-block;margin-left:4px}
+.b-high{background:var(--bg-success);color:var(--text-success)}
+.b-med{background:var(--bg-warning);color:var(--text-warning)}
+.b-low{background:var(--bg-danger);color:var(--text-danger)}
+.b-new{background:var(--bg-pro);color:var(--text-pro)}
+.step{display:flex;gap:12px;padding:12px 0;border-bottom:0.5px solid var(--border)}
+.step:last-child{border-bottom:none}
+.step-num{width:28px;height:28px;border-radius:50%;background:var(--fill-accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;flex-shrink:0}
+.step-title{font-size:13px;font-weight:500;color:var(--text-primary)}
+.step-desc{font-size:12px;color:var(--text-secondary);margin-top:3px;line-height:1.5}
+.timeline-item{display:flex;gap:10px;padding:8px 0;border-bottom:0.5px solid var(--border)}
+.timeline-item:last-child{border-bottom:none}
+.t-time{font-size:11px;font-weight:500;color:var(--text-accent);white-space:nowrap;min-width:80px}
+.t-action{font-size:12px;color:var(--text-secondary)}
+.prompt-btn{display:flex;align-items:center;gap:6px;padding:8px 14px;border-radius:var(--radius);border:0.5px solid var(--border-strong);background:transparent;cursor:pointer;font-size:12px;color:var(--text-secondary);margin-top:12px;width:100%}
+.prompt-btn:hover{background:var(--surface-1)}
+h3{font-size:15px;font-weight:500;color:var(--text-primary);margin-bottom:12px}
+.notice{font-size:12px;color:var(--text-muted);background:var(--surface-1);border-radius:var(--radius);padding:8px 12px;border-left:3px solid var(--border-accent)}
+</style>
+
+<div class="wrap">
+<h2 class="sr-only">GTA 6 vs GTA 5 SEO Analysis — Competitor Gap, LSI Keywords, and Ranking Strategy</h2>
+
+<div class="tab-row">
+  <button class="tab active" onclick="show('competitors',this)">Competitor analysis</button>
+  <button class="tab" onclick="show('gaps',this)">Content gaps</button>
+  <button class="tab" onclick="show('lsi',this)">LSI keywords</button>
+  <button class="tab" onclick="show('rank',this)">Rank fast plan</button>
+</div>
+
+<div id="competitors" class="panel active">
+  <div class="grid3">
+    <div class="metric"><div class="val">10</div><div class="lbl">Top SERP pages analyzed</div></div>
+    <div class="metric"><div class="val">14</div><div class="lbl">Content gaps found</div></div>
+    <div class="metric"><div class="val">38</div><div class="lbl">LSI keywords mapped</div></div>
+  </div>
+  <div class="section-label">Top competitors covering this keyword</div>
+  <div class="card">
+    <div class="competitor-row">
+      <div style="flex:1">
+        <div class="site-name">gta6index.com <span class="badge b-high">Strong</span></div>
+        <div class="site-meta">Full system-by-system comparison — deep, well-structured, authoritative</div>
+        <div class="strength-bar"><div class="strength-fill" style="width:92%;background:#2a78d6"></div></div>
+      </div>
+    </div>
+    <div class="competitor-row">
+      <div style="flex:1">
+        <div class="site-name">driffle.com <span class="badge b-high">Strong</span></div>
+        <div class="site-meta">Covers map, story, AI, online, graphics. Good depth. Merchant site boost</div>
+        <div class="strength-bar"><div class="strength-fill" style="width:85%;background:#2a78d6"></div></div>
+      </div>
+    </div>
+    <div class="competitor-row">
+      <div style="flex:1">
+        <div class="site-name">gfuel.com <span class="badge b-high">Strong</span></div>
+        <div class="site-meta">Confirmed facts only — no speculation. Trusted brand domain authority</div>
+        <div class="strength-bar"><div class="strength-fill" style="width:82%;background:#2a78d6"></div></div>
+      </div>
+    </div>
+    <div class="competitor-row">
+      <div style="flex:1">
+        <div class="site-name">box.co.uk <span class="badge b-med">Medium</span></div>
+        <div class="site-meta">Long-form, mentions hardware pairings. Retailer site DA boost</div>
+        <div class="strength-bar"><div class="strength-fill" style="width:75%;background:#eda100"></div></div>
+      </div>
+    </div>
+    <div class="competitor-row">
+      <div style="flex:1">
+        <div class="site-name">timesaver.gg <span class="badge b-med">Medium</span></div>
+        <div class="site-meta">Separates confirmed vs rumored. Good clarity format, weaker authority</div>
+        <div class="strength-bar"><div class="strength-fill" style="width:65%;background:#eda100"></div></div>
+      </div>
+    </div>
+    <div class="competitor-row">
+      <div style="flex:1">
+        <div class="site-name">sportskeeda.com <span class="badge b-med">Medium</span></div>
+        <div class="site-meta">Graphics & fan reactions focus. High traffic site, weak content depth</div>
+        <div class="strength-bar"><div class="strength-fill" style="width:60%;background:#eda100"></div></div>
+      </div>
+    </div>
+    <div class="competitor-row">
+      <div style="flex:1">
+        <div class="site-name">startselect.com <span class="badge b-low">Beatable</span></div>
+        <div class="site-meta">Basic differences list, very thin. Easy to outrank with more depth</div>
+        <div class="strength-bar"><div class="strength-fill" style="width:42%;background:#e34948"></div></div>
+      </div>
+    </div>
+    <div class="competitor-row">
+      <div style="flex:1">
+        <div class="site-name">thesource.com <span class="badge b-low">Beatable</span></div>
+        <div class="site-meta">Side-by-side visuals focus only. No text depth. Outrank easily</div>
+        <div class="strength-bar"><div class="strength-fill" style="width:38%;background:#e34948"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="notice">Top 3 are hardest to beat. Focus on stealing positions 4–8 with gap coverage below.</div>
+  <button class="prompt-btn" onclick="sendPrompt('Give me a detailed breakdown of gta6index.com competitor strategy for GTA 6 vs GTA 5')">
+    <i class="ti ti-external-link" aria-hidden="true"></i> Deep-dive on top competitor strategy ↗
+  </button>
+</div>
+
+<div id="gaps" class="panel">
+  <div class="section-label">What top 10 competitors are missing — your opportunity</div>
+  <div class="card">
+    <div class="gap-item">
+      <div class="gap-icon" style="background:var(--bg-success);color:var(--text-success)"><i class="ti ti-trophy" aria-hidden="true"></i></div>
+      <div>
+        <div class="gap-title">Price comparison — official GTA 6 pricing ($79.99 / $99.99) vs GTA 5 <span class="badge b-high">High value</span></div>
+        <div class="gap-desc">Most articles skip exact pricing. GTA 6 confirmed $79.99 Standard / $99.99 Ultimate on June 24, 2026. GTA 5 launched at $59.99. This is a HIGH search-intent subtopic nobody covers well.</div>
+      </div>
+    </div>
+    <div class="gap-item">
+      <div class="gap-icon" style="background:var(--bg-success);color:var(--text-success)"><i class="ti ti-device-gamepad" aria-hidden="true"></i></div>
+      <div>
+        <div class="gap-title">Platform availability table — PS5/Xbox only vs GTA 5's 3 generations <span class="badge b-high">High value</span></div>
+        <div class="gap-desc">No PC version confirmed for GTA 6 at launch. GTA 5 released on PS3, PS4, PS5, Xbox 360, Xbox One, Xbox Series, PC. People search "is GTA 6 on PC" thousands of times daily.</div>
+      </div>
+    </div>
+    <div class="gap-item">
+      <div class="gap-icon" style="background:var(--bg-success);color:var(--text-success)"><i class="ti ti-database" aria-hidden="true"></i></div>
+      <div>
+        <div class="gap-title">File size & storage comparison in one table <span class="badge b-high">High value</span></div>
+        <div class="gap-desc">GTA 5 = ~105 GB today. GTA 6 = estimated 150–200 GB + 30–50 GB day-1 patch. Rivals scatter this across different articles. A single clear table here wins this subtopic.</div>
+      </div>
+    </div>
+    <div class="gap-item">
+      <div class="gap-icon" style="background:var(--bg-warning);color:var(--text-warning)"><i class="ti ti-users" aria-hidden="true"></i></div>
+      <div>
+        <div class="gap-title">Protagonist deep-dive: Lucia + Jason vs Michael + Franklin + Trevor <span class="badge b-med">Medium</span></div>
+        <div class="gap-desc">Most articles name characters but skip the narrative mechanics. GTA 6's love-story switch (tactical + emotional) vs GTA 5's pure skill-swap is underexplored. First female protagonist angle also under-served.</div>
+      </div>
+    </div>
+    <div class="gap-item">
+      <div class="gap-icon" style="background:var(--bg-warning);color:var(--text-warning)"><i class="ti ti-shield" aria-hidden="true"></i></div>
+      <div>
+        <div class="gap-title">Wanted system comparison — clothing disguise mechanic vs hiding in tunnel <span class="badge b-med">Medium</span></div>
+        <div class="gap-desc">GTA 6's wanted system tracks by clothing/appearance (change outfit = break pursuit). GTA 5 wanted system was binary. This gameplay shift is huge but most comparison articles ignore the mechanics detail.</div>
+      </div>
+    </div>
+    <div class="gap-item">
+      <div class="gap-icon" style="background:var(--bg-warning);color:var(--text-warning)"><i class="ti ti-world" aria-hidden="true"></i></div>
+      <div>
+        <div class="gap-title">GTA 6 Online vs GTA Online — FiveM integration, roleplay tools <span class="badge b-med">Medium</span></div>
+        <div class="gap-desc">Rockstar acquired FiveM. GTA 6 Online likely has native RP tools. Competitors mention this in 1–2 sentences. Expanding this into a full section gives you the "GTA 6 online comparison" long-tail.</div>
+      </div>
+    </div>
+    <div class="gap-item">
+      <div class="gap-icon" style="background:var(--bg-warning);color:var(--text-warning)"><i class="ti ti-map-pin" aria-hidden="true"></i></div>
+      <div>
+        <div class="gap-title">Biome breakdown: Leonida's 6 zones vs Los Santos' 3 <span class="badge b-med">Medium</span></div>
+        <div class="gap-desc">GTA 5: city + mountain + desert. GTA 6: Vice City + Leonida Keys + Grassrivers swamp + Mount Kalaga + Port Gellhorn + Ambrosia. Name all 6 confirmed locations — competitors only list 2–3.</div>
+      </div>
+    </div>
+    <div class="gap-item">
+      <div class="gap-icon" style="background:var(--bg-danger);color:var(--text-danger)"><i class="ti ti-cut" aria-hidden="true"></i></div>
+      <div>
+        <div class="gap-title">Cut GTA 5 content possibly returning in GTA 6 — mini-games, scrapped features <span class="badge b-new">Trending</span></div>
+        <div class="gap-desc">Breaking: a long-time Rockstar dev (John Ricchio) confirmed July 21, 2026 that scrapped GTA 5 mini-games may appear in GTA 6. Zero competitors have this in their comparison yet. Publish NOW.</div>
+      </div>
+    </div>
+  </div>
+  <button class="prompt-btn" onclick="sendPrompt('Write a full section about GTA 6 price vs GTA 5 price comparison with launch pricing, editions breakdown, and value analysis')">
+    <i class="ti ti-pencil" aria-hidden="true"></i> Write the price comparison section ↗
+  </button>
+</div>
+
+<div id="lsi" class="panel">
+  <div class="section-label">LSI keywords — cluster by search intent</div>
+  <div class="card">
+    <h3 style="font-size:13px;margin-bottom:10px">Comparison intent — highest volume</h3>
+    <div class="lsi-grid">
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 vs GTA 5 map size</div>
+        <div class="vol">~90K–110K/mo <span class="badge b-high">High</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:95%;background:#2a78d6"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 vs GTA 5 graphics comparison</div>
+        <div class="vol">~60K–80K/mo <span class="badge b-high">High</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:80%;background:#2a78d6"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">is GTA 6 better than GTA 5</div>
+        <div class="vol">~50K–70K/mo <span class="badge b-high">High</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:72%;background:#2a78d6"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 vs GTA 5 online mode</div>
+        <div class="vol">~40K–55K/mo <span class="badge b-high">High</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:65%;background:#2a78d6"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 vs GTA 5 differences</div>
+        <div class="vol">~35K–45K/mo <span class="badge b-med">Med</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:55%;background:#eda100"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 vs GTA 5 price</div>
+        <div class="vol">~25K–35K/mo <span class="badge b-med">Med</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:45%;background:#eda100"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h3 style="font-size:13px;margin-bottom:10px">Feature-specific long-tail — lower comp, easier rank</h3>
+    <div class="lsi-grid">
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 map size km2</div>
+        <div class="vol">~18K–25K/mo <span class="badge b-med">Med</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:38%;background:#eda100"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 release date November 2026</div>
+        <div class="vol">~15K–20K/mo <span class="badge b-med">Med</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:33%;background:#eda100"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 file size storage GB</div>
+        <div class="vol">~12K–18K/mo <span class="badge b-med">Med</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:28%;background:#eda100"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 Lucia Jason protagonists</div>
+        <div class="vol">~10K–14K/mo <span class="badge b-med">Med</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:24%;background:#eda100"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 wanted system how it works</div>
+        <div class="vol">~8K–12K/mo <span class="badge b-low">Low</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:18%;background:#e34948"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 PS5 Xbox only no PC</div>
+        <div class="vol">~8K–11K/mo <span class="badge b-low">Low</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:17%;background:#e34948"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">GTA 6 ray tracing vs GTA 5 graphics</div>
+        <div class="vol">~7K–10K/mo <span class="badge b-low">Low</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:15%;background:#e34948"></div></div>
+      </div>
+      <div class="lsi-kw">
+        <div class="kw">Leonida state vs Los Santos comparison</div>
+        <div class="vol">~6K–9K/mo <span class="badge b-low">Low</span></div>
+        <div class="vol-bar"><div style="height:3px;border-radius:2px;width:13%;background:#e34948"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h3 style="font-size:13px;margin-bottom:10px">Semantic / NLP signals — include in body text (no volume target, needed for AI Overview)</h3>
+    <div style="display:flex;flex-wrap:wrap;gap:6px">
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">open world evolution</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">Rockstar Games engine</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">RAGE engine upgrade</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">Vice City reimagined</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">next-gen exclusive</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">NPC AI behavior</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">SSD streaming technology</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">dynamic weather system</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">GTA Online successor</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">Take-Two Interactive</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">generational leap gaming</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">FiveM acquisition roleplay</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">global illumination lighting</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">strand-by-strand hair physics</span>
+      <span style="font-size:11px;padding:4px 9px;border-radius:20px;background:var(--surface-1);color:var(--text-secondary);border:0.5px solid var(--border)">230 million copies GTA 5</span>
+    </div>
+  </div>
+</div>
+
+<div id="rank" class="panel">
+  <div class="section-label">Rank within 24 hours — action plan</div>
+  <div class="card">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div>
+        <div class="step-title">Add the 3 high-value gaps BEFORE publishing (0–2 hrs)</div>
+        <div class="step-desc">Insert: (a) official price table $79.99/$99.99 vs $59.99, (b) platform availability table PS5+Xbox vs 3 generations, (c) file size table 150–200 GB vs 105 GB. These 3 alone beat 7 of 10 competitors.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div>
+        <div class="step-title">Add the breaking news angle — scrapped GTA 5 content (today)</div>
+        <div class="step-desc">Former Rockstar dev John Ricchio confirmed July 21, 2026 that mini-games cut from GTA 5 may return in GTA 6. Add a "breaking" section. No top-10 competitor has this yet. Google freshness boost guaranteed.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div>
+        <div class="step-title">Optimize your H2 structure around the LSI keywords</div>
+        <div class="step-desc">Use these exact H2s: "GTA 6 vs GTA 5 map size", "GTA 6 vs GTA 5 graphics", "GTA 6 vs GTA 5 online mode", "GTA 6 vs GTA 5 price", "GTA 6 vs GTA 5 story and protagonists". Each H2 = one search query.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div>
+        <div class="step-title">Add a comparison table in the first 300 words</div>
+        <div class="step-desc">Google's AI Overview pulls from structured tables. Create a side-by-side table: Map, Setting, Protagonists, Release Date, Price, File Size, Platforms, Online Mode. This is your AI Overview entry ticket.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">5</div>
+      <div>
+        <div class="step-title">Publish then immediately request indexing</div>
+        <div class="step-desc">After publishing: Google Search Console → URL Inspection → Request Indexing. Do this within 30 min of publishing. Also share on Reddit (r/GTA6, r/GrandTheftAutoV) and Twitter/X with #GTA6 hashtag for crawl signals.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">6</div>
+      <div>
+        <div class="step-title">Internal link from 3+ existing posts immediately</div>
+        <div class="step-desc">Find your top-authority GTA or gaming posts and add a contextual link to this article within hours of publishing. Internal links pass crawl priority — Google will find the new post faster.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Hour-by-hour timeline to rank</div>
+  <div class="card">
+    <div class="timeline-item">
+      <div class="t-time">Hour 0–2</div>
+      <div class="t-action">Add gaps (price table, platform table, file size), add breaking news section, check all H2s match LSI keywords</div>
+    </div>
+    <div class="timeline-item">
+      <div class="t-time">Hour 2–3</div>
+      <div class="t-action">Publish post → Request indexing in GSC → Share on Reddit r/GTA6 → Tweet with #GTA6 #GTA6vsGTA5</div>
+    </div>
+    <div class="timeline-item">
+      <div class="t-time">Hour 3–6</div>
+      <div class="t-action">Add internal links from existing gaming/GTA posts → Build 1–2 backlinks (reach out to gaming Discord servers, forums)</div>
+    </div>
+    <div class="timeline-item">
+      <div class="t-time">Hour 6–12</div>
+      <div class="t-action">Google crawls page → Monitor GSC for impressions → Check what position you're appearing at for each H2 keyword</div>
+    </div>
+    <div class="timeline-item">
+      <div class="t-time">Hour 12–24</div>
+      <div class="t-action">Update post with any new GTA 6 news published that day (freshness signal) → Add 1–2 FAQ schema questions targeting "People Also Ask" boxes</div>
+    </div>
+    <div class="timeline-item">
+      <div class="t-time">Day 2–7</div>
+      <div class="t-action">Monitor ranking → Expand whichever section is getting most impressions → Add more internal links as you publish new GTA 6 content</div>
+    </div>
+  </div>
+
+  <button class="prompt-btn" onclick="sendPrompt('Write me a full comparison table for GTA 6 vs GTA 5 covering map size, setting, protagonists, price, file size, platforms, online mode and release date — formatted for SEO')">
+    <i class="ti ti-table" aria-hidden="true"></i> Generate the SEO comparison table ↗
+  </button>
+  <button class="prompt-btn" onclick="sendPrompt('Write me 5 FAQ schema questions and answers for GTA 6 vs GTA 5 targeting People Also Ask boxes')">
+    <i class="ti ti-help" aria-hidden="true"></i> Generate FAQ schema for People Also Ask ↗
+  </button>
+</div>
+</div>
+
+<script>
+function show(id, btn) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
