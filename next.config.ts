@@ -28,6 +28,47 @@ const nextConfig: NextConfig = {
         destination: '/vehicles/',
         permanent: true,
       },
+      // Orphan page redirects — 301 permanent
+      {
+        source: '/gallery/',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/assistant/',
+        destination: '/faq/',
+        permanent: true,
+      },
+      {
+        source: '/newswire/',
+        destination: '/news/',
+        permanent: true,
+      },
+      {
+        source: '/newswire/:path*',
+        destination: '/news/',
+        permanent: true,
+      },
+      {
+        source: '/businesses/:path*',
+        destination: '/map/',
+        permanent: true,
+      },
+      {
+        source: '/locations/:path*',
+        destination: '/map/',
+        permanent: true,
+      },
+      {
+        source: '/relationships/',
+        destination: '/story/',
+        permanent: true,
+      },
+      {
+        source: '/characters/:path*',
+        destination: '/story/',
+        permanent: true,
+      },
     ];
   },
 };
