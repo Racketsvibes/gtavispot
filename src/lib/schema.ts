@@ -164,6 +164,87 @@ export function getFaqsFromFile(slug: string, category: 'news' | 'map' | 'story'
   }
 }
 
+// 7. HowTo Schema (for Guides & Cheats pages)
+export interface HowToStep {
+  name: string;
+  text: string;
+  image?: string;
+}
+
+export function getHowToSchema(input: {
+  name: string;
+  description: string;
+  totalTime?: string;
+  estimatedCost?: string;
+  steps: HowToStep[];
+  image?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": input.name,
+    "description": input.description,
+    ...(input.totalTime && { "totalTime": input.totalTime }),
+    ...(input.estimatedCost && {
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": input.estimatedCost
+      }
+    }),
+    ...(input.image && { "image": input.image }),
+    "step": input.steps.map((step, idx) => ({
+      "@type": "HowToStep",
+      "position": idx + 1,
+      "name": step.name,
+      "text": step.text,
+      ...(step.image && {
+        "image": {
+          "@type": "ImageObject",
+          "url": step.image
+        }
+      })
+    }))
+  };
+}
+
+// 8. ItemList Schema (for Vehicle & Weapon list pages)
+export interface ItemListEntry {
+  name: string;
+  url?: string;
+  image?: string;
+  description?: string;
+}
+
+export function getItemListSchema(input: {
+  name: string;
+  description: string;
+  itemListOrder?: string;
+  items: ItemListEntry[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": input.name,
+    "description": input.description,
+    "itemListOrder": input.itemListOrder || "https://schema.org/ItemListUnordered",
+    "numberOfItems": input.items.length,
+    "itemListElement": input.items.map((item, idx) => ({
+      "@type": "ListItem",
+      "position": idx + 1,
+      "name": item.name,
+      ...(item.url && { "url": item.url }),
+      ...(item.description && { "description": item.description }),
+      ...(item.image && {
+        "image": {
+          "@type": "ImageObject",
+          "url": item.image
+        }
+      })
+    }))
+  };
+}
+
 export function getSEOTitle(baseTitle: string): string {
   // Strip any hardcoded suffix to prevent Next.js layout metadata template from double-appending it
   return baseTitle.replace(' | GTA Vi Spot', '');

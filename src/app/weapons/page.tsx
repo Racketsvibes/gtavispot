@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { gta6Weapons } from '@/data/weapons';
 import ShareButtons from '@/components/ShareButtons';
-import { getBreadcrumbsSchema, getFAQSchema, getSEOTitle } from '@/lib/schema';
+import { getBreadcrumbsSchema, getFAQSchema, getItemListSchema, getSEOTitle } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -47,6 +47,23 @@ export default function WeaponsPage() {
   ];
   const faqSchema = getFAQSchema(faqs);
 
+  const itemListSchema = getItemListSchema({
+    name: 'GTA 6 Confirmed Weapons List',
+    description: 'Complete list of all confirmed firearms, melee weapons, explosives, and heavy weapons in Grand Theft Auto VI.',
+    items: [
+      { name: 'Hawk & Little Morgan Revolvers', description: 'Dual-wield vintage revolvers with custom wood grips and nickel-plated finish' },
+      { name: 'Assault Rifle', description: 'Standard-issue automatic rifle with selectable fire modes and attachment rails' },
+      { name: 'Combat Shotgun', description: 'Pump-action close-quarters weapon with high damage and wide pellet spread' },
+      { name: 'Sniper Rifle', description: 'Long-range precision rifle with variable zoom scope and suppressor compatibility' },
+      { name: 'SMG', description: 'Compact submachine gun with high rate of fire ideal for drive-by shootings' },
+      { name: 'RPG Launcher', description: 'Shoulder-fired rocket launcher for destroying armored vehicles and helicopters' },
+      { name: 'Machete', description: 'Tropical melee weapon found throughout Leonida for close-range stealth takedowns' },
+      { name: 'Grenade', description: 'Standard fragmentation grenade with timed fuse and wide blast radius' },
+      { name: 'Molotov Cocktail', description: 'Improvised incendiary weapon that creates a temporary fire zone on impact' },
+      { name: 'Vintage Vice City Weapon Pattern', description: 'Exclusive retro-themed weapon skins with neon and art-deco liveries' },
+    ],
+  });
+
   return (
     <div className={styles.wrapper}>
       {/* Schema Markups */}
@@ -60,6 +77,10 @@ export default function WeaponsPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
 
       <div className={`container ${styles.article}`}>
         {/* Breadcrumbs visually */}

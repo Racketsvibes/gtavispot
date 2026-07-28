@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { gta6Cheats } from '@/data/cheats';
 import ShareButtons from '@/components/ShareButtons';
 import RelatedPosts from '@/components/RelatedPosts';
-import { getBreadcrumbsSchema, getFAQSchema, getSEOTitle } from '@/lib/schema';
+import { getBreadcrumbsSchema, getFAQSchema, getHowToSchema, getSEOTitle } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -48,6 +48,19 @@ export default function CheatsPage() {
   ];
   const faqSchema = getFAQSchema(faqs);
 
+  const howToSchema = getHowToSchema({
+    name: 'How to Use Cheat Codes in GTA 6',
+    description: 'Step-by-step guide on how to activate and use cheat codes in Grand Theft Auto VI using controller inputs, phone dialing, and PC console commands.',
+    image: 'https://gtavispot.com/images/gta-6-cheats-feature.webp',
+    steps: [
+      { name: 'Save your game first', text: 'Create a manual save in a separate slot before entering any cheat codes. Activating cheats will disable trophies and achievements for your active session.' },
+      { name: 'Choose your input method', text: 'Decide whether to use controller button combinations on PS5 or Xbox, dial phone numbers on your in-game smartphone, or type text commands into the PC console window.' },
+      { name: 'Enter the cheat code', text: 'For controller inputs, press the button sequence quickly during active gameplay. For phone dial codes, open your character smartphone and dial the number. For PC, press the tilde (~) key and type the command.' },
+      { name: 'Confirm the activation', text: 'A notification banner will appear on screen confirming that the cheat has been successfully activated. Some cheats like Invincibility have a limited 5-minute timer.' },
+      { name: 'Disable when finished', text: 'Re-enter the same code to deactivate it, or reload your clean save file to restore trophies and normal gameplay progression.' },
+    ],
+  });
+
   return (
     <div className={styles.wrapper}>
       {/* Schema Markups */}
@@ -61,6 +74,10 @@ export default function CheatsPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
 
       <div className={`container ${styles.article}`}>
         {/* Breadcrumbs visually */}

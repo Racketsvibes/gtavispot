@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { gta6Vehicles } from '@/data/vehicles';
 import ShareButtons from '@/components/ShareButtons';
-import { getBreadcrumbsSchema, getFAQSchema, getSEOTitle } from '@/lib/schema';
+import { getBreadcrumbsSchema, getFAQSchema, getItemListSchema, getSEOTitle } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -48,6 +48,23 @@ export default function VehiclesPage() {
   ];
   const faqSchema = getFAQSchema(faqs);
 
+  const itemListSchema = getItemListSchema({
+    name: 'GTA 6 Confirmed Vehicles List',
+    description: 'Complete list of all confirmed cars, bikes, boats, and aircraft in Grand Theft Auto VI set in the state of Leonida.',
+    items: [
+      { name: 'Grotti Cheetah', description: 'Iconic Italian supercar returning with a modern mid-engine redesign and active aero' },
+      { name: 'Vapid Buggy', description: 'Off-road dune buggy built for Leonida swamp trails and beach terrain' },
+      { name: 'Vapid Ganado Retro Build', description: 'Classic American muscle car with custom lowrider suspension and chrome trim' },
+      { name: 'Vapid Stanier', description: 'Vintage Vice City sedan featured in the Vintage Vice City Pack' },
+      { name: 'Electric Fang', description: 'High-performance electric hypercar with instant torque and digital dash' },
+      { name: 'Stock 305', description: 'Retro-styled stock car inspired by Florida oval racing circuits' },
+      { name: 'Squalo', description: 'High-speed racing speedboat for coastal getaways and water pursuits' },
+      { name: 'Wyman Car Collection', description: 'Curated fleet of luxury collector vehicles available in the Ultimate Edition' },
+      { name: 'Safehouse Vehicles', description: 'Personal garage vehicles stored at protagonist safe houses across Leonida' },
+      { name: 'One-Eyed Willie', description: 'Custom pirate-themed boat with unique livery and upgraded marine engine' },
+    ],
+  });
+
   return (
     <div className={styles.wrapper}>
       {/* Schema Markups */}
@@ -61,6 +78,10 @@ export default function VehiclesPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
 
       <div className={`container ${styles.article}`}>
         {/* Breadcrumbs visually */}

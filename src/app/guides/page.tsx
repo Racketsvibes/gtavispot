@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { gta6Guides } from '@/data/guides';
 import ShareButtons from '@/components/ShareButtons';
 import RelatedPosts from '@/components/RelatedPosts';
-import { getBreadcrumbsSchema, getFAQSchema, getSEOTitle } from '@/lib/schema';
+import { getBreadcrumbsSchema, getFAQSchema, getHowToSchema, getSEOTitle } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -51,6 +51,21 @@ export default function GuidesPage() {
   ];
   const faqSchema = getFAQSchema(faqs);
 
+  const howToSchema = getHowToSchema({
+    name: 'How to Prepare for GTA 6 Launch Day',
+    description: 'Complete step-by-step guide to prepare your console or PC for GTA 6 on November 19, 2026. Covers storage, settings, pre-loading, and Day One optimization.',
+    totalTime: 'PT2H',
+    image: `https://gtavispot.com${gta6Guides.featureImage}`,
+    steps: [
+      { name: 'Check storage space', text: 'Ensure you have at least 150GB of free SSD space on your PS5, Xbox Series X/S, or PC. Delete unused games and clear temporary files to make room for the full install.' },
+      { name: 'Pre-load the game', text: 'Digital pre-order customers can pre-load GTA 6 up to 48 hours before launch. Navigate to your library, find the GTA 6 tile, and start the download early to play at midnight.' },
+      { name: 'Update your system firmware', text: 'Install the latest console or GPU driver updates. GTA 6 requires current firmware on PS5 and Xbox Series X/S, and the latest NVIDIA or AMD drivers on PC for optimal performance.' },
+      { name: 'Configure display and performance settings', text: 'Select Performance Mode for 60 FPS gameplay or Fidelity Mode for maximum ray-tracing visuals. Adjust HDR, camera sensitivity, and accessibility options before starting the campaign.' },
+      { name: 'Set up your Rockstar Social Club account', text: 'Create or log into your Rockstar Social Club account to access GTA 6 Online multiplayer, crew features, cloud saves, and exclusive bonus content from pre-order editions.' },
+      { name: 'Launch the story campaign', text: 'Start the single-player story mode first to familiarize yourself with the dual protagonist mechanics, driving physics, and combat controls before entering GTA 6 Online.' },
+    ],
+  });
+
   return (
     <div className={styles.wrapper}>
       {/* Schema Markups */}
@@ -64,6 +79,10 @@ export default function GuidesPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
 
       <div className={`container ${styles.article}`}>
         {/* Breadcrumbs visually */}
