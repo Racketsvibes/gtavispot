@@ -342,7 +342,7 @@ export const gta6VsGta5: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Will GTA 6 run at 60 FPS like GTA 5?</h3>
           <p className={styles.faqAnswer}>
-            While GTA 5 achieves 60 FPS on current-gen consoles, GTA 6 is targeted to run at a locked 30 FPS on PS5 and Xbox Series X due to heavy CPU simulation loads from dense NPC populations, traffic physics, and global ray tracing. A 60 FPS performance mode is rumored but unconfirmed.
+            While GTA 5 achieves 60 FPS on current-gen consoles, GTA 6 is targeted to run at a locked 30 FPS on PS5 and Xbox Series X due to heavy CPU simulation loads from dense NPC populations, traffic physics, and global ray tracing. Read our <Link href="/compare/ps5-vs-xbox-series-x/">ps5 vs xbox series x</Link> console comparison for more details.
           </p>
         </div>
 

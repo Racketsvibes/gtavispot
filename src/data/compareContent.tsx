@@ -26,10 +26,12 @@ export interface ArticleData {
 
 import { gta6VsGta5 } from './compare/gta-6-vs-gta-5';
 import { isGta6WorthBuyingIn2026 } from './compare/is-gta-6-worth-buying-in-2026';
+import { ps5VsXboxSeriesX } from './compare/ps5-vs-xbox-series-x';
 
 const compareArticlesMap: Record<string, ArticleData> = {
   'gta-6-vs-gta-5': gta6VsGta5,
   'is-gta-6-worth-buying-in-2026': isGta6WorthBuyingIn2026,
+  'ps5-vs-xbox-series-x': ps5VsXboxSeriesX,
 };
 
 export function getCompareArticleBySlug(slug: string): ArticleData | undefined {

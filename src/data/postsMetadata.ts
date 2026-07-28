@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'PS5 vs Xbox Series x — Which to Buy For GTA 6 Specs',
+    desc: 'PS5 vs Xbox Series x for GTA 6. Compare price, graphics, frames, SSD speed, and hardware. See whether Sony or Microsoft wins the Vice City showdown.',
+    date: 'July 28, 2026',
+    tag: 'COMPARE',
+    href: '/compare/ps5-vs-xbox-series-x/',
+    img: '/images/Jason_Duval_04.374574ad.webp',
+  },
+  {
     title: 'Is GTA 6 Worth Buying in 2026? Price & Value Analysis',
     desc: 'Is GTA 6 worth buying in 2026? Compare standard vs ultimate editions, check PS5 & Xbox specs, pre-order bonuses, launch prices, and PC release details.',
     date: 'July 23, 2026',

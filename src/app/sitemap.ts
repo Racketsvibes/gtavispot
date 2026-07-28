@@ -133,6 +133,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/compare/ps5-vs-xbox-series-x/`,
+      lastModified: new Date('2026-07-28'),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/about/`,
       lastModified: new Date('2026-07-25'),
       changeFrequency: 'monthly' as const,
