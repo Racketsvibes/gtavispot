@@ -17,7 +17,7 @@ export const ps5VsXboxSeriesX: ArticleData = {
   content: (
     <>
       <p>
-        Choosing between the **ps5 vs xbox series x** is the ultimate hardware decision for gamers preparing for the November 19, 2026 launch of Grand Theft Auto 6. With Rockstar Games pushing console hardware to its absolute limits, your platform choice will determine how smoothly you cruise through the neon streets of Vice City. Here is the direct hardware breakdown to help you decide which console deserves a spot under your TV.
+        Choosing between the <strong>ps5 vs xbox series x</strong> is the ultimate hardware decision for gamers preparing for the November 19, 2026 launch of Grand Theft Auto 6. With Rockstar Games pushing console hardware to its absolute limits, your platform choice will determine how smoothly you cruise through the neon streets of Vice City. Here is the direct hardware breakdown to help you decide which console deserves a spot under your TV.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -109,7 +109,7 @@ export const ps5VsXboxSeriesX: ArticleData = {
         For most enthusiasts, frame rate is the defining gameplay factor. The gaming community has debated whether the standard consoles will support a 60 FPS performance mode. However, technical analysis suggests that GTA 6 will target a locked 30 FPS at launch on both standard machines.
       </p>
       <p>
-        When analyzing the **ps5 vs xbox series x** performance targets for GTA 6, developers face the challenge of balancing visual fidelity with processor limitations. The limitation is not the GPU, but the CPU. Rockstar's RAGE 9 engine introduces highly advanced pedestrian AI routing, complex vehicle physics, dynamic weather systems, and hardware-accelerated global illumination. Running these real-time systems requires immense processing power from the aging AMD Zen 2 CPU, which is identical on both machines. Even if you drop the rendering resolution to 1080p, the CPU cannot handle the simulation fast enough to feed a 60 FPS graphics pipeline.
+        When analyzing the <strong>ps5 vs xbox series x</strong> performance targets for GTA 6, developers face the challenge of balancing visual fidelity with processor limitations. The limitation is not the GPU, but the CPU. Rockstar's RAGE 9 engine introduces highly advanced pedestrian AI routing, complex vehicle physics, dynamic weather systems, and hardware-accelerated global illumination. Running these real-time systems requires immense processing power from the aging AMD Zen 2 CPU, which is identical on both machines. Even if you drop the rendering resolution to 1080p, the CPU cannot handle the simulation fast enough to feed a 60 FPS graphics pipeline.
       </p>
       <p>
         If you want the absolute best visual performance, the PS5 Pro is the only current-gen console capable of pushing beyond the standard limits. With its upgraded GPU offering 67% more compute units and PlayStation Spectral Super Resolution (PSSR) AI upscaling, the Pro model is designed to run the game with richer ray-traced reflections and higher stable frame rates.
@@ -146,16 +146,6 @@ export const ps5VsXboxSeriesX: ArticleData = {
         <li><strong>Con: Slower SSD Pipeline</strong> — The 2.4 GB/s SSD might show slight texture loading delays compared to the PS5.</li>
       </ul>
 
-      <div className={styles.featureImageContainer}>
-        <Image 
-          src="/images/ps5 vs xbox series x/sony-playstation-5-slim-disc-2tb-ssd-edition-bundle-with-astro-bot-and-c-gamers-dual-controller-charger.webp" 
-          alt="Sony PlayStation 5 Slim Disc 2TB SSD Edition Bundle showcase including Astro Bot and dual controller charger accessories" 
-          width={600}
-          height={400}
-          className={styles.featureImage} 
-        />
-      </div>
-
       <h2>Which PS5 Console Bundle is Best for GTA 6?</h2>
       <p>
         If you have decided to join the PlayStation camp, several retail options are available on Amazon. Here is a breakdown of the top PS5 models and bundles to consider:
@@ -163,17 +153,49 @@ export const ps5VsXboxSeriesX: ArticleData = {
 
       <h3>1. Sony PlayStation 5 Slim Disc 2TB SSD Edition Bundle with Astro Bot and C-Gamers Dual-Controller Charger</h3>
       <p>
-        The <a href="https://amzn.to/45knozk" target="_blank" rel="noopener noreferrer">Sony PlayStation 5 Slim Disc 2TB SSD Edition Bundle with Astro Bot and C-Gamers Dual-Controller Charger</a> is the absolute best value package for power users. Since the base game will require a massive installation footprint (likely between 150 GB and 200 GB), having a 2TB SSD gives you double the storage space of the standard console. You will not have to delete your library to make room for future GTA Online updates.
+        The Sony PlayStation 5 Slim Disc 2TB SSD Edition Bundle with Astro Bot and C-Gamers Dual-Controller Charger is the absolute best value package for power users. Since the base game will require a massive installation footprint (likely between 150 GB and 200 GB), having a 2TB SSD gives you double the storage space of the standard console. You will not have to delete your library to make room for future GTA Online updates.
       </p>
       <p>
         The bundle also features the physical disc drive, allowing you to buy used physical copies or trade games with friends. The inclusion of the critical Astro Bot game and a dual-controller charging stand makes this the complete package.
       </p>
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/ps5 vs xbox series x/sony-playstation-5-slim-disc-2tb-ssd-edition-bundle-with-astro-bot-and-c-gamers-dual-controller-charger.webp" 
+          alt="Sony PlayStation 5 Slim Disc 2TB SSD Edition Bundle with Astro Bot and C-Gamers Dual-Controller Charger showcase" 
+          width={600}
+          height={400}
+          className={styles.featureImage} 
+        />
+      </div>
+      <div>
+        <a href="https://amzn.to/45knozk" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+          View on Amazon
+        </a>
+      </div>
 
       <h3>2. Consola PS5 Digital + God of War Ragnarok</h3>
       <p>
-        The <a href="https://amzn.to/4fnQYtM" target="_blank" rel="noopener noreferrer">Consola PS5 Digital + God of War Ragnarok</a> is a great digital-only bundle that pairs the hardware with one of Sony's greatest cinematic masterpieces. Since it lacks a physical disc drive, you must download all your titles from the PlayStation Store. This model is slimmer and fits easily into tight entertainment centers.
+        The Consola PS5 Digital + God of War Ragnarok is a great digital-only bundle that pairs the hardware with one of Sony's greatest masterpieces. Since it lacks a physical disc drive, you must download all your titles from the PlayStation Store. This model is slimmer and fits easily into tight entertainment centers.
       </p>
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/ps5 vs xbox series x/consola-ps5-digital-god-of-war-ragnarok.webp" 
+          alt="Consola PS5 Digital + God of War Ragnarok bundle edition console showcase" 
+          width={600}
+          height={400}
+          className={styles.featureImage} 
+        />
+      </div>
+      <div>
+        <a href="https://amzn.to/4fnQYtM" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+          View on Amazon
+        </a>
+      </div>
 
+      <h3>3. Sony PS5 PlayStation 5 Digital Edition Gaming Console</h3>
+      <p>
+        The standalone Sony PS5 PlayStation 5 Digital Edition Gaming Console is the entry-level option for gamers who do not care about physical discs or bundled games. It features the standard 825GB SSD (on older models) or the newer 1TB SSD on Slim revisions. It is the cleanest looking console in the lineup.
+      </p>
       <div className={styles.featureImageContainer}>
         <Image 
           src="/images/ps5 vs xbox series x/sony-ps5-playstation-5-digital-edition-gaming-console.webp" 
@@ -183,25 +205,29 @@ export const ps5VsXboxSeriesX: ArticleData = {
           className={styles.featureImage} 
         />
       </div>
-
-      <h3>3. Sony PS5 PlayStation 5 Digital Edition Gaming Console</h3>
-      <p>
-        The standalone <a href="https://amzn.to/4pClVxz" target="_blank" rel="noopener noreferrer">Sony PS5 PlayStation 5 Digital Edition Gaming Console</a> is the entry-level option for gamers who do not care about physical discs or bundled games. It features the standard 825GB SSD (on older models) or the newer 1TB SSD on Slim revisions. It is the cleanest looking console in the lineup.
-      </p>
+      <div>
+        <a href="https://amzn.to/4pClVxz" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+          View on Amazon
+        </a>
+      </div>
 
       <h3>4. PS5 - Sony PlayStation 5 Digital Edition</h3>
       <p>
-        The <a href="https://amzn.to/3Tle0J3" target="_blank" rel="noopener noreferrer">PS5 - Sony PlayStation 5 Digital Edition</a> represents the base digital console configuration. It offers identical processing performance to the disc version, running the same CPU, GPU, and SSD bandwidth. It is the most cost-effective way to get onto the PS5 platform.
+        The PS5 - Sony PlayStation 5 Digital Edition represents the base digital console configuration. It offers identical processing performance to the disc version, running the same CPU, GPU, and SSD bandwidth. It is the most cost-effective way to get onto the PS5 platform.
       </p>
-
       <div className={styles.featureImageContainer}>
         <Image 
-          src="/images/ps5 vs xbox series x/x-box-series-x-gaming-console-bundle.webp" 
-          alt="Xbox Series X Gaming Console Bundle showing the console and controller box art" 
+          src="/images/ps5 vs xbox series x/ps5-sony-playstation-5.webp" 
+          alt="PS5 - Sony PlayStation 5 Digital Edition standard box layout" 
           width={600}
           height={400}
           className={styles.featureImage} 
         />
+      </div>
+      <div>
+        <a href="https://amzn.to/3Tle0J3" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+          View on Amazon
+        </a>
       </div>
 
       <h2>Which Xbox Console Bundle is Best for GTA 6?</h2>
@@ -211,17 +237,49 @@ export const ps5VsXboxSeriesX: ArticleData = {
 
       <h3>1. X-Box Series X Gaming Console Bundle</h3>
       <p>
-        The <a href="https://amzn.to/4pKtmTp" target="_blank" rel="noopener noreferrer">X-Box Series X Gaming Console Bundle</a> is the premium choice for Microsoft fans. It features the flagship Series X console with its native 4K Blu-ray disc drive and 1TB SSD. This bundle guarantees you get the raw 12 TFLOP GPU output, which will display the best draw distances and reflection quality available on standard consoles.
+        The X-Box Series X Gaming Console Bundle is the premium choice for Microsoft fans. It features the flagship Series X console with its native 4K Blu-ray disc drive and 1TB SSD. This bundle guarantees you get the raw 12 TFLOP GPU output, which will display the best draw distances and reflection quality available on standard consoles.
       </p>
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/ps5 vs xbox series x/x-box-series-x-gaming-console-bundle.webp" 
+          alt="Xbox Series X Gaming Console Bundle showing the console and controller box art" 
+          width={600}
+          height={400}
+          className={styles.featureImage} 
+        />
+      </div>
+      <div>
+        <a href="https://amzn.to/4pKtmTp" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+          View on Amazon
+        </a>
+      </div>
 
       <h3>2. Xbox Series S 512GB SSD</h3>
       <p>
-        The <a href="https://amzn.to/4pGNeqA" target="_blank" rel="noopener noreferrer">Xbox Series S 512GB SSD</a> is the most affordable current-gen console on the market. It is highly compact and quiet. However, we advise caution if you plan to play GTA 6 exclusively on this system. The Series S features a much weaker GPU (4 TFLOPs) and less system RAM. This means you will likely experience lower resolutions (targeting 720p or 900p upscaled), simplified car reflections, and lower pedestrian crowd density.
+        The Xbox Series S 512GB SSD is the most affordable current-gen console on the market. It is highly compact and quiet. However, we advise caution if you plan to play GTA 6 exclusively on this system. The Series S features a much weaker GPU (4 TFLOPs) and less system RAM. This means you will likely experience lower resolutions (targeting 720p or 900p upscaled), simplified car reflections, and lower pedestrian crowd density.
       </p>
       <p>
         Additionally, the 512GB SSD is incredibly small. Once you install the operating system and the massive 150 GB+ GTA 6 file, you will have almost no room left for other games without buying an expensive expansion card.
       </p>
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/ps5 vs xbox series x/xbox-series-s-512gb-ssd.webp" 
+          alt="Xbox Series S 512GB SSD console layout with controller" 
+          width={600}
+          height={400}
+          className={styles.featureImage} 
+        />
+      </div>
+      <div>
+        <a href="https://amzn.to/4pGNeqA" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+          View on Amazon
+        </a>
+      </div>
 
+      <h3>3. Microsoft (Refurbished) Xbox Series S Console - 512GB (Renewed)</h3>
+      <p>
+        The Microsoft (Refurbished) Xbox Series S Console - 512GB (Renewed) is a pre-owned, certified-renewed option. It offers the absolute cheapest path to play GTA 6 at launch. While it shares all the limitations of the standard Series S, the lower entry price is perfect for casual players on a tight budget.
+      </p>
       <div className={styles.featureImageContainer}>
         <Image 
           src="/images/ps5 vs xbox series x/microsoft-refurbished-xbox-series-s-console-512gb-renewed.webp" 
@@ -231,16 +289,30 @@ export const ps5VsXboxSeriesX: ArticleData = {
           className={styles.featureImage} 
         />
       </div>
-
-      <h3>3. Microsoft (Refurbished) Xbox Series S Console - 512GB (Renewed)</h3>
-      <p>
-        The <a href="https://amzn.to/4fX2e0e" target="_blank" rel="noopener noreferrer">Microsoft (Refurbished) Xbox Series S Console - 512GB (Renewed)</a> is a pre-owned, certified-renewed option. It offers the absolute cheapest path to play GTA 6 at launch. While it shares all the limitations of the standard Series S, the lower entry price is perfect for casual players on a tight budget.
-      </p>
+      <div>
+        <a href="https://amzn.to/4fX2e0e" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+          View on Amazon
+        </a>
+      </div>
 
       <h3>4. X-box Series-X-1TB Black (Renewed)</h3>
       <p>
-        The <a href="https://amzn.to/4bjksXc" target="_blank" rel="noopener noreferrer">X-box Series-X-1TB Black (Renewed)</a> is a certified-renewed flagship console. It offers the full 12 TFLOPs graphical capacity and 1TB storage space of the standard Series X, but at a discounted price point. If you want high-end performance for Vice City without paying full retail retail prices, this is a smart choice.
+        The X-box Series-X-1TB Black (Renewed) is a certified-renewed flagship console. It offers the full 12 TFLOPs graphical capacity and 1TB storage space of the standard Series X, but at a discounted price point. If you want high-end performance for Vice City without paying full retail retail prices, this is a smart choice.
       </p>
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/ps5 vs xbox series x/x-box-series-x-1tb-black-renewed.webp" 
+          alt="X-box Series-X 1TB Black Renewed edition console showcase" 
+          width={600}
+          height={400}
+          className={styles.featureImage} 
+        />
+      </div>
+      <div>
+        <a href="https://amzn.to/4bjksXc" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+          View on Amazon
+        </a>
+      </div>
 
       <h2>Physical Copy Differences: The Region-Locking Factor</h2>
       <p>
@@ -254,10 +326,15 @@ export const ps5VsXboxSeriesX: ArticleData = {
       </p>
 
       <div className={styles.callout}>
-        <span className={styles.calloutTitle}>The Buying Verdict</span>
+        <span className={styles.calloutTitle}>Final Recommendation: The Ultimate GTA 6 Setup</span>
         <p>
-          Buy the **PlayStation 5** if you want the most immersive DualSense haptic feedback and faster loading speeds from its 5.5 GB/s SSD. Choose the **Xbox Series X** if you prefer raw GPU rendering resolution, a quiet thermal fan design, and region-free digital downloads. Avoid the Xbox Series S unless budget limits are your primary concern.
+          For the absolute best GTA 6 experience, we recommend buying the <strong>Sony PlayStation 5 Slim Disc 2TB SSD Edition Bundle with Astro Bot and C-Gamers Dual-Controller Charger</strong>. This package solves the two biggest console bottlenecks for GTA 6: it provides a massive 2TB SSD so you will never run out of storage space for Rockstar's 150 GB+ installation and future GTA Online updates, and it features a disc drive for physical games. DualSense haptic feedback will also deliver unmatched physical immersion as you drive and shoot through Vice City.
         </p>
+        <div style={{ marginTop: '16px' }}>
+          <a href="https://amzn.to/45knozk" target="_blank" rel="noopener noreferrer" className={styles.amazonButton}>
+            View PS5 2TB SSD Bundle on Amazon
+          </a>
+        </div>
       </div>
 
       <section className={styles.faqSection}>
@@ -307,7 +384,7 @@ export const ps5VsXboxSeriesX: ArticleData = {
       </section>
 
       <p>
-        Ultimately, looking at how the **ps5 vs xbox series x** handles massive open-world rendering shows that both consoles will deliver an incredible next-gen experience. To ensure your display is ready for the game, review our <Link href="/tech/gta-6-system-requirements/">gta 6 system requirements</Link> guide or check the latest pre-order updates on the <Link href="/news/gta-6-pre-order/">gta 6 pre-order</Link> page.
+        Ultimately, looking at how the <strong>ps5 vs xbox series x</strong> handles massive open-world rendering shows that both consoles will deliver an incredible next-gen experience. To ensure your display is ready for the game, review our <Link href="/tech/gta-6-system-requirements/">gta 6 system requirements</Link> guide or check the latest pre-order updates on the <Link href="/news/gta-6-pre-order/">gta 6 pre-order</Link> page.
       </p>
     </>
   ),

@@ -341,3 +341,36 @@
   height: 100%;
   border: 0;
 }
+
+/* Amazon affiliate buttons styling */
+.amazonButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff9900, #ff5500);
+  color: #ffffff !important;
+  font-family: var(--font-ui), 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(255, 153, 0, 0.3);
+  transition: all 0.2s ease;
+  margin: 12px 0 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.amazonButton:hover {
+  background: linear-gradient(135deg, #ffb300, #ff6600);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 153, 0, 0.4);
+}
+
+.amazonButton:active {
+  transform: translateY(0);
+}
+
