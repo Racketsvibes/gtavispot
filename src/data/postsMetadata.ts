@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Region Lock: PS5 Users Affected, Xbox is Free',
+    desc: 'GTA 6 region lock rules confirmed for PlayStation 5. See why physical voucher codes are locked to local PSN regions while Xbox players remain unaffected.',
+    date: 'July 29, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-region-lock/',
+    img: '/images/news/gta-6-ps5-region-lock-feature.webp',
+  },
+  {
     title: 'Pegassi Ignus Pursuit — Price & Customization Guide',
     desc: 'Pegassi Ignus Pursuit in GTA Online. Compare standard and trade prices, unlock dispatch work requirements, and customize this cop car at your workshop.',
     date: 'July 29, 2026',

@@ -319,7 +319,7 @@ export const ps5VsXboxSeriesX: ArticleData = {
         A major, often overlooked factor when deciding between consoles is how the physical edition will be distributed. Both Sony and Microsoft have shifted toward box-releases that contain digital download vouchers instead of plastic blu-ray discs.
       </p>
       <p>
-        PlayStation 5 digital vouchers are strictly region-locked. If you buy a physical box from a European retailer or receive it as an import, the code inside will only work if your PSN account region matches that exact country. If you try to redeem a European code on a US PSN account, it will fail.
+        PlayStation 5 digital vouchers are strictly region-locked. According to newly confirmed <Link href="/news/gta-6-region-lock/">gta 6 region lock</Link> details, foreign retail vouchers will not redeem if your PSN account settings do not match the retail country. If you try to redeem a European code on a US PSN account, the redemption will fail.
       </p>
       <p>
         Xbox Series X|S digital vouchers are region-free. Microsoft allows digital codes to be redeemed on any account globally, regardless of where the box was purchased. If you import games or travel frequently, this makes the Xbox Series X a much more flexible platform.

@@ -14,6 +14,7 @@ import { gta6PreOrderSales } from './news/gta-6-pre-order-sales';
 import { gta6UltimateVsStandard } from './news/gta-6-ultimate-edition-vs-standard';
 import { gta6PhysicalCopy } from './news/gta-6-physical-copy';
 import { gta6Hacker } from './news/gta-6-hacker';
+import { gta6RegionLock } from './news/gta-6-region-lock';
 
 export interface VideoSchema {
   name: string;
@@ -55,6 +56,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-ultimate-edition-vs-standard': gta6UltimateVsStandard,
   'gta-6-physical-copy': gta6PhysicalCopy,
   'gta-6-hacker': gta6Hacker,
+  'gta-6-region-lock': gta6RegionLock,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
