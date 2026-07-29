@@ -228,6 +228,10 @@ export const gta6KortzHeist: ArticleData = {
         </div>
       </div>
 
+      <p>
+        Alongside these standard civilian releases, players can purchase the emergency-class <Link href="/online/pegassi-ignus-pursuit/">Pegassi Ignus Pursuit</Link> cop interceptor from Warstock. This specialized law enforcement supercar features working sirens, police liveries, and Imani Tech missile jammers.
+      </p>
+
       <h2>Step-by-Step Walkthrough: Planning The Kortz Center Heist</h2>
       <p>
         Executing the heist involves three core phases. 

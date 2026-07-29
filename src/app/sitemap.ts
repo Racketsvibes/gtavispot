@@ -205,6 +205,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   });
 
   const onlineModifiedDates: Record<string, string> = {
+    'pegassi-ignus-pursuit': '2026-07-29',
     'the-kortz-center-heist': '2026-07-16',
     'gta-plus': '2026-07-07',
   };

@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Pegassi Ignus Pursuit — Price & Customization Guide',
+    desc: 'Pegassi Ignus Pursuit in GTA Online. Compare standard and trade prices, unlock dispatch work requirements, and customize this cop car at your workshop.',
+    date: 'July 29, 2026',
+    tag: 'ONLINE',
+    href: '/online/pegassi-ignus-pursuit/',
+    img: '/images/GTA online/Commuity Series/ignus-pursuit-law-enforcement-vehicle.webp',
+  },
+  {
     title: 'PS5 vs Xbox Series x — Which to Buy For GTA 6 Specs',
     desc: 'PS5 vs Xbox Series x for GTA 6. Compare price, graphics, frames, SSD speed, and hardware. See whether Sony or Microsoft wins the Vice City showdown.',
     date: 'July 28, 2026',
