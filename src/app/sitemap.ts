@@ -20,7 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'gta-6-hacker': '2026-07-19',
     'gta-6-leaks': '2026-07-19',
     'gta-6-physical-copy': '2026-07-16',
-    'gta-6-ultimate-edition-vs-standard': '2026-07-16',
+    'gta-6-ultimate-edition-vs-standard': '2026-08-06',
     'gta-6-pre-order': '2026-07-16',
     'gta-6-pre-order-sales': '2026-07-14',
     'gta-6-release-date': '2026-06-25',
