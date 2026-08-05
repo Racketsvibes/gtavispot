@@ -11,7 +11,7 @@ export const gta6CarsArticle: ArticleData = {
   focusKeyword: 'gta 6 cars',
   h1: 'GTA 6 Cars: Real-Life Brands & Confirmed List',
   publishedDate: 'August 5, 2026',
-  modifiedDate: 'August 5, 2026',
+  modifiedDate: 'August 6, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/vehicles/gta-6-cars-feature.webp',
   featureImageAlt: 'Sleek sports car with GTA 6 logo styling on a dark purple background',
@@ -137,7 +137,7 @@ export const gta6CarsArticle: ArticleData = {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px', margin: '32px 0' }}>
         
         {/* Card 1 */}
-        <div style={{ background: '#1a1a2e', border: '1px solid #30363d', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
             <Image 
               src="/images/67_Vapid_Dominator_Buggy.webp" 
@@ -150,9 +150,9 @@ export const gta6CarsArticle: ArticleData = {
           <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>'67 Vapid Dominator Buggy</h4>
-              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: '#b1b1b1', lineHeight: '1.4' }}>Off-road custom buggy built for swamp tracks and deep Leonida exploration.</p>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>Off-road custom buggy built for swamp tracks and deep Leonida exploration.</p>
             </div>
-            <div style={{ fontSize: '0.85rem', borderTop: '1px solid #30363d', paddingTop: '8px', color: '#e0e0e0' }}>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
               <strong>Real-Life Inspiration:</strong> Ford Mustang Custom Buggy<br />
               <strong>Class:</strong> Off-Road<br />
               <strong>Stored At:</strong> Watson Bay Paradise Garage
@@ -161,7 +161,7 @@ export const gta6CarsArticle: ArticleData = {
         </div>
 
         {/* Card 2 */}
-        <div style={{ background: '#1a1a2e', border: '1px solid #30363d', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
             <Image 
               src="/images/95_Grotti_Cheetah.webp" 
@@ -174,9 +174,9 @@ export const gta6CarsArticle: ArticleData = {
           <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>'95 Grotti Cheetah</h4>
-              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: '#b1b1b1', lineHeight: '1.4' }}>A legendary mid-engine classic sports car returning with a vintage livery design.</p>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>A legendary mid-engine classic sports car returning with a vintage livery design.</p>
             </div>
-            <div style={{ fontSize: '0.85rem', borderTop: '1px solid #30363d', paddingTop: '8px', color: '#e0e0e0' }}>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
               <strong>Real-Life Inspiration:</strong> Ferrari Testarossa<br />
               <strong>Class:</strong> Sports Classic<br />
               <strong>Availability:</strong> Ultimate Edition Bonus
@@ -185,7 +185,7 @@ export const gta6CarsArticle: ArticleData = {
         </div>
 
         {/* Card 3 */}
-        <div style={{ background: '#1a1a2e', border: '1px solid #30363d', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
             <Image 
               src="/images/grotti-veleno-gt.webp" 
@@ -198,9 +198,9 @@ export const gta6CarsArticle: ArticleData = {
           <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>Grotti Veleno GT</h4>
-              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: '#b1b1b1', lineHeight: '1.4' }}>High-performance hypercar built for cutting-edge freeway speeds.</p>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>High-performance hypercar built for cutting-edge freeway speeds.</p>
             </div>
-            <div style={{ fontSize: '0.85rem', borderTop: '1px solid #30363d', paddingTop: '8px', color: '#e0e0e0' }}>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
               <strong>Real-Life Inspiration:</strong> Ferrari / Lamborghini Hybrid<br />
               <strong>Class:</strong> Super<br />
               <strong>Price:</strong> GTA$ 3,850,000
@@ -209,7 +209,7 @@ export const gta6CarsArticle: ArticleData = {
         </div>
 
         {/* Card 4 */}
-        <div style={{ background: '#1a1a2e', border: '1px solid #30363d', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
             <Image 
               src="/images/benefactor-lmc-gt.webp" 
@@ -222,12 +222,180 @@ export const gta6CarsArticle: ArticleData = {
           <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>Benefactor LMC GT</h4>
-              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: '#b1b1b1', lineHeight: '1.4' }}>Classic racing model inspired by touring cars, offering extensive mods.</p>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>Classic racing model inspired by touring cars, offering extensive mods.</p>
             </div>
-            <div style={{ fontSize: '0.85rem', borderTop: '1px solid #30363d', paddingTop: '8px', color: '#e0e0e0' }}>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
               <strong>Real-Life Inspiration:</strong> Mercedes-Benz Touring Coupe<br />
               <strong>Class:</strong> Sports<br />
               <strong>Price:</strong> GTA$ 3,200,000
+            </div>
+          </div>
+        </div>
+
+        {/* Card 5 */}
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
+            <Image 
+              src="/images/ULTIMATE_EDITION_VAPID_GANADO_RETRO_BUILD_01.webp" 
+              alt="Vapid Ganado Retro Build muscle car custom lowrider style" 
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>Vapid Ganado Retro</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>Retro muscle cruiser featuring custom hydraulic suspension adjustments.</p>
+            </div>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
+              <strong>Real-Life Inspiration:</strong> Chevy Bel Air / Ford Custom<br />
+              <strong>Class:</strong> Muscle Classic<br />
+              <strong>Availability:</strong> Ultimate Edition Safehouse Unlock
+            </div>
+          </div>
+        </div>
+
+        {/* Card 6 */}
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
+            <Image 
+              src="/images/VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01.webp" 
+              alt="Vapid Stanier sedan cruiser in Vice City" 
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>Vapid Stanier Custom</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>Vintage Vice City Pack cruiser styled after classic Florida law enforcement models.</p>
+            </div>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
+              <strong>Real-Life Inspiration:</strong> Ford Crown Victoria<br />
+              <strong>Class:</strong> Sedans<br />
+              <strong>Availability:</strong> Vintage Vice City Pack
+            </div>
+          </div>
+        </div>
+
+        {/* Card 7 */}
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
+            <Image 
+              src="/images/ULTIMATE_EDITION_SQUALO_01.webp" 
+              alt="Shitzu Squalo speed racing boat in GTA 6" 
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>Shitzu Squalo</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>High-speed offshore speedboat built for open-water escape runs.</p>
+            </div>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
+              <strong>Real-Life Inspiration:</strong> Wellcraft Scarab 38 KV<br />
+              <strong>Class:</strong> Boats<br />
+              <strong>Availability:</strong> Ultimate Edition Watercraft Bonus
+            </div>
+          </div>
+        </div>
+
+        {/* Card 8 */}
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
+            <Image 
+              src="/images/ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_01.webp" 
+              alt="Wyman Car Collection rare classic tuning sports car" 
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>Wyman Collector Build</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>Ultra-rare custom modified vehicle available in Wyman's garage.</p>
+            </div>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
+              <strong>Real-Life Inspiration:</strong> Custom Restomod Muscle Car<br />
+              <strong>Class:</strong> Sports / Muscle<br />
+              <strong>Availability:</strong> Wyman's Classic Missions
+            </div>
+          </div>
+        </div>
+
+        {/* Card 9 */}
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
+            <Image 
+              src="/images/ULTIMATE_EDITION_ELECTRIC_FANG_01.webp" 
+              alt="Electric Fang high-torque EV sports hypercar in GTA 6" 
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>Coil Electric Fang</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>Cutting-edge EV hypercar providing instant torque acceleration and digital dials.</p>
+            </div>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
+              <strong>Real-Life Inspiration:</strong> Rimac Nevera / Lotus Evija<br />
+              <strong>Class:</strong> Super<br />
+              <strong>Availability:</strong> Legendary Motorsport
+            </div>
+          </div>
+        </div>
+
+        {/* Card 10 */}
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
+            <Image 
+              src="/images/ULTIMATE_EDITION_STOCK_305_01.webp" 
+              alt="Stock 305 oval racing track stock car" 
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>Declasse Stock 305</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>Oval stock car build inspired by Florida speedway dirt and asphalt racing.</p>
+            </div>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
+              <strong>Real-Life Inspiration:</strong> NASCAR Chevrolet Camaro Classic<br />
+              <strong>Class:</strong> Muscle / Stock<br />
+              <strong>Availability:</strong> Speedway Racing Arena
+            </div>
+          </div>
+        </div>
+
+        {/* Card 11 */}
+        <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border-light)', borderRadius: '12px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
+            <Image 
+              src="/images/ULTIMATE_EDITION_ONE_EYED_WILLIE_01.webp" 
+              alt="One-Eyed Willie custom boat with pirate theme and flag" 
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <div style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <h4 style={{ margin: '0 0 8px 0', fontSize: '1.2rem', fontFamily: 'var(--font-ui), sans-serif', color: 'var(--brand-magenta, #d6246e)' }}>One-Eyed Willie Boat</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>Custom pirate-themed yacht tender featuring a customized exhaust and marine flag.</p>
+            </div>
+            <div style={{ fontSize: '0.85rem', borderTop: '1px solid var(--border-light)', paddingTop: '8px', color: 'var(--text-secondary)' }}>
+              <strong>Real-Life Inspiration:</strong> Custom Retro Wooden Speedboat<br />
+              <strong>Class:</strong> Boats<br />
+              <strong>Availability:</strong> Ultimate Edition Safehouse Dock
             </div>
           </div>
         </div>

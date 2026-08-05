@@ -54,12 +54,16 @@ const storySubNav = [
   { label: 'Ending Explained', href: '/story/ending/' },
 ];
 
+const vehiclesSubNav = [
+  { label: 'Vehicles Hub', href: '/vehicles/' },
+  { label: 'GTA 6 Cars & Real Models', href: '/vehicles/gta-6-cars/' },
+];
+
 const primaryNav = [
   { label: 'Release Date', href: '/news/gta-6-release-date/' },
   { label: 'Characters', href: '/story/gta-6-characters/' },
   { label: 'Cheats', href: '/cheats/' },
   { label: 'Weapons', href: '/weapons/' },
-  { label: 'Vehicles', href: '/vehicles/' },
 ];
 
 const moreNav = [
@@ -91,6 +95,7 @@ export default function Header() {
   const [mapOpen, setMapOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const [policiesOpen, setPoliciesOpen] = useState(false);
+  const [vehiclesOpen, setVehiclesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   // Helper to check if a nav section is active
@@ -109,6 +114,7 @@ export default function Header() {
   const storyRef = useRef<HTMLDivElement>(null);
   const newsRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
+  const vehiclesRef = useRef<HTMLDivElement>(null);
   const moreRef = useRef<HTMLDivElement>(null);
   const policiesRef = useRef<HTMLDivElement>(null);
 
@@ -135,6 +141,9 @@ export default function Header() {
       }
       if (policiesRef.current && !policiesRef.current.contains(target)) {
         setPoliciesOpen(false);
+      }
+      if (vehiclesRef.current && !vehiclesRef.current.contains(target)) {
+        setVehiclesOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -258,6 +267,43 @@ export default function Header() {
                         href={item.href}
                         className={styles.dropdownLink}
                         onClick={() => setMapOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Vehicles Dropdown */}
+            <div
+              className={styles.moreWrapper}
+              ref={vehiclesRef}
+              onMouseEnter={() => setVehiclesOpen(true)}
+              onMouseLeave={() => setVehiclesOpen(false)}
+            >
+              <button
+                className={getDropdownBtnClass('/vehicles')}
+                onClick={() => setVehiclesOpen(!vehiclesOpen)}
+                aria-expanded={vehiclesOpen}
+                aria-haspopup="true"
+                type="button"
+              >
+                Vehicles
+                <svg className={`${styles.moreChevron} ${vehiclesOpen ? styles.chevronUp : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              {vehiclesOpen && (
+                <div className={styles.dropdown}>
+                  <div className={styles.dropdownGrid}>
+                    {vehiclesSubNav.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={styles.dropdownLink}
+                        onClick={() => setVehiclesOpen(false)}
                       >
                         {item.label}
                       </Link>
@@ -411,6 +457,21 @@ export default function Header() {
             <span className={styles.mobileNavLabel}>Map & World</span>
             <div className={styles.mobileLinkGrid}>
               {mapSubNav.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={styles.mobileNavLink}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className={styles.mobileNavSection}>
+            <span className={styles.mobileNavLabel}>Vehicles & Rides</span>
+            <div className={styles.mobileLinkGrid}>
+              {vehiclesSubNav.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}

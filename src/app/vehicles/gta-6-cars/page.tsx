@@ -103,6 +103,20 @@ export default function Gta6CarsPage() {
 
         <div className={styles.divider}></div>
 
+        {gta6CarsArticle.featureImage && (
+          <div className={styles.featureImageContainer}>
+            <Image
+              src={gta6CarsArticle.featureImage}
+              alt={gta6CarsArticle.featureImageAlt || gta6CarsArticle.focusKeyword || gta6CarsArticle.title}
+              width={800}
+              height={450}
+              sizes="(max-width: 768px) 100vw, 800px"
+              className={styles.featureImage}
+              priority
+            />
+          </div>
+        )}
+
         <main className={styles.body}>
           {gta6CarsArticle.content}
         </main>
