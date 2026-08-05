@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Cars List: Real-Life Vehicles & Brands Guide',
+    desc: 'GTA 6 cars list and real-life design inspirations. Compare fictional brands like Grotti and Pegassi to Ferrari and Lamborghini in this new vehicle guide.',
+    date: 'August 5, 2026',
+    tag: 'VEHICLES',
+    href: '/vehicles/gta-6-cars/',
+    img: '/images/vehicles/gta-6-cars-feature.webp',
+  },
+  {
     title: 'GTA 6 Region Lock: PS5 Users Affected, Xbox is Free',
     desc: 'GTA 6 region lock rules confirmed for PlayStation 5. See why physical voucher codes are locked to local PSN regions while Xbox players remain unaffected.',
     date: 'July 29, 2026',

@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: July 29, 2026: Added GTA 6 PS5 Region Lock news.*
+*Last updated: August 5, 2026: Added GTA 6 Cars and real-life models guide.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -38,6 +38,9 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Secret Locations Map](https://gtavispot.com/map/secret-locations/)
 - [Easter Eggs Tracker](https://gtavispot.com/map/easter-eggs/)
 - [Underwater Secrets Guide](https://gtavispot.com/map/underwater/)
+
+## Vehicle Articles
+- [GTA 6 Cars Guide](https://gtavispot.com/vehicles/gta-6-cars/)
 
 ## News Articles
 - [GTA 6 Release Date](https://gtavispot.com/news/gta-6-release-date/)

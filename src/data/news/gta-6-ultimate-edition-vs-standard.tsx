@@ -226,7 +226,7 @@ export const gta6UltimateVsStandard: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>What vehicles are included in the gta vi ultimate edition vs standard release?</h3>
           <p className={styles.faqAnswer}>
-            The Ultimate Edition includes the '95 Grotti Cheetah, Dinka Enduro off-road bike, and a custom Shitzu Squalo watercraft. The Standard Edition does not include these vehicle bonuses.
+            The Ultimate Edition includes the '95 Grotti Cheetah, Dinka Enduro off-road bike, and a custom Shitzu Squalo watercraft. For a complete analysis of these models, check out our <Link href="/vehicles/gta-6-cars/">gta 6 cars</Link> database guide. The Standard Edition does not include these vehicle bonuses.
           </p>
         </div>
 
