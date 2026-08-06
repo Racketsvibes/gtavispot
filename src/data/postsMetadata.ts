@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Extended Look: Netflix Preview & Release Date',
+    desc: 'GTA 6 extended look confirmed to premiere on Netflix. Get the release date, exclusive streaming window, and official YouTube launch details in this guide.',
+    date: 'August 6, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-extended-look/',
+    img: '/images/news/gta-6-extended-look-feature.webp',
+  },
+  {
     title: 'GTA 6 Cars List: Real-Life Vehicles & Brands Guide',
     desc: 'GTA 6 cars list and real-life design inspirations. Compare fictional brands like Grotti and Pegassi to Ferrari and Lamborghini in this new vehicle guide.',
     date: 'August 5, 2026',

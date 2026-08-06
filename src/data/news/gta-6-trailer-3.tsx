@@ -45,7 +45,7 @@ export const gta6Trailer3: ArticleData = {
         Predicting the release of GTA 6 trailer 3 requires reviewing Rockstar's established marketing timelines. Trailer 1 dropped in December 2023, followed by Trailer 2 in late 2025 alongside the final release date confirmation. Based on this spacing, Trailer 3 is scheduled to drop roughly three to four months before the final November launch.
       </p>
       <p>
-        This schedule aligns with the marketing campaigns of Grand Theft Auto V and Red Dead Redemption 2. In both cases, Rockstar released a dedicated gameplay-focused trailer in the late summer, followed by a final launch trailer in the week leading up to release. Fans should expect Trailer 3 to debut during a major Take-Two investor cycle to maximize publicity.
+        This schedule aligns with the marketing campaigns of Grand Theft Auto V and Red Dead Redemption 2. In both cases, Rockstar released a dedicated gameplay-focused trailer in the late summer, followed by a final launch trailer in the week leading up to release. Fans should expect Trailer 3 to debut during a major Take-Two investor cycle to maximize publicity. Alternatively, check out our coverage of the official <Link href="/news/gta-6-extended-look/">gta 6 extended look</Link> streaming premiere on Netflix, which acts as the major summer gameplay showcase.
       </p>
       <p>
         According to official notices on the Rockstar Games Newswire, the studio announces trailer drops exactly 48 hours in advance. These announcements occur via social media channels and the official site, featuring a single teaser image with the exact time. Rockstar avoids third-party gaming events, preferring to host the video directly on their own YouTube channel.

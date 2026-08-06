@@ -10,6 +10,7 @@ import styles from './Header.module.css';
 
 const newsSubNav = [
   { label: 'All News & Updates', href: '/news/' },
+  { label: 'Netflix Extended Preview', href: '/news/gta-6-extended-look/' },
   { label: 'Release Date Confirmed', href: '/news/gta-6-release-date/' },
   { label: 'Delay History Analysis', href: '/news/gta-6-delay/' },
   { label: 'Trailer 3 Breakdown', href: '/news/gta-6-trailer-3/' },
