@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArticleData } from '../newsContent';
 import YoutubePlayer from '@/components/YoutubePlayer';
+import NetflixCountdown from '@/components/NetflixCountdown';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6ExtendedLook: ArticleData = {
@@ -29,6 +30,8 @@ export const gta6ExtendedLook: ArticleData = {
       <p>
         Fans are on the edge of their seats as Rockstar Games has officially announced a gameplay showcase titled <strong>gta 6 extended look</strong> to premiere on Netflix on August 27, 2026. This unique, first-of-its-kind streaming partnership gives Netflix subscribers exclusive early access to the new Vice City trailer footage before it goes live on YouTube. In this guide, we cover the exact air times, streaming window exclusivity, and how it impacts the countdown to the game's final release.
       </p>
+
+      <NetflixCountdown />
 
       <div className={styles.quickAnswer}>
         <span className={styles.quickAnswerTitle}>Key Announcement Highlights</span>
