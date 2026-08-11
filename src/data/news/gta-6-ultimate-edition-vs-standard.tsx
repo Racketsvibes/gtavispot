@@ -146,7 +146,7 @@ export const gta6UltimateVsStandard: ArticleData = {
       </div>
 
       <p>
-        Unlike previous <strong>GTA V Editions</strong>, which featured physical steelbooks and blueprints, these releases are digital-first. Players will receive digital download keys inside the box, which reduces shipping delays. The shift toward digital delivery makes it easier to buy the premium package from anywhere.
+        Unlike previous <strong>GTA V Editions</strong>, which featured physical steelbooks and blueprints, these releases are digital-first. Players will receive digital download keys inside the box, which reduces shipping delays. For a look at whether Rockstar might offer physical memorabilia in the future, see our <Link href="/news/gta-6-collectors-edition/">GTA 6 Collector's Edition details</Link>.
       </p>
 
       <h2>Lucia and Jason Exclusive Customization Unlocks</h2>

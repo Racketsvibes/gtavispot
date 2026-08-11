@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Collectors Edition: Price & Details',
+    desc: 'GTA 6 Collectors Edition has not been announced yet. See confirmed editions, expected price, what to expect, and where to pre-order GTA VI.',
+    date: 'August 11, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-collectors-edition/',
+    img: '/images/news/gta-6-collectors-edition-feature.webp',
+  },
+  {
     title: 'GTA 6 Extended Look: Netflix Preview & Release Date',
     desc: 'GTA 6 extended look confirmed to premiere on Netflix. Get the release date, exclusive streaming window, and official YouTube launch details in this guide.',
     date: 'August 6, 2026',

@@ -16,6 +16,7 @@ import { gta6PhysicalCopy } from './news/gta-6-physical-copy';
 import { gta6Hacker } from './news/gta-6-hacker';
 import { gta6RegionLock } from './news/gta-6-region-lock';
 import { gta6ExtendedLook } from './news/gta-6-extended-look';
+import { gta6CollectorsEdition } from './news/gta-6-collectors-edition';
 
 export interface VideoSchema {
   name: string;
@@ -59,6 +60,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-hacker': gta6Hacker,
   'gta-6-region-lock': gta6RegionLock,
   'gta-6-extended-look': gta6ExtendedLook,
+  'gta-6-collectors-edition': gta6CollectorsEdition,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {

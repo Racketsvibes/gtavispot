@@ -285,7 +285,7 @@ export const gta6PreOrder: ArticleData = {
       </section>
 
       <p>
-        For details on why the release window shifted, check our timeline of the <Link href="/news/gta-6-delay/">GTA 6 delay history</Link>.
+        For details on why the release window shifted, check our timeline of the <Link href="/news/gta-6-delay/">GTA 6 delay history</Link>. If you're looking for a premium physical bundle, read our guide on the <Link href="/news/gta-6-collectors-edition/">GTA 6 Collectors Edition</Link> status and expected contents.
       </p>
     </>
   ),
