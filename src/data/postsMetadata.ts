@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Animals List: Confirmed Leonida Wildlife & Pets',
+    desc: 'Explore the complete GTA 6 Animals list. Discover confirmed Leonida wildlife, invasive species, and domestic pet breeds from the official trailers now.',
+    date: 'August 13, 2026',
+    tag: 'WORLD',
+    href: '/world/gta-6-animals/',
+    img: '/images/world/gta-6-animals-feature.webp',
+  },
+  {
     title: 'GTA 6 Collectors Edition: Price & Details',
     desc: 'GTA 6 Collectors Edition has not been announced yet. See confirmed editions, expected price, what to expect, and where to pre-order GTA VI.',
     date: 'August 11, 2026',

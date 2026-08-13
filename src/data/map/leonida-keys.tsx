@@ -45,7 +45,7 @@ export const leonidaKeys: MapArticleData = {
         The Leonida Keys represents the southernmost region of the GTA 6 map. It is a scenic, coastal environment that stands in stark contrast to the dense skyscrapers of Downtown Vice City.
       </p>
       <p>
-        The region is characterized by shallow turquoise waters, coral reef systems, luxury resort houses, and swampy mangrove forests. The local economy is driven by tourism, boating, and commercial fishing, though the isolated nature of the islands makes it a hub for contraband smuggling.
+        The region is characterized by shallow turquoise waters, coral reef systems hosting a wide <Link href="/world/gta-6-animals/">variety of GTA 6 Animals</Link>, luxury resort houses, and swampy mangrove forests. The local economy is driven by tourism, boating, and commercial fishing, though the isolated nature of the islands makes it a hub for contraband smuggling.
       </p>
       <p>
         As detailed in geographical databases on <a href="https://en.wikipedia.org/wiki/Florida_Keys" target="_blank" rel="noopener noreferrer">Wikipedia</a>, the real-world counterpart relies heavily on bridges for connectivity. In GTA 6, players can travel across a massive multi-mile bridge system that serves as a highway, offering views of the ocean on both sides.

@@ -4,6 +4,7 @@ import { getAllArticleSlugs } from '@/data/newsContent';
 import { getAllStoryArticleSlugs } from '@/data/storyContent';
 import { getAllTechArticleSlugs } from '@/data/techContent';
 import { getAllOnlineArticleSlugs } from '@/data/onlineContent';
+import { getAllWorldArticleSlugs } from '@/data/worldContent';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://www.gtavispot.com';
@@ -195,6 +196,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'weekly' as const,
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/world/`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
   ];
 
   const techModifiedDates: Record<string, string> = {
@@ -230,5 +237,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     };
   });
 
-  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes, ...onlineRoutes];
+  const worldModifiedDates: Record<string, string> = {
+    'gta-6-animals': '2026-08-13',
+  };
+
+  const worldRoutes = getAllWorldArticleSlugs().map((slug) => {
+    const dateStr = worldModifiedDates[slug];
+    const lastModified = dateStr ? new Date(dateStr) : new Date();
+    return {
+      url: `${baseUrl}/world/${slug}/`,
+      lastModified,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    };
+  });
+
+  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes, ...onlineRoutes, ...worldRoutes];
 }

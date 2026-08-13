@@ -42,7 +42,7 @@ export const mountKalaga: MapArticleData = {
 
       <h2>What is Mount Kalaga in GTA 6?</h2>
       <p>
-        Mount Kalaga is the largest natural landmark in Grand Theft Auto 6. It dominates the northern skyline of Leonida, surrounded by dense pine forests, rocky cliffs, and rushing mountain rivers.
+        Mount Kalaga is the largest natural landmark in Grand Theft Auto 6. It dominates the northern skyline of Leonida, surrounded by dense pine forests, rocky cliffs, and rushing mountain rivers that host a vibrant <Link href="/world/gta-6-animals/">Leonida wildlife ecosystem</Link>.
       </p>
       <p>
         The mountain features multiple hiking trails, wooden bridges, and viewing platforms for hikers. At the summit, a research observatory and weather station provide panoramic views of the entire map.

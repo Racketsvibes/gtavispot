@@ -5,6 +5,7 @@ import { getAllStoryArticles } from '@/data/storyContent';
 import { getAllMapArticles } from '@/data/mapContent';
 import { getAllTechArticles } from '@/data/techContent';
 import { getAllOnlineArticles } from '@/data/onlineContent';
+import { getAllWorldArticles } from '@/data/worldContent';
 import styles from './RelatedPosts.module.css';
 
 interface RelatedPostsProps {
@@ -56,20 +57,22 @@ const curatedRelations: Record<string, string[]> = {
 
   // Map articles
   'vice-city': ['ocean-beach', 'size', 'interiors'],
-  'leonida-keys': ['underwater', 'secret-locations', 'size'],
-  'grassrivers': ['mount-kalaga', 'secret-locations', 'easter-eggs'],
+  'leonida-keys': ['underwater', 'gta-6-animals', 'size'],
+  'grassrivers': ['mount-kalaga', 'gta-6-animals', 'secret-locations'],
   'port-gellhorn': ['ambrosia', 'vice-city', 'size'],
   'ambrosia': ['port-gellhorn', 'mount-kalaga', 'secret-locations'],
-  'mount-kalaga': ['grassrivers', 'ambrosia', 'secret-locations'],
+  'mount-kalaga': ['grassrivers', 'gta-6-animals', 'secret-locations'],
   'ocean-beach': ['vice-city', 'leonida-keys', 'size'],
   'size': ['vice-city', 'interiors', 'secret-locations'],
   'interiors': ['size', 'secret-locations', 'easter-eggs'],
   'secret-locations': ['underwater', 'easter-eggs', 'interiors'],
-  'easter-eggs': ['secret-locations', 'interiors', 'underwater'],
   'underwater': ['secret-locations', 'leonida-keys', 'easter-eggs'],
 
   // Online articles
   'gta-plus': ['gta-6-pc-release-date', 'gta-6-price', 'gta-6-pre-order'],
+
+  // World articles
+  'gta-6-animals': ['grassrivers', 'mount-kalaga', 'leonida-keys'],
 
   // Special / Hub Pages
   'cheats': ['guides', 'walkthrough', 'gta-6-release-date'],
@@ -142,6 +145,19 @@ export default function RelatedPosts({ category, currentSlug }: RelatedPostsProp
       desc: article.metaDescription,
       img: article.featureImage || '/images/desktop.webp',
       href: `/online/${slug}/`,
+      cta: 'Read Guide →',
+    });
+  });
+
+  // Add World
+  getAllWorldArticles().forEach(({ slug, article }) => {
+    catalog.push({
+      slug,
+      category: 'world',
+      title: article.h1 || article.title,
+      desc: article.metaDescription,
+      img: article.featureImage || '/images/desktop.webp',
+      href: `/world/${slug}/`,
       cta: 'Read Guide →',
     });
   });

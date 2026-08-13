@@ -60,7 +60,7 @@ export const grassrivers: MapArticleData = {
 
       <h2>Is Grassrivers the GTA 6 version of the Everglades?</h2>
       <p>
-        Rockstar Games designed Grassrivers as a direct parody of the Florida Everglades. The developers modeled the shallow wetlands, local animal species, and rustic rural culture of the region.
+        Rockstar Games designed Grassrivers as a direct parody of the Florida Everglades. The developers modeled the shallow wetlands, the dense variety of <Link href="/world/gta-6-animals/">GTA 6 Animals</Link>, and the rustic rural culture of the region.
       </p>
       <p>
         The game portrays the contrast between the protected national park areas and the commercial developments on the borders. Tourists visit the swamp for airboat tours and alligator feeding shows, while local residents live in isolated communities deep within the wetlands.
