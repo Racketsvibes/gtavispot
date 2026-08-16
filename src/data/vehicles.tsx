@@ -98,7 +98,7 @@ export const gta6Vehicles: ArticleData = {
 
       <h2>Are GTA 6 Bikes and Motorcycles Featured?</h2>
       <p>
-        Cruising along Ocean Drive is perfect for <strong>GTA 6 Bikes</strong> and choppers. You can steal lightweight dirt bikes, traditional cruisers, and sports bikes from various local clubs. NPCs react to lane splitting and engine revving, sometimes accelerating to challenge you.
+        Cruising along Ocean Drive is perfect for <Link href="/vehicles/gta-6-bikes/">GTA 6 Bikes</Link> and choppers. You can steal lightweight dirt bikes, traditional cruisers, and sports bikes from various local clubs. NPCs react to lane splitting and engine revving, sometimes accelerating to challenge you.
       </p>
       <p>
         If you prefer high-speed highway lanes, a nimble <strong>gta 6 motorcycle</strong> like the Shitzu PCJ-600 is your best option. These two-wheelers feature improved crash physics. Hit a curb at high speed and your rider will launch over the handlebars with realistic ragdoll mechanics.

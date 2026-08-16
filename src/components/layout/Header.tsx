@@ -58,6 +58,7 @@ const storySubNav = [
 const vehiclesSubNav = [
   { label: 'Vehicles Hub', href: '/vehicles/' },
   { label: 'GTA 6 Cars & Real Models', href: '/vehicles/gta-6-cars/' },
+  { label: 'GTA 6 Bikes & Motorcycles', href: '/vehicles/gta-6-bikes/' },
 ];
 
 const primaryNav = [
