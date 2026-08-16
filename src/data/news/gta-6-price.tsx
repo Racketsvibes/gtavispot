@@ -57,7 +57,7 @@ export const gta6Price: ArticleData = {
 
       <h2>Ultimate Edition and Upgrade Pricing Explained</h2>
       <p>
-        For fans looking for the complete Vice City experience, Rockstar Games has officially launched pre-orders for the <strong>GTA 6 Ultimate Edition</strong> at <strong>$99.99</strong>. This package includes the base game, Vintage Vice City pre-order bonuses, and exclusive premium content (such as the '95 Grotti Cheetah, Morgan Revolvers, Dominator Buggy, and custom safehouse vehicles) that unlocks dynamically throughout the story.
+        For fans looking for the complete Vice City experience, Rockstar Games has officially launched pre-orders for the <strong>GTA 6 Ultimate Edition</strong> at <strong>$99.99</strong>. This package includes the base game, Vintage Vice City pre-order bonuses, and exclusive premium content (such as the '95 Grotti Cheetah, Morgan Revolvers, Dominator Buggy, and custom safehouse vehicles, including select <Link href="/vehicles/gta-6-bikes/">gta vi bikes</Link>) that unlocks dynamically throughout the story.
       </p>
       <p>
         In addition, Rockstar offers an upgrade path for players who initially purchase the standard game. The <strong>Grand Theft Auto VI: Ultimate Edition Upgrade</strong> is priced at <strong>$20</strong> on Xbox Series X|S, allowing players to unlock all ultimate bonuses at any time. However, this upgrade package is currently <strong>unavailable</strong> on the PlayStation 5 store, meaning PS5 players should purchase the Ultimate Edition from the start if they want the extra content.

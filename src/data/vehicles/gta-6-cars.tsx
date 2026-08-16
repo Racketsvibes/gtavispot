@@ -48,7 +48,7 @@ export const gta6CarsArticle: ArticleData = {
         Grand Theft Auto VI does not feature officially licensed automotive manufacturers. Instead, Rockstar Games continues its tradition of creating fictional companies that serve as stylistic parodies of real-world automotive giants. This allows developers to design vehicles that capture the silhouette of high-end supercars without licensing restrictions.
       </p>
       <p>
-        From muscle cruisers to lightweight city runabouts, the initial list of <strong>gta 6 cars</strong> includes a massive variety of vehicles. These fictional brands map directly to their real-life counterparts as follows:
+        From muscle cruisers to lightweight city runabouts, the initial list of <strong>gta 6 cars</strong> includes a massive variety of vehicles, complemented by an extensive selection of <Link href="/vehicles/gta-6-bikes/">gta 6 bikes</Link> for two-wheeled enthusiasts. These fictional brands map directly to their real-life counterparts as follows:
       </p>
       <ul>
         <li><strong>Grotti:</strong> Inspired by Ferrari (renowned for mid-engine styling and active aerodynamics).</li>

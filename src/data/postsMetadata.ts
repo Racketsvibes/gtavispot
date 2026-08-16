@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Bikes List: Confirmed Motorcycles & Bicycles',
+    desc: 'Explore the complete GTA 6 bikes database. Discover all confirmed motorcycles, cruisers, dirt bikes, and physics details from the official trailers now.',
+    date: 'August 16, 2026',
+    tag: 'VEHICLES',
+    href: '/vehicles/gta-6-bikes/',
+    img: '/images/vehicles/gta-6-bikes-feature.webp',
+  },
+  {
     title: 'GTA 6 Animals List: Confirmed Leonida Wildlife & Pets',
     desc: 'Explore the complete GTA 6 Animals list. Discover confirmed Leonida wildlife, invasive species, and domestic pet breeds from the official trailers now.',
     date: 'August 13, 2026',
