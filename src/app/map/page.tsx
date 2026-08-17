@@ -4,7 +4,7 @@ import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'GTA 6 Map — Full Leonida Interactive Map Guide | GTA Vi Spot',
+  title: 'GTA 6 Map — Full Leonida Interactive Map Guide',
   description: 'Complete GTA 6 Leonida map guide — all regions, Vice City districts, Grassrivers, Keys and every confirmed location. Interactive map with secrets marked.',
   alternates: {
     canonical: 'https://gtavispot.com/map/',

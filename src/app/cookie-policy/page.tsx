@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from '../utility.module.css';
 
 export const metadata = {
-  title: 'Cookie Policy | GTA Vi Spot',
+  title: 'Cookie Policy',
   description: 'Read the comprehensive Cookie Policy for GTA Vi Spot. Learn exactly how we use cookies, tracking pixels, analytics, and manage consent to improve your experience.',
   alternates: {
     canonical: 'https://gtavispot.com/cookie-policy/',

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from '../utility.module.css';
 
 export const metadata = {
-  title: 'Privacy Policy | GTA Vi Spot',
+  title: 'Privacy Policy',
   description: 'Read the comprehensive Privacy Policy for GTA Vi Spot. Learn exactly how we handle your data, cookies, analytics, display ads, and contact form details in compliance with CCPA and GDPR.',
   alternates: {
     canonical: 'https://gtavispot.com/privacy-policy/',

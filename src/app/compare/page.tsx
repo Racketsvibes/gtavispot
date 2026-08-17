@@ -5,7 +5,7 @@ import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from '../tech/page.module.css';
 
 export const metadata = {
-  title: 'GTA 6 Comparisons & Key Differences | GTA Vi Spot',
+  title: 'GTA 6 Comparisons & Key Differences',
   description: 'Explore side-by-side comparisons of GTA 6 vs GTA 5 and other franchise titles. Compare settings, map size, protagonists, pricing, and system requirements.',
   alternates: {
     canonical: 'https://gtavispot.com/compare/',

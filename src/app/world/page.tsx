@@ -5,7 +5,7 @@ import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from '../news/page.module.css'; // Reusing news hub page styles to maintain layout consistency
 
 export const metadata = {
-  title: 'GTA 6 World & Activities: Leonida Guide | GTA Vi Spot',
+  title: 'GTA 6 World & Activities: Leonida Guide',
   description: 'Explore the immersive open-world details of GTA 6. Read comprehensive guides on the Leonida state, ecosystems, interactive activities, and wildlife.',
   alternates: {
     canonical: 'https://gtavispot.com/world/',

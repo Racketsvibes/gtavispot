@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from '../utility.module.css';
 
 export const metadata = {
-  title: 'DMCA Copyright Policy | GTA Vi Spot',
+  title: 'DMCA Copyright Policy',
   description: 'Review the comprehensive DMCA Copyright Policy for GTA Vi Spot. Find detailed instructions on how to submit a copyright infringement notice or counter-notification.',
   alternates: {
     canonical: 'https://gtavispot.com/dmca/',

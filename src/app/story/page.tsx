@@ -5,7 +5,7 @@ import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'GTA 6 Story & Characters — Full Overview Guide | GTA Vi Spot',
+  title: 'GTA 6 Story & Characters — Full Overview Guide',
   description: 'Complete GTA 6 story guide — meet Lucia and Jason, explore the Bonnie-and-Clyde-inspired narrative, all missions and everything confirmed about the plot.',
   alternates: {
     canonical: 'https://gtavispot.com/story/',

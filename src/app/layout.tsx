@@ -27,10 +27,7 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: 'GTA Vi Spot — GTA 6 News, Guides, Map & Everything Vice City',
-    template: '%s | GTA Vi Spot',
-  },
+  title: 'GTA Vi Spot — GTA 6 News, Guides, Map & Everything Vice City',
   description:
     'Your ultimate GTA 6 resource: latest news, interactive Leonida map, character guides, cheats, and launch details for the November 19, 2026 release.',
   icons: {

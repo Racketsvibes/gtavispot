@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from './not-found.module.css';
 
 export const metadata = {
-  title: '404 - Page Wasted | GTA Vi Spot',
+  title: '404 - Page Wasted',
   description: 'The page you are looking for does not exist or has been relocated.',
 };
 

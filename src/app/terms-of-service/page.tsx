@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from '../utility.module.css';
 
 export const metadata = {
-  title: 'Terms of Service | GTA Vi Spot',
+  title: 'Terms of Service',
   description: 'Read the comprehensive Terms of Service for GTA Vi Spot. Review the terms governing website use, content licenses, user responsibilities, and our legal disclaimers.',
   alternates: {
     canonical: 'https://gtavispot.com/terms-of-service/',

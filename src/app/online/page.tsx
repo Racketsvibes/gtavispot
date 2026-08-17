@@ -4,7 +4,7 @@ import { getBreadcrumbsSchema } from '@/lib/schema';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'GTA Online Guides, News & Updates | GTA Vi Spot',
+  title: 'GTA Online Guides, News & Updates',
   description: 'Get the latest GTA Online updates, news, guides, and premium membership details for multiplayer gameplay on PlayStation 5, Xbox Series X|S, and PC.',
   alternates: {
     canonical: 'https://gtavispot.com/online/',

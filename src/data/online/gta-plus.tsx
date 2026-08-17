@@ -4,7 +4,7 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gtaPlusArticle: ArticleData = {
-  title: 'GTA+ Subscription: Is It Worth the Cost? | GTA Vi Spot',
+  title: 'GTA+ Subscription: Is It Worth the Cost?',
   metaDescription: 'Discover if GTA+ is worth your money. Get real pricing, monthly GTA$ rewards, Vinewood Club details, and all current member perks in GTA Online today.',
   focusKeyword: 'GTA+',
   h1: 'GTA+ Subscription: Cost, Perks, and Active Rewards',

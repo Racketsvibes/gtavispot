@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from '../utility.module.css';
 
 export const metadata = {
-  title: 'Disclaimer | GTA Vi Spot',
+  title: 'Disclaimer',
   description: 'Read the comprehensive Disclaimer for GTA Vi Spot. This page outlines our independent fan status, copyright notices, and our relationship with Rockstar Games.',
   alternates: {
     canonical: 'https://gtavispot.com/disclaimer/',

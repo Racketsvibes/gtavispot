@@ -5,7 +5,7 @@ import RelatedPosts from '@/components/RelatedPosts';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'GTA 6 FAQ Hub: Direct & Verified Answers | GTA Vi Spot',
+  title: 'GTA 6 FAQ Hub: Direct & Verified Answers',
   description: 'Get direct and verified answers to the most common GTA 6 questions. Explore release dates, character details, map sizes, cheats, and system requirements.',
   alternates: {
     canonical: 'https://gtavispot.com/faq/',
