@@ -5,12 +5,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const missions: StoryArticleData = {
-  title: 'GTA 6 Missions List: All Story Missions & Order',
-  metaDescription: 'Complete GTA 6 mission list: all story missions in order, heists comparison, stats, and every walkthrough link in one place.',
+  title: 'GTA 6 All Missions List: Every Story Mission in Order',
+  metaDescription: 'GTA 6 has 70–85 story missions across 3 acts with 6 major heists. Full mission list in order, confirmed missions & missable tasks before Act 3. Updated 2026.',
   focusKeyword: 'GTA 6 missions',
-  h1: 'GTA 6 All Story Missions: Complete Mission List & Order',
+  h1: 'GTA 6 All Missions List: Every Story Mission in Order',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'July 17, 2026',
+  modifiedDate: 'August 17, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Fight.webp',
   content: (
@@ -43,15 +43,11 @@ export const missions: StoryArticleData = {
 
       <h2>How Many Story Missions Are in GTA 6?</h2>
       <p>
-        The campaign contains an estimated 70–85 main story missions. 
-        This layout provides a pacing shorter than Red Dead Redemption 2's 104 missions, allowing characters to develop naturally and ensuring players have enough time to explore different counties. 
-        According to historical statistics recorded in development logs, this follows Rockstar's trend of prioritizing cinematic mission depth over simple padding.
+        The campaign contains an estimated 70–85 main story missions. This layout provides a pacing shorter than Red Dead Redemption 2's 104 missions, allowing characters to develop naturally and ensuring players have enough time to explore different counties. According to historical statistics recorded in development logs, this follows Rockstar's trend of prioritizing cinematic mission depth over simple padding.
       </p>
 
       <p>
-        To put this in perspective, GTA San Andreas (2004) featured 100 story missions, GTA IV (2008) contained 88, and GTA V (2013) settled at 69. 
-        GTA 6 expands on GTA V's scope by focusing on cooperative tasks and dynamic entries. 
-        Here is the comparison showing how the mission layouts compare with previous versions:
+        To put this in perspective, GTA San Andreas (2004) featured 100 story missions, GTA IV (2008) contained 88, and GTA V (2013) settled at 69. GTA 6 expands on GTA V's scope by focusing on cooperative tasks and dynamic entries. Here is the comparison showing how the mission layouts compare with previous versions:
       </p>
 
       <table className={styles.compareTable || ''} style={{ width: '100%', margin: '24px 0', borderCollapse: 'collapse' }}>
@@ -88,6 +84,20 @@ export const missions: StoryArticleData = {
 
       <div className={styles.featureImageContainer}>
         <Image 
+          src="/images/GTA_6_Screenshot.webp" 
+          alt="GTA 6 story mission shootout gameplay screenshot" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Action-packed shootouts are a core element of the major heists and gang conflicts. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
           src="/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_01.webp" 
           alt="Lucia Caminos walking through Vice City streets in GTA 6" 
           width={1200}
@@ -115,9 +125,7 @@ export const missions: StoryArticleData = {
 
       <h2>What Are the Confirmed GTA 6 Story Missions?</h2>
       <p>
-        Trailers and development archives have confirmed several key mission sequences. 
-        These missions form the backbone of the campaign, taking players from rural backroads to high-rise banking vaults. 
-        Here is the rundown of the confirmed story missions so far:
+        Trailers and development archives have confirmed several key mission sequences. These missions form the backbone of the campaign, taking players from rural backroads to high-rise banking vaults. Here is the rundown of the confirmed story missions so far:
       </p>
       <ul>
         <li><strong>Lucia's Release from Leonida Penitentiary:</strong> The tutorial opening, establishing Lucia's parole conditions, ankle monitor restrictions, and reunion with Jason.</li>
@@ -129,6 +137,20 @@ export const missions: StoryArticleData = {
         <li><strong>Police Convoy Destruction:</strong> An ambush operation using rocket launchers to intercept a transport convoy.</li>
         <li><strong>Lucia's Cage Fight:</strong> An underground arena sequence showcasing melee combat improvements and cage fighting mechanics.</li>
       </ul>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTA_6_Shop_view.webp" 
+          alt="Lucia robbing waffle diner mission screenshot" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Hank's Waffles diner robbery introduces the cooperative heist setup mechanics. (Image credit: Rockstar Games)
+        </div>
+      </div>
 
       <div className={styles.featureImageContainer}>
         <Image 
@@ -146,34 +168,69 @@ export const missions: StoryArticleData = {
 
       <h2>Does the Ultimate Edition Include Exclusive Missions?</h2>
       <p>
-        Yes, players who purchase the Ultimate Edition receive two exclusive bonus missions. 
-        These tasks do not alter the main campaign ending but reward you with high-value vehicles and custom items. 
-        The two bonus activities are:
+        Yes, players who purchase the Ultimate Edition receive two exclusive bonus missions. These tasks do not alter the main campaign ending but reward you with high-value vehicles and custom items. The two bonus activities are:
       </p>
       <p>
-        First, the **PTT Youngin$ Compound Raid** requires players to infiltrate a gang compound in Southside Vice City. 
-        Second, **Wyman's Classic Car Collection** involves tracking down abandoned projects across the state, unlocking four custom vehicles including the Schyster Deviant and the Mamba GT.
+        First, the **PTT Youngin$ Compound Raid** requires players to infiltrate a gang compound in Southside Vice City. Second, **Wyman's Classic Car Collection** involves tracking down abandoned projects across the state, unlocking four custom vehicles including the Schyster Deviant and the Mamba GT.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/ULTIMATE_EDITION_PTT_STORE_01.webp" 
+          alt="GTA 6 Ultimate Edition bonus compound raid mission location" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          The Ultimate Edition unlocks the PTT compound raid and Wyman's car collections. (Image credit: Rockstar Games)
+        </div>
+      </div>
 
       <h2>Missions Requiring Both Jason and Lucia</h2>
       <p>
         Most missions require both protagonists to work in tandem. During these missions, you can switch characters to divide tasks:
       </p>
       <p>
-        In a typical shootout mission, you can place Jason on a high vantage point with a sniper rifle to cover the exit, then switch to Lucia to plant explosives on the target vault. 
-        During vehicle chases, one character drives while the other fires at the pursuing police cruisers. 
-        You can learn more about how to coordinate these switching tactics in our <Link href="/story/dual-protagonists/">GTA 6 character switching mechanics guide</Link>.
+        In a typical shootout mission, you can place Jason on a high vantage point with a sniper rifle to cover the exit, then switch to Lucia to plant explosives on the target vault. During vehicle chases, one character drives while the other fires at the pursuing police cruisers. You can learn more about how to coordinate these switching tactics in our <Link href="/story/dual-protagonists/">GTA 6 character switching mechanics guide</Link>.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/the-kortz-center-heist.webp" 
+          alt="GTA 6 heist setup board for missions planning" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Planning boards and crew select operations play a major role in dynamic heists. (Image credit: Rockstar Games)
+        </div>
+      </div>
 
       <h2>Are there Missable Missions in GTA 6?</h2>
       <p>
-        The campaign has three missable missions associated with secondary contacts in Act 2. 
-        If you advance the main story beyond Mission 45 without completing these, the contacts become unavailable due to gang conflicts. 
-        To avoid missing these story segments, you should complete all available side tasks and character-specific missions before starting Act 3.
+        The campaign has three missable missions associated with secondary contacts in Act 2. If you advance the main story beyond Mission 45 without completing these, the contacts become unavailable due to gang conflicts. To avoid missing these story segments, you should complete all available side tasks and character-specific missions before starting Act 3.
       </p>
       <p>
         For details on the side tasks and stranger encounters available across Leonida, visit our <Link href="/story/side-missions/">GTA 6 side missions guide</Link>.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/gta-online-mission-creator.webp" 
+          alt="GTA 6 mission creator tools preview" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Custom missions can be built and shared using the online community creator tools. (Image credit: Rockstar Games)
+        </div>
+      </div>
 
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
@@ -220,6 +277,38 @@ export const missions: StoryArticleData = {
           </p>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "GTA 6 Story Acts and Key Missions List",
+            "description": "The complete layout of Acts, Chapters, and key missions in GTA 6 Story Mode.",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Act 1: Kelly County Hustlers",
+                "description": "Missions 1 to 22, focusing on the duo's early robberies and removing parole ankle monitors."
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Act 2: Vice City Expansion",
+                "description": "Missions 23 to 48, establishing city heists, safehouses, and gang warfare in urban Leonida."
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Act 3: High-Stakes Syndicate",
+                "description": "Missions 49 to 68, covering major smuggling rings, federal raids, and large Keys heists."
+              }
+            ]
+          })
+        }}
+      />
     </>
   ),
 };

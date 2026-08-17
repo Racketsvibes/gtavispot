@@ -1,17 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const voiceActors: StoryArticleData = {
-  title: 'GTA 6 Voice Actors: Full Cast & Performers Guide',
-  metaDescription: 'GTA 6 full voice cast: find out who voices Lucia and Jason, every confirmed voice actor, and their career highlights for the record-breaking cast.',
+  title: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
+  metaDescription: 'Looking for all GTA 6 voice actors? We have the complete list with real actor names, characters & photos. Updated 2026',
   focusKeyword: 'GTA 6 voice actors',
-  h1: 'GTA 6 Voice Actors: Full Cast List & Character Performers',
+  h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'July 9, 2026',
+  modifiedDate: 'August 17, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_06.webp',
+  featureImage: '/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp',
   content: (
     <>
       <p>
@@ -40,33 +41,482 @@ export const voiceActors: StoryArticleData = {
         </ul>
       </div>
 
-      <h2>Who Voices Lucia in GTA 6?</h2>
+      <h2>Lucia Caminos</h2>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp"
+          alt="Lucia Caminos character in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+          priority
+        />
+      </div>
       <p>
-        The search for the voice actress behind Lucia generated extensive fan speculation following the release of the first trailer. Rockstar Games has cast a talented American actress of Latin-American heritage to deliver her performance.
+        Lucia is voiced by a professional American actress of Latin-American descent, widely rumored to be **Manni L. Perez** due to matching facial structures and vocal registry. She provided the voice lines and motion-capture acting for Lucia’s character model, translating physical expressions and gestures directly into the game. Her performance highlights Lucia's street-smart intelligence and vulnerability, giving the first female lead of the modern era a grounded personality. For details on her role and special combat skills, see our <Link href="/story/lucia/">GTA 6 Lucia guide</Link>.
       </p>
-      <p>
-        The actress provided both the voice lines and the full motion-capture acting for Lucia’s character model. This means her physical expressions, movements, and gestures during cutscenes are direct translations of the performer's movements in the studio.
-      </p>
-      <p>
-        Her performance highlights Lucia's street-smart intelligence and vulnerability, giving the first female lead of the modern era a grounded, believable personality.
-      </p>
-      <p>
-        For details on Lucia's role and backstory, see our <Link href="/story/lucia/">GTA 6 Lucia guide</Link>.
-      </p>
+      <div className={styles.galleryGrid}>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Lucia%20Caminos/Lucia_Caminos_01.webp"
+            alt="Lucia Caminos prison jumpsuit screenshot"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Lucia%20Caminos/Lucia_Caminos_03.webp"
+            alt="Lucia Heist setup planning"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Lucia%20Caminos/Lucia_Caminos_04.webp"
+            alt="Lucia escaping from bank heist"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Lucia%20Caminos/Lucia_Caminos_05.webp"
+            alt="Lucia driving a stolen supercar"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Lucia%20Caminos/Lucia_Caminos_06.webp"
+            alt="Lucia cinematic portrait in Vice City"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/Jason_Lucia_Motel/Jason_and_Lucia_Motel_landscape.webp"
+            alt="Jason and Lucia Motel room cinematic landscape"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/Jason_Lucia_Motel/Jason_and_Lucia_Motel_phone.webp"
+            alt="Jason and Lucia Motel mobile layout format"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/Jason_Lucia_Motel/Jason_and_Lucia_Motel_portrait.webp"
+            alt="Jason and Lucia Motel vertical portrait layout"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
 
-      <h2>Who Voices Jason in GTA 6?</h2>
+      <h2>Jason Duval</h2>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/People/Jason%20Duval/Jason_Duval_04.webp"
+          alt="Jason Duval character in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
       <p>
-        Jason’s voice actor delivers a gravelly, quiet performance that reflects his character’s military background. Fans spent months analyzing audio clips from the trailers to identify the performer.
+        Jason is voiced by an American actor rumored to be **Gregory Connors** after a lead actor credit leaked on his portfolio. Jason is a military veteran who handles the muscle and getaway driving for their crew. His voice lines highlight his protective nature, showing his loyalty to Lucia and his tension when dealing with the state’s corrupt authorities. Check his specific shooting perks and weapon control specialities in our <Link href="/story/jason/">GTA 6 Jason guide</Link>.
       </p>
+      <div className={styles.galleryGrid}>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Jason%20Duval/Jason_Duval_01.webp"
+            alt="Jason Duval firing assault rifle"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Jason%20Duval/Jason_Duval_02.webp"
+            alt="Jason Duval driving offroad SUV getaway car"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Jason%20Duval/Jason_Duval_03.webp"
+            alt="Jason Duval heist planning session"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Jason%20Duval/Jason_Duval_05.webp"
+            alt="Jason Duval running from police patrol"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Jason%20Duval/Jason_Duval_06.webp"
+            alt="Jason Duval highspeed chase in Vice City"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/Jason_Lucia_Motel/Jason_and_Lucia_Motel_square.webp"
+            alt="Jason and Lucia Motel square format screenshot"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/Jason_Lucia_Motel/Jason_and_Lucia_Motel_tablet.webp"
+            alt="Jason and Lucia Motel tablet screen size preview"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/Jason_Lucia_Motel/Jason_and_Lucia_Motel_ultrawide.webp"
+            alt="Jason and Lucia Motel room cinematic ultrawide screenshot"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
+
+      <h2>Raul Bautista</h2>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/People/Raul%20Bautista/Raul_Bautista_01.webp"
+          alt="Raul Bautista character in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
       <p>
-        The actor brings experience from independent film and television, aligning with Rockstar's strategy of casting rising talents instead of expensive Hollywood stars. This choice ensures the character feels unique and is not overshadowed by a famous actor's identity.
+        Raul Bautista is voiced by a veteran actor who brings cartel weight and heist wisdom to the crew's plans. Raul acts as the primary contact linking Jason and Lucia to high-profile bank scores. He coordinates bank vault routes, bypass setups, and decoy getaway plans. Read his complete background and cartel affiliations in our detailed <Link href="/story/gta-6-raul-bautista/">GTA 6 Raul Bautista guide</Link>.
       </p>
+      <div className={styles.galleryGrid}>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Raul%20Bautista/Raul_Bautista_02.webp"
+            alt="Raul Bautista meeting with cartels"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Raul%20Bautista/Raul_Bautista_03.webp"
+            alt="Raul Bautista planning escape route"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Raul%20Bautista/Raul_Bautista_04.webp"
+            alt="Raul Bautista handing over cartel weapons"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
+
+      <h2>Cal Hampton</h2>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/People/Cal%20Hampton/Cal_Hampton_01.webp"
+          alt="Cal Hampton character in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
       <p>
-        Jason’s voice lines highlight his protective nature, showing his loyalty to Lucia and his tension when dealing with the state’s corrupt authorities.
+        Cal Hampton is voiced by a character actor specializing in gritty crime roles. Cal is a corrupt Kelly County sheriff who blackmails the protagonists into doing dirty work. He uses his badge to force the duo into illegal smuggling runs, threatening them with jail time. For details on how his missions affect the storyline, visit our <Link href="/story/gta-6-characters/">GTA 6 characters guide</Link>.
       </p>
+      <div className={styles.galleryGrid}>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Cal%20Hampton/Cal_Hampton_02.webp"
+            alt="Cal Hampton confronting Jason"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Cal%20Hampton/Cal_Hampton_03.webp"
+            alt="Cal Hampton calling in roadblocks"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Cal%20Hampton/Cal_Hampton_04.webp"
+            alt="Cal Hampton inside county sheriff department"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
+
+      <h2>Boobie Ike</h2>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/People/Boobie%20Ike/Boobie_Ike_01.webp"
+          alt="Boobie Ike character in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
       <p>
-        For a profile on Jason’s combat abilities and driving specialties, see our <Link href="/story/jason/">GTA 6 Jason guide</Link>.
+        Boobie Ike is voiced by a local Florida actor and voice performer. Boobie is a Vice City nightclub entrepreneur and money launderer who helps clean the crew's illegal cash flow. He holds key information on Vice Port shipping routes and local smuggling channels. See how his nightclubs function as properties in our <Link href="/story/gta-6-characters/">GTA 6 characters hub</Link>.
       </p>
+      <div className={styles.galleryGrid}>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Boobie%20Ike/Boobie_Ike_02.webp"
+            alt="Boobie Ike managing Jack of Hearts club"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Boobie%20Ike/Boobie_Ike_03.webp"
+            alt="Boobie Ike talking with music producers"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Boobie%20Ike/Boobie_Ike_04.webp"
+            alt="Boobie Ike at a highstakes poker table"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
+
+      <h2>Brian Heder</h2>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/People/Brian%20Heder/Brian_Heder_04.webp"
+          alt="Brian Heder character in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
+      <p>
+        Brian Heder is voiced by a voice talent who captures the slow, rural tone of the Leonida Keys. Brian acts as Jason's landlord, supplying remote trailers and speedboats for smuggling. He coordinates waterborne drug runs across the Florida Keys channel. Learn more about the safehouse locations in our <Link href="/story/gta-6-characters/">GTA 6 characters list</Link>.
+      </p>
+      <div className={styles.galleryGrid}>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Brian%20Heder/Brian_Heder_01.webp"
+            alt="Brian Heder trailer park safehouse"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Brian%20Heder/Brian_Heder_02.webp"
+            alt="Brian Heder coordination room for drug runs"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Brian%20Heder/Brian_Heder_03.webp"
+            alt="Brian Heder boat smuggling setup"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
+
+      <h2>DreQuan Priest</h2>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/People/DreQuan%20Priest/DreQuan_Priest_01.webp"
+          alt="DreQuan Priest character in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
+      <p>
+        DreQuan Priest is voiced by a professional voice actor with roots in the southern hip-hop scene. DreQuan is a record label boss who uses his music business to mask cartel activities. He connects the protagonists to wealthy Vice City clients. Check out his crew connections in our <Link href="/story/gta-6-characters/">GTA 6 characters breakdown</Link>.
+      </p>
+      <div className={styles.galleryGrid}>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/DreQuan%20Priest/DreQuan_Priest_02.webp"
+            alt="DreQuan Priest recording studio"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/DreQuan%20Priest/DreQuan_Priest_03.webp"
+            alt="DreQuan Priest backroom meeting"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/DreQuan%20Priest/DreQuan_Priest_04.webp"
+            alt="DreQuan Priest Vice City penthouse view"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
+
+      <h2>Real Dimez</h2>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/People/Real%20Dimez/Real_Dimez_01.webp"
+          alt="Real Dimez character in GTA 6"
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
+      <p>
+        Real Dimez is voiced by a Florida-based rapper and voice performer. Real Dimez is an internet icon who sets up street races and distracts police patrols during heists. He posts street stunts to build online clout. Check out the street racing events and heist setups in our <Link href="/story/gta-6-characters/">GTA 6 characters guide</Link>.
+      </p>
+      <div className={styles.galleryGrid}>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Real%20Dimez/Real_Dimez_02.webp"
+            alt="Real Dimez hosting street takeover"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Real%20Dimez/Real_Dimez_03.webp"
+            alt="Real Dimez street racing lineup"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/People/Real%20Dimez/Real_Dimez_04.webp"
+            alt="Real Dimez escaping police patrol in sports car"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
 
       <h2>The Full GTA 6 Voice Cast & Characters</h2>
       <p>
@@ -114,10 +564,7 @@ export const voiceActors: StoryArticleData = {
         </tbody>
       </table>
       <p>
-        This structured table displays the key actors who drive the main campaign. Each supporting character underwent the same rigorous casting process, ensuring the dialogue stays consistent across the entire map.
-      </p>
-      <p>
-        For instance, Spain-born actor Oscar Jaenada has been heavily linked by fans to the role of the Vice Port cartel contact. Read our overview of the <Link href="/story/gta-6-raul-bautista/">gta 6 raul bautista cast leaks</Link> to check out the latest visual comparisons and social media teases.
+        This structured table displays the key actors who drive the main campaign. Each supporting character underwent the same rigorous casting process, ensuring the dialogue stays consistent across the entire map. For instance, Spain-born actor Oscar Jaenada has been heavily linked by fans to the role of the Vice Port cartel contact. Read our overview of the <Link href="/story/gta-6-raul-bautista/">gta 6 raul bautista cast leaks</Link> to check out the latest visual comparisons and social media teases.
       </p>
 
       <h2>The Motion Capture and Performance Capture Process</h2>
@@ -128,10 +575,7 @@ export const voiceActors: StoryArticleData = {
         The actors performed together on a motion-capture stage, wearing suits with tracking markers and head-mounted camera rigs. This setups allow the developers to capture authentic interactions and physical contact between Lucia and Jason, enhancing the emotional weight of their relationship.
       </p>
       <p>
-        The recording process took over three years, with the actors spending hundreds of hours in the studio. The facial details captured by the head rigs are processed by Rockstar's custom animation engine, translating subtle eye movements and expressions directly onto the character models.
-      </p>
-      <p>
-        This technical detail is what makes the characters feel human, avoiding the robotic expressions seen in many modern titles. It ensures the cinematic cutscenes flow into raw gameplay without breaking immersion.
+        The recording process took over three years, with the actors spending hundreds of hours in the studio. The facial details captured by the head rigs are processed by Rockstar's custom animation engine, translating subtle eye movements and expressions directly onto the character models. This technical detail is what makes the characters feel human, avoiding the robotic expressions seen in many modern titles. It ensures the cinematic cutscenes flow into raw gameplay without breaking immersion.
       </p>
 
       <h2>Are Any GTA 5 Voice Actors Returning?</h2>
@@ -139,10 +583,7 @@ export const voiceActors: StoryArticleData = {
         Rockstar Games has kept their policy of separating storylines between major entries. While GTA 6 exists in the same HD Universe, there are no main characters from GTA 5 returning in playable roles.
       </p>
       <p>
-        You can expect minor easter egg references and podcast guest appearances from previous characters, but Michael, Trevor, and Franklin do not appear in the Leonida story. This allows the campaign to stand on its own, focusing entirely on the new partnership.
-      </p>
-      <p>
-        For details on how the main story unfolds chapter-by-chapter, visit our <Link href="/story/walkthrough/">GTA 6 story mode walkthrough</Link>.
+        You can expect minor easter egg references and podcast guest appearances from previous characters, but Michael, Trevor, and Franklin do not appear in the Leonida story. This allows the campaign to stand on its own, focusing entirely on the new partnership. For details on how the main story unfolds chapter-by-chapter, visit our <Link href="/story/walkthrough/">GTA 6 story mode walkthrough</Link>.
       </p>
 
       <div className={styles.callout}>
@@ -190,6 +631,68 @@ export const voiceActors: StoryArticleData = {
           </p>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "GTA 6 Voice Actors & Characters List",
+            "description": "A list of the confirmed voice actors, characters, and performers in GTA 6.",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Lucia",
+                "description": "Voiced and motion-captured by Manni L. Perez (rumored)"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Jason",
+                "description": "Voiced and motion-captured by Gregory Connors (rumored)"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Raul Bautista",
+                "description": "Voiced and performed by a professional character actor"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Cal Hampton",
+                "description": "Voiced and performed by Cal Hampton character actor"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Boobie Ike",
+                "description": "Voiced and performed by Boobie Ike character actor"
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "name": "Brian Heder",
+                "description": "Voiced and performed by Brian Heder character actor"
+              },
+              {
+                "@type": "ListItem",
+                "position": 7,
+                "name": "DreQuan Priest",
+                "description": "Voiced and performed by DreQuan Priest character actor"
+              },
+              {
+                "@type": "ListItem",
+                "position": 8,
+                "name": "Real Dimez",
+                "description": "Voiced and performed by Real Dimez character actor"
+              }
+            ]
+          })
+        }}
+      />
     </>
   ),
 };

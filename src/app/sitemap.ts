@@ -41,7 +41,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   });
 
   const storyModifiedDates: Record<string, string> = {
-    'missions': '2026-07-17',
+    'missions': '2026-08-17',
+    'voice-actors': '2026-08-17',
     'side-missions': '2026-07-17',
     'walkthrough': '2026-07-17',
   };
