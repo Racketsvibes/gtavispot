@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import ImageLightbox from '@/components/ui/ImageLightbox';
 import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
@@ -14,7 +15,7 @@ export const voiceActors: StoryArticleData = {
   author: 'Marcus Vance',
   featureImage: '/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp',
   content: (
-    <>
+    <ImageLightbox>
       <p>
         The cast of <strong>GTA 6 voice actors</strong> represents one of the largest talent investments in modern entertainment history. Rockstar Games has assembled a diverse group of actors, models, and street artists to bring the state of Leonida to life, utilizing advanced motion-capture technologies to capture realistic performances.
       </p>
@@ -54,7 +55,7 @@ export const voiceActors: StoryArticleData = {
         />
       </div>
       <p>
-        Lucia is voiced by a professional American actress of Latin-American descent, widely rumored to be **Manni L. Perez** due to matching facial structures and vocal registry. She provided the voice lines and motion-capture acting for Lucia’s character model, translating physical expressions and gestures directly into the game. Her performance highlights Lucia's street-smart intelligence and vulnerability, giving the first female lead of the modern era a grounded personality. For details on her role and special combat skills, see our <Link href="/story/lucia/">GTA 6 Lucia guide</Link>.
+        Lucia is voiced by a professional American actress of Latin-American descent, widely rumored to be <strong>Manni L. Perez</strong> due to matching facial structures and vocal registry. She provided the voice lines and motion-capture acting for Lucia’s character model, translating physical expressions and gestures directly into the game. Her performance highlights Lucia's street-smart intelligence and vulnerability, giving the first female lead of the modern era a grounded personality. For details on her role and special combat skills, see our <Link href="/story/lucia/">GTA 6 Lucia guide</Link>.
       </p>
       <div className={styles.galleryGrid}>
         <div className={styles.galleryImageContainer}>
@@ -151,7 +152,7 @@ export const voiceActors: StoryArticleData = {
         />
       </div>
       <p>
-        Jason is voiced by an American actor rumored to be **Gregory Connors** after a lead actor credit leaked on his portfolio. Jason is a military veteran who handles the muscle and getaway driving for their crew. His voice lines highlight his protective nature, showing his loyalty to Lucia and his tension when dealing with the state’s corrupt authorities. Check his specific shooting perks and weapon control specialities in our <Link href="/story/jason/">GTA 6 Jason guide</Link>.
+        Jason is voiced by an American actor rumored to be <strong>Gregory Connors</strong> after a lead actor credit leaked on his portfolio. Jason is a military veteran who handles the muscle and getaway driving for their crew. His voice lines highlight his protective nature, showing his loyalty to Lucia and his tension when dealing with the state’s corrupt authorities. Check his specific shooting perks and weapon control specialities in our <Link href="/story/jason/">GTA 6 Jason guide</Link>.
       </p>
       <div className={styles.galleryGrid}>
         <div className={styles.galleryImageContainer}>
@@ -693,6 +694,6 @@ export const voiceActors: StoryArticleData = {
           })
         }}
       />
-    </>
+    </ImageLightbox>
   ),
 };

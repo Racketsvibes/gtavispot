@@ -171,7 +171,7 @@ export const missions: StoryArticleData = {
         Yes, players who purchase the Ultimate Edition receive two exclusive bonus missions. These tasks do not alter the main campaign ending but reward you with high-value vehicles and custom items. The two bonus activities are:
       </p>
       <p>
-        First, the **PTT Youngin$ Compound Raid** requires players to infiltrate a gang compound in Southside Vice City. Second, **Wyman's Classic Car Collection** involves tracking down abandoned projects across the state, unlocking four custom vehicles including the Schyster Deviant and the Mamba GT.
+        First, the <strong>PTT Youngin$ Compound Raid</strong> requires players to infiltrate a gang compound in Southside Vice City. Second, <strong>Wyman's Classic Car Collection</strong> involves tracking down abandoned projects across the state, unlocking four custom vehicles including the Schyster Deviant and the Mamba GT.
       </p>
 
       <div className={styles.featureImageContainer}>
