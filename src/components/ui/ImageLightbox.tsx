@@ -2,6 +2,20 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 
+// Helper to decode Next.js optimized image URLs back to their original path
+const cleanSrc = (src: string): string => {
+  try {
+    const decoded = decodeURIComponent(src);
+    if (decoded.includes('url=')) {
+      const url = new URL(decoded, 'https://example.com').searchParams.get('url');
+      if (url) return url;
+    }
+    return decoded;
+  } catch (e) {
+    return src;
+  }
+};
+
 export default function ImageLightbox({ children }: { children: React.ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSrc, setActiveSrc] = useState('');
@@ -11,32 +25,48 @@ export default function ImageLightbox({ children }: { children: React.ReactNode 
 
   const containerRef = useRef<HTMLDivElement>(null);
 
+  // Set visual cursor pointer for qualifying images
   useEffect(() => {
     if (containerRef.current) {
       const imgElements = containerRef.current.querySelectorAll('img');
-      const imgList: { src: string; alt: string }[] = [];
       imgElements.forEach((img) => {
-        const src = img.getAttribute('src') || '';
-        const alt = img.getAttribute('alt') || '';
-        // Include body images we want to enlarge
+        const rawSrc = img.getAttribute('src') || '';
+        const src = cleanSrc(rawSrc);
         if (src.includes('/images/People') || src.includes('/images/Jason_Lucia_Motel')) {
-          imgList.push({ src, alt });
           img.style.cursor = 'pointer';
           img.style.transition = 'transform 0.2s ease';
         }
       });
-      setImages(imgList);
     }
   }, [children]);
 
   const handleContainerClick = (e: React.MouseEvent<HTMLDivElement>) => {
     const target = e.target as HTMLElement;
     if (target.tagName === 'IMG') {
-      const src = target.getAttribute('src') || '';
+      const rawSrc = target.getAttribute('src') || '';
       const alt = target.getAttribute('alt') || '';
+      const src = cleanSrc(rawSrc);
       
       if (src.includes('/images/People') || src.includes('/images/Jason_Lucia_Motel')) {
-        const index = images.findIndex((img) => img.src === src);
+        // Rebuild list of images dynamically on click to ensure accurate DOM matching
+        const imgElements = containerRef.current?.querySelectorAll('img') || [];
+        const imgList: { src: string; alt: string }[] = [];
+        
+        imgElements.forEach((img) => {
+          const imgRawSrc = img.getAttribute('src') || '';
+          const imgAlt = img.getAttribute('alt') || '';
+          const imgCleanSrc = cleanSrc(imgRawSrc);
+          
+          if (imgCleanSrc.includes('/images/People') || imgCleanSrc.includes('/images/Jason_Lucia_Motel')) {
+            if (!imgList.some(item => item.src === imgCleanSrc)) {
+              imgList.push({ src: imgCleanSrc, alt: imgAlt });
+            }
+          }
+        });
+        
+        setImages(imgList);
+        
+        const index = imgList.findIndex((img) => img.src === src);
         if (index !== -1) {
           setActiveIndex(index);
           setActiveSrc(src);
@@ -55,6 +85,7 @@ export default function ImageLightbox({ children }: { children: React.ReactNode 
 
   const handlePrev = (e: React.MouseEvent) => {
     e.stopPropagation();
+    if (images.length === 0) return;
     const newIndex = (activeIndex - 1 + images.length) % images.length;
     setActiveIndex(newIndex);
     setActiveSrc(images[newIndex].src);
@@ -63,15 +94,17 @@ export default function ImageLightbox({ children }: { children: React.ReactNode 
 
   const handleNext = (e: React.MouseEvent) => {
     e.stopPropagation();
+    if (images.length === 0) return;
     const newIndex = (activeIndex + 1) % images.length;
     setActiveIndex(newIndex);
     setActiveSrc(images[newIndex].src);
     setActiveAlt(images[newIndex].alt);
   };
 
+  // Keyboard navigation support
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (!isOpen) return;
+      if (!isOpen || images.length === 0) return;
       if (e.key === 'Escape') handleClose();
       if (e.key === 'ArrowLeft') {
         const newIndex = (activeIndex - 1 + images.length) % images.length;
@@ -183,7 +216,7 @@ export default function ImageLightbox({ children }: { children: React.ReactNode 
             </>
           )}
 
-          {/* Image Element */}
+          {/* Image Container */}
           <div 
             onClick={(e) => e.stopPropagation()}
             style={{
