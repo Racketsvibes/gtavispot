@@ -16,7 +16,7 @@ export const gta6UltimateVsStandard: ArticleData = {
   content: (
     <>
       <p>
-        GTA 6 pre-orders have officially opened, leaving many players to decide between the two confirmed packages: <strong>gta 6 ultimate edition vs standard</strong>. The Standard Edition offers the base experience for $79.99, while the Ultimate Edition adds premium digital items and custom map businesses for $99.99. Choosing the correct version upfront is particularly important depending on your preferred console platform.
+        GTA 6 pre-orders have officially opened, leaving many players to decide between the two confirmed packages: <strong>gta 6 ultimate edition vs standard</strong>. The Standard Edition offers the base experience for $79.99, while the Ultimate Edition adds premium digital items and custom map businesses for $99.99. If you are looking for a middle ground, check out our guide on the <Link href="/news/gta-6-deluxe-edition/">gta 6 deluxe edition</Link> to see what is included. Choosing the correct version upfront is particularly important depending on your preferred console platform.
       </p>
 
       <div className={styles.quickAnswer}>

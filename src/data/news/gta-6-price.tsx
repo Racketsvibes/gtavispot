@@ -64,7 +64,7 @@ export const gta6Price: ArticleData = {
       </p>
 
       <p>
-        For a comparison of the gameplay features included in these editions, check our <Link href="/news/gta-6-ultimate-edition-vs-standard/">Ultimate Edition comparative analysis</Link> or view the guide to <Link href="/news/gta-6-new-features/">GTA 6 confirmed features</Link> and improvements. You can also explore the <Link href="/news/gta-6-collectors-edition/">GTA 6 Collector's Edition pricing</Link> outlook for a potential premium physical bundle.
+        For a comparison of the gameplay features included in these editions, check our <Link href="/news/gta-6-ultimate-edition-vs-standard/">Ultimate Edition comparative analysis</Link> or view the guide to <Link href="/news/gta-6-new-features/">GTA 6 confirmed features</Link> and improvements. You can also explore the <Link href="/news/gta-6-deluxe-edition/">gta 6 deluxe edition price</Link> guide or the <Link href="/news/gta-6-collectors-edition/">GTA 6 Collector's Edition pricing</Link> outlook for a potential premium physical bundle.
       </p>
 
       <h2>Will GTA 6 Be on Game Pass or PlayStation Plus?</h2>

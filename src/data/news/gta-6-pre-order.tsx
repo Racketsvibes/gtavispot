@@ -49,7 +49,7 @@ export const gta6PreOrder: ArticleData = {
 
       <h2>When Can You Pre-Order GTA 6?</h2>
       <p>
-        Pre-orders for GTA 6 started on <strong>June 25, 2026</strong>. Rockstar Games made the official announcement, locking in the pre-order launch across major digital platforms and brick-and-mortar storefronts. You can purchase the game digitally or reserve a <Link href="/news/gta-6-physical-copy/">gta 6 physical copy</Link> at local gaming retailers.
+        Pre-orders for GTA 6 started on <strong>June 25, 2026</strong>. Rockstar Games made the official announcement, locking in the pre-order launch across major digital platforms and brick-and-mortar storefronts. You can purchase the game digitally, check the digital bonuses of the <Link href="/news/gta-6-deluxe-edition/">gta 6 deluxe edition</Link> package, or reserve a <Link href="/news/gta-6-physical-copy/">gta 6 physical copy</Link> at local gaming retailers.
       </p>
       <p>
         If you purchase the game digitally, you can cancel your reservation for a full refund up until the preload window opens on November 17, 2026. This policy gives you flexibility if your plans change. Physical pre-orders follow individual retailer return guidelines.
