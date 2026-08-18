@@ -157,7 +157,7 @@ export const gta6VsGta5: ArticleData = {
         Graphics technology has undergone a massive shift since GTA 5 first debuted on seventh-generation consoles in 2013. GTA 5 relied on baked static shadow maps and simple screen-space reflections, which looked great for its era but lacked realistic light propagation.
       </p>
       <p>
-        GTA 6 introduces a massive RAGE engine upgrade that targets native hardware-accelerated global illumination and real-time path-traced reflections. The <strong>GTA 6 ray tracing vs GTA 5 graphics</strong> differences are evident in how light behaves in wet conditions. Sunset reflections off wet asphalt in Vice City display accurate light bounces that shift dynamically with passing traffic.
+        GTA 6 introduces a massive RAGE engine upgrade that targets native hardware-accelerated global illumination and real-time path-traced reflections. The <strong>GTA 6 ray tracing vs GTA 5 graphics</strong> differences are evident in how light behaves in wet conditions. Sunset reflections off wet asphalt in Vice City display accurate light bounces that shift dynamically with passing traffic. For a complete analysis of these enhancements, see our dedicated guide on the <Link href="/tech/gta-6-graphics/">GTA 6 graphics</Link> engine.
       </p>
       <p>
         Rockstar has also integrated next-generation physics pipelines, featuring strand-by-strand hair physics for main characters, custom clothing deformation during movement, and reactive water ripples that deform based on boat hull speed.

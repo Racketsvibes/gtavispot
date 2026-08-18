@@ -53,7 +53,7 @@ export const gta6PcRequirements: ArticleData = {
 
       <h2>Official Expectations for GTA 6 PC Requirements</h2>
       <p>
-        Analyzing <strong>gta vi pc requirements</strong> starts with understanding how Rockstar Games scales its proprietary engine pipelines across desktop hardware. Unlike legacy titles built on older DirectX 11 backbones, GTA VI utilizes native DirectX 12 Ultimate pipelines featuring hardware-accelerated BVH ray-traced reflections, global illumination, and procedural water physics.
+        Analyzing <strong>gta vi pc requirements</strong> starts with understanding how Rockstar Games scales its proprietary engine pipelines across desktop hardware. Unlike legacy titles built on older DirectX 11 backbones, GTA VI utilizes native DirectX 12 Ultimate pipelines featuring hardware-accelerated BVH ray-traced reflections, global illumination, and procedural water physics. For a deep look at these enhancements, read our technical breakdown of the <Link href="/tech/gta-6-graphics/">GTA 6 graphics</Link> upgrade.
       </p>
       <p>
         Because the game processes thousands of independent pedestrian AI routines, complex traffic pathfinding, and dynamic volumetric weather simultaneously across Vice City, CPU single-core clock speeds and L3 cache memory play a crucial role. Evaluating <strong>gta 6 requirements for pc</strong> indicates that quad-core CPUs are officially obsolete; a modern 6-core or 8-core processor represents the baseline floor for stable frame pacing.

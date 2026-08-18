@@ -53,7 +53,7 @@ export const gta6SystemRequirements: ArticleData = {
 
       <h2>GTA 6 System Requirements for PS5 and Xbox Consoles</h2>
       <p>
-        Evaluating <strong>gta vi system requirements</strong> on ninth-generation consoles reveals how Rockstar Games optimizes RAGE 9 engine pipeline routines. Unlike previous entries, GTA 6 drops eighth-gen hardware completely, eliminating hard drive bandwidth constraints. To see how these systems stack up side-by-side in real-world performance, check out our full <Link href="/compare/ps5-vs-xbox-series-x/">ps5 vs xbox series x specs</Link> comparison guide.
+        Evaluating <strong>gta vi system requirements</strong> on ninth-generation consoles reveals how Rockstar Games optimizes RAGE 9 engine pipeline routines. Unlike previous entries, GTA 6 drops eighth-gen hardware completely, eliminating hard drive bandwidth constraints. To see how these systems stack up side-by-side in real-world performance, check out our full <Link href="/compare/ps5-vs-xbox-series-x/">ps5 vs xbox series x specs</Link> comparison guide. For a deeper breakdown of visual targets and ray tracing details, check out our guide on <Link href="/tech/gta-6-graphics/">GTA 6 graphics</Link>.
       </p>
       <p>
         The <strong>gta 6 playstation requirements</strong> center on Sony's custom 8-core AMD Zen 2 CPU running at variable clock speeds up to 3.5 GHz alongside 16 GB of unified GDDR6 RAM. These hardware baselines set the minimum threshold for processing dynamic NPC density, complex water mesh physics, and volumetric ray-traced audio in Vice City.
