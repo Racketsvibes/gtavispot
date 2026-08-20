@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: August 20, 2026: Updated GTA 6 Side Missions guide with activity cards and new sitemaps.*
+*Last updated: August 20, 2026: Added GTA 6 Mods hub page, registered new sitemaps, and updated internal linking.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -17,6 +17,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Vehicles Hub](https://gtavispot.com/vehicles/)
 - [Weapons Hub](https://gtavispot.com/weapons/)
 - [Cheats Hub](https://gtavispot.com/cheats/)
+- [Mods Hub](https://gtavispot.com/mods/)
 - [Guides Hub](https://gtavispot.com/guides/)
 - [World Hub](https://gtavispot.com/world/)
 - [FAQ Hub](https://gtavispot.com/faq/)

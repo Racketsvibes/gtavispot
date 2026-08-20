@@ -94,6 +94,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/mods/`,
+      lastModified: new Date('2026-08-20'),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/cheats/`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,

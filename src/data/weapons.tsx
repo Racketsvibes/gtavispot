@@ -352,7 +352,7 @@ export const gta6Weapons: ArticleData = {
       </div>
 
       <p>
-        Understanding how to manage your loadout and utilize the new <strong>gta 6 weapons Wheel</strong> is crucial for surviving Vice City's streets. For details on how to secure exclusive bonuses like the Morgan Revolver at launch, check out our comprehensive <Link href="/news/gta-6-pre-order/">GTA 6 Pre-Order Guide</Link>.
+        Understanding how to manage your loadout and utilize the new <strong>gta 6 weapons Wheel</strong> is crucial for surviving Vice City's streets. For details on how to secure exclusive bonuses like the Morgan Revolver at launch, check out our comprehensive <Link href="/news/gta-6-pre-order/">GTA 6 Pre-Order Guide</Link> or read our projections for custom weapon skins in <Link href="/mods/">gta 6 mods</Link>.
       </p>
     </>
   )
