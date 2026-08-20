@@ -1,21 +1,22 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Delay: ArticleData = {
-  title: 'GTA 6 Delay History: Every Delay Explained',
-  metaDescription: 'GTA 6 was delayed from 2025 to November 19, 2026. Here is the full delay history, every reason explained, and whether another delay is possible.',
+  title: 'GTA 6 Delay History: How Many Times Was It Delayed?',
+  metaDescription: 'GTA 6 delayed from Fall 2025 to Nov 19, 2026. Every delay explained - real reasons, 2022 leak impact & why another delay is unlikely. Full timeline here.',
   focusKeyword: 'GTA 6 delay',
-  h1: 'GTA 6 Delay History: Every Delay Explained',
+  h1: 'GTA 6 Delay History: How Many Times Was It Delayed?',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'August 20, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/Cluster_1/GTA_6_Delay_and_History.webp',
+  featureImage: '/images/gta-6-delay-minimalist.webp',
   content: (
     <>
       <p>
-        Grand Theft Auto 6 was pushed back from its initial late 2025 launch window to a confirmed release date of <strong>November 19, 2026</strong>. Take-Two Interactive and Rockstar Games made this adjustment to accommodate final debugging and optimization phases. This timeline shift represents the primary official delay in the game's public history.
+        Grand Theft Auto 6 was pushed back from its initial late 2025 launch window to a confirmed release date of <strong>November 19, 2026</strong>. Take-Two Interactive and Rockstar Games made this adjustment to accommodate final debugging and optimization phases. This timeline shift represents the primary official delay in the game\'s public history.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -42,8 +43,23 @@ export const gta6Delay: ArticleData = {
 
       <h2>Why Is GTA 6 Delayed to 2026?</h2>
       <p>
-        The GTA 6 delay news surfaced during Take-Two Interactive's fiscal reports. The company officially adjusted the game's release window from late 2025 to late 2026. This decision was driven by the developers' need for polish, as the project represents the largest investment in company history.
+        The GTA 6 delay news surfaced during Take-Two Interactive\'s fiscal reports. The company officially adjusted the game\'s release window from late 2025 to late 2026. This decision was driven by the developers\' need for polish, as the project represents the largest investment in company history.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_04.webp" 
+          alt="GTA 6 Vice City cityscape showing dynamic neon lights" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Vice City\'s dense urban environment requires complex optimization before release. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <p>
         Rockstar Games holds a reputation for prioritizing game quality over strict deadlines. Both GTA 5 and Red Dead Redemption 2 faced significant delays during their production. Pushing back the release allows the design team to perfect the dual-character system featuring Jason and Lucia. It also gives programmers time to resolve framerate issues on standard base consoles before launch.
       </p>
@@ -58,6 +74,56 @@ export const gta6Delay: ArticleData = {
       <p>
         Rumours of a GTA 6 delay existed long before the official announcement. In late 2023, the first trailer confirmed a broad "2025" launch. However, internally, the team was already tracking behind schedule. In May 2024, Take-Two narrowed the window to "Fall 2025," which was later pushed back to the finalized late 2026 slot.
       </p>
+
+      <div className={styles.timeline}>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineBadge}></div>
+          <div className={styles.timelineContent}>
+            <span className={styles.timelineDate}>December 2023</span>
+            <h3 className={styles.timelineTitle}>First Trailer & Initial Target</h3>
+            <p className={styles.timelineText}>
+              Rockstar Games releases the first official GTA 6 trailer, concluding with a broad release target of <strong>Calendar Year 2025</strong>. This triggers massive global excitement.
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineBadge}></div>
+          <div className={styles.timelineContent}>
+            <span className={styles.timelineDate}>May 2024</span>
+            <h3 className={styles.timelineTitle}>Fall 2025 Narrowed Target</h3>
+            <p className={styles.timelineText}>
+              During its Q4 FY2024 earnings call, parent company Take-Two Interactive narrows the release window from a general 2025 slot to <strong>Fall 2025</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineBadge}></div>
+          <div className={styles.timelineContent}>
+            <span className={styles.timelineDate}>May 2025</span>
+            <h3 className={styles.timelineTitle}>Official Delay to Late 2026</h3>
+            <p className={styles.timelineText}>
+              Take-Two Interactive officially adjusts the release window to <strong>Late 2026</strong> in its FY2025 earnings call, later locked in for <strong>November 19, 2026</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Port_Gellhorn/Port_Gellhorn_02.webp" 
+          alt="GTA 6 Port Gellhorn industrial and rural layout" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Rural and industrial hubs like Port Gellhorn expand the scope of Leonida. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <p>
         Here is the historical progression of the GTA 6 release targets:
       </p>
@@ -93,13 +159,28 @@ export const gta6Delay: ArticleData = {
         This shifting calendar is not unusual for Rockstar. Grand Theft Auto V was originally scheduled for a Spring 2013 launch before being pushed back eight months to September 17, 2013. Similarly, Red Dead Redemption 2 suffered two consecutive delays, moving from Fall 2017 to Spring 2018, and eventually launching on October 26, 2018. The current delay pattern for GTA 6 follows this exact corporate trajectory.
       </p>
       <p>
-        For Take-Two Interactive, these scheduling shifts have huge financial implications. The company had originally projected record-breaking net bookings of over $8 billion for fiscal year 2025, a figure that could only be achieved with a GTA 6 release. In subsequent investor calls, these bookings projections were lowered and shifted to fiscal year 2026 and fiscal year 2027, confirming the game's release date adjustment through hard business metrics.
+        For Take-Two Interactive, these scheduling shifts have huge financial implications. The company had originally projected record-breaking net bookings of over $8 billion for fiscal year 2025, a figure that could only be achieved with a GTA 6 release. In subsequent investor calls, these bookings projections were lowered and shifted to fiscal year 2026 and fiscal year 2027, confirming the game\'s release date adjustment through hard business metrics.
       </p>
 
       <h2>How Did the 2022 Leaks Impact Development?</h2>
       <p>
         In September 2022, a hacker leaked over 90 videos of early GTA 6 gameplay footage. This breach represented one of the largest security failures in video game history. While the leaks showed unfinished assets, they confirmed the dual protagonists and the return to Vice City.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_02.webp" 
+          alt="GTA 6 Ambrosia rural landscape showcasing foliage and environment density" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Detailed rural layouts require careful asset compilation and security protocols. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <p>
         Rockstar Games released a statement confirming the hack but assured fans that long-term development would not suffer. However, resources were temporarily redirected to secure network infrastructure and coordinate with law enforcement. This disruption, combined with remote work adjustments, created development friction that eventually necessitated the delay to 2026.
       </p>
@@ -112,8 +193,23 @@ export const gta6Delay: ArticleData = {
 
       <h2>Will GTA 6 Get Postponed Again?</h2>
       <p>
-        Another delay is highly unlikely. Take-Two Interactive CEO Strauss Zelnick expressed high confidence in the November 19, 2026 date during recent investor calls. Lock-in dates on retail networks and promotional campaigns are already scheduled. A delay past late 2026 would disrupt Take-Two's financial projections for the fiscal year.
+        Another delay is highly unlikely. Take-Two Interactive CEO Strauss Zelnick expressed high confidence in the November 19, 2026 date during recent investor calls. Lock-in dates on retail networks and promotional campaigns are already scheduled. A delay past late 2026 would disrupt Take-Two\'s financial projections for the fiscal year.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Mount_Kalaga_National_Park/Mount_Kalaga_National_Park_03.webp" 
+          alt="GTA 6 Mount Kalaga National Park wilderness nature trails" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Dense forest structures and weather effects inside national parks are fully lock-in. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <p>
         Furthermore, the developer team has entered the alpha stage of production. This means all core gameplay mechanics are locked, and the focus is purely on testing, optimization, and platform stability. Unless a catastrophic security or technical issue occurs, the November launch is solid.
       </p>
@@ -121,7 +217,7 @@ export const gta6Delay: ArticleData = {
         For detailed pre-order options and release editions, check our <Link href="/news/gta-6-pre-order/">GTA 6 pre-order guide</Link> for retail listings.
       </p>
       <p>
-        Historically, once Rockstar Games narrows a release window down to a specific day (rather than a season or year), they hit that target. The declaration of November 19, 2026, indicates that the studio's leadership has completed their internal milestone reviews and is confident that the remaining debugger processes will wrap up on schedule.
+        Historically, once Rockstar Games narrows a release window down to a specific day (rather than a season or year), they hit that target. The declaration of November 19, 2026, indicates that the studio\'s leadership has completed their internal milestone reviews and is confident that the remaining debugger processes will wrap up on schedule.
       </p>
 
       <div className={styles.callout}>
@@ -169,6 +265,38 @@ export const gta6Delay: ArticleData = {
           </p>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "GTA 6 Official Release Window Timeline",
+            "description": "Historical timeline of the official announcements and targeted release dates for Grand Theft Auto 6.",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Calendar Year 2025 Target",
+                "description": "Announced in December 2023 alongside the reveal Trailer 1. Targeted a broad 2025 release slot."
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Fall 2025 Target Range",
+                "description": "Announced in May 2024 during Take-Two Interactive's fiscal earnings call. Narrowed the slot to Fall 2025."
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "November 19, 2026 Lock-In",
+                "description": "Announced in mid-2025 during Take-Two's financial updates. Pushed and locked the release date to late 2026."
+              }
+            ]
+          })
+        }}
+      />
     </>
   ),
 };
