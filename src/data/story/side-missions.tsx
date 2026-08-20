@@ -5,12 +5,12 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const sideMissions: StoryArticleData = {
-  title: 'GTA 6 Side Missions Guide: Strangers & Optional Quests',
-  metaDescription: 'Every GTA 6 side mission listed: optional quests, stranger tasks, random events, and GTA V comparisons for 100% completion.',
+  title: 'GTA 6 Side Missions: All Stranger Quests & Rewards 2026',
+  metaDescription: 'GTA 6 has 42 stranger missions & 90+ random events. See every side quest, missable tasks, assassination contracts & rewards needed for 100% completion.',
   focusKeyword: 'GTA 6 side missions',
-  h1: 'GTA 6 Side Missions: All Optional Quests, Strangers & Events',
+  h1: 'GTA 6 Side Missions: All Stranger Quests & Rewards 2026',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'July 17, 2026',
+  modifiedDate: 'August 20, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Shop_view.webp',
   content: (
@@ -47,6 +47,30 @@ export const sideMissions: StoryArticleData = {
         According to confirmed game databases, these optional events are distributed across the city districts, agricultural outposts, and keys. 
         This is a substantial increase in dynamic content compared to GTA V.
       </p>
+
+      <div className={styles.cardGrid}>
+        <div className={styles.endingCard}>
+          <h3 className={styles.cardTitle}>Stranger Quests</h3>
+          <span className={styles.cardMeta}>42 Side Story Missions</span>
+          <p className={styles.cardText}>
+            Character-specific tasks marked with (?) on your radar. Required to unlock specialized heist crew contacts and custom choppers.
+          </p>
+        </div>
+        <div className={styles.endingCard}>
+          <h3 className={styles.cardTitle}>Random Events</h3>
+          <span className={styles.cardMeta}>90+ Roadside Incidents</span>
+          <p className={styles.cardText}>
+            Dynamic encounters that trigger organically. Range from store robberies and gang shootouts to helping stranded pedestrians.
+          </p>
+        </div>
+        <div className={styles.endingCard}>
+          <h3 className={styles.cardTitle}>Assassinations</h3>
+          <span className={styles.cardMeta}>4 Corporate Hit Contracts</span>
+          <p className={styles.cardText}>
+            Elimination tasks that influence the stock market. Unlocked in Act 2 to maximize campaign investment payouts.
+          </p>
+        </div>
+      </div>
 
       <p>
         GTA V featured 58 Strangers & Freaks missions and 57 random events. 
@@ -142,6 +166,21 @@ export const sideMissions: StoryArticleData = {
         Stranger missions are marked on the map by a question mark (?) when you approach their location. 
         These missions are character-specific, requiring you to play as either Jason or Lucia to trigger them:
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_03.webp" 
+          alt="GTA 6 Grassrivers swamp environment showing airboat and wetlands" 
+          width={1200}
+          height={630}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          National park rangers offer specialized fauna classification and capturing tasks. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <ul>
         <li><strong>Leonida Wildlife League:</strong> A series of poaching and capturing contracts hosted by an eccentric swamp ranger in Grassrivers. Completing these unlocks the airboat custom shop.</li>
         <li><strong>Biker contraband runs:</strong> Optional delivery missions for outlaw motorcycle clubs in Kelly County, rewarding you with custom chopper motorcycles.</li>
@@ -149,12 +188,12 @@ export const sideMissions: StoryArticleData = {
         <li><strong>Social Media stunts:</strong> Challenges hosted by local streamers that require you to perform high-speed drifts, jumps, and stunt runs for viral clout and cash prizes.</li>
       </ul>
       <p>
-        These stranger quests offer a break from the main heist narrative, highlighting the game's satirical take on modern internet culture.
+        These stranger quests offer a break from the main heist narrative, highlighting the game\'s satirical take on modern internet culture.
       </p>
 
       <h2>Assassination Contracts: High-Paying Hits</h2>
       <p>
-        During Act 2, you'll unlock assassination contracts from a contact operating in Downtown Vice City. 
+        During Act 2, you\'ll unlock assassination contracts from a contact operating in Downtown Vice City. 
         These missions require you to eliminate corrupt corporate figures, stock manipulators, and rival cartel bosses:
       </p>
       <table>
@@ -177,7 +216,7 @@ export const sideMissions: StoryArticleData = {
             <td>The Port Executive</td>
             <td>Vice Port Container Docks</td>
             <td>$60,000</td>
-            <td>Plant sticky bombs on the target's vehicle before departure</td>
+            <td>Plant sticky bombs on the target\'s vehicle before departure</td>
           </tr>
           <tr>
             <td>The Keys Syndicate</td>
@@ -189,7 +228,7 @@ export const sideMissions: StoryArticleData = {
             <td>The Sugar King</td>
             <td>Ambrosia Refinery</td>
             <td>$90,000</td>
-            <td>Use Lucia's hacking ability to disable security cameras</td>
+            <td>Use Lucia\'s hacking ability to disable security cameras</td>
           </tr>
         </tbody>
       </table>
@@ -208,10 +247,24 @@ export const sideMissions: StoryArticleData = {
         Players aiming for 100% completion should monitor their quest logs regularly, ensuring they clear all Kelly County stranger icons before advancing to the final heists in the Keys.
       </p>
 
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_04.webp" 
+          alt="GTA 6 Grassrivers wildlife exploration and water paths" 
+          width={1200}
+          height={630}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Exploring water channels in Grassrivers unlocks hidden collectibles and side activities. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
         <p>
-          GTA 6 features 42 stranger missions and 90+ random events. Completing stranger quests is required for 100% completion and unlocks heist crew contacts. Hobbies like cage fighting and scuba diving expand on GTA V's options.
+          GTA 6 features 42 stranger missions and 90+ random events. Completing stranger quests is required for 100% completion and unlocks heist crew contacts. Hobbies like cage fighting and scuba diving expand on GTA V\'s options.
         </p>
       </div>
 
@@ -253,6 +306,44 @@ export const sideMissions: StoryArticleData = {
           </p>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "GTA 6 Side Mission Categories & Hobbies",
+            "description": "A list of stranger quests, hobbies, and activities available in Grand Theft Auto VI.",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Stranger Quests",
+                "description": "42 character-specific optional missions marked with (?) on the map."
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Random Events",
+                "description": "90+ dynamic events that trigger organically throughout the state of Leonida."
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Assassination Contracts",
+                "description": "High-paying corporate hits in Downtown Vice City that influence the stock market."
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Hobbies & Pastimes",
+                "description": "14 activities including cage fighting, street racing, scuba diving, and country club golf."
+              }
+            ]
+          })
+        }}
+      />
     </>
   ),
 };
