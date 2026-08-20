@@ -48,6 +48,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'side-missions': '2026-07-17',
     'walkthrough': '2026-07-17',
     'ending': '2026-08-20',
+    'how-long-to-beat': '2026-08-20',
   };
 
   const storyRoutes = getAllStoryArticleSlugs().map((slug) => {

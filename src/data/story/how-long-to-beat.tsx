@@ -1,17 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const howLongToBeat: StoryArticleData = {
-  title: 'GTA 6 How Long to Beat: Story, 100% & Playtimes',
-  metaDescription: 'GTA 6 story takes approximately 35-45 hours to beat. Add side missions for 60-70 hours, or 100% completion at 80+ hours. Full time breakdown vs GTA 5 and RDR2.',
+  title: 'GTA 6 How Long to Beat: Story & 100% Playtimes (2026)',
+  metaDescription: 'GTA 6 main story takes 35–45 hrs. Side missions: 60–70 hrs. Full 100%: 80–100+ hrs. Playtime vs GTA 5 & RDR2 compared. Speedrun & completion tips inside.',
   focusKeyword: 'GTA 6 how long to beat',
-  h1: 'GTA 6 How Long to Beat: Story, Side Missions & 100% Times',
+  h1: 'GTA 6 How Long to Beat: Story & 100% Playtimes (2026)',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'August 20, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/GTA_6_Screenshot.webp',
+  featureImage: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_02.webp',
   content: (
     <>
       <p>
@@ -19,7 +20,7 @@ export const howLongToBeat: StoryArticleData = {
       </p>
 
       <div className={styles.quickAnswer}>
-        <span className={styles.quickAnswerTitle}>Quick Answer: Playtimes</span>
+        <span className={styles.quickAnswerTitle}>Quick Answer: Playtimes Summary</span>
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -27,11 +28,11 @@ export const howLongToBeat: StoryArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Story + Side Quests:</strong> 60 to 70 hours including stranger tasks and races.</span>
+            <span><strong>Story + Side Quests:</strong> 60 to 70 hours including stranger tasks and activities.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>100% Completionist:</strong> 80 to 100+ hours to clear all collectibles and activities.</span>
+            <span><strong>100% Completionist:</strong> 80 to 100+ hours to clear all collectibles and checkboxes.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -44,6 +45,21 @@ export const howLongToBeat: StoryArticleData = {
       <p>
         The main story campaign takes approximately 35 to 45 hours to complete. This time frame assumes you are focusing entirely on the 68 main story missions, skipping optional dialogue and minimizing free-roam exploration.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_04.webp" 
+          alt="Lucia Caminos riding a motorcycle in Vice City" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Traveling across the vast districts of Leonida adds significantly to campaign runtime. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <p>
         The narrative is pacing-heavy, featuring heists that require you to complete multiple setup missions beforehand. Travel times across the state also add to the runtime, especially during the early chapters when fast travel safehouses are not yet unlocked.
       </p>
@@ -51,10 +67,54 @@ export const howLongToBeat: StoryArticleData = {
         To see the complete order of the main campaign chapters, visit our <Link href="/story/missions/">GTA 6 missions list and order guide</Link>.
       </p>
 
+      <h2>Estimated Completion Times by Playstyle</h2>
+      <p>
+        We have categorized completion playtimes based on how deeply you wish to explore Vice City and the surrounding counties:
+      </p>
+
+      <div className={styles.cardGrid}>
+        <div className={styles.endingCard}>
+          <h3 className={styles.cardTitle}>Main Story</h3>
+          <span className={styles.cardMeta}>35–45 Hours</span>
+          <p className={styles.cardText}>
+            Focuses strictly on the core 68 campaign missions. Essential for players looking to complete the narrative.
+          </p>
+        </div>
+        <div className={styles.endingCard}>
+          <h3 className={styles.cardTitle}>Story + Sides</h3>
+          <span className={styles.cardMeta}>60–70 Hours</span>
+          <p className={styles.cardText}>
+            Includes side missions, stranger quests, street racing, and robbing stores across Leonida.
+          </p>
+        </div>
+        <div className={styles.endingCard}>
+          <h3 className={styles.cardTitle}>100% Completion</h3>
+          <span className={styles.cardMeta}>80–100+ Hours</span>
+          <p className={styles.cardText}>
+            Unlocks everything: safehouses, weapons locker upgrades, off-road trials, and all collectibles.
+          </p>
+        </div>
+      </div>
+
       <h2>100% Completion Playtimes: The Full Checklist</h2>
       <p>
-        Achieving 100% completion requires you to clear every activity on the game's checklist. This run takes between 80 and 100+ hours, depending on your familiarity with the map's secrets:
+        Achieving 100% completion requires you to clear every activity on the game\'s checklist. This run takes between 80 and 100+ hours, depending on your familiarity with the map\'s secrets:
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Leonida_Keys/Leonida_Keys_02.webp" 
+          alt="Scenic view of the highway in the Leonida Keys during exploration" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Finding collectibles and stunt jumps across the Leonida Keys is required for 100% completion. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <ul>
         <li><strong>Main Campaign:</strong> Complete all 68 story missions.</li>
         <li><strong>Stranger Quests:</strong> Complete all 42 optional character missions. For details on these tasks, check our <Link href="/story/side-missions/">GTA 6 side missions guide</Link>.</li>
@@ -69,6 +129,21 @@ export const howLongToBeat: StoryArticleData = {
       <p>
         Rockstar Games has scaled this entry to sit between the pacing of GTA 5 and Red Dead Redemption 2:
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_02.webp" 
+          alt="Scenic wetland trails of Grassrivers in GTA 6" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          The Grassrivers wetlands add substantial size and traversal time to the map. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <table>
         <thead>
           <tr>
@@ -116,16 +191,31 @@ export const howLongToBeat: StoryArticleData = {
       <p>
         For players looking to complete the game as fast as possible, speedrunning communities are already mapping out optimized routes:
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image 
+          src="/images/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_03.webp" 
+          alt="Ambrosia farm and rural fields in GTA 6" 
+          width={800}
+          height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage} 
+        />
+        <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
+          Bypassing agricultural backroads like those in Ambrosia requires proper routing. (Image credit: Rockstar Games)
+        </div>
+      </div>
+
       <p>
-        The current estimated "Any%" speedrun target is around 12 to 14 hours. Achieving this requires you to skip all cutscenes, utilize fast sports cars for travel, and use Jason’s Combat Focus ability to clear shootout segments in seconds.
+        The current estimated "Any%" speedrun target is around 12 to 14 hours. Achieving this requires you to skip all cutscenes, utilize fast sports cars for travel, and use Jason\'s Combat Focus ability to clear shootout segments in seconds.
       </p>
       <p>
-        You can learn more about how Jason’s combat perks can speed up your missions in our <Link href="/story/jason/">GTA 6 Jason character guide</Link>.
+        You can learn more about how Jason\'s combat perks can speed up your missions in our <Link href="/story/jason/">GTA 6 Jason character guide</Link>.
       </p>
 
       <h2>Is GTA 6 Worth the Time Investment?</h2>
       <p>
-        The game's high level of detail, dynamic random events, and cooperative character mechanics make it highly rewarding for players. Instead of featuring repetitive procedural content, every mission and side activity is hand-crafted, ensuring the experience stays fresh throughout the 40-hour campaign.
+        The game\'s high level of detail, dynamic random events, and cooperative character mechanics make it highly rewarding for players. Instead of featuring repetitive procedural content, every mission and side activity is hand-crafted, ensuring the experience stays fresh throughout the 40-hour campaign.
       </p>
 
       <div className={styles.callout}>
@@ -173,6 +263,38 @@ export const howLongToBeat: StoryArticleData = {
           </p>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "GTA 6 Playtime Estimates & Categories",
+            "description": "Verified completion times and playstyles for Grand Theft Auto VI.",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Main Story Campaign",
+                "description": "Focused run through the 68 core story missions. Estimate: 35-45 hours."
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Story & Side Activities",
+                "description": "Campaign completion plus stranger quests, races, and properties. Estimate: 60-70 hours."
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "100% Completionist Run",
+                "description": "Full completion checklist including all collectibles, jumps, and trophies. Estimate: 80-100+ hours."
+              }
+            ]
+          })
+        }}
+      />
     </>
   ),
 };
