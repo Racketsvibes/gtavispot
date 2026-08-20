@@ -17,7 +17,7 @@ export const gta6Hacker: ArticleData = {
     <>
       <p>
         The identity and legal status of the <strong>GTA 6 Hacker</strong> remain one of the most discussed topics in the gaming community. 
-        Arion Kurtaj, the teenage member of the Lapsus$ cybercrime group, was responsible for stealing and leaking early developmental assets of the upcoming title. 
+        Arion Kurtaj, the teenage member of the Lapsus$ cybercrime group, was responsible for stealing and leaking early developmental assets of the upcoming title. Following these legacy intrusions, the recent August 2026 <Link href="/news/gta-6-gameplay-leaks/">gta 6 gameplay leaks</Link> from a group calling itself Cyberleek have shown that Rockstar continues to be a target of cyber attacks. 
         Here is the latest legal status, trial details, and technical background on the historic intrusion.
       </p>
 

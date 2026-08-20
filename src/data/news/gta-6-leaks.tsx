@@ -15,7 +15,7 @@ export const gta6Leaks: ArticleData = {
   content: (
     <>
       <p>
-        Grand Theft Auto 6 has been the target of several high-profile security breaches, leading to a massive repository of <strong>GTA 6 leaks</strong> and rumors. Separating confirmed facts from internet rumors is essential for fans tracking development ahead of the November 19, 2026 launch. Here is the verified breakdown of what has been leaked, what is confirmed, and what has been debunked.
+        Grand Theft Auto 6 has been the target of several high-profile security breaches, leading to a massive repository of <strong>GTA 6 leaks</strong> and rumors. Separating confirmed facts from internet rumors is essential for fans tracking development ahead of the November 19, 2026 launch. Following the historic megaleaks, the recent August 2026 <Link href="/news/gta-6-gameplay-leaks/">gta 6 gameplay leaks</Link> from the Cyberleek group have renewed security concerns. Here is the verified breakdown of what has been leaked, what is confirmed, and what has been debunked.
       </p>
 
       <div className={styles.quickAnswer}>

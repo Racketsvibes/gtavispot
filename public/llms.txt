@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: August 20, 2026: Added GTA 6 Mods hub page, registered new sitemaps, and updated internal linking.*
+*Last updated: August 20, 2026: Added GTA 6 Gameplay Leaks news, registered new sitemaps, and updated internal linking.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -65,6 +65,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Netflix Extended Preview](https://gtavispot.com/news/gta-6-extended-look/)
 - [GTA 6 Collectors Edition](https://gtavispot.com/news/gta-6-collectors-edition/)
 - [GTA 6 Deluxe Edition](https://gtavispot.com/news/gta-6-deluxe-edition/)
+- [GTA 6 Gameplay Leaks](https://gtavispot.com/news/gta-6-gameplay-leaks/)
 
 ## Story & Character Guides
 - [GTA 6 Characters Guide](https://gtavispot.com/story/gta-6-characters/)
