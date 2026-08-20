@@ -9,6 +9,38 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Gameplay Leaks: Cyberleek Protests Digital-Only Release',
+    desc: 'Recent online disruptions have surfaced new gta 6 gameplay leaks showing custom airplanes, radio stations, and a complete layout of the Leonida state map.',
+    date: 'August 20, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-gameplay-leaks/',
+    img: '/images/news/gta-6-gameplay-leaks.webp',
+  },
+  {
+    title: 'GTA 6 Mods: Expected Release, Leaks & Custom Tools',
+    desc: 'While gta 6 mods are not officially released yet, the community is already preparing scripts, custom visual shaders, and roleplay scripts.',
+    date: 'August 20, 2026',
+    tag: 'MODS',
+    href: '/mods/',
+    img: '/images/mods/gta-6-mods-feature.webp',
+  },
+  {
+    title: 'GTA 6 Deluxe Edition: Price, Pre-Order & Bonus Guide',
+    desc: 'GTA 6 deluxe edition details are officially live. Compare prices, pre-order physical copies, and explore console bonuses for PS5 and Xbox Series X now.',
+    date: 'August 18, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-deluxe-edition/',
+    img: '/images/news/gta-6-deluxe-edition.webp',
+  },
+  {
+    title: 'GTA 6 Graphics: Visual Realism, Engine Specs & Ray Tracing',
+    desc: 'Grand Theft Auto 6 graphics engine features, ray tracing, and next-gen specs. Explore dynamic volumetric clouds, lighting, and physics details today.',
+    date: 'August 18, 2026',
+    tag: 'TECH',
+    href: '/tech/gta-6-graphics/',
+    img: '/images/tech/gta-6-graphics.webp',
+  },
+  {
     title: 'GTA 6 Bikes List: Confirmed Motorcycles & Bicycles',
     desc: 'Explore the complete GTA 6 bikes database. Discover all confirmed motorcycles, cruisers, dirt bikes, and physics details from the official trailers now.',
     date: 'August 16, 2026',
