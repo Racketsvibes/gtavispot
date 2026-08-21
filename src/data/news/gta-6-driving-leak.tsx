@@ -67,10 +67,14 @@ export const gta6DrivingLeak: ArticleData = {
         This follows a string of recent <Link href="/news/gta-6-gameplay-leaks/">gta 6 gameplay leaks</Link> published by the same group.
       </p>
       <p>
-        From Microsoft, Take-Two is requesting registration emails, IP addresses, phone numbers, and any GTA-related content stored on the user's OneDrive account. 
-        The subpoena also asks for device telemetry data and identifiers like MachineGuid. 
-        Discord must provide all identifying information for accounts linked to specific servers where the leaks were discussed.
+        Take-Two is demanding the following specific data from Microsoft and Discord to locate the hacker:
       </p>
+      <ul>
+        <li><strong>Identifying Information:</strong> Registration emails, registration and last-login IP addresses, phone numbers, and linked external connections like Xbox or Google profiles.</li>
+        <li><strong>OneDrive Files:</strong> All documents, media files, and backups stored in the user's cloud accounts containing mentions of "Grand Theft Auto", "Rockstar", or "Cyberleek".</li>
+        <li><strong>Telemetry Records:</strong> Device IDs and telemetry markers like MachineGuid and MSA associated with systems that accessed the leaked tool files.</li>
+        <li><strong>Internal Security Logs:</strong> All Microsoft business records and investigative files related to their internal tracking of the Cyberleek persona.</li>
+      </ul>
       <p>
         This legal pressure marks a significant escalation in the developer's hunt for the source of the breach. 
         The aggressive action aims to identify the individual before they can distribute further files.
@@ -97,7 +101,7 @@ export const gta6DrivingLeak: ArticleData = {
       <p>
         The developers have ignored the grift publicly, focusing instead on their upcoming marketing campaign. 
         Fans can expect official, clean gameplay very soon. 
-        The Netflix-exclusive documentary "Extended Look" is scheduled to premiere on August 27, 2026, which will showcase verified developmental footage.
+        The Netflix-exclusive documentary <Link href="/news/gta-6-extended-look/">"Extended Look"</Link> is scheduled to premiere on August 27, 2026, which will showcase verified developmental footage.
       </p>
 
       <section className={styles.faqSection}>
