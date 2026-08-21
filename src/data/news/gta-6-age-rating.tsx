@@ -18,7 +18,7 @@ export const gta6AgeRating: ArticleData = {
       <div className={styles.quickAnswer}>
         <span className={styles.quickAnswerTitle}>Quick Age Rating Summary</span>
         <p>
-          While the official **grand theft auto 6 age rating** is still pending, the game is highly expected to receive an **M for Mature (17+)** rating from the ESRB. 
+          While the official <strong>grand theft auto 6 age rating</strong> is still pending, the game is highly expected to receive an <strong>M for Mature (17+)</strong> rating from the ESRB. 
           There's no official announcement from Rockstar requiring mandatory ID uploads or facial scanning to play the game. 
           Any age verification checks will occur at the platform store level (PlayStation/Xbox) rather than within the game itself.
         </p>
@@ -32,24 +32,24 @@ export const gta6AgeRating: ArticleData = {
 
       <h2>What is the Expected GTA 6 ESRB Rating?</h2>
       <p>
-        The official **gta 6 esrb rating** remains Rating Pending (RP) because the game is still in active development. 
-        However, it is certain to receive an **M for Mature 17+** rating from the <a href="https://www.esrb.org/ratings-guide/" target="_blank" rel="noopener noreferrer">Entertainment Software Rating Board (ESRB)</a>. 
+        The official <strong>gta 6 esrb rating</strong> remains Rating Pending (RP) because the game is still in active development. 
+        However, it is certain to receive an <strong>M for Mature 17+</strong> rating from the <a href="https://www.esrb.org/ratings-guide/" target="_blank" rel="noopener noreferrer">Entertainment Software Rating Board (ESRB)</a>. 
         Every mainline Grand Theft Auto title has received this classification due to violence, mature humor, and strong language.
       </p>
       <p>
         In Europe, PEGI will almost certainly classify the game as PEGI 18. 
-        This establishes a strict **gta 6 age limit** for retail purchases and digital downloads. 
+        This establishes a strict <strong>gta 6 age limit</strong> for retail purchases and digital downloads. 
         Retailers will block physical sales to minors, while digital stores will enforce account birthdate filters.
       </p>
 
       <h2>Will GTA 6 Require ID Verification in the US?</h2>
       <p>
-        Many players are wondering **will gta 6 require id verification** or if they must submit government documents. 
+        Many players are wondering <strong>will gta 6 require id verification</strong> or if they must submit government documents. 
         Rockstar Games doesn't require any proprietary ID upload to purchase or play the game. 
         Rumors about mandatory facial scans or passport uploads to log into the game are completely unverified.
       </p>
       <p>
-        However, the question of whether **will gta 6 have age verification in the us** is affected by state-level legislation. 
+        However, the question of whether <strong>will gta 6 have age verification in the us</strong> is affected by state-level legislation. 
         Several US states have passed laws requiring digital storefronts to verify the age of users accessing adult content. 
         These checks are handled by the PlayStation Store, Xbox Games Store, or Epic Games Store rather than Rockstar itself.
       </p>
@@ -57,11 +57,11 @@ export const gta6AgeRating: ArticleData = {
       <h2>How Does Rockstar Age Verification Work?</h2>
       <p>
         Rockstar Games manages user access through its own account infrastructure. 
-        The current **rockstar age verification** process requires users to input their date of birth when creating an account. 
+        The current <strong>rockstar age verification</strong> process requires users to input their date of birth when creating an account. 
         You must be at least 13 years old to create a basic account, and 18 years old to access social features.
       </p>
       <p>
-        This policy will apply to **rockstar age verification for gta 6** multiplayer access. 
+        This policy will apply to <strong>rockstar age verification for gta 6</strong> multiplayer access. 
         Underage accounts will be restricted from accessing GTA Online features or purchasing in-game virtual currency. 
         Parents can link accounts to monitor activity and enforce spending limits.
       </p>
