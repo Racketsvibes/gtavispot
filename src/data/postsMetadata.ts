@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Driving Leak: Take-Two Subpoenas Hunt Cyberleek',
+    desc: 'A new GTA 6 driving leak shows protagonist Jason driving a hypercar through Vice City as Take-Two Interactive files subpoenas against Microsoft and Discord.',
+    date: 'August 21, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-driving-leak/',
+    img: '/images/news/gta-6-driving-leak.webp',
+  },
+  {
     title: 'GTA 6 Gameplay Leaks: Cyberleek Protests Digital-Only Release',
     desc: 'Recent online disruptions have surfaced new gta 6 gameplay leaks showing custom airplanes, radio stations, and a complete layout of the Leonida state map.',
     date: 'August 20, 2026',
