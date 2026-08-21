@@ -11,7 +11,7 @@ export const gta6VsGta5: ArticleData = {
   h1: 'GTA 6 vs GTA 5: Full Comparison & Key Differences',
   publishedDate: 'July 22, 2026',
   modifiedDate: 'July 23, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/compare/gta-6-vs-gta-5.webp',
   featureImageAlt: 'GTA 6 vs GTA 5 visual comparison showing Los Santos and Vice City sunset side by side',
   videoSchema: {

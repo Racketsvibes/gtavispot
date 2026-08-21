@@ -11,7 +11,7 @@ export const gta6RegionLock: ArticleData = {
   h1: 'GTA 6 Region Lock Confirmed for PS5 Players',
   publishedDate: 'July 29, 2026',
   modifiedDate: 'July 29, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/news/gta-6-ps5-region-lock-feature.webp',
   featureImageAlt: 'GTA 6 logo next to a PlayStation 5 console on a dark purple background symbolizing region-locking rules',
   content: (

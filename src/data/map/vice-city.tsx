@@ -10,7 +10,7 @@ export const viceCity: MapArticleData = {
   h1: 'GTA 6 Vice City: All Districts, Locations & Map Guide',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_01.webp',
   content: (
     <>

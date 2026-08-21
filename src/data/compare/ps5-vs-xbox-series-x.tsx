@@ -11,7 +11,7 @@ export const ps5VsXboxSeriesX: ArticleData = {
   h1: 'PS5 vs Xbox Series x: Which to Buy For GTA 6?',
   publishedDate: 'July 28, 2026',
   modifiedDate: 'July 28, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/Jason_Duval_04.374574ad.webp',
   featureImageAlt: 'GTA 6 character Jason standing next to a customized muscle car in a Vice City alleyway',
   content: (

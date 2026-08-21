@@ -12,7 +12,7 @@ export const gta6PhysicalCopy: ArticleData = {
   h1: 'GTA 6 Physical Copy: Disc Release & Pre-Order Guide',
   publishedDate: 'July 16, 2026',
   modifiedDate: 'July 16, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/gta-6-physical-copy-box.webp',
   featureImageAlt: 'GTA 6 official physical edition cover featuring Lucia and Jason in Vice City',
   videoSchema: {

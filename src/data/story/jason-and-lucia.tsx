@@ -10,7 +10,7 @@ export const jasonAndLucia: StoryArticleData = {
   h1: 'GTA 6 Jason & Lucia: Relationship, Dynamic & Bonnie & Clyde Theme',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_landscape.webp',
   content: (
     <>

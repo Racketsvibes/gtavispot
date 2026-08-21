@@ -36,7 +36,7 @@ export default function TermsOfServicePage() {
 
         <h2>Intellectual Property Rights</h2>
         <p>
-          The content published on GTA Vi Spot is protected by international copyright and trademark laws. Unless otherwise explicitly stated, all original written guides, map marker details, editorial articles, site code (HTML, CSS, JavaScript), design layouts, and custom graphics created for the site are the exclusive intellectual property of GTA Vi Spot and its authors, including Qamar Farooq and the editorial team. 
+          The content published on GTA Vi Spot is protected by international copyright and trademark laws. Unless otherwise explicitly stated, all original written guides, map marker details, editorial articles, site code (HTML, CSS, JavaScript), design layouts, and custom graphics created for the site are the exclusive intellectual property of GTA Vi Spot and its authors, including Qamar Farooq, Marcus Vance, and the editorial team. 
         </p>
         <p>
           We operate as an independent entity (see our <Link href="/about/">About page</Link>). All registered trademarks, game logos, character names, and promotional assets relating to Grand Theft Auto, GTA VI, Vice City, and Leonida remain the exclusive property of Rockstar Games and Take-Two Interactive. We use these assets strictly under Fair Use for educational, critical, and news reporting purposes.

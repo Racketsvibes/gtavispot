@@ -11,7 +11,7 @@ export const gta6Animals: ArticleData = {
   h1: 'GTA 6 Animals: Confirmed Leonida Wildlife & Pets',
   publishedDate: 'August 13, 2026',
   modifiedDate: 'August 13, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/world/gta-6-animals-feature.webp',
   featureImageAlt: 'GTA 6 Animals feature showcasing a roseate spoonbill, Florida panther, and American alligator against a Vice City sunset',
   videoSchema: {

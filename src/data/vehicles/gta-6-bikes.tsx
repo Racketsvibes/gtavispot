@@ -22,7 +22,7 @@ export const gta6BikesArticle: VehicleArticleData = {
   h1: 'GTA 6 Bikes: Confirmed Motorcycles & Bicycles List',
   publishedDate: 'August 16, 2026',
   modifiedDate: 'August 16, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/vehicles/gta-6-bikes-feature.webp',
   featureImageAlt: 'GTA 6 Bikes feature image showing sport and cruiser motorcycles on a neon-lit sunset street in Vice City',
   content: (

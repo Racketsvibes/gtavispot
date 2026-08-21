@@ -10,7 +10,7 @@ export const gta6DrivingLeak: ArticleData = {
   h1: 'GTA 6 Driving Leak: Take-Two Subpoenas Hunt Cyberleek',
   publishedDate: 'August 21, 2026',
   modifiedDate: 'August 21, 2026',
-  author: 'Qamar Farooq (GTA Vi Spot Editorial)',
+  author: 'Qamar Farooq',
   featureImage: '/images/news/gta-6-driving-leak.webp',
   featureImageAlt: 'Sports car driving through Vice City streets at dusk under neon lights, representing the GTA 6 driving leak.',
   content: (

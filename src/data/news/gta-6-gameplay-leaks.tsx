@@ -11,7 +11,7 @@ export const gta6GameplayLeaks: ArticleData = {
   h1: 'GTA 6 Gameplay Leaks: Cyberleek Protests Digital-Only Release',
   publishedDate: 'August 20, 2026',
   modifiedDate: 'August 20, 2026',
-  author: 'GTA Vi Spot Editorial',
+  author: 'Qamar Farooq',
   featureImage: '/images/news/gta-6-gameplay-leaks.webp',
   featureImageAlt: 'Hacker terminal secure server window showing GTA VI Gameplay Leaks and Cyberleek Map Data folders on monitor screen',
   content: (

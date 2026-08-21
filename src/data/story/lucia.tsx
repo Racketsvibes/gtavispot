@@ -10,7 +10,7 @@ export const lucia: StoryArticleData = {
   h1: 'GTA 6 Lucia: Full Character Guide, Backstory & Abilities',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_03.webp',
   content: (
     <>

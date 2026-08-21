@@ -12,7 +12,7 @@ export const gta6CarsArticle: ArticleData = {
   h1: 'GTA 6 Cars: Real-Life Brands & Confirmed List',
   publishedDate: 'August 5, 2026',
   modifiedDate: 'August 6, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/vehicles/gta-6-cars-feature.webp',
   featureImageAlt: 'Sleek sports car with GTA 6 logo styling on a dark purple background',
   content: (

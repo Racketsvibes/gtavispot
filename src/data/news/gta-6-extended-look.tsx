@@ -13,7 +13,7 @@ export const gta6ExtendedLook: ArticleData = {
   h1: 'GTA 6 Extended Look: Netflix Preview & Premiere Details',
   publishedDate: 'August 6, 2026',
   modifiedDate: 'August 6, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/news/gta-6-extended-look-feature.webp',
   featureImageAlt: 'GTA 6 logo styled on a glowing smart television display next to Netflix logo',
   videoSchema: {

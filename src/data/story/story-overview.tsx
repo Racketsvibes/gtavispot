@@ -10,7 +10,7 @@ export const storyOverview: StoryArticleData = {
   h1: 'GTA 6 Story: Protagonists, Plot, Characters & Full Story Guide',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/desktop.webp',
   content: (
     <>

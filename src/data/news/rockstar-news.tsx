@@ -10,7 +10,7 @@ export const rockstarNews: ArticleData = {
   h1: 'Rockstar Games GTA 6 News: Developer Updates',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Developer_Update.webp',
   content: (
     <>

@@ -10,7 +10,7 @@ export const gta6NewFeatures: ArticleData = {
   h1: 'GTA 6 New Features: Confirmed Changes & Upgrades',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_New_Features.webp',
   content: (
     <>

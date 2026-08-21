@@ -10,7 +10,7 @@ export const mountKalaga: MapArticleData = {
   h1: 'GTA 6 Mount Kalaga: Every Secret, Easter Egg & Peak Guide',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/Mount_Kalaga_National_Park_02.webp',
   content: (
     <>

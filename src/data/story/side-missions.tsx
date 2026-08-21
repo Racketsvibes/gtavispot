@@ -11,7 +11,7 @@ export const sideMissions: StoryArticleData = {
   h1: 'GTA 6 Side Missions: All Stranger Quests & Rewards 2026',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'August 20, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Shop_view.webp',
   content: (
     <>

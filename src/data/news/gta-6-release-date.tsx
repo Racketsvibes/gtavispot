@@ -12,7 +12,7 @@ export const gta6ReleaseDate: ArticleData = {
   h1: 'GTA 6 Release Date: November 19, 2026 Confirmed',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'July 4, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA vi Release Date.webp',
   featureImageAlt: 'GTA vi Release Date.webp - GTA 6 Release Date - Focus Keyword: GTA 6 release date',
   videoSchema: {

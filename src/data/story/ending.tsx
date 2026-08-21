@@ -11,7 +11,7 @@ export const ending: StoryArticleData = {
   h1: 'GTA 6 Ending Explained: All 3 Endings & Secret End 2026',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'August 20, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_02.webp',
   content: (
     <>

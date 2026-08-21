@@ -10,7 +10,7 @@ export const secretLocations: MapArticleData = {
   h1: 'GTA 6 Secret Locations: Every Hidden Area & Map Secret',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Shop_view.webp',
   content: (
     <>

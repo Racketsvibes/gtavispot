@@ -11,7 +11,7 @@ export const gta6RaulBautista: StoryArticleData = {
   h1: 'GTA 6 Raul Bautista: Character Profile, Cast Rumors & Heists',
   publishedDate: 'July 9, 2026',
   modifiedDate: 'July 9, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/People/Raul%20Bautista/Raul_Bautista_01.webp',
   content: (
     <>

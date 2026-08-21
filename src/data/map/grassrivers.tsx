@@ -11,7 +11,7 @@ export const grassrivers: MapArticleData = {
   h1: 'GTA 6 Grassrivers: Complete Everglades Region Guide & Wildlife',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_01.webp',
   content: (
     <>

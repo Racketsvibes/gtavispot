@@ -11,7 +11,7 @@ export const gta6Characters: StoryArticleData = {
   h1: 'GTA 6 Characters: Protagonists, Cast & Real Life Rumors',
   publishedDate: 'June 26, 2026',
   modifiedDate: 'July 9, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/gta-6-characters-feature.webp',
   content: (
     <>

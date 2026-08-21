@@ -9,7 +9,7 @@ export const leonidaKeys: MapArticleData = {
   focusKeyword: 'GTA 6 Leonida Keys',
   h1: 'GTA 6 Leonida Keys: Full Island Guide, Map & All Secrets',
   publishedDate: 'June 18, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   modifiedDate: 'June 25, 2026',
   featureImage: '/images/GTAVI_Screenshots/Places/Leonida_Keys/Leonida_Keys_01.webp',
   content: (

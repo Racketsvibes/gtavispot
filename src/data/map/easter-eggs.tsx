@@ -10,7 +10,7 @@ export const easterEggs: MapArticleData = {
   h1: 'GTA 6 Easter Eggs: Every Secret & Pop Culture Reference',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Screenshot.webp',
   content: (
     <>

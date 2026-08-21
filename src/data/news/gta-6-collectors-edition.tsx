@@ -11,7 +11,7 @@ export const gta6CollectorsEdition: ArticleData = {
   h1: 'GTA 6 Collectors Edition: What We Know So Far',
   publishedDate: 'August 11, 2026',
   modifiedDate: 'August 11, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/news/gta-6-collectors-edition-feature.webp',
   featureImageAlt: 'GTA 6 Collectors Edition concept showing premium collector packaging with Vice City sunset gradient',
   content: (

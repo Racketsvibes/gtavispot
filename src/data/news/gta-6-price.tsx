@@ -10,7 +10,7 @@ export const gta6Price: ArticleData = {
   h1: 'GTA 6 Price: All Editions & Expected Costs',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'July 7, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_vi_Price.webp',
   content: (
     <>

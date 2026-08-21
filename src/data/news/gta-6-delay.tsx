@@ -11,7 +11,7 @@ export const gta6Delay: ArticleData = {
   h1: 'GTA 6 Delay History: How Many Times Was It Delayed?',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'August 20, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/gta-6-delay-minimalist.webp',
   content: (
     <>

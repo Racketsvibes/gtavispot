@@ -10,7 +10,7 @@ export const ambrosia: MapArticleData = {
   h1: 'GTA 6 Ambrosia: Location Guide, Sugar Refinery & Secrets',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_01.webp',
   content: (
     <>

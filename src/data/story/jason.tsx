@@ -10,7 +10,7 @@ export const jason: StoryArticleData = {
   h1: 'GTA 6 Jason: Full Character Guide, Backstory & Abilities',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Qamar Farooq',
+  author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_03.webp',
   content: (
     <>
