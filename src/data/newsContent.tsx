@@ -20,6 +20,7 @@ import { gta6CollectorsEdition } from './news/gta-6-collectors-edition';
 import { gta6DeluxeEdition } from './news/gta-6-deluxe-edition';
 import { gta6GameplayLeaks } from './news/gta-6-gameplay-leaks';
 import { gta6DrivingLeak } from './news/gta-6-driving-leak';
+import { gta6AgeRating } from './news/gta-6-age-rating';
 
 export interface VideoSchema {
   name: string;
@@ -67,6 +68,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-deluxe-edition': gta6DeluxeEdition,
   'gta-6-gameplay-leaks': gta6GameplayLeaks,
   'gta-6-driving-leak': gta6DrivingLeak,
+  'gta-6-age-rating': gta6AgeRating,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {

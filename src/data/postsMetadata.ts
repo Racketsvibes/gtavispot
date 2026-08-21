@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Age Rating: ESRB Rating & ID Verification Guide',
+    desc: 'Get details on the grand theft auto 6 age rating, expected esrb rating, age limit restrictions, and whether players in the US will require ID verification.',
+    date: 'August 21, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-age-rating/',
+    img: '/images/news/gta-6-age-rating.webp',
+  },
+  {
     title: 'GTA 6 Driving Leak: Take-Two Subpoenas Hunt Cyberleek',
     desc: 'A new GTA 6 driving leak shows protagonist Jason driving a hypercar through Vice City as Take-Two Interactive files subpoenas against Microsoft and Discord.',
     date: 'August 21, 2026',
