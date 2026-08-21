@@ -11,7 +11,7 @@ export const interiors: MapArticleData = {
   h1: 'GTA 6 Interiors: All 700+ Enterable Buildings Guide',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'August 18, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/Interiors/Vice_City_03.webp',
   content: (
     <>

@@ -10,7 +10,7 @@ export const gta6Hacker: ArticleData = {
   h1: 'GTA 6 Hacker: Sentencing, Retrial, and Latest Updates',
   publishedDate: 'July 19, 2026',
   modifiedDate: 'July 19, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/gta-6-hacker-leak.webp',
   featureImageAlt: 'A glowing magenta and purple neon computer terminal showing encrypted data files and lines of code representing the GTA 6 hacker security breach.',
   content: (

@@ -96,7 +96,7 @@ export default function ContactPage() {
 
           <h2>Editorial Guidelines for Submissions</h2>
           <p>
-            If you are submitting a news tip, leak, or rumor to our editorial team (led by Marcus Vance, as detailed on our <Link href="/about/">About page</Link>), please ensure you provide as much context and source material as possible. We adhere to strict verification standards. Unverified claims without supporting evidence (such as credible screenshots, official documentation, or reliable source history) will not be published. We guarantee absolute anonymity for all valid industry sources.
+            If you are submitting a news tip, leak, or rumor to our editorial team (led by Qamar Farooq, as detailed on our <Link href="/about/">About page</Link>), please ensure you provide as much context and source material as possible. We adhere to strict verification standards. Unverified claims without supporting evidence (such as credible screenshots, official documentation, or reliable source history) will not be published. We guarantee absolute anonymity for all valid industry sources.
           </p>
 
           <h2>Response Times & Legal</h2>

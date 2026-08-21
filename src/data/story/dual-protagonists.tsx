@@ -10,7 +10,7 @@ export const dualProtagonists: StoryArticleData = {
   h1: 'GTA 6 Dual Protagonists: How the Jason & Lucia System Works',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_01/Jason_and_Lucia_01_landscape.webp',
   content: (
     <>

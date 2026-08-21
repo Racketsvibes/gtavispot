@@ -10,7 +10,7 @@ export const gta6NovemberRelease: ArticleData = {
   h1: 'GTA 6 November 19 Launch: Everything to Know',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/Cluster_1/GTA_6_November_Launch.webp',
   content: (
     <>

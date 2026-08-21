@@ -10,7 +10,7 @@ export const underwater: MapArticleData = {
   h1: 'GTA 6 Underwater: Sharks, Sunken Ships & Diving Guide',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_09.webp',
   content: (
     <>

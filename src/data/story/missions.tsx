@@ -11,7 +11,7 @@ export const missions: StoryArticleData = {
   h1: 'GTA 6 All Missions List: Every Story Mission in Order',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'August 17, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTA_6_Fight.webp',
   content: (
     <>

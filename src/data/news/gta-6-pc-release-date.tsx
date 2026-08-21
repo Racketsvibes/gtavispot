@@ -10,7 +10,7 @@ export const gta6PcReleaseDate: ArticleData = {
   h1: 'GTA 6 PC Release Date: Expectations & Specs',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'July 7, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
   content: (
     <>

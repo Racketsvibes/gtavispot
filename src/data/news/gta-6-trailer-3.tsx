@@ -10,7 +10,7 @@ export const gta6Trailer3: ArticleData = {
   h1: 'GTA 6 Trailer 3: Every Detail Breakdown & Expectations',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/Cluster_1/GTA_Vi_Trailer_3.webp',
   content: (
     <>

@@ -11,7 +11,7 @@ export const isGta6WorthBuyingIn2026: ArticleData = {
   h1: 'Is GTA 6 Worth Buying in 2026? Price & Value Analysis',
   publishedDate: 'July 23, 2026',
   modifiedDate: 'July 23, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/compare/is-gta-6-worth-buying-in-2026.webp',
   featureImageAlt: 'Is GTA 6 Worth Buying in 2026 featured value comparison header image showing GTA VI logo and silhouettes',
   videoSchema: {

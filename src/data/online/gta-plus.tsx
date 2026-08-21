@@ -10,7 +10,7 @@ export const gtaPlusArticle: ArticleData = {
   h1: 'GTA+ Subscription: Cost, Perks, and Active Rewards',
   publishedDate: 'July 7, 2026',
   modifiedDate: 'July 7, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/gta-plus.webp',
   featureImageAlt: 'GTA Plus membership benefits showroom and Vinewood Club Garage in GTA Online',
   videoSchema: {

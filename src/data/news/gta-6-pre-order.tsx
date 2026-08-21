@@ -13,7 +13,7 @@ export const gta6PreOrder: ArticleData = {
   h1: 'GTA 6 Pre-Order Guide: Editions & Bonuses',
   publishedDate: 'June 25, 2026',
   modifiedDate: 'July 16, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/ultimate edition and Bounses/GTA 6 Ultimate Edition.webp',
   featureImageAlt: 'Official GTA 6 Pre-Order Guide: Compare Standard and Ultimate Editions',
   content: (

@@ -10,7 +10,7 @@ export const gta6CoverArt: ArticleData = {
   h1: 'GTA 6 Cover Art Reveal: Easter Eggs & Design Breakdown',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/Cluster_1/GTA_6_Cover_Art.webp',
   videoSchema: {
     name: 'GTA 6 Official Reveal Trailer 1',

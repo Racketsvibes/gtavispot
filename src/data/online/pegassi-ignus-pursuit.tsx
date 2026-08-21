@@ -11,7 +11,7 @@ export const pegassiIgnusPursuitArticle: ArticleData = {
   h1: 'Pegassi Ignus Pursuit: Price & Unlock Guide',
   publishedDate: 'July 29, 2026',
   modifiedDate: 'July 29, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTA online/Commuity Series/ignus-pursuit-law-enforcement-vehicle.webp',
   featureImageAlt: 'The new Pegassi Ignus Pursuit law enforcement vehicle parked with emergency lights flashing in Los Santos',
   content: (

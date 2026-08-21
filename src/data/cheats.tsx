@@ -11,7 +11,7 @@ export const gta6Cheats: ArticleData = {
   h1: 'GTA 6 Cheats: Expected Codes & Launch Guide',
   publishedDate: 'June 29, 2026',
   modifiedDate: 'June 29, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/gta-6-cheats-feature.webp',
   featureImageAlt: 'GTA 6 cheats controller buttons and neon phone dial cheat codes',
   content: (

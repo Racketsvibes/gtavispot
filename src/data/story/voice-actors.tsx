@@ -12,7 +12,7 @@ export const voiceActors: StoryArticleData = {
   h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'August 17, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp',
   content: (
     <ImageLightbox>

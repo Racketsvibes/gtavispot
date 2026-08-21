@@ -11,7 +11,7 @@ export const gta6Guides: ArticleData = {
   h1: 'GTA 6 Guide: Ultimate Launch Prep & Tips',
   publishedDate: 'July 2, 2026',
   modifiedDate: 'July 2, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/gta-6-guide-feature.webp',
   featureImageAlt: 'GTA 6 guide folder icon and neon compass map tracking overlay',
   content: (

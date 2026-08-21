@@ -10,7 +10,7 @@ export const portGellhorn: MapArticleData = {
   h1: 'GTA 6 Port Gellhorn: Full Location Guide, Cruise Ship & Secrets',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTAVI_Screenshots/Places/Port_Gellhorn/Port_Gellhorn_01.webp',
   content: (
     <>

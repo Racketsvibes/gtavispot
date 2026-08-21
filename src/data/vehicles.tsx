@@ -11,7 +11,7 @@ export const gta6Vehicles: ArticleData = {
   h1: 'GTA 6 Vehicles: Confirmed Cars, Bikes, Boats & Planes',
   publishedDate: 'June 27, 2026',
   modifiedDate: 'June 27, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/gta-6-vehicles-feature.webp',
   featureImageAlt: 'Official GTA 6 Vehicles Guide: Confirmed Cars, Bikes, Boats & Planes',
   content: (

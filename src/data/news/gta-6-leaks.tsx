@@ -10,7 +10,7 @@ export const gta6Leaks: ArticleData = {
   h1: 'GTA 6 Leaks & Rumors: Confirmed vs Unconfirmed',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'July 19, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
    featureImage: '/images/Cluster_1/GTA_6_Leaks_&_Rumours.webp',
   content: (
     <>

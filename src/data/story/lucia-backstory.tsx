@@ -10,7 +10,7 @@ export const luciaBackstory: StoryArticleData = {
   h1: 'GTA 6 Lucia Backstory: Full Origin, Liberty City & Lore Explained',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_05.webp',
   content: (
     <>

@@ -3,7 +3,7 @@ import styles from '../utility.module.css';
 
 export const metadata = {
   title: 'About GTA Vi Spot | Independent GTA 6 Fan Guide & News',
-  description: 'Learn about GTA Vi Spot. Meet Marcus Vance and our editorial team. Read about our mission, verification process, and how we fund our independent GTA 6 coverage.',
+  description: 'Learn about GTA Vi Spot. Meet Qamar Farooq and our editorial team. Read about our mission, verification process, and how we fund our independent GTA 6 coverage.',
   alternates: {
     canonical: 'https://gtavispot.com/about/',
   },
@@ -39,8 +39,8 @@ export default function AboutPage() {
 
         <h2>Our Editorial Team</h2>
         <p>
-          <strong>Marcus Vance (Lead Editor & Writer)</strong><br />
-          Leading the editorial charge at GTA Vi Spot is Marcus Vance. With over a decade of professional gaming journalism experience, Marcus has written extensively about open-world game design, community culture, and the evolution of the Grand Theft Auto series. His deep understanding of Rockstar Games' notoriously secretive development cycles and his unwavering commitment to journalistic integrity ensure that every piece of content published on our site meets the absolute highest standards of quality and accuracy. Marcus personally oversees our guide development, feature articles, and rigorous news verification processes to guarantee that you only receive the best content.
+          <strong>Qamar Farooq (Lead Editor & Writer)</strong> — <a href="https://x.com/QamarFarooq79" target="_blank" rel="noopener noreferrer">@QamarFarooq79</a><br />
+          Leading the editorial charge at GTA Vi Spot is Qamar Farooq. As an independent creator and SEO specialist, Qamar has built and managed popular gaming resources, sharing insights on niche web development and gaming community culture. His deep understanding of Grand Theft Auto guides and commitment to publishing citable, authentic content ensures that every piece of information on our site is accurate. Qamar personally oversees our guide development, feature articles, and news verification processes to guarantee that you only receive the best content.
         </p>
 
         <h2>Our Mission</h2>
@@ -75,7 +75,7 @@ export default function AboutPage() {
           We are building this expansive resource directly for the GTA community, and we highly value your ongoing input. Do you have feedback on a specific guide? Did you spot a typographical error or factual mistake that needs correcting? Or do you simply want to share a verified news tip with our editorial desk? We strongly encourage you to reach out to us. 
         </p>
         <p>
-          Use our official <Link href="/contact/">Contact Page</Link> to get in touch with Marcus Vance and the rest of the editorial team. We make it a daily priority to read all user submissions and we typically respond to all legitimate emails within 48 hours. Let's prepare to explore the massive state of Leonida together!
+          Use our official <Link href="/contact/">Contact Page</Link> to get in touch with Qamar Farooq and the rest of the editorial team. We make it a daily priority to read all user submissions and we typically respond to all legitimate emails within 48 hours. Let's prepare to explore the massive state of Leonida together!
         </p>
       </main>
     </div>

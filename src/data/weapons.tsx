@@ -11,7 +11,7 @@ export const gta6Weapons: ArticleData = {
   h1: 'GTA 6 Weapons List: All Confirmed Guns & Gear',
   publishedDate: 'June 28, 2026',
   modifiedDate: 'June 28, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/gta-6-weapons-wheel.webp',
   featureImageAlt: 'Official GTA 6 Weapons Wheel and loadout screen showing combat gear',
   content: (

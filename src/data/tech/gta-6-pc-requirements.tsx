@@ -11,7 +11,7 @@ export const gta6PcRequirements: ArticleData = {
   h1: 'GTA 6 PC Requirements: Minimum, Recommended & Ultra Specs',
   publishedDate: 'July 21, 2026',
   modifiedDate: 'July 21, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/tech/gta-6-pc-requirements.webp',
   featureImageAlt: 'GTA 6 PC requirements hardware specs showing gaming PC setup and spec breakdown',
   videoSchema: {

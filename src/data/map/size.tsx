@@ -10,7 +10,7 @@ export const size: MapArticleData = {
   h1: 'GTA 6 Map Size: How Big Is It vs GTA 5 & RDR2?',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'June 25, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTA_6_Map_Size.webp',
   content: (
     <>

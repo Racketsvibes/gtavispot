@@ -11,7 +11,7 @@ export const gta6UltimateVsStandard: ArticleData = {
   h1: 'GTA 6 Ultimate Edition vs Standard: Which One to Buy?',
   publishedDate: 'July 15, 2026',
   modifiedDate: 'July 16, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_landscape.webp',
   content: (
     <>

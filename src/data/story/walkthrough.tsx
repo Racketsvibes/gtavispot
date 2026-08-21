@@ -11,7 +11,7 @@ export const walkthrough: StoryArticleData = {
   h1: 'GTA 6 Walkthrough: Complete Story Mode Guide & All Missions',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'July 17, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/GTA_6_Screenshot.webp',
   videoSchema: {
     name: 'GTA 6 Walkthrough: Complete Story Mode Guide',

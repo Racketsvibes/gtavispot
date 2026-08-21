@@ -12,7 +12,7 @@ export const gta6KortzHeist: ArticleData = {
   h1: 'The Kortz Center Heist: Payouts, Setup & Nerfs Guide',
   publishedDate: 'July 16, 2026',
   modifiedDate: 'July 16, 2026',
-  author: 'Marcus Vance',
+  author: 'Qamar Farooq',
   featureImage: '/images/the-kortz-center-heist.webp',
   featureImageAlt: 'GTA Online characters planning The Kortz Center Heist around a table',
   videoSchema: {
