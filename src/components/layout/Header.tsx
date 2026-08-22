@@ -8,6 +8,50 @@ import { usePathname } from 'next/navigation';
 import ThemeToggle from './ThemeToggle';
 import styles from './Header.module.css';
 
+const USFlag = () => (
+  <svg width="16" height="12" viewBox="0 0 741 390" style={{ borderRadius: '2px', border: '1px solid rgba(0,0,0,0.15)', display: 'inline-block', flexShrink: 0 }}>
+    <rect width="741" height="390" fill="#B22234" />
+    <path d="M0,30H741M0,90H741M0,150H741M0,210H741M0,270H741M0,330H741" stroke="#FFFFFF" strokeWidth="30" />
+    <rect width="296" height="210" fill="#3C3B6E" />
+    <g fill="#FFFFFF">
+      <circle cx="30" cy="25" r="8" />
+      <circle cx="90" cy="25" r="8" />
+      <circle cx="150" cy="25" r="8" />
+      <circle cx="210" cy="25" r="8" />
+      <circle cx="270" cy="25" r="8" />
+      <circle cx="60" cy="65" r="8" />
+      <circle cx="120" cy="65" r="8" />
+      <circle cx="180" cy="65" r="8" />
+      <circle cx="240" cy="65" r="8" />
+      <circle cx="30" cy="105" r="8" />
+      <circle cx="90" cy="105" r="8" />
+      <circle cx="150" cy="105" r="8" />
+      <circle cx="210" cy="105" r="8" />
+      <circle cx="270" cy="105" r="8" />
+      <circle cx="60" cy="145" r="8" />
+      <circle cx="120" cy="145" r="8" />
+      <circle cx="180" cy="145" r="8" />
+      <circle cx="240" cy="145" r="8" />
+      <circle cx="30" cy="185" r="8" />
+      <circle cx="90" cy="185" r="8" />
+      <circle cx="150" cy="185" r="8" />
+      <circle cx="210" cy="185" r="8" />
+      <circle cx="270" cy="185" r="8" />
+    </g>
+  </svg>
+);
+
+const ESFlag = () => (
+  <svg width="16" height="12" viewBox="0 0 750 500" style={{ borderRadius: '2px', border: '1px solid rgba(0,0,0,0.15)', display: 'inline-block', flexShrink: 0 }}>
+    <rect width="750" height="500" fill="#C1272D" />
+    <rect y="125" width="750" height="250" fill="#FEC60B" />
+    <rect x="180" y="190" width="60" height="80" fill="#C1272D" rx="10" />
+    <circle cx="210" cy="230" r="15" fill="#3B5998" />
+    <circle cx="210" cy="175" r="10" fill="#FEC60B" />
+  </svg>
+);
+
+
 const newsSubNav = [
   { label: 'All News & Updates', href: '/news/' },
   { label: 'Netflix Extended Preview', href: '/news/gta-6-extended-look/' },
@@ -180,26 +224,26 @@ export default function Header() {
               {isSpanish ? (
                 <>
                   <Link href={englishLink} className={styles.langItem}>
-                    🇺🇸 EN (USA)
+                    <USFlag /> <span>EN (USA)</span>
                   </Link>
                   <span className={styles.langSep}>|</span>
                   <span className={styles.langItemActive}>
-                    🇪🇸 ES (Español)
+                    <ESFlag /> <span>ES (Español)</span>
                   </span>
                 </>
               ) : (
                 <>
                   <span className={styles.langItemActive}>
-                    🇺🇸 EN (USA)
+                    <USFlag /> <span>EN (USA)</span>
                   </span>
                   <span className={styles.langSep}>|</span>
                   {hasTranslation ? (
                     <Link href={spanishLink} className={styles.langItem}>
-                      🇪🇸 ES (Español)
+                      <ESFlag /> <span>ES (Español)</span>
                     </Link>
                   ) : (
                     <span className={styles.langItemDisabled} title="Spanish translation coming soon">
-                      🇪🇸 ES (Español)
+                      <ESFlag /> <span>ES (Español)</span>
                     </span>
                   )}
                 </>
