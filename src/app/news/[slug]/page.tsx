@@ -30,14 +30,19 @@ export async function generateMetadata({ params }: Props) {
     ? `https://gtavispot.com${article.featureImage}` 
     : 'https://gtavispot.com/images/desktop.webp';
 
+  const hasSpanish = ['gta-6-release-date', 'gta-6-november-release'].includes(slug);
+
   return {
     title: getSEOTitle(article.title),
     description: article.metaDescription,
     alternates: {
       canonical: `https://gtavispot.com/news/${slug}/`,
-      languages: {
+      languages: hasSpanish ? {
         'en': `https://gtavispot.com/news/${slug}/`,
         'es-es': `https://gtavispot.com/es/news/${slug}/`,
+        'x-default': `https://gtavispot.com/news/${slug}/`,
+      } : {
+        'en': `https://gtavispot.com/news/${slug}/`,
         'x-default': `https://gtavispot.com/news/${slug}/`,
       }
     },

@@ -144,6 +144,7 @@ export default function Header() {
     const cleanPath = pathname.replace(/^\/es/, '').replace(/\/$/, '') || '/';
     const translatedPaths = [
       '/news/gta-6-release-date',
+      '/news/gta-6-november-release',
     ];
     return translatedPaths.includes(cleanPath);
   })();
