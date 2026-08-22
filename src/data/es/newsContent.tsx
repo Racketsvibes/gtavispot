@@ -14,3 +14,7 @@ export function getSpanishArticleBySlug(slug: string): ArticleData | undefined {
 export function getAllSpanishArticleSlugs(): string[] {
   return Object.keys(articlesMapEs);
 }
+
+export function getAllSpanishArticles(): { slug: string; article: ArticleData }[] {
+  return Object.entries(articlesMapEs).map(([slug, article]) => ({ slug, article }));
+}

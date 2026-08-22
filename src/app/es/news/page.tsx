@@ -1,13 +1,13 @@
 import Link from 'next/link';
-import { getAllArticles } from '@/data/newsContent';
+import { getAllSpanishArticles } from '@/data/es/newsContent';
 import { getBreadcrumbsSchema } from '@/lib/schema';
-import styles from './page.module.css';
+import styles from '../../news/page.module.css';
 
 export const metadata = {
-  title: 'GTA 6 News: Latest Updates & Guides',
-  description: 'Read the latest GTA 6 news, official trailers, gameplay leaks, and announcements. Updated daily with verified Rockstar Games coverage.',
+  title: 'Noticias de GTA 6: Últimas Novedades y Guías',
+  description: 'Lee las últimas noticias de GTA 6, tráileres oficiales, filtraciones de gameplay y comunicados. Actualizado a diario con cobertura de Rockstar Games.',
   alternates: {
-    canonical: 'https://gtavispot.com/news/',
+    canonical: 'https://gtavispot.com/es/news/',
     languages: {
       'en': 'https://gtavispot.com/news/',
       'es-es': 'https://gtavispot.com/es/news/',
@@ -16,8 +16,8 @@ export const metadata = {
   },
 };
 
-export default function NewsHubPage() {
-  const articles = getAllArticles();
+export default function SpanishNewsHubPage() {
+  const articles = getAllSpanishArticles();
 
   // Pinned article is the Release Date page
   const pinnedArticle = articles.find(a => a.slug === 'gta-6-release-date');
@@ -31,21 +31,21 @@ export default function NewsHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' },
-              { name: 'News Hub', url: 'https://gtavispot.com/news/' }
+              { name: 'Inicio', url: 'https://gtavispot.com/es/' },
+              { name: 'Portal de Noticias', url: 'https://gtavispot.com/es/news/' }
             ])
           )
         }}
       />
       <header className={styles.header}>
         <div className={`container ${styles.headerInner}`}>
-          <span className={styles.categoryLabel}>LATEST UPDATES</span>
+          <span className={styles.categoryLabel}>ÚLTIMAS NOVEDADES</span>
           <h1 className={styles.title}>
-            GTA 6 <span className="text-gradient">News Hub</span>
+            GTA 6 <span className="text-gradient">Noticias</span>
           </h1>
           <p className={styles.desc}>
-            Breaking news, trailers, leaks, and developer announcements from Rockstar Games. 
-            Updated daily as we count down to the November 19, 2026 launch.
+            Noticias de última hora, tráileres, filtraciones y anuncios de desarrollo de Rockstar Games. 
+            Actualizado a diario mientras realizamos la cuenta atrás para el lanzamiento el 19 de noviembre de 2026.
           </p>
         </div>
       </header>
@@ -54,9 +54,9 @@ export default function NewsHubPage() {
       {pinnedArticle && (
         <section className={`container ${styles.pinnedSection}`}>
           <div className={styles.pinnedCard}>
-            <div className={styles.pinnedBadge}>PINNED BREAKING NEWS</div>
+            <div className={styles.pinnedBadge}>NOTICIA DESTACADA</div>
             <h2 className={styles.pinnedTitle}>
-              <Link href={`/news/${pinnedArticle.slug}/`} className={styles.pinnedLink}>
+              <Link href={`/es/news/${pinnedArticle.slug}/`} className={styles.pinnedLink}>
                 {pinnedArticle.article.h1}
               </Link>
             </h2>
@@ -64,12 +64,12 @@ export default function NewsHubPage() {
               {pinnedArticle.article.metaDescription}
             </p>
             <div className={styles.pinnedMeta}>
-              <span>By <strong>{pinnedArticle.article.author}</strong></span>
+              <span>Por <strong>{pinnedArticle.article.author}</strong></span>
               <span className={styles.metaSep}>•</span>
-              <span>Last Updated: {pinnedArticle.article.modifiedDate}</span>
+              <span>Actualizado: {pinnedArticle.article.modifiedDate}</span>
             </div>
-            <Link href={`/news/${pinnedArticle.slug}/`} className={styles.pinnedCta}>
-              Read Breaking Update
+            <Link href={`/es/news/${pinnedArticle.slug}/`} className={styles.pinnedCta}>
+              Leer actualización
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12" />
                 <polyline points="12 5 19 12 12 19" />
@@ -81,16 +81,16 @@ export default function NewsHubPage() {
 
       {/* Grid of Other Articles */}
       <section className={`container ${styles.articlesSection}`}>
-        <h2 className={styles.sectionTitle}>More Articles</h2>
+        <h2 className={styles.sectionTitle}>Más Artículos</h2>
         <div className={styles.grid}>
           {otherArticles.map(({ slug, article }) => (
             <article key={slug} className={styles.card}>
               <div className={styles.cardHeader}>
-                <span className={styles.cardBadge}>GTA 6 CONFIRMED</span>
+                <span className={styles.cardBadge}>GTA 6 CONFIRMADO</span>
               </div>
               <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>
-                  <Link href={`/news/${slug}/`} className={styles.cardLink}>
+                  <Link href={`/es/news/${slug}/`} className={styles.cardLink}>
                     {article.h1}
                   </Link>
                 </h3>
@@ -98,7 +98,7 @@ export default function NewsHubPage() {
                   {article.metaDescription}
                 </p>
                 <div className={styles.cardMeta}>
-                  <span>By {article.author}</span>
+                  <span>Por {article.author}</span>
                   <span className={styles.metaSep}>•</span>
                   <span>{article.modifiedDate}</span>
                 </div>

@@ -84,7 +84,6 @@ export function getEnglishUrls(): SitemapItem[] {
     { path: '/cheats/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/guides/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/map/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
-    { path: '/news/', changefreq: 'daily', priority: '0.9', lastmod: nowStr },
     { path: '/faq/', changefreq: 'daily', priority: '0.9', lastmod: nowStr },
     { path: '/story/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/tech/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
@@ -110,6 +109,19 @@ export function getEnglishUrls(): SitemapItem[] {
       changefreq: route.changefreq,
       priority: route.priority
     });
+  });
+
+  // News hub with alternates
+  items.push({
+    url: `${baseUrl}/news/`,
+    lastmod: nowStr,
+    changefreq: 'daily',
+    priority: '0.9',
+    alternates: [
+      { lang: 'en', href: `${baseUrl}/news/` },
+      { lang: 'es-es', href: `${baseUrl}/es/news/` },
+      { lang: 'x-default', href: `${baseUrl}/news/` }
+    ]
   });
 
   // Map slugs
@@ -188,6 +200,20 @@ export function getEnglishUrls(): SitemapItem[] {
 
 export function getSpanishUrls(): SitemapItem[] {
   const items: SitemapItem[] = [];
+  const nowStr = new Date().toISOString().split('T')[0];
+
+  // Spanish News Hub
+  items.push({
+    url: `${baseUrl}/es/news/`,
+    lastmod: nowStr,
+    changefreq: 'daily',
+    priority: '0.9',
+    alternates: [
+      { lang: 'en', href: `${baseUrl}/news/` },
+      { lang: 'es-es', href: `${baseUrl}/es/news/` },
+      { lang: 'x-default', href: `${baseUrl}/news/` }
+    ]
+  });
 
   SPANISH_TRANSLATED_NEWS_SLUGS.forEach(slug => {
     const modDate = newsModifiedDates[slug] || new Date().toISOString().split('T')[0];
