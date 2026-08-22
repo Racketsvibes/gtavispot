@@ -18,7 +18,7 @@ export const gta6StripClubLeak: ArticleData = {
       <div className={styles.quickAnswer}>
         <span className={styles.quickAnswerTitle}>Quick Leak Insight</span>
         <p>
-          While Rockstar Games scrambles to suppress the footage, a new **gta 6 strip club leak** shows protagonist Jason Duval entering a Vice City adult establishment. 
+          While Rockstar Games scrambles to suppress the footage, a new <strong>gta 6 strip club leak</strong> shows protagonist Jason Duval entering a Vice City adult establishment. 
           The clip is the seventh video released by the leaker group Cyberleek as part of a promotional crypto memecoin scheme. 
           Rockstar and Take-Two are continuing aggressive legal takedowns but haven't yet issued a public comment.
         </p>
