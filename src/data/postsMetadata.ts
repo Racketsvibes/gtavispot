@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Strip Club Leak: Cyberleek Releases Clip 7 in Crypto Grift',
+    desc: 'A new GTA 6 leak shows protagonist Jason Duval entering a Vice City strip club as leakers promote a crypto memecoin scam and Rockstar scrambles.',
+    date: 'August 22, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-strip-club-leak/',
+    img: '/images/news/gta-6-strip-club-leak.webp',
+  },
+  {
     title: 'GTA 6 Age Rating: ESRB Rating & ID Verification Guide',
     desc: 'Get details on the grand theft auto 6 age rating, expected esrb rating, age limit restrictions, and whether players in the US will require ID verification.',
     date: 'August 21, 2026',
