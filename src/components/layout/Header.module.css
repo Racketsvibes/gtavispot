@@ -502,3 +502,12 @@
 .langSep {
   color: var(--border-light);
 }
+
+.langItemDisabled {
+  color: var(--text-muted);
+  opacity: 0.5;
+  cursor: not-allowed;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

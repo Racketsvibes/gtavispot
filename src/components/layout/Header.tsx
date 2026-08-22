@@ -95,6 +95,15 @@ export default function Header() {
   const englishLink = isSpanish ? (pathname?.replace(/^\/es/, '') || '/') : pathname || '/';
   const spanishLink = isSpanish ? pathname : `/es${pathname || ''}`;
 
+  const hasTranslation = (() => {
+    if (!pathname) return false;
+    const cleanPath = pathname.replace(/^\/es/, '').replace(/\/$/, '') || '/';
+    const translatedPaths = [
+      '/news/gta-6-release-date',
+    ];
+    return translatedPaths.includes(cleanPath);
+  })();
+
   const [mobileOpen, setMobileOpen] = useState(false);
   const [storyOpen, setStoryOpen] = useState(false);
   const [newsOpen, setNewsOpen] = useState(false);
@@ -184,9 +193,15 @@ export default function Header() {
                     🇺🇸 EN (USA)
                   </span>
                   <span className={styles.langSep}>|</span>
-                  <Link href={spanishLink} className={styles.langItem}>
-                    🇪🇸 ES (Español)
-                  </Link>
+                  {hasTranslation ? (
+                    <Link href={spanishLink} className={styles.langItem}>
+                      🇪🇸 ES (Español)
+                    </Link>
+                  ) : (
+                    <span className={styles.langItemDisabled} title="Spanish translation coming soon">
+                      🇪🇸 ES (Español)
+                    </span>
+                  )}
                 </>
               )}
             </div>
