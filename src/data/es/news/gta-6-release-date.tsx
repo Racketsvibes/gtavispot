@@ -12,7 +12,7 @@ export const gta6ReleaseDateEs: ArticleData = {
   publishedDate: 'June 17, 2026',
   modifiedDate: 'August 22, 2026',
   author: 'Qamar Farooq',
-  featureImage: '/images/Cluster_1/GTA_6_Release_Date.webp',
+  featureImage: '/images/news/gta-6-release-date.jpg',
   featureImageAlt: 'GTA 6 fecha de lanzamiento confirmada para consolas a nivel mundial.',
   content: (
     <>

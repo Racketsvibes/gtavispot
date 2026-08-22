@@ -13,8 +13,8 @@ export const gta6ReleaseDate: ArticleData = {
   publishedDate: 'June 17, 2026',
   modifiedDate: 'July 4, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/Cluster_1/GTA vi Release Date.webp',
-  featureImageAlt: 'GTA vi Release Date.webp - GTA 6 Release Date - Focus Keyword: GTA 6 release date',
+  featureImage: '/images/news/gta-6-release-date.jpg',
+  featureImageAlt: 'GTA 6 release date confirmation and launch timeline countdown graphic.',
   videoSchema: {
     name: 'Grand Theft Auto VI Trailer 1',
     description: 'The official first trailer for Grand Theft Auto VI, showcasing Vice City and the state of Leonida.',

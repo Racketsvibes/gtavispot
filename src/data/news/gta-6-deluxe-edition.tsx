@@ -63,7 +63,7 @@ export const gta6DeluxeEdition: ArticleData = {
 
       <div className={styles.featureImageContainer}>
         <Image 
-          src="/images/GTA_6_Release_Date.webp" 
+          src="/images/news/gta-6-release-date.jpg" 
           alt="GTA 6 Deluxe Edition launch release date and pre order calendar schedule" 
           width={1200}
           height={630}
