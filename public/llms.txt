@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: August 22, 2026: Added GTA 6 Strip Club Leak news, updated sitemaps, and refreshed LLM indexes.*
+*Last updated: August 22, 2026: Added Spanish translation framework, GTA 6 Release Date Spanish article, and updated sitemaps.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -98,6 +98,9 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 
 ## World Articles
 - [GTA 6 Animals](https://gtavispot.com/world/gta-6-animals/)
+
+## Spanish (es) Articles
+- [¿Cuándo sale GTA 6? Fecha de lanzamiento](https://gtavispot.com/es/news/gta-6-release-date/)
 
 ## Utility & Legal Pages
 - [About Us](https://gtavispot.com/about/)

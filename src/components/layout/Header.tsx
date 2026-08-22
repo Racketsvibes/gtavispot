@@ -91,6 +91,10 @@ const policiesNav = [
 
 export default function Header() {
   const pathname = usePathname();
+  const isSpanish = pathname?.startsWith('/es');
+  const englishLink = isSpanish ? (pathname?.replace(/^\/es/, '') || '/') : pathname || '/';
+  const spanishLink = isSpanish ? pathname : `/es${pathname || ''}`;
+
   const [mobileOpen, setMobileOpen] = useState(false);
   const [storyOpen, setStoryOpen] = useState(false);
   const [newsOpen, setNewsOpen] = useState(false);
@@ -161,6 +165,33 @@ export default function Header() {
     <>
       <a href="#main" className="skip-to-content">Skip to main content</a>
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
+        <div className={styles.topBar}>
+          <div className={styles.topBarInner}>
+            <div className={styles.langSelector}>
+              {isSpanish ? (
+                <>
+                  <Link href={englishLink} className={styles.langItem}>
+                    🇺🇸 EN (USA)
+                  </Link>
+                  <span className={styles.langSep}>|</span>
+                  <span className={styles.langItemActive}>
+                    🇪🇸 ES (Español)
+                  </span>
+                </>
+              ) : (
+                <>
+                  <span className={styles.langItemActive}>
+                    🇺🇸 EN (USA)
+                  </span>
+                  <span className={styles.langSep}>|</span>
+                  <Link href={spanishLink} className={styles.langItem}>
+                    🇪🇸 ES (Español)
+                  </Link>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
         <div className={styles.inner}>
           <Link href="/" className={styles.logoLink} aria-label="GTA Vi Spot - Home">
             <Image src={logoImg} alt="GTA Vi Spot Logo" className={styles.logoImg} priority />

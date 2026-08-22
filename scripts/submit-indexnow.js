@@ -18,6 +18,7 @@ const newsSlugs = getSlugs('src/data/news');
 const mapSlugs = getSlugs('src/data/map');
 const storySlugs = getSlugs('src/data/story');
 const techSlugs = getSlugs('src/data/tech');
+const esNewsSlugs = getSlugs('src/data/es/news');
 
 const staticRoutes = [
   '/',
@@ -44,7 +45,8 @@ const urlList = [
   ...newsSlugs.map(slug => `${baseUrl}/news/${slug}/`),
   ...mapSlugs.map(slug => `${baseUrl}/map/${slug}/`),
   ...storySlugs.map(slug => `${baseUrl}/story/${slug}/`),
-  ...techSlugs.map(slug => `${baseUrl}/tech/${slug}/`)
+  ...techSlugs.map(slug => `${baseUrl}/tech/${slug}/`),
+  ...esNewsSlugs.map(slug => `${baseUrl}/es/news/${slug}/`)
 ];
 
 console.log(`Submitting ${urlList.length} URLs to IndexNow...`);

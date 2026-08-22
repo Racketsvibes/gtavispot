@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getArticleBySlug, getAllArticleSlugs } from '@/data/newsContent';
+import { getSpanishArticleBySlug, getAllSpanishArticleSlugs } from '@/data/es/newsContent';
 import ShareButtons from '@/components/ShareButtons';
 import RelatedPosts from '@/components/RelatedPosts';
 import {
@@ -18,12 +18,12 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return getAllArticleSlugs().map((slug) => ({ slug }));
+  return getAllSpanishArticleSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
+  const article = getSpanishArticleBySlug(slug);
   if (!article) return {};
 
   const imageUrl = article.featureImage 
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props) {
     title: getSEOTitle(article.title),
     description: article.metaDescription,
     alternates: {
-      canonical: `https://gtavispot.com/news/${slug}/`,
+      canonical: `https://gtavispot.com/es/news/${slug}/`,
       languages: {
         'en': `https://gtavispot.com/news/${slug}/`,
         'es-es': `https://gtavispot.com/es/news/${slug}/`,
@@ -44,8 +44,9 @@ export async function generateMetadata({ params }: Props) {
     openGraph: {
       title: article.title,
       description: article.metaDescription,
-      url: `https://gtavispot.com/news/${slug}/`,
+      url: `https://gtavispot.com/es/news/${slug}/`,
       type: 'article',
+      locale: 'es_ES',
       images: [
         {
           url: imageUrl,
@@ -66,7 +67,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function ArticlePage({ params }: Props) {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
+  const article = getSpanishArticleBySlug(slug);
   if (!article) notFound();
 
   const imageUrl = article.featureImage 
@@ -75,9 +76,9 @@ export default async function ArticlePage({ params }: Props) {
 
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'News Hub', url: 'https://gtavispot.com/news/' },
-    { name: article.h1, url: `https://gtavispot.com/news/${slug}/` }
+    { name: 'Inicio', url: 'https://gtavispot.com/es/' },
+    { name: 'Noticias', url: 'https://gtavispot.com/es/news/' },
+    { name: article.h1, url: `https://gtavispot.com/es/news/${slug}/` }
   ]);
 
   const articleSchema = getArticleSchema({
@@ -87,11 +88,40 @@ export default async function ArticlePage({ params }: Props) {
     datePublished: article.publishedDate,
     dateModified: article.modifiedDate,
     authorName: article.author,
-    url: `https://gtavispot.com/news/${slug}/`
+    url: `https://gtavispot.com/es/news/${slug}/`
   });
 
   const faqs = getFaqsFromFile(slug, 'news');
   const faqSchema = getFAQSchema(faqs);
+
+  // Dynamic Event Schema for GTA 6 Release Date
+  const launchEventSchema = slug === 'gta-6-release-date' ? {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Lanzamiento Oficial de Grand Theft Auto VI (GTA 6)",
+    "startDate": "2026-11-19T00:00:00+01:00",
+    "endDate": "2026-11-19T23:59:59+01:00",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Lanzamiento Mundial de Software (PlayStation 5 & Xbox Series X|S)",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Global",
+        "addressCountry": "ES"
+      }
+    },
+    "image": [
+      imageUrl
+    ],
+    "description": "El estreno mundial oficial y salida al mercado del videojuego GTA 6 por Rockstar Games y Take-Two Interactive.",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Rockstar Games",
+      "url": "https://www.rockstargames.com"
+    }
+  } : null;
 
   return (
     <div className={styles.wrapper}>
@@ -110,30 +140,36 @@ export default async function ArticlePage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      {launchEventSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(launchEventSchema) }}
+        />
+      )}
 
       {/* Breadcrumbs */}
       <div className={`container ${styles.breadcrumbs}`}>
-        <Link href="/" className={styles.breadLink}>Home</Link>
+        <Link href="/" className={styles.breadLink}>Inicio</Link>
         <span className={styles.breadSep}>/</span>
-        <Link href="/news/" className={styles.breadLink}>News</Link>
+        <Link href="/news/" className={styles.breadLink}>Noticias</Link>
         <span className={styles.breadSep}>/</span>
         <span className={styles.breadCurrent}>{article.h1}</span>
       </div>
 
       <article className={`container ${styles.article}`}>
         <header className={styles.header}>
-          <span className={styles.categoryBadge}>GTA 6 NEWS</span>
+          <span className={styles.categoryBadge}>GTA 6 NOTICIAS</span>
           <h1 className={styles.title}>{article.h1}</h1>
           <div className={styles.meta}>
-            <span className={styles.metaItem}>By <strong>{article.author}</strong></span>
+            <span className={styles.metaItem}>Por <strong>{article.author}</strong></span>
             <span className={styles.metaSep}>•</span>
-            <span className={styles.metaItem}>Published: {article.publishedDate}</span>
+            <span className={styles.metaItem}>Publicado: {article.publishedDate}</span>
             <span className={styles.metaSep}>•</span>
-            <span className={styles.metaItem}>Last Updated: {article.modifiedDate}</span>
+            <span className={styles.metaItem}>Actualizado: {article.modifiedDate}</span>
           </div>
         </header>
 
-        <ShareButtons url={`https://gtavispot.com/news/${slug}/`} title={article.title} isTop />
+        <ShareButtons url={`https://gtavispot.com/es/news/${slug}/`} title={article.title} isTop />
 
         <div className={styles.divider} />
 
@@ -155,7 +191,7 @@ export default async function ArticlePage({ params }: Props) {
           {article.content}
         </div>
 
-        <ShareButtons url={`https://gtavispot.com/news/${slug}/`} title={article.title} />
+        <ShareButtons url={`https://gtavispot.com/es/news/${slug}/`} title={article.title} />
 
         {article.videoSchema && (
           <script

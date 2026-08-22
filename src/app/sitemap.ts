@@ -38,11 +38,37 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const newsRoutes = getAllArticleSlugs().map((slug) => {
     const dateStr = newsModifiedDates[slug];
     const lastModified = dateStr ? new Date(dateStr) : new Date();
+    const hasSpanish = slug === 'gta-6-release-date';
     return {
       url: `${baseUrl}/news/${slug}/`,
       lastModified,
       changeFrequency: 'daily' as const,
       priority: 0.8,
+      alternates: hasSpanish ? {
+        languages: {
+          'en': `${baseUrl}/news/${slug}/`,
+          'es-es': `${baseUrl}/es/news/${slug}/`,
+          'x-default': `${baseUrl}/news/${slug}/`,
+        }
+      } : undefined
+    };
+  });
+
+  const spanishSlugs = ['gta-6-release-date'];
+  const spanishNewsRoutes = spanishSlugs.map((slug) => {
+    const dateStr = newsModifiedDates[slug] || '2026-08-22';
+    return {
+      url: `${baseUrl}/es/news/${slug}/`,
+      lastModified: new Date(dateStr),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+      alternates: {
+        languages: {
+          'en': `${baseUrl}/news/${slug}/`,
+          'es-es': `${baseUrl}/es/news/${slug}/`,
+          'x-default': `${baseUrl}/news/${slug}/`,
+        }
+      }
     };
   });
 
@@ -274,5 +300,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     };
   });
 
-  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...storyRoutes, ...techRoutes, ...onlineRoutes, ...worldRoutes];
+  return [...staticRoutes, ...mapRoutes, ...newsRoutes, ...spanishNewsRoutes, ...storyRoutes, ...techRoutes, ...onlineRoutes, ...worldRoutes];
 }
