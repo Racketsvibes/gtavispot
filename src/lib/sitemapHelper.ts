@@ -56,7 +56,8 @@ const worldModifiedDates: Record<string, string> = {
 // Currently translated pages in Spanish (slugs)
 const SPANISH_TRANSLATED_NEWS_SLUGS = [
   'gta-6-release-date',
-  'gta-6-november-release'
+  'gta-6-november-release',
+  'gta-6-leaks-escalation'
 ];
 
 export interface SitemapItem {

@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props) {
     ? `https://gtavispot.com${article.featureImage}` 
     : 'https://gtavispot.com/images/desktop.webp';
 
-  const hasSpanish = ['gta-6-release-date', 'gta-6-november-release'].includes(slug);
+  const hasSpanish = ['gta-6-release-date', 'gta-6-november-release', 'gta-6-leaks-escalation'].includes(slug);
 
   return {
     title: getSEOTitle(article.title),
