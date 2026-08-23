@@ -486,7 +486,7 @@ async function main() {
       let width = 0;
       let height = 0;
       try {
-        const dimensions = sizeOf(imgPath);
+        const dimensions = sizeOf(imgPath as any);
         width = dimensions.width || 0;
         height = dimensions.height || 0;
       } catch (err) {}

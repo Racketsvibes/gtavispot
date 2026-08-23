@@ -8,6 +8,7 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'gta-6-leaks-escalation': '2026-08-23',
   'gta-6-strip-club-leak': '2026-08-22',
   'gta-6-age-rating': '2026-08-21',
   'gta-6-driving-leak': '2026-08-21',

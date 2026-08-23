@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Leaks Get Higher Quality: Cyberleeks Defies Subpoenas',
+    desc: 'The wave of GTA 6 leaks get higher quality as Cyberleeks defies Take-Two subpoenas with new Vice City night flight footage.',
+    date: 'August 23, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-leaks-escalation/',
+    img: '/images/Cluster_1/GTA_6_Leaks_&_Rumours.webp',
+  },
+  {
     title: 'GTA 6 Strip Club Leak: Cyberleek Releases Clip 7 in Crypto Grift',
     desc: 'A new GTA 6 leak shows protagonist Jason Duval entering a Vice City strip club as leakers promote a crypto memecoin scam and Rockstar scrambles.',
     date: 'August 22, 2026',
