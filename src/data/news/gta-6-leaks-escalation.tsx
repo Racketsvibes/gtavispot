@@ -11,8 +11,8 @@ export const gta6LeaksEscalation: ArticleData = {
   publishedDate: 'August 23, 2026',
   modifiedDate: 'August 23, 2026',
   author: 'Editorial Staff',
-  featureImage: '/images/Cluster_1/GTA_6_Leaks_&_Rumours.webp',
-  featureImageAlt: 'GTA 6 leaks logo displaying glowing digital glitch effects over Vice City silhouette representing the ongoing Cyberleeks leaks.',
+  featureImage: '/images/Vice_City_01.332891cf.webp',
+  featureImageAlt: 'GTA 6 Vice City streets at night under pink and purple neon signs, representing the setting of the skyline leak.',
   content: (
     <>
       <p>

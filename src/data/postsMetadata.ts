@@ -14,7 +14,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     date: 'August 23, 2026',
     tag: 'NEWS',
     href: '/news/gta-6-leaks-escalation/',
-    img: '/images/Cluster_1/GTA_6_Leaks_&_Rumours.webp',
+    img: '/images/Vice_City_01.332891cf.webp',
   },
   {
     title: 'GTA 6 Strip Club Leak: Cyberleek Releases Clip 7 in Crypto Grift',
