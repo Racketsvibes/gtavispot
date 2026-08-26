@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Leaks Timeline: Every Cyberleek Event So Far',
+    desc: 'Get the complete GTA 6 leaks timeline. Trace every Cyberleek release from the oceanside focus test to the Game Horde store leak.',
+    date: 'August 26, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-leaks-timeline/',
+    img: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_03.webp',
+  },
+  {
     title: 'GTA 6 Leaks Get Higher Quality: Cyberleeks Defies Subpoenas',
     desc: 'The wave of GTA 6 leaks get higher quality as Cyberleeks defies Take-Two subpoenas with new Vice City night flight footage.',
     date: 'August 23, 2026',
