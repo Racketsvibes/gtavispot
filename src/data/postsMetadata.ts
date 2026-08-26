@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Artworks: Official 4K Wallpapers & HD Gallery',
+    desc: 'Get the official GTA 6 Artworks collection. Download high-definition 4K desktop wallpapers and mobile background designs of Lucia and Jason.',
+    date: 'August 27, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-artworks/',
+    img: '/images/GTAVI_Artwork_images/Jason_and_Lucia_01/Jason_and_Lucia_01_landscape.webp',
+  },
+  {
     title: 'GTA 6 Leaks Timeline: Every Cyberleek Event So Far',
     desc: 'Get the complete GTA 6 leaks timeline. Trace every Cyberleek release from the oceanside focus test to the Game Horde store leak.',
     date: 'August 26, 2026',

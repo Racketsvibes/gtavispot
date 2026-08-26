@@ -97,7 +97,8 @@ export const gta6LeaksTimelineEs: ArticleData = {
       </p>
       <p>
         El diseño interno cuenta con pósteres retro y múltiples personajes secundarios curioseando en las estanterías. 
-        Este grado de acabado refuerza la hipótesis de que las fugas de información provienen de compilaciones internas avanzadas.
+        Este grado de acabado refuerza la hipótesis de que las fugas de información provienen de compilaciones internas avanzadas. 
+        Este estilo de diseño coincide con la estética de los <Link href="/es/news/gta-6-artworks/">GTA 6 Artworks</Link> oficiales distribuidos por Rockstar Games.
       </p>
 
       <div style={{ margin: '2rem 0', textAlign: 'center' }}>

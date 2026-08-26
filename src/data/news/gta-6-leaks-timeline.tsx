@@ -97,7 +97,8 @@ export const gta6LeaksTimeline: ArticleData = {
       </p>
       <p>
         The store interior features retro poster designs and fully modeled NPCs browsing shelves. 
-        This level of detail suggests that the leak files originate from a relatively late-stage developer test client.
+        The ongoing leaks indicate that the hacker persona possesses a relatively late-stage development build, rather than early grey-box testing environments. 
+        This design consistency matches the styling of the official <Link href="/news/gta-6-artworks/">GTA 6 Artworks</Link> published by Rockstar Games.
       </p>
 
       <div style={{ margin: '2rem 0', textAlign: 'center' }}>

@@ -47,7 +47,8 @@ export const gta6LeaksEscalation: ArticleData = {
       <p>
         The newest clips leaked by Cyberleeks represent a massive jump in visual clarity. 
         The standout footage features a plane flying over the Vice City skyline at night, showing off detailed water reflections and atmospheric lighting that looks close to official marketing material. 
-        Other clips show Jason driving around with a truck bed filled with gasoline, resulting in a sudden crash with peculiar physics.
+        Other clips show Jason driving around with a truck bed filled with gasoline, resulting in a sudden crash with peculiar physics. 
+        The visual fidelity is reminiscent of the official <Link href="/news/gta-6-artworks/">GTA 6 Artworks</Link> released in the media kits.
       </p>
       <p>
         This follows the recent <Link href="/news/gta-6-driving-leak/">GTA 6 driving leak</Link> which first highlighted the game's police awareness system and vehicle controls. 

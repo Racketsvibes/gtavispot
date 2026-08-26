@@ -24,6 +24,8 @@ import { gta6AgeRating } from './news/gta-6-age-rating';
 import { gta6StripClubLeak } from './news/gta-6-strip-club-leak';
 import { gta6LeaksEscalation } from './news/gta-6-leaks-escalation';
 import { gta6LeaksTimeline } from './news/gta-6-leaks-timeline';
+import { gta6Artworks } from './news/gta-6-artworks';
+
 
 
 
@@ -77,6 +79,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-strip-club-leak': gta6StripClubLeak,
   'gta-6-leaks-escalation': gta6LeaksEscalation,
   'gta-6-leaks-timeline': gta6LeaksTimeline,
+  'gta-6-artworks': gta6Artworks,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {

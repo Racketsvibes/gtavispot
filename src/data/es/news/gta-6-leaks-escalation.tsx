@@ -47,7 +47,8 @@ export const gta6LeaksEscalationEs: ArticleData = {
       <p>
         Los recientes fragmentos divulgados representan un salto notable en la nitidez de la imagen. 
         El clip más destacado muestra el vuelo de una aeronave sobre la costa, exponiendo luces ambientales que recuerdan a materiales promocionales oficiales. 
-        Otras secuencias enseñan físicas singulares de colisiones al conducir una camioneta cargada de combustible.
+        Otras secuencias enseñan físicas singulares de colisiones al conducir una camioneta cargada de combustible. 
+        El nivel de acabado visual es comparable al que exhiben los <Link href="/es/news/gta-6-artworks/">GTA 6 Artworks</Link> de la campaña oficial.
       </p>
       <p>
         Este suceso sigue la estela de la anterior <Link href="/news/gta-6-driving-leak/">filtración de conducción de GTA 6</Link> sobre el sistema de alerta policial. 

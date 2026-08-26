@@ -148,6 +148,7 @@ export default function Header() {
       '/news/gta-6-november-release',
       '/news/gta-6-leaks-escalation',
       '/news/gta-6-leaks-timeline',
+      '/news/gta-6-artworks',
     ];
     return translatedPaths.includes(cleanPath);
   })();
