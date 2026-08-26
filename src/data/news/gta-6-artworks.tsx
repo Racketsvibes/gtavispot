@@ -101,6 +101,46 @@ export const gta6Artworks: ArticleData = {
       <div className={styles.galleryGrid}>
         <div className={styles.galleryImageContainer}>
           <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_01/Jason_and_Lucia_01_landscape.webp"
+            alt="Lucia and Jason key artwork"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_01_With_Logos/Jason_and_Lucia_01_With_Logos_landscape.webp"
+            alt="Lucia and Jason key artwork with official logos"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_landscape.webp"
+            alt="Lucia and Jason car key artwork"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_02_With_Logos/Jason_and_Lucia_02_With_Logos_landscape.webp"
+            alt="Lucia and Jason car key artwork with official logos"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
             src="/images/GTAVI_Artwork_images/Boobie_Ike/Boobie_Ike_landscape.webp"
             alt="Boobie Ike character artwork"
             width={200}
@@ -143,6 +183,66 @@ export const gta6Artworks: ArticleData = {
           <Image
             src="/images/GTAVI_Artwork_images/Brian_Heder/Brian_Heder_landscape.webp"
             alt="Brian Heder rural smuggler artwork"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Ambrosia/Ambrosia_Postcard_landscape.webp"
+            alt="Ambrosia postcard artwork"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Grassrivers/Grassrivers_Postcard_landscape.webp"
+            alt="Grassrivers postcard artwork"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Leonida_Keys/Leonida_Keys_Postcard_landscape.webp"
+            alt="Leonida Keys postcard artwork"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Mount_Kalaga_National_Park/Mount_Kalaga_National_Park_Postcard_landscape.webp"
+            alt="Mount Kalaga National Park postcard artwork"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Port_Gellhorn/Port_Gellhorn_Postcard_landscape.webp"
+            alt="Port Gellhorn postcard artwork"
+            width={200}
+            height={113}
+            sizes="(max-width: 768px) 50vw, 200px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.galleryImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Vice_City/Vice_City_Postcard_landscape.webp"
+            alt="Vice City postcard artwork"
             width={200}
             height={113}
             sizes="(max-width: 768px) 50vw, 200px"
