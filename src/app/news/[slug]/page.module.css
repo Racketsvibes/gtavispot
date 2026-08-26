@@ -479,3 +479,20 @@
 .galleryImage:hover {
   transform: scale(1.05);
 }
+
+.portraitGalleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 16px;
+  margin: 16px 0 32px;
+}
+
+.portraitImageContainer {
+  position: relative;
+  aspect-ratio: 9 / 16;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background: var(--bg-secondary);
+}

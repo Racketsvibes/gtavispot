@@ -289,6 +289,185 @@ export const gta6Artworks: ArticleData = {
         </tbody>
       </table>
 
+      <h2>Official 9:16 Vertical Mobile Wallpapers</h2>
+      <p>
+        Here is the complete collection of official 9:16 vertical portrait wallpapers, optimized for mobile screen dimensions and smartphone lockscreens. 
+        Click any of the mobile-oriented illustrations below to view them in the high-resolution lightbox slideshow.
+      </p>
+
+      <div className={styles.portraitGalleryGrid}>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_01/Jason_and_Lucia_01_portrait.webp"
+            alt="Lucia and Jason vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_01_With_Logos/Jason_and_Lucia_01_With_Logos_portrait.webp"
+            alt="Lucia and Jason vertical portrait artwork with official logos"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_portrait.webp"
+            alt="Lucia and Jason car vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_02_With_Logos/Jason_and_Lucia_02_With_Logos_portrait.webp"
+            alt="Lucia and Jason car vertical portrait artwork with official logos"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Official_Cover_Art/Official_Cover_Art_portrait.webp"
+            alt="Official GTA 6 cover art vertical portrait"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Boobie_Ike/Boobie_Ike_portrait.webp"
+            alt="Boobie Ike vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Cal_Hampton/Cal_Hampton_portrait.webp"
+            alt="Cal Hampton county sheriff vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/DreQuan_Priest/DreQuan_Priest_portrait.webp"
+            alt="DreQuan Priest vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Real_Dimez/Real_Dimez_portrait.webp"
+            alt="Real Dimez street racing vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Brian_Heder/Brian_Heder_portrait.webp"
+            alt="Brian Heder rural smuggler vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Raul_Bautista/Raul_Bautista_portrait.webp"
+            alt="Raul Bautista cartel lieutenant vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Ambrosia/Ambrosia_Postcard_portrait.webp"
+            alt="Ambrosia postcard vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Grassrivers/Grassrivers_Postcard_portrait.webp"
+            alt="Grassrivers postcard vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Leonida_Keys/Leonida_Keys_Postcard_portrait.webp"
+            alt="Leonida Keys postcard vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Mount_Kalaga_National_Park/Mount_Kalaga_National_Park_Postcard_portrait.webp"
+            alt="Mount Kalaga National Park postcard vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Port_Gellhorn/Port_Gellhorn_Postcard_portrait.webp"
+            alt="Port Gellhorn postcard vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Vice_City/Vice_City_Postcard_portrait.webp"
+            alt="Vice City postcard vertical portrait artwork"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
+
       <p>
         Always check if the download contains the official watermark. 
         Authentic wallpapers feature the GTA VI logo at the bottom corner, helping you distinguish official designs from fan creations. 

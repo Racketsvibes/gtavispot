@@ -289,6 +289,185 @@ export const gta6ArtworksEs: ArticleData = {
         </tbody>
       </table>
 
+      <h2>Fondos de Pantalla Verticales 9:16 para Móviles</h2>
+      <p>
+        Presentamos el catálogo completo de fondos de pantalla oficiales en orientación vertical 9:16, adaptados para smartphones y pantallas de bloqueo móviles. 
+        Haz clic en cualquiera de las imágenes verticales de abajo para abrirlas en el visualizador en alta definición.
+      </p>
+
+      <div className={styles.portraitGalleryGrid}>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_01/Jason_and_Lucia_01_portrait.webp"
+            alt="Ilustración vertical de Lucia y Jason"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_01_With_Logos/Jason_and_Lucia_01_With_Logos_portrait.webp"
+            alt="Ilustración vertical de Lucia y Jason con logotipos oficiales"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_portrait.webp"
+            alt="Ilustración vertical de Lucia y Jason con coche"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Jason_and_Lucia_02_With_Logos/Jason_and_Lucia_02_With_Logos_portrait.webp"
+            alt="Ilustración vertical de Lucia y Jason con coche y logotipos oficiales"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Official_Cover_Art/Official_Cover_Art_portrait.webp"
+            alt="Portada oficial de GTA 6 en formato vertical"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Boobie_Ike/Boobie_Ike_portrait.webp"
+            alt="Ilustración vertical del personaje Boobie Ike"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Cal_Hampton/Cal_Hampton_portrait.webp"
+            alt="Ilustración vertical del sheriff Cal Hampton"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/DreQuan_Priest/DreQuan_Priest_portrait.webp"
+            alt="Ilustración vertical del productor DreQuan Priest"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Real_Dimez/Real_Dimez_portrait.webp"
+            alt="Ilustración vertical del piloto Real Dimez"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Brian_Heder/Brian_Heder_portrait.webp"
+            alt="Ilustración vertical del colaborador Brian Heder"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Raul_Bautista/Raul_Bautista_portrait.webp"
+            alt="Ilustración vertical del contacto Raúl Bautista"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Ambrosia/Ambrosia_Postcard_portrait.webp"
+            alt="Postal vertical ilustrada de Ambrosia"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Grassrivers/Grassrivers_Postcard_portrait.webp"
+            alt="Postal vertical ilustrada de Grassrivers"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Leonida_Keys/Leonida_Keys_Postcard_portrait.webp"
+            alt="Postal vertical ilustrada de Leonida Keys"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Mount_Kalaga_National_Park/Mount_Kalaga_National_Park_Postcard_portrait.webp"
+            alt="Postal vertical ilustrada de Mount Kalaga"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Port_Gellhorn/Port_Gellhorn_Postcard_portrait.webp"
+            alt="Postal vertical ilustrada de Port Gellhorn"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+        <div className={styles.portraitImageContainer}>
+          <Image
+            src="/images/GTAVI_Artwork_images/Postcards/Vice_City/Vice_City_Postcard_portrait.webp"
+            alt="Postal vertical ilustrada de Vice City"
+            width={150}
+            height={267}
+            sizes="(max-width: 768px) 33vw, 150px"
+            className={styles.galleryImage}
+          />
+        </div>
+      </div>
+
       <p>
         Asegúrate de que la imagen incluya las firmas oficiales del desarrollador. 
         Los fondos legítimos integran el logotipo de GTA VI en las esquinas, ayudando a diferenciarlos de recreaciones secundarias. 
