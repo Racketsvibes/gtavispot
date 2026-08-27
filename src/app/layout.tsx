@@ -119,7 +119,44 @@ export default function RootLayout({
         <script
           data-grow-initializer=""
           dangerouslySetInnerHTML={{
-            __html: `!(function(){window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();`,
+            __html: `
+              (function() {
+                if (!window.growMe) {
+                  window.growMe = function(e) { window.growMe._.push(e); };
+                  window.growMe._ = [];
+                }
+                
+                var initialized = false;
+                function initGrow() {
+                  if (initialized) return;
+                  initialized = true;
+                  
+                  window.removeEventListener('scroll', initGrow);
+                  window.removeEventListener('mousemove', initGrow);
+                  window.removeEventListener('touchstart', initGrow);
+                  window.removeEventListener('click', initGrow);
+                  window.removeEventListener('keydown', initGrow);
+                  
+                  var e = document.createElement("script");
+                  e.type = "text/javascript";
+                  e.src = "https://faves.grow.me/main.js";
+                  e.defer = true;
+                  e.setAttribute("data-grow-faves-site-id", "U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=");
+                  var t = document.getElementsByTagName("script")[0];
+                  if (t && t.parentNode) {
+                    t.parentNode.insertBefore(e, t);
+                  } else {
+                    document.head.appendChild(e);
+                  }
+                }
+                
+                window.addEventListener('scroll', initGrow, { passive: true });
+                window.addEventListener('mousemove', initGrow, { passive: true });
+                window.addEventListener('touchstart', initGrow, { passive: true });
+                window.addEventListener('click', initGrow, { passive: true });
+                window.addEventListener('keydown', initGrow, { passive: true });
+              })();
+            `,
           }}
         />
       </head>
