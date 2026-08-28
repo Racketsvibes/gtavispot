@@ -149,6 +149,7 @@ export default function Header() {
       '/news/gta-6-leaks-escalation',
       '/news/gta-6-leaks-timeline',
       '/news/gta-6-artworks',
+      '/news/gta-6-netflix-viewership',
     ];
     return translatedPaths.includes(cleanPath);
   })();

@@ -105,7 +105,8 @@ export const gta6ExtendedLook: ArticleData = {
         <li><strong>YouTube Public Release:</strong> 6:00 PM PT / 9:00 PM ET / 2:00 AM UK (August 28).</li>
       </ul>
       <p>
-        This hybrid streaming rollout marks a shift in how major titles handle marketing. Instead of drops on social channels, Rockstar is treating the gameplay overview like a premier television broadcast.
+        This hybrid streaming rollout marks a shift in how major titles handle marketing. Instead of drops on social channels, Rockstar is treating the gameplay overview like a premier television broadcast. 
+        Following the premiere, the broadcast broke rating records across the platform, driving a massive surge in <Link href="/news/gta-6-netflix-viewership/">gta 6 netflix viewership</Link>.
       </p>
 
       <h2>What to Expect from the Extended Preview</h2>

@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Netflix Viewership Surges as Showcase Hits No. 1',
+    desc: 'Discover how the GTA 6 Netflix viewership numbers broke records, driving a 50% mobile app traffic surge and claiming the No. 1 spot.',
+    date: 'August 29, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-netflix-viewership/',
+    img: '/images/gta-6-grand-theft-auto-6-official-extended-gameplay.webp',
+  },
+  {
     title: 'GTA 6 Artworks: Official 4K Wallpapers & HD Gallery',
     desc: 'Get the official GTA 6 Artworks collection. Download high-definition 4K desktop wallpapers and mobile background designs of Lucia and Jason.',
     date: 'August 27, 2026',

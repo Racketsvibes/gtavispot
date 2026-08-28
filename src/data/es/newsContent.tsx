@@ -4,6 +4,8 @@ import { gta6NovemberReleaseEs } from './news/gta-6-november-release';
 import { gta6LeaksEscalationEs } from './news/gta-6-leaks-escalation';
 import { gta6LeaksTimelineEs } from './news/gta-6-leaks-timeline';
 import { gta6ArtworksEs } from './news/gta-6-artworks';
+import { gta6NetflixViewershipEs } from './news/gta-6-netflix-viewership';
+
 
 
 
@@ -13,6 +15,7 @@ const articlesMapEs: Record<string, ArticleData> = {
   'gta-6-leaks-escalation': gta6LeaksEscalationEs,
   'gta-6-leaks-timeline': gta6LeaksTimelineEs,
   'gta-6-artworks': gta6ArtworksEs,
+  'gta-6-netflix-viewership': gta6NetflixViewershipEs,
 };
 
 export function getSpanishArticleBySlug(slug: string): ArticleData | undefined {
