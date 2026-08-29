@@ -30,21 +30,26 @@ export async function generateMetadata({ params }: Props) {
     ? `https://gtavispot.com${article.featureImage}` 
     : 'https://gtavispot.com/images/desktop.webp';
 
+  const isGameplay = slug === 'gta-6-gameplay';
+  const canonicalUrl = isGameplay ? 'https://gtavispot.com/es/gta-6-gameplay/' : `https://gtavispot.com/es/news/${slug}/`;
+  const englishUrl = isGameplay ? 'https://gtavispot.com/gta-6-gameplay/' : `https://gtavispot.com/news/${slug}/`;
+  const spanishUrl = isGameplay ? 'https://gtavispot.com/es/gta-6-gameplay/' : `https://gtavispot.com/es/news/${slug}/`;
+
   return {
     title: getSEOTitle(article.title),
     description: article.metaDescription,
     alternates: {
-      canonical: `https://gtavispot.com/es/news/${slug}/`,
+      canonical: canonicalUrl,
       languages: {
-        'en': `https://gtavispot.com/news/${slug}/`,
-        'es-es': `https://gtavispot.com/es/news/${slug}/`,
-        'x-default': `https://gtavispot.com/news/${slug}/`,
+        'en': englishUrl,
+        'es-es': spanishUrl,
+        'x-default': englishUrl,
       }
     },
     openGraph: {
       title: article.title,
       description: article.metaDescription,
-      url: `https://gtavispot.com/es/news/${slug}/`,
+      url: canonicalUrl,
       type: 'article',
       locale: 'es_ES',
       images: [
@@ -74,11 +79,14 @@ export default async function ArticlePage({ params }: Props) {
     ? `https://gtavispot.com${article.featureImage}` 
     : 'https://gtavispot.com/images/desktop.webp';
 
+  const isGameplay = slug === 'gta-6-gameplay';
+  const canonicalUrl = isGameplay ? 'https://gtavispot.com/es/gta-6-gameplay/' : `https://gtavispot.com/es/news/${slug}/`;
+
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
     { name: 'Inicio', url: 'https://gtavispot.com/es/' },
     { name: 'Noticias', url: 'https://gtavispot.com/es/news/' },
-    { name: article.h1, url: `https://gtavispot.com/es/news/${slug}/` }
+    { name: article.h1, url: canonicalUrl }
   ]);
 
   const articleSchema = getArticleSchema({
@@ -88,7 +96,7 @@ export default async function ArticlePage({ params }: Props) {
     datePublished: article.publishedDate,
     dateModified: article.modifiedDate,
     authorName: article.author,
-    url: `https://gtavispot.com/es/news/${slug}/`
+    url: canonicalUrl
   });
 
   const faqs = getFaqsFromFile(slug, 'news');

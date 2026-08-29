@@ -30,26 +30,39 @@ export async function generateMetadata({ params }: Props) {
     ? `https://gtavispot.com${article.featureImage}` 
     : 'https://gtavispot.com/images/desktop.webp';
 
-  const hasSpanish = ['gta-6-release-date', 'gta-6-november-release', 'gta-6-leaks-escalation'].includes(slug);
+  const hasSpanish = [
+    'gta-6-release-date',
+    'gta-6-november-release',
+    'gta-6-leaks-escalation',
+    'gta-6-leaks-timeline',
+    'gta-6-artworks',
+    'gta-6-netflix-viewership',
+    'gta-6-gameplay'
+  ].includes(slug);
+
+  const isGameplay = slug === 'gta-6-gameplay';
+  const canonicalUrl = isGameplay ? 'https://gtavispot.com/gta-6-gameplay/' : `https://gtavispot.com/news/${slug}/`;
+  const englishUrl = isGameplay ? 'https://gtavispot.com/gta-6-gameplay/' : `https://gtavispot.com/news/${slug}/`;
+  const spanishUrl = isGameplay ? 'https://gtavispot.com/es/gta-6-gameplay/' : `https://gtavispot.com/es/news/${slug}/`;
 
   return {
     title: getSEOTitle(article.title),
     description: article.metaDescription,
     alternates: {
-      canonical: `https://gtavispot.com/news/${slug}/`,
+      canonical: canonicalUrl,
       languages: hasSpanish ? {
-        'en': `https://gtavispot.com/news/${slug}/`,
-        'es-es': `https://gtavispot.com/es/news/${slug}/`,
-        'x-default': `https://gtavispot.com/news/${slug}/`,
+        'en': englishUrl,
+        'es-es': spanishUrl,
+        'x-default': englishUrl,
       } : {
-        'en': `https://gtavispot.com/news/${slug}/`,
-        'x-default': `https://gtavispot.com/news/${slug}/`,
+        'en': englishUrl,
+        'x-default': englishUrl,
       }
     },
     openGraph: {
       title: article.title,
       description: article.metaDescription,
-      url: `https://gtavispot.com/news/${slug}/`,
+      url: canonicalUrl,
       type: 'article',
       images: [
         {
@@ -78,11 +91,14 @@ export default async function ArticlePage({ params }: Props) {
     ? `https://gtavispot.com${article.featureImage}` 
     : 'https://gtavispot.com/images/desktop.webp';
 
+  const isGameplay = slug === 'gta-6-gameplay';
+  const canonicalUrl = isGameplay ? 'https://gtavispot.com/gta-6-gameplay/' : `https://gtavispot.com/news/${slug}/`;
+
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
     { name: 'Home', url: 'https://gtavispot.com' },
     { name: 'News Hub', url: 'https://gtavispot.com/news/' },
-    { name: article.h1, url: `https://gtavispot.com/news/${slug}/` }
+    { name: article.h1, url: canonicalUrl }
   ]);
 
   const articleSchema = getArticleSchema({
@@ -92,7 +108,7 @@ export default async function ArticlePage({ params }: Props) {
     datePublished: article.publishedDate,
     dateModified: article.modifiedDate,
     authorName: article.author,
-    url: `https://gtavispot.com/news/${slug}/`
+    url: canonicalUrl
   });
 
   const faqs = getFaqsFromFile(slug, 'news');

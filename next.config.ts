@@ -24,6 +24,16 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: '/news/gta-6-gameplay/',
+        destination: '/gta-6-gameplay/',
+        permanent: true,
+      },
+      {
+        source: '/es/news/gta-6-gameplay/',
+        destination: '/es/gta-6-gameplay/',
+        permanent: true,
+      },
+      {
         source: '/news/gta-6-vehicles/',
         destination: '/vehicles/',
         permanent: true,
