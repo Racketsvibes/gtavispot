@@ -193,7 +193,7 @@ export const gta6LeaksTimelineEs: ArticleData = {
       </section>
 
       <p>
-        Conoce más detalles en nuestro informe sobre la presentación oficial del <Link href="/news/gta-6-extended-look/">Extended Look de GTA 6 en Netflix</Link> o examina los detalles confirmados sobre la <Link href="/es/news/gta-6-gameplay/">jugabilidad de GTA 6</Link>.
+        Conoce más detalles en nuestro informe sobre la presentación oficial del <Link href="/news/gta-6-extended-look/">Extended Look de GTA 6 en Netflix</Link> o examina los detalles confirmados sobre la <Link href="/es/gta-6-gameplay/">jugabilidad de GTA 6</Link>.
       </p>
     </>
   ),

@@ -151,7 +151,7 @@ export default function Header() {
       '/news/gta-6-leaks-timeline',
       '/news/gta-6-artworks',
       '/news/gta-6-netflix-viewership',
-      '/news/gta-6-gameplay',
+      '/gta-6-gameplay',
     ];
     return translatedPaths.includes(cleanPath);
   })();
@@ -414,11 +414,14 @@ export default function Header() {
             </div>
 
             {/* Other Primary Items */}
-            {primaryNav.map((item) => (
-              <Link key={item.href} href={item.href} className={getNavClass(item.href.replace(/\/$/, ''))}>
-                {item.label}
-              </Link>
-            ))}
+            {primaryNav.map((item) => {
+              const href = (item.href === '/gta-6-gameplay/' && isSpanish) ? '/es/gta-6-gameplay/' : item.href;
+              return (
+                <Link key={item.href} href={href} className={getNavClass(item.href.replace(/\/$/, ''))}>
+                  {item.label}
+                </Link>
+              );
+            })}
 
             {/* More Dropdown */}
             <div
@@ -586,16 +589,19 @@ export default function Header() {
           <div className={styles.mobileNavSection}>
             <span className={styles.mobileNavLabel}>Other Topics</span>
             <div className={styles.mobileLinkGrid}>
-              {[...primaryNav, ...moreNav].map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={styles.mobileNavLink}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {[...primaryNav, ...moreNav].map((item) => {
+                const href = (item.href === '/gta-6-gameplay/' && isSpanish) ? '/es/gta-6-gameplay/' : item.href;
+                return (
+                  <Link
+                    key={item.href}
+                    href={href}
+                    className={styles.mobileNavLink}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             </div>
           </div>
           <div className={styles.mobileNavSection}>

@@ -13,7 +13,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     desc: 'Learn how the GTA 6 gameplay features redefine open-world mechanics, from police response tactics to the dual-character switching details.',
     date: 'August 29, 2026',
     tag: 'NEWS',
-    href: '/news/gta-6-gameplay/',
+    href: '/gta-6-gameplay/',
     img: '/images/GTA6_Enhanced_HD_2x/01_00m15s.webp',
   },
   {

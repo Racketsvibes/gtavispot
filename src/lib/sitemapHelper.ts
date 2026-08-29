@@ -148,17 +148,32 @@ export function getEnglishUrls(): SitemapItem[] {
   getAllArticleSlugs().forEach(slug => {
     const modDate = newsModifiedDates[slug] || nowStr;
     const hasSpanish = SPANISH_TRANSLATED_NEWS_SLUGS.includes(slug);
-    items.push({
-      url: `${baseUrl}/news/${slug}/`,
-      lastmod: modDate,
-      changefreq: 'daily',
-      priority: '0.8',
-      alternates: hasSpanish ? [
-        { lang: 'en', href: `${baseUrl}/news/${slug}/` },
-        { lang: 'es-es', href: `${baseUrl}/es/news/${slug}/` },
-        { lang: 'x-default', href: `${baseUrl}/news/${slug}/` }
-      ] : undefined
-    });
+    
+    if (slug === 'gta-6-gameplay') {
+      items.push({
+        url: `${baseUrl}/gta-6-gameplay/`,
+        lastmod: modDate,
+        changefreq: 'daily',
+        priority: '0.8',
+        alternates: hasSpanish ? [
+          { lang: 'en', href: `${baseUrl}/gta-6-gameplay/` },
+          { lang: 'es-es', href: `${baseUrl}/es/gta-6-gameplay/` },
+          { lang: 'x-default', href: `${baseUrl}/gta-6-gameplay/` }
+        ] : undefined
+      });
+    } else {
+      items.push({
+        url: `${baseUrl}/news/${slug}/`,
+        lastmod: modDate,
+        changefreq: 'daily',
+        priority: '0.8',
+        alternates: hasSpanish ? [
+          { lang: 'en', href: `${baseUrl}/news/${slug}/` },
+          { lang: 'es-es', href: `${baseUrl}/es/news/${slug}/` },
+          { lang: 'x-default', href: `${baseUrl}/news/${slug}/` }
+        ] : undefined
+      });
+    }
   });
 
   // Story slugs
@@ -227,17 +242,32 @@ export function getSpanishUrls(): SitemapItem[] {
 
   SPANISH_TRANSLATED_NEWS_SLUGS.forEach(slug => {
     const modDate = newsModifiedDates[slug] || new Date().toISOString().split('T')[0];
-    items.push({
-      url: `${baseUrl}/es/news/${slug}/`,
-      lastmod: modDate,
-      changefreq: 'weekly',
-      priority: '0.8',
-      alternates: [
-        { lang: 'en', href: `${baseUrl}/news/${slug}/` },
-        { lang: 'es-es', href: `${baseUrl}/es/news/${slug}/` },
-        { lang: 'x-default', href: `${baseUrl}/news/${slug}/` }
-      ]
-    });
+    
+    if (slug === 'gta-6-gameplay') {
+      items.push({
+        url: `${baseUrl}/es/gta-6-gameplay/`,
+        lastmod: modDate,
+        changefreq: 'weekly',
+        priority: '0.8',
+        alternates: [
+          { lang: 'en', href: `${baseUrl}/gta-6-gameplay/` },
+          { lang: 'es-es', href: `${baseUrl}/es/gta-6-gameplay/` },
+          { lang: 'x-default', href: `${baseUrl}/gta-6-gameplay/` }
+        ]
+      });
+    } else {
+      items.push({
+        url: `${baseUrl}/es/news/${slug}/`,
+        lastmod: modDate,
+        changefreq: 'weekly',
+        priority: '0.8',
+        alternates: [
+          { lang: 'en', href: `${baseUrl}/news/${slug}/` },
+          { lang: 'es-es', href: `${baseUrl}/es/news/${slug}/` },
+          { lang: 'x-default', href: `${baseUrl}/news/${slug}/` }
+        ]
+      });
+    }
   });
 
   return items;

@@ -83,7 +83,7 @@ export const gta6NetflixViewershipEs: ArticleData = {
       <p>
         Esta acción promocional se produce tras meses de tensiones con grupos de filtradores. 
         Muchos aficionados equipararon la expectación con la vivida al difundirse las noticias de que las <Link href="/es/news/gta-6-leaks-escalation/">filtraciones de GTA 6 aumentan su calidad</Link> visual. 
-        La emisión constituye la primera oportunidad de observar físicas de conducción reales y conocer a fondo la <Link href="/es/news/gta-6-gameplay/">jugabilidad de GTA 6</Link>.
+        La emisión constituye la primera oportunidad de observar físicas de conducción reales y conocer a fondo la <Link href="/es/gta-6-gameplay/">jugabilidad de GTA 6</Link>.
       </p>
 
       <div className={styles.featureImageContainer}>

@@ -83,7 +83,7 @@ export const gta6NetflixViewership: ArticleData = {
       <p>
         The streaming showcase follows months of tension between Rockstar and leakers. 
         Many fans compared the traffic to the aftermath of the <Link href="/news/gta-6-leaks-escalation/">GTA 6 leaks get higher quality</Link> incident, which also overloaded community forums. 
-        This broadcast represents the first official look at active driving and mission setups, providing a detailed look at the <Link href="/news/gta-6-gameplay/">GTA 6 gameplay</Link> features.
+        This broadcast represents the first official look at active driving and mission setups, providing a detailed look at the <Link href="/gta-6-gameplay/">GTA 6 gameplay</Link> features.
       </p>
 
       <div className={styles.featureImageContainer}>

@@ -193,7 +193,7 @@ export const gta6LeaksTimeline: ArticleData = {
       </section>
 
       <p>
-        Read our analysis of the upcoming <Link href="/news/gta-6-extended-look/">GTA 6 Netflix showcase</Link> or discover details on the confirmed <Link href="/news/gta-6-gameplay/">GTA 6 gameplay</Link> features.
+        Read our analysis of the upcoming <Link href="/news/gta-6-extended-look/">GTA 6 Netflix showcase</Link> or discover details on the confirmed <Link href="/gta-6-gameplay/">GTA 6 gameplay</Link> features.
       </p>
     </>
   ),

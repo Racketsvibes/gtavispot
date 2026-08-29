@@ -24,11 +24,6 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/gta-6-gameplay/',
-        destination: '/news/gta-6-gameplay/',
-        permanent: true,
-      },
-      {
         source: '/news/gta-6-vehicles/',
         destination: '/vehicles/',
         permanent: true,
@@ -73,6 +68,18 @@ const nextConfig: NextConfig = {
         source: '/characters/:path*',
         destination: '/story/',
         permanent: true,
+      },
+    ];
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/gta-6-gameplay/',
+        destination: '/news/gta-6-gameplay/',
+      },
+      {
+        source: '/es/gta-6-gameplay/',
+        destination: '/es/news/gta-6-gameplay/',
       },
     ];
   },
