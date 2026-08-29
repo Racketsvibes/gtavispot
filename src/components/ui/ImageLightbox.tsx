@@ -32,7 +32,7 @@ export default function ImageLightbox({ children }: { children: React.ReactNode 
       imgElements.forEach((img) => {
         const rawSrc = img.getAttribute('src') || '';
         const src = cleanSrc(rawSrc);
-        if (src.includes('/images/People') || src.includes('/images/Jason_Lucia_Motel') || src.includes('/images/GTAVI_Artwork_images')) {
+        if (src.includes('/images/People') || src.includes('/images/Jason_Lucia_Motel') || src.includes('/images/GTAVI_Artwork_images') || src.includes('/images/GTA6_Enhanced_HD_2x')) {
           img.style.cursor = 'pointer';
           img.style.transition = 'transform 0.2s ease';
         }
@@ -47,7 +47,7 @@ export default function ImageLightbox({ children }: { children: React.ReactNode 
       const alt = target.getAttribute('alt') || '';
       const src = cleanSrc(rawSrc);
       
-      if (src.includes('/images/People') || src.includes('/images/Jason_Lucia_Motel') || src.includes('/images/GTAVI_Artwork_images')) {
+      if (src.includes('/images/People') || src.includes('/images/Jason_Lucia_Motel') || src.includes('/images/GTAVI_Artwork_images') || src.includes('/images/GTA6_Enhanced_HD_2x')) {
         // Rebuild list of images dynamically on click to ensure accurate DOM matching
         const imgElements = containerRef.current?.querySelectorAll('img') || [];
         const imgList: { src: string; alt: string }[] = [];
@@ -57,7 +57,12 @@ export default function ImageLightbox({ children }: { children: React.ReactNode 
           const imgAlt = img.getAttribute('alt') || '';
           const imgCleanSrc = cleanSrc(imgRawSrc);
           
-          if (imgCleanSrc.includes('/images/People') || imgCleanSrc.includes('/images/Jason_Lucia_Motel') || imgCleanSrc.includes('/images/GTAVI_Artwork_images')) {
+          if (
+            imgCleanSrc.includes('/images/People') ||
+            imgCleanSrc.includes('/images/Jason_Lucia_Motel') ||
+            imgCleanSrc.includes('/images/GTAVI_Artwork_images') ||
+            imgCleanSrc.includes('/images/GTA6_Enhanced_HD_2x')
+          ) {
             if (!imgList.some(item => item.src === imgCleanSrc)) {
               imgList.push({ src: imgCleanSrc, alt: imgAlt });
             }

@@ -490,7 +490,7 @@ export const gta6ArtworksEs: ArticleData = {
 
       <p>
         El lanzamiento de estos materiales promocionales demuestra el cuidado de Rockstar en la presentación artística de la obra. 
-        Con el lanzamiento del juego confirmado para el próximo año, este conjunto establece el estándar de fidelidad que disfrutaremos en consolas. 
+        Con el lanzamiento del juego confirmado para el próximo año, este conjunto establece el estándar de fidelidad que disfrutaremos en consolas, de acuerdo con la <Link href="/es/news/gta-6-gameplay/">jugabilidad de GTA 6</Link> revelada. 
         No olvides volver a esta página para obtener los nuevos <strong>GTA 6 Artworks</strong> oficiales a medida que se publiquen.
       </p>
 

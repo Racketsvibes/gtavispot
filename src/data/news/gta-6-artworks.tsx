@@ -490,7 +490,7 @@ export const gta6Artworks: ArticleData = {
 
       <p>
         The release of these marketing designs demonstrates Rockstar's focus on high-fidelity visual presentation. 
-        With the console release planned for next year, these assets give the community a clear standard of what to expect in terms of character models and art style. 
+        With the console release planned for next year, these assets give the community a clear standard of what to expect in terms of character models and art style, aligning with the gameplay elements analyzed in our <Link href="/news/gta-6-gameplay/">GTA 6 gameplay</Link> breakdown. 
         Make sure to bookmark this page to download new official <strong>GTA 6 Artworks</strong> as they launch.
       </p>
 

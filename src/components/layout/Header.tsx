@@ -109,7 +109,7 @@ const primaryNav = [
   { label: 'Release Date', href: '/news/gta-6-release-date/' },
   { label: 'Characters', href: '/story/gta-6-characters/' },
   { label: 'Cheats', href: '/cheats/' },
-  { label: 'Weapons', href: '/weapons/' },
+  { label: 'GTA 6 Gameplay', href: '/gta-6-gameplay/' },
 ];
 
 const moreNav = [
@@ -121,6 +121,7 @@ const moreNav = [
   { label: 'Comparisons', href: '/compare/' },
   { label: 'World & Activities', href: '/world/' },
   { label: 'FAQ', href: '/faq/' },
+  { label: 'Weapons', href: '/weapons/' },
 ];
 
 const policiesNav = [
@@ -150,6 +151,7 @@ export default function Header() {
       '/news/gta-6-leaks-timeline',
       '/news/gta-6-artworks',
       '/news/gta-6-netflix-viewership',
+      '/news/gta-6-gameplay',
     ];
     return translatedPaths.includes(cleanPath);
   })();
@@ -418,43 +420,6 @@ export default function Header() {
               </Link>
             ))}
 
-            {/* About & Policies Dropdown */}
-            <div
-              className={styles.moreWrapper}
-              ref={policiesRef}
-              onMouseEnter={() => setPoliciesOpen(true)}
-              onMouseLeave={() => setPoliciesOpen(false)}
-            >
-              <button
-                className={getPoliciesDropdownBtnClass()}
-                onClick={() => setPoliciesOpen(!policiesOpen)}
-                aria-expanded={policiesOpen}
-                aria-haspopup="true"
-                type="button"
-              >
-                About
-                <svg className={`${styles.moreChevron} ${policiesOpen ? styles.chevronUp : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="6 9 12 15 18 9" />
-                </svg>
-              </button>
-              {policiesOpen && (
-                <div className={styles.dropdown}>
-                  <div className={styles.dropdownGrid}>
-                    {policiesNav.map((item) => (
-                      <Link
-                        key={item.href}
-                        href={item.href}
-                        className={styles.dropdownLink}
-                        onClick={() => setPoliciesOpen(false)}
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-
             {/* More Dropdown */}
             <div
               className={styles.moreWrapper}
@@ -483,6 +448,43 @@ export default function Header() {
                         href={item.href}
                         className={styles.dropdownLink}
                         onClick={() => setMoreOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* About & Policies Dropdown */}
+            <div
+              className={styles.moreWrapper}
+              ref={policiesRef}
+              onMouseEnter={() => setPoliciesOpen(true)}
+              onMouseLeave={() => setPoliciesOpen(false)}
+            >
+              <button
+                className={getPoliciesDropdownBtnClass()}
+                onClick={() => setPoliciesOpen(!policiesOpen)}
+                aria-expanded={policiesOpen}
+                aria-haspopup="true"
+                type="button"
+              >
+                About
+                <svg className={`${styles.moreChevron} ${policiesOpen ? styles.chevronUp : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              {policiesOpen && (
+                <div className={styles.dropdown}>
+                  <div className={styles.dropdownGrid}>
+                    {policiesNav.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={styles.dropdownLink}
+                        onClick={() => setPoliciesOpen(false)}
                       >
                         {item.label}
                       </Link>

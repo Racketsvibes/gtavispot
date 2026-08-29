@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Gameplay: Official Features & Hands-On Details',
+    desc: 'Learn how the GTA 6 gameplay features redefine open-world mechanics, from police response tactics to the dual-character switching details.',
+    date: 'August 29, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-gameplay/',
+    img: '/images/GTA6_Enhanced_HD_2x/01_00m15s.webp',
+  },
+  {
     title: 'GTA 6 Netflix Viewership Surges as Showcase Hits No. 1',
     desc: 'Discover how the GTA 6 Netflix viewership numbers broke records, driving a 50% mobile app traffic surge and claiming the No. 1 spot.',
     date: 'August 29, 2026',
