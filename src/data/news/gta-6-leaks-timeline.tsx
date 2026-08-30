@@ -156,7 +156,7 @@ export const gta6LeaksTimeline: ArticleData = {
       </div>
 
       <p>
-        With official media campaigns still locked, the clash between developer secrecy and leak networks continues to shape pre-launch discussions. 
+        With official media campaigns still locked, the clash between developer secrecy and leak networks continues to shape pre-launch discussions, even as community features like <Link href="/news/rockstar-crews/">Rockstar Crews</Link> are expected to carry over. 
         We expect the situation to remain active as the upcoming official showcases draw near.
       </p>
 

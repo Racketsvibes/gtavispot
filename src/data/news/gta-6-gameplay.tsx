@@ -59,7 +59,7 @@ export const gta6Gameplay: ArticleData = {
       <p>
         The 26-minute showcase confirms that <strong>GTA 6 gameplay</strong> blends classic gunplay with tactical open-world movement. 
         Players control both Jason and Lucia, switching between them to orchestrate robberies and evade law enforcement. 
-        Unlike previous multi-character mechanics, the protagonists actively interact and support each other during standard free-roaming.
+        Unlike previous multi-character mechanics, the protagonists actively interact and support each other during standard free-roaming, laying the groundwork for coordinated <Link href="/news/rockstar-crews/">Rockstar Crews</Link> activities in the multiplayer sandbox.
       </p>
       <p>
         The core gunplay utilizes cover transitions similar to Red Dead Redemption 2. 

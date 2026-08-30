@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Rockstar Crews Guide: How to Join, Edit, and Create',
+    desc: 'Learn how to use Rockstar Crews to join forces, design custom emblems, and organize players in GTA 5 and GTA Online. Read our official setup guide.',
+    date: 'August 30, 2026',
+    tag: 'NEWS',
+    href: '/news/rockstar-crews/',
+    img: '/images/rockstar-games-crew.webp',
+  },
+  {
     title: 'GTA 6 Gameplay: Official Features & Hands-On Details',
     desc: 'Learn how the GTA 6 gameplay features redefine open-world mechanics, from police response tactics to the dual-character switching details.',
     date: 'August 29, 2026',

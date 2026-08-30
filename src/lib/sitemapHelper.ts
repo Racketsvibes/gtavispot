@@ -8,6 +8,7 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'rockstar-crews': '2026-08-30',
   'gta-6-gameplay': '2026-08-29',
   'gta-6-netflix-viewership': '2026-08-29',
   'gta-6-artworks': '2026-08-27',
@@ -65,7 +66,8 @@ const SPANISH_TRANSLATED_NEWS_SLUGS = [
   'gta-6-leaks-timeline',
   'gta-6-artworks',
   'gta-6-netflix-viewership',
-  'gta-6-gameplay'
+  'gta-6-gameplay',
+  'rockstar-crews'
 ];
 
 export interface SitemapItem {

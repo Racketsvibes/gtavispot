@@ -156,7 +156,7 @@ export const gta6LeaksTimelineEs: ArticleData = {
       </div>
 
       <p>
-        Sin declaraciones oficiales detalladas de Rockstar Games, la pugna entre la confidencialidad y los grupos filtradores continúa agitando a la comunidad. 
+        Sin declaraciones oficiales detalladas de Rockstar Games, la pugna entre la confidencialidad y los grupos filtradores continúa agitando a la comunidad, en tanto los fanáticos esperan que el soporte para las <Link href="/es/news/rockstar-crews/">crews de Rockstar</Link> mantenga sus estadísticas. 
         Prevemos que la tensión en los foros de debate aumentará al aproximarse el debut de los metrajes comerciales oficiales.
       </p>
 

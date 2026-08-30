@@ -152,6 +152,7 @@ export default function Header() {
       '/news/gta-6-artworks',
       '/news/gta-6-netflix-viewership',
       '/gta-6-gameplay',
+      '/news/rockstar-crews',
     ];
     return translatedPaths.includes(cleanPath);
   })();

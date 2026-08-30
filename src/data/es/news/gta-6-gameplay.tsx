@@ -59,7 +59,7 @@ export const gta6GameplayEs: ArticleData = {
       <p>
         La retransmisión de 26 minutos constata que la <strong>jugabilidad de GTA 6</strong> unifica combates intensos con desplazamientos tácticos en mundo abierto. 
         Los jugadores pueden alternar entre Jason y Lucia para planificar asaltos o despistar a los cuerpos de seguridad. 
-        A diferencia de entregas anteriores, ambos personajes interactúan de forma autónoma cooperando en el escenario urbano.
+        A diferencia de entregas anteriores, ambos personajes interactúan de forma autónoma cooperando en el escenario urbano, lo que servirá como base para las misiones cooperativas de las <Link href="/es/news/rockstar-crews/">crews de Rockstar</Link> en el multijugador.
       </p>
       <p>
         El sistema de coberturas y tiroteos hereda la precisión física de Red Dead Redemption 2. 
