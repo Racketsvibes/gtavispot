@@ -456,8 +456,9 @@
   margin: 0 auto;
   padding: 0 16px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  gap: 20px;
 }
 
 .topBarLinks {
@@ -473,14 +474,24 @@
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   gap: 4px;
+  border: 1.5px solid transparent;
+  border-radius: 9999px;
+  padding: 2px 10px;
 }
 
 .topBarLink:hover {
   color: var(--brand-magenta);
+  border-color: var(--border);
+}
+
+.topBarLinkActive {
+  border-color: var(--brand-magenta);
+  background-color: var(--bg-secondary);
+  color: var(--brand-magenta) !important;
 }
 
 @media (min-width: 768px) {

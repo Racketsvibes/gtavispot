@@ -5,6 +5,20 @@ import ImageLightbox from '@/components/ui/ImageLightbox';
 import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
+const TimelineButton = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  return (
+    <div>
+      <Link href={href} className="timeline-btn">
+        <span>{children}</span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '4px' }}>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </Link>
+    </div>
+  );
+};
+
 export const gta6Timeline: ArticleData = {
   title: 'GTA 6 Timeline: Complete Development & Trailer History',
   metaDescription: 'Track the official GTA 6 timeline from early pre-production to the November 19, 2026 launch date. View the history of trailers, leaks, and delays.',
@@ -17,6 +31,33 @@ export const gta6Timeline: ArticleData = {
   featureImageAlt: 'Grand Theft Auto VI official timeline banner with sunset city background and gameplay logo.',
   content: (
     <ImageLightbox>
+      <style dangerouslySetInnerHTML={{__html: `
+        .timeline-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 6px 16px;
+          font-size: 0.85rem;
+          font-weight: 600;
+          color: #ffffff !important;
+          background: linear-gradient(135deg, #3b1578, #d6246e);
+          border-radius: 20px;
+          text-decoration: none;
+          box-shadow: 0 2px 6px rgba(214, 36, 110, 0.25);
+          transition: all 0.2s ease;
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.03em;
+          margin-top: 0.75rem;
+          border: 1px solid transparent;
+        }
+        .timeline-btn:hover {
+          background: linear-gradient(135deg, #d6246e, #f58634);
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(245, 134, 52, 0.4);
+        }
+      `}} />
+
       <p>
         Tracking the <strong>gta 6 timeline</strong> is the best way to understand how the most anticipated game of the decade has evolved. 
         From pre-production following GTA V's launch to multiple delays, Rockstar Games has maintained a strict schedule of reveals. 
@@ -87,11 +128,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             An anonymous intrusion led to the leak of 90 early gameplay clips showing raw developer test files, confirming the Vice City setting and the dual protagonists, Jason and Lucia.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/news/gta-6-leaks-timeline/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              View Leaks Timeline
-            </Link>
-          </div>
+          <TimelineButton href="/news/gta-6-leaks-timeline/">
+            View Leaks Timeline
+          </TimelineButton>
         </div>
       </div>
 
@@ -110,11 +149,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Rockstar Games published the first official Trailer 1, generating 93 million views in 24 hours and establishing the initial 2025 launch target.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/news/gta-6-trailer-3/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              View Trailer Details
-            </Link>
-          </div>
+          <TimelineButton href="/news/gta-6-trailer-3/">
+            View Trailer Details
+          </TimelineButton>
         </div>
 
         {/* Checkpoint May 2, 2025 */}
@@ -125,11 +162,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Parent publisher Take-Two Interactive announced the first official delay during an earnings call, revising the release window to spring 2026.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/news/gta-6-delay/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Read Delay Analysis
-            </Link>
-          </div>
+          <TimelineButton href="/news/gta-6-delay/">
+            Read Delay Analysis
+          </TimelineButton>
         </div>
 
         {/* Checkpoint May 6, 2025 */}
@@ -150,11 +185,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             A second schedule update locked the final worldwide release date for November 19, 2026, on consoles to ensure maximum polish.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/news/gta-6-november-release/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Read Launch Details
-            </Link>
-          </div>
+          <TimelineButton href="/news/gta-6-november-release/">
+            Read Launch Details
+          </TimelineButton>
         </div>
       </div>
 
@@ -173,11 +206,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Take-Two Interactive's quarterly earnings call reconfirmed that development has completed critical benchmarks and the release date remains firmly locked.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/news/gta-6-release-date/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Read Release Date Info
-            </Link>
-          </div>
+          <TimelineButton href="/news/gta-6-release-date/">
+            Read Release Date Info
+          </TimelineButton>
         </div>
 
         {/* Checkpoint June 18, 2026 */}
@@ -188,11 +219,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Rockstar Games unveiled the official cover art, starting physical game pre-orders at retail stores globally.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/news/gta-6-artworks/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              View Artworks Gallery
-            </Link>
-          </div>
+          <TimelineButton href="/news/gta-6-artworks/">
+            View Artworks Gallery
+          </TimelineButton>
         </div>
 
         {/* Checkpoint Aug 28, 2026 */}
@@ -203,11 +232,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             A surprise 26-minute gameplay demonstration aired on Netflix, claiming the No. 1 trending spot and boosting mobile app traffic.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/news/gta-6-netflix-viewership/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Read Viewership Stats
-            </Link>
-          </div>
+          <TimelineButton href="/news/gta-6-netflix-viewership/">
+            Read Viewership Stats
+          </TimelineButton>
         </div>
 
         {/* Checkpoint Aug 29, 2026 */}
@@ -218,11 +245,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             A deep-dive analysis of physical details was published, showcasing 37 high-definition screenshots of police chases, combat, and rollovers.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/gta-6-gameplay/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Explore Gameplay Deep Dive
-            </Link>
-          </div>
+          <TimelineButton href="/gta-6-gameplay/">
+            Explore Gameplay Deep Dive
+          </TimelineButton>
         </div>
 
         {/* Checkpoint Aug 30, 2026 */}
@@ -233,11 +258,9 @@ export const gta6Timeline: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Social Club updated features for crew creation, custom emblem uploads, and matchmaking permissions ahead of the winter launch.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/news/rockstar-crews/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Read Crews Guide
-            </Link>
-          </div>
+          <TimelineButton href="/news/rockstar-crews/">
+            Read Crews Guide
+          </TimelineButton>
         </div>
       </div>
 

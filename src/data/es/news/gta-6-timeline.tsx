@@ -5,6 +5,20 @@ import ImageLightbox from '@/components/ui/ImageLightbox';
 import { ArticleData } from '../../newsContent';
 import styles from '../../../app/news/[slug]/page.module.css';
 
+const TimelineButton = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  return (
+    <div>
+      <Link href={href} className="timeline-btn">
+        <span>{children}</span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '4px' }}>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </Link>
+    </div>
+  );
+};
+
 export const gta6TimelineEs: ArticleData = {
   title: 'Cronología de GTA 6: Historia del Desarrollo y Videos',
   metaDescription: 'Sigue la cronología de GTA 6 desde el desarrollo inicial hasta el estreno del 19 de noviembre de 2026. Fechas de trailers, filtraciones y retrasos.',
@@ -17,9 +31,36 @@ export const gta6TimelineEs: ArticleData = {
   featureImageAlt: 'Banner oficial de la cronología de Grand Theft Auto VI con fondo de ciudad al atardecer y logotipo del juego.',
   content: (
     <ImageLightbox>
+      <style dangerouslySetInnerHTML={{__html: `
+        .timeline-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 6px 16px;
+          font-size: 0.85rem;
+          font-weight: 600;
+          color: #ffffff !important;
+          background: linear-gradient(135deg, #3b1578, #d6246e);
+          border-radius: 20px;
+          text-decoration: none;
+          box-shadow: 0 2px 6px rgba(214, 36, 110, 0.25);
+          transition: all 0.2s ease;
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.03em;
+          margin-top: 0.75rem;
+          border: 1px solid transparent;
+        }
+        .timeline-btn:hover {
+          background: linear-gradient(135deg, #d6246e, #f58634);
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(245, 134, 52, 0.4);
+        }
+      `}} />
+
       <p>
         El seguimiento de la <strong>cronología de GTA 6</strong> es la forma idónea de comprender cómo ha evolucionado el desarrollo del videojuego más esperado. 
-        Desde la fase conceptual tras el debut de GTA V hasta los sucesivos aplazamientos, Rockstar Games ha seguido un calendario estructurado de anuncios. 
+        Desde la fase conceptual tras el debut de GTA V hasta los sucesivos aplazamientos, Rockstar Games ha seguido un calendario de anuncios. 
         Revisamos en orden cronológico cada video oficial, hito técnico y filtración antes del lanzamiento.
       </p>
 
@@ -87,11 +128,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Una intrusión de seguridad expuso 90 grabaciones del desarrollo inicial en Vice City, confirmando la ambientación urbana y a los protagonistas, Lucia y Jason.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/news/gta-6-leaks-timeline/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Filtraciones
-            </Link>
-          </div>
+          <TimelineButton href="/es/news/gta-6-leaks-timeline/">
+            Ver Cronología de Filtraciones
+          </TimelineButton>
         </div>
       </div>
 
@@ -110,11 +149,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             El lanzamiento del primer video oficial generó 93 millones de visitas en sus primeras 24 horas, estableciendo el año 2025 como ventana de estreno.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/news/gta-6-trailer-3/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Análisis de Trailer
-            </Link>
-          </div>
+          <TimelineButton href="/es/news/gta-6-trailer-3/">
+            Ver Detalles del Tráiler
+          </TimelineButton>
         </div>
 
         {/* Checkpoint May 2, 2025 */}
@@ -125,11 +162,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Take-Two Interactive comunicó en su balance comercial el primer retraso oficial, situando el estreno en la primavera de 2026.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/news/gta-6-delay/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Retraso
-            </Link>
-          </div>
+          <TimelineButton href="/es/news/gta-6-delay/">
+            Ver Análisis de Retraso
+          </TimelineButton>
         </div>
 
         {/* Checkpoint May 6, 2025 */}
@@ -150,11 +185,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Un segundo ajuste en el calendario comercial definió la fecha final del estreno mundial para el 19 de noviembre de 2026.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/news/gta-6-november-release/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Detalles del Estreno
-            </Link>
-          </div>
+          <TimelineButton href="/es/news/gta-6-november-release/">
+            Ver Detalles del Lanzamiento
+          </TimelineButton>
         </div>
       </div>
 
@@ -173,11 +206,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             La directiva de Take-Two confirmó en su informe de ganancias trimestrales que el juego ha superado los test internos y la fecha está asegurada.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/news/gta-6-release-date/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Fecha de Estreno
-            </Link>
-          </div>
+          <TimelineButton href="/es/news/gta-6-release-date/">
+            Ver Fecha de Lanzamiento
+          </TimelineButton>
         </div>
 
         {/* Checkpoint June 18, 2026 */}
@@ -188,11 +219,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Rockstar Games presentó la ilustración definitiva de la carátula, abriendo la preventa de las ediciones estándar y coleccionista a escala global.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/news/gta-6-artworks/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Galería de Arte
-            </Link>
-          </div>
+          <TimelineButton href="/es/news/gta-6-artworks/">
+            Ver Galería de Arte
+          </TimelineButton>
         </div>
 
         {/* Checkpoint Aug 28, 2026 */}
@@ -203,11 +232,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Una retransmisión especial de 26 minutos de jugabilidad real debutó en Netflix, posicionándose como tendencia número uno global.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/news/gta-6-netflix-viewership/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Datos de Audiencia
-            </Link>
-          </div>
+          <TimelineButton href="/es/news/gta-6-netflix-viewership/">
+            Ver Datos de Audiencia
+          </TimelineButton>
         </div>
 
         {/* Checkpoint Aug 29, 2026 */}
@@ -218,11 +245,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Se publicó el informe técnico confirmando el sistema de físicas y una galería de 37 capturas para examinar detalles de la IA policial.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/gta-6-gameplay/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Análisis de Físicas
-            </Link>
-          </div>
+          <TimelineButton href="/es/gta-6-gameplay/">
+            Ver Jugabilidad de GTA 6
+          </TimelineButton>
         </div>
 
         {/* Checkpoint Aug 30, 2026 */}
@@ -233,11 +258,9 @@ export const gta6TimelineEs: ArticleData = {
           <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
             Social Club implementó cambios en la creación de clanes y carga de emblemas personalizados en preparación para el multijugador.
           </p>
-          <div style={{ marginTop: '0.75rem' }}>
-            <Link href="/es/news/rockstar-crews/" className={styles.pinnedCta} style={{ display: 'inline-flex', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              Ver Guía de Crews
-            </Link>
-          </div>
+          <TimelineButton href="/es/news/rockstar-crews/">
+            Ver Guía de Crews
+          </TimelineButton>
         </div>
       </div>
 

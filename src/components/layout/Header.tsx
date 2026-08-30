@@ -139,6 +139,9 @@ export default function Header() {
   const isSpanish = pathname?.startsWith('/es');
   const englishLink = isSpanish ? (pathname?.replace(/^\/es/, '') || '/') : pathname || '/';
   const spanishLink = isSpanish ? pathname : `/es${pathname || ''}`;
+  
+  const cleanPathForActive = pathname?.replace(/\/$/, '') || '';
+  const isTimelineActive = cleanPathForActive === '/gta-6-timeline' || cleanPathForActive === '/es/gta-6-timeline';
 
   const hasTranslation = (() => {
     if (!pathname) return false;
@@ -231,7 +234,10 @@ export default function Header() {
         <div className={styles.topBar}>
           <div className={styles.topBarInner}>
             <div className={styles.topBarLinks}>
-              <Link href={isSpanish ? '/es/gta-6-timeline/' : '/gta-6-timeline/'} className={styles.topBarLink}>
+              <Link
+                href={isSpanish ? '/es/gta-6-timeline/' : '/gta-6-timeline/'}
+                className={`${styles.topBarLink} ${isTimelineActive ? styles.topBarLinkActive : ''}`}
+              >
                 {isSpanish ? 'Cronología' : 'Timeline'}
               </Link>
             </div>
