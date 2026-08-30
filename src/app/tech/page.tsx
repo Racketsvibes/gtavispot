@@ -7,7 +7,7 @@ export const metadata = {
   title: 'GTA 6 Tech, Specs & Requirements',
   description: 'Get the latest GTA 6 system requirements, download sizes, supported platforms, and technical engine updates ahead of the November 19, 2026 launch.',
   alternates: {
-    canonical: 'https://gtavispot.com/tech/',
+    canonical: 'https://www.gtavispot.com/tech/',
   },
 };
 
@@ -26,8 +26,8 @@ export default function TechHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' },
-              { name: 'Tech Hub', url: 'https://gtavispot.com/tech/' }
+              { name: 'Home', url: 'https://www.gtavispot.com' },
+              { name: 'Tech Hub', url: 'https://www.gtavispot.com/tech/' }
             ])
           )
         }}

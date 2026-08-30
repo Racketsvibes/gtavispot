@@ -6,7 +6,7 @@ export interface BreadcrumbItem {
 }
 
 export class SeoEngine {
-  private static BASE_URL = 'https://gtavispot.com';
+  private static BASE_URL = 'https://www.gtavispot.com';
 
   /**
    * Generates a fully qualified canonical URL.

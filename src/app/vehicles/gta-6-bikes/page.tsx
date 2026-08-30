@@ -10,16 +10,16 @@ export const metadata = {
   title: getSEOTitle(gta6BikesArticle.title),
   description: gta6BikesArticle.metaDescription,
   alternates: {
-    canonical: 'https://gtavispot.com/vehicles/gta-6-bikes/',
+    canonical: 'https://www.gtavispot.com/vehicles/gta-6-bikes/',
   },
   openGraph: {
     title: gta6BikesArticle.title,
     description: gta6BikesArticle.metaDescription,
-    url: 'https://gtavispot.com/vehicles/gta-6-bikes/',
+    url: 'https://www.gtavispot.com/vehicles/gta-6-bikes/',
     type: 'article',
     images: [
       {
-        url: `https://gtavispot.com${gta6BikesArticle.featureImage}`,
+        url: `https://www.gtavispot.com${gta6BikesArticle.featureImage}`,
         width: 1200,
         height: 630,
         alt: gta6BikesArticle.featureImageAlt || gta6BikesArticle.title,
@@ -30,15 +30,15 @@ export const metadata = {
     card: 'summary_large_image',
     title: gta6BikesArticle.title,
     description: gta6BikesArticle.metaDescription,
-    images: [`https://gtavispot.com${gta6BikesArticle.featureImage}`],
+    images: [`https://www.gtavispot.com${gta6BikesArticle.featureImage}`],
   },
 };
 
 export default function Gta6BikesPage() {
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'Vehicles', url: 'https://gtavispot.com/vehicles/' },
-    { name: gta6BikesArticle.h1, url: 'https://gtavispot.com/vehicles/gta-6-bikes/' }
+    { name: 'Home', url: 'https://www.gtavispot.com' },
+    { name: 'Vehicles', url: 'https://www.gtavispot.com/vehicles/' },
+    { name: gta6BikesArticle.h1, url: 'https://www.gtavispot.com/vehicles/gta-6-bikes/' }
   ]);
 
   const faqs = [
@@ -115,7 +115,7 @@ export default function Gta6BikesPage() {
         </header>
 
         {/* Share buttons (top) */}
-        <ShareButtons isTop={true} url="https://gtavispot.com/vehicles/gta-6-bikes/" title={gta6BikesArticle.title} />
+        <ShareButtons isTop={true} url="https://www.gtavispot.com/vehicles/gta-6-bikes/" title={gta6BikesArticle.title} />
 
         <div className={styles.divider}></div>
 
@@ -140,7 +140,7 @@ export default function Gta6BikesPage() {
         <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
 
         {/* Share buttons (bottom) */}
-        <ShareButtons isTop={false} url="https://gtavispot.com/vehicles/gta-6-bikes/" title={gta6BikesArticle.title} />
+        <ShareButtons isTop={false} url="https://www.gtavispot.com/vehicles/gta-6-bikes/" title={gta6BikesArticle.title} />
       </div>
     </div>
   );

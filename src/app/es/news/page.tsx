@@ -7,11 +7,11 @@ export const metadata = {
   title: 'Noticias de GTA 6: Últimas Novedades y Guías',
   description: 'Lee las últimas noticias de GTA 6, tráileres oficiales, filtraciones de gameplay y comunicados. Actualizado a diario con cobertura de Rockstar Games.',
   alternates: {
-    canonical: 'https://gtavispot.com/es/news/',
+    canonical: 'https://www.gtavispot.com/es/news/',
     languages: {
-      'en': 'https://gtavispot.com/news/',
-      'es-es': 'https://gtavispot.com/es/news/',
-      'x-default': 'https://gtavispot.com/news/',
+      'en': 'https://www.gtavispot.com/news/',
+      'es-es': 'https://www.gtavispot.com/es/news/',
+      'x-default': 'https://www.gtavispot.com/news/',
     }
   },
 };
@@ -31,8 +31,8 @@ export default function SpanishNewsHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Inicio', url: 'https://gtavispot.com/es/' },
-              { name: 'Portal de Noticias', url: 'https://gtavispot.com/es/news/' }
+              { name: 'Inicio', url: 'https://www.gtavispot.com/es/' },
+              { name: 'Portal de Noticias', url: 'https://www.gtavispot.com/es/news/' }
             ])
           )
         }}

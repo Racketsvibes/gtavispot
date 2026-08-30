@@ -9,16 +9,16 @@ export const metadata = {
   title: getSEOTitle(gta6Guides.title),
   description: gta6Guides.metaDescription,
   alternates: {
-    canonical: 'https://gtavispot.com/guides/',
+    canonical: 'https://www.gtavispot.com/guides/',
   },
   openGraph: {
     title: gta6Guides.title,
     description: gta6Guides.metaDescription,
-    url: 'https://gtavispot.com/guides/',
+    url: 'https://www.gtavispot.com/guides/',
     type: 'article',
     images: [
       {
-        url: `https://gtavispot.com${gta6Guides.featureImage}`,
+        url: `https://www.gtavispot.com${gta6Guides.featureImage}`,
         width: 1200,
         height: 630,
         alt: gta6Guides.featureImageAlt || gta6Guides.title,
@@ -29,15 +29,15 @@ export const metadata = {
     card: 'summary_large_image',
     title: gta6Guides.title,
     description: gta6Guides.metaDescription,
-    images: [`https://gtavispot.com${gta6Guides.featureImage}`],
+    images: [`https://www.gtavispot.com${gta6Guides.featureImage}`],
   },
 };
 
 export default function GuidesPage() {
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'Guides', url: 'https://gtavispot.com/guides/' }
+    { name: 'Home', url: 'https://www.gtavispot.com' },
+    { name: 'Guides', url: 'https://www.gtavispot.com/guides/' }
   ]);
 
   const faqs = [
@@ -55,7 +55,7 @@ export default function GuidesPage() {
     name: 'How to Prepare for GTA 6 Launch Day',
     description: 'Complete step-by-step guide to prepare your console or PC for GTA 6 on November 19, 2026. Covers storage, settings, pre-loading, and Day One optimization.',
     totalTime: 'PT2H',
-    image: `https://gtavispot.com${gta6Guides.featureImage}`,
+    image: `https://www.gtavispot.com${gta6Guides.featureImage}`,
     steps: [
       { name: 'Check storage space', text: 'Ensure you have at least 150GB of free SSD space on your PS5, Xbox Series X/S, or PC. Delete unused games and clear temporary files to make room for the full install.' },
       { name: 'Pre-load the game', text: 'Digital pre-order customers can pre-load GTA 6 up to 48 hours before launch. Navigate to your library, find the GTA 6 tile, and start the download early to play at midnight.' },
@@ -102,7 +102,7 @@ export default function GuidesPage() {
         </header>
 
         {/* Share buttons (top) */}
-        <ShareButtons isTop={true} url="https://gtavispot.com/guides/" title={gta6Guides.title} />
+        <ShareButtons isTop={true} url="https://www.gtavispot.com/guides/" title={gta6Guides.title} />
 
         <div className={styles.divider}></div>
 
@@ -113,7 +113,7 @@ export default function GuidesPage() {
         <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
 
         {/* Share buttons (bottom) */}
-        <ShareButtons isTop={false} url="https://gtavispot.com/guides/" title={gta6Guides.title} />
+        <ShareButtons isTop={false} url="https://www.gtavispot.com/guides/" title={gta6Guides.title} />
       </div>
       <div className="container">
         <RelatedPosts category="guides" currentSlug="guides" />

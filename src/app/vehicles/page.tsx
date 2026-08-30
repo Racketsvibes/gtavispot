@@ -8,16 +8,16 @@ export const metadata = {
   title: getSEOTitle(gta6Vehicles.title),
   description: gta6Vehicles.metaDescription,
   alternates: {
-    canonical: 'https://gtavispot.com/vehicles/',
+    canonical: 'https://www.gtavispot.com/vehicles/',
   },
   openGraph: {
     title: gta6Vehicles.title,
     description: gta6Vehicles.metaDescription,
-    url: 'https://gtavispot.com/vehicles/',
+    url: 'https://www.gtavispot.com/vehicles/',
     type: 'article',
     images: [
       {
-        url: `https://gtavispot.com${gta6Vehicles.featureImage}`,
+        url: `https://www.gtavispot.com${gta6Vehicles.featureImage}`,
         width: 1200,
         height: 630,
         alt: gta6Vehicles.featureImageAlt || gta6Vehicles.title,
@@ -28,15 +28,15 @@ export const metadata = {
     card: 'summary_large_image',
     title: gta6Vehicles.title,
     description: gta6Vehicles.metaDescription,
-    images: [`https://gtavispot.com${gta6Vehicles.featureImage}`],
+    images: [`https://www.gtavispot.com${gta6Vehicles.featureImage}`],
   },
 };
 
 export default function VehiclesPage() {
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'Vehicles', url: 'https://gtavispot.com/vehicles/' }
+    { name: 'Home', url: 'https://www.gtavispot.com' },
+    { name: 'Vehicles', url: 'https://www.gtavispot.com/vehicles/' }
   ]);
 
   const faqs = [
@@ -101,7 +101,7 @@ export default function VehiclesPage() {
         </header>
 
         {/* Share buttons (top) */}
-        <ShareButtons isTop={true} url="https://gtavispot.com/vehicles/" title={gta6Vehicles.title} />
+        <ShareButtons isTop={true} url="https://www.gtavispot.com/vehicles/" title={gta6Vehicles.title} />
 
         <div className={styles.divider}></div>
 
@@ -112,7 +112,7 @@ export default function VehiclesPage() {
         <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
 
         {/* Share buttons (bottom) */}
-        <ShareButtons isTop={false} url="https://gtavispot.com/vehicles/" title={gta6Vehicles.title} />
+        <ShareButtons isTop={false} url="https://www.gtavispot.com/vehicles/" title={gta6Vehicles.title} />
       </div>
     </div>
   );

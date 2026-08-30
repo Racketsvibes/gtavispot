@@ -7,11 +7,11 @@ export const metadata = {
   title: 'GTA 6 News: Latest Updates & Guides',
   description: 'Read the latest GTA 6 news, official trailers, gameplay leaks, and announcements. Updated daily with verified Rockstar Games coverage.',
   alternates: {
-    canonical: 'https://gtavispot.com/news/',
+    canonical: 'https://www.gtavispot.com/news/',
     languages: {
-      'en': 'https://gtavispot.com/news/',
-      'es-es': 'https://gtavispot.com/es/news/',
-      'x-default': 'https://gtavispot.com/news/',
+      'en': 'https://www.gtavispot.com/news/',
+      'es-es': 'https://www.gtavispot.com/es/news/',
+      'x-default': 'https://www.gtavispot.com/news/',
     }
   },
 };
@@ -31,8 +31,8 @@ export default function NewsHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' },
-              { name: 'News Hub', url: 'https://gtavispot.com/news/' }
+              { name: 'Home', url: 'https://www.gtavispot.com' },
+              { name: 'News Hub', url: 'https://www.gtavispot.com/news/' }
             ])
           )
         }}

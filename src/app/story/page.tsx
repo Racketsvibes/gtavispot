@@ -8,7 +8,7 @@ export const metadata = {
   title: 'GTA 6 Story & Characters — Full Overview Guide',
   description: 'Complete GTA 6 story guide — meet Lucia and Jason, explore the Bonnie-and-Clyde-inspired narrative, all missions and everything confirmed about the plot.',
   alternates: {
-    canonical: 'https://gtavispot.com/story/',
+    canonical: 'https://www.gtavispot.com/story/',
   },
 };
 
@@ -27,8 +27,8 @@ export default function StoryHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' },
-              { name: 'Story Hub', url: 'https://gtavispot.com/story/' }
+              { name: 'Home', url: 'https://www.gtavispot.com' },
+              { name: 'Story Hub', url: 'https://www.gtavispot.com/story/' }
             ])
           )
         }}

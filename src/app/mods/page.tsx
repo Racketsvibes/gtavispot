@@ -9,16 +9,16 @@ export const metadata = {
   title: getSEOTitle(gta6Mods.title),
   description: gta6Mods.metaDescription,
   alternates: {
-    canonical: 'https://gtavispot.com/mods/',
+    canonical: 'https://www.gtavispot.com/mods/',
   },
   openGraph: {
     title: gta6Mods.title,
     description: gta6Mods.metaDescription,
-    url: 'https://gtavispot.com/mods/',
+    url: 'https://www.gtavispot.com/mods/',
     type: 'article',
     images: [
       {
-        url: `https://gtavispot.com${gta6Mods.featureImage}`,
+        url: `https://www.gtavispot.com${gta6Mods.featureImage}`,
         width: 1200,
         height: 630,
         alt: gta6Mods.featureImageAlt || gta6Mods.title,
@@ -29,15 +29,15 @@ export const metadata = {
     card: 'summary_large_image',
     title: gta6Mods.title,
     description: gta6Mods.metaDescription,
-    images: [`https://gtavispot.com${gta6Mods.featureImage}`],
+    images: [`https://www.gtavispot.com${gta6Mods.featureImage}`],
   },
 };
 
 export default function ModsPage() {
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'Mods', url: 'https://gtavispot.com/mods/' }
+    { name: 'Home', url: 'https://www.gtavispot.com' },
+    { name: 'Mods', url: 'https://www.gtavispot.com/mods/' }
   ]);
 
   const faqs = [
@@ -113,7 +113,7 @@ export default function ModsPage() {
         </header>
 
         {/* Share buttons (top) */}
-        <ShareButtons isTop={true} url="https://gtavispot.com/mods/" title={gta6Mods.title} />
+        <ShareButtons isTop={true} url="https://www.gtavispot.com/mods/" title={gta6Mods.title} />
 
         <div className={styles.divider}></div>
 
@@ -138,7 +138,7 @@ export default function ModsPage() {
         <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
 
         {/* Share buttons (bottom) */}
-        <ShareButtons isTop={false} url="https://gtavispot.com/mods/" title={gta6Mods.title} />
+        <ShareButtons isTop={false} url="https://www.gtavispot.com/mods/" title={gta6Mods.title} />
       </div>
     </div>
   );

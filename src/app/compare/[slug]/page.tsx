@@ -55,19 +55,19 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
   const article = getCompareArticleBySlug(resolvedParams.slug);
   if (article) {
     const imageUrl = article.featureImage 
-      ? `https://gtavispot.com${article.featureImage}` 
-      : 'https://gtavispot.com/images/desktop.webp';
+      ? `https://www.gtavispot.com${article.featureImage}` 
+      : 'https://www.gtavispot.com/images/desktop.webp';
 
     return {
       title: getSEOTitle(article.title),
       description: article.metaDescription,
       alternates: {
-        canonical: `https://gtavispot.com/compare/${resolvedParams.slug}/`,
+        canonical: `https://www.gtavispot.com/compare/${resolvedParams.slug}/`,
       },
       openGraph: {
         title: article.title,
         description: article.metaDescription,
-        url: `https://gtavispot.com/compare/${resolvedParams.slug}/`,
+        url: `https://www.gtavispot.com/compare/${resolvedParams.slug}/`,
         type: 'article',
         images: [
           {
@@ -107,12 +107,12 @@ export async function generateMetadata({ params }: ComparePageProps): Promise<Me
     title: `${nameA} vs ${nameB} Comparison | GTA VI Spot`,
     description: `Side-by-side comparison between ${nameA} and ${nameB} in GTA VI. Compare descriptions, relations, official trailers, media, and statistics.`,
     alternates: {
-      canonical: `https://gtavispot.com/compare/${resolvedParams.slug}/`,
+      canonical: `https://www.gtavispot.com/compare/${resolvedParams.slug}/`,
     },
     openGraph: {
       title: `${nameA} vs ${nameB} Comparison | GTA VI Spot`,
       description: `Compare ${nameA} and ${nameB} side-by-side.`,
-      url: `https://gtavispot.com/compare/${resolvedParams.slug}/`,
+      url: `https://www.gtavispot.com/compare/${resolvedParams.slug}/`,
     },
   };
 }
@@ -125,13 +125,13 @@ export default async function CompareSlugPage({ params }: ComparePageProps) {
   const article = getCompareArticleBySlug(slug);
   if (article) {
     const imageUrl = article.featureImage 
-      ? `https://gtavispot.com${article.featureImage}` 
-      : 'https://gtavispot.com/images/desktop.webp';
+      ? `https://www.gtavispot.com${article.featureImage}` 
+      : 'https://www.gtavispot.com/images/desktop.webp';
 
     const breadcrumbs = getBreadcrumbsSchema([
-      { name: 'Home', url: 'https://gtavispot.com' },
-      { name: 'Compare', url: 'https://gtavispot.com/compare/' },
-      { name: article.h1, url: `https://gtavispot.com/compare/${slug}/` }
+      { name: 'Home', url: 'https://www.gtavispot.com' },
+      { name: 'Compare', url: 'https://www.gtavispot.com/compare/' },
+      { name: article.h1, url: `https://www.gtavispot.com/compare/${slug}/` }
     ]);
 
     const articleSchema = getArticleSchema({
@@ -141,7 +141,7 @@ export default async function CompareSlugPage({ params }: ComparePageProps) {
       datePublished: article.publishedDate,
       dateModified: article.modifiedDate,
       authorName: article.author,
-      url: `https://gtavispot.com/compare/${slug}/`
+      url: `https://www.gtavispot.com/compare/${slug}/`
     });
 
     const faqs = getFaqsFromFile(slug, 'compare');
@@ -185,7 +185,7 @@ export default async function CompareSlugPage({ params }: ComparePageProps) {
             </div>
           </header>
 
-          <ShareButtons url={`https://gtavispot.com/compare/${slug}/`} title={article.title} isTop />
+          <ShareButtons url={`https://www.gtavispot.com/compare/${slug}/`} title={article.title} isTop />
 
           <div className={styles.divider} />
 
@@ -207,7 +207,7 @@ export default async function CompareSlugPage({ params }: ComparePageProps) {
             {article.content}
           </div>
 
-          <ShareButtons url={`https://gtavispot.com/compare/${slug}/`} title={article.title} />
+          <ShareButtons url={`https://www.gtavispot.com/compare/${slug}/`} title={article.title} />
 
           {article.videoSchema && (
             <script

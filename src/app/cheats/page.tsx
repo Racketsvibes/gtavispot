@@ -9,16 +9,16 @@ export const metadata = {
   title: getSEOTitle(gta6Cheats.title),
   description: gta6Cheats.metaDescription,
   alternates: {
-    canonical: 'https://gtavispot.com/cheats/',
+    canonical: 'https://www.gtavispot.com/cheats/',
   },
   openGraph: {
     title: gta6Cheats.title,
     description: gta6Cheats.metaDescription,
-    url: 'https://gtavispot.com/cheats/',
+    url: 'https://www.gtavispot.com/cheats/',
     type: 'article',
     images: [
       {
-        url: `https://gtavispot.com${gta6Cheats.featureImage}`,
+        url: `https://www.gtavispot.com${gta6Cheats.featureImage}`,
         width: 1200,
         height: 630,
         alt: gta6Cheats.featureImageAlt || gta6Cheats.title,
@@ -29,15 +29,15 @@ export const metadata = {
     card: 'summary_large_image',
     title: gta6Cheats.title,
     description: gta6Cheats.metaDescription,
-    images: [`https://gtavispot.com${gta6Cheats.featureImage}`],
+    images: [`https://www.gtavispot.com${gta6Cheats.featureImage}`],
   },
 };
 
 export default function CheatsPage() {
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'Cheats', url: 'https://gtavispot.com/cheats/' }
+    { name: 'Home', url: 'https://www.gtavispot.com' },
+    { name: 'Cheats', url: 'https://www.gtavispot.com/cheats/' }
   ]);
 
   const faqs = [
@@ -51,7 +51,7 @@ export default function CheatsPage() {
   const howToSchema = getHowToSchema({
     name: 'How to Use Cheat Codes in GTA 6',
     description: 'Step-by-step guide on how to activate and use cheat codes in Grand Theft Auto VI using controller inputs, phone dialing, and PC console commands.',
-    image: 'https://gtavispot.com/images/gta-6-cheats-feature.webp',
+    image: 'https://www.gtavispot.com/images/gta-6-cheats-feature.webp',
     steps: [
       { name: 'Save your game first', text: 'Create a manual save in a separate slot before entering any cheat codes. Activating cheats will disable trophies and achievements for your active session.' },
       { name: 'Choose your input method', text: 'Decide whether to use controller button combinations on PS5 or Xbox, dial phone numbers on your in-game smartphone, or type text commands into the PC console window.' },
@@ -97,7 +97,7 @@ export default function CheatsPage() {
         </header>
 
         {/* Share buttons (top) */}
-        <ShareButtons isTop={true} url="https://gtavispot.com/cheats/" title={gta6Cheats.title} />
+        <ShareButtons isTop={true} url="https://www.gtavispot.com/cheats/" title={gta6Cheats.title} />
 
         <div className={styles.divider}></div>
 
@@ -108,7 +108,7 @@ export default function CheatsPage() {
         <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
 
         {/* Share buttons (bottom) */}
-        <ShareButtons isTop={false} url="https://gtavispot.com/cheats/" title={gta6Cheats.title} />
+        <ShareButtons isTop={false} url="https://www.gtavispot.com/cheats/" title={gta6Cheats.title} />
       </div>
       <div className="container">
         <RelatedPosts category="cheats" currentSlug="cheats" />

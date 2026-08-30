@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Terms of Service',
   description: 'Read the comprehensive Terms of Service for GTA Vi Spot. Review the terms governing website use, content licenses, user responsibilities, and our legal disclaimers.',
   alternates: {
-    canonical: 'https://gtavispot.com/terms-of-service/',
+    canonical: 'https://www.gtavispot.com/terms-of-service/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function TermsOfServicePage() {
 
       <main className={`container ${styles.content} ${styles.richText}`}>
         <p>
-          Welcome to GTA Vi Spot. These Terms of Service ("Terms") govern your access to and use of the GTA Vi Spot website, located at <a href="https://gtavispot.com">gtavispot.com</a>, including all content, functionality, guides, and services offered on or through the site.
+          Welcome to GTA Vi Spot. These Terms of Service ("Terms") govern your access to and use of the GTA Vi Spot website, located at <a href="https://www.gtavispot.com">gtavispot.com</a>, including all content, functionality, guides, and services offered on or through the site.
         </p>
 
         <h2>Agreement to Terms</h2>

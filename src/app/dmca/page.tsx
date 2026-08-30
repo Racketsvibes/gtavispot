@@ -5,7 +5,7 @@ export const metadata = {
   title: 'DMCA Copyright Policy',
   description: 'Review the comprehensive DMCA Copyright Policy for GTA Vi Spot. Find detailed instructions on how to submit a copyright infringement notice or counter-notification.',
   alternates: {
-    canonical: 'https://gtavispot.com/dmca/',
+    canonical: 'https://www.gtavispot.com/dmca/',
   },
 };
 
@@ -43,7 +43,7 @@ export default function DmcaPage() {
         <ol>
           <li><strong>Physical or Electronic Signature:</strong> A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</li>
           <li><strong>Identification of the Copyrighted Work:</strong> Detailed identification of the copyrighted work claimed to have been infringed. If multiple copyrighted works at a single online site are covered by a single notification, please provide a representative list of such works (e.g., links to your original published artwork, official screenshots, or registered text).</li>
-          <li><strong>Identification of the Infringing Material:</strong> Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled. You must provide information reasonably sufficient to permit us to locate the material, such as specific URLs linking directly to the exact page or image (e.g., <code>https://gtavispot.com/images/specific-file.jpg</code>). General complaints without specific URLs will be rejected.</li>
+          <li><strong>Identification of the Infringing Material:</strong> Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled. You must provide information reasonably sufficient to permit us to locate the material, such as specific URLs linking directly to the exact page or image (e.g., <code>https://www.gtavispot.com/images/specific-file.jpg</code>). General complaints without specific URLs will be rejected.</li>
           <li><strong>Contact Information:</strong> Information reasonably sufficient to permit our team to contact the complaining party, including an address, telephone number, and, if available, an electronic mail (email) address at which the complaining party may be contacted.</li>
           <li><strong>Good Faith Belief Statement:</strong> A statement that the complaining party has a "good faith belief" that use of the material in the manner complained of is not authorized by the copyright owner, its designated agent, or the law (including fair use exceptions).</li>
           <li><strong>Statement of Accuracy and Perjury:</strong> A statement that the information in the notification is entirely accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</li>

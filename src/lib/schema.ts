@@ -20,12 +20,12 @@ export function getOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://gtavispot.com/#organization",
+    "@id": "https://www.gtavispot.com/#organization",
     "name": "GTA Vi Spot",
-    "url": "https://gtavispot.com",
+    "url": "https://www.gtavispot.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://gtavispot.com/logo.png",
+      "url": "https://www.gtavispot.com/logo.png",
       "width": 512,
       "height": 512
     },
@@ -45,9 +45,9 @@ export function getWebSiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://gtavispot.com/#website",
+    "@id": "https://www.gtavispot.com/#website",
     "name": "GTA Vi Spot",
-    "url": "https://gtavispot.com",
+    "url": "https://www.gtavispot.com",
     "description": "Your ultimate GTA 6 resource — latest news, interactive map, character guides, and launch coverage."
   };
 }
@@ -113,14 +113,14 @@ export function getArticleSchema(input: ArticleSchemaInput) {
     "author": {
       "@type": "Person",
       "name": input.authorName,
-      "url": "https://gtavispot.com/about/"
+      "url": "https://www.gtavispot.com/about/"
     },
     "publisher": {
       "@type": "Organization",
       "name": "GTA Vi Spot",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://gtavispot.com/logo.png"
+        "url": "https://www.gtavispot.com/logo.png"
       }
     }
   };

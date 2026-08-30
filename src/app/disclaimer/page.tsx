@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Disclaimer',
   description: 'Read the comprehensive Disclaimer for GTA Vi Spot. This page outlines our independent fan status, copyright notices, and our relationship with Rockstar Games.',
   alternates: {
-    canonical: 'https://gtavispot.com/disclaimer/',
+    canonical: 'https://www.gtavispot.com/disclaimer/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function DisclaimerPage() {
 
       <main className={`container ${styles.content} ${styles.richText}`}>
         <p>
-          The information provided on GTA Vi Spot (<a href="https://gtavispot.com">gtavispot.com</a>) is for general informational, educational, and entertainment purposes only. All information on the Site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
+          The information provided on GTA Vi Spot (<a href="https://www.gtavispot.com">gtavispot.com</a>) is for general informational, educational, and entertainment purposes only. All information on the Site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
         </p>
 
         <h2>Independent Fan Status</h2>

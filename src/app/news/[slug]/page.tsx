@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: Props) {
   if (!article) return {};
 
   const imageUrl = article.featureImage 
-    ? `https://gtavispot.com${article.featureImage}` 
-    : 'https://gtavispot.com/images/desktop.webp';
+    ? `https://www.gtavispot.com${article.featureImage}` 
+    : 'https://www.gtavispot.com/images/desktop.webp';
 
   const hasSpanish = [
     'gta-6-release-date',
@@ -41,9 +41,9 @@ export async function generateMetadata({ params }: Props) {
   ].includes(slug);
 
   const isGameplay = slug === 'gta-6-gameplay';
-  const canonicalUrl = isGameplay ? 'https://gtavispot.com/gta-6-gameplay/' : `https://gtavispot.com/news/${slug}/`;
-  const englishUrl = isGameplay ? 'https://gtavispot.com/gta-6-gameplay/' : `https://gtavispot.com/news/${slug}/`;
-  const spanishUrl = isGameplay ? 'https://gtavispot.com/es/gta-6-gameplay/' : `https://gtavispot.com/es/news/${slug}/`;
+  const canonicalUrl = isGameplay ? 'https://www.gtavispot.com/gta-6-gameplay/' : `https://www.gtavispot.com/news/${slug}/`;
+  const englishUrl = isGameplay ? 'https://www.gtavispot.com/gta-6-gameplay/' : `https://www.gtavispot.com/news/${slug}/`;
+  const spanishUrl = isGameplay ? 'https://www.gtavispot.com/es/gta-6-gameplay/' : `https://www.gtavispot.com/es/news/${slug}/`;
 
   return {
     title: getSEOTitle(article.title),
@@ -88,16 +88,16 @@ export default async function ArticlePage({ params }: Props) {
   if (!article) notFound();
 
   const imageUrl = article.featureImage 
-    ? `https://gtavispot.com${article.featureImage}` 
-    : 'https://gtavispot.com/images/desktop.webp';
+    ? `https://www.gtavispot.com${article.featureImage}` 
+    : 'https://www.gtavispot.com/images/desktop.webp';
 
   const isGameplay = slug === 'gta-6-gameplay';
-  const canonicalUrl = isGameplay ? 'https://gtavispot.com/gta-6-gameplay/' : `https://gtavispot.com/news/${slug}/`;
+  const canonicalUrl = isGameplay ? 'https://www.gtavispot.com/gta-6-gameplay/' : `https://www.gtavispot.com/news/${slug}/`;
 
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'News Hub', url: 'https://gtavispot.com/news/' },
+    { name: 'Home', url: 'https://www.gtavispot.com' },
+    { name: 'News Hub', url: 'https://www.gtavispot.com/news/' },
     { name: article.h1, url: canonicalUrl }
   ]);
 
@@ -154,7 +154,7 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </header>
 
-        <ShareButtons url={`https://gtavispot.com/news/${slug}/`} title={article.title} isTop />
+        <ShareButtons url={`https://www.gtavispot.com/news/${slug}/`} title={article.title} isTop />
 
         <div className={styles.divider} />
 
@@ -176,7 +176,7 @@ export default async function ArticlePage({ params }: Props) {
           {article.content}
         </div>
 
-        <ShareButtons url={`https://gtavispot.com/news/${slug}/`} title={article.title} />
+        <ShareButtons url={`https://www.gtavispot.com/news/${slug}/`} title={article.title} />
 
         {article.videoSchema && (
           <script

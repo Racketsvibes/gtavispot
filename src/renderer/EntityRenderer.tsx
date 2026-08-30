@@ -245,18 +245,18 @@ export async function generateMetadataFor(type: EntityType, slug: string): Promi
     if (!payload || !payload.seo) return {};
 
     const { seo, heroMedia } = payload;
-    const imageUrl = heroMedia?.cdnUrl || 'https://gtavispot.com/images/desktop.webp';
+    const imageUrl = heroMedia?.cdnUrl || 'https://www.gtavispot.com/images/desktop.webp';
 
     return {
       title: seo.title,
       description: seo.description,
       alternates: {
-        canonical: seo.canonicalUrl || `https://gtavispot.com/${type}s/${slug}`,
+        canonical: seo.canonicalUrl || `https://www.gtavispot.com/${type}s/${slug}`,
       },
       openGraph: {
         title: seo.title,
         description: seo.description,
-        url: seo.canonicalUrl || `https://gtavispot.com/${type}s/${slug}`,
+        url: seo.canonicalUrl || `https://www.gtavispot.com/${type}s/${slug}`,
         images: [
           {
             url: imageUrl,

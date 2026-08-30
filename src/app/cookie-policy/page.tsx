@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Cookie Policy',
   description: 'Read the comprehensive Cookie Policy for GTA Vi Spot. Learn exactly how we use cookies, tracking pixels, analytics, and manage consent to improve your experience.',
   alternates: {
-    canonical: 'https://gtavispot.com/cookie-policy/',
+    canonical: 'https://www.gtavispot.com/cookie-policy/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function CookiePolicyPage() {
 
       <main className={`container ${styles.content} ${styles.richText}`}>
         <p>
-          This Cookie Policy explains how GTA Vi Spot ("we", "us", and "our") uses cookies and similar tracking technologies to recognize you when you visit our website at <a href="https://gtavispot.com">gtavispot.com</a>. It explains what these technologies are and why we use them, as well as your rights to control our use of them. This policy is an integral part of our broader commitment to your privacy, which is fully detailed in our <Link href="/privacy-policy/">Privacy Policy</Link>.
+          This Cookie Policy explains how GTA Vi Spot ("we", "us", and "our") uses cookies and similar tracking technologies to recognize you when you visit our website at <a href="https://www.gtavispot.com">gtavispot.com</a>. It explains what these technologies are and why we use them, as well as your rights to control our use of them. This policy is an integral part of our broader commitment to your privacy, which is fully detailed in our <Link href="/privacy-policy/">Privacy Policy</Link>.
         </p>
 
         <h2>What Are Cookies?</h2>

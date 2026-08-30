@@ -8,7 +8,7 @@ export const metadata = {
   title: 'GTA 6 FAQ Hub: Direct & Verified Answers',
   description: 'Get direct and verified answers to the most common GTA 6 questions. Explore release dates, character details, map sizes, cheats, and system requirements.',
   alternates: {
-    canonical: 'https://gtavispot.com/faq/',
+    canonical: 'https://www.gtavispot.com/faq/',
   },
 };
 
@@ -212,8 +212,8 @@ const faqs = [
 export default function FAQHubPage() {
   const homeFaqs = faqs.map(f => ({ question: f.q, answer: f.a }));
   const breadcrumbsSchema = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'FAQ', url: 'https://gtavispot.com/faq/' }
+    { name: 'Home', url: 'https://www.gtavispot.com' },
+    { name: 'FAQ', url: 'https://www.gtavispot.com/faq/' }
   ]);
   const faqSchema = getFAQSchema(homeFaqs);
 

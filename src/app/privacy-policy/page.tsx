@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Privacy Policy',
   description: 'Read the comprehensive Privacy Policy for GTA Vi Spot. Learn exactly how we handle your data, cookies, analytics, display ads, and contact form details in compliance with CCPA and GDPR.',
   alternates: {
-    canonical: 'https://gtavispot.com/privacy-policy/',
+    canonical: 'https://www.gtavispot.com/privacy-policy/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
 
       <main className={`container ${styles.content} ${styles.richText}`}>
         <p>
-          At <strong>GTA Vi Spot</strong>, accessible from <a href="https://gtavispot.com">gtavispot.com</a>, the privacy of our readers and visitors is of the utmost importance to us. This comprehensive Privacy Policy document outlines in detail the types of personal information that is received and collected by GTA Vi Spot, how it is recorded, and how we use it to improve your experience on our platform. 
+          At <strong>GTA Vi Spot</strong>, accessible from <a href="https://www.gtavispot.com">gtavispot.com</a>, the privacy of our readers and visitors is of the utmost importance to us. This comprehensive Privacy Policy document outlines in detail the types of personal information that is received and collected by GTA Vi Spot, how it is recorded, and how we use it to improve your experience on our platform. 
         </p>
         <p>
           We are committed to transparency and to protecting your digital footprint while you utilize our guides, news articles, and interactive maps. If you have additional questions or require more information about our Privacy Policy after reading this document, please do not hesitate to reach out to us by visiting our <Link href="/contact/">Contact Page</Link> or emailing us directly at <code>gtavispot@gmail.com</code>.

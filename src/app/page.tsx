@@ -108,7 +108,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' }
+              { name: 'Home', url: 'https://www.gtavispot.com' }
             ])
           )
         }}

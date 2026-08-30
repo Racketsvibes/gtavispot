@@ -8,7 +8,7 @@ export const metadata = {
   title: 'GTA 6 World & Activities: Leonida Guide',
   description: 'Explore the immersive open-world details of GTA 6. Read comprehensive guides on the Leonida state, ecosystems, interactive activities, and wildlife.',
   alternates: {
-    canonical: 'https://gtavispot.com/world/',
+    canonical: 'https://www.gtavispot.com/world/',
   },
 };
 
@@ -23,8 +23,8 @@ export default function WorldHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' },
-              { name: 'World & Activities Hub', url: 'https://gtavispot.com/world/' }
+              { name: 'Home', url: 'https://www.gtavispot.com' },
+              { name: 'World & Activities Hub', url: 'https://www.gtavispot.com/world/' }
             ])
           )
         }}

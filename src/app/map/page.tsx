@@ -7,7 +7,7 @@ export const metadata = {
   title: 'GTA 6 Map — Full Leonida Interactive Map Guide',
   description: 'Complete GTA 6 Leonida map guide — all regions, Vice City districts, Grassrivers, Keys and every confirmed location. Interactive map with secrets marked.',
   alternates: {
-    canonical: 'https://gtavispot.com/map/',
+    canonical: 'https://www.gtavispot.com/map/',
   },
 };
 
@@ -26,8 +26,8 @@ export default function MapHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' },
-              { name: 'Map Hub', url: 'https://gtavispot.com/map/' }
+              { name: 'Home', url: 'https://www.gtavispot.com' },
+              { name: 'Map Hub', url: 'https://www.gtavispot.com/map/' }
             ])
           )
         }}

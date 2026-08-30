@@ -45,14 +45,14 @@ export const metadata: Metadata = {
     'GTA 6 characters',
     'Vice City',
   ],
-  authors: [{ name: 'GTA Vi Spot', url: 'https://gtavispot.com' }],
+  authors: [{ name: 'GTA Vi Spot', url: 'https://www.gtavispot.com' }],
   creator: 'GTA Vi Spot',
   publisher: 'GTA Vi Spot',
-  metadataBase: new URL('https://gtavispot.com'),
+  metadataBase: new URL('https://www.gtavispot.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://gtavispot.com',
+    url: 'https://www.gtavispot.com',
     siteName: 'GTA Vi Spot',
     title: 'GTA Vi Spot — GTA 6 News, Guides, Map & Everything Vice City',
     description:

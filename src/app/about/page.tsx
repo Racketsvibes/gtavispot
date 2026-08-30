@@ -5,7 +5,7 @@ export const metadata = {
   title: 'About GTA Vi Spot | Independent GTA 6 Fan Guide & News',
   description: 'Learn about GTA Vi Spot. Meet Qamar Farooq, Marcus Vance, and our editorial team. Read about our mission, verification process, and how we fund our independent GTA 6 coverage.',
   alternates: {
-    canonical: 'https://gtavispot.com/about/',
+    canonical: 'https://www.gtavispot.com/about/',
   },
 };
 

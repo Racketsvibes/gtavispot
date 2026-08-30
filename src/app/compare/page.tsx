@@ -8,7 +8,7 @@ export const metadata = {
   title: 'GTA 6 Comparisons & Key Differences',
   description: 'Explore side-by-side comparisons of GTA 6 vs GTA 5 and other franchise titles. Compare settings, map size, protagonists, pricing, and system requirements.',
   alternates: {
-    canonical: 'https://gtavispot.com/compare/',
+    canonical: 'https://www.gtavispot.com/compare/',
   },
 };
 
@@ -27,8 +27,8 @@ export default function CompareHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' },
-              { name: 'Compare', url: 'https://gtavispot.com/compare/' }
+              { name: 'Home', url: 'https://www.gtavispot.com' },
+              { name: 'Compare', url: 'https://www.gtavispot.com/compare/' }
             ])
           )
         }}

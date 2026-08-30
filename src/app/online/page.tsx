@@ -7,7 +7,7 @@ export const metadata = {
   title: 'GTA Online Guides, News & Updates',
   description: 'Get the latest GTA Online updates, news, guides, and premium membership details for multiplayer gameplay on PlayStation 5, Xbox Series X|S, and PC.',
   alternates: {
-    canonical: 'https://gtavispot.com/online/',
+    canonical: 'https://www.gtavispot.com/online/',
   },
 };
 
@@ -26,8 +26,8 @@ export default function OnlineHubPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             getBreadcrumbsSchema([
-              { name: 'Home', url: 'https://gtavispot.com' },
-              { name: 'Online Hub', url: 'https://gtavispot.com/online/' }
+              { name: 'Home', url: 'https://www.gtavispot.com' },
+              { name: 'Online Hub', url: 'https://www.gtavispot.com/online/' }
             ])
           )
         }}

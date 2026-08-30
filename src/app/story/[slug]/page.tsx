@@ -27,19 +27,19 @@ export async function generateMetadata({ params }: Props) {
   if (!article) return {};
 
   const imageUrl = article.featureImage 
-    ? `https://gtavispot.com${article.featureImage}` 
-    : 'https://gtavispot.com/images/desktop.webp';
+    ? `https://www.gtavispot.com${article.featureImage}` 
+    : 'https://www.gtavispot.com/images/desktop.webp';
 
   return {
     title: getSEOTitle(article.title),
     description: article.metaDescription,
     alternates: {
-      canonical: `https://gtavispot.com/story/${slug}/`,
+      canonical: `https://www.gtavispot.com/story/${slug}/`,
     },
     openGraph: {
       title: article.title,
       description: article.metaDescription,
-      url: `https://gtavispot.com/story/${slug}/`,
+      url: `https://www.gtavispot.com/story/${slug}/`,
       type: 'article',
       images: [
         {
@@ -65,14 +65,14 @@ export default async function StoryArticlePage({ params }: Props) {
   if (!article) notFound();
 
   const imageUrl = article.featureImage 
-    ? `https://gtavispot.com${article.featureImage}` 
-    : 'https://gtavispot.com/images/desktop.webp';
+    ? `https://www.gtavispot.com${article.featureImage}` 
+    : 'https://www.gtavispot.com/images/desktop.webp';
 
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://gtavispot.com' },
-    { name: 'Story Hub', url: 'https://gtavispot.com/story/' },
-    { name: article.h1, url: `https://gtavispot.com/story/${slug}/` }
+    { name: 'Home', url: 'https://www.gtavispot.com' },
+    { name: 'Story Hub', url: 'https://www.gtavispot.com/story/' },
+    { name: article.h1, url: `https://www.gtavispot.com/story/${slug}/` }
   ]);
 
   const articleSchema = getArticleSchema({
@@ -82,7 +82,7 @@ export default async function StoryArticlePage({ params }: Props) {
     datePublished: article.publishedDate,
     dateModified: article.modifiedDate,
     authorName: article.author,
-    url: `https://gtavispot.com/story/${slug}/`
+    url: `https://www.gtavispot.com/story/${slug}/`
   });
 
   const faqs = getFaqsFromFile(slug, 'story');
@@ -128,7 +128,7 @@ export default async function StoryArticlePage({ params }: Props) {
           </div>
         </header>
 
-        <ShareButtons url={`https://gtavispot.com/story/${slug}/`} title={article.title} isTop />
+        <ShareButtons url={`https://www.gtavispot.com/story/${slug}/`} title={article.title} isTop />
 
         <div className={styles.divider} />
 
@@ -150,7 +150,7 @@ export default async function StoryArticlePage({ params }: Props) {
           {article.content}
         </div>
 
-        <ShareButtons url={`https://gtavispot.com/story/${slug}/`} title={article.title} />
+        <ShareButtons url={`https://www.gtavispot.com/story/${slug}/`} title={article.title} />
 
         {article.videoSchema && (
           <script
