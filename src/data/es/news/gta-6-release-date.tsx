@@ -51,7 +51,7 @@ export const gta6ReleaseDateEs: ArticleData = {
       <p>
         Los jugadores pueden esperar disfrutar de esta entrega el próximo jueves, 19 de noviembre de 2026. 
         Esta <strong>gta vi fecha de salida</strong> oficial llega tras varios meses de reorganización interna en Rockstar Games. 
-        Aunque inicialmente se planeaba para finales de 2025, el equipo optó por esta <strong>gta 6 fecha de estreno</strong> para pulir el mapa de Leonida.
+        Aunque inicialmente se planeaba para finales de 2025, el equipo optó por esta <strong>gta 6 fecha de estreno</strong> para pulir el mapa de Leonida. Puedes revisar todos los hitos del desarrollo en la página dedicada a la <Link href="/es/gta-6-timeline/">cronología de GTA 6</Link> oficial.
       </p>
       <p>
         La decisión de lanzar el juego en la <strong>gta 6 noviembre 2026</strong> responde a una planificación comercial muy clara. 

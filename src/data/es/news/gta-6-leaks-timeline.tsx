@@ -18,7 +18,7 @@ export const gta6LeaksTimelineEs: ArticleData = {
       <p>
         La <strong>cronología de filtraciones de GTA 6</strong> ha alcanzado un punto crítico con una serie de revelaciones de jugabilidad por parte del grupo Cyberleek. 
         Desde la prueba de baloncesto en la costa hasta la filtración de la tienda Game Horde, Rockstar Games ha luchado por contener el material. 
-        Presentamos la secuencia cronológica de eventos del mayor leak de 2026.
+        Presentamos la secuencia cronológica de eventos del mayor leak de 2026. Para obtener una visión completa de todos los anuncios oficiales del juego, consulta nuestra <Link href="/es/gta-6-timeline/">cronología de GTA 6</Link> oficial.
       </p>
 
       <div className={styles.quickAnswer}>

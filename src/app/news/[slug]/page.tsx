@@ -37,13 +37,16 @@ export async function generateMetadata({ params }: Props) {
     'gta-6-leaks-timeline',
     'gta-6-artworks',
     'gta-6-netflix-viewership',
-    'gta-6-gameplay'
+    'gta-6-gameplay',
+    'rockstar-crews',
+    'gta-6-timeline'
   ].includes(slug);
 
-  const isGameplay = slug === 'gta-6-gameplay';
-  const canonicalUrl = isGameplay ? 'https://www.gtavispot.com/gta-6-gameplay/' : `https://www.gtavispot.com/news/${slug}/`;
-  const englishUrl = isGameplay ? 'https://www.gtavispot.com/gta-6-gameplay/' : `https://www.gtavispot.com/news/${slug}/`;
-  const spanishUrl = isGameplay ? 'https://www.gtavispot.com/es/gta-6-gameplay/' : `https://www.gtavispot.com/es/news/${slug}/`;
+  const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+  const isRootPath = rootSlugs.includes(slug);
+  const canonicalUrl = isRootPath ? `https://www.gtavispot.com/${slug}/` : `https://www.gtavispot.com/news/${slug}/`;
+  const englishUrl = isRootPath ? `https://www.gtavispot.com/${slug}/` : `https://www.gtavispot.com/news/${slug}/`;
+  const spanishUrl = isRootPath ? `https://www.gtavispot.com/es/${slug}/` : `https://www.gtavispot.com/es/news/${slug}/`;
 
   return {
     title: getSEOTitle(article.title),
@@ -91,8 +94,9 @@ export default async function ArticlePage({ params }: Props) {
     ? `https://www.gtavispot.com${article.featureImage}` 
     : 'https://www.gtavispot.com/images/desktop.webp';
 
-  const isGameplay = slug === 'gta-6-gameplay';
-  const canonicalUrl = isGameplay ? 'https://www.gtavispot.com/gta-6-gameplay/' : `https://www.gtavispot.com/news/${slug}/`;
+  const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+  const isRootPath = rootSlugs.includes(slug);
+  const canonicalUrl = isRootPath ? `https://www.gtavispot.com/${slug}/` : `https://www.gtavispot.com/news/${slug}/`;
 
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([

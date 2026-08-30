@@ -8,6 +8,7 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'gta-6-timeline': '2026-08-30',
   'rockstar-crews': '2026-08-30',
   'gta-6-gameplay': '2026-08-29',
   'gta-6-netflix-viewership': '2026-08-29',
@@ -67,7 +68,8 @@ const SPANISH_TRANSLATED_NEWS_SLUGS = [
   'gta-6-artworks',
   'gta-6-netflix-viewership',
   'gta-6-gameplay',
-  'rockstar-crews'
+  'rockstar-crews',
+  'gta-6-timeline'
 ];
 
 export interface SitemapItem {
@@ -151,16 +153,17 @@ export function getEnglishUrls(): SitemapItem[] {
     const modDate = newsModifiedDates[slug] || nowStr;
     const hasSpanish = SPANISH_TRANSLATED_NEWS_SLUGS.includes(slug);
     
-    if (slug === 'gta-6-gameplay') {
+    const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+    if (rootSlugs.includes(slug)) {
       items.push({
-        url: `${baseUrl}/gta-6-gameplay/`,
+        url: `${baseUrl}/${slug}/`,
         lastmod: modDate,
         changefreq: 'daily',
         priority: '0.8',
         alternates: hasSpanish ? [
-          { lang: 'en', href: `${baseUrl}/gta-6-gameplay/` },
-          { lang: 'es-es', href: `${baseUrl}/es/gta-6-gameplay/` },
-          { lang: 'x-default', href: `${baseUrl}/gta-6-gameplay/` }
+          { lang: 'en', href: `${baseUrl}/${slug}/` },
+          { lang: 'es-es', href: `${baseUrl}/es/${slug}/` },
+          { lang: 'x-default', href: `${baseUrl}/${slug}/` }
         ] : undefined
       });
     } else {
@@ -245,16 +248,17 @@ export function getSpanishUrls(): SitemapItem[] {
   SPANISH_TRANSLATED_NEWS_SLUGS.forEach(slug => {
     const modDate = newsModifiedDates[slug] || new Date().toISOString().split('T')[0];
     
-    if (slug === 'gta-6-gameplay') {
+    const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+    if (rootSlugs.includes(slug)) {
       items.push({
-        url: `${baseUrl}/es/gta-6-gameplay/`,
+        url: `${baseUrl}/es/${slug}/`,
         lastmod: modDate,
         changefreq: 'weekly',
         priority: '0.8',
         alternates: [
-          { lang: 'en', href: `${baseUrl}/gta-6-gameplay/` },
-          { lang: 'es-es', href: `${baseUrl}/es/gta-6-gameplay/` },
-          { lang: 'x-default', href: `${baseUrl}/gta-6-gameplay/` }
+          { lang: 'en', href: `${baseUrl}/${slug}/` },
+          { lang: 'es-es', href: `${baseUrl}/es/${slug}/` },
+          { lang: 'x-default', href: `${baseUrl}/${slug}/` }
         ]
       });
     } else {

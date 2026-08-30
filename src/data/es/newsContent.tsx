@@ -7,6 +7,7 @@ import { gta6ArtworksEs } from './news/gta-6-artworks';
 import { gta6NetflixViewershipEs } from './news/gta-6-netflix-viewership';
 import { gta6GameplayEs } from './news/gta-6-gameplay';
 import { rockstarCrewsEs } from './news/rockstar-crews';
+import { gta6TimelineEs } from './news/gta-6-timeline';
 
 
 
@@ -21,6 +22,7 @@ const articlesMapEs: Record<string, ArticleData> = {
   'gta-6-netflix-viewership': gta6NetflixViewershipEs,
   'gta-6-gameplay': gta6GameplayEs,
   'rockstar-crews': rockstarCrewsEs,
+  'gta-6-timeline': gta6TimelineEs,
 };
 
 export function getSpanishArticleBySlug(slug: string): ArticleData | undefined {

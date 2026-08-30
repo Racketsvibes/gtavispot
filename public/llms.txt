@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: August 30, 2026: Added Rockstar Crews news article and Spanish translations, updated sitemaps.*
+*Last updated: August 30, 2026: Added GTA 6 Timeline and Rockstar Crews news articles with Spanish translations, updated sitemaps.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -74,6 +74,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Artworks](https://gtavispot.com/news/gta-6-artworks/)
 - [GTA 6 Netflix Viewership](https://gtavispot.com/news/gta-6-netflix-viewership/)
 - [GTA 6 Gameplay](https://gtavispot.com/gta-6-gameplay/)
+- [GTA 6 Timeline](https://gtavispot.com/gta-6-timeline/)
 - [Rockstar Crews](https://gtavispot.com/news/rockstar-crews/)
 
 ## Story & Character Guides
@@ -114,6 +115,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Arte Oficial de GTA 6](https://gtavispot.com/es/news/gta-6-artworks/)
 - [Audiencia de GTA 6 en Netflix](https://gtavispot.com/es/news/gta-6-netflix-viewership/)
 - [Jugabilidad de GTA 6](https://gtavispot.com/es/gta-6-gameplay/)
+- [Cronología de GTA 6](https://gtavispot.com/es/gta-6-timeline/)
 - [Crews de Rockstar](https://gtavispot.com/es/news/rockstar-crews/)
 
 ## Utility & Legal Pages

@@ -153,6 +153,7 @@ export default function Header() {
       '/news/gta-6-netflix-viewership',
       '/gta-6-gameplay',
       '/news/rockstar-crews',
+      '/gta-6-timeline',
     ];
     return translatedPaths.includes(cleanPath);
   })();
@@ -229,6 +230,11 @@ export default function Header() {
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.topBar}>
           <div className={styles.topBarInner}>
+            <div className={styles.topBarLinks}>
+              <Link href={isSpanish ? '/es/gta-6-timeline/' : '/gta-6-timeline/'} className={styles.topBarLink}>
+                {isSpanish ? 'Cronología' : 'Timeline'}
+              </Link>
+            </div>
             <div className={styles.langSelector}>
               {isSpanish ? (
                 <>

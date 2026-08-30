@@ -18,7 +18,7 @@ export const gta6LeaksTimeline: ArticleData = {
       <p>
         The ongoing <strong>gta 6 leaks timeline</strong> has reached a head with a series of gameplay reveals by the anonymous group Cyberleek. 
         From the initial oceanside focus test to the recent Game Horde retail store leak, developers at Rockstar Games have struggled to contain the footage. 
-        Here's the chronological sequence of events defining the biggest pre-release leak of 2026.
+        Here's the chronological sequence of events defining the biggest pre-release leak of 2026. For a complete look at all announcements, see our main <Link href="/gta-6-timeline/">gta 6 timeline</Link> guide.
       </p>
 
       <div className={styles.quickAnswer}>

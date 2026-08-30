@@ -34,6 +34,16 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/news/gta-6-timeline/',
+        destination: '/gta-6-timeline/',
+        permanent: true,
+      },
+      {
+        source: '/es/news/gta-6-timeline/',
+        destination: '/es/gta-6-timeline/',
+        permanent: true,
+      },
+      {
         source: '/news/gta-6-vehicles/',
         destination: '/vehicles/',
         permanent: true,
@@ -90,6 +100,14 @@ const nextConfig: NextConfig = {
       {
         source: '/es/gta-6-gameplay/',
         destination: '/es/news/gta-6-gameplay/',
+      },
+      {
+        source: '/gta-6-timeline/',
+        destination: '/news/gta-6-timeline/',
+      },
+      {
+        source: '/es/gta-6-timeline/',
+        destination: '/es/news/gta-6-timeline/',
       },
     ];
   },

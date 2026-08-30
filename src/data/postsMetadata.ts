@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Timeline: Complete Development & Trailer History',
+    desc: 'Track the official GTA 6 timeline from early pre-production to the November 19, 2026 launch date. View the history of trailers, leaks, and delays.',
+    date: 'August 30, 2026',
+    tag: 'NEWS',
+    href: '/gta-6-timeline/',
+    img: '/images/gta-6-grand-theft-auto-6-official-extended-gameplay.webp',
+  },
+  {
     title: 'Rockstar Crews Guide: How to Join, Edit, and Create',
     desc: 'Learn how to use Rockstar Crews to join forces, design custom emblems, and organize players in GTA 5 and GTA Online. Read our official setup guide.',
     date: 'August 30, 2026',
