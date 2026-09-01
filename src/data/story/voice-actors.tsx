@@ -6,6 +6,20 @@ import VoiceActorQuiz from '@/components/ui/VoiceActorQuiz';
 import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
+const StoryCTAButton = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  return (
+    <div style={{ margin: '1.25rem 0 1.75rem 0' }}>
+      <Link href={href} className="story-cta-btn">
+        <span>{children}</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '6px' }}>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </Link>
+    </div>
+  );
+};
+
 export const voiceActors: StoryArticleData = {
   title: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   metaDescription: 'Looking for all GTA 6 voice actors? We have the complete list with real actor names, characters & photos. Updated 2026',
@@ -17,6 +31,32 @@ export const voiceActors: StoryArticleData = {
   featureImage: '/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp',
   content: (
     <ImageLightbox>
+      <style dangerouslySetInnerHTML={{__html: `
+        .story-cta-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 8px 20px;
+          font-size: 0.95rem;
+          font-weight: 700;
+          color: #ffffff !important;
+          background: linear-gradient(135deg, #3b1578, #d6246e);
+          border-radius: 24px;
+          text-decoration: none;
+          box-shadow: 0 3px 8px rgba(214, 36, 110, 0.25);
+          transition: all 0.2s ease;
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          border: 1px solid transparent;
+        }
+        .story-cta-btn:hover {
+          background: linear-gradient(135deg, #d6246e, #f58634);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 16px rgba(245, 134, 52, 0.4);
+        }
+      `}} />
+
       <p>
         The cast of <strong>GTA 6 voice actors</strong> represents one of the largest talent investments in modern entertainment history. Rockstar Games has assembled a diverse group of actors, models, and street artists to bring the state of Leonida to life, utilizing advanced motion-capture technologies to capture realistic performances.
       </p>
@@ -141,6 +181,10 @@ export const voiceActors: StoryArticleData = {
         </div>
       </div>
 
+      <StoryCTAButton href="/story/lucia/">
+        Explore Lucia Character Guide
+      </StoryCTAButton>
+
       <h2>Jason Duval</h2>
       <div className={styles.featureImageContainer}>
         <Image
@@ -238,6 +282,10 @@ export const voiceActors: StoryArticleData = {
         </div>
       </div>
 
+      <StoryCTAButton href="/story/jason/">
+        Explore Jason Character Guide
+      </StoryCTAButton>
+
       <h2>Raul Bautista</h2>
       <div className={styles.featureImageContainer}>
         <Image
@@ -284,6 +332,10 @@ export const voiceActors: StoryArticleData = {
           />
         </div>
       </div>
+
+      <StoryCTAButton href="/story/gta-6-raul-bautista/">
+        Read Raul Bautista Cast Leaks
+      </StoryCTAButton>
 
       <h2>Cal Hampton</h2>
       <div className={styles.featureImageContainer}>
@@ -571,6 +623,10 @@ export const voiceActors: StoryArticleData = {
         This structured table displays the key actors who drive the main campaign. Each supporting character underwent the same rigorous casting process, ensuring the dialogue stays consistent across the entire map. For instance, Spain-born actor Oscar Jaenada has been heavily linked by fans to the role of the Vice Port cartel contact. Read our overview of the <Link href="/story/gta-6-raul-bautista/">gta 6 raul bautista cast leaks</Link> to check out the latest visual comparisons and social media teases.
       </p>
 
+      <StoryCTAButton href="/story/gta-6-characters/">
+        View All GTA 6 Characters & Profiles
+      </StoryCTAButton>
+
       <h2>The Motion Capture and Performance Capture Process</h2>
       <p>
         Rockstar Games did not use simple voice booths for the dialogue. The studio utilized "performance capture," which records voice, facial expressions, and body movements simultaneously:
@@ -589,6 +645,10 @@ export const voiceActors: StoryArticleData = {
       <p>
         You can expect minor easter egg references and podcast guest appearances from previous characters, but Michael, Trevor, and Franklin do not appear in the Leonida story. This allows the campaign to stand on its own, focusing entirely on the new partnership. For details on how the main story unfolds chapter-by-chapter, visit our <Link href="/story/walkthrough/">GTA 6 story mode walkthrough</Link>.
       </p>
+
+      <StoryCTAButton href="/story/walkthrough/">
+        Explore Story Mode Walkthrough
+      </StoryCTAButton>
 
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
