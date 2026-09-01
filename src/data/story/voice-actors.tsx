@@ -42,13 +42,23 @@ export const voiceActors: StoryArticleData = {
           color: #ffffff !important;
           background: linear-gradient(135deg, #3b1578, #d6246e);
           border-radius: 24px;
-          text-decoration: none;
+          text-decoration: none !important;
           box-shadow: 0 3px 8px rgba(214, 36, 110, 0.25);
           transition: all 0.2s ease;
           font-family: var(--font-ui), "Barlow Condensed", sans-serif;
           text-transform: uppercase;
           letter-spacing: 0.04em;
           border: 1px solid transparent;
+        }
+        .story-cta-btn:hover,
+        .story-cta-btn:focus,
+        .story-cta-btn:active,
+        .story-cta-btn:visited {
+          text-decoration: none !important;
+          color: #ffffff !important;
+        }
+        .story-cta-btn span {
+          text-decoration: none !important;
         }
         .story-cta-btn:hover {
           background: linear-gradient(135deg, #d6246e, #f58634);

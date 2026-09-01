@@ -42,7 +42,7 @@ export const gta6TimelineEs: ArticleData = {
           color: #ffffff !important;
           background: linear-gradient(135deg, #3b1578, #d6246e);
           border-radius: 20px;
-          text-decoration: none;
+          text-decoration: none !important;
           box-shadow: 0 2px 6px rgba(214, 36, 110, 0.25);
           transition: all 0.2s ease;
           font-family: var(--font-ui), "Barlow Condensed", sans-serif;
@@ -50,6 +50,16 @@ export const gta6TimelineEs: ArticleData = {
           letter-spacing: 0.03em;
           margin-top: 0.75rem;
           border: 1px solid transparent;
+        }
+        .timeline-btn:hover,
+        .timeline-btn:focus,
+        .timeline-btn:active,
+        .timeline-btn:visited {
+          text-decoration: none !important;
+          color: #ffffff !important;
+        }
+        .timeline-btn span {
+          text-decoration: none !important;
         }
         .timeline-btn:hover {
           background: linear-gradient(135deg, #d6246e, #f58634);
