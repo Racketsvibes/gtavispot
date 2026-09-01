@@ -1,0 +1,8 @@
+.mainWrapper {
+  min-height: 80vh;
+  padding: 40px 16px 80px 16px;
+  background-color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

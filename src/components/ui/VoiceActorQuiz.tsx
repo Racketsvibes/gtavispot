@@ -23,6 +23,8 @@ const initialPollOptions: PollOption[] = [
   { id: 'raul', name: 'Raul Bautista', actor: 'Cartel Boss Contact', baseVotes: 1640 },
   { id: 'boobie', name: 'Boobie Ike', actor: 'Nightclub Entrepreneur', baseVotes: 780 },
   { id: 'cal', name: 'Sheriff Cal Hampton', actor: 'Kelly County Antagonist', baseVotes: 590 },
+  { id: 'dimez', name: 'Real Dimez', actor: 'Internet Icon & Racer', baseVotes: 420 },
+  { id: 'brian', name: 'Brian Heder', actor: 'Keys Boat Smuggler', baseVotes: 310 },
 ];
 
 const quizQuestions: QuizQuestion[] = [
@@ -58,6 +60,39 @@ const quizQuestions: QuizQuestion[] = [
     ],
     correctIndex: 2,
     explanation: 'Rockstar has maintained their policy of separating storylines between major entries, keeping the focus entirely on Lucia and Jason.'
+  },
+  {
+    question: 'Which actor is heavily linked by fans to the voice and mo-cap of cartel boss Raul Bautista?',
+    options: [
+      'Oscar Jaenada',
+      'Steven Ogg',
+      'Javier Bardem',
+      'Pedro Pascal'
+    ],
+    correctIndex: 0,
+    explanation: 'Visual comparisons, vocal mannerisms, and casting disclosures strongly link Spain-born veteran actor Oscar Jaenada to the role of Raul Bautista.'
+  },
+  {
+    question: 'Who is the corrupt Kelly County lawman who blackmails Jason and Lucia into illegal smuggling runs?',
+    options: [
+      'Officer Tenpenny',
+      'Sheriff Cal Hampton',
+      'Frank Tenpenny',
+      'Deputy Dwight'
+    ],
+    correctIndex: 1,
+    explanation: 'Sheriff Cal Hampton is the corrupt antagonist who leverages his badge and warrants to coerce the protagonists into high-risk contraband transport.'
+  },
+  {
+    question: 'How long did the performance capture and dialogue recording process take for the GTA 6 cast?',
+    options: [
+      'Over 3 years in dedicated New York & London studios',
+      'Approximately 3 months of voiceover work',
+      'Generated digitally via AI in 2 weeks',
+      '6 months on a green screen soundstage in Los Angeles'
+    ],
+    correctIndex: 0,
+    explanation: 'The lead performers spent over three years and hundreds of hours recording dialogue and physical mocap movements simultaneously.'
   }
 ];
 
@@ -262,14 +297,14 @@ export default function VoiceActorQuiz() {
                 {score}/{quizQuestions.length}
               </div>
               <h4 className={styles.resultTitle}>
-                {score === 3
+                {score === quizQuestions.length
                   ? '🎯 Casting Trivia Master!'
-                  : score >= 2
+                  : score >= Math.ceil(quizQuestions.length * 0.6)
                   ? '🔥 Great Voice Cast Knowledge!'
                   : '🎮 Good Attempt! Keep Exploring'}
               </h4>
               <p className={styles.resultDesc}>
-                {score === 3
+                {score === quizQuestions.length
                   ? 'You know every detail about the GTA 6 cast, performance capture tech, and character backgrounds!'
                   : 'You are well on your way to mastering the GTA 6 cast list. Brush up on our character guides and try again!'}
               </p>

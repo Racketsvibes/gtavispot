@@ -4,10 +4,11 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: August 30, 2026: Added GTA 6 Timeline and Rockstar Crews news articles with Spanish translations, updated sitemaps.*
+*Last updated: September 1, 2026: Added GTA 6 Knowledge Quiz, interactive Voice Actor hub, and internal CTA button integrations.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
+- [Knowledge Quiz](https://gtavispot.com/quiz/)
 - [Release Date](https://gtavispot.com/news/gta-6-release-date/)
 - [Map Hub](https://gtavispot.com/map/)
 - [News Hub](https://gtavispot.com/news/)

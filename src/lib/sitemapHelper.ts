@@ -36,7 +36,7 @@ const newsModifiedDates: Record<string, string> = {
 
 const storyModifiedDates: Record<string, string> = {
   'missions': '2026-08-17',
-  'voice-actors': '2026-08-17',
+  'voice-actors': '2026-09-01',
   'side-missions': '2026-08-20',
   'walkthrough': '2026-07-17',
   'ending': '2026-08-20',
@@ -44,7 +44,7 @@ const storyModifiedDates: Record<string, string> = {
 };
 
 const techModifiedDates: Record<string, string> = {
-  'gta-6-system-requirements': '2026-08-20',
+  'gta-6-system-requirements': '2026-09-01',
   'gta-6-pc-requirements': '2026-07-21',
   'gta-6-pc-release-date': '2026-08-22',
 };
@@ -99,6 +99,7 @@ export function getEnglishUrls(): SitemapItem[] {
     { path: '/guides/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/map/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/faq/', changefreq: 'daily', priority: '0.9', lastmod: nowStr },
+    { path: '/quiz/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/story/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/tech/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/compare/', changefreq: 'weekly', priority: '0.9', lastmod: '2026-07-23' },

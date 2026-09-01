@@ -4,6 +4,20 @@ import Image from 'next/image';
 import { ArticleData } from '../techContent';
 import styles from '../../app/tech/[slug]/page.module.css';
 
+const TechCTAButton = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  return (
+    <div style={{ margin: '1.25rem 0 1.75rem 0' }}>
+      <Link href={href} className="tech-cta-btn">
+        <span>{children}</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '6px' }}>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </Link>
+    </div>
+  );
+};
+
 export const gta6SystemRequirements: ArticleData = {
   title: 'GTA 6 System Requirements: PS5 & Xbox Hardware Specs',
   metaDescription: 'Check GTA 6 system requirements for PS5, PS5 Pro, and Xbox Series X|S. Compare 60fps performance mode targets, console hardware specs, and PC details.',
@@ -25,6 +39,42 @@ export const gta6SystemRequirements: ArticleData = {
   },
   content: (
     <>
+      <style dangerouslySetInnerHTML={{__html: `
+        .tech-cta-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 8px 20px;
+          font-size: 0.95rem;
+          font-weight: 700;
+          color: #ffffff !important;
+          background: linear-gradient(135deg, #3b1578, #d6246e);
+          border-radius: 24px;
+          text-decoration: none !important;
+          box-shadow: 0 3px 8px rgba(214, 36, 110, 0.25);
+          transition: all 0.2s ease;
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          border: 1px solid transparent;
+        }
+        .tech-cta-btn:hover,
+        .tech-cta-btn:focus,
+        .tech-cta-btn:active,
+        .tech-cta-btn:visited {
+          text-decoration: none !important;
+          color: #ffffff !important;
+        }
+        .tech-cta-btn span {
+          text-decoration: none !important;
+        }
+        .tech-cta-btn:hover {
+          background: linear-gradient(135deg, #d6246e, #f58634);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 16px rgba(245, 134, 52, 0.4);
+        }
+      `}} />
+
       <p>
         Understanding the official <strong>gta 6 system requirements</strong> requires looking directly at console hardware baselines rather than desktop PC specs. Grand Theft Auto VI releases exclusively on PlayStation 5 and Xbox Series X|S on November 19, 2026, meaning the game is calibrated specifically around custom Zen 2 CPU architecture and ultra-fast NVMe storage.
       </p>
@@ -123,6 +173,10 @@ export const gta6SystemRequirements: ArticleData = {
         </tbody>
       </table>
 
+      <TechCTAButton href="/compare/ps5-vs-xbox-series-x/">
+        Compare PS5 vs Xbox Series X Specs
+      </TechCTAButton>
+
       <h2>Console Frame Rate Analysis: Will GTA 6 Be 60FPS or 30FPS?</h2>
       <p>
         The question surrounding <strong>gta 6 fps</strong> output dominates technical discussions across gaming forums. Many players want to know: <strong>will gta 6 be 60fps</strong> on standard hardware, or <strong>will gta 6 be 30fps</strong> due to heavy CPU simulation load?
@@ -155,6 +209,10 @@ export const gta6SystemRequirements: ArticleData = {
           className={styles.featureImage} 
         />
       </div>
+
+      <TechCTAButton href="/tech/gta-6-graphics/">
+        Explore GTA 6 Graphics & Ray Tracing
+      </TechCTAButton>
 
       <h2>Hacking Statistics & Authentic Technical Sources</h2>
       <p>
@@ -236,6 +294,10 @@ export const gta6SystemRequirements: ArticleData = {
         Preliminary estimates place the minimum PC CPU requirement at an Intel Core i7-11700K or AMD Ryzen 7 5800X, paired with an NVIDIA GeForce RTX 3070 to match base console simulation capacity. Check out our <Link href="/news/gta-6-pc-release-date/">upcoming desktop launch breakdown</Link> for detailed PC port expectations and launch windows.
       </p>
 
+      <TechCTAButton href="/news/gta-6-pc-release-date/">
+        Read PC Release Date Breakdown
+      </TechCTAButton>
+
       <h2>Technical Video Breakdown & Performance Analysis</h2>
       <p>
         Watch this in-depth hardware breakdown video analyzing console specs, PSSR upscaling capabilities, and frame rate targets for GTA 6:
@@ -307,6 +369,15 @@ export const gta6SystemRequirements: ArticleData = {
       <p>
         For official release schedules and time zone launch details, consult our <Link href="/news/gta-6-release-date/">official console release schedule</Link>. To see how these console requirements stack up against previous Rockstar Games titles, check our full <Link href="/compare/gta-6-vs-gta-5/">GTA 6 vs GTA 5 map size</Link> and graphics breakdown. If you are still deciding on launch day setups, read our complete guide analyzing <Link href="/compare/is-gta-6-worth-buying-in-2026/">should I pre order gta 6</Link> ahead of time.
       </p>
+
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', margin: '1.5rem 0' }}>
+        <TechCTAButton href="/gta-6-gameplay/">
+          Explore Gameplay Deep Dive
+        </TechCTAButton>
+        <TechCTAButton href="/news/gta-6-release-date/">
+          Check Official Release Schedule
+        </TechCTAButton>
+      </div>
     </>
   ),
 };
