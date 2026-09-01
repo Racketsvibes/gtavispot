@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ImageLightbox from '@/components/ui/ImageLightbox';
+import VoiceActorQuiz from '@/components/ui/VoiceActorQuiz';
 import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
@@ -518,6 +519,8 @@ export const voiceActors: StoryArticleData = {
           />
         </div>
       </div>
+
+      <VoiceActorQuiz />
 
       <h2>The Full GTA 6 Voice Cast & Characters</h2>
       <p>
