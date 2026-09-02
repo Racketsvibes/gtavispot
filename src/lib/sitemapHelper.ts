@@ -59,6 +59,10 @@ const worldModifiedDates: Record<string, string> = {
   'gta-6-animals': '2026-08-13',
 };
 
+const mapModifiedDates: Record<string, string> = {
+  'size': '2026-09-02',
+};
+
 // Currently translated pages in Spanish (slugs)
 const SPANISH_TRANSLATED_NEWS_SLUGS = [
   'gta-6-release-date',
@@ -141,9 +145,10 @@ export function getEnglishUrls(): SitemapItem[] {
 
   // Map slugs
   getAllMapArticleSlugs().forEach(slug => {
+    const modDate = mapModifiedDates[slug] || nowStr;
     items.push({
       url: `${baseUrl}/map/${slug}/`,
-      lastmod: nowStr,
+      lastmod: modDate,
       changefreq: 'weekly',
       priority: '0.8'
     });

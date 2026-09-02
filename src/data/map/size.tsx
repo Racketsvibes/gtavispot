@@ -3,17 +3,67 @@ import Link from 'next/link';
 import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
+const MapCTAButton = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  return (
+    <div style={{ margin: '1.25rem 0 1.75rem 0' }}>
+      <Link href={href} className="map-cta-btn">
+        <span>{children}</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '6px' }}>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </Link>
+    </div>
+  );
+};
+
 export const size: MapArticleData = {
   title: 'GTA 6 Map Size: How Big Is It vs GTA 5, RDR2 & More',
   metaDescription: 'GTA 6 map size revealed: Leonida is confirmed 2.7x larger than GTA 5. Full comparison vs RDR2, Cyberpunk 2077, Skyrim, and every major open world.',
   focusKeyword: 'GTA 6 map size',
   h1: 'GTA 6 Map Size: How Big Is It vs GTA 5 & RDR2?',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'September 2, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Map_Size.webp',
   content: (
     <>
+      <style dangerouslySetInnerHTML={{__html: `
+        .map-cta-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 8px 20px;
+          font-size: 0.95rem;
+          font-weight: 700;
+          color: #ffffff !important;
+          background: linear-gradient(135deg, #3b1578, #d6246e);
+          border-radius: 24px;
+          text-decoration: none !important;
+          box-shadow: 0 3px 8px rgba(214, 36, 110, 0.25);
+          transition: all 0.2s ease;
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          border: 1px solid transparent;
+        }
+        .map-cta-btn:hover,
+        .map-cta-btn:focus,
+        .map-cta-btn:active,
+        .map-cta-btn:visited {
+          text-decoration: none !important;
+          color: #ffffff !important;
+        }
+        .map-cta-btn span {
+          text-decoration: none !important;
+        }
+        .map-cta-btn:hover {
+          background: linear-gradient(135deg, #d6246e, #f58634);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 16px rgba(245, 134, 52, 0.4);
+        }
+      `}} />
+
       <p>
         The scale of the state of Leonida is a major talking point for players, with the <strong>GTA 6 map size</strong> setting a new benchmark for open-world games. Calculations indicate the map is significantly larger and more detailed than any previous Rockstar Games release, offering a massive landmass to explore.
       </p>
@@ -56,6 +106,10 @@ export const size: MapArticleData = {
       <p>
         This expansion is supported by advanced rendering engines that allow the game to stream large sections of the world without loading pauses, maintaining detail even when traveling at high speeds in jets.
       </p>
+
+      <MapCTAButton href="/compare/gta-6-vs-gta-5/">
+        Compare GTA 6 vs GTA 5 Map & Graphics
+      </MapCTAButton>
 
       <h2>How many square miles is the GTA 6 map?</h2>
       <p>
@@ -155,6 +209,10 @@ export const size: MapArticleData = {
         For a guide to the enterable buildings across the state, see our <Link href="/map/interiors/">GTA 6 enterable buildings guide</Link>.
       </p>
 
+      <MapCTAButton href="/map/interiors/">
+        Explore 700+ Enterable Buildings & Interiors
+      </MapCTAButton>
+
       <h2>Will the map feel too big or empty?</h2>
       <p>
         The developers have designed the map to prevent it from feeling empty. Random events can trigger anywhere, including animal attacks in the swamps and police chases on the highways.
@@ -168,6 +226,10 @@ export const size: MapArticleData = {
       <p>
         To find the secrets hidden in the wilderness, visit our <Link href="/map/secret-locations/">GTA 6 secret locations tracker</Link>.
       </p>
+
+      <MapCTAButton href="/map/secret-locations/">
+        Explore Secret Locations & Easter Eggs
+      </MapCTAButton>
 
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
