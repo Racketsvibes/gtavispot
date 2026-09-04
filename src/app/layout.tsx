@@ -173,17 +173,6 @@ export default function RootLayout({
             gtag('config', 'G-LYQ8CDZET1');
           `}
         </Script>
-        {/* Ad Scripts - loaded lazily to preserve PageSpeed and SEO performance */}
-        <Script
-          src="https://nap5k.com/tag.min.js"
-          data-zone="11682790"
-          strategy="lazyOnload"
-        />
-        <Script
-          src="https://n6wxm.com/vignette.min.js"
-          data-zone="11682819"
-          strategy="lazyOnload"
-        />
         <Header />
         <main id="main">{children}</main>
         <Footer />

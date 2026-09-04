@@ -6,7 +6,7 @@ This file tracks all external tracking, advertising, and analytics scripts insta
 
 ## 1. Active Ad Tags & Scripts
 
-### 📍 Script 1: Monetag Tag (Zone 11723860) — *Added per User Request*
+### 📍 Script 1: Monetag Tag (Zone 11723860) — *ONLY ACTIVE MONETAG ZONE*
 - **Status:** Active
 - **Provider / Domain:** `https://llvpn.com/tag.min.js`
 - **Zone ID:** `11723860`
@@ -36,31 +36,29 @@ This file tracks all external tracking, advertising, and analytics scripts insta
 
 ---
 
-### 📍 Script 2: Monetag Tag (Zone 11682790)
+### 📍 Script 2: Grow (Journey by Mediavine) — *KEPT ACTIVE*
 - **Status:** Active
-- **Provider / Domain:** `https://nap5k.com/tag.min.js`
-- **Zone ID:** `11682790`
-- **Placement File:** `src/app/layout.tsx`
-- **Performance Strategy:** `<Script strategy="lazyOnload" />`
+- **Provider:** Grow.me (Mediavine)
+- **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
+- **Placement File:** `src/app/layout.tsx` (lines 119–161)
+- **Performance Strategy:** Deferred & initialized on user interaction (`scroll`, `mousemove`, `touchstart`, `click`, `keydown`).
 
 ---
 
-### 📍 Script 3: Monetag Vignette (Zone 11682819)
+### 📍 Script 3: Google Analytics (GA4)
 - **Status:** Active
-- **Provider / Domain:** `https://n6wxm.com/vignette.min.js`
-- **Zone ID:** `11682819`
-- **Placement File:** `src/app/layout.tsx`
-- **Performance Strategy:** `<Script strategy="lazyOnload" />`
-
----
-
-### 📍 Script 4: Google Analytics (GA4)
 - **Measurement ID:** `G-LYQ8CDZET1`
 - **Placement File:** `src/app/layout.tsx`
 - **Performance Strategy:** `<Script strategy="afterInteractive" />`
 
 ---
 
-### 📍 Script 5: Grow.me Faves
-- **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
-- **Placement File:** `src/app/layout.tsx` (User interaction-triggered initialization)
+## 2. Removed Monetag Zones
+
+The following Monetag zones were previously present or requested for removal and have been completely removed from the codebase:
+
+| Zone ID | Description | Former Location / Provider | Status |
+|---|---|---|---|
+| `11682790` | Monetag Tag | `src/app/layout.tsx` (`https://nap5k.com/tag.min.js`) | ❌ Removed |
+| `11682819` | Monetag Vignette | `src/app/layout.tsx` (`https://n6wxm.com/vignette.min.js`) | ❌ Removed |
+| `11682813` | Monetag Zone | None / Removed | ❌ Removed |
