@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Rockstar Censors GTA 6 Trailer for China: All Changes & Blurred Scenes',
+    desc: 'Rockstar Games has published a heavily censored GTA 6 Extended Look trailer in China on Bilibili. See every blurred scene, from nightclub dancers to smoking & blood.',
+    date: 'September 5, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-china-censorship/',
+    img: '/images/news/gta-6-extended-look-feature.webp',
+  },
+  {
     title: 'Who Voices Lucia in GTA 6? Manni L. Perez Evidence & Profile',
     desc: 'Who voices Lucia in GTA 6? Discover why Manni L. Perez is the confirmed actress behind Lucia. Full bio, facial scans, GTA Online credits, and leak timeline.',
     date: 'September 5, 2026',

@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: September 5, 2026: Added Who Voices Lucia in GTA 6 deep-dive investigation (Manni L. Perez), refreshed story cluster internal links and sitemaps.*
+*Last updated: September 5, 2026: Added Rockstar Censors GTA 6 Trailer for China breaking news, Who Voices Lucia in GTA 6 investigation, and updated sitemaps.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -77,6 +77,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Gameplay](https://gtavispot.com/gta-6-gameplay/)
 - [GTA 6 Timeline](https://gtavispot.com/gta-6-timeline/)
 - [Rockstar Crews](https://gtavispot.com/news/rockstar-crews/)
+- [Rockstar Censors GTA 6 Trailer for China](https://gtavispot.com/news/gta-6-china-censorship/)
 
 ## Story & Character Guides
 - [GTA 6 Characters Guide](https://gtavispot.com/story/gta-6-characters/)

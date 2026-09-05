@@ -19,9 +19,13 @@ const mapSlugs = getSlugs('src/data/map');
 const storySlugs = getSlugs('src/data/story');
 const techSlugs = getSlugs('src/data/tech');
 const esNewsSlugs = getSlugs('src/data/es/news');
+const esStorySlugs = getSlugs('src/data/es/story');
 
 const staticRoutes = [
   '/',
+  '/quiz/',
+  '/gta-6-timeline/',
+  '/gta-6-gameplay/',
   '/vehicles/',
   '/weapons/',
   '/cheats/',
@@ -46,7 +50,8 @@ const urlList = [
   ...mapSlugs.map(slug => `${baseUrl}/map/${slug}/`),
   ...storySlugs.map(slug => `${baseUrl}/story/${slug}/`),
   ...techSlugs.map(slug => `${baseUrl}/tech/${slug}/`),
-  ...esNewsSlugs.map(slug => `${baseUrl}/es/news/${slug}/`)
+  ...esNewsSlugs.map(slug => `${baseUrl}/es/news/${slug}/`),
+  ...esStorySlugs.map(slug => `${baseUrl}/es/story/${slug}/`)
 ];
 
 console.log(`Submitting ${urlList.length} URLs to IndexNow...`);

@@ -8,6 +8,7 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'gta-6-china-censorship': '2026-09-05',
   'gta-6-timeline': '2026-08-30',
   'rockstar-crews': '2026-08-30',
   'gta-6-gameplay': '2026-08-29',
