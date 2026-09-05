@@ -27,7 +27,7 @@ export const gta6LuciaVoiceActress: StoryArticleData = {
   publishedDate: 'September 5, 2026',
   modifiedDate: 'September 5, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/Voice Actress - ManniLPerez/manni-l-perez-the-supposed-actor-for-lucia-in-gta-vi-shes-v0-pw7526w3exmh1.webp',
+  featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_02.webp',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `
@@ -64,24 +64,35 @@ export const gta6LuciaVoiceActress: StoryArticleData = {
           transform: translateY(-2px);
           box-shadow: 0 6px 16px rgba(245, 134, 52, 0.4);
         }
+
+        /* Bio Layout: Card + In-Game Image Side-by-Side */
+        .bio-section-layout {
+          display: grid;
+          grid-template-columns: 1.3fr 1fr;
+          gap: 20px;
+          align-items: stretch;
+          margin: 2rem 0;
+        }
         .bio-card-container {
           background: var(--bg-secondary, #f8fafc);
           border: 1.5px solid var(--border, #e2e8f0);
           border-radius: 16px;
-          padding: 24px;
-          margin: 2rem 0;
+          padding: 20px;
           box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
         }
         .bio-card-header {
           display: flex;
           align-items: center;
-          gap: 16px;
-          margin-bottom: 20px;
-          padding-bottom: 16px;
+          gap: 12px;
+          margin-bottom: 16px;
+          padding-bottom: 12px;
           border-bottom: 1px solid var(--border, #e2e8f0);
         }
         .bio-card-title {
-          font-size: 1.4rem;
+          font-size: 1.35rem;
           font-weight: 800;
           color: var(--text-primary, #0f172a);
           margin: 0;
@@ -91,55 +102,146 @@ export const gta6LuciaVoiceActress: StoryArticleData = {
         .bio-card-tag {
           background: rgba(214, 36, 110, 0.12);
           color: var(--brand-magenta, #d6246e);
-          padding: 4px 12px;
+          padding: 4px 10px;
           border-radius: 9999px;
-          font-size: 0.8rem;
+          font-size: 0.75rem;
           font-weight: 700;
           text-transform: uppercase;
           letter-spacing: 0.05em;
         }
         .bio-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-          gap: 16px;
+          grid-template-columns: 1fr 1fr;
+          gap: 12px;
         }
         .bio-item {
           display: flex;
           flex-direction: column;
-          gap: 4px;
+          gap: 2px;
         }
         .bio-label {
-          font-size: 0.82rem;
+          font-size: 0.78rem;
           text-transform: uppercase;
           font-weight: 700;
           color: var(--text-secondary, #64748b);
           letter-spacing: 0.04em;
         }
         .bio-value {
-          font-size: 1rem;
+          font-size: 0.95rem;
           font-weight: 600;
           color: var(--text-primary, #1e293b);
+          line-height: 1.3;
         }
-        .comparison-wrapper {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-          gap: 20px;
-          margin: 2rem 0;
-        }
-        .comparison-box {
+        .bio-side-image-box {
           background: var(--bg-secondary, #f8fafc);
-          border: 1px solid var(--border, #e2e8f0);
-          border-radius: 12px;
+          border: 1.5px solid var(--border, #e2e8f0);
+          border-radius: 16px;
           overflow: hidden;
-          text-align: center;
+          display: flex;
+          flex-direction: column;
+          box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
         }
-        .comparison-caption {
-          padding: 12px;
+        .bio-side-image-box img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+        }
+        .bio-side-caption {
+          padding: 10px 14px;
           font-weight: 700;
-          font-size: 0.92rem;
+          font-size: 0.88rem;
           color: var(--text-primary, #0f172a);
           font-family: var(--font-ui), "Barlow Condensed", sans-serif;
           letter-spacing: 0.03em;
+          text-align: center;
+          background: var(--bg-tertiary, #f1f5f9);
+          border-top: 1px solid var(--border, #e2e8f0);
+        }
+
+        /* 1 Left Real Image vs 2 Right GTA 6 Images Comparison */
+        .comparison-layout-1to2 {
+          display: grid;
+          grid-template-columns: 1fr 1.15fr;
+          gap: 18px;
+          align-items: stretch;
+          margin: 2rem 0;
+        }
+        .comparison-real-card {
+          background: var(--bg-secondary, #f8fafc);
+          border: 1.5px solid var(--border, #e2e8f0);
+          border-radius: 14px;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+        }
+        .comparison-real-img-wrap {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #0f172a;
+          overflow: hidden;
+        }
+        .comparison-real-img-wrap img {
+          width: 100%;
+          height: 100%;
+          max-height: 420px;
+          object-fit: cover;
+          display: block;
+        }
+        .comparison-game-stack {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+        }
+        .comparison-game-item {
+          background: var(--bg-secondary, #f8fafc);
+          border: 1.5px solid var(--border, #e2e8f0);
+          border-radius: 14px;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+        }
+        .comparison-game-item img {
+          width: 100%;
+          height: 175px;
+          object-fit: cover;
+          display: block;
+        }
+        .comparison-caption {
+          padding: 8px 12px;
+          font-weight: 700;
+          font-size: 0.85rem;
+          color: var(--text-primary, #0f172a);
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          letter-spacing: 0.03em;
+          text-align: center;
+          background: var(--bg-tertiary, #f1f5f9);
+          border-top: 1px solid var(--border, #e2e8f0);
+        }
+
+        .compact-leak-banner {
+          max-width: 680px;
+          margin: 1.75rem auto;
+          border-radius: 12px;
+          overflow: hidden;
+          border: 1px solid var(--border, #e2e8f0);
+          box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+        }
+
+        @media (max-width: 768px) {
+          .bio-section-layout {
+            grid-template-columns: 1fr;
+          }
+          .comparison-layout-1to2 {
+            grid-template-columns: 1fr;
+          }
+          .bio-grid {
+            grid-template-columns: 1fr;
+          }
         }
       `}} />
 
@@ -180,72 +282,62 @@ export const gta6LuciaVoiceActress: StoryArticleData = {
         Beyond standard on-camera acting, Perez underwent intensive physical stunt and motion capture training in New York soundstages. This specialized background made her an ideal candidate for Rockstar's physically demanding dual-protagonist performance capture sessions.
       </p>
 
-      {/* Bio Card Component */}
-      <div className="bio-card-container">
-        <div className="bio-card-header">
-          <div>
-            <h3 className="bio-card-title">Manni L. Perez</h3>
-            <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Voice Actress & Motion Capture Performer</span>
+      {/* Bio Section: Card on Left + In-Game Lucia on Right */}
+      <div className="bio-section-layout">
+        <div className="bio-card-container">
+          <div className="bio-card-header">
+            <div>
+              <h3 className="bio-card-title">Manni L. Perez</h3>
+              <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Voice Actress & Motion Capture Performer</span>
+            </div>
+            <span className="bio-card-tag" style={{ marginLeft: 'auto' }}>GTA 6 Lead Cast</span>
           </div>
-          <span className="bio-card-tag" style={{ marginLeft: 'auto' }}>GTA 6 Lead Cast</span>
+
+          <div className="bio-grid">
+            <div className="bio-item">
+              <span className="bio-label">Full Name</span>
+              <span className="bio-value">Manni L. Perez</span>
+            </div>
+            <div className="bio-item">
+              <span className="bio-label">Role in GTA 6</span>
+              <span className="bio-value">Lucia Caminos (Voice & Mocap)</span>
+            </div>
+            <div className="bio-item">
+              <span className="bio-label">Nationality & Heritage</span>
+              <span className="bio-value">American (Latina / Cuban descent)</span>
+            </div>
+            <div className="bio-item">
+              <span className="bio-label">Residence & Base</span>
+              <span className="bio-value">New York City, New York</span>
+            </div>
+            <div className="bio-item">
+              <span className="bio-label">Height & Build</span>
+              <span className="bio-value">5'7" (1.70 m) · Athletic Build</span>
+            </div>
+            <div className="bio-item">
+              <span className="bio-label">Notable TV Credits</span>
+              <span className="bio-value"><em>Law & Order: SVU</em>, <em>Jessica Jones</em>, <em>Chicago P.D.</em></span>
+            </div>
+            <div className="bio-item">
+              <span className="bio-label">Rockstar History</span>
+              <span className="bio-value"><em>GTA Online</em> (Diamond Casino ambient voice)</span>
+            </div>
+            <div className="bio-item">
+              <span className="bio-label">Performance Specialty</span>
+              <span className="bio-value">3D Performance Capture & Firearms Stunts</span>
+            </div>
+          </div>
         </div>
 
-        <div className="bio-grid">
-          <div className="bio-item">
-            <span className="bio-label">Full Name</span>
-            <span className="bio-value">Manni L. Perez</span>
-          </div>
-          <div className="bio-item">
-            <span className="bio-label">Role in GTA 6</span>
-            <span className="bio-value">Lucia Caminos (Voice & Mocap)</span>
-          </div>
-          <div className="bio-item">
-            <span className="bio-label">Nationality & Heritage</span>
-            <span className="bio-value">American (Latina / Cuban descent)</span>
-          </div>
-          <div className="bio-item">
-            <span className="bio-label">Residence & Base</span>
-            <span className="bio-value">New York City, New York</span>
-          </div>
-          <div className="bio-item">
-            <span className="bio-label">Height & Build</span>
-            <span className="bio-value">5'7" (1.70 m) · Athletic Build</span>
-          </div>
-          <div className="bio-item">
-            <span className="bio-label">Notable TV Appearances</span>
-            <span className="bio-value"><em>Law & Order: SVU</em>, <em>Jessica Jones</em>, <em>Chicago P.D.</em></span>
-          </div>
-          <div className="bio-item">
-            <span className="bio-label">Previous Rockstar Roles</span>
-            <span className="bio-value"><em>GTA Online</em> (Diamond Casino ambient voice)</span>
-          </div>
-          <div className="bio-item">
-            <span className="bio-label">Performance Specialization</span>
-            <span className="bio-value">Full 3D Performance Capture & Firearms Stunts</span>
-          </div>
-        </div>
-      </div>
-
-      <div className="comparison-wrapper">
-        <div className="comparison-box">
+        <div className="bio-side-image-box">
           <Image
-            src="/images/Voice Actress - ManniLPerez/ManniLPerez-VoiceActress.webp"
-            alt="Manni L. Perez headshot photo"
+            src="/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_04.webp"
+            alt="Lucia Caminos in GTA 6 combat action scene"
             width={600}
-            height={400}
-            style={{ width: '100%', height: 'auto', display: 'block' }}
+            height={450}
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
-          <div className="comparison-caption">Manni L. Perez — Real-Life Actress</div>
-        </div>
-        <div className="comparison-box">
-          <Image
-            src="/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_01.webp"
-            alt="Lucia in GTA 6 official reveal trailer screenshot"
-            width={600}
-            height={400}
-            style={{ width: '100%', height: 'auto', display: 'block' }}
-          />
-          <div className="comparison-caption">Lucia Caminos — GTA 6 In-Game Model</div>
+          <div className="bio-side-caption">Lucia Caminos — GTA 6 In-Game Model</div>
         </div>
       </div>
 
@@ -264,14 +356,50 @@ export const gta6LuciaVoiceActress: StoryArticleData = {
         <li><strong>Vocal Frequency & Accent:</strong> In Trailer 1, Lucia delivers key lines including <em>"Trust?"</em> and <em>"Bad luck, I guess."</em> Audio spectral comparisons match Perez's New York Latina cadence, vocal rasp, and pitch frequency recorded in previous TV interviews.</li>
       </ul>
 
-      <div className={styles.featureImageContainer}>
+      {/* 1 Left Real Image vs 2 Right GTA 6 Game Images */}
+      <div className="comparison-layout-1to2">
+        <div className="comparison-real-card">
+          <div className="comparison-real-img-wrap">
+            <Image
+              src="/images/Voice Actress - ManniLPerez/ManniLPerez-VoiceActress.webp"
+              alt="Manni L. Perez headshot photo"
+              width={400}
+              height={500}
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            />
+          </div>
+          <div className="comparison-caption">Manni L. Perez — Real-Life Actress</div>
+        </div>
+
+        <div className="comparison-game-stack">
+          <div className="comparison-game-item">
+            <Image
+              src="/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_01.webp"
+              alt="Lucia in GTA 6 Leonida Department of Corrections screenshot"
+              width={600}
+              height={338}
+            />
+            <div className="comparison-caption">Lucia — Leonida Penitentiary Facial Scan</div>
+          </div>
+          <div className="comparison-game-item">
+            <Image
+              src="/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_03.webp"
+              alt="Lucia in GTA 6 convenience store heist scene"
+              width={600}
+              height={338}
+            />
+            <div className="comparison-caption">Lucia — Vice Port Heist Scene Model</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="compact-leak-banner">
         <Image
           src="/images/Voice Actress - ManniLPerez/manni-l-perez-the-supposed-actor-for-lucia-in-gta-vi-shes-v0-pw7526w3exmh1.webp"
           alt="Side by side comparison of Manni L. Perez and Lucia in GTA 6"
-          width={1200}
-          height={675}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-          className={styles.featureImage}
+          width={800}
+          height={450}
+          style={{ width: '100%', height: 'auto', display: 'block' }}
         />
       </div>
 
@@ -396,7 +524,7 @@ export const gta6LuciaVoiceActress: StoryArticleData = {
             "@type": "Article",
             "headline": "Who Voices Lucia in GTA 6? Manni L. Perez - Evidence, Background & Proof",
             "description": "Comprehensive investigative breakdown of Manni L. Perez as the voice and motion capture actress behind Lucia Caminos in GTA 6.",
-            "image": "https://www.gtavispot.com/images/Voice%20Actress%20-%20ManniLPerez/manni-l-perez-the-supposed-actor-for-lucia-in-gta-vi-shes-v0-pw7526w3exmh1.webp",
+            "image": "https://www.gtavispot.com/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_02.webp",
             "author": {
               "@type": "Person",
               "name": "Marcus Vance"
