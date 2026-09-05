@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getStoryArticleBySlug, getAllStoryArticleSlugs } from '@/data/storyContent';
+import { getSpanishStoryArticleBySlug, getAllSpanishStoryArticleSlugs } from '@/data/es/storyContent';
 import ShareButtons from '@/components/ShareButtons';
 import RelatedPosts from '@/components/RelatedPosts';
 import {
@@ -11,51 +11,53 @@ import {
   getFaqsFromFile,
   getSEOTitle
 } from '@/lib/schema';
-import styles from './page.module.css';
+import styles from '@/app/story/[slug]/page.module.css';
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
-  return getAllStoryArticleSlugs().map((slug) => ({ slug }));
+  return getAllSpanishStoryArticleSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
-  const article = getStoryArticleBySlug(slug);
+  const article = getSpanishStoryArticleBySlug(slug);
   if (!article) return {};
 
   const imageUrl = article.featureImage 
     ? `https://www.gtavispot.com${article.featureImage}` 
     : 'https://www.gtavispot.com/images/desktop.webp';
 
-  const spanishStorySlugs = ['gta-6-lucia-voice-actress'];
-  const hasSpanish = spanishStorySlugs.includes(slug);
+  const canonicalUrl = `https://www.gtavispot.com/es/story/${slug}/`;
+  const englishUrl = `https://www.gtavispot.com/story/${slug}/`;
+  const spanishUrl = `https://www.gtavispot.com/es/story/${slug}/`;
 
   return {
     title: getSEOTitle(article.title),
     description: article.metaDescription,
     alternates: {
-      canonical: `https://www.gtavispot.com/story/${slug}/`,
-      languages: hasSpanish ? {
-        'en': `https://www.gtavispot.com/story/${slug}/`,
-        'es-es': `https://www.gtavispot.com/es/story/${slug}/`,
-        'x-default': `https://www.gtavispot.com/story/${slug}/`,
-      } : undefined,
+      canonical: canonicalUrl,
+      languages: {
+        'en': englishUrl,
+        'es-es': spanishUrl,
+        'x-default': englishUrl,
+      }
     },
     openGraph: {
       title: article.title,
       description: article.metaDescription,
-      url: `https://www.gtavispot.com/story/${slug}/`,
+      url: canonicalUrl,
       type: 'article',
+      locale: 'es_ES',
       images: [
         {
           url: imageUrl,
           width: 1200,
           height: 630,
           alt: article.focusKeyword || article.title,
-         },
+        },
       ],
     },
     twitter: {
@@ -67,20 +69,22 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function StoryArticlePage({ params }: Props) {
+export default async function SpanishStoryArticlePage({ params }: Props) {
   const { slug } = await params;
-  const article = getStoryArticleBySlug(slug);
+  const article = getSpanishStoryArticleBySlug(slug);
   if (!article) notFound();
 
   const imageUrl = article.featureImage 
     ? `https://www.gtavispot.com${article.featureImage}` 
     : 'https://www.gtavispot.com/images/desktop.webp';
 
+  const canonicalUrl = `https://www.gtavispot.com/es/story/${slug}/`;
+
   // Generate Schemas
   const breadcrumbs = getBreadcrumbsSchema([
-    { name: 'Home', url: 'https://www.gtavispot.com' },
-    { name: 'Story Hub', url: 'https://www.gtavispot.com/story/' },
-    { name: article.h1, url: `https://www.gtavispot.com/story/${slug}/` }
+    { name: 'Inicio', url: 'https://www.gtavispot.com/es/' },
+    { name: 'Historia', url: 'https://www.gtavispot.com/story/' },
+    { name: article.h1, url: canonicalUrl }
   ]);
 
   const articleSchema = getArticleSchema({
@@ -90,7 +94,7 @@ export default async function StoryArticlePage({ params }: Props) {
     datePublished: article.publishedDate,
     dateModified: article.modifiedDate,
     authorName: article.author,
-    url: `https://www.gtavispot.com/story/${slug}/`
+    url: canonicalUrl
   });
 
   const faqs = getFaqsFromFile(slug, 'story');
@@ -116,27 +120,27 @@ export default async function StoryArticlePage({ params }: Props) {
 
       {/* Breadcrumbs */}
       <div className={`container ${styles.breadcrumbs}`}>
-        <Link href="/" className={styles.breadLink}>Home</Link>
+        <Link href="/" className={styles.breadLink}>Inicio</Link>
         <span className={styles.breadSep}>/</span>
-        <Link href="/story/" className={styles.breadLink}>Story Hub</Link>
+        <Link href="/story/" className={styles.breadLink}>Historia</Link>
         <span className={styles.breadSep}>/</span>
         <span className={styles.breadCurrent}>{article.h1}</span>
       </div>
 
       <article className={`container ${styles.article}`}>
         <header className={styles.header}>
-          <span className={styles.categoryBadge}>GTA 6 STORY & CHARACTERS</span>
+          <span className={styles.categoryBadge}>GTA 6 HISTORIA Y PERSONAJES</span>
           <h1 className={styles.title}>{article.h1}</h1>
           <div className={styles.meta}>
-            <span className={styles.metaItem}>By <strong>{article.author}</strong></span>
+            <span className={styles.metaItem}>Por <strong>{article.author}</strong></span>
             <span className={styles.metaSep}>•</span>
-            <span className={styles.metaItem}>Published: {article.publishedDate}</span>
+            <span className={styles.metaItem}>Publicado: {article.publishedDate}</span>
             <span className={styles.metaSep}>•</span>
-            <span className={styles.metaItem}>Last Updated: {article.modifiedDate}</span>
+            <span className={styles.metaItem}>Actualizado: {article.modifiedDate}</span>
           </div>
         </header>
 
-        <ShareButtons url={`https://www.gtavispot.com/story/${slug}/`} title={article.title} isTop />
+        <ShareButtons url={`https://www.gtavispot.com/es/story/${slug}/`} title={article.title} isTop />
 
         <div className={styles.divider} />
 
@@ -158,7 +162,7 @@ export default async function StoryArticlePage({ params }: Props) {
           {article.content}
         </div>
 
-        <ShareButtons url={`https://www.gtavispot.com/story/${slug}/`} title={article.title} />
+        <ShareButtons url={`https://www.gtavispot.com/es/story/${slug}/`} title={article.title} />
 
         {article.videoSchema && (
           <script

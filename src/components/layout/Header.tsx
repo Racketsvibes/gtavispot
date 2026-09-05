@@ -158,6 +158,7 @@ export default function Header() {
       '/gta-6-gameplay',
       '/news/rockstar-crews',
       '/gta-6-timeline',
+      '/story/gta-6-lucia-voice-actress',
     ];
     return translatedPaths.includes(cleanPath);
   })();

@@ -79,6 +79,10 @@ const SPANISH_TRANSLATED_NEWS_SLUGS = [
   'gta-6-timeline'
 ];
 
+const SPANISH_TRANSLATED_STORY_SLUGS = [
+  'gta-6-lucia-voice-actress'
+];
+
 export interface SitemapItem {
   url: string;
   lastmod: string;
@@ -193,11 +197,17 @@ export function getEnglishUrls(): SitemapItem[] {
   // Story slugs
   getAllStoryArticleSlugs().forEach(slug => {
     const modDate = storyModifiedDates[slug] || nowStr;
+    const hasSpanish = SPANISH_TRANSLATED_STORY_SLUGS.includes(slug);
     items.push({
       url: `${baseUrl}/story/${slug}/`,
       lastmod: modDate,
       changefreq: 'weekly',
-      priority: '0.8'
+      priority: '0.8',
+      alternates: hasSpanish ? [
+        { lang: 'en', href: `${baseUrl}/story/${slug}/` },
+        { lang: 'es-es', href: `${baseUrl}/es/story/${slug}/` },
+        { lang: 'x-default', href: `${baseUrl}/story/${slug}/` }
+      ] : undefined
     });
   });
 
@@ -283,6 +293,21 @@ export function getSpanishUrls(): SitemapItem[] {
         ]
       });
     }
+  });
+
+  SPANISH_TRANSLATED_STORY_SLUGS.forEach(slug => {
+    const modDate = storyModifiedDates[slug] || nowStr;
+    items.push({
+      url: `${baseUrl}/es/story/${slug}/`,
+      lastmod: modDate,
+      changefreq: 'weekly',
+      priority: '0.8',
+      alternates: [
+        { lang: 'en', href: `${baseUrl}/story/${slug}/` },
+        { lang: 'es-es', href: `${baseUrl}/es/story/${slug}/` },
+        { lang: 'x-default', href: `${baseUrl}/story/${slug}/` }
+      ]
+    });
   });
 
   return items;
