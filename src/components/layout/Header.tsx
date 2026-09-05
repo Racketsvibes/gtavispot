@@ -159,6 +159,7 @@ export default function Header() {
       '/news/rockstar-crews',
       '/gta-6-timeline',
       '/story/gta-6-lucia-voice-actress',
+      '/news/gta-6-china-censorship',
     ];
     return translatedPaths.includes(cleanPath);
   })();

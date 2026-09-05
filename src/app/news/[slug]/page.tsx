@@ -39,7 +39,8 @@ export async function generateMetadata({ params }: Props) {
     'gta-6-netflix-viewership',
     'gta-6-gameplay',
     'rockstar-crews',
-    'gta-6-timeline'
+    'gta-6-timeline',
+    'gta-6-china-censorship'
   ].includes(slug);
 
   const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];

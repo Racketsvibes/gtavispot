@@ -77,7 +77,8 @@ const SPANISH_TRANSLATED_NEWS_SLUGS = [
   'gta-6-netflix-viewership',
   'gta-6-gameplay',
   'rockstar-crews',
-  'gta-6-timeline'
+  'gta-6-timeline',
+  'gta-6-china-censorship'
 ];
 
 const SPANISH_TRANSLATED_STORY_SLUGS = [

@@ -8,6 +8,7 @@ import { gta6NetflixViewershipEs } from './news/gta-6-netflix-viewership';
 import { gta6GameplayEs } from './news/gta-6-gameplay';
 import { rockstarCrewsEs } from './news/rockstar-crews';
 import { gta6TimelineEs } from './news/gta-6-timeline';
+import { gta6ChinaCensorshipEs } from './news/gta-6-china-censorship';
 
 
 
@@ -23,6 +24,7 @@ const articlesMapEs: Record<string, ArticleData> = {
   'gta-6-gameplay': gta6GameplayEs,
   'rockstar-crews': rockstarCrewsEs,
   'gta-6-timeline': gta6TimelineEs,
+  'gta-6-china-censorship': gta6ChinaCensorshipEs,
 };
 
 export function getSpanishArticleBySlug(slug: string): ArticleData | undefined {
