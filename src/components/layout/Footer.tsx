@@ -171,15 +171,25 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* === START AD SCRIPT: ZONE 11723860 (llvpn.com) === */}
+      {/* === START AD SCRIPT: ZONE 11682813 (5gvci.com) === */}
       {/* Loaded with strategy="lazyOnload" so it executes during idle time without hurting PageSpeed or Core Web Vitals */}
       <Script
-        id="ad-tag-11723860"
-        src="https://llvpn.com/tag.min.js"
-        data-zone="11723860"
+        id="ad-tag-11682813"
+        src="https://5gvci.com/act/files/tag.min.js?z=11682813"
+        data-cfasync="false"
         strategy="lazyOnload"
       />
-      {/* === END AD SCRIPT: ZONE 11723860 === */}
+      {/* === END AD SCRIPT: ZONE 11682813 === */}
+
+      {/* === START AD SCRIPT: ZONE 11682790 (ueuee.com) === */}
+      {/* Loaded with strategy="lazyOnload" so it executes during idle time without hurting PageSpeed or Core Web Vitals */}
+      <Script
+        id="ad-tag-11682790"
+        src="https://ueuee.com/tag.min.js"
+        data-zone="11682790"
+        strategy="lazyOnload"
+      />
+      {/* === END AD SCRIPT: ZONE 11682790 === */}
     </footer>
   );
 }
