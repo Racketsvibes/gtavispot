@@ -3,17 +3,66 @@ import Link from 'next/link';
 import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
+const StoryCTAButton = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  return (
+    <div style={{ margin: '1.25rem 0 1.75rem 0' }}>
+      <Link href={href} className="story-cta-btn">
+        <span>{children}</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '6px' }}>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </Link>
+    </div>
+  );
+};
+
 export const lucia: StoryArticleData = {
   title: 'GTA 6 Lucia Guide: Character, Backstory & Abilities',
   metaDescription: 'GTA 6 Lucia guide: backstory, voice actress, special abilities, Liberty City origins, and everything confirmed about the female lead.',
   focusKeyword: 'GTA 6 Lucia',
   h1: 'GTA 6 Lucia: Full Character Guide, Backstory & Abilities',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'September 5, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_03.webp',
   content: (
     <>
+      <style dangerouslySetInnerHTML={{__html: `
+        .story-cta-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 8px 20px;
+          font-size: 0.95rem;
+          font-weight: 700;
+          color: #ffffff !important;
+          background: linear-gradient(135deg, #3b1578, #d6246e);
+          border-radius: 24px;
+          text-decoration: none !important;
+          box-shadow: 0 3px 8px rgba(214, 36, 110, 0.25);
+          transition: all 0.2s ease;
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          border: 1px solid transparent;
+        }
+        .story-cta-btn:hover,
+        .story-cta-btn:focus,
+        .story-cta-btn:active,
+        .story-cta-btn:visited {
+          text-decoration: none !important;
+          color: #ffffff !important;
+        }
+        .story-cta-btn span {
+          text-decoration: none !important;
+        }
+        .story-cta-btn:hover {
+          background: linear-gradient(135deg, #d6246e, #f58634);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 16px rgba(245, 134, 52, 0.4);
+        }
+      `}} />
       <p>
         The introduction of <strong>GTA 6 Lucia</strong> marks a historic moment for Rockstar Games, presenting the first playable female protagonist in the franchise's modern 3D era. Releasing as one half of the game's central criminal partnership, Lucia's narrative arc, tactical abilities, and criminal backstory form the foundation of the Leonida campaign.
       </p>
@@ -64,6 +113,10 @@ export const lucia: StoryArticleData = {
       <p>
         To read about how her past crimes led to her imprisonment, visit our detailed <Link href="/story/lucia-backstory/">GTA 6 Lucia backstory analysis</Link>.
       </p>
+
+      <StoryCTAButton href="/story/gta-6-lucia-voice-actress/">
+        Who Voices Lucia? Full Manni L. Perez Evidence
+      </StoryCTAButton>
 
       <h2>What Is Lucia's Backstory in GTA 6?</h2>
       <p>
@@ -151,9 +204,9 @@ export const lucia: StoryArticleData = {
         <h2>Frequently Asked Questions</h2>
         
         <div className={styles.faqItem}>
-          <h3 className={styles.faqQuestion}>Who voices Lucia in GTA 6?</h3>
+          <h3 className={styles.faqQuestion}>Which actress performs the voice and motion capture for Lucia?</h3>
           <p className={styles.faqAnswer}>
-            Lucia is voiced by a professional voice actress, with motion capture and character design modeled after her physical features to ensure realistic expressions.
+            Lucia is portrayed by American actress <strong>Manni L. Perez</strong>, who provided both her vocal dialogue and 3D motion-capture acting. For complete casting leaks, audio frequency matches, and background details, check out our dedicated <Link href="/story/gta-6-lucia-voice-actress/">Manni L. Perez GTA 6 voice actress investigation</Link>.
           </p>
         </div>
 

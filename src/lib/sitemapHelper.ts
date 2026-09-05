@@ -36,7 +36,10 @@ const newsModifiedDates: Record<string, string> = {
 
 const storyModifiedDates: Record<string, string> = {
   'missions': '2026-08-17',
-  'voice-actors': '2026-09-01',
+  'voice-actors': '2026-09-05',
+  'lucia': '2026-09-05',
+  'lucia-backstory': '2026-09-05',
+  'gta-6-lucia-voice-actress': '2026-09-05',
   'side-missions': '2026-08-20',
   'walkthrough': '2026-07-17',
   'ending': '2026-08-20',

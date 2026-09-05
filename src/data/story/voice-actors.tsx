@@ -26,7 +26,7 @@ export const voiceActors: StoryArticleData = {
   focusKeyword: 'GTA 6 voice actors',
   h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'August 17, 2026',
+  modifiedDate: 'September 5, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp',
   content: (
@@ -191,9 +191,14 @@ export const voiceActors: StoryArticleData = {
         </div>
       </div>
 
-      <StoryCTAButton href="/story/lucia/">
-        Explore Lucia Character Guide
-      </StoryCTAButton>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', margin: '1.25rem 0 1.75rem 0' }}>
+        <StoryCTAButton href="/story/lucia/">
+          Explore Lucia Character Guide
+        </StoryCTAButton>
+        <StoryCTAButton href="/story/gta-6-lucia-voice-actress/">
+          Who Voices Lucia? Full Manni L. Perez Evidence
+        </StoryCTAButton>
+      </div>
 
       <h2>Jason Duval</h2>
       <div className={styles.featureImageContainer}>
@@ -673,7 +678,7 @@ export const voiceActors: StoryArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Who voices Lucia in GTA 6?</h3>
           <p className={styles.faqAnswer}>
-            Lucia is voiced by a professional American voice actress of Latin-American descent, who also provided the motion capture.
+            Lucia is voiced by New York-based Latina actress <strong>Manni L. Perez</strong>, known for her roles in <em>Law & Order: SVU</em> and <em>Jessica Jones</em>. Perez also performed the full 3D motion capture and physical stunt work. For a complete analysis of facial scans, audio frequencies, and Rockstar leaks, read our investigative <Link href="/story/gta-6-lucia-voice-actress/">Manni L. Perez GTA 6 voice actress guide</Link>.
           </p>
         </div>
 

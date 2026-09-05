@@ -3,17 +3,66 @@ import Link from 'next/link';
 import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
+const StoryCTAButton = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  return (
+    <div style={{ margin: '1.25rem 0 1.75rem 0' }}>
+      <Link href={href} className="story-cta-btn">
+        <span>{children}</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '6px' }}>
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </Link>
+    </div>
+  );
+};
+
 export const luciaBackstory: StoryArticleData = {
   title: 'GTA 6 Lucia Backstory: Liberty City, Origin & Full Lore',
   metaDescription: 'GTA 6 Lucia\'s full backstory: why she was in prison, her Liberty City origins, criminal history, and how her past shapes the entire GTA VI narrative.',
   focusKeyword: 'GTA 6 Lucia backstory',
   h1: 'GTA 6 Lucia Backstory: Full Origin, Liberty City & Lore Explained',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'September 5, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_05.webp',
   content: (
     <>
+      <style dangerouslySetInnerHTML={{__html: `
+        .story-cta-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 8px 20px;
+          font-size: 0.95rem;
+          font-weight: 700;
+          color: #ffffff !important;
+          background: linear-gradient(135deg, #3b1578, #d6246e);
+          border-radius: 24px;
+          text-decoration: none !important;
+          box-shadow: 0 3px 8px rgba(214, 36, 110, 0.25);
+          transition: all 0.2s ease;
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          border: 1px solid transparent;
+        }
+        .story-cta-btn:hover,
+        .story-cta-btn:focus,
+        .story-cta-btn:active,
+        .story-cta-btn:visited {
+          text-decoration: none !important;
+          color: #ffffff !important;
+        }
+        .story-cta-btn span {
+          text-decoration: none !important;
+        }
+        .story-cta-btn:hover {
+          background: linear-gradient(135deg, #d6246e, #f58634);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 16px rgba(245, 134, 52, 0.4);
+        }
+      `}} />
       <p>
         The details of <strong>GTA 6 Lucia backstory</strong> reveal a complex history that spans several major regions of the franchise's universe. Understanding why she was imprisoned, her connections to Liberty City, and her early life in Vice City provides critical context for her actions throughout the main campaign.
       </p>
@@ -64,6 +113,10 @@ export const luciaBackstory: StoryArticleData = {
       <p>
         For details on how her heist experience shapes gameplay options, see our guide on <Link href="/story/lucia/">GTA 6 Lucia skills and abilities</Link>.
       </p>
+
+      <StoryCTAButton href="/story/gta-6-lucia-voice-actress/">
+        Who Voices Lucia? Full Manni L. Perez Evidence
+      </StoryCTAButton>
 
       <h2>Why Was Lucia in Prison at the Start of GTA 6?</h2>
       <p>
