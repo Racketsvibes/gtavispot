@@ -9,6 +9,22 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Who Voices Lucia in GTA 6? Manni L. Perez Evidence & Profile',
+    desc: 'Who voices Lucia in GTA 6? Discover why Manni L. Perez is the confirmed actress behind Lucia. Full bio, facial scans, GTA Online credits, and leak timeline.',
+    date: 'September 5, 2026',
+    tag: 'STORY',
+    href: '/story/gta-6-lucia-voice-actress/',
+    img: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_02.webp',
+  },
+  {
+    title: 'GTA 6 Voice Actors & Cast: Complete Character Guide',
+    desc: 'Complete GTA 6 cast breakdown. Explore confirmed voice actors, Lucia and Jason performers, motion capture talent, and rumored celebrity cameos.',
+    date: 'September 5, 2026',
+    tag: 'STORY',
+    href: '/story/voice-actors/',
+    img: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_01.webp',
+  },
+  {
     title: 'GTA 6 Timeline: Complete Development & Trailer History',
     desc: 'Track the official GTA 6 timeline from early pre-production to the November 19, 2026 launch date. View the history of trailers, leaks, and delays.',
     date: 'August 30, 2026',
