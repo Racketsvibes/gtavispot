@@ -836,11 +836,42 @@ These files contain the detailed source data for this project:
 
 ---
 
+## PART 16 — ADSTERRA ADS & MONETIZATION ARCHITECTURE
+
+### 16.1 Overview & Core Principles
+- **Monetization Engine:** Adsterra Display & Native Advertising.
+- **Performance & Core Web Vitals:** 0 CLS, fastest LCP, and zero hydration mismatch. Ads render in client components (`'use client'`) using isolated sandboxed iframe containers to prevent global variable namespace collisions (`atOptions`).
+- **Styling Architecture:** Pure native CSS in [`src/app/globals.css`](file:///e:/GTA%20VI/src/app/globals.css). Never rely on uncompiled Tailwind utility classes.
+- **Central Switchboard:** [`src/config/adsterra.ts`](file:///e:/GTA%20VI/src/config/adsterra.ts) controls global master enable/disable as well as individual unit toggles.
+
+### 16.2 Ad Zones & Dimensions
+
+| Ad Format | Dimensions | Placement / Behavior | Component |
+|-----------|------------|----------------------|-----------|
+| **Side Rail Ads** | 160×600 | Floating skyscrapers on Left & Right screen gutters. Active only between Feature Image bottom and Related Posts / Footer top. Screen width $\ge 1220\text{px}$. | `SidebarAd160x600` (`SideRailAds`) |
+| **In-Content Banner** | 300×250 | Injected dynamically after the 2nd paragraph of narrative article body. | `InContentAd300x250` via `ArticleBodyWithAds` |
+| **Native Banner** | Responsive | Injected dynamically after the 4th paragraph (or end of article) with "Sponsored Stories" label. | `AdsterraNativeBanner` via `ArticleBodyWithAds` |
+| **Desktop Leaderboard** | 728×90 | Displayed below article content / above related posts on screens $\ge 768\text{px}$. | `ResponsiveLeaderboardAd` |
+| **Mobile Banner** | 320×50 | Displayed below article content / above related posts on screens $< 768\text{px}$. | `ResponsiveLeaderboardAd` |
+
+### 16.3 Side Rail Ads (160×600) Behavior Rules
+1. **Side-by-Side Placement**: Fixed at `right: calc(50% + 435px)` (Left rail) and `left: calc(50% + 435px)` (Right rail) relative to the 840px dead-centered article content.
+2. **Viewport Boundary**: Hidden on screens $< 1220\text{px}$ (`display: none !important`) to guarantee zero content overlap.
+3. **Smart Scroll-Awareness**:
+   - **Top Trigger**: `opacity: 0` / `visibility: hidden` at the top of the page; smoothly fades in only once user scrolls past the main Feature Image.
+   - **Bottom Trigger**: Automatically fades out (`opacity: 0` / `pointer-events: none`) the instant `#related-posts` or `footer` enters the viewport, preventing any overlap with related posts or footer links.
+
+### 16.4 Ads.txt Standard
+- Maintained in both [`public/ads.txt`](file:///e:/GTA%20VI/public/ads.txt) and App Router route handler [`src/app/ads.txt/route.ts`](file:///e:/GTA%20VI/src/app/ads.txt/route.ts) to guarantee direct 200 OK responses with `Content-Type: text/plain` across edge CDN routing.
+- **Entry**: `google.com, pub-7134755750458767, DIRECT, f08c47fec0942fa0`
+
+---
+
 > **This document is the single source of truth for the GTA Vi Spot project.**
 > **Any AI model that does not follow these rules is producing non-compliant work.**
 > **When in doubt, re-read this file.**
 
 ---
 
-*PROJECT_BIBLE.md — v1.1 — June 17, 2026*
+*PROJECT_BIBLE.md — v1.2 — September 2026*
 *gtavispot.com — Built with Next.js · Deployed on Vercel · WebP-Only · Light Default + Dark Toggle · Every Device*
