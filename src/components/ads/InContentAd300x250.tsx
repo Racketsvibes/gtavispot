@@ -17,7 +17,7 @@ export default function InContentAd300x250({
   if (!ADSTERRA_CONFIG.ENABLED || !config.enabled) return null;
 
   return (
-    <div className={`in-content-ad-300x250 my-6 flex justify-center w-full clear-both ${className}`}>
+    <div className={`in-content-ad-300x250 ${className}`} style={{ margin: '32px auto', width: '100%', display: 'flex', justifyContent: 'center', clear: 'both' }}>
       <AdsterraBanner
         adKey={config.key}
         width={config.width}

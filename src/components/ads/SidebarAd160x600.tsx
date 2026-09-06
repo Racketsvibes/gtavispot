@@ -23,12 +23,7 @@ export default function SidebarAd160x600({
       {/* Left Side Rail (160x600) — Sticks to the left side of the screen as the page is scrolled */}
       {(side === 'left' || side === 'both') && (
         <aside 
-          className={`side-rail-ad-left hidden min-[1360px]:flex flex-col items-center justify-center fixed z-30 w-[160px] pointer-events-auto ${className}`}
-          style={{
-            top: 'calc(50% + 20px)',
-            transform: 'translateY(-50%)',
-            right: 'calc(50% + 440px)',
-          }}
+          className={`side-rail-ad-container side-rail-ad-left ${className}`}
           aria-label="Left Side Rail Advertisement"
         >
           <AdsterraBanner
@@ -46,12 +41,7 @@ export default function SidebarAd160x600({
       {/* Right Side Rail (160x600) — Sticks to the right side of the screen as the page is scrolled */}
       {(side === 'right' || side === 'both') && (
         <aside 
-          className={`side-rail-ad-right hidden min-[1360px]:flex flex-col items-center justify-center fixed z-30 w-[160px] pointer-events-auto ${className}`}
-          style={{
-            top: 'calc(50% + 20px)',
-            transform: 'translateY(-50%)',
-            left: 'calc(50% + 440px)',
-          }}
+          className={`side-rail-ad-container side-rail-ad-right ${className}`}
           aria-label="Right Side Rail Advertisement"
         >
           <AdsterraBanner

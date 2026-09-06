@@ -42,9 +42,9 @@ export default function ArticleBodyWithAds({
     if (ADSTERRA_CONFIG.banner300x250.enabled && paragraphs.length >= 2) {
       const p2 = paragraphs[1]; // 2nd paragraph (0-indexed)
       let slot2 = p2.nextElementSibling as HTMLElement | null;
-      if (!slot2 || !slot2.classList.contains('ad-slot-p2')) {
+      if (!slot2 || !slot2.classList.contains('ad-slot-incontent-p2')) {
         slot2 = document.createElement('div');
-        slot2.className = 'ad-slot-p2 my-6 flex justify-center w-full clear-both';
+        slot2.className = 'ad-slot-incontent-p2';
         p2.parentNode?.insertBefore(slot2, p2.nextSibling);
       }
       setP2Target(slot2);
@@ -55,18 +55,18 @@ export default function ArticleBodyWithAds({
       if (paragraphs.length >= 4) {
         const p4 = paragraphs[3]; // 4th paragraph (0-indexed)
         let slot4 = p4.nextElementSibling as HTMLElement | null;
-        if (!slot4 || !slot4.classList.contains('ad-slot-p4')) {
+        if (!slot4 || !slot4.classList.contains('ad-slot-native-p4')) {
           slot4 = document.createElement('div');
-          slot4.className = 'ad-slot-p4 my-8 flex justify-center w-full clear-both';
+          slot4.className = 'ad-slot-native-p4';
           p4.parentNode?.insertBefore(slot4, p4.nextSibling);
         }
         setP4Target(slot4);
       } else if (paragraphs.length > 0) {
         const lastP = paragraphs[paragraphs.length - 1];
         let slot4 = lastP.nextElementSibling as HTMLElement | null;
-        if (!slot4 || !slot4.classList.contains('ad-slot-p4')) {
+        if (!slot4 || !slot4.classList.contains('ad-slot-native-p4')) {
           slot4 = document.createElement('div');
-          slot4.className = 'ad-slot-p4 my-8 flex justify-center w-full clear-both';
+          slot4.className = 'ad-slot-native-p4';
           lastP.parentNode?.insertBefore(slot4, lastP.nextSibling);
         }
         setP4Target(slot4);

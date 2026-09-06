@@ -97,19 +97,16 @@ export default function AdsterraBanner({
 
   return (
     <div 
-      className={`adsterra-banner-slot my-5 flex flex-col items-center justify-center text-center ${className}`}
+      className={`adsterra-banner-slot ${className}`}
       style={{ minHeight: `${height + 22}px` }}
     >
-      <div 
-        className="text-[10px] font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-1.5 select-none"
-        style={{ letterSpacing: '0.12em' }}
-      >
+      <div className="adsterra-label">
         {label}
       </div>
       <div
         ref={containerRef}
         style={{ width: `${width}px`, height: `${height}px` }}
-        className="flex items-center justify-center overflow-hidden rounded bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/5 shadow-sm"
+        className="adsterra-iframe-frame"
       />
     </div>
   );

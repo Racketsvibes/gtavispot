@@ -299,3 +299,138 @@ h4 { font-size: clamp(1.25rem, 2.2vw, 1.5rem); }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-muted);
 }
+
+/* ============================================
+   GTA Vi Spot — Adsterra Ads Styling (Pure CSS)
+   ============================================ */
+
+/* --- Side Rail Ads (160x600 Skyscrapers) --- */
+.side-rail-ad-container {
+  display: none !important;
+}
+
+@media (min-width: 1220px) {
+  .side-rail-ad-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: fixed !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 160px !important;
+    height: auto !important;
+    z-index: 40 !important;
+    pointer-events: auto !important;
+  }
+
+  .side-rail-ad-left {
+    right: calc(50% + 435px) !important;
+  }
+
+  .side-rail-ad-right {
+    left: calc(50% + 435px) !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .side-rail-ad-left {
+    right: calc(50% + 440px) !important;
+  }
+
+  .side-rail-ad-right {
+    left: calc(50% + 440px) !important;
+  }
+}
+
+/* --- Responsive Leaderboard (728x90 Desktop / 320x50 Mobile) --- */
+.responsive-leaderboard-container {
+  width: 100%;
+  margin: 36px auto 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+}
+
+.leaderboard-desktop-slot {
+  display: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.leaderboard-mobile-slot {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .leaderboard-desktop-slot {
+    display: flex;
+  }
+
+  .leaderboard-mobile-slot {
+    display: none;
+  }
+}
+
+/* --- Adsterra Banner Slot Containers --- */
+.adsterra-banner-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 12px auto;
+  width: 100%;
+}
+
+.adsterra-label {
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8888a4;
+  margin-bottom: 6px;
+  user-select: none;
+}
+
+[data-theme="dark"] .adsterra-label {
+  color: #a0a0c0;
+}
+
+.adsterra-iframe-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="dark"] .adsterra-iframe-frame {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* --- In-Content & Native Slot Injectors --- */
+.ad-slot-incontent-p2 {
+  margin: 32px auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  clear: both;
+}
+
+.ad-slot-native-p4 {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  clear: both;
+}

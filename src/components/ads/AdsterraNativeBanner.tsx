@@ -33,18 +33,16 @@ export default function AdsterraNativeBanner({ className = '' }: AdsterraNativeB
 
   return (
     <div 
-      className={`adsterra-native-banner-slot my-8 w-full max-w-[840px] mx-auto text-center ${className}`}
-      style={{ minHeight: '160px' }}
+      className={`adsterra-native-banner-slot ${className}`}
+      style={{ margin: '40px auto', width: '100%', maxWidth: '840px', textAlign: 'center', minHeight: '160px' }}
     >
-      <div 
-        className="text-[10px] font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-2 select-none"
-        style={{ letterSpacing: '0.12em' }}
-      >
+      <div className="adsterra-label" style={{ marginBottom: '8px' }}>
         Sponsored Stories
       </div>
       <div 
         ref={containerRef}
-        className="w-full overflow-hidden rounded-xl bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/5 p-2 min-h-[140px]"
+        className="adsterra-iframe-frame"
+        style={{ width: '100%', minHeight: '140px', padding: '8px' }}
       >
         <div id={config.containerId} />
       </div>
