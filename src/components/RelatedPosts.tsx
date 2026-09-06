@@ -224,7 +224,7 @@ export default function RelatedPosts({ category, currentSlug }: RelatedPostsProp
   }
 
   return (
-    <section className={styles.section}>
+    <section id="related-posts" className={styles.section}>
       <h2 className={styles.sectionTitle}>Related Guides & Posts</h2>
       <div className={styles.grid}>
         {related.map((post) => (
