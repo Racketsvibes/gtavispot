@@ -1,4 +1,5 @@
 import React from 'react';
+import { ResponsiveLeaderboardAd } from '@/components/ads';
 
 interface EntityLayoutProps {
   breadcrumbs: React.ReactNode;
@@ -41,6 +42,9 @@ export default function EntityLayout({
             </aside>
           )}
         </div>
+
+        {/* High-RPM Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
+        <ResponsiveLeaderboardAd />
 
         {/* Bottom index navigation */}
         {navigation}

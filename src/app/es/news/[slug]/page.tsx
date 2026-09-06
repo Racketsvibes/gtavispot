@@ -11,6 +11,7 @@ import {
   getFaqsFromFile,
   getSEOTitle
 } from '@/lib/schema';
+import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600 } from '@/components/ads';
 import styles from './page.module.css';
 
 interface Props {
@@ -166,62 +167,70 @@ export default async function ArticlePage({ params }: Props) {
         <span className={styles.breadCurrent}>{article.h1}</span>
       </div>
 
-      <article className={`container ${styles.article}`}>
-        <header className={styles.header}>
-          <span className={styles.categoryBadge}>GTA 6 NOTICIAS</span>
-          <h1 className={styles.title}>{article.h1}</h1>
-          <div className={styles.meta}>
-            <span className={styles.metaItem}>Por <strong>{article.author}</strong></span>
-            <span className={styles.metaSep}>•</span>
-            <span className={styles.metaItem}>Publicado: {article.publishedDate}</span>
-            <span className={styles.metaSep}>•</span>
-            <span className={styles.metaItem}>Actualizado: {article.modifiedDate}</span>
-          </div>
-        </header>
+      <div className="container flex justify-center gap-8 relative">
+        <article className={`container ${styles.article}`}>
+          <header className={styles.header}>
+            <span className={styles.categoryBadge}>GTA 6 NOTICIAS</span>
+            <h1 className={styles.title}>{article.h1}</h1>
+            <div className={styles.meta}>
+              <span className={styles.metaItem}>Por <strong>{article.author}</strong></span>
+              <span className={styles.metaSep}>•</span>
+              <span className={styles.metaItem}>Publicado: {article.publishedDate}</span>
+              <span className={styles.metaSep}>•</span>
+              <span className={styles.metaItem}>Actualizado: {article.modifiedDate}</span>
+            </div>
+          </header>
 
-        <ShareButtons url={`https://www.gtavispot.com/es/news/${slug}/`} title={article.title} isTop />
+          <ShareButtons url={`https://www.gtavispot.com/es/news/${slug}/`} title={article.title} isTop />
 
-        <div className={styles.divider} />
+          <div className={styles.divider} />
 
-        {article.featureImage && (
-          <div className={styles.featureImageContainer}>
-            <Image 
-              src={article.featureImage} 
-              alt={article.featureImageAlt || article.focusKeyword || article.title} 
-              width={1200}
-              height={630}
-              priority
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-              className={styles.featureImage} 
+          {article.featureImage && (
+            <div className={styles.featureImageContainer}>
+              <Image 
+                src={article.featureImage} 
+                alt={article.featureImageAlt || article.focusKeyword || article.title} 
+                width={1200}
+                height={630}
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                className={styles.featureImage} 
+              />
+            </div>
+          )}
+
+          <ArticleBodyWithAds className={styles.body}>
+            {article.content}
+          </ArticleBodyWithAds>
+
+          {/* Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
+          <ResponsiveLeaderboardAd label="Publicidad" />
+
+          <ShareButtons url={`https://www.gtavispot.com/es/news/${slug}/`} title={article.title} />
+
+          {article.videoSchema && (
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "VideoObject",
+                  "name": article.videoSchema.name,
+                  "description": article.videoSchema.description,
+                  "thumbnailUrl": article.videoSchema.thumbnailUrl,
+                  "uploadDate": article.videoSchema.uploadDate,
+                  "duration": article.videoSchema.duration,
+                  "contentUrl": article.videoSchema.contentUrl,
+                  "embedUrl": article.videoSchema.embedUrl,
+                }),
+              }}
             />
-          </div>
-        )}
+          )}
+        </article>
 
-        <div className={styles.body}>
-          {article.content}
-        </div>
-
-        <ShareButtons url={`https://www.gtavispot.com/es/news/${slug}/`} title={article.title} />
-
-        {article.videoSchema && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "VideoObject",
-                "name": article.videoSchema.name,
-                "description": article.videoSchema.description,
-                "thumbnailUrl": article.videoSchema.thumbnailUrl,
-                "uploadDate": article.videoSchema.uploadDate,
-                "duration": article.videoSchema.duration,
-                "contentUrl": article.videoSchema.contentUrl,
-                "embedUrl": article.videoSchema.embedUrl,
-              }),
-            }}
-          />
-        )}
-      </article>
+        {/* Desktop Sticky Sidebar Banner (160x600) */}
+        <SidebarAd160x600 label="Publicidad" />
+      </div>
       <div className="container">
         <RelatedPosts category="news" currentSlug={slug} />
       </div>

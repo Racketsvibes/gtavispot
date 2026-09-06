@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getStoryArticleBySlug, getAllStoryArticles } from '@/data/storyContent';
 import { getBreadcrumbsSchema } from '@/lib/schema';
+import { ResponsiveLeaderboardAd } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -69,6 +70,11 @@ export default function StoryHubPage() {
           </article>
         </section>
       )}
+
+      {/* Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
+      <div className="container">
+        <ResponsiveLeaderboardAd />
+      </div>
 
       {/* Grid of Other Story Pages */}
       <section className={`container ${styles.subPagesSection}`}>

@@ -3,6 +3,7 @@ import { gta6Guides } from '@/data/guides';
 import ShareButtons from '@/components/ShareButtons';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getBreadcrumbsSchema, getFAQSchema, getHowToSchema, getSEOTitle } from '@/lib/schema';
+import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600 } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -84,36 +85,44 @@ export default function GuidesPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <div className={`container ${styles.article}`}>
-        {/* Breadcrumbs visually */}
-        <div className={styles.breadcrumbs}>
-          <Link href="/" className={styles.breadLink}>Home</Link>
-          <span className={styles.breadSep}>/</span>
-          <span className={styles.breadCurrent}>Guides</span>
-        </div>
-
-        <header className={styles.header}>
-          <h1 className={styles.title}>{gta6Guides.h1}</h1>
-          <div className={styles.meta}>
-            <span>By <strong>{gta6Guides.author}</strong></span>
-            <span className={styles.metaSep}>•</span>
-            <span>Published: {gta6Guides.publishedDate}</span>
+      <div className="container flex justify-center gap-8 relative">
+        <article className={styles.article}>
+          {/* Breadcrumbs visually */}
+          <div className={styles.breadcrumbs}>
+            <Link href="/" className={styles.breadLink}>Home</Link>
+            <span className={styles.breadSep}>/</span>
+            <span className={styles.breadCurrent}>Guides</span>
           </div>
-        </header>
 
-        {/* Share buttons (top) */}
-        <ShareButtons isTop={true} url="https://www.gtavispot.com/guides/" title={gta6Guides.title} />
+          <header className={styles.header}>
+            <h1 className={styles.title}>{gta6Guides.h1}</h1>
+            <div className={styles.meta}>
+              <span>By <strong>{gta6Guides.author}</strong></span>
+              <span className={styles.metaSep}>•</span>
+              <span>Published: {gta6Guides.publishedDate}</span>
+            </div>
+          </header>
 
-        <div className={styles.divider}></div>
+          {/* Share buttons (top) */}
+          <ShareButtons isTop={true} url="https://www.gtavispot.com/guides/" title={gta6Guides.title} />
 
-        <main className={styles.body}>
-          {gta6Guides.content}
-        </main>
+          <div className={styles.divider}></div>
 
-        <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
+          <ArticleBodyWithAds className={styles.body}>
+            {gta6Guides.content}
+          </ArticleBodyWithAds>
 
-        {/* Share buttons (bottom) */}
-        <ShareButtons isTop={false} url="https://www.gtavispot.com/guides/" title={gta6Guides.title} />
+          {/* Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
+          <ResponsiveLeaderboardAd />
+
+          <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
+
+          {/* Share buttons (bottom) */}
+          <ShareButtons isTop={false} url="https://www.gtavispot.com/guides/" title={gta6Guides.title} />
+        </article>
+
+        {/* Desktop Sticky Sidebar Banner (160x600) */}
+        <SidebarAd160x600 />
       </div>
       <div className="container">
         <RelatedPosts category="guides" currentSlug="guides" />

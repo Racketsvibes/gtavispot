@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getAllSpanishArticles } from '@/data/es/newsContent';
 import { getBreadcrumbsSchema } from '@/lib/schema';
+import { ResponsiveLeaderboardAd } from '@/components/ads';
 import styles from '../../news/page.module.css';
 
 export const metadata = {
@@ -78,6 +79,11 @@ export default function SpanishNewsHubPage() {
           </div>
         </section>
       )}
+
+      {/* Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
+      <div className="container">
+        <ResponsiveLeaderboardAd label="Publicidad" />
+      </div>
 
       {/* Grid of Other Articles */}
       <section className={`container ${styles.articlesSection}`}>

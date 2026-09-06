@@ -12,6 +12,7 @@ import {
   getBreadcrumbsSchema
 } from '@/lib/schema';
 import { latestPublishedPosts } from '@/data/postsMetadata';
+import { ResponsiveLeaderboardAd } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -266,6 +267,11 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* High-RPM Responsive Leaderboard Ad (Below the fold) */}
+      <div className="container">
+        <ResponsiveLeaderboardAd />
+      </div>
 
       {/* ════════════════════════════════════════
           MEET THE MAIN CHARACTERS

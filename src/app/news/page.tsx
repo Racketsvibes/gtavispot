@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getAllArticles } from '@/data/newsContent';
 import { getBreadcrumbsSchema } from '@/lib/schema';
+import { ResponsiveLeaderboardAd } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -78,6 +79,11 @@ export default function NewsHubPage() {
           </div>
         </section>
       )}
+
+      {/* Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
+      <div className="container">
+        <ResponsiveLeaderboardAd />
+      </div>
 
       {/* Grid of Other Articles */}
       <section className={`container ${styles.articlesSection}`}>
