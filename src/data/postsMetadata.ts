@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Who Voices Jason in GTA 6? Dylan Rourke vs Gregory Connors',
+    desc: 'Who voices Jason in GTA 6? Full investigative breakdown comparing Dylan Rourke vs Gregory Connors. Resumes, vocal matches, deleted videos & proof.',
+    date: 'September 6, 2026',
+    tag: 'STORY',
+    href: '/story/gta-6-jason-voice-actor/',
+    img: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_02.webp',
+  },
+  {
     title: 'Rockstar Censors GTA 6 Trailer for China: All Changes & Blurred Scenes',
     desc: 'Rockstar Games has published a heavily censored GTA 6 Extended Look trailer in China on Bilibili. See every blurred scene, from nightclub dancers to smoking & blood.',
     date: 'September 5, 2026',

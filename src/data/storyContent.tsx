@@ -14,6 +14,7 @@ import { dualProtagonists } from './story/dual-protagonists';
 import { gta6Characters } from './story/gta-6-characters';
 import { gta6RaulBautista } from './story/gta-6-raul-bautista';
 import { gta6LuciaVoiceActress } from './story/gta-6-lucia-voice-actress';
+import { gta6JasonVoiceActor } from './story/gta-6-jason-voice-actor';
 
 
 export interface VideoSchema {
@@ -55,6 +56,7 @@ const storyArticlesMap: Record<string, StoryArticleData> = {
   'gta-6-characters': gta6Characters,
   'gta-6-raul-bautista': gta6RaulBautista,
   'gta-6-lucia-voice-actress': gta6LuciaVoiceActress,
+  'gta-6-jason-voice-actor': gta6JasonVoiceActor,
 };
 
 export function getStoryArticleBySlug(slug: string): StoryArticleData | undefined {
