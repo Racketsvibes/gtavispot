@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { gta6Mods } from '@/data/mods';
 import ShareButtons from '@/components/ShareButtons';
 import { getBreadcrumbsSchema, getFAQSchema, getItemListSchema, getSEOTitle } from '@/lib/schema';
+import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600 } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -94,51 +95,59 @@ export default function ModsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
 
-      <div className={`container ${styles.article}`}>
-        {/* Breadcrumbs visually */}
-        <div className={styles.breadcrumbs}>
-          <Link href="/" className={styles.breadLink}>Home</Link>
-          <span className={styles.breadSep}>/</span>
-          <span className={styles.breadCurrent}>Mods</span>
-        </div>
-
-        <header className={styles.header}>
-          <span className={styles.categoryBadge}>GTA 6 MODS & ROLEPLAY</span>
-          <h1 className={styles.title}>{gta6Mods.h1}</h1>
-          <div className={styles.meta}>
-            <span>By <strong>{gta6Mods.author}</strong></span>
-            <span className={styles.metaSep}>•</span>
-            <span>Published: {gta6Mods.publishedDate}</span>
+      <div className="relative w-full">
+        <article className={`container ${styles.article}`}>
+          {/* Breadcrumbs visually */}
+          <div className={styles.breadcrumbs}>
+            <Link href="/" className={styles.breadLink}>Home</Link>
+            <span className={styles.breadSep}>/</span>
+            <span className={styles.breadCurrent}>Mods</span>
           </div>
-        </header>
 
-        {/* Share buttons (top) */}
-        <ShareButtons isTop={true} url="https://www.gtavispot.com/mods/" title={gta6Mods.title} />
+          <header className={styles.header}>
+            <span className={styles.categoryBadge}>GTA 6 MODS & ROLEPLAY</span>
+            <h1 className={styles.title}>{gta6Mods.h1}</h1>
+            <div className={styles.meta}>
+              <span>By <strong>{gta6Mods.author}</strong></span>
+              <span className={styles.metaSep}>•</span>
+              <span>Published: {gta6Mods.publishedDate}</span>
+            </div>
+          </header>
 
-        <div className={styles.divider}></div>
+          {/* Share buttons (top) */}
+          <ShareButtons isTop={true} url="https://www.gtavispot.com/mods/" title={gta6Mods.title} />
 
-        {gta6Mods.featureImage && (
-          <div className={styles.featureImageContainer}>
-            <Image 
-              src={gta6Mods.featureImage} 
-              alt={gta6Mods.featureImageAlt || gta6Mods.title} 
-              width={1200}
-              height={630}
-              priority
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-              className={styles.featureImage} 
-            />
-          </div>
-        )}
+          <div className={styles.divider}></div>
 
-        <main className={styles.body}>
-          {gta6Mods.content}
-        </main>
+          {gta6Mods.featureImage && (
+            <div className={styles.featureImageContainer}>
+              <Image 
+                src={gta6Mods.featureImage} 
+                alt={gta6Mods.featureImageAlt || gta6Mods.title} 
+                width={1200}
+                height={630}
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                className={styles.featureImage} 
+              />
+            </div>
+          )}
 
-        <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
+          <ArticleBodyWithAds className={styles.body}>
+            {gta6Mods.content}
+          </ArticleBodyWithAds>
 
-        {/* Share buttons (bottom) */}
-        <ShareButtons isTop={false} url="https://www.gtavispot.com/mods/" title={gta6Mods.title} />
+          {/* Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
+          <ResponsiveLeaderboardAd />
+
+          <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
+
+          {/* Share buttons (bottom) */}
+          <ShareButtons isTop={false} url="https://www.gtavispot.com/mods/" title={gta6Mods.title} />
+        </article>
+
+        {/* Side Rail Ads (160x600 in gutters) */}
+        <SidebarAd160x600 />
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import { gta6Cheats } from '@/data/cheats';
 import ShareButtons from '@/components/ShareButtons';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getBreadcrumbsSchema, getFAQSchema, getHowToSchema, getSEOTitle } from '@/lib/schema';
+import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600 } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -79,36 +80,44 @@ export default function CheatsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <div className={`container ${styles.article}`}>
-        {/* Breadcrumbs visually */}
-        <div className={styles.breadcrumbs}>
-          <Link href="/" className={styles.breadLink}>Home</Link>
-          <span className={styles.breadSep}>/</span>
-          <span className={styles.breadCurrent}>Cheats</span>
-        </div>
-
-        <header className={styles.header}>
-          <h1 className={styles.title}>{gta6Cheats.h1}</h1>
-          <div className={styles.meta}>
-            <span>By <strong>{gta6Cheats.author}</strong></span>
-            <span className={styles.metaSep}>•</span>
-            <span>Published: {gta6Cheats.publishedDate}</span>
+      <div className="relative w-full">
+        <article className={`container ${styles.article}`}>
+          {/* Breadcrumbs visually */}
+          <div className={styles.breadcrumbs}>
+            <Link href="/" className={styles.breadLink}>Home</Link>
+            <span className={styles.breadSep}>/</span>
+            <span className={styles.breadCurrent}>Cheats</span>
           </div>
-        </header>
 
-        {/* Share buttons (top) */}
-        <ShareButtons isTop={true} url="https://www.gtavispot.com/cheats/" title={gta6Cheats.title} />
+          <header className={styles.header}>
+            <h1 className={styles.title}>{gta6Cheats.h1}</h1>
+            <div className={styles.meta}>
+              <span>By <strong>{gta6Cheats.author}</strong></span>
+              <span className={styles.metaSep}>•</span>
+              <span>Published: {gta6Cheats.publishedDate}</span>
+            </div>
+          </header>
 
-        <div className={styles.divider}></div>
+          {/* Share buttons (top) */}
+          <ShareButtons isTop={true} url="https://www.gtavispot.com/cheats/" title={gta6Cheats.title} />
 
-        <main className={styles.body}>
-          {gta6Cheats.content}
-        </main>
+          <div className={styles.divider}></div>
 
-        <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
+          <ArticleBodyWithAds className={styles.body}>
+            {gta6Cheats.content}
+          </ArticleBodyWithAds>
 
-        {/* Share buttons (bottom) */}
-        <ShareButtons isTop={false} url="https://www.gtavispot.com/cheats/" title={gta6Cheats.title} />
+          {/* Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
+          <ResponsiveLeaderboardAd />
+
+          <div className={styles.divider} style={{ margin: '48px 0 24px' }}></div>
+
+          {/* Share buttons (bottom) */}
+          <ShareButtons isTop={false} url="https://www.gtavispot.com/cheats/" title={gta6Cheats.title} />
+        </article>
+
+        {/* Desktop Left and Right Floating Sidebars (160x600 in empty spaces) */}
+        <SidebarAd160x600 side="both" />
       </div>
       <div className="container">
         <RelatedPosts category="cheats" currentSlug="cheats" />
