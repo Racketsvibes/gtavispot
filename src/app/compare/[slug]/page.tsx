@@ -20,7 +20,7 @@ import {
   getSEOTitle
 } from '@/lib/schema';
 import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600 } from '@/components/ads';
-import styles from './page.module.css';
+import styles from '../../tech/[slug]/page.module.css';
 
 interface ComparePageProps {
   params: Promise<{ slug: string }>;
