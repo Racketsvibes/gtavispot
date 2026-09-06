@@ -17,7 +17,12 @@ export default function SidebarAd160x600({
   if (!ADSTERRA_CONFIG.ENABLED || !config.enabled) return null;
 
   return (
-    <aside className={`sidebar-ad-160x600 hidden xl:flex flex-col items-center justify-start shrink-0 w-[160px] ${className}`}>
+    <aside 
+      className={`sidebar-ad-160x600 hidden min-[1360px]:block absolute top-0 w-[160px] z-10 ${className}`}
+      style={{
+        left: 'calc(50% + 440px)',
+      }}
+    >
       <div className="sticky top-28 w-full flex justify-center">
         <AdsterraBanner
           adKey={config.key}

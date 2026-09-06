@@ -167,7 +167,7 @@ export default async function ArticlePage({ params }: Props) {
         <span className={styles.breadCurrent}>{article.h1}</span>
       </div>
 
-      <div className="container flex justify-center gap-8 relative">
+      <div className="relative w-full">
         <article className={`container ${styles.article}`}>
           <header className={styles.header}>
             <span className={styles.categoryBadge}>GTA 6 NOTICIAS</span>
@@ -228,7 +228,7 @@ export default async function ArticlePage({ params }: Props) {
           )}
         </article>
 
-        {/* Desktop Sticky Sidebar Banner (160x600) */}
+        {/* Desktop Floating Sidebar Banner (160x600 in right gutter) */}
         <SidebarAd160x600 label="Publicidad" />
       </div>
       <div className="container">

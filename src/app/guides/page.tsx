@@ -85,8 +85,8 @@ export default function GuidesPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <div className="container flex justify-center gap-8 relative">
-        <article className={styles.article}>
+      <div className="relative w-full">
+        <article className={`container ${styles.article}`}>
           {/* Breadcrumbs visually */}
           <div className={styles.breadcrumbs}>
             <Link href="/" className={styles.breadLink}>Home</Link>
@@ -121,7 +121,7 @@ export default function GuidesPage() {
           <ShareButtons isTop={false} url="https://www.gtavispot.com/guides/" title={gta6Guides.title} />
         </article>
 
-        {/* Desktop Sticky Sidebar Banner (160x600) */}
+        {/* Desktop Floating Sidebar Banner (160x600 in right gutter) */}
         <SidebarAd160x600 />
       </div>
       <div className="container">

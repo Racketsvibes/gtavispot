@@ -173,7 +173,7 @@ export default async function CompareSlugPage({ params }: ComparePageProps) {
           <span className={styles.breadCurrent}>{article.h1}</span>
         </div>
 
-        <div className="container flex justify-center gap-8 relative">
+        <div className="relative w-full">
           <article className={`container ${styles.article}`}>
             <header className={styles.header}>
               <span className={styles.categoryBadge}>GTA 6 COMPARISON</span>
@@ -234,7 +234,7 @@ export default async function CompareSlugPage({ params }: ComparePageProps) {
             )}
           </article>
 
-          {/* Desktop Sticky Sidebar Banner (160x600) */}
+          {/* Desktop Floating Sidebar Banner (160x600 in right gutter) */}
           <SidebarAd160x600 />
         </div>
         <div className="container">
