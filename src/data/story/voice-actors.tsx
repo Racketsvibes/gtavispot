@@ -26,7 +26,7 @@ export const voiceActors: StoryArticleData = {
   focusKeyword: 'GTA 6 voice actors',
   h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'September 5, 2026',
+  modifiedDate: 'September 17, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp',
   content: (
@@ -76,11 +76,15 @@ export const voiceActors: StoryArticleData = {
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Lucia Performer:</strong> Voiced and motion-captured by a professional American actress.</span>
+            <span><strong>Brian Heder:</strong> Voiced by <strong>Stephen Root</strong> (<em>Barry</em>, <em>King of the Hill</em>) – <em>Officially Confirmed</em>.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Jason Performer:</strong> Played by an established voice actor specializing in action roles.</span>
+            <span><strong>Lucia Performer:</strong> Voiced and motion-captured by a professional American actress (Manni L. Perez).</span>
+          </li>
+          <li className={styles.quickAnswerItem}>
+            <span className={styles.quickAnswerDot}>•</span>
+            <span><strong>Jason Performer:</strong> Played by an established voice actor specializing in action roles (Gregory Connors).</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -88,7 +92,7 @@ export const voiceActors: StoryArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Official Source:</strong> Credits listings and casting announcements published by Rockstar Games.</span>
+            <span><strong>Official Source:</strong> Credits listings, actor confirmations, and casting disclosures published for Rockstar Games.</span>
           </li>
         </ul>
       </div>
@@ -446,25 +450,26 @@ export const voiceActors: StoryArticleData = {
         </div>
       </div>
 
-      <h2>Brian Heder</h2>
+      <h2>Brian Heder: Voiced by Stephen Root (Confirmed)</h2>
       <div className={styles.featureImageContainer}>
         <Image
-          src="/images/People/Brian%20Heder/Brian_Heder_04.webp"
-          alt="Brian Heder character in GTA 6"
+          src="/images/Brain_Herder_Voice_Actor/Brain_Herder_Voice_Actor_-_Stephen_Root.webp"
+          alt="Actor Stephen Root officially confirmed as voice actor for Brian Heder in GTA 6"
+          title="Stephen Root confirmed as Brian Heder voice actor in Grand Theft Auto VI"
           width={800}
-          height={450}
+          height={448}
           sizes="(max-width: 768px) 100vw, 800px"
           className={styles.featureImage}
         />
       </div>
       <p>
-        Brian Heder is voiced by a voice talent who captures the slow, rural tone of the Leonida Keys. Brian acts as Jason's landlord, supplying remote trailers and speedboats for smuggling. He coordinates waterborne drug runs across the Florida Keys channel. Learn more about the safehouse locations in our <Link href="/story/gta-6-characters/">GTA 6 characters list</Link>.
+        Actor <strong>Stephen Root</strong> is the first officially confirmed voice actor for <em>Grand Theft Auto VI</em>, playing the drug trafficker and boatyard owner <strong>Brian Heder</strong>. Best known for his acclaimed roles in HBO&apos;s <em>Barry</em>, Mike Judge&apos;s <em>King of the Hill</em> (as Bill Dauterive), <em>Office Space</em> (as Milton Waddams), and <em>Boardwalk Empire</em>, Root brings his seasoned gravitas and distinctive cadence to Leonida&apos;s criminal underworld. In <em>GTA 6</em>, Brian Heder serves as Jason Duval&apos;s landlord and primary smuggling associate in the Leonida Keys, supplying remote trailer safehouses, weapons caches, and high-speed boats for coastal contraband operations across Florida Keys waterways. Learn more about safehouse locations in our <Link href="/story/gta-6-characters/">GTA 6 characters list</Link> and follow his smuggling assignments in our <Link href="/story/missions/">GTA 6 missions guide</Link>.
       </p>
       <div className={styles.galleryGrid}>
         <div className={styles.galleryImageContainer}>
           <Image
             src="/images/People/Brian%20Heder/Brian_Heder_01.webp"
-            alt="Brian Heder trailer park safehouse"
+            alt="Brian Heder trailer park safehouse in GTA 6"
             width={200}
             height={113}
             sizes="(max-width: 768px) 50vw, 200px"
@@ -474,7 +479,7 @@ export const voiceActors: StoryArticleData = {
         <div className={styles.galleryImageContainer}>
           <Image
             src="/images/People/Brian%20Heder/Brian_Heder_02.webp"
-            alt="Brian Heder coordination room for drug runs"
+            alt="Brian Heder coordination room for drug runs in GTA 6"
             width={200}
             height={113}
             sizes="(max-width: 768px) 50vw, 200px"
@@ -484,7 +489,7 @@ export const voiceActors: StoryArticleData = {
         <div className={styles.galleryImageContainer}>
           <Image
             src="/images/People/Brian%20Heder/Brian_Heder_03.webp"
-            alt="Brian Heder boat smuggling setup"
+            alt="Brian Heder boat smuggling setup in GTA 6"
             width={200}
             height={113}
             sizes="(max-width: 768px) 50vw, 200px"
@@ -754,7 +759,7 @@ export const voiceActors: StoryArticleData = {
                 "@type": "ListItem",
                 "position": 6,
                 "name": "Brian Heder",
-                "description": "Voiced and performed by Brian Heder character actor"
+                "description": "Voiced and performed by Stephen Root (Officially Confirmed)"
               },
               {
                 "@type": "ListItem",

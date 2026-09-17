@@ -24,7 +24,7 @@ const initialPollOptions: PollOption[] = [
   { id: 'boobie', name: 'Boobie Ike', actor: 'Nightclub Entrepreneur', baseVotes: 780 },
   { id: 'cal', name: 'Sheriff Cal Hampton', actor: 'Kelly County Antagonist', baseVotes: 590 },
   { id: 'dimez', name: 'Real Dimez', actor: 'Internet Icon & Racer', baseVotes: 420 },
-  { id: 'brian', name: 'Brian Heder', actor: 'Keys Boat Smuggler', baseVotes: 310 },
+  { id: 'brian', name: 'Brian Heder', actor: 'Stephen Root (Confirmed)', baseVotes: 520 },
 ];
 
 const quizQuestions: QuizQuestion[] = [

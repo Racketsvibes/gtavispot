@@ -34,8 +34,8 @@ export const latestPublishedPosts: PostMetadata[] = [
   },
   {
     title: 'GTA 6 Voice Actors & Cast: Complete Character Guide',
-    desc: 'Complete GTA 6 cast breakdown. Explore confirmed voice actors, Lucia and Jason performers, motion capture talent, and rumored celebrity cameos.',
-    date: 'September 5, 2026',
+    desc: 'Complete GTA 6 cast breakdown. Explore confirmed voice actors including Stephen Root as Brian Heder, Lucia and Jason performers, motion capture talent, and casting updates.',
+    date: 'September 17, 2026',
     tag: 'STORY',
     href: '/story/voice-actors/',
     img: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_01.webp',
