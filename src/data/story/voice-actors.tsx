@@ -463,7 +463,26 @@ export const voiceActors: StoryArticleData = {
         />
       </div>
       <p>
-        Actor <strong>Stephen Root</strong> is the first officially confirmed voice actor for <em>Grand Theft Auto VI</em>, playing the drug trafficker and boatyard owner <strong>Brian Heder</strong>. Best known for his acclaimed roles in HBO&apos;s <em>Barry</em>, Mike Judge&apos;s <em>King of the Hill</em> (as Bill Dauterive), <em>Office Space</em> (as Milton Waddams), and <em>Boardwalk Empire</em>, Root brings his seasoned gravitas and distinctive cadence to Leonida&apos;s criminal underworld. In <em>GTA 6</em>, Brian Heder serves as Jason Duval&apos;s landlord and primary smuggling associate in the Leonida Keys, supplying remote trailer safehouses, weapons caches, and high-speed boats for coastal contraband operations across Florida Keys waterways. For a complete deep dive into his casting evidence, career history, and video breakdown, see our dedicated <Link href="/story/stephen-root-gta-6/">Stephen Root GTA 6 Brian Heder guide</Link>. You can also learn more about his safehouses in our <Link href="/story/gta-6-characters/">GTA 6 characters list</Link> and follow his smuggling assignments in our <Link href="/story/missions/">GTA 6 missions guide</Link>.
+        Actor <strong>Stephen Root</strong> is the first officially confirmed voice actor for <em>Grand Theft Auto VI</em>, playing the drug trafficker and boatyard owner <strong>Brian Heder</strong>. Root brings his seasoned gravitas and distinctive southern cadence to Leonida&apos;s criminal underworld.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Actor Profile:</strong> Acclaimed Emmy-nominated star best known for HBO&apos;s <em>Barry</em> (Monroe Fuches), Mike Judge&apos;s <em>King of the Hill</em> (Bill Dauterive &amp; Buck Strickland), <em>Office Space</em> (Milton Waddams), and <em>Boardwalk Empire</em>.
+        </li>
+        <li>
+          <strong>In-Game Role:</strong> Serves as Jason Duval&apos;s landlord and primary smuggling associate operating out of the <Link href="/map/leonida-keys/">Leonida Keys</Link>.
+        </li>
+        <li>
+          <strong>Safehouses &amp; Logistics:</strong> Supplies remote trailer safehouses, weapons caches, and high-speed boats for waterborne contraband distribution across southern channels.
+        </li>
+        <li>
+          <strong>Gameplay Assignments:</strong> Coordinates early-game boat runs, marine equipment sourcing, and evasion strategies against Leonard County police roadblocks.
+        </li>
+      </ul>
+
+      <p>
+        For a comprehensive breakdown of his casting confirmation, audio analysis, and video breakdown, see our dedicated <Link href="/story/stephen-root-gta-6/">Stephen Root GTA 6 Brian Heder guide</Link>. You can also explore his safehouses in our <Link href="/story/gta-6-characters/">GTA 6 characters list</Link> and follow his smuggling assignments in our <Link href="/story/missions/">GTA 6 missions guide</Link>.
       </p>
       <StoryCTAButton href="/story/stephen-root-gta-6/">
         Read Full Deep-Dive: Stephen Root in GTA 6 (Brian Heder Voice Actor)
