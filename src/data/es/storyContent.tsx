@@ -1,6 +1,7 @@
 import { StoryArticleData } from '../storyContent';
 import { gta6LuciaVoiceActressEs } from './story/gta-6-lucia-voice-actress';
 import { gta6JasonVoiceActorEs } from './story/gta-6-jason-voice-actor';
+import { stephenRootGta6Es } from './story/stephen-root-gta-6';
 
 export type { StoryArticleData };
 export interface StoryArticleDataEs extends StoryArticleData {}
@@ -8,6 +9,7 @@ export interface StoryArticleDataEs extends StoryArticleData {}
 const storyArticlesMapEs: Record<string, StoryArticleData> = {
   'gta-6-lucia-voice-actress': gta6LuciaVoiceActressEs,
   'gta-6-jason-voice-actor': gta6JasonVoiceActorEs,
+  'stephen-root-gta-6': stephenRootGta6Es,
 };
 
 export function getSpanishStoryArticleBySlug(slug: string): StoryArticleData | undefined {

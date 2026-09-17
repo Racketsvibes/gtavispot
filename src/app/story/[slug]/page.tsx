@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props) {
     ? `https://www.gtavispot.com${article.featureImage}` 
     : 'https://www.gtavispot.com/images/desktop.webp';
 
-  const spanishStorySlugs = ['gta-6-lucia-voice-actress', 'gta-6-jason-voice-actor'];
+  const spanishStorySlugs = ['gta-6-lucia-voice-actress', 'gta-6-jason-voice-actor', 'stephen-root-gta-6'];
   const hasSpanish = spanishStorySlugs.includes(slug);
 
   return {
