@@ -463,8 +463,11 @@ export const voiceActors: StoryArticleData = {
         />
       </div>
       <p>
-        Actor <strong>Stephen Root</strong> is the first officially confirmed voice actor for <em>Grand Theft Auto VI</em>, playing the drug trafficker and boatyard owner <strong>Brian Heder</strong>. Best known for his acclaimed roles in HBO&apos;s <em>Barry</em>, Mike Judge&apos;s <em>King of the Hill</em> (as Bill Dauterive), <em>Office Space</em> (as Milton Waddams), and <em>Boardwalk Empire</em>, Root brings his seasoned gravitas and distinctive cadence to Leonida&apos;s criminal underworld. In <em>GTA 6</em>, Brian Heder serves as Jason Duval&apos;s landlord and primary smuggling associate in the Leonida Keys, supplying remote trailer safehouses, weapons caches, and high-speed boats for coastal contraband operations across Florida Keys waterways. Learn more about safehouse locations in our <Link href="/story/gta-6-characters/">GTA 6 characters list</Link> and follow his smuggling assignments in our <Link href="/story/missions/">GTA 6 missions guide</Link>.
+        Actor <strong>Stephen Root</strong> is the first officially confirmed voice actor for <em>Grand Theft Auto VI</em>, playing the drug trafficker and boatyard owner <strong>Brian Heder</strong>. Best known for his acclaimed roles in HBO&apos;s <em>Barry</em>, Mike Judge&apos;s <em>King of the Hill</em> (as Bill Dauterive), <em>Office Space</em> (as Milton Waddams), and <em>Boardwalk Empire</em>, Root brings his seasoned gravitas and distinctive cadence to Leonida&apos;s criminal underworld. In <em>GTA 6</em>, Brian Heder serves as Jason Duval&apos;s landlord and primary smuggling associate in the Leonida Keys, supplying remote trailer safehouses, weapons caches, and high-speed boats for coastal contraband operations across Florida Keys waterways. For a complete deep dive into his casting evidence, career history, and video breakdown, see our dedicated <Link href="/story/stephen-root-gta-6/">Stephen Root GTA 6 Brian Heder guide</Link>. You can also learn more about his safehouses in our <Link href="/story/gta-6-characters/">GTA 6 characters list</Link> and follow his smuggling assignments in our <Link href="/story/missions/">GTA 6 missions guide</Link>.
       </p>
+      <StoryCTAButton href="/story/stephen-root-gta-6/">
+        Read Full Deep-Dive: Stephen Root in GTA 6 (Brian Heder Voice Actor)
+      </StoryCTAButton>
       <div className={styles.galleryGrid}>
         <div className={styles.galleryImageContainer}>
           <Image

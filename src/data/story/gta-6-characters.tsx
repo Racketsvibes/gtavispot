@@ -127,7 +127,7 @@ export const gta6Characters: StoryArticleData = {
         />
       </div>
       <p>
-        Brian Heder is a longtime drug runner based in the Leonida Keys, officially voiced by veteran actor <strong>Stephen Root</strong> (<em>Barry</em>, <em>King of the Hill</em>). He serves as Jason&apos;s landlord, providing safehouse trailers and watercraft logistics. For full casting breakdown, see our <Link href="/story/voice-actors/">GTA 6 voice actors guide</Link>.
+        Brian Heder is a longtime drug runner based in the Leonida Keys, officially voiced by veteran actor <strong>Stephen Root</strong> (<em>Barry</em>, <em>King of the Hill</em>). He serves as Jason&apos;s landlord, providing safehouse trailers and watercraft logistics. For in-depth performer analysis, read our <Link href="/story/stephen-root-gta-6/">Stephen Root GTA 6 guide</Link> or browse the full <Link href="/story/voice-actors/">GTA 6 voice actors list</Link>.
       </p>
       <ul>
         <li><strong>Keys Smuggler:</strong> Coordinates waterborne drug runs across the Florida Keys channel.</li>

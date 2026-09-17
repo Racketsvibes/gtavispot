@@ -36,6 +36,7 @@ const newsModifiedDates: Record<string, string> = {
 };
 
 const storyModifiedDates: Record<string, string> = {
+  'stephen-root-gta-6': '2026-09-17',
   'gta-6-jason-voice-actor': '2026-09-06',
   'missions': '2026-08-17',
   'voice-actors': '2026-09-17',

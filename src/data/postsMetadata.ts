@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Stephen Root GTA 6: Brian Heder Voice Actor Confirmed',
+    desc: 'Is Stephen Root in GTA 6? Full breakdown on Stephen Root as Brian Heder in GTA 6, character role, leak confirmation, filmography & audio analysis.',
+    date: 'September 17, 2026',
+    tag: 'STORY',
+    href: '/story/stephen-root-gta-6/',
+    img: '/images/People/Brian%20Heder/stephen-root-gta-6-voice-actor.webp',
+  },
+  {
     title: 'Who Voices Jason in GTA 6? Dylan Rourke vs Gregory Connors',
     desc: 'Who voices Jason in GTA 6? Full investigative breakdown comparing Dylan Rourke vs Gregory Connors. Resumes, vocal matches, deleted videos & proof.',
     date: 'September 6, 2026',
