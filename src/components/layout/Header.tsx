@@ -160,6 +160,7 @@ export default function Header() {
       '/gta-6-timeline',
       '/story/gta-6-lucia-voice-actress',
       '/story/gta-6-jason-voice-actor',
+      '/story/stephen-root-gta-6',
       '/news/gta-6-china-censorship',
     ];
     return translatedPaths.includes(cleanPath);
