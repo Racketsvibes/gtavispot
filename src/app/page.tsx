@@ -12,7 +12,7 @@ import {
   getBreadcrumbsSchema
 } from '@/lib/schema';
 import { latestPublishedPosts } from '@/data/postsMetadata';
-import { ResponsiveLeaderboardAd } from '@/components/ads';
+import { ResponsiveLeaderboardAd, AdSensePostHeaderAd } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -214,6 +214,10 @@ export default function HomePage() {
           <Countdown />
         </div>
       </section>
+
+      <div className="container">
+        <AdSensePostHeaderAd slug="home" />
+      </div>
 
       {/* ════════════════════════════════════════
           LATEST TRAILER & NEWS

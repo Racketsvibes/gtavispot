@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { gta6Vehicles } from '@/data/vehicles';
 import ShareButtons from '@/components/ShareButtons';
 import { getBreadcrumbsSchema, getFAQSchema, getItemListSchema, getSEOTitle } from '@/lib/schema';
+import { AdSensePostHeaderAd } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -104,6 +105,8 @@ export default function VehiclesPage() {
         <ShareButtons isTop={true} url="https://www.gtavispot.com/vehicles/" title={gta6Vehicles.title} />
 
         <div className={styles.divider}></div>
+
+        <AdSensePostHeaderAd slug="vehicles-hub" />
 
         <main className={styles.body}>
           {gta6Vehicles.content}

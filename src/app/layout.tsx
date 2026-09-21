@@ -173,6 +173,13 @@ export default function RootLayout({
             gtag('config', 'G-LYQ8CDZET1');
           `}
         </Script>
+        {/* Google AdSense: Loaded with lazyOnload to guarantee zero impact on PageSpeed and Core Web Vitals */}
+        <Script
+          id="google-adsense"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
         <Header />
         <main id="main">{children}</main>
         <Footer />

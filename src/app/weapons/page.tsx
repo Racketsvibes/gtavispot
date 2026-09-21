@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { gta6Weapons } from '@/data/weapons';
 import ShareButtons from '@/components/ShareButtons';
 import { getBreadcrumbsSchema, getFAQSchema, getItemListSchema, getSEOTitle } from '@/lib/schema';
+import { AdSensePostHeaderAd } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -103,6 +104,8 @@ export default function WeaponsPage() {
         <ShareButtons isTop={true} url="https://www.gtavispot.com/weapons/" title={gta6Weapons.title} />
 
         <div className={styles.divider}></div>
+
+        <AdSensePostHeaderAd slug="weapons-hub" />
 
         <main className={styles.body}>
           {gta6Weapons.content}

@@ -11,7 +11,7 @@ import {
   getFaqsFromFile,
   getSEOTitle
 } from '@/lib/schema';
-import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600 } from '@/components/ads';
+import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600, AdSensePostHeaderAd } from '@/components/ads';
 import styles from './page.module.css';
 
 interface Props {
@@ -141,6 +141,8 @@ export default async function StoryArticlePage({ params }: Props) {
           <ShareButtons url={`https://www.gtavispot.com/story/${slug}/`} title={article.title} isTop />
 
           <div className={styles.divider} />
+
+          <AdSensePostHeaderAd slug={slug} />
 
           {article.featureImage && (
             <div className={styles.featureImageContainer}>

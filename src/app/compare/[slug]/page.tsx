@@ -19,7 +19,7 @@ import {
   getFaqsFromFile,
   getSEOTitle
 } from '@/lib/schema';
-import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600 } from '@/components/ads';
+import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600, AdSensePostHeaderAd } from '@/components/ads';
 import styles from '../../tech/[slug]/page.module.css';
 
 interface ComparePageProps {
@@ -190,6 +190,8 @@ export default async function CompareSlugPage({ params }: ComparePageProps) {
             <ShareButtons url={`https://www.gtavispot.com/compare/${slug}/`} title={article.title} isTop />
 
             <div className={styles.divider} />
+
+            <AdSensePostHeaderAd slug={slug} />
 
             {article.featureImage && (
               <div className={styles.featureImageContainer}>

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getStoryArticleBySlug, getAllStoryArticles } from '@/data/storyContent';
 import { getBreadcrumbsSchema } from '@/lib/schema';
-import { ResponsiveLeaderboardAd } from '@/components/ads';
+import { ResponsiveLeaderboardAd, AdSensePostHeaderAd } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -46,6 +46,10 @@ export default function StoryHubPage() {
           </p>
         </div>
       </header>
+
+      <div className="container">
+        <AdSensePostHeaderAd slug="story-hub" />
+      </div>
 
       {/* Main Overview Article Body */}
       {overviewArticle && (

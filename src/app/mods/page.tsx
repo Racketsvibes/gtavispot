@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { gta6Mods } from '@/data/mods';
 import ShareButtons from '@/components/ShareButtons';
 import { getBreadcrumbsSchema, getFAQSchema, getItemListSchema, getSEOTitle } from '@/lib/schema';
-import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600 } from '@/components/ads';
+import { ArticleBodyWithAds, ResponsiveLeaderboardAd, SidebarAd160x600, AdSensePostHeaderAd } from '@/components/ads';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -118,6 +118,8 @@ export default function ModsPage() {
           <ShareButtons isTop={true} url="https://www.gtavispot.com/mods/" title={gta6Mods.title} />
 
           <div className={styles.divider}></div>
+
+          <AdSensePostHeaderAd slug="mods-hub" />
 
           {gta6Mods.featureImage && (
             <div className={styles.featureImageContainer}>
