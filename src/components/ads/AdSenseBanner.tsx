@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 import { ADSENSE_CONFIG } from '@/config/adsense';
 
 interface AdSenseBannerProps {
@@ -20,17 +21,32 @@ export default function AdSenseBanner({
   className = '',
   style = { display: 'block' },
 }: AdSenseBannerProps) {
-  const isPushedRef = useRef(false);
+  const pathname = usePathname();
+  const insRef = useRef<HTMLModElement>(null);
 
   useEffect(() => {
-    if (typeof window === 'undefined' || isPushedRef.current) return;
-    try {
-      ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
-      isPushedRef.current = true;
-    } catch (e) {
-      // Graceful error handling for adblockers or duplicate pushes
-    }
-  }, []);
+    if (typeof window === 'undefined') return;
+
+    const pushAd = () => {
+      try {
+        if (insRef.current) {
+          // If already requested or filled, do not re-push
+          if (insRef.current.getAttribute('data-adsbygoogle-status')) {
+            return;
+          }
+        }
+        ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+      } catch (e) {
+        console.warn('AdSense push notice:', e);
+      }
+    };
+
+    // Attempt push immediately, and retry briefly if script is still initializing
+    pushAd();
+    const timer = setTimeout(pushAd, 500);
+
+    return () => clearTimeout(timer);
+  }, [pathname, slot]);
 
   if (!ADSENSE_CONFIG.ENABLED) return null;
 
@@ -38,10 +54,8 @@ export default function AdSenseBanner({
     <div
       className={`adsense-banner-wrapper ${className}`}
       style={{
-        margin: '1.25rem auto',
+        margin: '1.5rem auto',
         textAlign: 'center',
-        overflow: 'hidden',
-        minHeight: '90px',
         width: '100%',
         maxWidth: '100%',
       }}
@@ -52,12 +66,14 @@ export default function AdSenseBanner({
           letterSpacing: '0.05em',
           textTransform: 'uppercase',
           color: 'var(--text-muted, #888)',
-          marginBottom: '4px',
+          marginBottom: '6px',
         }}
       >
         ADVERTISEMENT
       </div>
       <ins
+        ref={insRef}
+        key={`${pathname}-${slot}`}
         className="adsbygoogle"
         style={style}
         data-ad-client={client}
