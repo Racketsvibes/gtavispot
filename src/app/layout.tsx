@@ -31,7 +31,10 @@ export const metadata: Metadata = {
   description:
     'Your ultimate GTA 6 resource: latest news, interactive Leonida map, character guides, cheats, and launch details for the November 19, 2026 release.',
   icons: {
-    icon: '/icon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png' },
+    ],
     shortcut: '/favicon.ico',
     apple: '/icon.png',
   },
