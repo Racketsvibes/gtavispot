@@ -20,16 +20,7 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
-### 📍 2. Grow (Journey by Mediavine)
-- **Status:** Active (Untouched)
-- **Provider:** Grow.me (Mediavine)
-- **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
-- **Placement File:** `src/app/layout.tsx` (lines 118–160)
-- **Performance Strategy:** Deferred & initialized on user interaction (`scroll`, `mousemove`, `touchstart`, `click`, `keydown`).
-
----
-
-### 📍 3. Google Analytics (GA4)
+### 📍 2. Google Analytics (GA4)
 - **Status:** Active
 - **Measurement ID:** `G-LYQ8CDZET1`
 - **Placement File:** `src/app/layout.tsx`
@@ -37,7 +28,7 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
-### 📍 4. Authorized Digital Sellers (`ads.txt`)
+### 📍 3. Authorized Digital Sellers (`ads.txt`)
 - **Status:** Active & Intact
 - **File Locations:** `public/ads.txt` & `src/app/ads.txt/route.ts`
 - **Content:**
@@ -115,7 +106,63 @@ All Google AdSense scripts and custom ad units were decommissioned and removed f
 
 ---
 
-## 3. Saved Memory: Adsterra Ads Configuration (Decommissioned)
+## 3. Saved Memory: Grow (Journey by Mediavine) Configuration (Decommissioned)
+
+The Grow (Journey by Mediavine) script was decommissioned and removed from live rendering per user request on September 22, 2026. The full original configuration is preserved below for instant future restoration if required:
+
+- **Provider:** Grow.me (Mediavine)
+- **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
+- **Former Placement:** `src/app/layout.tsx` (inside `<head>`)
+- **Original Code Snippet:**
+  ```html
+  <script
+    data-grow-initializer=""
+    dangerouslySetInnerHTML={{
+      __html: `
+        (function() {
+          if (!window.growMe) {
+            window.growMe = function(e) { window.growMe._.push(e); };
+            window.growMe._ = [];
+          }
+          
+          var initialized = false;
+          function initGrow() {
+            if (initialized) return;
+            initialized = true;
+            
+            window.removeEventListener('scroll', initGrow);
+            window.removeEventListener('mousemove', initGrow);
+            window.removeEventListener('touchstart', initGrow);
+            window.removeEventListener('click', initGrow);
+            window.removeEventListener('keydown', initGrow);
+            
+            var e = document.createElement("script");
+            e.type = "text/javascript";
+            e.src = "https://faves.grow.me/main.js";
+            e.defer = true;
+            e.setAttribute("data-grow-faves-site-id", "U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=");
+            var t = document.getElementsByTagName("script")[0];
+            if (t && t.parentNode) {
+              t.parentNode.insertBefore(e, t);
+            } else {
+              document.head.appendChild(e);
+            }
+          }
+          
+          window.addEventListener('scroll', initGrow, { passive: true });
+          window.addEventListener('mousemove', initGrow, { passive: true });
+          window.addEventListener('touchstart', initGrow, { passive: true });
+          window.addEventListener('click', initGrow, { passive: true });
+          window.addEventListener('keydown', initGrow, { passive: true });
+        })();
+      `,
+    }}
+  />
+  ```
+
+---
+
+## 4. Saved Memory: Adsterra Ads Configuration (Decommissioned)
 
 All Adsterra ads were deactivated and removed from live rendering per user request on September 21, 2026. The full original configuration is preserved below for instant future restoration if required:
 
@@ -139,7 +186,7 @@ All Adsterra ads were deactivated and removed from live rendering per user reque
 
 ---
 
-## 4. Removed Monetag Zones (Archive)
+## 5. Removed Monetag Zones (Archive)
 
 | Zone ID | Description | Former Location / Provider | Status |
 |---|---|---|---|
