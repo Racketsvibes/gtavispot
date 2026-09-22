@@ -99,6 +99,48 @@ const storySubNav = [
   { label: 'Ending Explained', href: '/story/ending/' },
 ];
 
+const voiceActorsNav = [
+  { 
+    label: 'All Voice Actors & Cast', 
+    esLabel: 'Todos los Actores de Voz',
+    href: '/story/voice-actors/', 
+    badge: 'Cast 2026' 
+  },
+  { 
+    label: 'Lucia (Manni L. Perez)', 
+    esLabel: 'Lucia (Manni L. Perez)',
+    href: '/story/gta-6-lucia-voice-actress/', 
+    esHref: '/es/story/gta-6-lucia-voice-actress/', 
+    badge: 'Protagonist' 
+  },
+  { 
+    label: 'Jason (Dylan Rourke)', 
+    esLabel: 'Jason (Dylan Rourke)',
+    href: '/story/gta-6-jason-voice-actor/', 
+    esHref: '/es/story/gta-6-jason-voice-actor/', 
+    badge: 'Protagonist' 
+  },
+  { 
+    label: 'Brian Heder (Stephen Root)', 
+    esLabel: 'Brian Heder (Stephen Root)',
+    href: '/story/stephen-root-gta-6/', 
+    esHref: '/es/story/stephen-root-gta-6/', 
+    badge: 'Confirmed' 
+  },
+  { 
+    label: 'Raul Bautista (Oscar Jaenada)', 
+    esLabel: 'Raul Bautista (Oscar Jaenada)',
+    href: '/story/gta-6-raul-bautista/', 
+    badge: 'Rumored' 
+  },
+  { 
+    label: 'GTA 6 Characters Directory', 
+    esLabel: 'Directorio de Personajes',
+    href: '/story/gta-6-characters/', 
+    badge: 'All Cast' 
+  },
+];
+
 const vehiclesSubNav = [
   { label: 'Vehicles Hub', href: '/vehicles/' },
   { label: 'GTA 6 Cars & Real Models', href: '/vehicles/gta-6-cars/' },
@@ -143,6 +185,13 @@ export default function Header() {
   const cleanPathForActive = pathname?.replace(/\/$/, '') || '';
   const isTimelineActive = cleanPathForActive === '/gta-6-timeline' || cleanPathForActive === '/es/gta-6-timeline';
   const isQuizActive = cleanPathForActive === '/quiz';
+  const isVoiceActorsActive = 
+    cleanPathForActive.includes('/voice-actors') || 
+    cleanPathForActive.includes('-voice-actor') || 
+    cleanPathForActive.includes('-voice-actress') || 
+    cleanPathForActive.includes('stephen-root') ||
+    cleanPathForActive.includes('gta-6-characters') ||
+    cleanPathForActive.includes('gta-6-raul-bautista');
 
   const hasTranslation = (() => {
     if (!pathname) return false;
@@ -168,6 +217,7 @@ export default function Header() {
 
   const [mobileOpen, setMobileOpen] = useState(false);
   const [storyOpen, setStoryOpen] = useState(false);
+  const [voiceActorsOpen, setVoiceActorsOpen] = useState(false);
   const [newsOpen, setNewsOpen] = useState(false);
   const [mapOpen, setMapOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
@@ -188,6 +238,7 @@ export default function Header() {
   const getPoliciesDropdownBtnClass = () =>
     `${styles.navLink} ${styles.moreBtn} ${isPolicyActive() ? styles.navLinkActive : ''}`;
 
+  const voiceActorsRef = useRef<HTMLDivElement>(null);
   const storyRef = useRef<HTMLDivElement>(null);
   const newsRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
@@ -204,6 +255,9 @@ export default function Header() {
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       const target = e.target as Node;
+      if (voiceActorsRef.current && !voiceActorsRef.current.contains(target)) {
+        setVoiceActorsOpen(false);
+      }
       if (storyRef.current && !storyRef.current.contains(target)) {
         setStoryOpen(false);
       }
@@ -239,6 +293,59 @@ export default function Header() {
         <div className={styles.topBar}>
           <div className={styles.topBarInner}>
             <div className={styles.topBarLinks}>
+              {/* Voice Actors Dropdown in Top Row */}
+              <div
+                className={styles.topBarDropdownWrapper}
+                ref={voiceActorsRef}
+                onMouseEnter={() => setVoiceActorsOpen(true)}
+                onMouseLeave={() => setVoiceActorsOpen(false)}
+              >
+                <button
+                  type="button"
+                  className={`${styles.topBarLink} ${styles.topBarDropdownBtn} ${isVoiceActorsActive ? styles.topBarLinkActive : ''}`}
+                  onClick={() => setVoiceActorsOpen(!voiceActorsOpen)}
+                  aria-expanded={voiceActorsOpen}
+                  aria-haspopup="true"
+                >
+                  <span>{isSpanish ? 'Actores de Voz' : 'Voice Actors'}</span>
+                  <svg
+                    className={`${styles.topBarChevron} ${voiceActorsOpen ? styles.chevronUp : ''}`}
+                    width="10"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
+                </button>
+                {voiceActorsOpen && (
+                  <div className={styles.topBarDropdown}>
+                    {voiceActorsNav.map((item) => {
+                      const href = (isSpanish && item.esHref) ? item.esHref : item.href;
+                      const label = isSpanish ? (item.esLabel || item.label) : item.label;
+                      const isItemActive = cleanPathForActive === href.replace(/\/$/, '');
+                      return (
+                        <Link
+                          key={item.href}
+                          href={href}
+                          className={`${styles.topBarDropdownLink} ${isItemActive ? styles.topBarDropdownLinkActive : ''}`}
+                          onClick={() => setVoiceActorsOpen(false)}
+                        >
+                          <span className={styles.topBarDropdownTitle}>{label}</span>
+                          {item.badge && (
+                            <span className={styles.topBarDropdownBadge}>{item.badge}</span>
+                          )}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+
               <Link
                 href={isSpanish ? '/es/gta-6-timeline/' : '/gta-6-timeline/'}
                 className={`${styles.topBarLink} ${isTimelineActive ? styles.topBarLinkActive : ''}`}
@@ -550,6 +657,25 @@ export default function Header() {
       {/* Mobile Menu Overlay */}
       <div className={`${styles.mobileOverlay} ${mobileOpen ? styles.mobileOverlayOpen : ''}`}>
         <nav className={styles.mobileNav} aria-label="Mobile navigation">
+          <div className={styles.mobileNavSection}>
+            <span className={styles.mobileNavLabel}>Voice Actors & Cast</span>
+            <div className={styles.mobileLinkGrid}>
+              {voiceActorsNav.map((item) => {
+                const href = (isSpanish && item.esHref) ? item.esHref : item.href;
+                const label = isSpanish ? (item.esLabel || item.label) : item.label;
+                return (
+                  <Link
+                    key={item.href}
+                    href={href}
+                    className={styles.mobileNavLink}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {label}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
           <div className={styles.mobileNavSection}>
             <span className={styles.mobileNavLabel}>Story & Characters</span>
             <div className={styles.mobileLinkGrid}>

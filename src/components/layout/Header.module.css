@@ -494,6 +494,136 @@
   color: var(--brand-magenta) !important;
 }
 
+/* Top Bar Dropdown */
+.topBarDropdownWrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.topBarDropdownBtn {
+  background: none;
+  cursor: pointer;
+}
+
+.topBarChevron {
+  transition: transform 0.2s ease;
+  margin-left: 2px;
+}
+
+.topBarDropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  min-width: 250px;
+  background: #ffffff;
+  border: 1px solid rgba(226, 224, 236, 0.95);
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 4px 10px rgba(0, 0, 0, 0.05);
+  animation: dropdownIn 0.15s ease;
+  z-index: 1200;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+[data-theme="dark"] .topBarDropdown {
+  background: #141220;
+  border-color: rgba(60, 56, 92, 0.7);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
+}
+
+.topBarDropdown::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: transparent;
+}
+
+.topBarDropdownLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px;
+  font-family: var(--font-ui), 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 0.88rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.topBarDropdownLink:hover {
+  color: var(--brand-magenta);
+  background: rgba(214, 36, 110, 0.07);
+}
+
+[data-theme="dark"] .topBarDropdownLink:hover {
+  background: rgba(232, 69, 144, 0.14);
+  color: #ffb3c1;
+}
+
+.topBarDropdownLinkActive {
+  color: var(--brand-magenta);
+  background: rgba(214, 36, 110, 0.1);
+  font-weight: 700;
+}
+
+[data-theme="dark"] .topBarDropdownLinkActive {
+  color: #ffb3c1;
+  background: rgba(232, 69, 144, 0.2);
+}
+
+.topBarDropdownTitle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.topBarDropdownBadge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: rgba(214, 36, 110, 0.12);
+  color: var(--brand-magenta);
+  text-transform: uppercase;
+}
+
+[data-theme="dark"] .topBarDropdownBadge {
+  background: rgba(232, 69, 144, 0.22);
+  color: #ffb3c1;
+}
+
+@media (max-width: 640px) {
+  .topBarInner {
+    padding: 0 10px;
+    gap: 8px;
+    justify-content: space-between;
+  }
+  .topBarLinks {
+    gap: 6px;
+  }
+  .topBarLink {
+    padding: 2px 6px;
+    font-size: 0.78rem;
+  }
+  .topBarDropdown {
+    min-width: 220px;
+    max-width: 90vw;
+  }
+}
+
 @media (min-width: 768px) {
   .topBarInner { padding: 0 24px; }
 }
