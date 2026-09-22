@@ -98,6 +98,12 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        {/* Google AdSense Official Script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
+          crossOrigin="anonymous"
+        />
         {/* Prevent flash of wrong theme */}
         <script
           dangerouslySetInnerHTML={{

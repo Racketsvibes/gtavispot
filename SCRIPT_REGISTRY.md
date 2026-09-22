@@ -6,16 +6,30 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ## 1. Active Scripts & Ad Units
 
-### 📍 1. Grow (Journey by Mediavine)
+### 📍 1. Google AdSense — Global Account Script
+- **Status:** Active
+- **Client ID:** `ca-pub-7134755750458767`
+- **Script URL:** `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767`
+- **Placement File:** `src/app/layout.tsx` (inside `<head>`)
+- **Performance Strategy:** Native asynchronous execution (`async`), unblocking HTML parsing and preserving 100% Core Web Vitals while fully satisfying Google crawler verification.
+- **Tag:**
+  ```html
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
+       crossorigin="anonymous"></script>
+  ```
+
+---
+
+### 📍 2. Grow (Journey by Mediavine)
 - **Status:** Active (Untouched)
 - **Provider:** Grow.me (Mediavine)
 - **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
-- **Placement File:** `src/app/layout.tsx` (lines 112–154)
+- **Placement File:** `src/app/layout.tsx` (lines 118–160)
 - **Performance Strategy:** Deferred & initialized on user interaction (`scroll`, `mousemove`, `touchstart`, `click`, `keydown`).
 
 ---
 
-### 📍 2. Google Analytics (GA4)
+### 📍 3. Google Analytics (GA4)
 - **Status:** Active
 - **Measurement ID:** `G-LYQ8CDZET1`
 - **Placement File:** `src/app/layout.tsx`
@@ -23,7 +37,7 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
-### 📍 3. Authorized Digital Sellers (`ads.txt`)
+### 📍 4. Authorized Digital Sellers (`ads.txt`)
 - **Status:** Active & Intact
 - **File Locations:** `public/ads.txt` & `src/app/ads.txt/route.ts`
 - **Content:**
