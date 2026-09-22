@@ -23,35 +23,39 @@ export default function AdSenseBanner({
 }: AdSenseBannerProps) {
   const pathname = usePathname();
   const insRef = useRef<HTMLModElement>(null);
+  const pushedRef = useRef(false);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
+    if (!ADSENSE_CONFIG.ENABLED) return;
+
+    pushedRef.current = false;
 
     const pushAd = () => {
+      if (pushedRef.current) return;
+      if (!insRef.current) return;
+
+      // Avoid re-pushing if already processed by AdSense
+      if (insRef.current.getAttribute('data-adsbygoogle-status')) {
+        return;
+      }
+
       try {
-        if (insRef.current) {
-          // If already requested or filled, do not re-push
-          if (insRef.current.getAttribute('data-adsbygoogle-status')) {
-            return;
-          }
-        }
+        pushedRef.current = true;
         ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
       } catch (e) {
         console.warn('AdSense push notice:', e);
       }
     };
 
-    // Attempt push immediately, and retry briefly if script is still initializing
     pushAd();
-    const timer = setTimeout(pushAd, 500);
-
-    return () => clearTimeout(timer);
   }, [pathname, slot]);
 
   if (!ADSENSE_CONFIG.ENABLED) return null;
 
   return (
     <div
+      key={`adsense-${pathname}-${slot}`}
       className={`adsense-banner-wrapper ${className}`}
       style={{
         margin: '1.5rem auto',
@@ -61,6 +65,7 @@ export default function AdSenseBanner({
       }}
     >
       <div
+        className="adsense-label"
         style={{
           fontSize: '0.65rem',
           letterSpacing: '0.05em',
@@ -73,7 +78,6 @@ export default function AdSenseBanner({
       </div>
       <ins
         ref={insRef}
-        key={`${pathname}-${slot}`}
         className="adsbygoogle"
         style={style}
         data-ad-client={client}

@@ -98,6 +98,12 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        {/* Google AdSense Official Script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
+          crossOrigin="anonymous"
+        />
         {/* Prevent flash of wrong theme */}
         <script
           dangerouslySetInnerHTML={{
@@ -173,13 +179,6 @@ export default function RootLayout({
             gtag('config', 'G-LYQ8CDZET1');
           `}
         </Script>
-        {/* Google AdSense: Loaded with afterInteractive for fast, reliable ad serving */}
-        <Script
-          id="google-adsense"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
         <Header />
         <main id="main">{children}</main>
         <Footer />
