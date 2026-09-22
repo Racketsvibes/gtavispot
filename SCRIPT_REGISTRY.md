@@ -6,25 +6,46 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ## 1. Active Scripts & Ad Units
 
-### 📍 1. Google AdSense — Global Account Script
-- **Status:** Active
-- **Client ID:** `ca-pub-7134755750458767`
-- **Script URL:** `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767`
-- **Placement File:** `src/app/layout.tsx` (before `</head>` / inside `<body>`)
-- **Performance Strategy:** Next.js `<Script strategy="lazyOnload" />`
-  - Loads strictly during browser idle time (`requestIdleCallback`) after full initial page load and React hydration.
-  - Zero main-thread blocking, preserving 100% Core Web Vitals (LCP, FCP, TBT).
+### 📍 1. Grow (Journey by Mediavine)
+- **Status:** Active (Untouched)
+- **Provider:** Grow.me (Mediavine)
+- **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
+- **Placement File:** `src/app/layout.tsx` (lines 112–154)
+- **Performance Strategy:** Deferred & initialized on user interaction (`scroll`, `mousemove`, `touchstart`, `click`, `keydown`).
 
 ---
 
-### 📍 2. Google AdSense — Custom Display Banner (Post-Header Placement)
+### 📍 2. Google Analytics (GA4)
 - **Status:** Active
-- **Client ID:** `ca-pub-7134755750458767`
-- **Slot ID:** `8152708714`
-- **Component File:** `src/components/ads/AdSenseBanner.tsx` & `src/components/ads/AdSensePostHeaderAd.tsx`
-- **Configuration Switchboard:** `src/config/adsense.ts`
-- **Placement Position:** Directly after the `<header>` (Post Header / Share Buttons divider) on the **38 Most Traffic Pages**.
-- **Code Format:**
+- **Measurement ID:** `G-LYQ8CDZET1`
+- **Placement File:** `src/app/layout.tsx`
+- **Performance Strategy:** `<Script strategy="afterInteractive" />`
+
+---
+
+### 📍 3. Authorized Digital Sellers (`ads.txt`)
+- **Status:** Active & Intact
+- **File Locations:** `public/ads.txt` & `src/app/ads.txt/route.ts`
+- **Content:**
+  ```
+  google.com, pub-7134755750458767, DIRECT, f08c47fec0942fa0
+  ```
+
+---
+
+## 2. Saved Memory: Google AdSense Scripts & Custom Ads Configuration (Decommissioned)
+
+All Google AdSense scripts and custom ad units were decommissioned and removed from live rendering per user request on September 22, 2026. The full original configuration, script tags, and 38-page mapping are preserved below for instant future restoration if required:
+
+- **Publisher / Client ID:** `ca-pub-7134755750458767`
+- **Custom Banner Slot ID:** `8152708714`
+- **Switchboard File:** `src/config/adsense.ts` (currently `ENABLED: false`)
+- **Global Head Script (Former Placement: `src/app/layout.tsx`):**
+  ```html
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
+       crossorigin="anonymous"></script>
+  ```
+- **Custom Banner Display Ad Unit:**
   ```html
   <!-- Banner Ads 1 -->
   <ins class="adsbygoogle"
@@ -33,72 +54,54 @@ This file tracks all external advertising, analytics, and monetization scripts i
        data-ad-slot="8152708714"
        data-ad-format="auto"
        data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
   ```
-- **Performance & Stability Protections:**
-  - Standard React client component (`'use client'`) consuming **0 server resources**.
-  - `minHeight: 90px` container styling to eliminate Cumulative Layout Shift (CLS).
-  - Hydration safety & Fast Refresh protection: `isPushedRef` guards against duplicate `.push({})` errors.
-
-#### 🎯 Active on the 38 Most Traffic Pages (per GA Report):
-1. **GTA 6 Voice Actors: Complete Cast & Characters 2026** (`/story/voice-actors/`)
-2. **GTA 6 System Requirements: PS5 & Xbox Hardware Specs** (`/tech/gta-6-system-requirements/`)
-3. **GTA 6 Strip Club Leak: Cyberleek Releases Clip 7 in Crypto Grift** (`/news/gta-6-strip-club-leak/`)
-4. **GTA 6 Interiors: All 700+ Enterable Buildings Guide** (`/map/interiors/`)
-5. **GTA 6 Ending Explained: All 3 Endings & Secret End 2026** (`/story/ending/`)
-6. **GTA 6 Characters: Protagonists, Cast & Real Life Rumors** (`/story/gta-6-characters/`)
-7. **GTA 6 Collectors Edition: Price & Details** (`/news/gta-6-collectors-edition/`)
-8. **GTA 6 All Missions List: Every Story Mission in Order** (`/story/missions/`)
-9. **GTA 6 Physical Copy: Disc Release & Pre-Order Details** (`/news/gta-6-physical-copy/`)
-10. **GTA Vi Spot: GTA 6 News, Guides & Interactive Map** (`/` Homepage)
-11. **GTA 6 Map Size: How Big Is It vs GTA 5, RDR2 & More** (`/map/size/` & `/tech/how-big-will-gta-6-be/`)
-12. **GTA 6 Walkthrough: Story Mode Guide & All Missions** (`/story/walkthrough/`)
-13. **GTA 6 PC Requirements: Specs, Hardware & RAM Guide** (`/tech/gta-6-pc-requirements/`)
-14. **GTA 6 Cars List: Real-Life Vehicles & Brands Guide** (`/vehicles/gta-6-cars/`)
-15. **GTA 6 Delay History: How Many Times Was It Delayed?** (`/news/gta-6-delay/`)
-16. **GTA 6 PC Release Date: When Is It Coming to PC?** (`/news/gta-6-pc-release-date/`)
-17. **GTA 6 Lucia Guide: Character, Backstory & Abilities** (`/story/lucia/`)
-18. **GTA 6 Jason & Lucia: Relationship, Dynamic & Theme Guide** (`/story/jason-and-lucia/`)
-19. **GTA 6 Story & Characters — Full Overview Guide** (`/story/`)
-20. **GTA 6 Raul Bautista Guide: Heists, Cast & Real Leaks** (`/story/gta-6-raul-bautista/`)
-21. **GTA 6 Jason Guide: Character, Backstory & Abilities** (`/story/jason/`)
-22. **GTA 6 Mods: Expected Release, Leaks & Custom Tools** (`/mods/`)
-23. **GTA 6 Lucia Backstory: Liberty City, Origin & Full Lore** (`/story/lucia-backstory/`)
-24. **GTA 6 Bikes List: Confirmed Motorcycles & Bicycles** (`/vehicles/gta-6-bikes/`)
-25. **GTA 6 How Long to Beat: Story & 100% Playtimes (2026)** (`/story/how-long-to-beat/`)
-26. **GTA 6 Weapons List: All Confirmed Guns** (`/weapons/`)
-27. **GTA 6 Dual Protagonists: Switching System Guide** (`/story/dual-protagonists/`)
-28. **GTA 6 Release Date: November 19, 2026 Confirmed** (`/news/gta-6-release-date/`)
-29. **GTA 6 Artworks: Official 4K Wallpapers & HD Gallery** (`/news/gta-6-artworks/`)
-30. **GTA 6 Graphics: Specs, Requirements & Visual Leaks** (`/tech/gta-6-graphics/`)
-31. **GTA 6 vs GTA 5: Full Comparison & Key Differences** (`/compare/gta-6-vs-gta-5/`)
-32. **PS5 vs Xbox Series x — Which to Buy For GTA 6 Specs** (`/compare/ps5-vs-xbox-series-x/`)
-33. **GTA 6 Side Missions: All Stranger Quests & Rewards 2026** (`/story/side-missions/`)
-34. **GTA 6 Vehicles: Confirmed Cars, Bikes, Boats & Planes** (`/vehicles/`)
-35. **GTA 6 Easter Eggs: Every Secret & Reference Found** (`/map/easter-eggs/`)
-36. **GTA 6 Underwater: Secrets, Sharks, Sunken Ships & Guide** (`/map/underwater/`)
-37. **GTA 6 Timeline: Complete Development & Trailer History** (`/gta-6-timeline/`)
-38. **GTA 6 Leaks Get Higher Quality: Cyberleeks Defies Subpoenas** (`/news/gta-6-leaks-escalation/`)
+- **Components:** `src/components/ads/AdSenseBanner.tsx` and `src/components/ads/AdSensePostHeaderAd.tsx` (dormant while `ENABLED: false`).
+- **Target 38 Traffic Pages Mapping:**
+  1. `voice-actors` (/story/voice-actors/)
+  2. `gta-6-system-requirements` (/tech/gta-6-system-requirements/)
+  3. `gta-6-strip-club-leak` (/news/gta-6-strip-club-leak/)
+  4. `interiors` (/map/interiors/)
+  5. `ending` (/story/ending/)
+  6. `gta-6-characters` (/story/gta-6-characters/)
+  7. `gta-6-collectors-edition` (/news/gta-6-collectors-edition/)
+  8. `missions` (/story/missions/)
+  9. `gta-6-physical-copy` (/news/gta-6-physical-copy/)
+  10. `home` (/)
+  11. `size` / `how-big-will-gta-6-be` (/map/size/, /tech/how-big-will-gta-6-be/)
+  12. `walkthrough` (/story/walkthrough/)
+  13. `gta-6-pc-requirements` (/tech/gta-6-pc-requirements/)
+  14. `gta-6-cars` (/vehicles/gta-6-cars/)
+  15. `gta-6-delay` (/news/gta-6-delay/)
+  16. `gta-6-pc-release-date` (/news/gta-6-pc-release-date/)
+  17. `lucia` (/story/lucia/)
+  18. `jason-and-lucia` (/story/jason-and-lucia/)
+  19. `story-hub` (/story/)
+  20. `gta-6-raul-bautista` (/story/gta-6-raul-bautista/)
+  21. `jason` (/story/jason/)
+  22. `mods-hub` (/mods/)
+  23. `lucia-backstory` (/story/lucia-backstory/)
+  24. `gta-6-bikes` (/vehicles/gta-6-bikes/)
+  25. `how-long-to-beat` (/story/how-long-to-beat/)
+  26. `weapons-hub` (/weapons/)
+  27. `dual-protagonists` (/story/dual-protagonists/)
+  28. `gta-6-release-date` (/news/gta-6-release-date/)
+  29. `gta-6-artworks` (/news/gta-6-artworks/)
+  30. `gta-6-graphics` (/tech/gta-6-graphics/)
+  31. `gta-6-vs-gta-5` (/compare/gta-6-vs-gta-5/)
+  32. `ps5-vs-xbox-series-x` (/compare/ps5-vs-xbox-series-x/)
+  33. `side-missions` (/story/side-missions/)
+  34. `vehicles-hub` (/vehicles/)
+  35. `easter-eggs` (/map/easter-eggs/)
+  36. `underwater` (/map/underwater/)
+  37. `gta-6-timeline` (/gta-6-timeline/)
+  38. `gta-6-leaks-escalation` (/news/gta-6-leaks-escalation/)
 
 ---
 
-### 📍 3. Grow (Journey by Mediavine)
-- **Status:** Active (Untouched)
-- **Provider:** Grow.me (Mediavine)
-- **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
-- **Placement File:** `src/app/layout.tsx` (lines 119–161)
-- **Performance Strategy:** Deferred & initialized on user interaction (`scroll`, `mousemove`, `touchstart`, `click`, `keydown`).
-
----
-
-### 📍 4. Google Analytics (GA4)
-- **Status:** Active
-- **Measurement ID:** `G-LYQ8CDZET1`
-- **Placement File:** `src/app/layout.tsx`
-- **Performance Strategy:** `<Script strategy="afterInteractive" />`
-
----
-
-## 2. Saved Memory: Adsterra Ads Configuration (Decommissioned)
+## 3. Saved Memory: Adsterra Ads Configuration (Decommissioned)
 
 All Adsterra ads were deactivated and removed from live rendering per user request on September 21, 2026. The full original configuration is preserved below for instant future restoration if required:
 
@@ -122,7 +125,7 @@ All Adsterra ads were deactivated and removed from live rendering per user reque
 
 ---
 
-## 3. Removed Monetag Zones (Archive)
+## 4. Removed Monetag Zones (Archive)
 
 | Zone ID | Description | Former Location / Provider | Status |
 |---|---|---|---|

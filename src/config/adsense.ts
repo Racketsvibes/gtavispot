@@ -9,8 +9,8 @@
  */
 
 export const ADSENSE_CONFIG = {
-  // Master switch
-  ENABLED: true,
+  // Master switch (Disabled per user request - script memory preserved)
+  ENABLED: false,
 
   // Google AdSense Publisher ID
   client: 'ca-pub-7134755750458767',
