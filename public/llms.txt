@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: September 17, 2026: Updated GTA 6 Voice Actors & Cast guide with officially confirmed actor Stephen Root as Brian Heder (boatyard owner and smuggler in Leonida Keys), fresh imagery, and character cluster updates.*
+*Last updated: September 22, 2026: Published comprehensive GTA 6 Trophies & Achievements guide with PS5 Platinum roadmap, Xbox 1000G breakdown, 100% completion checklist, and missable trophy tips.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -18,6 +18,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Vehicles Hub](https://gtavispot.com/vehicles/)
 - [Weapons Hub](https://gtavispot.com/weapons/)
 - [Cheats Hub](https://gtavispot.com/cheats/)
+- [Trophies & Achievements](https://gtavispot.com/trophies/)
 - [Mods Hub](https://gtavispot.com/mods/)
 - [Guides Hub](https://gtavispot.com/guides/)
 - [World Hub](https://gtavispot.com/world/)
@@ -96,6 +97,11 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [How Long to Beat](https://gtavispot.com/story/how-long-to-beat/)
 - [Ending Explained](https://gtavispot.com/story/ending/)
 - [Dual Protagonists System](https://gtavispot.com/story/dual-protagonists/)
+
+## Guides & Completionist Resources
+- [GTA 6 Trophies & Achievements Guide](https://gtavispot.com/trophies/)
+- [GTA 6 Launch Preparation Guide](https://gtavispot.com/guides/)
+- [GTA 6 Cheats & Input Codes Guide](https://gtavispot.com/cheats/)
 
 ## Comparison Articles
 - [GTA 6 vs GTA 5](https://gtavispot.com/compare/gta-6-vs-gta-5/)

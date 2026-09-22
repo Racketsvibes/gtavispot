@@ -33,7 +33,7 @@ export const gta6Cheats: ArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Save Restrictions:</strong> Enabling codes will temporarily disable trophies and achievements.</span>
+            <span><strong>Save Restrictions:</strong> Enabling codes will temporarily disable trophies and achievements (see our <Link href="/trophies/">GTA 6 Trophies roadmap</Link>).</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>

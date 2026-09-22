@@ -34,6 +34,7 @@ const staticRoutes = [
   '/vehicles/gta-6-bikes/',
   '/weapons/',
   '/cheats/',
+  '/trophies/',
   '/guides/',
   '/map/',
   '/news/',

@@ -230,7 +230,7 @@ export const gta6Guides: ArticleData = {
       </div>
 
       <p>
-        Staying updated on launch day is critical for mastering the open world. Bookmarking this <strong>GTA 6 guide</strong> ensures you have direct access to weapon locations, vehicle stats, and heist walkthroughs as soon as the servers go live. Prepare your gear, study the map, and get ready to run Vice City on November 19.
+        Staying updated on launch day is critical for mastering the open world. Bookmarking this <strong>GTA 6 guide</strong> and following our complete <Link href="/trophies/">GTA 6 Trophies &amp; Achievements roadmap</Link> ensures you have direct access to weapon locations, vehicle stats, heist walkthroughs, and 100% completion checklists as soon as the game launches on November 19, 2026.
       </p>
     </>
   )

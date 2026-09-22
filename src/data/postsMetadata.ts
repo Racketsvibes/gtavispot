@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Trophies & Achievements: Complete PS5 & Xbox Guide',
+    desc: 'Complete guide to GTA 6 trophies and achievements. Explore the PS5 Platinum roadmap, Xbox 1000G list, 100% completion checklist, and missable trophy tips.',
+    date: 'September 22, 2026',
+    tag: 'GUIDE',
+    href: '/trophies/',
+    img: '/images/gta-6-trophies-feature.webp',
+  },
+  {
     title: 'Stephen Root GTA 6: Brian Heder Voice Actor Confirmed',
     desc: 'Is Stephen Root in GTA 6? Full breakdown on Stephen Root as Brian Heder in GTA 6, character role, leak confirmation, filmography & audio analysis.',
     date: 'September 17, 2026',
