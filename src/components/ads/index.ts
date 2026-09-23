@@ -1,4 +1,5 @@
 export { default as AdSenseBanner } from './AdSenseBanner';
+export { default as AdSenseBlock } from './AdSenseBlock';
 export { default as AdSensePostHeaderAd } from './AdSensePostHeaderAd';
 export { ADSENSE_CONFIG, isAdSenseTargetPage } from '@/config/adsense';
 export { default as AdsterraBanner } from './AdsterraBanner';
