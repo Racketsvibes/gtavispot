@@ -123,10 +123,20 @@ export default function RootLayout({
       <body>
         <Script
           id="adsbygoogle-init"
+          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
-          strategy="afterInteractive"
           crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
+        <Script id="adsbygoogle-push" strategy="afterInteractive">
+          {`
+            try {
+              (window.adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (e) {
+              console.error('AdSense error:', e);
+            }
+          `}
+        </Script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-LYQ8CDZET1"
           strategy="afterInteractive"
