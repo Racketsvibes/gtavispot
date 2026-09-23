@@ -657,6 +657,38 @@ export default function Header() {
       {/* Mobile Menu Overlay */}
       <div className={`${styles.mobileOverlay} ${mobileOpen ? styles.mobileOverlayOpen : ''}`}>
         <nav className={styles.mobileNav} aria-label="Mobile navigation">
+          {/* Mobile Language Switcher */}
+          <div className={styles.mobileLangSection}>
+            <span className={styles.mobileNavLabel}>{isSpanish ? 'Idioma' : 'Language'}</span>
+            <div className={styles.mobileLangSelector}>
+              {isSpanish ? (
+                <>
+                  <Link href={englishLink} className={styles.mobileLangBtn} onClick={() => setMobileOpen(false)}>
+                    <USFlag /> <span>EN (USA)</span>
+                  </Link>
+                  <span className={`${styles.mobileLangBtn} ${styles.mobileLangBtnActive}`}>
+                    <ESFlag /> <span>ES (Español)</span>
+                  </span>
+                </>
+              ) : (
+                <>
+                  <span className={`${styles.mobileLangBtn} ${styles.mobileLangBtnActive}`}>
+                    <USFlag /> <span>EN (USA)</span>
+                  </span>
+                  {hasTranslation ? (
+                    <Link href={spanishLink} className={styles.mobileLangBtn} onClick={() => setMobileOpen(false)}>
+                      <ESFlag /> <span>ES (Español)</span>
+                    </Link>
+                  ) : (
+                    <span className={`${styles.mobileLangBtn} ${styles.mobileLangBtnDisabled}`} title="Spanish translation coming soon">
+                      <ESFlag /> <span>ES (Español)</span>
+                    </span>
+                  )}
+                </>
+              )}
+            </div>
+          </div>
+
           <div className={styles.mobileNavSection}>
             <span className={styles.mobileNavLabel}>Voice Actors & Cast</span>
             <div className={styles.mobileLinkGrid}>
