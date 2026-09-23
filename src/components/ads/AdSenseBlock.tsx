@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 interface AdSenseBlockProps {
   slot: string;
   client?: string;
-  format?: 'auto' | 'fluid' | 'rectangle';
+  format?: string;
   responsive?: boolean;
   className?: string;
   style?: React.CSSProperties;
@@ -15,7 +15,7 @@ interface AdSenseBlockProps {
 export default function AdSenseBlock({
   slot,
   client = 'ca-pub-7134755750458767',
-  format = 'auto',
+  format = 'rectangle, horizontal',
   responsive = true,
   className = '',
   style,
@@ -46,20 +46,28 @@ export default function AdSenseBlock({
       key={`${pathname}-${slot}`}
       className={className}
       style={{
-        minHeight: '250px',
         minWidth: '300px',
+        minHeight: '250px',
         width: '100%',
+        height: 'auto',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         overflow: 'hidden',
+        position: 'relative',
         ...style,
       }}
     >
       <ins
         ref={insRef}
         className="adsbygoogle"
-        style={{ display: 'block', width: '100%' }}
+        style={{
+          display: 'block',
+          minWidth: '300px',
+          minHeight: '250px',
+          width: '100%',
+          height: '100%',
+        }}
         data-ad-client={client}
         data-ad-slot={slot}
         data-ad-format={format}
