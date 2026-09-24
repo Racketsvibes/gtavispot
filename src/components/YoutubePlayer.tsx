@@ -39,8 +39,7 @@ export default function YoutubePlayer({ videoId, thumbnailUrl, title }: YoutubeP
             fill
             sizes="(max-width: 768px) 100vw, 33vw"
             className={styles.thumbnail}
-            priority
-            fetchPriority="high"
+            loading="lazy"
           />
           <div className={styles.playIcon} aria-hidden="true">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">

@@ -392,7 +392,15 @@ export default function Header() {
         </div>
         <div className={styles.inner}>
           <Link href="/" className={styles.logoLink} aria-label="GTA Vi Spot - Home">
-            <Image src={logoImg} alt="GTA Vi Spot Logo" className={styles.logoImg} priority />
+            <Image
+              src={logoImg}
+              alt="GTA Vi Spot Logo"
+              className={styles.logoImg}
+              width={140}
+              height={60}
+              sizes="140px"
+              quality={80}
+            />
           </Link>
 
           <nav className={styles.desktopNav} aria-label="Main navigation">

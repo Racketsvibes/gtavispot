@@ -167,8 +167,9 @@ export default function HomePage() {
           alt="GTA 6 Vice City background artwork"
           fill
           priority
+          fetchPriority="high"
           sizes="100vw"
-          quality={85}
+          quality={75}
           className={styles.heroBg}
         />
         <div className={`container ${styles.heroInner}`}>

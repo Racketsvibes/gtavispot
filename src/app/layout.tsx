@@ -13,14 +13,14 @@ const bebasNeue = Bebas_Neue({
 });
 
 const barlow = Barlow({
-  weight: ['300', '400', '500'],
+  weight: ['400', '600'],
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-body',
 });
 
 const barlowCondensed = Barlow_Condensed({
-  weight: ['400', '600', '700'],
+  weight: ['600', '700'],
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-ui',
