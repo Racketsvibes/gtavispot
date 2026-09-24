@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Vice City Collection: $400 Box, Items & Pre-Order',
+    desc: 'Rockstar reveals the GTA 6 Goodtime State Vice City Collection collector box for $399.99. See all 11 items, Macca the Gator figure, full map poster & details.',
+    date: 'September 24, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-vice-city-collection/',
+    img: '/images/news/gta-6-vice-city-collection-feature.webp',
+  },
+  {
     title: 'GTA 6 Trophies & Achievements: Complete PS5 & Xbox Guide',
     desc: 'Complete guide to GTA 6 trophies and achievements. Explore the PS5 Platinum roadmap, Xbox 1000G list, 100% completion checklist, and missable trophy tips.',
     date: 'September 22, 2026',
