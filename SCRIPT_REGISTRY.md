@@ -38,6 +38,23 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
+### 📍 4. Grow by Mediavine (User-Deferred Interaction Loader)
+- **Status:** Active (Speed-Optimized)
+- **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
+- **Placement File:** `src/app/layout.tsx` (inside `<head>`)
+- **Performance Strategy:** Interaction-deferred loading (`scroll`, `mousemove`, `touchstart`, `click`, `keydown`). Zero impact on initial page load / Core Web Vitals (preserves 95+ PageSpeed). Queue `window.growMe` initialized immediately for flawless compatibility.
+- **Tag:**
+  ```html
+  <script
+    data-grow-initializer=""
+    dangerouslySetInnerHTML={{
+      __html: `...deferred on user interaction...`
+    }}
+  />
+  ```
+
+---
+
 ## 2. Saved Memory: Google AdSense Scripts & Custom Ads Configuration (Decommissioned)
 
 All Google AdSense scripts and custom ad units were decommissioned and removed from live rendering per user request on September 22, 2026. The full original configuration, script tags, and 38-page mapping are preserved below for instant future restoration if required:

@@ -119,6 +119,42 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* Grow by Mediavine - Deferred for 100% Core Web Vitals */}
+        <script
+          data-grow-initializer=""
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                if (!window.growMe) {
+                  window.growMe = function(e) { window.growMe._.push(e); };
+                  window.growMe._ = [];
+                }
+                var initialized = false;
+                function initGrow() {
+                  if (initialized) return;
+                  initialized = true;
+                  ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+                    window.removeEventListener(evt, initGrow);
+                  });
+                  var e = document.createElement("script");
+                  e.type = "text/javascript";
+                  e.src = "https://faves.grow.me/main.js";
+                  e.defer = true;
+                  e.setAttribute("data-grow-faves-site-id", "U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=");
+                  var t = document.getElementsByTagName("script")[0];
+                  if (t && t.parentNode) {
+                    t.parentNode.insertBefore(e, t);
+                  } else {
+                    document.head.appendChild(e);
+                  }
+                }
+                ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+                  window.addEventListener(evt, initGrow, { passive: true });
+                });
+              })();
+            `,
+          }}
+        />
       </head>
       <body>
         {/*
