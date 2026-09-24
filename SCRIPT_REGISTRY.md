@@ -55,6 +55,28 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
+### 📍 5. Monetag — 728x90 Banner (Temporary Test)
+- **Status:** Active (Temporary — Speed-Optimized & Responsive)
+- **Zone ID:** `11740855`
+- **Data ID:** `dl-banner-728x90`
+- **Size:** `728x90`
+- **Script URL:** `https://aqle3.com/btag.min.js`
+- **Switchboard File:** `src/config/monetag.ts` (`ENABLED: true`)
+- **Components:** `src/components/ads/MonetagBanner.tsx` and `src/components/ads/MonetagBanner.module.css`
+- **Placements:**
+  1. **After Post Header:** Rendered directly below article header and share buttons (`src/components/ads/AdSensePostHeaderAd.tsx`).
+  2. **In-Post Body (1-2x):** Injected dynamically inside the article text between narrative paragraphs (`src/components/ads/ArticleBodyWithAds.tsx`).
+- **Speed & Responsive Strategy:**
+  - **Lazy Loading (IntersectionObserver):** Only requests the ad script when the user scrolls near the banner slot, ensuring 0ms blocking time and zero initial payload impact.
+  - **CSS Mobile Scaling:** Scales the 728px banner down proportionally on mobile viewports (< 760px) using CSS transform scaling, preventing horizontal scrollbars and layout breaking.
+  - **Instant Removal:** Change `ENABLED: false` in `src/config/monetag.ts` to instantly deactivate all Monetag ads without touching any page components.
+- **Original Tag:**
+  ```html
+  <script async data-cfasync="false" data-size="728x90" data-category="common" data-id="dl-banner-728x90" data-zone="11740855" src="//aqle3.com/btag.min.js"></script>
+  ```
+
+---
+
 ## 2. Saved Memory: Google AdSense Scripts & Custom Ads Configuration (Decommissioned)
 
 All Google AdSense scripts and custom ad units were decommissioned and removed from live rendering per user request on September 22, 2026. The full original configuration, script tags, and 38-page mapping are preserved below for instant future restoration if required:

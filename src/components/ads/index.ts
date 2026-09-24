@@ -9,3 +9,6 @@ export { default as InContentAd300x250 } from './InContentAd300x250';
 export { default as SidebarAd160x600, SideRailAds } from './SidebarAd160x600';
 export { default as ArticleBodyWithAds } from './ArticleBodyWithAds';
 export { ADSTERRA_CONFIG } from '@/config/adsterra';
+export { default as MonetagBanner } from './MonetagBanner';
+export { MONETAG_CONFIG } from '@/config/monetag';
+
