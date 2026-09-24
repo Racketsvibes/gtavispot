@@ -119,6 +119,34 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* Core Web Vitals & Lighthouse Best Practices: Protect bfcache & suppress deprecated unload warnings */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  if (typeof window !== 'undefined' && window.EventTarget) {
+                    var origAdd = EventTarget.prototype.addEventListener;
+                    EventTarget.prototype.addEventListener = function(type, listener, options) {
+                      if (type === 'unload') {
+                        return origAdd.call(this, 'pagehide', listener, options);
+                      }
+                      return origAdd.apply(this, arguments);
+                    };
+                    try {
+                      Object.defineProperty(window, 'onunload', {
+                        get: function() { return window.onpagehide; },
+                        set: function(fn) { window.onpagehide = fn; },
+                        configurable: true,
+                        enumerable: true,
+                      });
+                    } catch (_) {}
+                  }
+                } catch(e) {}
+              })();
+            `,
+          }}
+        />
         {/* Grow by Mediavine - Deferred for 100% Core Web Vitals */}
         <script
           data-grow-initializer=""
