@@ -27,7 +27,7 @@ export const gta6ViceCityCollection: ArticleData = {
   title: 'GTA 6 Vice City Collection: $400 Box, Items & Pre-Order',
   metaDescription: 'Rockstar reveals the GTA 6 Goodtime State Vice City Collection collector box for $399.99. See all 11 items, Macca the Gator figure, full map poster & details.',
   focusKeyword: 'GTA 6 Vice City Collection',
-  h1: 'Rockstar Unveils GTA 6 The Goodtime State: Vice City Collection – All 11 Items, Price & Pre-Order Details',
+  h1: 'GTA 6 Vice City Collection: All 11 Items, Price & Pre-Order Guide',
   publishedDate: 'September 24, 2026',
   modifiedDate: 'September 24, 2026',
   author: 'Qamar Farooq',
@@ -133,7 +133,7 @@ export const gta6ViceCityCollection: ArticleData = {
       `}} />
 
       <p>
-        Rockstar Games has officially surprised fans worldwide with the announcement of the <strong>GTA 6 Vice City Collection</strong>—formally titled <em>Grand Theft Auto VI: The Goodtime State – Vice City Collection</em>. Available now for pre-order via the official Rockstar Store for \$399.99 (€399.99), this ultra-premium, limited-edition collector box is inspired by Leonida&apos;s wild wetlands and the satirical in-game cartoon universe of <em>Macca the Gator</em>.
+        Rockstar Games has officially surprised fans worldwide with the announcement of the <strong>GTA 6 Vice City Collection</strong>—formally titled <em>Grand Theft Auto VI: The Goodtime State – Vice City Collection</em>. Available now for pre-order via the official Rockstar Store for $399.99 (€399.99), this ultra-premium, limited-edition collector box is inspired by Leonida&apos;s wild wetlands and the satirical in-game cartoon universe of <em>Macca the Gator</em>.
       </p>
 
       {/* Quick Answer Block for Google AI Overviews and Snippets */}
@@ -146,7 +146,7 @@ export const gta6ViceCityCollection: ArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Price:</strong> \$399.99 USD / €399.99 EUR (Strictly limited production run).</span>
+            <span><strong>Price:</strong> $399.99 USD / €399.99 EUR (Strictly limited production run).</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -187,10 +187,10 @@ export const gta6ViceCityCollection: ArticleData = {
       </p>
 
       <NewsCTAButton href="https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection" isExternal>
-        Pre-Order at Official Rockstar Store (\$399.99)
+        Pre-Order at Official Rockstar Store ($399.99)
       </NewsCTAButton>
 
-      <h2>Complete Breakdown: All 11 Items Included in the \$399.99 Collector&apos;s Box</h2>
+      <h2>Complete Breakdown: All 11 Items Included in the $399.99 Collector&apos;s Box</h2>
       <p>
         The collection includes 11 bespoke physical collector items designed for longtime GTA fans and collectors:
       </p>
@@ -337,10 +337,10 @@ export const gta6ViceCityCollection: ArticleData = {
           <tbody>
             <tr>
               <td><strong>Retail Price</strong></td>
-              <td>\$399.99</td>
-              <td>\$149.99 – \$199.99 (Est.)</td>
-              <td>\$89.99 – \$99.99</td>
-              <td>\$69.99</td>
+              <td>$399.99</td>
+              <td>$149.99 – $199.99 (Est.)</td>
+              <td>$89.99 – $99.99</td>
+              <td>$69.99</td>
             </tr>
             <tr>
               <td><strong>Game Disc / Digital Key</strong></td>
@@ -388,7 +388,7 @@ export const gta6ViceCityCollection: ArticleData = {
       <ol style={{ paddingLeft: '20px', margin: '16px 0 24px' }}>
         <li>Visit the official <a href="https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection" target="_blank" rel="noopener noreferrer">Rockstar Games Store product page</a>.</li>
         <li>Log in with your verified <strong>Rockstar Games Social Club account</strong>.</li>
-        <li>Complete checkout with your regional shipping details (\$399.99 + local tax/shipping).</li>
+        <li>Complete checkout with your regional shipping details ($399.99 + local tax/shipping).</li>
         <li>Your collector box will be prepared for dispatch to arrive at your door on the official release date of <strong>November 19, 2026</strong>.</li>
       </ol>
 
@@ -403,14 +403,14 @@ export const gta6ViceCityCollection: ArticleData = {
         <div className={styles.faqItem}>
           <h3>Does the GTA 6 Vice City Collection come with the game?</h3>
           <p>
-            No. The \$399.99 Goodtime State – Vice City Collection is strictly a limited-edition physical merchandise set. The game itself (on PS5 or Xbox Series X/S) is sold separately.
+            No. The $399.99 Goodtime State – Vice City Collection is strictly a limited-edition physical merchandise set. The game itself (on PS5 or Xbox Series X/S) is sold separately.
           </p>
         </div>
 
         <div className={styles.faqItem}>
           <h3>How much does The Goodtime State – Vice City Collection cost?</h3>
           <p>
-            The collection retails for \$399.99 in the United States and €399.99 in European markets, plus applicable local sales tax and shipping charges.
+            The collection retails for $399.99 in the United States and €399.99 in European markets, plus applicable local sales tax and shipping charges.
           </p>
         </div>
         

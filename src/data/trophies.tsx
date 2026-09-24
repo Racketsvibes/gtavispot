@@ -225,7 +225,7 @@ export const gta6Trophies: ArticleData = {
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Custom Ride Royalty</td>
               <td style={{ padding: '0.75rem 1rem' }}>🥉 Bronze / 15G</td>
-              <td style={{ padding: '0.75rem 1rem' }}>Spend over \$100,000 completely customizing a personal vehicle with performance engine parts and neon underglow.</td>
+              <td style={{ padding: '0.75rem 1rem' }}>Spend over $100,000 completely customizing a personal vehicle with performance engine parts and neon underglow.</td>
             </tr>
             <tr>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Dual Precision</td>
@@ -254,7 +254,7 @@ export const gta6Trophies: ArticleData = {
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>High Roller in Vice</td>
               <td style={{ padding: '0.75rem 1rem' }}>🥉 Bronze / 15G</td>
-              <td style={{ padding: '0.75rem 1rem' }}>Win \$50,000 playing mini-games (poker, blackjack, or sports betting) in Leonida venues.</td>
+              <td style={{ padding: '0.75rem 1rem' }}>Win $50,000 playing mini-games (poker, blackjack, or sports betting) in Leonida venues.</td>
             </tr>
             <tr style={{ borderBottom: '1px solid var(--border-light)' }}>
               <td style={{ padding: '0.75rem 1rem', fontWeight: 'bold' }}>Viral Sensation</td>
