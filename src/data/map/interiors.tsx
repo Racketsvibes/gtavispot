@@ -10,7 +10,7 @@ export const interiors: MapArticleData = {
   focusKeyword: 'GTA 6 interiors',
   h1: 'GTA 6 Interiors: All 700+ Enterable Buildings Guide',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'August 18, 2026',
+  modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Interiors/Vice_City_03.webp',
   content: (

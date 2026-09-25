@@ -11,7 +11,7 @@ export const gta6PhysicalCopy: ArticleData = {
   focusKeyword: 'gta 6 physical copy',
   h1: 'GTA 6 Physical Copy: Disc Release & Pre-Order Guide',
   publishedDate: 'July 16, 2026',
-  modifiedDate: 'July 16, 2026',
+  modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/gta-6-physical-copy-box.webp',
   featureImageAlt: 'GTA 6 official physical edition cover featuring Lucia and Jason in Vice City',

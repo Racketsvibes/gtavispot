@@ -27,7 +27,7 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-region-lock': '2026-07-29',
   'gta-6-hacker': '2026-08-20',
   'gta-6-leaks': '2026-08-20',
-  'gta-6-physical-copy': '2026-07-16',
+  'gta-6-physical-copy': '2026-09-25',
   'gta-6-ultimate-edition-vs-standard': '2026-08-18',
   'gta-6-pre-order': '2026-08-18',
   'gta-6-price': '2026-08-18',
@@ -39,20 +39,20 @@ const newsModifiedDates: Record<string, string> = {
 const storyModifiedDates: Record<string, string> = {
   'stephen-root-gta-6': '2026-09-17',
   'gta-6-jason-voice-actor': '2026-09-06',
-  'missions': '2026-08-17',
-  'voice-actors': '2026-09-17',
+  'missions': '2026-09-25',
+  'voice-actors': '2026-09-25',
   'lucia': '2026-09-05',
   'lucia-backstory': '2026-09-05',
   'gta-6-lucia-voice-actress': '2026-09-05',
   'side-missions': '2026-08-20',
   'walkthrough': '2026-07-17',
-  'ending': '2026-08-20',
-  'how-long-to-beat': '2026-08-20',
+  'ending': '2026-09-25',
+  'how-long-to-beat': '2026-09-25',
 };
 
 const techModifiedDates: Record<string, string> = {
-  'gta-6-system-requirements': '2026-09-01',
-  'gta-6-pc-requirements': '2026-07-21',
+  'gta-6-system-requirements': '2026-09-25',
+  'gta-6-pc-requirements': '2026-09-25',
   'gta-6-pc-release-date': '2026-08-22',
 };
 
@@ -68,6 +68,7 @@ const worldModifiedDates: Record<string, string> = {
 
 const mapModifiedDates: Record<string, string> = {
   'size': '2026-09-02',
+  'interiors': '2026-09-25',
 };
 
 // Currently translated pages in Spanish (slugs)

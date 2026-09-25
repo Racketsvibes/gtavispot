@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: September 24, 2026: Published news on Rockstar's official announcement of The Goodtime State – Vice City Collection ($399.99 collector merchandise set, 11 items, Macca the Gator, double-sided map poster).*
+*Last updated: September 25, 2026: Refreshed SEO titles, meta descriptions, and Last Updated dates on key guides (Voice Actors, Interiors, Missions, Ending, How Long to Beat, Physical Copy, PC & System Requirements) for content freshness.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -38,7 +38,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Mount Kalaga Peak Guide](https://gtavispot.com/map/mount-kalaga/)
 - [Ocean Beach Strip Guide](https://gtavispot.com/map/ocean-beach/)
 - [Map Size Comparison](https://gtavispot.com/map/size/)
-- [700+ Interiors List](https://gtavispot.com/map/interiors/)
+- [GTA 6 Interiors: All 700+ Enterable Buildings](https://gtavispot.com/map/interiors/)
 - [Secret Locations Map](https://gtavispot.com/map/secret-locations/)
 - [Easter Eggs Tracker](https://gtavispot.com/map/easter-eggs/)
 - [Underwater Secrets Guide](https://gtavispot.com/map/underwater/)
@@ -61,7 +61,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Developer Updates](https://gtavispot.com/news/rockstar-news/)
 - [Pre-Order Sales](https://gtavispot.com/news/gta-6-pre-order-sales/)
 - [Ultimate Edition vs Standard](https://gtavispot.com/news/gta-6-ultimate-edition-vs-standard/)
-- [Physical Copy Guide](https://gtavispot.com/news/gta-6-physical-copy/)
+- [GTA 6 Physical Copy: Disc or Code in Box?](https://gtavispot.com/news/gta-6-physical-copy/)
 - [GTA 6 Hacker](https://gtavispot.com/news/gta-6-hacker/)
 - [GTA 6 Region Lock News](https://gtavispot.com/news/gta-6-region-lock/)
 - [GTA 6 Netflix Extended Preview](https://gtavispot.com/news/gta-6-extended-look/)
@@ -89,14 +89,14 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Who Voices Jason in GTA 6? Dylan Rourke vs Gregory Connors](https://gtavispot.com/story/gta-6-jason-voice-actor/)
 - [Lucia's Backstory](https://gtavispot.com/story/lucia-backstory/)
 - [Jason & Lucia Dynamic](https://gtavispot.com/story/jason-and-lucia/)
-- [Voice Actors & Cast Guide (Confirmed: Stephen Root as Brian Heder)](https://gtavispot.com/story/voice-actors/)
+- [GTA 6 Voice Actors: Confirmed Full Cast — Jason, Lucia & Stephen Root as Brian Heder](https://gtavispot.com/story/voice-actors/)
 - [Stephen Root in GTA 6: Brian Heder Voice Actor Guide](https://gtavispot.com/story/stephen-root-gta-6/)
 - [Raul Bautista Guide](https://gtavispot.com/story/gta-6-raul-bautista/)
-- [Main Missions Walkthrough](https://gtavispot.com/story/missions/)
+- [GTA 6 All Missions List: 70+ Missions in Story Order](https://gtavispot.com/story/missions/)
 - [Side Missions Walkthrough](https://gtavispot.com/story/side-missions/)
 - [Story Walkthrough](https://gtavispot.com/story/walkthrough/)
-- [How Long to Beat](https://gtavispot.com/story/how-long-to-beat/)
-- [Ending Explained](https://gtavispot.com/story/ending/)
+- [GTA 6 How Long to Beat: 35–45 Hrs Story & 100% Playtime](https://gtavispot.com/story/how-long-to-beat/)
+- [GTA 6 Ending Explained: All 3 Endings & Who Dies](https://gtavispot.com/story/ending/)
 - [Dual Protagonists System](https://gtavispot.com/story/dual-protagonists/)
 
 ## Guides & Completionist Resources
@@ -111,8 +111,8 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 
 ## Tech & Platform Articles
 - [How Big Will GTA 6 Be](https://gtavispot.com/tech/how-big-will-gta-6-be/)
-- [GTA 6 System Requirements](https://gtavispot.com/tech/gta-6-system-requirements/)
-- [GTA 6 PC Requirements](https://gtavispot.com/tech/gta-6-pc-requirements/)
+- [GTA 6 System Requirements: PS5, Xbox & PC Specs](https://gtavispot.com/tech/gta-6-system-requirements/)
+- [GTA 6 PC Requirements: Minimum & Recommended Specs](https://gtavispot.com/tech/gta-6-pc-requirements/)
 - [GTA 6 Graphics](https://gtavispot.com/tech/gta-6-graphics/)
 
 ## World Articles

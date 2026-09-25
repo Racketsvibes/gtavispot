@@ -24,7 +24,7 @@ export const gta6SystemRequirements: ArticleData = {
   focusKeyword: 'gta 6 system requirements',
   h1: 'GTA 6 System Requirements: PS5 & Xbox Hardware Specs',
   publishedDate: 'July 20, 2026',
-  modifiedDate: 'July 20, 2026',
+  modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/tech/gta-6-system-requirements.webp',
   featureImageAlt: 'GTA 6 system requirements hardware specs for PlayStation 5 and Xbox Series X',

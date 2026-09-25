@@ -26,7 +26,7 @@ export const voiceActors: StoryArticleData = {
   focusKeyword: 'GTA 6 voice actors',
   h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'September 17, 2026',
+  modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp',
   content: (
