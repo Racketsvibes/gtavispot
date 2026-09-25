@@ -5,8 +5,8 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const interiors: MapArticleData = {
-  title: 'GTA 6 Interiors: All 700+ Enterable Buildings Guide',
-  metaDescription: 'Enter 700+ buildings in GTA 6 - no loading screens. Explore shops, casinos, bars & rob 150+ stores. Full list of Gta 6 interiors.',
+  title: 'GTA 6 Interiors: All 700+ Enterable Buildings (Full List)',
+  metaDescription: 'How many buildings can you enter in GTA 6? Explore 700+ interiors with no loading screens — shops, casinos, bars, clubs, and 150+ robbable stores.',
   focusKeyword: 'GTA 6 interiors',
   h1: 'GTA 6 Interiors: All 700+ Enterable Buildings Guide',
   publishedDate: 'June 18, 2026',

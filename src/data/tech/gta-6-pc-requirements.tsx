@@ -5,8 +5,8 @@ import { ArticleData } from '../techContent';
 import styles from '../../app/tech/[slug]/page.module.css';
 
 export const gta6PcRequirements: ArticleData = {
-  title: 'GTA 6 PC Requirements: Specs, Hardware & RAM Guide',
-  metaDescription: 'Check official gta 6 pc requirements for minimum, recommended, and ultra 4K specs. Compare GTA 5 vs GTA 6 hardware, laptop setups, and RAM baseline.',
+  title: 'GTA 6 PC Requirements: Minimum & Recommended Specs 2026',
+  metaDescription: 'Can your PC run GTA 6? See the minimum, recommended, and 4K ultra specs — GPU, CPU, RAM, and SSD — plus GTA 5 vs GTA 6 hardware compared.',
   focusKeyword: 'gta 6 pc requirements',
   h1: 'GTA 6 PC Requirements: Minimum, Recommended & Ultra Specs',
   publishedDate: 'July 21, 2026',

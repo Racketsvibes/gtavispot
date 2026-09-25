@@ -19,8 +19,8 @@ const TechCTAButton = ({ href, children }: { href: string; children: React.React
 };
 
 export const gta6SystemRequirements: ArticleData = {
-  title: 'GTA 6 System Requirements: PS5 & Xbox Hardware Specs',
-  metaDescription: 'Check GTA 6 system requirements for PS5, PS5 Pro, and Xbox Series X|S. Compare 60fps performance mode targets, console hardware specs, and PC details.',
+  title: 'GTA 6 System Requirements: PS5, Xbox & PC Specs (2026)',
+  metaDescription: 'Will your console run GTA 6? System requirements for PS5, PS5 Pro, Xbox Series X|S, and PC, plus 60fps performance mode targets compared.',
   focusKeyword: 'gta 6 system requirements',
   h1: 'GTA 6 System Requirements: PS5 & Xbox Hardware Specs',
   publishedDate: 'July 20, 2026',

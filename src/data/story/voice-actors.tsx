@@ -21,8 +21,8 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 };
 
 export const voiceActors: StoryArticleData = {
-  title: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
-  metaDescription: 'Looking for all GTA 6 voice actors? We have the complete list with real actor names, characters & photos. Updated 2026',
+  title: 'GTA 6 Voice Actors: Confirmed Full Cast — Jason & Lucia',
+  metaDescription: 'Who voices Jason and Lucia in GTA 6? See the full confirmed cast — every character with their real-life voice actor and photos. Updated 2026.',
   focusKeyword: 'GTA 6 voice actors',
   h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',

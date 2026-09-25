@@ -5,8 +5,8 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const howLongToBeat: StoryArticleData = {
-  title: 'GTA 6 How Long to Beat: Story & 100% Playtimes (2026)',
-  metaDescription: 'GTA 6 main story takes 35–45 hrs. Side missions: 60–70 hrs. Full 100%: 80–100+ hrs. Playtime vs GTA 5 & RDR2 compared. Speedrun & completion tips inside.',
+  title: 'GTA 6 How Long to Beat? 35–45 Hrs Story & 100% Playtime',
+  metaDescription: 'How long is GTA 6? Main story runs 35–45 hrs, side missions 60–70 hrs, and 100% takes 80–100+ hrs. See how it compares to GTA 5 & RDR2.',
   focusKeyword: 'GTA 6 how long to beat',
   h1: 'GTA 6 How Long to Beat: Story & 100% Playtimes (2026)',
   publishedDate: 'June 21, 2026',

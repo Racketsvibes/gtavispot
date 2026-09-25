@@ -5,8 +5,8 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const ending: StoryArticleData = {
-  title: 'GTA 6 Ending Explained: All 3 Endings & Secret End 2026',
-  metaDescription: 'GTA 6 has 3 endings - Betrayal, Sacrifice & True Ending. Does Lucia or Jason die? What\'s the post-credits scene? Full spoiler breakdown with all outcomes.',
+  title: 'GTA 6 Ending Explained: All 3 Endings — Who Dies? (2026)',
+  metaDescription: 'GTA 6 has 3 endings — Betrayal, Sacrifice, and the True Ending. Does Jason or Lucia die? See the post-credits scene and every outcome. Full spoilers inside.',
   focusKeyword: 'GTA 6 ending',
   h1: 'GTA 6 Ending Explained: All 3 Endings & Secret End 2026',
   publishedDate: 'June 21, 2026',

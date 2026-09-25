@@ -6,8 +6,8 @@ import YoutubePlayer from '@/components/YoutubePlayer';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6PhysicalCopy: ArticleData = {
-  title: 'GTA 6 Physical Copy: Disc Release & Pre-Order Details',
-  metaDescription: 'Will GTA 6 have a disc? Read our full guide on the GTA 6 physical copy, including disc pre-orders, no-disc rumors, and code-in-box edition differences.',
+  title: 'GTA 6 Physical Copy: Disc or Code in Box? Price & Date',
+  metaDescription: 'Will GTA 6 have a physical disc? A boxed copy ships Nov 19, 2026 — but it may not include a disc. Get the truth on price, pre-orders & editions.',
   focusKeyword: 'gta 6 physical copy',
   h1: 'GTA 6 Physical Copy: Disc Release & Pre-Order Guide',
   publishedDate: 'July 16, 2026',
