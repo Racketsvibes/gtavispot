@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Pre-Release Review & Extended Look Impressions',
+    desc: 'Our GTA 6 review breaks down the Extended Look gameplay. RAGE 9 engine specs, locked 30fps analysis, combat changes, and six-star wanted system.',
+    date: 'September 25, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-review/',
+    img: '/images/news/gta-6-review-feature.webp',
+  },
+  {
     title: 'GTA 6 Vice City Collection: $400 Box, Items & Pre-Order',
     desc: 'Rockstar reveals the GTA 6 Goodtime State Vice City Collection collector box for $399.99. See all 11 items, Macca the Gator figure, full map poster & details.',
     date: 'September 24, 2026',
