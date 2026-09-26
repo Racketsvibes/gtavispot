@@ -211,6 +211,25 @@ export default function RootLayout({
             gtag('config', 'G-LYQ8CDZET1');
           `}
         </Script>
+        {/* OneSignal Web Push SDK - Loaded lazily to preserve 100% Core Web Vitals */}
+        <Script
+          src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
+          strategy="lazyOnload"
+        />
+        <Script id="onesignal-init" strategy="lazyOnload">
+          {`
+            window.OneSignalDeferred = window.OneSignalDeferred || [];
+            OneSignalDeferred.push(async function(OneSignal) {
+              await OneSignal.init({
+                appId: "2eab3fe3-4ad2-45fb-846b-2722d53e657d",
+                safari_web_id: "web.onesignal.auto.668b47bc-14aa-4b15-bbce-a605ba29fca6",
+                notifyButton: {
+                  enable: true,
+                },
+              });
+            });
+          `}
+        </Script>
         <Header />
         <main id="main">{children}</main>
         <Footer />

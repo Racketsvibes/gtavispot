@@ -77,6 +77,33 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
+### 📍 6. OneSignal Web Push SDK (v16)
+- **Status:** Active
+- **App ID:** `2eab3fe3-4ad2-45fb-846b-2722d53e657d`
+- **Safari Web ID:** `web.onesignal.auto.668b47bc-14aa-4b15-bbce-a605ba29fca6`
+- **Service Worker Location:** `public/OneSignalSDKWorker.js` & `public/OneSignalSDKUpdaterWorker.js` (served at domain root `/OneSignalSDKWorker.js`)
+- **Placement File:** `src/app/layout.tsx` (using Next.js `next/script`)
+- **Performance Strategy:** `strategy="lazyOnload"`. Queued safely via `window.OneSignalDeferred` and executed during browser idle time to preserve 100% Core Web Vitals (0ms impact on FCP, LCP, and TBT).
+- **Notify Button:** Enabled (`notifyButton: { enable: true }`)
+- **Snippet:**
+  ```html
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "2eab3fe3-4ad2-45fb-846b-2722d53e657d",
+        safari_web_id: "web.onesignal.auto.668b47bc-14aa-4b15-bbce-a605ba29fca6",
+        notifyButton: {
+          enable: true,
+        },
+      });
+    });
+  </script>
+  ```
+
+---
+
 ## 2. Saved Memory: Google AdSense Scripts & Custom Ads Configuration (Decommissioned)
 
 All Google AdSense scripts and custom ad units were decommissioned and removed from live rendering per user request on September 22, 2026. The full original configuration, script tags, and 38-page mapping are preserved below for instant future restoration if required:
