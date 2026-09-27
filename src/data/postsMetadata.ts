@@ -9,6 +9,22 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Biker Gang: Final Chapter MC & Ambrosia Explained',
+    desc: 'Meet the Final Chapter MC — the confirmed GTA 6 biker gang out of Ambrosia. See their patches, roles, territory, and how they stack up against The Lost MC.',
+    date: 'September 27, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-biker-gang/',
+    img: '/images/news/gta-6-biker-gang-final-chapter-mc.webp',
+  },
+  {
+    title: 'GTA 6 Budget: Is It Really a $2 Billion Game?',
+    desc: 'How much did GTA 6 cost to make? Reported estimates put the GTA 6 budget near $1–2 billion — likely the priciest game ever. See how it compares to GTA 5 & RDR2.',
+    date: 'September 27, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-budget/',
+    img: '/images/news/gta-6-budget-cover-art.webp',
+  },
+  {
     title: 'GTA 6 Pre-Release Review & Extended Look Impressions',
     desc: 'Our GTA 6 review breaks down the Extended Look gameplay. RAGE 9 engine specs, locked 30fps analysis, combat changes, and six-star wanted system.',
     date: 'September 25, 2026',

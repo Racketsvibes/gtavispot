@@ -9,6 +9,7 @@ const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
   'gta-6-biker-gang': '2026-09-27',
+  'gta-6-budget': '2026-09-27',
   'gta-6-review': '2026-09-25',
   'gta-6-vice-city-collection': '2026-09-24',
   'gta-6-china-censorship': '2026-09-05',
