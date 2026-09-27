@@ -39,9 +39,10 @@ const curatedRelations: Record<string, string[]> = {
   'rockstar-news': ['gta-6-trailer-3', 'gta-6-new-features', 'gta-6-cover-art'],
   'gta-6-pre-order-sales': ['gta-6-pre-order', 'gta-6-price', 'gta-6-release-date'],
   'gta-6-ultimate-edition-vs-standard': ['gta-6-pre-order', 'gta-6-price', 'gta-6-pre-order-sales'],
+  'gta-6-biker-gang': ['ambrosia', 'jason', 'gta-6-characters'],
 
   // Story articles
-  'gta-6-characters': ['lucia', 'jason', 'jason-and-lucia'],
+  'gta-6-characters': ['lucia', 'jason', 'gta-6-biker-gang'],
   'lucia': ['jason', 'lucia-backstory', 'jason-and-lucia'],
   'jason': ['lucia', 'jason-and-lucia', 'voice-actors'],
   'lucia-backstory': ['lucia', 'jason-and-lucia', 'story-overview'],
@@ -61,7 +62,7 @@ const curatedRelations: Record<string, string[]> = {
   'leonida-keys': ['underwater', 'gta-6-animals', 'size'],
   'grassrivers': ['mount-kalaga', 'gta-6-animals', 'secret-locations'],
   'port-gellhorn': ['ambrosia', 'vice-city', 'size'],
-  'ambrosia': ['port-gellhorn', 'mount-kalaga', 'secret-locations'],
+  'ambrosia': ['gta-6-biker-gang', 'port-gellhorn', 'mount-kalaga'],
   'mount-kalaga': ['grassrivers', 'gta-6-animals', 'secret-locations'],
   'ocean-beach': ['vice-city', 'leonida-keys', 'size'],
   'size': ['vice-city', 'interiors', 'secret-locations'],

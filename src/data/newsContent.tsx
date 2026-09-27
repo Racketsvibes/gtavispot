@@ -32,6 +32,7 @@ import { gta6Timeline } from './news/gta-6-timeline';
 import { gta6ChinaCensorship } from './news/gta-6-china-censorship';
 import { gta6ViceCityCollection } from './news/gta-6-vice-city-collection';
 import { gta6Review } from './news/gta-6-review';
+import { gta6BikerGang } from './news/gta-6-biker-gang';
 
 
 
@@ -96,6 +97,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-china-censorship': gta6ChinaCensorship,
   'gta-6-vice-city-collection': gta6ViceCityCollection,
   'gta-6-review': gta6Review,
+  'gta-6-biker-gang': gta6BikerGang,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
