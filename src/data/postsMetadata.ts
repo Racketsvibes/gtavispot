@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Marketed as Single-Player Story: Where Is GTA Online?',
+    desc: 'Rockstar is marketing GTA 6 strictly as a single-player story for November 19. See why GTA Online has no launch date and how the Max Payne remake fits in.',
+    date: 'September 27, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-single-player/',
+    img: '/images/news/gta-6-single-player-story.webp',
+  },
+  {
     title: 'GTA 6 Biker Gang: Final Chapter MC & Ambrosia Explained',
     desc: 'Meet the Final Chapter MC — the confirmed GTA 6 biker gang out of Ambrosia. See their patches, roles, territory, and how they stack up against The Lost MC.',
     date: 'September 27, 2026',

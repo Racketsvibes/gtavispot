@@ -41,6 +41,7 @@ const curatedRelations: Record<string, string[]> = {
   'gta-6-ultimate-edition-vs-standard': ['gta-6-pre-order', 'gta-6-price', 'gta-6-pre-order-sales'],
   'gta-6-biker-gang': ['ambrosia', 'jason', 'gta-6-characters'],
   'gta-6-budget': ['gta-6-price', 'gta-6-delay', 'gta-6-release-date'],
+  'gta-6-single-player': ['gta-6-release-date', 'jason-and-lucia', 'gta-6-price'],
 
   // Story articles
   'gta-6-characters': ['lucia', 'jason', 'gta-6-biker-gang'],

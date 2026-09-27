@@ -8,6 +8,7 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'gta-6-single-player': '2026-09-27',
   'gta-6-biker-gang': '2026-09-27',
   'gta-6-budget': '2026-09-27',
   'gta-6-review': '2026-09-25',
