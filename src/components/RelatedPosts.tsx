@@ -78,6 +78,11 @@ const curatedRelations: Record<string, string[]> = {
   // World articles
   'gta-6-animals': ['grassrivers', 'mount-kalaga', 'leonida-keys'],
 
+  // Compare articles
+  'gta-6-vs-rdr2': ['gta-6-vs-gta-5', 'is-gta-6-worth-buying-in-2026', 'size'],
+  'gta-6-vs-gta-5': ['gta-6-vs-rdr2', 'is-gta-6-worth-buying-in-2026', 'size'],
+  'is-gta-6-worth-buying-in-2026': ['gta-6-vs-rdr2', 'gta-6-vs-gta-5', 'gta-6-review'],
+
   // Special / Hub Pages
   'cheats': ['guides', 'walkthrough', 'gta-6-release-date'],
   'faq': ['guides', 'gta-6-release-date', 'gta-6-characters'],

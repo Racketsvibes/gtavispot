@@ -128,6 +128,7 @@ export function getEnglishUrls(): SitemapItem[] {
     { path: '/tech/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/compare/', changefreq: 'weekly', priority: '0.9', lastmod: '2026-07-23' },
     { path: '/compare/gta-6-vs-gta-5/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-07-23' },
+    { path: '/compare/gta-6-vs-rdr2/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-09-28' },
     { path: '/compare/is-gta-6-worth-buying-in-2026/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-07-23' },
     { path: '/compare/ps5-vs-xbox-series-x/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-07-28' },
     { path: '/about/', changefreq: 'monthly', priority: '0.5', lastmod: '2026-07-25' },
