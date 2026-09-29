@@ -193,20 +193,6 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {/*
-          Auto Ads only: the adsbygoogle.js loader with the client ID is all that's
-          required. Auto Ads placement is controlled by the AdSense dashboard toggle
-          (Ads → By site → Auto ads), NOT by a page-level push({}). A manual push({})
-          here is the legacy page-level snippet — unnecessary for Auto Ads and a source
-          of "already have ads" TagErrors if manual <ins> units are added later.
-        */}
-        <Script
-          id="adsbygoogle-init"
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-LYQ8CDZET1"
           strategy="afterInteractive"

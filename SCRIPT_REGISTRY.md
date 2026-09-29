@@ -6,16 +6,15 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ## 1. Active Scripts & Ad Units
 
-### 📍 1. Google AdSense — Global Account Script
-- **Status:** Active
-- **Client ID:** `ca-pub-7134755750458767`
-- **Script URL:** `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767`
+### 📍 1. Journey by Mediavine — Ad Script Wrapper
+- **Status:** Active (Exclusive Ad Partner)
+- **Script ID:** `3df1378f-951b-446a-9b12-fd4224fb688f`
+- **Script URL:** `//scripts.scriptwrapper.com/tags/3df1378f-951b-446a-9b12-fd4224fb688f.js`
 - **Placement File:** `src/app/layout.tsx` (inside `<head>`)
-- **Performance Strategy:** Native asynchronous execution (`async`), unblocking HTML parsing and preserving 100% Core Web Vitals while fully satisfying Google crawler verification.
+- **Attributes:** `type="text/javascript"`, `async="async"`, `data-noptimize="1"`, `data-cfasync="false"`
 - **Tag:**
   ```html
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7134755750458767"
-       crossorigin="anonymous"></script>
+  <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="//scripts.scriptwrapper.com/tags/3df1378f-951b-446a-9b12-fd4224fb688f.js"></script>
   ```
 
 ---
@@ -45,20 +44,7 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
-### 📍 4. Journey by Mediavine — Ad Script Wrapper
-- **Status:** Active
-- **Script ID:** `3df1378f-951b-446a-9b12-fd4224fb688f`
-- **Script URL:** `//scripts.scriptwrapper.com/tags/3df1378f-951b-446a-9b12-fd4224fb688f.js`
-- **Placement File:** `src/app/layout.tsx` (inside `<head>`)
-- **Attributes:** `type="text/javascript"`, `async="async"`, `data-noptimize="1"`, `data-cfasync="false"`
-- **Tag:**
-  ```html
-  <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="//scripts.scriptwrapper.com/tags/3df1378f-951b-446a-9b12-fd4224fb688f.js"></script>
-  ```
-
----
-
-### 📍 5. OneSignal Web Push SDK (v16)
+### 📍 4. OneSignal Web Push SDK (v16)
 - **Status:** Active
 - **App ID:** `2eab3fe3-4ad2-45fb-846b-2722d53e657d`
 - **Safari Web ID:** `web.onesignal.auto.668b47bc-14aa-4b15-bbce-a605ba29fca6`

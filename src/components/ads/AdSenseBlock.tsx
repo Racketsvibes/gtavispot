@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
+import { ADSENSE_CONFIG } from '@/config/adsense';
 
 interface AdSenseBlockProps {
   slot: string;
@@ -12,7 +13,7 @@ interface AdSenseBlockProps {
 
 export default function AdSenseBlock({
   slot,
-  client = 'ca-pub-7134755750458767',
+  client = ADSENSE_CONFIG.client,
   className = '',
   style,
 }: AdSenseBlockProps) {
@@ -23,6 +24,7 @@ export default function AdSenseBlock({
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
+    if (!ADSENSE_CONFIG.ENABLED) return;
 
     if (containerRef.current) {
       containerRef.current.style.cssText =
@@ -44,6 +46,8 @@ export default function AdSenseBlock({
 
     return () => clearTimeout(timer);
   }, [pathname, slot]);
+
+  if (!ADSENSE_CONFIG.ENABLED) return null;
 
   return (
     <div
