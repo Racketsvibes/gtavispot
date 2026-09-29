@@ -27,8 +27,8 @@ export const gta6VsRdr2: ArticleData = {
   publishedDate: 'September 28, 2026',
   modifiedDate: 'September 28, 2026',
   author: 'Marcus Vance',
-  featureImage: '/images/compare/gta-6-vs-rdr2.webp',
-  featureImageAlt: 'GTA 6 vs RDR2 comparison — GTA 6 official Vice City cover art representing the Grand Theft Auto VI versus Red Dead Redemption 2 debate',
+  featureImage: '/images/compare/gta-6-vs-rdr2-comparison.webp',
+  featureImageAlt: 'GTA 6 vs RDR2 comparison — split screen of GTA 6 neon Vice City with a supercar beside a Red Dead Redemption 2 cowboy on horseback at sunset',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `

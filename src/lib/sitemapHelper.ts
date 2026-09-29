@@ -121,6 +121,7 @@ export function getEnglishUrls(): SitemapItem[] {
     { path: '/cheats/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/trophies/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/guides/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
+    { path: '/guides/character-customization/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-09-28' },
     { path: '/map/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },
     { path: '/faq/', changefreq: 'daily', priority: '0.9', lastmod: nowStr },
     { path: '/quiz/', changefreq: 'weekly', priority: '0.9', lastmod: nowStr },

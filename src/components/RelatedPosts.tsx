@@ -86,7 +86,8 @@ const curatedRelations: Record<string, string[]> = {
   // Special / Hub Pages
   'cheats': ['guides', 'walkthrough', 'gta-6-release-date'],
   'faq': ['guides', 'gta-6-release-date', 'gta-6-characters'],
-  'guides': ['cheats', 'walkthrough', 'gta-6-release-date'],
+  'guides': ['character-customization', 'cheats', 'walkthrough'],
+  'character-customization': ['gta-6-characters', 'lucia', 'jason'],
 };
 
 export default function RelatedPosts({ category, currentSlug }: RelatedPostsProps) {
@@ -202,6 +203,17 @@ export default function RelatedPosts({ category, currentSlug }: RelatedPostsProp
     img: '/images/gta-6-guide-feature.webp',
     href: '/guides/',
     cta: 'View Guide Hub →',
+  });
+
+  // Add Character Customization guide
+  catalog.push({
+    slug: 'character-customization',
+    category: 'guides',
+    title: 'GTA 6 Character Customization Guide',
+    desc: 'Outfits, hairstyles, tattoos, and the best Lucia & Jason looks across Vice City.',
+    img: '/images/guides/gta-6-character-customization.webp',
+    href: '/guides/character-customization/',
+    cta: 'Read Guide →',
   });
 
   // 2. Select related posts based on currentSlug
