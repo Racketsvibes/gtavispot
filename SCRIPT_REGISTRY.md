@@ -71,6 +71,16 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
+### 📍 5. Journey by Mediavine — `ads.txt`
+- **Status:** Active
+- **File Location:** `public/ads.txt` (Served at `/ads.txt`)
+- **Manager Domain:** `journeymv.com`
+- **Owner Domain:** `gtavispot.com`
+- **Account:** `journeymv.com, 3df1378f-951b-446a-9b12-fd4224fb688f, DIRECT, 1363c924529b3998`
+- **Lines Count:** 216 partner lines
+
+---
+
 ## 2. Saved Memory: Decommissioned Scripts & Ad Units
 
 ### 📍 Former Google AdSense `ads.txt` (Removed September 30, 2026)
