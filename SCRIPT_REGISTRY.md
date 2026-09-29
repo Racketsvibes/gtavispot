@@ -28,17 +28,7 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
-### 📍 3. Authorized Digital Sellers (`ads.txt`)
-- **Status:** Active & Intact
-- **File Locations:** `public/ads.txt` & `src/app/ads.txt/route.ts`
-- **Content:**
-  ```
-  google.com, pub-7134755750458767, DIRECT, f08c47fec0942fa0
-  ```
-
----
-
-### 📍 4. Grow by Mediavine (User-Deferred Interaction Loader)
+### 📍 3. Grow by Mediavine (User-Deferred Interaction Loader)
 - **Status:** Active (Speed-Optimized)
 - **Site ID:** `U2l0ZTo4OGNjNWJhOC02NDZlLTQxMzYtYWIzYS01YzIwMTk0ZTcyMWQ=`
 - **Placement File:** `src/app/layout.tsx` (inside `<head>`)
@@ -55,29 +45,20 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
-### 📍 5. Monetag — 728x90 Banner (Temporary Test)
-- **Status:** Active (Temporary — Speed-Optimized & Responsive)
-- **Zone ID:** `11740855`
-- **Data ID:** `dl-banner-728x90`
-- **Size:** `728x90`
-- **Script URL:** `https://aqle3.com/btag.min.js`
-- **Switchboard File:** `src/config/monetag.ts` (`ENABLED: true`)
-- **Components:** `src/components/ads/MonetagBanner.tsx` and `src/components/ads/MonetagBanner.module.css`
-- **Placements:**
-  1. **After Post Header:** Rendered directly below article header and share buttons (`src/components/ads/AdSensePostHeaderAd.tsx`).
-  2. **In-Post Body (1-2x):** Injected dynamically inside the article text between narrative paragraphs (`src/components/ads/ArticleBodyWithAds.tsx`).
-- **Speed & Responsive Strategy:**
-  - **Lazy Loading (IntersectionObserver):** Only requests the ad script when the user scrolls near the banner slot, ensuring 0ms blocking time and zero initial payload impact.
-  - **CSS Mobile Scaling:** Scales the 728px banner down proportionally on mobile viewports (< 760px) using CSS transform scaling, preventing horizontal scrollbars and layout breaking.
-  - **Instant Removal:** Change `ENABLED: false` in `src/config/monetag.ts` to instantly deactivate all Monetag ads without touching any page components.
-- **Original Tag:**
+### 📍 4. Journey by Mediavine — Ad Script Wrapper
+- **Status:** Active
+- **Script ID:** `3df1378f-951b-446a-9b12-fd4224fb688f`
+- **Script URL:** `//scripts.scriptwrapper.com/tags/3df1378f-951b-446a-9b12-fd4224fb688f.js`
+- **Placement File:** `src/app/layout.tsx` (inside `<head>`)
+- **Attributes:** `type="text/javascript"`, `async="async"`, `data-noptimize="1"`, `data-cfasync="false"`
+- **Tag:**
   ```html
-  <script async data-cfasync="false" data-size="728x90" data-category="common" data-id="dl-banner-728x90" data-zone="11740855" src="//aqle3.com/btag.min.js"></script>
+  <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="//scripts.scriptwrapper.com/tags/3df1378f-951b-446a-9b12-fd4224fb688f.js"></script>
   ```
 
 ---
 
-### 📍 6. OneSignal Web Push SDK (v16)
+### 📍 5. OneSignal Web Push SDK (v16)
 - **Status:** Active
 - **App ID:** `2eab3fe3-4ad2-45fb-846b-2722d53e657d`
 - **Safari Web ID:** `web.onesignal.auto.668b47bc-14aa-4b15-bbce-a605ba29fca6`
@@ -104,7 +85,28 @@ This file tracks all external advertising, analytics, and monetization scripts i
 
 ---
 
-## 2. Saved Memory: Google AdSense Scripts & Custom Ads Configuration (Decommissioned)
+## 2. Saved Memory: Decommissioned Scripts & Ad Units
+
+### 📍 Former Google AdSense `ads.txt` (Removed September 30, 2026)
+- **Former Files:** `public/ads.txt` & `src/app/ads.txt/route.ts`
+- **Content:**
+  ```
+  google.com, pub-7134755750458767, DIRECT, f08c47fec0942fa0
+  ```
+
+---
+
+### 📍 Former Monetag — 728x90 Banner (Zone 11740855) (Removed September 30, 2026)
+- **Zone ID:** `11740855`
+- **Data ID:** `dl-banner-728x90`
+- **Size:** `728x90`
+- **Script URL:** `https://aqle3.com/btag.min.js`
+- **Original Tag:**
+  ```html
+  <script async data-cfasync="false" data-size="728x90" data-category="common" data-id="dl-banner-728x90" data-zone="11740855" src="//aqle3.com/btag.min.js"></script>
+  ```
+
+---
 
 All Google AdSense scripts and custom ad units were decommissioned and removed from live rendering per user request on September 22, 2026. The full original configuration, script tags, and 38-page mapping are preserved below for instant future restoration if required:
 

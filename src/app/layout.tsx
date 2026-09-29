@@ -183,6 +183,14 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* Journey by Mediavine Ad Script Wrapper */}
+        <script
+          type="text/javascript"
+          async
+          data-noptimize="1"
+          data-cfasync="false"
+          src="//scripts.scriptwrapper.com/tags/3df1378f-951b-446a-9b12-fd4224fb688f.js"
+        />
       </head>
       <body>
         {/*
