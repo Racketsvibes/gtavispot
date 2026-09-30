@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: September 28, 2026: Published a new Guides article — GTA 6 Character Customization (outfits, hairstyles, tattoos, and the best Lucia & Jason looks).*
+*Last updated: September 30, 2026: Refreshed homepage Latest Updates feed with GTA 6 vs RDR2 comparison and Character Customization guides.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -107,6 +107,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 
 ## Guides & Completionist Resources
 - [GTA 6 Trophies & Achievements Guide](https://gtavispot.com/trophies/)
+- [GTA 6 Character Customization Guide](https://gtavispot.com/guides/character-customization/)
 - [GTA 6 Launch Preparation Guide](https://gtavispot.com/guides/)
 - [GTA 6 Cheats & Input Codes Guide](https://gtavispot.com/cheats/)
 

@@ -9,6 +9,22 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 vs RDR2: Which Rockstar Game Is Better?',
+    desc: 'GTA 6 vs RDR2 compared — map size, graphics, story, and gameplay. See how the RAGE 9 engine of Grand Theft Auto VI stacks up against Red Dead Redemption 2.',
+    date: 'September 29, 2026',
+    tag: 'COMPARE',
+    href: '/compare/gta-6-vs-rdr2/',
+    img: '/images/compare/gta-6-vs-rdr2-comparison.webp',
+  },
+  {
+    title: 'GTA 6 Character Customization: Outfits, Tattoos & Style',
+    desc: 'The complete GTA 6 character customization guide — clothing stores, barber shops, tattoo parlors, and the best Lucia & Jason outfits across Vice City and Leonida.',
+    date: 'September 29, 2026',
+    tag: 'GUIDE',
+    href: '/guides/character-customization/',
+    img: '/images/guides/gta-6-character-customization.webp',
+  },
+  {
     title: 'GTA 6 Marketed as Single-Player Story: Where Is GTA Online?',
     desc: 'Rockstar is marketing GTA 6 strictly as a single-player story for November 19. See why GTA Online has no launch date and how the Max Payne remake fits in.',
     date: 'September 27, 2026',

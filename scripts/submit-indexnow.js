@@ -21,6 +21,7 @@ const techSlugs = getSlugs('src/data/tech');
 const onlineSlugs = getSlugs('src/data/online');
 const worldSlugs = getSlugs('src/data/world');
 const compareSlugs = getSlugs('src/data/compare');
+const guideSlugs = getSlugs('src/data/guides');
 const esNewsSlugs = getSlugs('src/data/es/news');
 const esStorySlugs = getSlugs('src/data/es/story');
 
@@ -69,6 +70,7 @@ const urlSet = new Set([
   ...onlineSlugs.map(slug => `${baseUrl}/online/${slug}/`),
   ...worldSlugs.map(slug => `${baseUrl}/world/${slug}/`),
   ...compareSlugs.map(slug => `${baseUrl}/compare/${slug}/`),
+  ...guideSlugs.map(slug => `${baseUrl}/guides/${slug}/`),
   ...esNewsSlugs.map(slug => rootNewsSlugs.includes(slug) ? `${baseUrl}/es/${slug}/` : `${baseUrl}/es/news/${slug}/`),
   ...esStorySlugs.map(slug => `${baseUrl}/es/story/${slug}/`)
 ]);
