@@ -5,13 +5,14 @@ import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Price: ArticleData = {
   title: 'GTA 6 Price: All Editions, Costs & Is It Worth It?',
-  metaDescription: "Standard Edition: $79.99. See the confirmed GTA 6 edition prices, what a collector's edition — not yet announced — would likely cost, and where to get the cheapest deal.",
+  metaDescription: "Standard Edition: $79.99. Confirmed GTA 6 edition prices, what a collector's edition (not yet announced) may cost, and where to get the cheapest deal.",
   focusKeyword: 'GTA 6 price',
   h1: 'GTA 6 Price: All Editions & Expected Costs',
   publishedDate: 'June 17, 2026',
   modifiedDate: 'July 7, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_vi_Price.webp',
+  featureImageAlt: 'GTA 6 price artwork showing the standard edition cost',
   content: (
     <>
       <p>

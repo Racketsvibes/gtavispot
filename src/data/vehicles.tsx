@@ -5,7 +5,7 @@ import { ArticleData } from './newsContent';
 import styles from '../app/news/[slug]/page.module.css';
 
 export const gta6Vehicles: ArticleData = {
-  title: 'GTA 6 Vehicles: Confirmed Cars, Bikes, Boats & Planes',
+  title: 'GTA 6 Vehicles: Cars, Bikes, Boats & Planes Seen So Far',
   metaDescription: 'The official GTA 6 Vehicles list. Compare GTA 5 vs GTA 6 rides, see returning classics, custom tuners, and explore the new physics engine in Leonida.',
   focusKeyword: 'GTA 6 Vehicles',
   h1: 'GTA 6 Vehicles: Confirmed Cars, Bikes, Boats & Planes',

@@ -12,6 +12,7 @@ export const rockstarNews: ArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Developer_Update.webp',
+  featureImageAlt: 'Rockstar Games developer update artwork for GTA 6 news coverage',
   content: (
     <>
       <p>

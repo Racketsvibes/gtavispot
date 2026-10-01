@@ -161,7 +161,7 @@ export default async function ArticlePage({ params }: Props) {
             </div>
           </header>
 
-          <ShareButtons url={`https://www.gtavispot.com/news/${slug}/`} title={article.title} isTop />
+          <ShareButtons url={canonicalUrl} title={article.title} isTop />
 
           <div className={styles.divider} />
 
@@ -188,7 +188,7 @@ export default async function ArticlePage({ params }: Props) {
           {/* Responsive Leaderboard Slot (728x90 Desktop / 320x50 Mobile) */}
           <ResponsiveLeaderboardAd />
 
-          <ShareButtons url={`https://www.gtavispot.com/news/${slug}/`} title={article.title} />
+          <ShareButtons url={canonicalUrl} title={article.title} />
 
           {article.videoSchema && (
             <script

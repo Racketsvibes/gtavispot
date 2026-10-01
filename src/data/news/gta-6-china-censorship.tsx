@@ -20,8 +20,8 @@ const NewsCTAButton = ({ href, children }: { href: string; children: React.React
 };
 
 export const gta6ChinaCensorship: ArticleData = {
-  title: 'Rockstar Censors GTA 6 Trailer for China: All Changes & Blurred Scenes',
-  metaDescription: 'Rockstar Games has published a heavily censored GTA 6 Extended Look trailer in China on Bilibili. See every blurred scene, from nightclub dancers to smoking & blood.',
+  title: 'Rockstar Censors GTA 6 Trailer for China: All Changes',
+  metaDescription: 'Rockstar Games has published a censored GTA 6 Extended Look trailer in China on Bilibili. See every blurred scene, from nightclub dancers to smoking & blood.',
   focusKeyword: 'Rockstar censors GTA 6 trailer China',
   h1: 'Rockstar Censors GTA 6 Extended Look Trailer in China: Every Blurred Scene Explained',
   publishedDate: 'September 5, 2026',

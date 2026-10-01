@@ -12,6 +12,7 @@ export const jasonAndLucia: StoryArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_landscape.webp',
+  featureImageAlt: 'GTA 6 artwork of Jason and Lucia standing together',
   content: (
     <>
       <p>
@@ -133,7 +134,7 @@ export const jasonAndLucia: StoryArticleData = {
         Getaway sequences often require you to switch between the driver and the shooter. You can drive as Jason, performing drifts to dodge road blocks, then switch to Lucia to lean out of the window and fire at police cruisers.
       </p>
       <p>
-        To track how many heists are included in the campaign, visit our <Link href="/story/missions/">GTA 6 missions list and guide</Link>.
+        To track how many heists are included in the campaign, visit our <Link href="/story/missions/">GTA 6 missions list and guide</Link>. For the theories on where their story is heading, see our look at <Link href="/story/ending/">GTA 6's possible endings</Link>.
       </p>
 
       <div className={styles.callout}>

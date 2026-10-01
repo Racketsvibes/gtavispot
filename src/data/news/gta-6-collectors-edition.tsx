@@ -6,7 +6,7 @@ import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6CollectorsEdition: ArticleData = {
   title: 'GTA 6 Collectors Edition: Price & Details',
-  metaDescription: "No GTA 6 Collector's Edition has been announced yet. Here is what the confirmed editions cost, what a collector's edition would likely include, and where to pre-order.",
+  metaDescription: "No GTA 6 Collector's Edition has been announced yet. See what the confirmed editions cost, what a collector's edition may include, and where to pre-order.",
   focusKeyword: 'gta 6 collectors edition',
   h1: 'GTA 6 Collectors Edition: What We Know So Far',
   publishedDate: 'August 11, 2026',

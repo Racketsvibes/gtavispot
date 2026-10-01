@@ -13,6 +13,7 @@ export const gta6Characters: StoryArticleData = {
   modifiedDate: 'July 9, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/gta-6-characters-feature.webp',
+  featureImageAlt: 'GTA 6 characters group screenshot of the main cast together',
   content: (
     <>
       <p>

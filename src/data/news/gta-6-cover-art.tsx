@@ -4,7 +4,7 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6CoverArt: ArticleData = {
-  title: 'GTA 6 Cover Art Reveal: Details, Easter Eggs & Style Breakdown',
+  title: 'GTA 6 Cover Art Reveal: Details & Easter Eggs',
   metaDescription: 'GTA 6 official cover art breakdown. Analysis of Easter eggs, the iconic helicopter, Vice City street scenes, and how Rockstar Games designed the box art.',
   focusKeyword: 'GTA 6 cover art',
   h1: 'GTA 6 Cover Art Reveal: Easter Eggs & Design Breakdown',
@@ -12,6 +12,7 @@ export const gta6CoverArt: ArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Cover_Art.webp',
+  featureImageAlt: 'Official GTA 6 cover art featuring Jason and Lucia artwork',
   videoSchema: {
     name: 'GTA 6 Official Reveal Trailer 1',
     description: 'The first official trailer for Grand Theft Auto VI, revealing the Vice City setting, the modern Leonida backdrop, and protagonists Lucia and Jason.',

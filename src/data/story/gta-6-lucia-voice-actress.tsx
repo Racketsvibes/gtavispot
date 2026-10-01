@@ -20,14 +20,15 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 };
 
 export const gta6LuciaVoiceActress: StoryArticleData = {
-  title: 'Who Voices Lucia in GTA 6? Manni L. Perez - Evidence, Background & Proof (2026)',
-  metaDescription: "Who voices Lucia in GTA 6? Lucia's performer is unconfirmed. Manni L. Perez is the most widely reported candidate. Full bio card, facial scans, GTA Online connection & leaks.",
+  title: 'Who Voices Lucia in GTA 6? Manni L. Perez (2026)',
+  metaDescription: "Who voices Lucia in GTA 6? Lucia's performer is unconfirmed. Manni L. Perez is the most widely reported candidate. Bio, facial scans, GTA Online link & leaks.",
   focusKeyword: 'who voices Lucia in GTA 6',
   h1: 'Who Voices Lucia in GTA 6? — Manni L. Perez Evidence Explained',
   publishedDate: 'September 5, 2026',
   modifiedDate: 'September 5, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_02.webp',
+  featureImageAlt: 'Lucia Caminos close-up screenshot from GTA 6 trailer footage',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `

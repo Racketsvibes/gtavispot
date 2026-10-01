@@ -4,7 +4,7 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Trailer3: ArticleData = {
-  title: 'GTA 6 Trailer 3: Every Detail Breakdown & Release Predictions',
+  title: 'GTA 6 Trailer 3: Every Detail Breakdown',
   metaDescription: 'GTA 6 trailer 3 breakdown. Analysis of release dates, leaked timelines, confirmed locations, and what gameplay mechanics Rockstar will showcase next.',
   focusKeyword: 'GTA 6 trailer 3',
   h1: 'GTA 6 Trailer 3: Every Detail Breakdown & Expectations',
@@ -12,6 +12,7 @@ export const gta6Trailer3: ArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_Vi_Trailer_3.webp',
+  featureImageAlt: 'GTA 6 trailer 3 key artwork for the breakdown coverage',
   content: (
     <>
       <p>

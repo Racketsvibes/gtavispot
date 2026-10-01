@@ -12,6 +12,7 @@ export const underwater: MapArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_09.webp',
+  featureImageAlt: 'GTA 6 underwater screenshot beneath the Vice City coastline',
   content: (
     <>
       <p>

@@ -5,14 +5,15 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const ending: StoryArticleData = {
-  title: 'GTA 6 Ending: Will Jason or Lucia Die? Theories & What We Know',
-  metaDescription: 'No GTA 6 ending is confirmed before release. Will Jason or Lucia die? Explore the leading ending theories — Betrayal, Sacrifice, and the True Ending — and what we know so far.',
+  title: 'GTA 6 Ending: Will Jason or Lucia Die? Theories',
+  metaDescription: 'No GTA 6 ending is confirmed yet. Will Jason or Lucia die? Explore the ending theories — Betrayal, Sacrifice, and the True Ending — and what we know.',
   focusKeyword: 'GTA 6 ending',
   h1: 'GTA 6 Ending Explained: All 3 Endings & Secret End 2026',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_02.webp',
+  featureImageAlt: 'Lucia Caminos screenshot illustrating GTA 6 possible ending theories',
   content: (
     <>
       <div style={{ padding: '16px', background: 'rgba(245, 134, 52, 0.1)', borderLeft: '4px solid var(--brand-orange)', borderRadius: '0 8px 8px 0', marginBottom: '24px', fontFamily: 'var(--font-ui), sans-serif' }}>

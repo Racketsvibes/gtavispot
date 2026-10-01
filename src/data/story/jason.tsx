@@ -12,6 +12,7 @@ export const jason: StoryArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_03.webp',
+  featureImageAlt: 'Jason Duval screenshot introducing the GTA 6 protagonist guide',
   content: (
     <>
       <p>

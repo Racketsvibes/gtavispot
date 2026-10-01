@@ -12,6 +12,7 @@ export const leonidaKeys: MapArticleData = {
   author: 'Marcus Vance',
   modifiedDate: 'June 25, 2026',
   featureImage: '/images/GTAVI_Screenshots/Places/Leonida_Keys/Leonida_Keys_01.webp',
+  featureImageAlt: 'GTA 6 Leonida Keys island chain screenshot from above the water',
   content: (
     <>
       <p>

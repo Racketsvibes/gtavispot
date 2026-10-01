@@ -8,7 +8,7 @@ import styles from '../../../app/news/[slug]/page.module.css';
 export const gta6ArtworksEs: ArticleData = {
   title: 'GTA 6 Artworks: Fondos de Pantalla y Arte Oficial 4K',
   metaDescription: 'Obtén la colección oficial de GTA 6 Artworks. Descarga fondos de pantalla 4K para ordenador y móviles de Lucia y Jason en Vice City en este nuevo portal.',
-  focusKeyword: 'GTA 6 Artworks',
+  focusKeyword: 'Arte oficial de GTA 6',
   h1: 'GTA 6 Artworks: Arte y Fondos de Pantalla Oficiales',
   publishedDate: 'August 27, 2026',
   modifiedDate: 'August 27, 2026',

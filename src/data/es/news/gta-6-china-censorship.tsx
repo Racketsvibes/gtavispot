@@ -20,8 +20,8 @@ const NewsCTAButton = ({ href, children }: { href: string; children: React.React
 };
 
 export const gta6ChinaCensorshipEs: ArticleData = {
-  title: 'Rockstar Censura el Tráiler de GTA 6 en China: Escenas Borrosas y Cambios',
-  metaDescription: 'Rockstar Games publica una versión censurada del tráiler de GTA 6 en China en Bilibili. Mira qué escenas fueron difuminadas, desde discotecas hasta sangre y tabaco.',
+  title: 'Rockstar Censura el Tráiler de GTA 6 en China: Los Cambios',
+  metaDescription: 'Rockstar Games publica una versión censurada del tráiler de GTA 6 en China en Bilibili. Mira qué escenas fueron difuminadas: discotecas, sangre y tabaco.',
   focusKeyword: 'Rockstar censura tráiler GTA 6 China',
   h1: 'Rockstar Censura el Tráiler Extended Look de GTA 6 en China: Todas las Escenas Borrosas Explicadas',
   publishedDate: 'September 5, 2026',

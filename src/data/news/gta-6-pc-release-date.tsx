@@ -12,6 +12,7 @@ export const gta6PcReleaseDate: ArticleData = {
   modifiedDate: 'July 7, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
+  featureImageAlt: 'GTA 6 PC release date artwork showing gaming PC setup',
   content: (
     <>
       <p>

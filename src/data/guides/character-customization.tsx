@@ -21,7 +21,7 @@ const GuideCTAButton = ({ href, children }: { href: string; children: React.Reac
 
 export const characterCustomization: GuideArticleData = {
   title: 'GTA 6 Character Customization: Outfits, Tattoos & Style',
-  metaDescription: 'The complete GTA 6 character customization guide — clothing stores, barber shops, tattoo parlors, and the best Lucia & Jason outfits across Vice City and Leonida.',
+  metaDescription: 'GTA 6 character customization guide — clothing stores, barber shops, tattoo parlors, and the best Lucia & Jason outfits across Vice City and Leonida.',
   focusKeyword: 'GTA 6 character customization',
   h1: 'GTA 6 Character Customization: Outfits, Tattoos & Appearance Guide',
   publishedDate: 'September 28, 2026',

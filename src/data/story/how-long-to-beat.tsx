@@ -5,14 +5,15 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const howLongToBeat: StoryArticleData = {
-  title: 'How Long Will GTA 6 Be? Expected Story Length vs GTA 5 & RDR2',
-  metaDescription: 'How long is GTA 6? The main story is estimated at 35–45 hrs, story plus side missions an expected 60–70 hrs, and 100% an estimated 80–100+ hrs — all based on GTA 5 & RDR2 completion times.',
+  title: 'How Long Will GTA 6 Be? Story Length vs GTA 5 & RDR2',
+  metaDescription: 'How long is GTA 6? Main story estimated at 35–45 hrs, with side missions 60–70 hrs and 100% an estimated 80–100+ hrs — based on GTA 5 & RDR2 times.',
   focusKeyword: 'GTA 6 how long to beat',
   h1: 'GTA 6 How Long to Beat: Story & 100% Playtimes (2026)',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_02.webp',
+  featureImageAlt: 'Jason Duval screenshot illustrating GTA 6 story length estimates',
   content: (
     <>
       <p>

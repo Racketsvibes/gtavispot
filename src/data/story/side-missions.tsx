@@ -13,6 +13,7 @@ export const sideMissions: StoryArticleData = {
   modifiedDate: 'August 20, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Shop_view.webp',
+  featureImageAlt: 'GTA 6 shop interior screenshot for side missions and stranger quests',
   content: (
     <>
       <p>

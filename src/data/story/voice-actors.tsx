@@ -21,14 +21,15 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 };
 
 export const voiceActors: StoryArticleData = {
-  title: 'GTA 6 Voice Actors: Who Voices Jason, Lucia & Brian Heder? (2026)',
-  metaDescription: "Who voices Jason and Lucia in GTA 6? Lucia's performer is unconfirmed. Manni L. Perez is the most widely reported candidate. Stephen Root has confirmed he voices Brian Heder. See the reported cast, the evidence and photos. Updated 2026.",
+  title: 'GTA 6 Voice Actors: Who Voices Jason, Lucia & Brian Heder?',
+  metaDescription: "Who voices Jason and Lucia in GTA 6? Lucia's performer is unconfirmed; Manni L. Perez is widely reported. Stephen Root has confirmed he voices Brian Heder.",
   focusKeyword: 'GTA 6 voice actors',
   h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/People/Lucia%20Caminos/Lucia_Caminos_02.webp',
+  featureImageAlt: 'Lucia Caminos screenshot for the GTA 6 voice actors guide',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `

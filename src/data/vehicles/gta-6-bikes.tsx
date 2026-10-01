@@ -16,7 +16,7 @@ export interface VehicleArticleData {
 }
 
 export const gta6BikesArticle: VehicleArticleData = {
-  title: 'GTA 6 Bikes List: Confirmed Motorcycles & Bicycles',
+  title: 'GTA 6 Bikes List: Motorcycles & Bicycles Seen So Far',
   metaDescription: 'Explore the complete GTA 6 bikes database. Discover all confirmed motorcycles, cruisers, dirt bikes, and physics details from the official trailers now.',
   focusKeyword: 'gta 6 bikes',
   h1: 'GTA 6 Bikes: Confirmed Motorcycles & Bicycles List',

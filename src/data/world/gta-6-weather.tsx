@@ -22,7 +22,7 @@ const WorldCTAButton = ({ href, children }: { href: string; children: React.Reac
 
 export const gta6Weather: ArticleData = {
   title: 'GTA 6 Weather: Hurricanes, Storms & Dynamic System',
-  metaDescription: 'Does GTA 6 have hurricanes? Everything on the GTA 6 weather system — dynamic storms, rain, lightning, and the tropical Leonida climate shown in official footage.',
+  metaDescription: 'Does GTA 6 have hurricanes? Everything on the GTA 6 weather system — dynamic storms, rain, lightning, and the Leonida climate shown in official footage.',
   focusKeyword: 'GTA 6 weather',
   h1: 'GTA 6 Weather: Hurricanes, Storms & the Dynamic System',
   publishedDate: 'October 1, 2026',

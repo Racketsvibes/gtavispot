@@ -13,6 +13,7 @@ export const gta6Delay: ArticleData = {
   modifiedDate: 'August 20, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/gta-6-delay-minimalist.webp',
+  featureImageAlt: 'GTA 6 delay announcement graphic tracking every release postponement',
   content: (
     <>
       <p>

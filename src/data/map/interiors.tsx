@@ -6,13 +6,14 @@ import styles from '../../app/map/[slug]/page.module.css';
 
 export const interiors: MapArticleData = {
   title: 'GTA 6 Interiors: How Many Buildings Can You Enter?',
-  metaDescription: 'How many buildings can you enter in GTA 6? Reports suggest 700+ enterable interiors are expected, with no loading screens — shops, casinos, bars, clubs, and 150+ robbable stores.',
+  metaDescription: 'How many buildings can you enter in GTA 6? Reports suggest 700+ enterable interiors are expected, with no loading screens — shops, casinos, bars and clubs.',
   focusKeyword: 'GTA 6 interiors',
   h1: 'GTA 6 Interiors: All 700+ Enterable Buildings Guide',
   publishedDate: 'June 18, 2026',
   modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Interiors/Vice_City_03.webp',
+  featureImageAlt: 'Enterable Vice City building interior in GTA 6 without loading screens',
   content: (
     <>
       <p>

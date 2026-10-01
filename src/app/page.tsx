@@ -28,9 +28,9 @@ export const metadata = {
       'Your ultimate GTA 6 resource — latest news, interactive map, character guides, cheat codes, and everything confirmed for the November 19, 2026 launch.',
     images: [
       {
-        url: '/images/og-default.webp',
-        width: 1200,
-        height: 630,
+        url: '/images/desktop.webp',
+        width: 1600,
+        height: 900,
         alt: 'GTA Vi Spot — GTA 6 News and Guides',
       },
     ],
@@ -40,7 +40,7 @@ export const metadata = {
     title: 'GTA Vi Spot: GTA 6 News, Guides & Interactive Map',
     description:
       'Your ultimate GTA 6 resource — latest news, guides, map, and everything confirmed for November 2026.',
-    images: ['/images/og-default.webp'],
+    images: ['/images/desktop.webp'],
   },
   alternates: {
     canonical: 'https://www.gtavispot.com/',

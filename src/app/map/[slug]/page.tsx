@@ -140,7 +140,7 @@ export default async function MapArticlePage({ params }: Props) {
             <div className={styles.featureImageContainer}>
               <Image 
                 src={article.featureImage} 
-                alt={article.focusKeyword || article.title} 
+                alt={article.featureImageAlt || article.focusKeyword || article.title} 
                 width={1200}
                 height={630}
                 priority

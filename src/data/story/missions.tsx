@@ -6,13 +6,14 @@ import styles from '../../app/story/[slug]/page.module.css';
 
 export const missions: StoryArticleData = {
   title: 'GTA 6 Missions: How Many Missions Will There Be?',
-  metaDescription: 'How many missions are in GTA 6? An estimated 70–85 story missions are expected across 3 acts and 6 heists, in order — plus missable tasks to grab before Act 3. Updated 2026.',
+  metaDescription: 'How many missions are in GTA 6? An estimated 70–85 story missions are expected across 3 acts and 6 heists, in order — plus missable tasks to grab before Act 3.',
   focusKeyword: 'GTA 6 missions',
   h1: 'GTA 6 All Missions List: Every Story Mission in Order',
   publishedDate: 'June 21, 2026',
   modifiedDate: 'September 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Fight.webp',
+  featureImageAlt: 'GTA 6 combat screenshot showing a story mission firefight scene',
   content: (
     <>
       <p>
@@ -218,7 +219,7 @@ export const missions: StoryArticleData = {
         For details on the side tasks and stranger encounters available across Leonida, visit our <Link href="/story/side-missions/">GTA 6 side missions guide</Link>.
       </p>
       <p>
-        To plan your time across the three acts, see <Link href="/story/how-long-to-beat/">how long GTA 6 will take to beat</Link> for the estimated story and 100% playtimes.
+        To plan your time across the three acts, see <Link href="/story/how-long-to-beat/">how long GTA 6 will take to beat</Link> for the estimated story and 100% playtimes. And when the campaign wraps up, our guide to <Link href="/story/ending/">how GTA 6 might end</Link> breaks down the leading ending theories.
       </p>
 
       <div className={styles.featureImageContainer}>
