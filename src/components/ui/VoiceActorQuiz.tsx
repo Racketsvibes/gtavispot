@@ -18,8 +18,8 @@ interface QuizQuestion {
 }
 
 const initialPollOptions: PollOption[] = [
-  { id: 'lucia', name: 'Lucia Caminos', actor: 'Manni L. Perez', baseVotes: 7120 },
-  { id: 'jason', name: 'Jason Duval', actor: 'Gregory Connors', baseVotes: 4890 },
+  { id: 'lucia', name: 'Lucia Caminos', actor: 'Manni L. Perez (Reported)', baseVotes: 7120 },
+  { id: 'jason', name: 'Jason Duval', actor: 'Gregory Connors (Reported)', baseVotes: 4890 },
   { id: 'raul', name: 'Raul Bautista', actor: 'Cartel Boss Contact', baseVotes: 1640 },
   { id: 'boobie', name: 'Boobie Ike', actor: 'Nightclub Entrepreneur', baseVotes: 780 },
   { id: 'cal', name: 'Sheriff Cal Hampton', actor: 'Kelly County Antagonist', baseVotes: 590 },
@@ -40,7 +40,7 @@ const quizQuestions: QuizQuestion[] = [
     explanation: 'Rockstar Games utilized full-body performance capture with head-mounted camera rigs in dedicated studios across New York and London over 3+ years.'
   },
   {
-    question: 'Which actress is widely recognized by the community as the face and voice of Lucia?',
+    question: 'Who is widely reported to voice Lucia in GTA 6?',
     options: [
       'Laura Bailey',
       'Manni L. Perez',
@@ -48,7 +48,7 @@ const quizQuestions: QuizQuestion[] = [
       'Michelle Rodriguez'
     ],
     correctIndex: 1,
-    explanation: 'Manni L. Perez is matched to Lucia based on identical facial structure, vocal registry, motion-capture credits, and previous work with Rockstar on GTA Online.'
+    explanation: 'Manni L. Perez is widely reported to voice Lucia, based on identical facial structure, vocal registry, motion-capture credits, and previous work with Rockstar on GTA Online. Rockstar has not officially confirmed the casting.'
   },
   {
     question: 'Will GTA 5 main characters (Michael, Franklin, Trevor) return as playable leads in GTA 6?',

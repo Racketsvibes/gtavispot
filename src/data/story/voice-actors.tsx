@@ -21,8 +21,8 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 };
 
 export const voiceActors: StoryArticleData = {
-  title: 'GTA 6 Voice Actors: Confirmed Full Cast — Jason & Lucia',
-  metaDescription: "Who voices Jason and Lucia in GTA 6? Lucia's performer is unconfirmed. Manni L. Perez is the most widely reported candidate. See the reported cast, the evidence and photos. Updated 2026.",
+  title: 'GTA 6 Voice Actors: Who Voices Jason, Lucia & Brian Heder? (2026)',
+  metaDescription: "Who voices Jason and Lucia in GTA 6? Lucia's performer is unconfirmed. Manni L. Perez is the most widely reported candidate. Stephen Root has confirmed he voices Brian Heder. See the reported cast, the evidence and photos. Updated 2026.",
   focusKeyword: 'GTA 6 voice actors',
   h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',
@@ -745,7 +745,7 @@ export const voiceActors: StoryArticleData = {
             "@context": "https://schema.org",
             "@type": "ItemList",
             "name": "GTA 6 Voice Actors & Characters List",
-            "description": "A list of the confirmed voice actors, characters, and performers in GTA 6.",
+            "description": "A list of the reported and confirmed voice actors, characters, and performers in GTA 6.",
             "itemListElement": [
               {
                 "@type": "ListItem",
