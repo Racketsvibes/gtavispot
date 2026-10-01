@@ -12,6 +12,7 @@ export const portGellhorn: MapArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Port_Gellhorn/Port_Gellhorn_01.webp',
+  featureImageAlt: 'GTA 6 Port Gellhorn coastal town screenshot at golden hour',
   content: (
     <>
       <p>
