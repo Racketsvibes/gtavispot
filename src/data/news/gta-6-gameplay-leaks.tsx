@@ -5,7 +5,7 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6GameplayLeaks: ArticleData = {
-  title: 'GTA 6 Gameplay Leaks: Cyberleek Protests Digital-Only Release',
+  title: 'GTA 6 Gameplay Leaks: Cyberleek Protests Digital-Only',
   metaDescription: 'GTA 6 gameplay leaks details are here. Mods are not officially released. Compare expected graphics upgrades, PC tools, and FiveM roleplay server progress today.',
   focusKeyword: 'gta 6 gameplay leaks',
   h1: 'GTA 6 Gameplay Leaks: Cyberleek Protests Digital-Only Release',
