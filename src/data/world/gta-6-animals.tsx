@@ -5,7 +5,7 @@ import { ArticleData } from '../techContent'; // Reusing ArticleData interface
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Animals: ArticleData = {
-  title: 'GTA 6 Animals List: Confirmed Leonida Wildlife & Pets',
+  title: 'GTA 6 Animals List: Leonida Wildlife & Pets Seen So Far',
   metaDescription: 'Explore the complete GTA 6 Animals list. Discover confirmed Leonida wildlife, invasive species, and domestic pet breeds from the official trailers now.',
   focusKeyword: 'GTA 6 Animals',
   h1: 'GTA 6 Animals: Confirmed Leonida Wildlife & Pets',
