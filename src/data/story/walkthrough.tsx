@@ -13,6 +13,7 @@ export const walkthrough: StoryArticleData = {
   modifiedDate: 'July 17, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Screenshot.webp',
+  featureImageAlt: 'GTA 6 gameplay screenshot used for the story walkthrough guide',
   videoSchema: {
     name: 'GTA 6 Walkthrough: Complete Story Mode Guide',
     description: 'Watch the full gameplay walkthrough guide detailing the main story acts, gold medal completions, and ending choices in GTA 6.',

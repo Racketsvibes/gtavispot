@@ -6,7 +6,7 @@ import styles from '../../app/tech/[slug]/page.module.css';
 
 export const gta6PcRequirements: ArticleData = {
   title: 'Can Your PC Run GTA 6? Minimum & Recommended Specs (2026)',
-  metaDescription: 'GTA 6 is not confirmed for PC yet. Based on the PS5 and Xbox Series X|S hardware, here are the expected minimum, recommended and 4K PC specs — GPU, CPU, RAM and SSD — and how they compare with GTA 5.',
+  metaDescription: 'GTA 6 is not confirmed for PC yet. Based on PS5 and Xbox Series X|S hardware: the expected minimum, recommended and 4K PC specs (GPU, CPU, RAM, SSD) vs GTA 5.',
   focusKeyword: 'gta 6 pc requirements',
   h1: 'GTA 6 PC Requirements: Minimum, Recommended & Ultra Specs',
   publishedDate: 'July 21, 2026',
