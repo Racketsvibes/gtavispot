@@ -12,6 +12,7 @@ export const gta6NewFeatures: ArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_New_Features.webp',
+  featureImageAlt: 'GTA 6 new features artwork comparing gameplay changes to GTA 5',
   content: (
     <>
       <p>

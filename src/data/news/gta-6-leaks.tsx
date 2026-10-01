@@ -12,6 +12,7 @@ export const gta6Leaks: ArticleData = {
   modifiedDate: 'July 19, 2026',
   author: 'Marcus Vance',
    featureImage: '/images/Cluster_1/GTA_6_Leaks_&_Rumours.webp',
+   featureImageAlt: 'GTA 6 leaks and rumours collage of reported footage claims',
   content: (
     <>
       <p>
