@@ -5,7 +5,7 @@ import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6AgeRating: ArticleData = {
   title: 'GTA 6 Age Rating: ESRB Rating & ID Verification Guide',
-  metaDescription: 'Get details on the grand theft auto 6 age rating. Explore the gta 6 esrb rating, age limit restrictions, and whether players will require id verification in the US.',
+  metaDescription: 'Get details on the grand theft auto 6 age rating. Explore the gta 6 esrb rating, age limit restrictions, and whether players will require id verification.',
   focusKeyword: 'gta 6 age rating',
   h1: 'GTA 6 Age Rating: ESRB Rating & ID Verification Guide',
   publishedDate: 'August 21, 2026',
