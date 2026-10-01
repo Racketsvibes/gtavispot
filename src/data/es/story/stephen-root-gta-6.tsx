@@ -28,6 +28,7 @@ export const stephenRootGta6Es: StoryArticleData = {
   modifiedDate: 'September 17, 2026',
   author: 'Qamar Farooq',
   featureImage: '/images/People/Brian%20Heder/stephen-root-gta-6-voice-actor.webp',
+  featureImageAlt: 'Stephen Root, actor de voz de Brian Heder en GTA 6',
   videoSchema: {
     name: 'Stephen Root Confirmado en GTA 6 - Análisis del Actor de Brian Heder',
     description: 'Análisis detallado sobre la incorporación de Stephen Root a Grand Theft Auto VI interpretando a Brian Heder en los Cayos de Leonida.',
