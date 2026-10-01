@@ -26,6 +26,7 @@ export const size: MapArticleData = {
   modifiedDate: 'September 2, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Map_Size.webp',
+  featureImageAlt: 'GTA 6 map size comparison chart against GTA 5 and RDR2',
   content: (
     <>
       <style dangerouslySetInnerHTML={{__html: `
