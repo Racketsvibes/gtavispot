@@ -27,9 +27,9 @@ export const gta6PhysicalCopy: ArticleData = {
   content: (
     <>
       <p>
-        Grand Theft Auto VI will launch with a boxed retail release on November 19, 2026, but the package won't contain a physical game disc. 
-        Instead, the <strong>gta 6 physical copy</strong> will include a digital download code inside the case, allowing console players to pre-load the game starting on November 12, 2026. 
-        Here is a breakdown of Rockstar Games' retail strategy, pre-order bonuses, and why this release contains no game disc.
+        Grand Theft Auto VI will launch with a boxed retail release on November 19, 2026, but retailer listings suggest the package may not contain a physical game disc. 
+        Instead, the <strong>gta 6 physical copy</strong> is expected to include a digital download code inside the case, with reports indicating console players could pre-load the game starting on November 12, 2026. 
+        Rockstar has not officially detailed the boxed edition format. Here is a breakdown of the reported retail strategy, pre-order bonuses, and why this release may contain no game disc.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -37,11 +37,11 @@ export const gta6PhysicalCopy: ArticleData = {
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Physical Release Date:</strong> Boxed copies arrive at retail stores on November 12, 2026.</span>
+            <span><strong>Physical Release Date:</strong> Retailer listings point to boxed copies arriving at retail stores around November 12, 2026.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Media Format:</strong> Zero physical discs are included; the box contains a digital download voucher code.</span>
+            <span><strong>Media Format:</strong> Retailer listings suggest no physical disc is included; the box is expected to contain a digital download voucher code.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -56,9 +56,9 @@ export const gta6PhysicalCopy: ArticleData = {
 
       <h2>Will the GTA 6 Physical Copy Include a Game Disc?</h2>
       <p>
-        Rockstar Games has confirmed that the physical release of Grand Theft Auto VI is a code-in-box product. 
-        This means purchasing the retail packaging yields a physical case containing an activation voucher, confirming the <strong>gta 6 no disc</strong> setup for boxed sales. 
-        This distribution method applies to all major global retailers, including GameStop, Best Buy, and Amazon.
+        Retailer listings and reporting suggest that the physical release of Grand Theft Auto VI is a code-in-box product, though Rockstar has not officially detailed the boxed edition format. 
+        If those listings are accurate, purchasing the retail packaging would yield a physical case containing an activation voucher — a <strong>gta 6 no disc</strong> setup for boxed sales. 
+        This distribution method appears in listings at major global retailers, including GameStop, Best Buy, and Amazon.
       </p>
       
       <p>
@@ -203,8 +203,8 @@ export const gta6PhysicalCopy: ArticleData = {
 
       <h2>How to Pre-Load the GTA 6 Physical Edition Early</h2>
       <p>
-        Rockstar Games has scheduled the <strong>gta 6 disc release</strong> for November 12, 2026, which is exactly one week before launch. 
-        Retailers are authorized to hand over the physical game cases to pre-order buyers on this date. 
+        Retailer listings point to the <strong>gta 6 disc release</strong> arriving on November 12, 2026, exactly one week before launch. 
+        Retailers are reportedly set to hand over the physical game cases to pre-order buyers on this date. 
         This allows players to take their boxes home, open them, and redeem the code immediately.
       </p>
 
@@ -271,7 +271,7 @@ export const gta6PhysicalCopy: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Does the GTA 6 physical edition contain a disc?</h3>
           <p className={styles.faqAnswer}>
-            No, the physical edition doesn't contain a Blu-ray disc. It includes only a digital voucher code printed on a cardboard insert inside the case.
+            Based on retailer listings, no — the physical edition is not expected to contain a Blu-ray disc. The listings describe a digital voucher code printed on a cardboard insert inside the case instead, though Rockstar has not officially detailed the boxed format.
           </p>
         </div>
 
@@ -285,7 +285,7 @@ export const gta6PhysicalCopy: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>When is the GTA 6 disc release date at retail stores?</h3>
           <p className={styles.faqAnswer}>
-            The physical boxed edition will be available at retailers on November 12, 2026, allowing players to redeem their codes and pre-load files before the November 19 launch.
+            Retailer listings point to the physical boxed edition being available at retailers around November 12, 2026, which would allow players to redeem their codes and pre-load files before the November 19 launch. Rockstar has not officially confirmed this date.
           </p>
         </div>
 

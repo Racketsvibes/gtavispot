@@ -12,6 +12,7 @@ export const gta6NovemberRelease: ArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/news/gta-6-november-launch.jpg',
+  featureImageAlt: 'GTA 6 artwork for the November 19 launch announcement coverage',
   content: (
     <>
       <p>
