@@ -76,7 +76,8 @@ const curatedRelations: Record<string, string[]> = {
   'gta-plus': ['gta-6-pc-release-date', 'gta-6-price', 'gta-6-pre-order'],
 
   // World articles
-  'gta-6-animals': ['grassrivers', 'mount-kalaga', 'leonida-keys'],
+  'gta-6-animals': ['gta-6-weather', 'grassrivers', 'leonida-keys'],
+  'gta-6-weather': ['gta-6-animals', 'leonida-keys', 'size'],
 
   // Compare articles
   'gta-6-vs-rdr2': ['gta-6-vs-gta-5', 'is-gta-6-worth-buying-in-2026', 'size'],

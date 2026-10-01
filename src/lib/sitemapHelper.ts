@@ -68,6 +68,7 @@ const onlineModifiedDates: Record<string, string> = {
 
 const worldModifiedDates: Record<string, string> = {
   'gta-6-animals': '2026-08-13',
+  'gta-6-weather': '2026-10-01',
 };
 
 const mapModifiedDates: Record<string, string> = {

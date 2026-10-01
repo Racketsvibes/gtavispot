@@ -1,5 +1,6 @@
 import React from 'react';
 import { gta6Animals } from './world/gta-6-animals';
+import { gta6Weather } from './world/gta-6-weather';
 
 export interface VideoSchema {
   name: string;
@@ -27,6 +28,7 @@ export interface ArticleData {
 
 const worldArticlesMap: Record<string, ArticleData> = {
   'gta-6-animals': gta6Animals,
+  'gta-6-weather': gta6Weather,
 };
 
 export function getWorldArticleBySlug(slug: string): ArticleData | undefined {

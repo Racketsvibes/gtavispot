@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: September 30, 2026: Refreshed homepage Latest Updates feed with GTA 6 vs RDR2 comparison and Character Customization guides.*
+*Last updated: October 1, 2026: Published a new World guide — GTA 6 Weather (dynamic weather system, hurricanes, storms, and the tropical Leonida climate).*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -125,6 +125,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 
 ## World Articles
 - [GTA 6 Animals](https://gtavispot.com/world/gta-6-animals/)
+- [GTA 6 Weather: Hurricanes, Storms & Dynamic System](https://gtavispot.com/world/gta-6-weather/)
 
 ## Spanish (es) Articles
 - [Portal de Noticias de GTA 6 (Spanish)](https://gtavispot.com/es/news/)
