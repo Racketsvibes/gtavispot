@@ -90,6 +90,9 @@ export const gta6GameplayEs: ArticleData = {
         Al elevarse el nivel de alerta, las fuerzas especiales emplean escudos balísticos y asaltos coordinados en esta muestra de <strong>gameplay de grand theft auto vi</strong>.
       </p>
       <p>
+        Si quieres situar cada anuncio, tráiler y presentación en orden, repasa la <Link href="/es/gta-6-timeline/">cronología completa de GTA 6</Link> con todas las fechas clave del desarrollo.
+      </p>
+      <p>
         Las deformaciones de carrocerías por colisiones y los impactos de bala se registran detalladamente, influyendo directamente en la experiencia de <strong>gameplay de grand theft auto 6</strong>.
       </p>
 
