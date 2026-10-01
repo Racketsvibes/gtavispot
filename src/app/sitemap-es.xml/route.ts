@@ -12,7 +12,9 @@ export async function GET() {
   urls.forEach(item => {
     xml += `  <url>\n`;
     xml += `    <loc>${item.url}</loc>\n`;
-    xml += `    <lastmod>${item.lastmod}</lastmod>\n`;
+    if (item.lastmod) {
+      xml += `    <lastmod>${item.lastmod}</lastmod>\n`;
+    }
     xml += `    <changefreq>${item.changefreq}</changefreq>\n`;
     xml += `    <priority>${item.priority}</priority>\n`;
     
