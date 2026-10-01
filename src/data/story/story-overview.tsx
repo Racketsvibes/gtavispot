@@ -12,6 +12,7 @@ export const storyOverview: StoryArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/desktop.webp',
+  featureImageAlt: 'GTA 6 key artwork overview of Vice City and Leonida',
   content: (
     <>
       <p>
