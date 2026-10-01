@@ -26,6 +26,7 @@ export const lucia: StoryArticleData = {
   modifiedDate: 'September 5, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_03.webp',
+  featureImageAlt: 'Lucia Caminos screenshot introducing the GTA 6 protagonist guide',
   content: (
     <>
       <style dangerouslySetInnerHTML={{__html: `

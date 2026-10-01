@@ -26,6 +26,7 @@ export const luciaBackstory: StoryArticleData = {
   modifiedDate: 'September 5, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_05.webp',
+  featureImageAlt: 'Lucia Caminos screenshot illustrating her Liberty City backstory',
   content: (
     <>
       <style dangerouslySetInnerHTML={{__html: `
