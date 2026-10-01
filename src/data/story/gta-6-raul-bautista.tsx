@@ -13,6 +13,7 @@ export const gta6RaulBautista: StoryArticleData = {
   modifiedDate: 'July 9, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/People/Raul%20Bautista/Raul_Bautista_01.webp',
+  featureImageAlt: 'Raul Bautista character screenshot from GTA 6 story footage',
   content: (
     <>
       <p>
