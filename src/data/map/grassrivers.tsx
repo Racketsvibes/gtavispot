@@ -13,6 +13,7 @@ export const grassrivers: MapArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Grassrivers/Grassrivers_01.webp',
+  featureImageAlt: 'GTA 6 Grassrivers wetlands screenshot showing the Leonida everglades',
   content: (
     <>
       <p>

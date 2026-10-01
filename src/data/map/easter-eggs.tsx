@@ -12,6 +12,7 @@ export const easterEggs: MapArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Screenshot.webp',
+  featureImageAlt: 'GTA 6 screenshot hiding one of the games secret easter eggs',
   content: (
     <>
       <p>
