@@ -4,7 +4,7 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6StripClubLeak: ArticleData = {
-  title: 'GTA 6 Strip Club Leak: Cyberleek Releases Clip 7 in Crypto Grift',
+  title: 'GTA 6 Strip Club Leak: Cyberleek Releases Clip 7',
   metaDescription: 'Get details on the new GTA 6 strip club leak. Cyberleek is back with clip 7 showing Jason in Vice City, while Rockstar scrambles to contain the footage.',
   focusKeyword: 'gta 6 strip club leak',
   h1: 'GTA 6 Strip Club Leak: Cyberleek Releases Clip 7 in Crypto Grift',
