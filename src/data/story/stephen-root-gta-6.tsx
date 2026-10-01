@@ -28,6 +28,7 @@ export const stephenRootGta6: StoryArticleData = {
   modifiedDate: 'September 17, 2026',
   author: 'Qamar Farooq',
   featureImage: '/images/People/Brian%20Heder/stephen-root-gta-6-voice-actor.webp',
+  featureImageAlt: 'Stephen Root, the confirmed voice of Brian Heder in GTA 6',
   videoSchema: {
     name: 'Stephen Root Confirmed in GTA 6 - Brian Heder Voice Actor Breakdown',
     description: 'Detailed analysis of Stephen Root joining Grand Theft Auto VI as Brian Heder, boatyard smuggler and landlord in Leonida Keys.',
