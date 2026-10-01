@@ -20,14 +20,15 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 };
 
 export const gta6JasonVoiceActor: StoryArticleData = {
-  title: 'Who Voices Jason in GTA 6? Dylan Rourke vs Gregory Connors (2026)',
-  metaDescription: "Who voices Jason in GTA 6? Jason's performer is unconfirmed (reported candidates include Gregory Connors and Dylan Rourke). Resumes, vocal matches, deleted videos & reported evidence compared.",
+  title: 'Who Voices Jason in GTA 6? Dylan Rourke vs Gregory Connors',
+  metaDescription: "Who voices Jason in GTA 6? Jason's performer is unconfirmed (candidates: Gregory Connors, Dylan Rourke). Resumes, vocal matches & deleted videos compared.",
   focusKeyword: 'who voices Jason in GTA 6',
   h1: 'Who Voices Jason in GTA 6? Dylan Rourke vs Gregory Connors Explained',
   publishedDate: 'September 6, 2026',
   modifiedDate: 'September 6, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_02.webp',
+  featureImageAlt: 'Jason Duval close-up screenshot from GTA 6 trailer footage',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `
