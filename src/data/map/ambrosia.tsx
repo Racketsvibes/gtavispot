@@ -12,6 +12,7 @@ export const ambrosia: MapArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Ambrosia/Ambrosia_01.webp',
+  featureImageAlt: 'GTA 6 Ambrosia sugar refinery screenshot from the Leonida countryside',
   content: (
     <>
       <p>
