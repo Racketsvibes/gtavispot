@@ -105,26 +105,6 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  async rewrites() {
-    return [
-      {
-        source: '/gta-6-gameplay/',
-        destination: '/news/gta-6-gameplay/',
-      },
-      {
-        source: '/es/gta-6-gameplay/',
-        destination: '/es/news/gta-6-gameplay/',
-      },
-      {
-        source: '/gta-6-timeline/',
-        destination: '/news/gta-6-timeline/',
-      },
-      {
-        source: '/es/gta-6-timeline/',
-        destination: '/es/news/gta-6-timeline/',
-      },
-    ];
-  },
 };
 
 export default nextConfig;
