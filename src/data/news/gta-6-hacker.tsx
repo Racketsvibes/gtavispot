@@ -4,8 +4,8 @@ import { ArticleData } from '../newsContent';
 import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Hacker: ArticleData = {
-  title: 'GTA 6 Hacker: Indefinite Sentence & Retrial Updates',
-  metaDescription: 'Discover the latest updates on the GTA 6 Hacker Arion Kurtaj. Read about his indefinite hospital order, hotel room intrusion, and upcoming 2026 retrial.',
+  title: 'GTA 6 Hacker Arion Kurtaj: Hospital Order, Retrial & Latest Updates (2026)',
+  metaDescription: 'GTA 6 hacker Arion Kurtaj has been transferred to a standard prison and is awaiting a criminal retrial in November 2026. Read about his indefinite hospital order, the hotel room intrusion, and the latest updates.',
   focusKeyword: 'GTA 6 Hacker',
   h1: 'GTA 6 Hacker: Sentencing, Retrial, and Latest Updates',
   publishedDate: 'July 19, 2026',

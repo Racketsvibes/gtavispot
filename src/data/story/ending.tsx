@@ -5,8 +5,8 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const ending: StoryArticleData = {
-  title: 'GTA 6 Ending Explained: All 3 Endings — Who Dies? (2026)',
-  metaDescription: 'GTA 6 has 3 endings — Betrayal, Sacrifice, and the True Ending. Does Jason or Lucia die? See the post-credits scene and every outcome. Full spoilers inside.',
+  title: 'GTA 6 Ending: Will Jason or Lucia Die? Theories & What We Know',
+  metaDescription: 'No GTA 6 ending is confirmed before release. Will Jason or Lucia die? Explore the leading ending theories — Betrayal, Sacrifice, and the True Ending — and what we know so far.',
   focusKeyword: 'GTA 6 ending',
   h1: 'GTA 6 Ending Explained: All 3 Endings & Secret End 2026',
   publishedDate: 'June 21, 2026',
@@ -20,7 +20,7 @@ export const ending: StoryArticleData = {
       </div>
 
       <p>
-        The climax of the <strong>GTA 6 ending</strong> provides an emotional conclusion to Lucia and Jason\'s criminal partnership. Shifting away from linear campaign finales, your decisions, relationship trust, and choices in the final heist shape the outcome of their story, resulting in three distinct endings.
+        No GTA 6 ending is confirmed before release — everything on this page covers the leading theories and expectations for how the story could end, not official spoilers. The climax of the <strong>GTA 6 ending</strong> provides an emotional conclusion to Lucia and Jason\'s criminal partnership. Shifting away from linear campaign finales, your decisions, relationship trust, and choices in the final heist shape the outcome of their story, resulting in three distinct endings.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -72,6 +72,9 @@ export const ending: StoryArticleData = {
       </p>
       <p>
         For a guide to the preceding missions that lead to this confrontation, see our <Link href="/story/walkthrough/">GTA 6 story walkthrough</Link>.
+      </p>
+      <p>
+        And if you want to know the time commitment before the finale, see <Link href="/story/how-long-to-beat/">how long GTA 6 will take to beat</Link> for the estimated story and 100% playtimes.
       </p>
 
       <h2>The Three Main Endings Explained</h2>
