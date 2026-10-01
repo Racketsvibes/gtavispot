@@ -18,6 +18,14 @@ import styles from './page.module.css';
 export const metadata = {
   title: 'GTA Vi Spot: GTA 6 News, Guides & Interactive Map',
   description: 'Your ultimate GTA 6 guide. Get the latest verified news, interactive Vice City map, story character profiles, specs, and launch countdown.',
+  alternates: {
+    canonical: 'https://www.gtavispot.com/',
+    languages: {
+      'en': 'https://www.gtavispot.com/',
+      'es-es': 'https://www.gtavispot.com/es/news/',
+      'x-default': 'https://www.gtavispot.com/',
+    },
+  },
 };
 
 

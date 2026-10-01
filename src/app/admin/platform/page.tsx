@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import * as fs from 'fs';
 import * as path from 'path';
 import { db } from '@/backend/db';
@@ -30,6 +31,13 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function PlatformAdminPage() {
+  // Internal operations dashboard: never expose it in production unless
+  // explicitly enabled. noindex alone is not access control, so return
+  // 404 for everyone when the flag is off.
+  if (process.env.NODE_ENV === 'production' && process.env.ENABLE_ADMIN_PLATFORM !== 'true') {
+    notFound();
+  }
+
   // 1. Load Rockstar Import report JSON
   let importReport: any = {
     characters: 8,

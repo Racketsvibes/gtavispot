@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { headers } from 'next/headers';
 import { Bebas_Neue, Barlow, Barlow_Condensed } from 'next/font/google';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -89,14 +90,17 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = (await headers()).get('x-pathname') ?? '';
+  const lang = pathname.startsWith('/es') ? 'es' : 'en';
+
   return (
     <html
-      lang="en"
+      lang={lang}
       className={`${bebasNeue.variable} ${barlow.variable} ${barlowCondensed.variable}`}
       suppressHydrationWarning
     >
