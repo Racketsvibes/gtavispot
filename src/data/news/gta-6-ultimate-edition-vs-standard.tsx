@@ -13,6 +13,7 @@ export const gta6UltimateVsStandard: ArticleData = {
   modifiedDate: 'July 16, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_02/Jason_and_Lucia_02_landscape.webp',
+  featureImageAlt: 'Jason and Lucia artwork used for GTA 6 edition comparison',
   content: (
     <>
       <p>
