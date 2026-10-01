@@ -89,7 +89,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     img: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_02.webp',
   },
   {
-    title: 'Rockstar Censors GTA 6 Trailer for China: All Changes & Blurred Scenes',
+    title: 'Rockstar Censors GTA 6 Trailer for China: All Changes',
     desc: 'Rockstar Games has published a heavily censored GTA 6 Extended Look trailer in China on Bilibili. See every blurred scene, from nightclub dancers to smoking & blood.',
     date: 'September 5, 2026',
     tag: 'NEWS',
@@ -169,7 +169,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     img: '/images/Vice_City_01.332891cf.webp',
   },
   {
-    title: 'GTA 6 Strip Club Leak: Cyberleek Releases Clip 7 in Crypto Grift',
+    title: 'GTA 6 Strip Club Leak: Cyberleek Releases Clip 7',
     desc: 'A new GTA 6 leak shows protagonist Jason Duval entering a Vice City strip club as leakers promote a crypto memecoin scam and Rockstar scrambles.',
     date: 'August 22, 2026',
     tag: 'NEWS',

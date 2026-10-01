@@ -12,6 +12,7 @@ export const dualProtagonists: StoryArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Artwork_images/Jason_and_Lucia_01/Jason_and_Lucia_01_landscape.webp',
+  featureImageAlt: 'GTA 6 artwork of Jason and Lucia, the dual protagonists',
   content: (
     <>
       <p>
