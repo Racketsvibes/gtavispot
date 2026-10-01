@@ -12,6 +12,7 @@ export const mountKalaga: MapArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Mount_Kalaga_National_Park_02.webp',
+  featureImageAlt: 'GTA 6 Mount Kalaga National Park mountain landscape screenshot',
   content: (
     <>
       <p>

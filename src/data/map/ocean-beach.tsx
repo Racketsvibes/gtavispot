@@ -12,6 +12,7 @@ export const oceanBeach: MapArticleData = {
   modifiedDate: 'June 25, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_02.webp',
+  featureImageAlt: 'GTA 6 Ocean Beach district screenshot showing Vice City shoreline',
   content: (
     <>
       <p>
