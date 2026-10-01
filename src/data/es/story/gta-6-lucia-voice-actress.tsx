@@ -20,7 +20,7 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 };
 
 export const gta6LuciaVoiceActressEs: StoryArticleData = {
-  title: '¿Quién Hace la Voz de Lucia en GTA 6? Manni L. Perez: Pruebas y Biografía (2026)',
+  title: '¿Quién Hace la Voz de Lucia en GTA 6? Manni L. Perez (2026)',
   metaDescription: '¿Quién hace la voz de Lucia en GTA 6? Descubre por qué Manni L. Perez es la actriz de Lucia. Biografía completa, escaneos faciales, GTA Online y filtraciones.',
   focusKeyword: 'quién hace la voz de Lucia en GTA 6',
   h1: '¿Quién Hace la Voz de Lucia en GTA 6? — Pruebas y Perfil de Manni L. Perez',
@@ -28,6 +28,7 @@ export const gta6LuciaVoiceActressEs: StoryArticleData = {
   modifiedDate: 'September 5, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_02.webp',
+  featureImageAlt: 'Lucia Caminos en una captura oficial de GTA 6',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `
