@@ -21,7 +21,7 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 
 export const gta6JasonVoiceActor: StoryArticleData = {
   title: 'Who Voices Jason in GTA 6? Dylan Rourke vs Gregory Connors (2026)',
-  metaDescription: 'Who voices Jason in GTA 6? Full investigative breakdown comparing Dylan Rourke vs Gregory Connors. Resumes, vocal matches, deleted videos & proof.',
+  metaDescription: "Who voices Jason in GTA 6? Jason's performer is unconfirmed (reported candidates include Gregory Connors and Dylan Rourke). Resumes, vocal matches, deleted videos & reported evidence compared.",
   focusKeyword: 'who voices Jason in GTA 6',
   h1: 'Who Voices Jason in GTA 6? Dylan Rourke vs Gregory Connors Explained',
   publishedDate: 'September 6, 2026',
@@ -320,7 +320,7 @@ export const gta6JasonVoiceActor: StoryArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Rockstar Official Status:</strong> Neither actor has been officially confirmed due to strict non-disclosure agreements (NDAs), but community consensus heavily favors <strong>Dylan Rourke as Jason</strong>, with Connors likely portraying a major supporting lead or antagonist.</span>
+            <span><strong>Rockstar Official Status:</strong> Jason&apos;s performer is unconfirmed (reported candidates include Gregory Connors and Dylan Rourke), due to strict non-disclosure agreements (NDAs). Community consensus currently favors <strong>Dylan Rourke</strong>, with Connors also linked in reports to a major supporting lead or antagonist role.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
