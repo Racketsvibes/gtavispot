@@ -107,15 +107,15 @@ const voiceActorsNav = [
     badge: 'Cast 2026' 
   },
   { 
-    label: 'Lucia (Manni L. Perez)', 
-    esLabel: 'Lucia (Manni L. Perez)',
+    label: 'Lucia', 
+    esLabel: 'Lucia',
     href: '/story/gta-6-lucia-voice-actress/', 
     esHref: '/es/story/gta-6-lucia-voice-actress/', 
     badge: 'Protagonist' 
   },
   { 
-    label: 'Jason (Dylan Rourke)', 
-    esLabel: 'Jason (Dylan Rourke)',
+    label: 'Jason', 
+    esLabel: 'Jason',
     href: '/story/gta-6-jason-voice-actor/', 
     esHref: '/es/story/gta-6-jason-voice-actor/', 
     badge: 'Protagonist' 

@@ -5,7 +5,7 @@ import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6Price: ArticleData = {
   title: 'GTA 6 Price: All Editions, Costs & Is It Worth It?',
-  metaDescription: 'GTA 6 price confirmed: standard, special and collector editions explained. Find out how much each version costs and where to get the cheapest deal.',
+  metaDescription: "Standard Edition: $79.99. See the confirmed GTA 6 edition prices, what a collector's edition — not yet announced — would likely cost, and where to get the cheapest deal.",
   focusKeyword: 'GTA 6 price',
   h1: 'GTA 6 Price: All Editions & Expected Costs',
   publishedDate: 'June 17, 2026',
@@ -15,7 +15,7 @@ export const gta6Price: ArticleData = {
   content: (
     <>
       <p>
-        The launch of Grand Theft Auto 6 will align with the pricing model for premium AAA next-generation games, starting at <strong>$79.99</strong>. Take-Two Interactive leadership has dismissed internet rumors claiming a higher entry price. Players can pre-order standard and ultimate editions across all stores, and early reports on <Link href="/news/gta-6-pre-order-sales/">pre-order sales numbers</Link> indicate high demand for the premium options.
+        The confirmed <strong>Standard Edition</strong> price for GTA 6 is <strong>$79.99</strong>. Take-Two Interactive leadership has dismissed internet rumors claiming a higher entry price. Players can pre-order standard and ultimate editions across all stores, and early reports on <Link href="/news/gta-6-pre-order-sales/">pre-order sales numbers</Link> indicate high demand for the premium options.
       </p>
 
       <div className={styles.quickAnswer}>

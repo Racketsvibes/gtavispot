@@ -5,8 +5,8 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const howLongToBeat: StoryArticleData = {
-  title: 'GTA 6 How Long to Beat? 35–45 Hrs Story & 100% Playtime',
-  metaDescription: 'How long is GTA 6? Main story runs 35–45 hrs, side missions 60–70 hrs, and 100% takes 80–100+ hrs. See how it compares to GTA 5 & RDR2.',
+  title: 'How Long Will GTA 6 Be? Expected Story Length vs GTA 5 & RDR2',
+  metaDescription: 'How long is GTA 6? The main story is estimated at 35–45 hrs, story plus side missions an expected 60–70 hrs, and 100% an estimated 80–100+ hrs — all based on GTA 5 & RDR2 completion times.',
   focusKeyword: 'GTA 6 how long to beat',
   h1: 'GTA 6 How Long to Beat: Story & 100% Playtimes (2026)',
   publishedDate: 'June 21, 2026',
@@ -16,7 +16,7 @@ export const howLongToBeat: StoryArticleData = {
   content: (
     <>
       <p>
-        The time investment required to complete the state of Leonida is a key question for players, with the <strong>GTA 6 how long to beat</strong> metrics setting a new standard for open-world games. Whether you plan to rush through the main story campaign or pursue a 100% completion run, this guide outlines the verified hours needed for each playstyle.
+        The time investment required to complete the state of Leonida is a key question for players, with the <strong>GTA 6 how long to beat</strong> metrics setting a new standard for open-world games. Whether you plan to rush through the main story campaign or pursue a 100% completion run, this guide outlines the estimated hours expected for each playstyle, based on GTA 5 and RDR2 completion times.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -24,15 +24,15 @@ export const howLongToBeat: StoryArticleData = {
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Main Story:</strong> 35 to 45 hours of focused campaign missions.</span>
+            <span><strong>Main Story (estimated):</strong> 35 to 45 hours of focused campaign missions.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Story + Side Quests:</strong> 60 to 70 hours including stranger tasks and activities.</span>
+            <span><strong>Story + Side Quests (estimated):</strong> 60 to 70 hours including stranger tasks and activities.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>100% Completionist:</strong> 80 to 100+ hours to clear all collectibles and checkboxes.</span>
+            <span><strong>100% Completionist (estimated):</strong> 80 to 100+ hours to clear all collectibles and checkboxes.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -221,7 +221,7 @@ export const howLongToBeat: StoryArticleData = {
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
         <p>
-          GTA 6 takes 35 to 45 hours to beat for the main story campaign. A 100% completionist run requires 80 to 100+ hours, clearing all stranger quests and collectibles. The game is longer than GTA 5 but shorter than Red Dead Redemption 2, offering a highly polished, hand-crafted open world.
+          GTA 6 is estimated to take 35 to 45 hours to beat for the main story campaign. A 100% completionist run requires 80 to 100+ hours, clearing all stranger quests and collectibles. The game is longer than GTA 5 but shorter than Red Dead Redemption 2, offering a highly polished, hand-crafted open world.
         </p>
       </div>
 

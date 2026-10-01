@@ -590,7 +590,7 @@ export const stephenRootGta6: StoryArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Is Stephen Root the first officially confirmed voice actor for GTA 6?</h3>
           <p className={styles.faqAnswer}>
-            Yes. While actors for Lucia (widely rumored as Manni L. Perez) and Jason (Dylan Rourke / Gregory Connors) remain unannounced by Rockstar Games, Stephen Root is the first veteran Hollywood actor officially confirmed for the cast.
+            Yes. Lucia&apos;s performer is unconfirmed. Manni L. Perez is the most widely reported candidate. Jason&apos;s performer is unconfirmed (reported candidates include Gregory Connors and Dylan Rourke). Both remain unannounced by Rockstar Games, while Stephen Root is the first veteran Hollywood actor officially confirmed for the cast.
           </p>
         </div>
 

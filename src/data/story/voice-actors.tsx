@@ -22,7 +22,7 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 
 export const voiceActors: StoryArticleData = {
   title: 'GTA 6 Voice Actors: Confirmed Full Cast — Jason & Lucia',
-  metaDescription: 'Who voices Jason and Lucia in GTA 6? See the full confirmed cast — every character with their real-life voice actor and photos. Updated 2026.',
+  metaDescription: "Who voices Jason and Lucia in GTA 6? Lucia's performer is unconfirmed. Manni L. Perez is the most widely reported candidate. See the reported cast, the evidence and photos. Updated 2026.",
   focusKeyword: 'GTA 6 voice actors',
   h1: 'GTA 6 Voice Actors: Complete Cast & Characters 2026',
   publishedDate: 'June 21, 2026',
@@ -80,11 +80,11 @@ export const voiceActors: StoryArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Lucia Performer:</strong> Voiced and motion-captured by a professional American actress (Manni L. Perez).</span>
+            <span><strong>Lucia Performer:</strong> Lucia&apos;s performer is unconfirmed. Manni L. Perez is the most widely reported candidate.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Jason Performer:</strong> Played by an established voice actor specializing in action roles (Gregory Connors).</span>
+            <span><strong>Jason Performer:</strong> Jason&apos;s performer is unconfirmed (reported candidates include Gregory Connors and Dylan Rourke).</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -110,7 +110,7 @@ export const voiceActors: StoryArticleData = {
         />
       </div>
       <p>
-        Lucia is voiced by a professional American actress of Latin-American descent, widely rumored to be <strong>Manni L. Perez</strong> due to matching facial structures and vocal registry. She provided the voice lines and motion-capture acting for Lucia’s character model, translating physical expressions and gestures directly into the game. Her performance highlights Lucia's street-smart intelligence and vulnerability, giving the first female lead of the modern era a grounded personality. For details on her role and special combat skills, see our <Link href="/story/lucia/">GTA 6 Lucia guide</Link>.
+        Lucia&apos;s performer is unconfirmed. Manni L. Perez is the most widely reported candidate, due to matching facial structures and vocal registry. Reports credit Perez with the voice lines and motion-capture acting for Lucia’s character model, translating physical expressions and gestures directly into the game. Lucia's performance highlights her street-smart intelligence and vulnerability, giving the first female lead of the modern era a grounded personality. For details on her role and special combat skills, see our <Link href="/story/lucia/">GTA 6 Lucia guide</Link>.
       </p>
       <div className={styles.galleryGrid}>
         <div className={styles.galleryImageContainer}>
@@ -216,7 +216,7 @@ export const voiceActors: StoryArticleData = {
         />
       </div>
       <p>
-        Jason is voiced by an American actor rumored to be <strong>Gregory Connors</strong> after a lead actor credit leaked on his portfolio. Jason is a military veteran who handles the muscle and getaway driving for their crew. His voice lines highlight his protective nature, showing his loyalty to Lucia and his tension when dealing with the state’s corrupt authorities. Check his specific shooting perks and weapon control specialities in our <Link href="/story/jason/">GTA 6 Jason guide</Link>.
+        Jason&apos;s performer is unconfirmed (reported candidates include Gregory Connors and Dylan Rourke). Gregory Connors first drew attention after a lead actor credit leaked on his portfolio. Jason is a military veteran who handles the muscle and getaway driving for their crew. His voice lines highlight his protective nature, showing his loyalty to Lucia and his tension when dealing with the state’s corrupt authorities. Check his specific shooting perks and weapon control specialities in our <Link href="/story/jason/">GTA 6 Jason guide</Link>.
       </p>
       <div className={styles.galleryGrid}>
         <div className={styles.galleryImageContainer}>
@@ -705,7 +705,7 @@ export const voiceActors: StoryArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Who voices Lucia in GTA 6?</h3>
           <p className={styles.faqAnswer}>
-            Lucia is voiced by New York-based Latina actress <strong>Manni L. Perez</strong>, known for her roles in <em>Law & Order: SVU</em> and <em>Jessica Jones</em>. Perez also performed the full 3D motion capture and physical stunt work. For a complete analysis of facial scans, audio frequencies, and Rockstar leaks, read our investigative <Link href="/story/gta-6-lucia-voice-actress/">Manni L. Perez GTA 6 voice actress guide</Link>.
+            Lucia&apos;s performer is unconfirmed. Manni L. Perez is the most widely reported candidate — a New York-based Latina actress known for her roles in <em>Law & Order: SVU</em> and <em>Jessica Jones</em>. Reports also credit Perez with the full 3D motion capture and physical stunt work. For a complete analysis of facial scans, audio frequencies, and Rockstar leaks, read our investigative <Link href="/story/gta-6-lucia-voice-actress/">Manni L. Perez GTA 6 voice actress guide</Link>.
           </p>
         </div>
 

@@ -89,14 +89,20 @@ export default function SpanishNewsHubPage() {
       <section className={`container ${styles.articlesSection}`}>
         <h2 className={styles.sectionTitle}>Más Artículos</h2>
         <div className={styles.grid}>
-          {otherArticles.map(({ slug, article }) => (
+          {otherArticles.map(({ slug, article }) => {
+            // Canonical root paths (see src/lib/sitemapHelper.ts): these two
+            // articles live at /es/<slug>/, not /es/news/<slug>/ — link
+            // directly to the canonical URL instead of the redirect.
+            const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+            const cardHref = rootSlugs.includes(slug) ? `/es/${slug}/` : `/es/news/${slug}/`;
+            return (
             <article key={slug} className={styles.card}>
               <div className={styles.cardHeader}>
                 <span className={styles.cardBadge}>GTA 6 CONFIRMADO</span>
               </div>
               <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>
-                  <Link href={`/es/news/${slug}/`} className={styles.cardLink}>
+                  <Link href={cardHref} className={styles.cardLink}>
                     {article.h1}
                   </Link>
                 </h3>
@@ -110,7 +116,8 @@ export default function SpanishNewsHubPage() {
                 </div>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
       </section>
     </div>

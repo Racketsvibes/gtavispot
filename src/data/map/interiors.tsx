@@ -5,8 +5,8 @@ import { MapArticleData } from '../mapContent';
 import styles from '../../app/map/[slug]/page.module.css';
 
 export const interiors: MapArticleData = {
-  title: 'GTA 6 Interiors: All 700+ Enterable Buildings (Full List)',
-  metaDescription: 'How many buildings can you enter in GTA 6? Explore 700+ interiors with no loading screens — shops, casinos, bars, clubs, and 150+ robbable stores.',
+  title: 'GTA 6 Interiors: How Many Buildings Can You Enter?',
+  metaDescription: 'How many buildings can you enter in GTA 6? Reports suggest 700+ enterable interiors are expected, with no loading screens — shops, casinos, bars, clubs, and 150+ robbable stores.',
   focusKeyword: 'GTA 6 interiors',
   h1: 'GTA 6 Interiors: All 700+ Enterable Buildings Guide',
   publishedDate: 'June 18, 2026',
@@ -24,7 +24,7 @@ export const interiors: MapArticleData = {
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Total Count:</strong> Over 700 buildings feature fully modeled, enterable interiors.</span>
+            <span><strong>Total Count (reported):</strong> Over 700 buildings are expected to feature fully modeled, enterable interiors.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -43,7 +43,7 @@ export const interiors: MapArticleData = {
 
       <h2>How many buildings can you enter in GTA 6?</h2>
       <p>
-        Players can walk inside over 700 unique buildings across the state of Leonida. This scale of interactivity represents a massive improvement over previous titles, where most buildings were hollow models.
+        Reports suggest players will be able to walk inside over 700 unique buildings across the state of Leonida. This scale of interactivity represents a massive improvement over previous titles, where most buildings were hollow models.
       </p>
       
       <div className={styles.featureImageContainer}>
@@ -355,7 +355,7 @@ export const interiors: MapArticleData = {
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
         <p>
-          GTA 6 features over 700 enterable buildings, utilizing advanced rendering patents to load them seamlessly. This is a massive increase over GTA 5, offering accessible shops, bars, casinos, and transit hubs. Over 150 shops can be robbed dynamically, and interiors hide hidden weapon caches and easter eggs.
+          GTA 6 is reported to feature over 700 enterable buildings, utilizing advanced rendering patents to load them seamlessly. This is a massive increase over GTA 5, offering accessible shops, bars, casinos, and transit hubs. Over 150 shops can be robbed dynamically, and interiors hide hidden weapon caches and easter eggs.
         </p>
       </div>
 

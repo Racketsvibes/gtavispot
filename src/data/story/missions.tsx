@@ -5,8 +5,8 @@ import { StoryArticleData } from '../storyContent';
 import styles from '../../app/story/[slug]/page.module.css';
 
 export const missions: StoryArticleData = {
-  title: 'GTA 6 All Missions List: 70+ Missions in Story Order',
-  metaDescription: 'How many missions are in GTA 6? All 70–85 story missions across 3 acts and 6 heists, in order — plus missable tasks to grab before Act 3. Updated 2026.',
+  title: 'GTA 6 Missions: How Many Missions Will There Be?',
+  metaDescription: 'How many missions are in GTA 6? An estimated 70–85 story missions are expected across 3 acts and 6 heists, in order — plus missable tasks to grab before Act 3. Updated 2026.',
   focusKeyword: 'GTA 6 missions',
   h1: 'GTA 6 All Missions List: Every Story Mission in Order',
   publishedDate: 'June 21, 2026',
@@ -216,6 +216,9 @@ export const missions: StoryArticleData = {
       </p>
       <p>
         For details on the side tasks and stranger encounters available across Leonida, visit our <Link href="/story/side-missions/">GTA 6 side missions guide</Link>.
+      </p>
+      <p>
+        To plan your time across the three acts, see <Link href="/story/how-long-to-beat/">how long GTA 6 will take to beat</Link> for the estimated story and 100% playtimes.
       </p>
 
       <div className={styles.featureImageContainer}>

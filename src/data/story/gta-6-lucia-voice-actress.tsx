@@ -21,7 +21,7 @@ const StoryCTAButton = ({ href, children }: { href: string; children: React.Reac
 
 export const gta6LuciaVoiceActress: StoryArticleData = {
   title: 'Who Voices Lucia in GTA 6? Manni L. Perez - Evidence, Background & Proof (2026)',
-  metaDescription: 'Who voices Lucia in GTA 6? Discover why Manni L. Perez is the heavily evidenced actress behind Lucia. Full bio card, facial scans, GTA Online connection & leaks.',
+  metaDescription: "Who voices Lucia in GTA 6? Lucia's performer is unconfirmed. Manni L. Perez is the most widely reported candidate. Full bio card, facial scans, GTA Online connection & leaks.",
   focusKeyword: 'who voices Lucia in GTA 6',
   h1: 'Who Voices Lucia in GTA 6? — Manni L. Perez Evidence Explained',
   publishedDate: 'September 5, 2026',
@@ -246,7 +246,7 @@ export const gta6LuciaVoiceActress: StoryArticleData = {
       `}} />
 
       <p>
-        If you want to know <strong>who voices Lucia in GTA 6</strong>, the answer points directly to New York-based actress <strong>Manni L. Perez</strong>. While Rockstar Games maintains strict non-disclosure agreements ahead of the official launch, extensive community facial recognition, vocal registry matching, past Rockstar credits, and resume leaks establish Perez as the voice and motion-capture artist for Lucia Caminos.
+        If you want to know <strong>who voices Lucia in GTA 6</strong>: Lucia&apos;s performer is unconfirmed. Manni L. Perez is the most widely reported candidate. While Rockstar Games maintains strict non-disclosure agreements ahead of the official launch, extensive community facial recognition, vocal registry matching, past Rockstar credits, and resume leaks point to the New York-based actress as the voice and motion-capture artist for Lucia Caminos.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -254,7 +254,7 @@ export const gta6LuciaVoiceActress: StoryArticleData = {
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Lead Actress:</strong> <strong>Manni L. Perez</strong> is the voice, face model, and performance capture artist for Lucia.</span>
+            <span><strong>Lead Actress:</strong> Lucia&apos;s performer is unconfirmed. Manni L. Perez is the most widely reported candidate.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>

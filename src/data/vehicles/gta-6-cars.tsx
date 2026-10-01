@@ -50,6 +50,9 @@ export const gta6CarsArticle: ArticleData = {
       <p>
         From muscle cruisers to lightweight city runabouts, the initial list of <strong>gta 6 cars</strong> includes a massive variety of vehicles, complemented by an extensive selection of <Link href="/vehicles/gta-6-bikes/">gta 6 bikes</Link> for two-wheeled enthusiasts. These fictional brands map directly to their real-life counterparts as follows:
       </p>
+      <p>
+        To see one of the flagship Pegassi models in action online, check our <Link href="/online/pegassi-ignus-pursuit/">Pegassi Ignus Pursuit price and customization guide</Link>.
+      </p>
       <ul>
         <li><strong>Grotti:</strong> Inspired by Ferrari (renowned for mid-engine styling and active aerodynamics).</li>
         <li><strong>Pegassi:</strong> Blends Lamborghini and Pagani (aggressive angular profiles and screaming V12 engines).</li>

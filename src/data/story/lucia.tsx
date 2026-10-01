@@ -206,7 +206,7 @@ export const lucia: StoryArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Which actress performs the voice and motion capture for Lucia?</h3>
           <p className={styles.faqAnswer}>
-            Lucia is portrayed by American actress <strong>Manni L. Perez</strong>, who provided both her vocal dialogue and 3D motion-capture acting. For complete casting leaks, audio frequency matches, and background details, check out our dedicated <Link href="/story/gta-6-lucia-voice-actress/">Manni L. Perez GTA 6 voice actress investigation</Link>.
+            Lucia&apos;s performer is unconfirmed. Manni L. Perez is the most widely reported candidate. For complete casting leaks, audio frequency matches, and background details, check out our dedicated <Link href="/story/gta-6-lucia-voice-actress/">Manni L. Perez GTA 6 voice actress investigation</Link>.
           </p>
         </div>
 

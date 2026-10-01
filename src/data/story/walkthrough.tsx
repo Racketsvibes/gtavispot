@@ -205,6 +205,9 @@ export const walkthrough: StoryArticleData = {
       <p>
         To see details on how the character abilities differ and how to use them, visit our <Link href="/story/dual-protagonists/">GTA 6 character abilities and switching guide</Link>.
       </p>
+      <p>
+        If you are planning a full completion run, check <Link href="/story/how-long-to-beat/">how long GTA 6 will take to beat</Link> for the estimated story, side-content and 100% playtimes.
+      </p>
 
       <h2>How to Prepare for Heists</h2>
       <p>
