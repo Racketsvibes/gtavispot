@@ -1,5 +1,6 @@
 import React from 'react';
 import { characterCustomization } from './guides/character-customization';
+import { gta6PreloadUnlockTimes } from './guides/gta-6-preload-unlock-times';
 
 export interface VideoSchema {
   name: string;
@@ -27,6 +28,7 @@ export interface GuideArticleData {
 
 const guideArticlesMap: Record<string, GuideArticleData> = {
   'character-customization': characterCustomization,
+  'gta-6-preload-unlock-times': gta6PreloadUnlockTimes,
 };
 
 export function getGuideArticleBySlug(slug: string): GuideArticleData | undefined {

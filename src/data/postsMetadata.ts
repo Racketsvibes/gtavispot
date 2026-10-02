@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Unlock Times by Time Zone: Pre-Load Date and Release',
+    desc: 'GTA 6 pre-load reportedly starts November 12, with unlock times rolling by time zone. Every region\u2019s window, the Xbox early trick, and download prep.',
+    date: 'October 2, 2026',
+    tag: 'GUIDE',
+    href: '/guides/gta-6-preload-unlock-times/',
+    img: '/images/news/gta-6-preload-unlock-times-feature.webp',
+  },
+  {
     title: 'GTA 6 vs RDR2: Which Rockstar Game Is Better?',
     desc: 'GTA 6 vs RDR2 compared — map size, graphics, story, and gameplay. See how the RAGE 9 engine of Grand Theft Auto VI stacks up against Red Dead Redemption 2.',
     date: 'September 29, 2026',

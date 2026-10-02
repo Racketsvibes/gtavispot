@@ -52,7 +52,7 @@ export const gta6ReleaseDate: ArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Preload Window:</strong> Starts November 17, 2026, on all digital storefronts.</span>
+            <span><strong>Preload Window:</strong> Reported to start November 12, 2026 (per PlayStation Store listings — not officially confirmed).</span>
           </li>
         </ul>
       </div>
@@ -78,7 +78,7 @@ export const gta6ReleaseDate: ArticleData = {
         The November release slot is strategic. It positions GTA 6 right before the lucrative holiday shopping season. Pre-orders are expected to break all industry records, exceeding the 32.5 million copies that GTA 5 sold in its first month back in 2013. For a full analysis of structural changes, explore our detailed breakdown on <Link href="/compare/gta-6-vs-gta-5/">gta 6 vs gta 5 differences</Link>. Along with this launch, fans are also preparing their sandbox playthroughs using the expected <Link href="/cheats/">gta 6 cheats</Link> systems, which will allow immediate vehicle spawning and custom physics controls. The official announcement via Rockstar Games confirms that developers have entered the crunch optimization phase.
       </p>
       <p>
-        If you plan to get the game digitally, preload dates are locked for November 17, 2026. This gives players 48 hours to download the estimated 150GB client. Given the sheer scale of the download, setting up your preload early is highly recommended to avoid server bottlenecks on launch night.
+        If you plan to get the game digitally, preload is reported to begin on November 12, 2026, based on PlayStation Store listing data — Rockstar has not officially confirmed a pre-load date. That would give players a full week to download the expected 150GB client. Given the sheer scale of the download, setting up your preload early is highly recommended to avoid server bottlenecks on launch night.
       </p>
       <p>
         Industry sources report that Rockstar has optimized the download using modular assets. This means the single-player campaign can be downloaded first, letting you play the story while online files install in the background. With the massive file size expected, a high-speed SSD installation is mandatory for PS5 and Xbox console versions.
@@ -204,7 +204,7 @@ export const gta6ReleaseDate: ArticleData = {
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
         <p>
-          GTA 6 launches on console on November 19, 2026. PC players must wait, likely until 2027. Preloads start on November 17, 2026. The game unlocks at midnight in your local time zone.
+          GTA 6 launches on console on November 19, 2026. PC players must wait, likely until 2027. Preloads are reported to start on November 12, 2026 (via PS Store listings; unconfirmed by Rockstar). The game unlocks at midnight in your local time zone.
         </p>
       </div>
 
@@ -228,7 +228,7 @@ export const gta6ReleaseDate: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Can I preload GTA 6?</h3>
           <p className={styles.faqAnswer}>
-            Yes, digital preloads will begin on November 17, 2026, for both PlayStation 5 and Xbox Series X|S users.
+            Digital preload is reported to begin on November 12, 2026, according to PlayStation Store listing data. Rockstar has not officially confirmed the pre-load date.
           </p>
         </div>
 
