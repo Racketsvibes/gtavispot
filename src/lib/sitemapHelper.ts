@@ -42,6 +42,7 @@ const newsModifiedDates: Record<string, string> = {
 };
 
 const storyModifiedDates: Record<string, string> = {
+  'gta-6-cast-in-real-life': '2026-10-02',
   'stephen-root-gta-6': '2026-09-17',
   'gta-6-jason-voice-actor': '2026-09-06',
   'missions': '2026-09-25',
