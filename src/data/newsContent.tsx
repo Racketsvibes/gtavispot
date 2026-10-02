@@ -35,6 +35,7 @@ import { gta6Review } from './news/gta-6-review';
 import { gta6BikerGang } from './news/gta-6-biker-gang';
 import { gta6Budget } from './news/gta-6-budget';
 import { gta6SinglePlayer } from './news/gta-6-single-player';
+import { gta6SoundtrackAlbum } from './news/gta-6-soundtrack-album';
 
 
 
@@ -102,6 +103,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-biker-gang': gta6BikerGang,
   'gta-6-budget': gta6Budget,
   'gta-6-single-player': gta6SinglePlayer,
+  'gta-6-soundtrack-album': gta6SoundtrackAlbum,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
