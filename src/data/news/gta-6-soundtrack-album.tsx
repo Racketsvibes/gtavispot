@@ -31,7 +31,7 @@ export const gta6SoundtrackAlbum: ArticleData = {
   publishedDate: 'October 2, 2026',
   modifiedDate: 'October 2, 2026',
   author: 'Qamar Farooq',
-  featureImage: '/images/news/IMG-20261002-WA0011.jpg',
+  featureImage: '/images/news/gta-6-soundtrack-album-key-art.webp',
   featureImageAlt: 'Official Grand Theft Auto VI The Album key art with Jason and Lucia leaning on a car against the Vice City skyline at sunset',
   content: (
     <ImageLightbox>
@@ -119,7 +119,7 @@ export const gta6SoundtrackAlbum: ArticleData = {
 
       <div className={styles.featureImageContainer}>
         <Image
-          src="/images/news/IMG-20261002-WA0011.jpg"
+          src="/images/news/gta-6-soundtrack-album-key-art.webp"
           alt="Official Grand Theft Auto VI The Album key art with Jason and Lucia leaning on a car against the Vice City skyline at sunset"
           width={1200}
           height={675}
@@ -176,7 +176,7 @@ export const gta6SoundtrackAlbum: ArticleData = {
 
       <div className={styles.featureImageContainer}>
         <Image
-          src="/images/news/IMG-20261002-WA0010.jpg"
+          src="/images/news/gta-6-soundtrack-album-vinyl-1.webp"
           alt="Official GTA VI The Album vinyl packaging artwork showing the splatter vinyl edition, cover art, and flamingo ice illustration"
           width={800}
           height={800}
@@ -240,7 +240,7 @@ export const gta6SoundtrackAlbum: ArticleData = {
 
       <div className={styles.featureImageContainer}>
         <Image
-          src="/images/news/IMG-20261002-WA0012.jpg"
+          src="/images/news/gta-6-soundtrack-album-vinyl-2.webp"
           alt="Official GTA VI The Album vinyl package artwork with Rockstar logo illustration, flamingo art, and liquid-filled vinyl disc"
           width={800}
           height={800}
