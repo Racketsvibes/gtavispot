@@ -87,7 +87,8 @@ const curatedRelations: Record<string, string[]> = {
   // Special / Hub Pages
   'cheats': ['guides', 'walkthrough', 'gta-6-release-date'],
   'faq': ['guides', 'gta-6-release-date', 'gta-6-characters'],
-  'guides': ['character-customization', 'cheats', 'walkthrough'],
+  'guides': ['gta-6-preload-unlock-times', 'character-customization', 'cheats', 'walkthrough'],
+  'gta-6-preload-unlock-times': ['gta-6-release-date', 'gta-6-pre-order', 'character-customization'],
   'character-customization': ['gta-6-characters', 'lucia', 'jason'],
 };
 
@@ -214,6 +215,17 @@ export default function RelatedPosts({ category, currentSlug }: RelatedPostsProp
     desc: 'Outfits, hairstyles, tattoos, and the best Lucia & Jason looks across Vice City.',
     img: '/images/guides/gta-6-character-customization.webp',
     href: '/guides/character-customization/',
+    cta: 'Read Guide →',
+  });
+
+  // Add Pre-Load & Unlock Times guide
+  catalog.push({
+    slug: 'gta-6-preload-unlock-times',
+    category: 'guides',
+    title: 'GTA 6 Pre-Load Date & Unlock Times by Time Zone',
+    desc: 'Reported November 12 pre-load, rolling midnight unlock windows, the Xbox early trick, and download prep.',
+    img: '/images/news/gta-6-preload-unlock-times-feature.webp',
+    href: '/guides/gta-6-preload-unlock-times/',
     cta: 'Read Guide →',
   });
 
