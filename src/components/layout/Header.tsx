@@ -107,6 +107,12 @@ const voiceActorsNav = [
     badge: 'Cast 2026' 
   },
   { 
+    label: 'GTA 6 Cast in Real Life', 
+    esLabel: 'Reparto de GTA 6 en la Vida Real',
+    href: '/story/gta-6-cast-in-real-life/', 
+    badge: 'Photos' 
+  },
+  { 
     label: 'Lucia', 
     esLabel: 'Lucia',
     href: '/story/gta-6-lucia-voice-actress/', 
@@ -192,6 +198,7 @@ export default function Header() {
     cleanPathForActive.includes('stephen-root') ||
     cleanPathForActive.includes('gta-6-characters') ||
     cleanPathForActive.includes('gta-6-raul-bautista');
+  const isCastActive = cleanPathForActive === '/story/gta-6-cast-in-real-life';
 
   const hasTranslation = (() => {
     if (!pathname) return false;
@@ -345,6 +352,14 @@ export default function Header() {
                   </div>
                 )}
               </div>
+
+              {/* GTA 6 Cast — top row link next to Voice Actors */}
+              <Link
+                href="/story/gta-6-cast-in-real-life/"
+                className={`${styles.topBarLink} ${isCastActive ? styles.topBarLinkActive : ''}`}
+              >
+                GTA 6 Cast
+              </Link>
 
               <Link
                 href={isSpanish ? '/es/gta-6-timeline/' : '/gta-6-timeline/'}

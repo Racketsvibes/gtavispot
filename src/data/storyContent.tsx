@@ -5,6 +5,7 @@ import { jason } from './story/jason';
 import { luciaBackstory } from './story/lucia-backstory';
 import { jasonAndLucia } from './story/jason-and-lucia';
 import { voiceActors } from './story/voice-actors';
+import { gta6CastInRealLife } from './story/gta-6-cast-in-real-life';
 import { missions } from './story/missions';
 import { walkthrough } from './story/walkthrough';
 import { sideMissions } from './story/side-missions';
@@ -48,6 +49,7 @@ const storyArticlesMap: Record<string, StoryArticleData> = {
   'lucia-backstory': luciaBackstory,
   'jason-and-lucia': jasonAndLucia,
   'voice-actors': voiceActors,
+  'gta-6-cast-in-real-life': gta6CastInRealLife,
   'missions': missions,
   'walkthrough': walkthrough,
   'side-missions': sideMissions,

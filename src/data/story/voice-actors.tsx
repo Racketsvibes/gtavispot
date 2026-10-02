@@ -98,6 +98,10 @@ export const voiceActors: StoryArticleData = {
         </ul>
       </div>
 
+      <p>
+        Want to see what these performers actually look like? Our <Link href="/story/gta-6-cast-in-real-life/">GTA 6 cast in real life</Link> guide pairs every actor with their character — and grades each casting claim honestly.
+      </p>
+
       <h2>Lucia Caminos</h2>
       <div className={styles.featureImageContainer}>
         <Image
