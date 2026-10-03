@@ -28,32 +28,42 @@ const coverTimeline = [
     year: '2002',
     game: 'Vice City',
     note: "Game Informer's archive starts here: issue 113. Tommy Vercetti's neon 1980s Vice City gave the series its most stylish cover era.",
-    image: null,
+    images: [
+      { src: '/images/news/archive-113-gta-voice-city.webp', alt: 'Game Informer 2002 Vice City cover, issue 113' },
+    ],
   },
   {
     year: '2004',
     game: 'San Andreas',
     note: 'Two covers (issues 134a and 134b) for CJ\'s story across the state of San Andreas, the biggest GTA world of its generation.',
-    image: null,
+    images: [
+      { src: '/images/news/archive-134a-gta-sanandreaz.webp', alt: 'Game Informer 2004 San Andreas cover A, issue 134a' },
+      { src: '/images/news/archive-134b-gta-sanadreaz.webp', alt: 'Game Informer 2004 San Andreas cover B, issue 134b' },
+    ],
   },
   {
     year: '2007',
     game: 'GTA IV',
     note: 'Issue 169. Niko Bellic\'s Liberty City marked the series\' high-definition debut and its most grounded story yet.',
-    image: null,
+    images: [
+      { src: '/images/news/archive-169-gta-iv.webp', alt: 'Game Informer 2007 GTA IV cover, issue 169' },
+    ],
   },
   {
     year: '2012',
     game: 'GTA V',
     note: 'Issue 236. Three protagonists, Los Santos, and the cover story for what became one of the best-selling games ever.',
-    image: null,
+    images: [
+      { src: '/images/news/archive-236-front-gta-5.webp', alt: 'Game Informer 2012 GTA V cover, issue 236' },
+    ],
   },
   {
     year: '2026',
     game: 'GTA VI',
     note: 'The new collectible issue. Jason and Lucia return to Vice City, now part of the state of Leonida, on the eve of launch.',
-    image: '/images/Official_Cover_Art/Official_Cover_Art_portrait.webp',
-    imageAlt: 'GTA VI official key art portrait: Jason and Lucia with the Vice City skyline',
+    images: [
+      { src: '/images/news/game-informer-GTA-6-Cover-issue.webp', alt: 'Game Informer GTA VI cover issue, 2026' },
+    ],
     highlight: true,
   },
 ];
@@ -66,8 +76,8 @@ export const gta6GameInformerCoverStory: ArticleData = {
   publishedDate: 'October 3, 2026',
   modifiedDate: 'October 3, 2026',
   author: 'Qamar Farooq',
-  featureImage: '/images/Official_Cover_Art/Official_Cover_Art_landscape.webp',
-  featureImageAlt: 'GTA VI official key art landscape: Jason and Lucia leaning on a car with the Vice City skyline at sunset',
+  featureImage: '/images/news/game-informer-GTA-6-Cover-issue.webp',
+  featureImageAlt: 'Game Informer GTA VI cover issue, 2026 collectible edition',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `
@@ -139,17 +149,17 @@ export const gta6GameInformerCoverStory: ArticleData = {
       <div className="gi-timeline">
         {coverTimeline.map((entry) => (
           <div key={entry.year} className={`gi-timeline-card${entry.highlight ? ' gi-highlight' : ''}`}>
-            {entry.image && (
-              <div className="gi-timeline-img">
+            {entry.images.map((img) => (
+              <div key={img.src} className="gi-timeline-img">
                 <Image
-                  src={entry.image}
-                  alt={entry.imageAlt || `${entry.game} cover art`}
-                  width={1080}
-                  height={1920}
+                  src={img.src}
+                  alt={img.alt}
+                  width={600}
+                  height={800}
                   style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
                 />
               </div>
-            )}
+            ))}
             <p className="gi-timeline-year">{entry.year}</p>
             <p className="gi-timeline-game">{entry.game}</p>
             <p className="gi-timeline-note">{entry.note}</p>
@@ -157,7 +167,7 @@ export const gta6GameInformerCoverStory: ArticleData = {
         ))}
       </div>
       <p style={{ fontSize: '0.85rem', color: '#64748b' }}>
-        Timeline source: Game Informer's official GTA VI cover story page. Cover images shown are GTAVISpot's own GTA VI artwork; historic Game Informer cover scans belong to their respective owners.
+        Timeline source: Game Informer's official GTA VI cover story page. Cover scans courtesy of Game Informer.
       </p>
 
       <h2>How to Read the GTA VI Cover Story</h2>
