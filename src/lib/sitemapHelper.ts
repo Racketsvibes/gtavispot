@@ -23,7 +23,7 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-leaks-timeline': '2026-08-26',
   'gta-6-leaks-escalation': '2026-08-23',
   'gta-6-strip-club-leak': '2026-08-22',
-  'gta-6-age-rating': '2026-08-21',
+  'gta-6-age-rating': '2026-10-03',
   'gta-6-driving-leak': '2026-08-21',
   'gta-6-gameplay-leaks': '2026-08-20',
   'gta-6-deluxe-edition': '2026-08-18',
