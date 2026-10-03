@@ -68,11 +68,42 @@ const coverTimeline = [
   },
 ];
 
+const highlightCards = [
+  {
+    title: '170+ Animal Species',
+    desc: 'From alligators to a legendary category, Leonida is packed with wildlife.',
+    img: '/images/world/gta-6-animals-feature.webp',
+    alt: 'GTA VI wildlife in Leonida',
+    href: '/world/gta-6-animals/',
+  },
+  {
+    title: 'Dynamic Weather',
+    desc: 'Localized weather systems, including full hurricanes, reshape the map.',
+    img: '/images/world/gta-6-weather-storm-lightning.webp',
+    alt: 'Storm and lightning over Leonida in GTA VI',
+    href: '/world/gta-6-weather/',
+  },
+  {
+    title: '6 Regions, 2x GTA V',
+    desc: 'Vice City, Ambrosia, Grassrivers, Leonida Keys, Port Gellhorn, Mount Kalaga.',
+    img: '/images/GTA_6_MAp.webp',
+    alt: 'GTA VI Leonida map regions',
+    href: '/map/size/',
+  },
+  {
+    title: 'Activities Galore',
+    desc: 'Hunting, fishing, scuba diving, kayaking, mini golf, billiards, and a zoo.',
+    img: '/images/world/gta-6-cougar-hunting.webp',
+    alt: 'Hunting activity in GTA VI',
+    href: '/news/gta-6-new-features/',
+  },
+];
+
 export const gta6GameInformerCoverStory: ArticleData = {
-  title: 'Game Informer GTA 6 Cover Story: 14-Page Exclusive, New Details & Cover Timeline',
+  title: 'GTA 6 Game Informer Cover Story: 14-Page Exclusive',
   metaDescription: "Game Informer's GTA 6 cover story is a 14-page exclusive with Rockstar interviews and new screenshots. See the biggest reveals plus 20+ years of GTA covers timeline.",
   focusKeyword: 'gta 6 game informer',
-  h1: 'Game Informer GTA 6 Cover Story: 14-Page Exclusive, New Details & Cover Timeline',
+  h1: 'GTA 6 Game Informer Cover Story: 14-Page Exclusive',
   publishedDate: 'October 3, 2026',
   modifiedDate: 'October 3, 2026',
   author: 'Qamar Farooq',
@@ -84,21 +115,53 @@ export const gta6GameInformerCoverStory: ArticleData = {
         .news-cta-btn {
           display: inline-flex;
           align-items: center;
-          background: #2563eb;
-          color: #fff;
-          padding: 0.8rem 1.4rem;
-          border-radius: 8px;
+          gap: 8px;
+          padding: 8px 20px;
+          font-size: 0.95rem;
           font-weight: 700;
-          text-decoration: none;
+          color: #ffffff !important;
+          background: linear-gradient(135deg, #3b1578, #d6246e);
+          border-radius: 24px;
+          text-decoration: none !important;
+          box-shadow: 0 3px 8px rgba(214, 36, 110, 0.25);
+          transition: all 0.2s ease;
+          font-family: var(--font-ui), "Barlow Condensed", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          border: 1px solid transparent;
         }
-        .news-cta-btn:hover { background: #1d4ed8; color: #fff; }
-        .gi-timeline { display: flex; gap: 1rem; overflow-x: auto; padding: 0.5rem 0 1.25rem 0; scroll-snap-type: x mandatory; }
-        .gi-timeline-card { flex: 0 0 240px; scroll-snap-align: start; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.1rem; background: #f8fafc; }
-        .gi-timeline-card.gi-highlight { border: 2px solid #2563eb; background: #eff6ff; }
-        .gi-timeline-year { font-size: 1.6rem; font-weight: 800; color: #2563eb; margin: 0; }
-        .gi-timeline-game { font-size: 1.05rem; font-weight: 700; margin: 0.25rem 0 0.5rem 0; }
-        .gi-timeline-note { font-size: 0.9rem; color: #475569; margin: 0.5rem 0 0 0; line-height: 1.55; }
-        .gi-timeline-img { border-radius: 8px; overflow: hidden; margin-bottom: 0.25rem; }
+        .news-cta-btn:hover,
+        .news-cta-btn:focus,
+        .news-cta-btn:active,
+        .news-cta-btn:visited {
+          text-decoration: none !important;
+          color: #ffffff !important;
+        }
+        .news-cta-btn span {
+          text-decoration: none !important;
+        }
+        .news-cta-btn:hover {
+          background: linear-gradient(135deg, #d6246e, #f58634);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 16px rgba(245, 134, 52, 0.4);
+        }
+        .gi-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+        .gi-card { display: block; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.06); text-decoration: none !important; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .gi-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(214,36,110,0.15); text-decoration: none !important; }
+        .gi-card-img { position: relative; height: 160px; overflow: hidden; }
+        .gi-card-body { padding: 1rem; }
+        .gi-card-title { font-weight: 700; margin: 0 0 0.4rem 0; color: #0f172a; font-size: 1rem; }
+        .gi-card-desc { font-size: 0.9rem; color: #475569; margin: 0; line-height: 1.55; }
+        .gi-vtimeline { position: relative; margin: 1.5rem 0 1rem 0; padding-left: 2.75rem; }
+        .gi-vtimeline::before { content: ''; position: absolute; left: 14px; top: 6px; bottom: 6px; width: 3px; border-radius: 2px; background: linear-gradient(#3b1578, #d6246e); }
+        .gi-vt-item { position: relative; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.1rem; background: #f8fafc; margin-bottom: 1.25rem; }
+        .gi-vt-item::before { content: ''; position: absolute; left: -2.75rem; top: 1.4rem; width: 16px; height: 16px; border-radius: 50%; background: #d6246e; border: 3px solid #fff; box-shadow: 0 0 0 2px #d6246e; transform: translateX(4.5px); }
+        .gi-vt-item.gi-highlight { border: 2px solid #d6246e; background: #fff5f8; }
+        .gi-vt-year { display: inline-block; font-size: 0.95rem; font-weight: 800; color: #fff; background: linear-gradient(135deg, #3b1578, #d6246e); border-radius: 20px; padding: 2px 14px; margin: 0 0 0.5rem 0; }
+        .gi-vt-game { font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #0f172a; }
+        .gi-vt-note { font-size: 0.9rem; color: #475569; margin: 0.5rem 0 0 0; line-height: 1.55; }
+        .gi-vt-imgs { display: flex; gap: 0.75rem; margin-bottom: 0.25rem; }
+        .gi-vt-img { flex: 1; border-radius: 8px; overflow: hidden; }
       `}} />
 
       <div className={styles.quickAnswer}>
@@ -130,6 +193,25 @@ export const gta6GameInformerCoverStory: ArticleData = {
         <li><strong>Relationship choice:</strong> The Jason and Lucia relationship can develop as romantic <em>or</em> platonic based on player choice.</li>
       </ul>
 
+      <h2>Cover Story Highlights</h2>
+      <p>
+        The biggest reveals from the issue, in pictures:
+      </p>
+
+      <div className="gi-cards">
+        {highlightCards.map((card) => (
+          <Link key={card.title} href={card.href} className="gi-card">
+            <div className="gi-card-img">
+              <Image src={card.img} alt={card.alt} fill sizes="(max-width: 768px) 100vw, 25vw" style={{ objectFit: 'cover' }} />
+            </div>
+            <div className="gi-card-body">
+              <p className="gi-card-title">{card.title}</p>
+              <p className="gi-card-desc">{card.desc}</p>
+            </div>
+          </Link>
+        ))}
+      </div>
+
       <div className="gi-timeline-img" style={{ margin: '1.5rem 0' }}>
         <Image
           src="/images/GTAVI_Artwork_images/Jason_and_Lucia_01/Jason_and_Lucia_01_landscape.webp"
@@ -142,27 +224,29 @@ export const gta6GameInformerCoverStory: ArticleData = {
 
       <h2>20+ Years of GTA Covers: The Timeline</h2>
       <p>
-        To mark the new issue, Game Informer's official cover story page walks through its GTA cover history, from 2002's Vice City to the 2026 GTA VI collectible. 
-        Here is that timeline, recreated for GTAVISpot readers. Scroll sideways to walk through two decades of covers:
+        To mark the new issue, Game Informer's official cover story page walks through its GTA cover history, from 2002's Vice City to the 2026 GTA VI collectible.
+        Here is that timeline, recreated for GTAVISpot readers:
       </p>
 
-      <div className="gi-timeline">
+      <div className="gi-vtimeline">
         {coverTimeline.map((entry) => (
-          <div key={entry.year} className={`gi-timeline-card${entry.highlight ? ' gi-highlight' : ''}`}>
-            {entry.images.map((img) => (
-              <div key={img.src} className="gi-timeline-img">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  width={600}
-                  height={800}
-                  style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
-                />
-              </div>
-            ))}
-            <p className="gi-timeline-year">{entry.year}</p>
-            <p className="gi-timeline-game">{entry.game}</p>
-            <p className="gi-timeline-note">{entry.note}</p>
+          <div key={entry.year} className={`gi-vt-item${entry.highlight ? ' gi-highlight' : ''}`}>
+            <p className="gi-vt-year">{entry.year}</p>
+            <div className="gi-vt-imgs">
+              {entry.images.map((img) => (
+                <div key={img.src} className="gi-vt-img">
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    width={600}
+                    height={800}
+                    style={{ width: '100%', height: 'auto', borderRadius: '8px', display: 'block' }}
+                  />
+                </div>
+              ))}
+            </div>
+            <p className="gi-vt-game">{entry.game}</p>
+            <p className="gi-vt-note">{entry.note}</p>
           </div>
         ))}
       </div>
