@@ -5,11 +5,11 @@ import styles from '../../app/news/[slug]/page.module.css';
 
 export const gta6AgeRating: ArticleData = {
   title: 'GTA 6 Age Rating: ESRB Rating & ID Verification Guide',
-  metaDescription: 'Get details on the grand theft auto 6 age rating. Explore the gta 6 esrb rating, age limit restrictions, and whether players will require id verification.',
+  metaDescription: 'The GTA 6 age rating is now official: ESRB Mature 17+ and PEGI 18 confirmed. Learn what "sex scenes" and "in-game purchases" on the rating mean, plus ID verification rules.',
   focusKeyword: 'gta 6 age rating',
   h1: 'GTA 6 Age Rating: ESRB Rating & ID Verification Guide',
   publishedDate: 'August 21, 2026',
-  modifiedDate: 'August 21, 2026',
+  modifiedDate: 'October 3, 2026',
   author: 'Qamar Farooq',
   featureImage: '/images/news/gta-6-age-rating.webp',
   featureImageAlt: 'Minimalist game controller icon over an M-rating style box at sunset, representing the GTA 6 age rating.',
@@ -18,7 +18,8 @@ export const gta6AgeRating: ArticleData = {
       <div className={styles.quickAnswer}>
         <span className={styles.quickAnswerTitle}>Quick Age Rating Summary</span>
         <p>
-          While the official <strong>grand theft auto 6 age rating</strong> is still pending, the game is highly expected to receive an <strong>M for Mature (17+)</strong> rating from the ESRB. 
+          <strong>October 2026 update: the rating is now official.</strong> Rockstar added the ESRB <strong>M for Mature (17+)</strong> badge to rockstargames.com/VI, and PlayStation and Xbox store pages now show final ratings. 
+          Europe is confirmed at <strong>PEGI 18</strong>, and Australian and New Zealand store listings explicitly name "sex scenes." 
           There's no official announcement from Rockstar requiring mandatory ID uploads or facial scanning to play the game. 
           Any age verification checks will occur at the platform store level (PlayStation/Xbox) rather than within the game itself.
         </p>
@@ -30,16 +31,29 @@ export const gta6AgeRating: ArticleData = {
         This guide clarifies the official rating status, Rockstar account rules, and regional age-assurance laws.
       </p>
 
-      <h2>What is the Expected GTA 6 ESRB Rating?</h2>
+      <h2>GTA 6 ESRB Rating: Officially Confirmed</h2>
       <p>
-        The official <strong>gta 6 esrb rating</strong> remains Rating Pending (RP) because the game is still in active development. 
-        However, it is certain to receive an <strong>M for Mature 17+</strong> rating from the <a href="https://www.esrb.org/ratings-guide/" target="_blank" rel="noopener noreferrer">Entertainment Software Rating Board (ESRB)</a>. 
-        Every mainline Grand Theft Auto title has received this classification due to violence, mature humor, and strong language.
+        In early October 2026, the <strong>gta 6 esrb rating</strong> moved from expected to official: Rockstar placed the <strong>M for Mature 17+</strong> badge on the game's official page, and PlayStation and Xbox storefronts updated their listings with the final rating. 
+        The <a href="https://www.esrb.org/ratings-guide/" target="_blank" rel="noopener noreferrer">Entertainment Software Rating Board (ESRB)</a> listing cites intense violence, strong language, and, for the first time in the series, "Strong Sexual Content." 
+        Every mainline Grand Theft Auto title has received the M classification, so the outcome matches the series history.
       </p>
       <p>
-        In Europe, PEGI will almost certainly classify the game as PEGI 18. 
+        In Europe, PEGI has confirmed the game as <strong>PEGI 18</strong>. 
         This establishes a strict <strong>gta 6 age limit</strong> for retail purchases and digital downloads. 
         Retailers will block physical sales to minors, while digital stores will enforce account birthdate filters.
+      </p>
+      <p>
+        The detail drawing the most attention is in the Australian and New Zealand PlayStation Store listings, which name <strong>"sex scenes"</strong> outright. 
+        This is the first GTA game to use that exact wording: GTA V's Australian listing said only "Sex." 
+        The descriptors describe content categories for buyers and parents, not an announcement of new gameplay systems. 
+        A PEGI content summary briefly appeared online and was then removed; the details reported from it come from a single outlet and remain unverified, so treat them with caution.
+      </p>
+
+      <h2>What "In-Game Purchases" on the Rating Label Means</h2>
+      <p>
+        The ESRB rating also carries an <strong>"In-Game Purchases"</strong> label, which sparked debate because Take-Two CEO Strauss Zelnick said on September 17 that GTA 6 launches with "no recurrent consumer spending." 
+        The two statements do not conflict: the ESRB applies the "In-Game Purchases" label to any offer involving real money, including the GTA+ month bundled with <Link href="/news/gta-6-pre-order/">GTA 6 pre-orders</Link>. 
+        The label is a standard disclosure, not confirmation of microtransactions or a cash shop at launch.
       </p>
 
       <h2>Will GTA 6 Require ID Verification in the US?</h2>
@@ -121,7 +135,21 @@ export const gta6AgeRating: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>What is the GTA 6 age rating limit?</h3>
           <p className={styles.faqAnswer}>
-            The game is expected to carry an M (Mature 17+) rating from the ESRB, meaning players must be at least 17 years old to purchase it.
+            The game is officially rated M (Mature 17+) by the ESRB and PEGI 18 in Europe, meaning players must be at least 17 years old to purchase it in the US and 18 in Europe.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>What does "sex scenes" in the GTA 6 rating mean?</h3>
+          <p className={styles.faqAnswer}>
+            The Australian and New Zealand PlayStation Store listings name "sex scenes" as a content descriptor, and the ESRB lists "Strong Sexual Content." These are standard content categories for buyers and parents, not an announcement of new gameplay systems. It is the first GTA game to use this exact wording.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Does the "In-Game Purchases" label mean GTA 6 has microtransactions at launch?</h3>
+          <p className={styles.faqAnswer}>
+            No. The ESRB applies the "In-Game Purchases" label to any offer involving real money, including the GTA+ month bundled with pre-orders. Take-Two has said the game launches with no recurrent consumer spending, so the label is a standard disclosure rather than confirmation of a cash shop.
           </p>
         </div>
 
