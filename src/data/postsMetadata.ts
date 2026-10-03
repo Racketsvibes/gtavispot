@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Game Informer GTA 6 Cover Story: 14-Page Exclusive, New Details & Cover Timeline',
+    desc: 'Game Informer\u2019s 14-page GTA VI cover story brings Rockstar interviews and 12+ new screenshots. Plus a 20+ year timeline of GTA covers, 2002 to 2026.',
+    date: 'October 3, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-game-informer-cover-story/',
+    img: '/images/news/game-informer-GTA-6-Cover-issue.webp',
+  },
+  {
     title: 'GTA 6 Unlock Times by Time Zone: Pre-Load Date and Release',
     desc: 'GTA 6 pre-load reportedly starts November 12, with unlock times rolling by time zone. Every region\u2019s window, the Xbox early trick, and download prep.',
     date: 'October 2, 2026',
