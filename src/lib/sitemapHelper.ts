@@ -10,6 +10,7 @@ const baseUrl = 'https://www.gtavispot.com';
 const newsModifiedDates: Record<string, string> = {
   'gta-6-soundtrack-album': '2026-10-02',
   'gta-6-game-informer-cover-story': '2026-10-03',
+  'miami-heat-vice-city-night-gta-6': '2026-10-04',
   'gta-6-single-player': '2026-09-27',
   'gta-6-biker-gang': '2026-09-27',
   'gta-6-budget': '2026-09-27',
