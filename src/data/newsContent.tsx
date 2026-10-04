@@ -37,6 +37,7 @@ import { gta6Budget } from './news/gta-6-budget';
 import { gta6SinglePlayer } from './news/gta-6-single-player';
 import { gta6SoundtrackAlbum } from './news/gta-6-soundtrack-album';
 import { gta6GameInformerCoverStory } from './news/gta-6-game-informer-cover-story';
+import { miamiHeatViceCityNight } from './news/miami-heat-vice-city-night-gta-6';
 
 
 
@@ -106,6 +107,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-single-player': gta6SinglePlayer,
   'gta-6-soundtrack-album': gta6SoundtrackAlbum,
   'gta-6-game-informer-cover-story': gta6GameInformerCoverStory,
+  'miami-heat-vice-city-night-gta-6': miamiHeatViceCityNight,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
