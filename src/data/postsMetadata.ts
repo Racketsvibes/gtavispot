@@ -14,7 +14,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     date: 'October 4, 2026',
     tag: 'NEWS',
     href: '/news/miami-heat-vice-city-night-gta-6/',
-    img: '/images/news/miami-heat-vice-city-night-discover.webp',
+    img: '/images/news/miami-heat-vice-city-night.webp',
   },
   {
     title: 'GTA 6 Game Informer Cover Story: 14-Page Exclusive',
