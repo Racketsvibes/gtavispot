@@ -32,8 +32,8 @@ export const miamiHeatViceCityNight: ArticleData = {
   publishedDate: 'October 4, 2026',
   modifiedDate: 'October 4, 2026',
   author: 'Qamar Farooq',
-  featureImage: '/images/news/miami-heat-vice-city-night-discover.webp',
-  featureImageAlt: 'A Night in Vice City poster art with neon Miami arena, Miami Heat x GTA VI',
+  featureImage: '/images/news/miami-heat-vice-city-night.webp',
+  featureImageAlt: 'Minimalist A Night in Vice City poster, Miami Heat Vice City font style',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `
