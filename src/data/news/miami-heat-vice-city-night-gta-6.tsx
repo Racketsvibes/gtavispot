@@ -32,8 +32,8 @@ export const miamiHeatViceCityNight: ArticleData = {
   publishedDate: 'October 4, 2026',
   modifiedDate: 'October 4, 2026',
   author: 'Qamar Farooq',
-  featureImage: '/images/news/miami-heat-vice-city-night.webp',
-  featureImageAlt: 'Minimalist A Night in Vice City poster, Miami Heat Vice City font style',
+  featureImage: '/images/news/kaseya-center-vice-city-rooftop.webp',
+  featureImageAlt: 'Kaseya Center rooftop with Welcome to Vice City neon sign, Miami Heat',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `
@@ -105,6 +105,11 @@ export const miamiHeatViceCityNight: ArticleData = {
       <h2>What is A Night in Vice City?</h2>
       <p>The Heat announced the event on October 2, 2026 as a <strong>historic partnership with Rockstar Games</strong>. For one night only, the team plays under the Vice City name with a themed court, new uniforms, and special in-arena programming. It is the biggest real-world GTA 6 crossover confirmed so far.</p>
       <p>The buildup started a day earlier. On October 1, a neon "Welcome to Vice City" sign lit up on the arena rooftop, and the city around it is joining in. Miami Beach voted to put "VI" branding on beach chairs and umbrellas from October 15 through December 31.</p>
+
+      <figure>
+        <Image src="/images/news/miami-heat-vice-city-arena.webp" alt="Miami Heat A Night in Vice City, Kaseya Center aerial with neon Vice City sign" width={1000} height={666} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+        <figcaption className="heat-caption">Kaseya Center dressed for A Night in Vice City, with the neon rooftop sign leading the takeover.</figcaption>
+      </figure>
 
       <h2>When and where is the game?</h2>
       <table className="heat-table">
