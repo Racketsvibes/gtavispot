@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Miami Heat Vice City Night: GTA 6 Event Guide',
+    desc: 'The Heat play as Vice City on Nov 18 in an official Rockstar partnership, one night before GTA 6 launches. Court, jerseys, tickets, merch, and countdown.',
+    date: 'October 4, 2026',
+    tag: 'NEWS',
+    href: '/news/miami-heat-vice-city-night-gta-6/',
+    img: '/images/news/kaseya-center-vice-city-rooftop.webp',
+  },
+  {
     title: 'GTA 6 Game Informer Cover Story: 14-Page Exclusive',
     desc: 'Game Informer\u2019s 14-page GTA VI cover story brings Rockstar interviews and 12+ new screenshots. Plus a 20+ year timeline of GTA covers, 2002 to 2026.',
     date: 'October 3, 2026',
