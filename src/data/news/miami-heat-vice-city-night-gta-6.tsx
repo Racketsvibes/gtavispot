@@ -26,7 +26,7 @@ const NewsCTAButton = ({ href, children, isExternal }: { href: string; children:
 
 export const miamiHeatViceCityNight: ArticleData = {
   title: 'Miami Heat Vice City Night: GTA 6 Event Guide',
-  metaDescription: "The Miami Heat become Vice City on Nov 18 in a Rockstar partnership before GTA 6 launches. Court, jerseys, tickets, merch, and the countdown, all here.",
+  metaDescription: "Miami Heat Vice City Night hits Nov 18: Heat vs Bucks as Vice City in a Rockstar Games partnership. Court, jerseys, tickets, merch, countdown and more here.",
   focusKeyword: 'miami heat vice city night',
   h1: 'Miami Heat Vice City Night: GTA 6 Event Guide',
   publishedDate: 'October 4, 2026',
@@ -88,7 +88,7 @@ export const miamiHeatViceCityNight: ArticleData = {
         .heat-caption { font-size: 0.82rem; color: #64748b; margin-top: 0.35rem; }
       `}} />
 
-      <p>The Miami Heat will take the floor as <strong>"Vice City" on November 18, 2026</strong>, hosting the Milwaukee Bucks at Kaseya Center in an official partnership with Rockstar Games. It happens one night before GTA 6 launches on November 19. Here is everything confirmed about the game, the theme, the tickets, and the merch.</p>
+      <p>Miami Heat Vice City Night is November 18, 2026: the Heat host the Milwaukee Bucks at Kaseya Center as <strong>"Vice City"</strong> in an official partnership with Rockstar Games. It happens one night before GTA 6 launches on November 19. Here is everything confirmed about the game, the theme, the tickets, and the merch.</p>
 
       <div className="heat-quick">
         <strong>Quick answers</strong>
@@ -102,7 +102,7 @@ export const miamiHeatViceCityNight: ArticleData = {
 
       <HeatViceCityCountdown />
 
-      <h2>What is A Night in Vice City?</h2>
+      <h2>What is Miami Heat Vice City Night?</h2>
       <p>The Heat announced the event on October 2, 2026 as a <strong>historic partnership with Rockstar Games</strong>. For one night only, the team plays under the Vice City name with a themed court, new uniforms, and special in-arena programming. It is the biggest real-world GTA 6 crossover confirmed so far.</p>
       <p>The buildup started a day earlier. On October 1, a neon "Welcome to Vice City" sign lit up on the arena rooftop, and the city around it is joining in. Miami Beach voted to put "VI" branding on beach chairs and umbrellas from October 15 through December 31.</p>
 
@@ -142,7 +142,7 @@ export const miamiHeatViceCityNight: ArticleData = {
         <div className="heat-card">
           <div className="heat-card-body">
             <h3>In-arena activations</h3>
-            <p>Expect unique game programming and live Vice City elements all night. Related in-arena activities begin on Opening Night (October 21 vs the Timberwolves), with a full activation guide coming at HEAT.com/ViceCity.</p>
+            <p>Expect unique game programming and live Vice City elements all night. Related in-arena activities begin on Opening Night (October 21 vs the Timberwolves), with a full activation guide coming at the <a href="https://heat.com/ViceCity" target="_blank" rel="noopener noreferrer">official Heat Vice City page</a>.</p>
           </div>
         </div>
         <div className="heat-card">
@@ -206,7 +206,7 @@ export const miamiHeatViceCityNight: ArticleData = {
         <p>Yes. The Heat announced it as an official partnership with Rockstar Games on October 2, 2026, though Rockstar has not posted about it on its own Newswire and the deal value is undisclosed.</p>
       </div>
 
-      <p>Going to the game or watching from home? Check our <Link href="/guides/gta-6-preload-and-release-times/">GTA 6 pre-load and release times guide</Link> so you are ready the second the clock hits launch night.</p>
+      <p>Going to Miami Heat Vice City Night or watching from home? Check our <Link href="/guides/gta-6-preload-and-release-times/">GTA 6 pre-load and release times guide</Link> so you are ready the second the clock hits launch night.</p>
     </ImageLightbox>
   ),
 };
