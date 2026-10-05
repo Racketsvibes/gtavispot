@@ -9,12 +9,20 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
-    title: 'PS5 Firmware 14.10: Does GTA 6 Require the Update?',
+    title: 'GTA 6 LOVE Magazine Cover: New Screenshots & Details',
+    desc: 'GTA 6 is on the LOVE magazine cover with new Jason and Lucia screenshots. Every new detail, quote, and story reveal from Rockstar\u2019s cover story.',
+    date: 'October 5, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-love-magazine-cover-story/',
+    img: '/images/news/gta-6-love-magazine-cover-featured.webp',
+  },
+  {
+    title: 'GTA 6 PS5 Update: Do You Need Firmware 14.10?',
     desc: 'PS5 firmware 14.10 is out and a datamine claims GTA 6 needs it. What Sony confirmed, what is only reported, and what it means for your console.',
-    date: 'October 4, 2026',
+    date: 'October 5, 2026',
     tag: 'NEWS',
     href: '/news/ps5-firmware-1410-gta-6/',
-    img: '/images/news/ps5-firmware-1410-gta6.webp',
+    img: '/images/news/ps5-firmware-1410-gta-6-update.webp',
   },
   {
     title: 'Miami Heat Vice City Night: GTA 6 Event Guide',
