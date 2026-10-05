@@ -39,6 +39,7 @@ import { gta6SoundtrackAlbum } from './news/gta-6-soundtrack-album';
 import { gta6GameInformerCoverStory } from './news/gta-6-game-informer-cover-story';
 import { miamiHeatViceCityNight } from './news/miami-heat-vice-city-night-gta-6';
 import { ps5Firmware1410Gta6 } from './news/ps5-firmware-1410-gta-6';
+import { gta6LoveMagazineCoverStory } from './news/gta-6-love-magazine-cover-story';
 
 
 
@@ -110,6 +111,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-game-informer-cover-story': gta6GameInformerCoverStory,
   'miami-heat-vice-city-night-gta-6': miamiHeatViceCityNight,
   'ps5-firmware-1410-gta-6': ps5Firmware1410Gta6,
+  'gta-6-love-magazine-cover-story': gta6LoveMagazineCoverStory,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
