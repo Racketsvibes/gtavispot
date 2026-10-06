@@ -12,8 +12,8 @@ export const gta6WantedSystem: GuideArticleData = {
   publishedDate: 'October 6, 2026',
   modifiedDate: 'October 6, 2026',
   author: 'Editorial Staff',
-  featureImage: '/images/news/gta-6-wanted-system-feature.webp',
-  featureImageAlt: 'Neon-style illustration of the GTA 6 six-star wanted HUD with heat icons over a Vice City night skyline',
+  featureImage: '/images/Extended_Look_2.webp',
+  featureImageAlt: 'GTA 6 gameplay screenshot showing a four-star wanted level with a police chase in Vice City',
   content: (
     <>
       <p>
@@ -122,15 +122,15 @@ export const gta6WantedSystem: GuideArticleData = {
 
       <div className={styles.featureImageContainer} style={{ marginBottom: '24px' }}>
         <Image
-          src="/images/news/gta-6-wanted-system-feature.webp"
-          alt="Neon-style illustration of the GTA 6 six-star wanted HUD with heat icons over a Vice City night skyline"
-          width={1200}
-          height={630}
+          src="/images/Extended_Look_2.webp"
+          alt="GTA 6 gameplay screenshot showing a four-star wanted level with a police chase in Vice City"
+          width={1597}
+          height={900}
           sizes="(max-width: 768px) 100vw, 800px"
           className={styles.featureImage}
         />
         <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '8px', fontFamily: 'var(--font-ui), sans-serif' }}>
-          Illustration created for GTAVISpot, not official Rockstar artwork.
+          Official Rockstar Games gameplay screenshot from the GTA 6 Extended Look.
         </div>
       </div>
 
