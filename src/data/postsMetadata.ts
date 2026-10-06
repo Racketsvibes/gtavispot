@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Wanted System Explained: 6 Stars, Heat & Escape',
+    desc: 'GTA 6 brings back six wanted stars plus a Heat system that tracks your clothes, face, car and partner. Star states, evidence icons and escapes.',
+    date: 'October 6, 2026',
+    tag: 'GUIDE',
+    href: '/guides/gta-6-wanted-system/',
+    img: '/images/news/gta-6-wanted-system-feature.webp',
+  },
+  {
     title: 'GTA 6 Has Dedicated Writers for NPC Dialogue and Radio',
     desc: 'Rockstar confirms dedicated writing teams for GTA 6 pedestrian dialogue, radio, and ads, based in Los Angeles, New York, and London.',
     date: 'October 6, 2026',
