@@ -14,7 +14,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     date: 'October 6, 2026',
     tag: 'GUIDE',
     href: '/guides/gta-6-wanted-system/',
-    img: '/images/news/gta-6-wanted-system-feature.webp',
+    img: '/images/Extended_Look_2.webp',
   },
   {
     title: 'GTA 6 Has Dedicated Writers for NPC Dialogue and Radio',
