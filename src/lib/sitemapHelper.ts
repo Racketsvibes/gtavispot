@@ -1,1 +1,339 @@
-aW1wb3J0IHsgZ2V0QWxsTWFwQXJ0aWNsZVNsdWdzIH0gZnJvbSAnQC9kYXRhL21hcENvbnRlbnQnOwppbXBvcnQgeyBnZXRBbGxBcnRpY2xlU2x1Z3MgfSBmcm9tICdAL2RhdGEvbmV3c0NvbnRlbnQnOwppbXBvcnQgeyBnZXRBbGxTdG9yeUFydGljbGVTbHVncyB9IGZyb20gJ0AvZGF0YS9zdG9yeUNvbnRlbnQnOwppbXBvcnQgeyBnZXRBbGxUZWNoQXJ0aWNsZVNsdWdzIH0gZnJvbSAnQC9kYXRhL3RlY2hDb250ZW50JzsKaW1wb3J0IHsgZ2V0QWxsT25saW5lQXJ0aWNsZVNsdWdzIH0gZnJvbSAnQC9kYXRhL29ubGluZUNvbnRlbnQnOwppbXBvcnQgeyBnZXRBbGxXb3JsZEFydGljbGVTbHVncyB9IGZyb20gJ0AvZGF0YS93b3JsZENvbnRlbnQnOwoKY29uc3QgYmFzZVVybCA9ICdodHRwczovL3d3dy5ndGF2aXNwb3QuY29tJzsKCmNvbnN0IG5ld3NNb2RpZmllZERhdGVzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICdndGEtNi1zb3VuZHRyYWNrLWFsYnVtJzogJzIwMjYtMTAtMDInLAogICdndGEtNi1nYW1lLWluZm9ybWVyLWNvdmVyLXN0b3J5JzogJzIwMjYtMTAtMDMnLAogICdtaWFtaS1oZWF0LXZpY2UtY2l0eS1uaWdodC1ndGEtNic6ICcyMDI2LTEwLTA0JywKICAncHM1LWZpcm13YXJlLTE0MTAtZ3RhLTYnOiAnMjAyNi0xMC0wNScsCiAgJ2d0YS02LWxvdmUtbWFnYXppbmUtY292ZXItc3RvcnknOiAnMjAyNi0xMC0wNScsCiAgJ2d0YS02LWRlZGljYXRlZC13cml0ZXJzLW5wYy1kaWFsb2d1ZS1yYWRpbyc6ICcyMDI2LTEwLTA2JywKICAnZ3RhLTYtc2luZ2xlLXBsYXllcic6ICcyMDI2LTA5LTI3JywKICAnZ3RhLTYtYmlrZXItZ2FuZyc6ICcyMDI2LTA5LTI3JywKICAnZ3RhLTYtYnVkZ2V0JzogJzIwMjYtMDktMjcnLAogICdndGEtNi1yZXZpZXcnOiAnMjAyNi0wOS0yNScsCiAgJ2d0YS02LXZpY2UtY2l0eS1jb2xsZWN0aW9uJzogJzIwMjYtMDktMjQnLAogICdndGEtNi1jaGluYS1jZW5zb3JzaGlwJzogJzIwMjYtMDktMDUnLAogICdndGEtNi10aW1lbGluZSc6ICcyMDI2LTA4LTMwJywKICAncm9ja3N0YXItY3Jld3MnOiAnMjAyNi0wOC0zMCcsCiAgJ2d0YS02LWdhbWVwbGF5JzogJzIwMjYtMDgtMjknLAogICdndGEtNi1uZXRmbGl4LXZpZXdlcnNoaXAnOiAnMjAyNi0wOC0yOScsCiAgJ2d0YS02LWFydHdvcmtzJzogJzIwMjYtMDgtMjcnLAogICdndGEtNi1sZWFrcy10aW1lbGluZSc6ICcyMDI2LTA4LTI2JywKICAnZ3RhLTYtbGVha3MtZXNjYWxhdGlvbic6ICcyMDI2LTA4LTIzJywKICAnZ3RhLTYtc3RyaXAtY2x1Yi1sZWFrJzogJzIwMjYtMDgtMjInLAogICdndGEtNi1hZ2UtcmF0aW5nJzogJzIwMjYtMTAtMDYnLAogICdndGEtNi1kcml2aW5nLWxlYWsnOiAnMjAyNi0wOC0yMScsCiAgJ2d0YS02LWdhbWVwbGF5LWxlYWtzJzogJzIwMjYtMDgtMjAnLAogICdndGEtNi1kZWx1eGUtZWRpdGlvbic6ICcyMDI2LTA4LTE4JywKICAnZ3RhLTYtY29sbGVjdG9ycy1lZGl0aW9uJzogJzIwMjYtMDgtMTEnLAogICdndGEtNi1leHRlbmRlZC1sb29rJzogJzIwMjYtMDgtMDYnLAogICdndGEtNi1yZWdpb24tbG9jayc6ICcyMDI2LTA3LTI5JywKICAnZ3RhLTYtaGFja2VyJzogJzIwMjYtMDgtMjAnLAogICdndGEtNi1sZWFrcyc6ICcyMDI2LTA4LTIwJywKICAnZ3RhLTYtcGh5c2ljYWwtY29weSc6ICcyMDI2LTA5LTI1JywKICAnZ3RhLTYtdWx0aW1hdGUtZWRpdGlvbi12cy1zdGFuZGFyZCc6ICcyMDI2LTA4LTE4JywKICAnZ3RhLTYtcHJlLW9yZGVyJzogJzIwMjYtMDgtMTgnLAogICdndGEtNi1wcmljZSc6ICcyMDI2LTA4LTE4JywKICAnZ3RhLTYtcHJlLW9yZGVyLXNhbGVzJzogJzIwMjYtMDctMTQnLAogICdndGEtNi1yZWxlYXNlLWRhdGUnOiAnMjAyNi0wNi0yNScsCiAgJ2d0YS02LW5vdmVtYmVyLXJlbGVhc2UnOiAnMjAyNi0wNi0yNScsCn07Cgpjb25zdCBzdG9yeU1vZGlmaWVkRGF0ZXM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgJ2d0YS02LWNhc3QtaW4tcmVhbC1saWZlJzogJzIwMjYtMTAtMDInLAogICdzdGVwaGVuLXJvb3QtZ3RhLTYnOiAnMjAyNi0wOS0xNycsCiAgJ2d0YS02LWphc29uLXZvaWNlLWFjdG9yJzogJzIwMjYtMDktMDYnLAogICdtaXNzaW9ucyc6ICcyMDI2LTA5LTI1JywKICAndm9pY2UtYWN0b3JzJzogJzIwMjYtMDktMjUnLAogICdsdWNpYSc6ICcyMDI2LTA5LTA1JywKICAnbHVjaWEtYmFja3N0b3J5JzogJzIwMjYtMDktMDUnLAogICdndGEtNi1sdWNpYS12b2ljZS1hY3RyZXNzJzogJzIwMjYtMDktMDUnLAogICdzaWRlLW1pc3Npb25zJzogJzIwMjYtMDgtMjAnLAogICd3YWxrdGhyb3VnaCc6ICcyMDI2LTA3LTE3JywKICAnZW5kaW5nJzogJzIwMjYtMDktMjUnLAogICdob3ctbG9uZy10by1iZWF0JzogJzIwMjYtMDktMjUnLAp9OwoKY29uc3QgdGVjaE1vZGlmaWVkRGF0ZXM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgJ2d0YS02LXN5c3RlbS1yZXF1aXJlbWVudHMnOiAnMjAyNi0wOS0yNScsCiAgJ2d0YS02LXBjLXJlcXVpcmVtZW50cyc6ICcyMDI2LTA5LTI1JywKICAnZ3RhLTYtcGMtcmVsZWFzZS1kYXRlJzogJzIwMjYtMTAtMDYnLAp9OwoKY29uc3Qgb25saW5lTW9kaWZpZWREYXRlczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAnZ3RhLXBsdXMnOiAnMjAyNi0wNy0wNycsCiAgJ3RoZS1rb3J0ei1jZW50ZXItaGVpc3QnOiAnMjAyNi0wNy0xNicsCiAgJ3BlZ2Fzc2ktaWdudXMtcHVyc3VpdCc6ICcyMDI2LTA3LTI5JywKfTsKCmNvbnN0IHdvcmxkTW9kaWZpZWREYXRlczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAnZ3RhLTYtYW5pbWFscyc6ICcyMDI2LTA4LTEzJywKICAnZ3RhLTYtd2VhdGhlcic6ICcyMDI2LTEwLTAxJywKfTsKCmNvbnN0IG1hcE1vZGlmaWVkRGF0ZXM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgJ3NpemUnOiAnMjAyNi0wOS0wMicsCiAgJ2ludGVyaW9ycyc6ICcyMDI2LTA5LTI1JywKfTsKCi8vIEN1cnJlbnRseSB0cmFuc2xhdGVkIHBhZ2VzIGluIFNwYW5pc2ggKHNsdWdzKQpjb25zdCBTUEFOSVNIX1RSQU5TTEFURURfTkVXU19TTFVHUyA9IFsKICAnZ3RhLTYtcmVsZWFzZS1kYXRlJywKICAnZ3RhLTYtbm92ZW1iZXItcmVsZWFzZScsCiAgJ2d0YS02LWxlYWtzLWVzY2FsYXRpb24nLAogICdndGEtNi1sZWFrcy10aW1lbGluZScsCiAgJ2d0YS02LWFydHdvcmtzJywKICAnZ3RhLTYtbmV0ZmxpeC12aWV3ZXJzaGlwJywKICAnZ3RhLTYtZ2FtZXBsYXknLAogICdyb2Nrc3Rhci1jcmV3cycsCiAgJ2d0YS02LXRpbWVsaW5lJywKICAnZ3RhLTYtY2hpbmEtY2Vuc29yc2hpcCcKXTsKCmNvbnN0IFNQQU5JU0hfVFJBTlNMQVRFRF9TVE9SWV9TTFVHUyA9IFsKICAnZ3RhLTYtbHVjaWEtdm9pY2UtYWN0cmVzcycsCiAgJ2d0YS02LWphc29uLXZvaWNlLWFjdG9yJywKICAnc3RlcGhlbi1yb290LWd0YS02JwpdOwoKZXhwb3J0IGludGVyZmFjZSBTaXRlbWFwSXRlbSB7CiAgdXJsOiBzdHJpbmc7CiAgLy8gUmVhbCBjb250ZW50LW1vZGlmaWVkIGRhdGUgKFlZWVktTU0tREQpLiBPbWl0IGVudGlyZWx5IHdoZW4gbm8KICAvLyB0cnV0aGZ1bCBkYXRlIGV4aXN0cyDigJQgbmV2ZXIgZmFicmljYXRlIHRvZGF5J3MgZGF0ZSwgb3IgR29vZ2xlCiAgLy8gc3RvcHMgdHJ1c3RpbmcgZXZlcnkgbGFzdG1vZCBvbiB0aGUgc2l0ZS4KICBsYXN0bW9kPzogc3RyaW5nOwogIGNoYW5nZWZyZXE6IHN0cmluZzsKICBwcmlvcml0eTogc3RyaW5nOwogIGFsdGVybmF0ZXM/OiB7CiAgICBsYW5nOiBzdHJpbmc7CiAgICBocmVmOiBzdHJpbmc7CiAgfVtdOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0RW5nbGlzaFVybHMoKTogU2l0ZW1hcEl0ZW1bXSB7CiAgY29uc3QgaXRlbXM6IFNpdGVtYXBJdGVtW10gPSBbXTsKCiAgLy8gU3RhdGljIFJvdXRlcyDigJQgbGFzdG1vZCBvbmx5IHdoZXJlIGEgcmVhbCBjb250ZW50IGRhdGUgaXMga25vd247CiAgLy8gb21pdHRlZCAodW5kZWZpbmVkKSBvdGhlcndpc2UgaW5zdGVhZCBvZiBjbGFpbWluZyAidG9kYXkiLgogIGNvbnN0IHN0YXRpY1JvdXRlczogeyBwYXRoOiBzdHJpbmc7IGNoYW5nZWZyZXE6IHN0cmluZzsgcHJpb3JpdHk6IHN0cmluZzsgbGFzdG1vZD86IHN0cmluZyB9W10gPSBbCiAgICB7IHBhdGg6ICcnLCBjaGFuZ2VmcmVxOiAnZGFpbHknLCBwcmlvcml0eTogJzEuMCcgfSwKICAgIHsgcGF0aDogJy92ZWhpY2xlcy8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjknIH0sCiAgICB7IHBhdGg6ICcvdmVoaWNsZXMvZ3RhLTYtY2Fycy8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjgnIH0sCiAgICB7IHBhdGg6ICcvdmVoaWNsZXMvZ3RhLTYtYmlrZXMvJywgY2hhbmdlZnJlcTogJ3dlZWtseScsIHByaW9yaXR5OiAnMC44JyB9LAogICAgeyBwYXRoOiAnL3dlYXBvbnMvJywgY2hhbmdlZnJlcTogJ3dlZWtseScsIHByaW9yaXR5OiAnMC45JyB9LAogICAgeyBwYXRoOiAnL21vZHMvJywgY2hhbmdlZnJlcTogJ3dlZWtseScsIHByaW9yaXR5OiAnMC45JywgbGFzdG1vZDogJzIwMjYtMDgtMjAnIH0sCiAgICB7IHBhdGg6ICcvY2hlYXRzLycsIGNoYW5nZWZyZXE6ICd3ZWVrbHknLCBwcmlvcml0eTogJzAuOScgfSwKICAgIHsgcGF0aDogJy90cm9waGllcy8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjknIH0sCiAgICB7IHBhdGg6ICcvZ3VpZGVzLycsIGNoYW5nZWZyZXE6ICd3ZWVrbHknLCBwcmlvcml0eTogJzAuOScgfSwKICAgIHsgcGF0aDogJy9ndWlkZXMvY2hhcmFjdGVyLWN1c3RvbWl6YXRpb24vJywgY2hhbmdlZnJlcTogJ3dlZWtseScsIHByaW9yaXR5OiAnMC44JyB9LAogICAgeyBwYXRoOiAnL2d1aWRlcy9ndGEtNi1wcmVsb2FkLXVubG9jay10aW1lcy8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjgnLCBsYXN0bW9kOiAnMjAyNi0xMC0wMicgfSwKICAgIHsgcGF0aDogJy9ndWlkZXMvZ3RhLTYtd2FudGVkLXN5c3RlbS8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjgnLCBsYXN0bW9kOiAnMjAyNi0xMC0wNicgfSwKICAgIHsgcGF0aDogJy9tYXAvJywgY2hhbmdlZnJlcTogJ3dlZWtseScsIHByaW9yaXR5OiAnMC45JyB9LAogICAgeyBwYXRoOiAnL2ZhcS8nLCBjaGFuZ2VmcmVxOiAnZGFpbHknLCBwcmlvcml0eTogJzAuOScgfSwKICAgIHsgcGF0aDogJy9xdWl6LycsIGNoYW5nZWZyZXE6ICd3ZWVrbHknLCBwcmlvcml0eTogJzAuOScgfSwKICAgIHsgcGF0aDogJy9zdG9yeS8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjknIH0sCiAgICB7IHBhdGg6ICcvdGVjaC8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjknIH0sCiAgICB7IHBhdGg6ICcvY29tcGFyZS8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjknIH0sCiAgICB7IHBhdGg6ICcvY29tcGFyZS9ndGEtNi12cy1ndGEtNS8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjgnLCBsYXN0bW9kOiAnMjAyNi0wNy0yMycgfSwKICAgIHsgcGF0aDogJy9jb21wYXJlL2d0YS02LXZzLXJkcjIvJywgY2hhbmdlZnJlcTogJ3dlZWtseScsIHByaW9yaXR5OiAnMC44JyB9LAogICAgeyBwYXRoOiAnL2NvbXBhcmUvaXMtZ3RhLTYtd29ydGgtYnV5aW5nLWluLTIwMjYvJywgY2hhbmdlZnJlcTogJ3dlZWtseScsIHByaW9yaXR5OiAnMC44JywgbGFzdG1vZDogJzIwMjYtMDctMjMnIH0sCiAgICB7IHBhdGg6ICcvY29tcGFyZS9wczUtdnMteGJveC1zZXJpZXMteC8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjgnLCBsYXN0bW9kOiAnMjAyNi0wNy0yOCcgfSwKICAgIHsgcGF0aDogJy9hYm91dC8nLCBjaGFuZ2VmcmVxOiAnbW9udGhseScsIHByaW9yaXR5OiAnMC41JywgbGFzdG1vZDogJzIwMjYtMDctMjUnIH0sCiAgICB7IHBhdGg6ICcvY29udGFjdC8nLCBjaGFuZ2VmcmVxOiAnbW9udGhseScsIHByaW9yaXR5OiAnMC41JywgbGFzdG1vZDogJzIwMjYtMDctMjUnIH0sCiAgICB7IHBhdGg6ICcvcHJpdmFjeS1wb2xpY3kvJywgY2hhbmdlZnJlcTogJ21vbnRobHknLCBwcmlvcml0eTogJzAuMycsIGxhc3Rtb2Q6ICcyMDI2LTA3LTI1JyB9LAogICAgeyBwYXRoOiAnL3Rlcm1zLW9mLXNlcnZpY2UvJywgY2hhbmdlZnJlcTogJ21vbnRobHknLCBwcmlvcml0eTogJzAuMycsIGxhc3Rtb2Q6ICcyMDI2LTA3LTI1JyB9LAogICAgeyBwYXRoOiAnL2Nvb2tpZS1wb2xpY3kvJywgY2hhbmdlZnJlcTogJ21vbnRobHknLCBwcmlvcml0eTogJzAuMycsIGxhc3Rtb2Q6ICcyMDI2LTA3LTI1JyB9LAogICAgeyBwYXRoOiAnL2Rpc2NsYWltZXIvJywgY2hhbmdlZnJlcTogJ21vbnRobHknLCBwcmlvcml0eTogJzAuMycsIGxhc3Rtb2Q6ICcyMDI2LTA3LTI1JyB9LAogICAgeyBwYXRoOiAnL2RtY2EvJywgY2hhbmdlZnJlcTogJ21vbnRobHknLCBwcmlvcml0eTogJzAuMycsIGxhc3Rtb2Q6ICcyMDI2LTA3LTI1JyB9LAogICAgeyBwYXRoOiAnL29ubGluZS8nLCBjaGFuZ2VmcmVxOiAnd2Vla2x5JywgcHJpb3JpdHk6ICcwLjknIH0sCiAgICB7IHBhdGg6ICcvd29ybGQvJywgY2hhbmdlZnJlcTogJ3dlZWtseScsIHByaW9yaXR5OiAnMC45JyB9LAogIF07CgogIHN0YXRpY1JvdXRlcy5mb3JFYWNoKHJvdXRlID0+IHsKICAgIGl0ZW1zLnB1c2goewogICAgICB1cmw6IGAke2Jhc2VVcmx9JHtyb3V0ZS5wYXRofWAsCiAgICAgIGxhc3Rtb2Q6IHJvdXRlLmxhc3Rtb2QsCiAgICAgIGNoYW5nZWZyZXE6IHJvdXRlLmNoYW5nZWZyZXEsCiAgICAgIHByaW9yaXR5OiByb3V0ZS5wcmlvcml0eQogICAgfSk7CiAgfSk7CgogIC8vIE5ld3MgaHViIHdpdGggYWx0ZXJuYXRlcwogIGl0ZW1zLnB1c2goewogICAgdXJsOiBgJHtiYXNlVXJsfS9uZXdzL2AsCiAgICBjaGFuZ2VmcmVxOiAnZGFpbHknLAogICAgcHJpb3JpdHk6ICcwLjknLAogICAgYWx0ZXJuYXRlczogWwogICAgICB7IGxhbmc6ICdlbicsIGhyZWY6IGAke2Jhc2VVcmx9L25ld3MvYCB9LAogICAgICB7IGxhbmc6ICdlcy1lcycsIGhyZWY6IGAke2Jhc2VVcmx9L2VzL25ld3MvYCB9LAogICAgICB7IGxhbmc6ICd4LWRlZmF1bHQnLCBocmVmOiBgJHtiYXNlVXJsfS9uZXdzL2AgfQogICAgXQogIH0pOwoKICAvLyBNYXAgc2x1Z3MKICBnZXRBbGxNYXBBcnRpY2xlU2x1Z3MoKS5mb3JFYWNoKHNsdWcgPT4gewogICAgY29uc3QgbW9kRGF0ZSA9IG1hcE1vZGlmaWVkRGF0ZXNbc2x1Z107CiAgICBpdGVtcy5wdXNoKHsKICAgICAgdXJsOiBgJHtiYXNlVXJsfS9tYXAvJHtzbHVnfS9gLAogICAgICBsYXN0bW9kOiBtb2REYXRlLAogICAgICBjaGFuZ2VmcmVxOiAnd2Vla2x5JywKICAgICAgcHJpb3JpdHk6ICcwLjgnCiAgICB9KTsKICB9KTsKCiAgLy8gTmV3cyBzbHVncwogIGdldEFsbEFydGljbGVTbHVncygpLmZvckVhY2goc2x1ZyA9PiB7CiAgICBjb25zdCBtb2REYXRlID0gbmV3c01vZGlmaWVkRGF0ZXNbc2x1Z107CiAgICBjb25zdCBoYXNTcGFuaXNoID0gU1BBTklTSF9UUkFOU0xBVEVEX05FV1NfU0xVR1MuaW5jbHVkZXMoc2x1Zyk7CiAgICAKICAgIGNvbnN0IHJvb3RTbHVncyA9IFsnZ3RhLTYtZ2FtZXBsYXknLCAnZ3RhLTYtdGltZWxpbmUnXTsKICAgIGlmIChyb290U2x1Z3MuaW5jbHVkZXMoc2x1ZykpIHsKICAgICAgaXRlbXMucHVzaCh7CiAgICAgICAgdXJsOiBgJHtiYXNlVXJsfS8ke3NsdWd9L2AsCiAgICAgICAgbGFzdG1vZDogbW9kRGF0ZSwKICAgICAgICBjaGFuZ2VmcmVxOiAnZGFpbHknLAogICAgICAgIHByaW9yaXR5OiAnMC44JywKICAgICAgICBhbHRlcm5hdGVzOiBoYXNTcGFuaXNoID8gWwogICAgICAgICAgeyBsYW5nOiAnZW4nLCBocmVmOiBgJHtiYXNlVXJsfS8ke3NsdWd9L2AgfSwKICAgICAgICAgIHsgbGFuZzogJ2VzLWVzJywgaHJlZjogYCR7YmFzZVVybH0vZXMvJHtzbHVnfS9gIH0sCiAgICAgICAgICB7IGxhbmc6ICd4LWRlZmF1bHQnLCBocmVmOiBgJHtiYXNlVXJsfS8ke3NsdWd9L2AgfQogICAgICAgIF0gOiB1bmRlZmluZWQKICAgICAgfSk7CiAgICB9IGVsc2UgewogICAgICBpdGVtcy5wdXNoKHsKICAgICAgICB1cmw6IGAke2Jhc2VVcmx9L25ld3MvJHtzbHVnfS9gLAogICAgICAgIGxhc3Rtb2Q6IG1vZERhdGUsCiAgICAgICAgY2hhbmdlZnJlcTogJ2RhaWx5JywKICAgICAgICBwcmlvcml0eTogJzAuOCcsCiAgICAgICAgYWx0ZXJuYXRlczogaGFzU3BhbmlzaCA/IFsKICAgICAgICAgIHsgbGFuZzogJ2VuJywgaHJlZjogYCR7YmFzZVVybH0vbmV3cy8ke3NsdWd9L2AgfSwKICAgICAgICAgIHsgbGFuZzogJ2VzLWVzJywgaHJlZjogYCR7YmFzZVVybH0vZXMvbmV3cy8ke3NsdWd9L2AgfSwKICAgICAgICAgIHsgbGFuZzogJ3gtZGVmYXVsdCcsIGhyZWY6IGAke2Jhc2VVcmx9L25ld3MvJHtzbHVnfS9gIH0KICAgICAgICBdIDogdW5kZWZpbmVkCiAgICAgIH0pOwogICAgfQogIH0pOwoKICAvLyBTdG9yeSBzbHVncwogIGdldEFsbFN0b3J5QXJ0aWNsZVNsdWdzKCkuZm9yRWFjaChzbHVnID0+IHsKICAgIGNvbnN0IG1vZERhdGUgPSBzdG9yeU1vZGlmaWVkRGF0ZXNbc2x1Z107CiAgICBjb25zdCBoYXNTcGFuaXNoID0gU1BBTklTSF9UUkFOU0xBVEVEX1NUT1JZX1NMVUdTLmluY2x1ZGVzKHNsdWcpOwogICAgaXRlbXMucHVzaCh7CiAgICAgIHVybDogYCR7YmFzZVVybH0vc3RvcnkvJHtzbHVnfS9gLAogICAgICBsYXN0bW9kOiBtb2REYXRlLAogICAgICBjaGFuZ2VmcmVxOiAnd2Vla2x5JywKICAgICAgcHJpb3JpdHk6ICcwLjgnLAogICAgICBhbHRlcm5hdGVzOiBoYXNTcGFuaXNoID8gWwogICAgICAgIHsgbGFuZzogJ2VuJywgaHJlZjogYCR7YmFzZVVybH0vc3RvcnkvJHtzbHVnfS9gIH0sCiAgICAgICAgeyBsYW5nOiAnZXMtZXMnLCBocmVmOiBgJHtiYXNlVXJsfS9lcy9zdG9yeS8ke3NsdWd9L2AgfSwKICAgICAgICB7IGxhbmc6ICd4LWRlZmF1bHQnLCBocmVmOiBgJHtiYXNlVXJsfS9zdG9yeS8ke3NsdWd9L2AgfQogICAgICBdIDogdW5kZWZpbmVkCiAgICB9KTsKICB9KTsKCiAgLy8gVGVjaCBzbHVncwogIGdldEFsbFRlY2hBcnRpY2xlU2x1Z3MoKS5mb3JFYWNoKHNsdWcgPT4gewogICAgY29uc3QgbW9kRGF0ZSA9IHRlY2hNb2RpZmllZERhdGVzW3NsdWddOwogICAgaXRlbXMucHVzaCh7CiAgICAgIHVybDogYCR7YmFzZVVybH0vdGVjaC8ke3NsdWd9L2AsCiAgICAgIGxhc3Rtb2Q6IG1vZERhdGUsCiAgICAgIGNoYW5nZWZyZXE6ICd3ZWVrbHknLAogICAgICBwcmlvcml0eTogJzAuOCcKICAgIH0pOwogIH0pOwoKICAvLyBPbmxpbmUgc2x1Z3MKICBnZXRBbGxPbmxpbmVBcnRpY2xlU2x1Z3MoKS5mb3JFYWNoKHNsdWcgPT4gewogICAgY29uc3QgbW9kRGF0ZSA9IG9ubGluZU1vZGlmaWVkRGF0ZXNbc2x1Z107CiAgICBpdGVtcy5wdXNoKHsKICAgICAgdXJsOiBgJHtiYXNlVXJsfS9vbmxpbmUvJHtzbHVnfS9gLAogICAgICBsYXN0bW9kOiBtb2REYXRlLAogICAgICBjaGFuZ2VmcmVxOiAnd2Vla2x5JywKICAgICAgcHJpb3JpdHk6ICcwLjgnCiAgICB9KTsKICB9KTsKCiAgLy8gV29ybGQgc2x1Z3MKICBnZXRBbGxXb3JsZEFydGljbGVTbHVncygpLmZvckVhY2goc2x1ZyA9PiB7CiAgICBjb25zdCBtb2REYXRlID0gd29ybGRNb2RpZmllZERhdGVzW3NsdWddOwogICAgaXRlbXMucHVzaCh7CiAgICAgIHVybDogYCR7YmFzZVVybH0vd29ybGQvJHtzbHVnfS9gLAogICAgICBsYXN0bW9kOiBtb2REYXRlLAogICAgICBjaGFuZ2VmcmVxOiAnd2Vla2x5JywKICAgICAgcHJpb3JpdHk6ICcwLjgnCiAgICB9KTsKICB9KTsKCiAgcmV0dXJuIGl0ZW1zOwp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0U3BhbmlzaFVybHMoKTogU2l0ZW1hcEl0ZW1bXSB7CiAgY29uc3QgaXRlbXM6IFNpdGVtYXBJdGVtW10gPSBbXTsKCiAgLy8gU3BhbmlzaCBOZXdzIEh1YgogIGl0ZW1zLnB1c2goewogICAgdXJsOiBgJHtiYXNlVXJsfS9lcy9uZXdzL2AsCiAgICBjaGFuZ2VmcmVxOiAnZGFpbHknLAogICAgcHJpb3JpdHk6ICcwLjknLAogICAgYWx0ZXJuYXRlczogWwogICAgICB7IGxhbmc6ICdlbicsIGhyZWY6IGAke2Jhc2VVcmx9L25ld3MvYCB9LAogICAgICB7IGxhbmc6ICdlcy1lcycsIGhyZWY6IGAke2Jhc2VVcmx9L2VzL25ld3MvYCB9LAogICAgICB7IGxhbmc6ICd4LWRlZmF1bHQnLCBocmVmOiBgJHtiYXNlVXJsfS9uZXdzL2AgfQogICAgXQogIH0pOwoKICBTUEFOSVNIX1RSQU5TTEFURURfTkVXU19TTFVHUy5mb3JFYWNoKHNsdWcgPT4gewogICAgY29uc3QgbW9kRGF0ZSA9IG5ld3NNb2RpZmllZERhdGVzW3NsdWddOwogICAgCiAgICBjb25zdCByb290U2x1Z3MgPSBbJ2d0YS02LWdhbWVwbGF5JywgJ2d0YS02LXRpbWVsaW5lJ107CiAgICBpZiAocm9vdFNsdWdzLmluY2x1ZGVzKHNsdWcpKSB7CiAgICAgIGl0ZW1zLnB1c2goewogICAgICAgIHVybDogYCR7YmFzZVVybH0vZXMvJHtzbHVnfS9gLAogICAgICAgIGxhc3Rtb2Q6IG1vZERhdGUsCiAgICAgICAgY2hhbmdlZnJlcTogJ3dlZWtseScsCiAgICAgICAgcHJpb3JpdHk6ICcwLjgnLAogICAgICAgIGFsdGVybmF0ZXM6IFsKICAgICAgICAgIHsgbGFuZzogJ2VuJywgaHJlZjogYCR7YmFzZVVybH0vJHtzbHVnfS9gIH0sCiAgICAgICAgICB7IGxhbmc6ICdlcy1lcycsIGhyZWY6IGAke2Jhc2VVcmx9L2VzLyR7c2x1Z30vYCB9LAogICAgICAgICAgeyBsYW5nOiAneC1kZWZhdWx0JywgaHJlZjogYCR7YmFzZVVybH0vJHtzbHVnfS9gIH0KICAgICAgICBdCiAgICAgIH0pOwogICAgfSBlbHNlIHsKICAgICAgaXRlbXMucHVzaCh7CiAgICAgICAgdXJsOiBgJHtiYXNlVXJsfS9lcy9uZXdzLyR7c2x1Z30vYCwKICAgICAgICBsYXN0bW9kOiBtb2REYXRlLAogICAgICAgIGNoYW5nZWZyZXE6ICd3ZWVrbHknLAogICAgICAgIHByaW9yaXR5OiAnMC44JywKICAgICAgICBhbHRlcm5hdGVzOiBbCiAgICAgICAgICB7IGxhbmc6ICdlbicsIGhyZWY6IGAke2Jhc2VVcmx9L25ld3MvJHtzbHVnfS9gIH0sCiAgICAgICAgICB7IGxhbmc6ICdlcy1lcycsIGhyZWY6IGAke2Jhc2VVcmx9L2VzL25ld3MvJHtzbHVnfS9gIH0sCiAgICAgICAgICB7IGxhbmc6ICd4LWRlZmF1bHQnLCBocmVmOiBgJHtiYXNlVXJsfS9uZXdzLyR7c2x1Z30vYCB9CiAgICAgICAgXQogICAgICB9KTsKICAgIH0KICB9KTsKCiAgU1BBTklTSF9UUkFOU0xBVEVEX1NUT1JZX1NMVUdTLmZvckVhY2goc2x1ZyA9PiB7CiAgICBjb25zdCBtb2REYXRlID0gc3RvcnlNb2RpZmllZERhdGVzW3NsdWddOwogICAgaXRlbXMucHVzaCh7CiAgICAgIHVybDogYCR7YmFzZVVybH0vZXMvc3RvcnkvJHtzbHVnfS9gLAogICAgICBsYXN0bW9kOiBtb2REYXRlLAogICAgICBjaGFuZ2VmcmVxOiAnd2Vla2x5JywKICAgICAgcHJpb3JpdHk6ICcwLjgnLAogICAgICBhbHRlcm5hdGVzOiBbCiAgICAgICAgeyBsYW5nOiAnZW4nLCBocmVmOiBgJHtiYXNlVXJsfS9zdG9yeS8ke3NsdWd9L2AgfSwKICAgICAgICB7IGxhbmc6ICdlcy1lcycsIGhyZWY6IGAke2Jhc2VVcmx9L2VzL3N0b3J5LyR7c2x1Z30vYCB9LAogICAgICAgIHsgbGFuZzogJ3gtZGVmYXVsdCcsIGhyZWY6IGAke2Jhc2VVcmx9L3N0b3J5LyR7c2x1Z30vYCB9CiAgICAgIF0KICAgIH0pOwogIH0pOwoKICByZXR1cm4gaXRlbXM7Cn0K
+import { getAllMapArticleSlugs } from '@/data/mapContent';
+import { getAllArticleSlugs } from '@/data/newsContent';
+import { getAllStoryArticleSlugs } from '@/data/storyContent';
+import { getAllTechArticleSlugs } from '@/data/techContent';
+import { getAllOnlineArticleSlugs } from '@/data/onlineContent';
+import { getAllWorldArticleSlugs } from '@/data/worldContent';
+
+const baseUrl = 'https://www.gtavispot.com';
+
+const newsModifiedDates: Record<string, string> = {
+  'gta-6-soundtrack-album': '2026-10-02',
+  'gta-6-game-informer-cover-story': '2026-10-03',
+  'miami-heat-vice-city-night-gta-6': '2026-10-04',
+  'ps5-firmware-1410-gta-6': '2026-10-05',
+  'gta-6-love-magazine-cover-story': '2026-10-05',
+  'gta-6-dedicated-writers-npc-dialogue-radio': '2026-10-06',
+  'gta-6-single-player': '2026-09-27',
+  'gta-6-biker-gang': '2026-09-27',
+  'gta-6-budget': '2026-09-27',
+  'gta-6-review': '2026-09-25',
+  'gta-6-vice-city-collection': '2026-09-24',
+  'gta-6-china-censorship': '2026-09-05',
+  'gta-6-timeline': '2026-08-30',
+  'rockstar-crews': '2026-08-30',
+  'gta-6-gameplay': '2026-08-29',
+  'gta-6-netflix-viewership': '2026-08-29',
+  'gta-6-artworks': '2026-08-27',
+  'gta-6-leaks-timeline': '2026-08-26',
+  'gta-6-leaks-escalation': '2026-08-23',
+  'gta-6-strip-club-leak': '2026-08-22',
+  'gta-6-age-rating': '2026-10-06',
+  'gta-6-driving-leak': '2026-08-21',
+  'gta-6-gameplay-leaks': '2026-08-20',
+  'gta-6-deluxe-edition': '2026-08-18',
+  'gta-6-collectors-edition': '2026-08-11',
+  'gta-6-extended-look': '2026-08-06',
+  'gta-6-region-lock': '2026-07-29',
+  'gta-6-hacker': '2026-08-20',
+  'gta-6-leaks': '2026-08-20',
+  'gta-6-physical-copy': '2026-09-25',
+  'gta-6-ultimate-edition-vs-standard': '2026-08-18',
+  'gta-6-pre-order': '2026-08-18',
+  'gta-6-price': '2026-08-18',
+  'gta-6-pre-order-sales': '2026-07-14',
+  'gta-6-release-date': '2026-06-25',
+  'gta-6-november-release': '2026-06-25',
+};
+
+const storyModifiedDates: Record<string, string> = {
+  'gta-6-cast-in-real-life': '2026-10-02',
+  'stephen-root-gta-6': '2026-09-17',
+  'gta-6-jason-voice-actor': '2026-09-06',
+  'missions': '2026-09-25',
+  'voice-actors': '2026-09-25',
+  'lucia': '2026-09-05',
+  'lucia-backstory': '2026-09-05',
+  'gta-6-lucia-voice-actress': '2026-09-05',
+  'side-missions': '2026-08-20',
+  'walkthrough': '2026-07-17',
+  'ending': '2026-09-25',
+  'how-long-to-beat': '2026-09-25',
+};
+
+const techModifiedDates: Record<string, string> = {
+  'gta-6-system-requirements': '2026-09-25',
+  'gta-6-pc-requirements': '2026-09-25',
+  'gta-6-pc-release-date': '2026-10-06',
+};
+
+const onlineModifiedDates: Record<string, string> = {
+  'gta-plus': '2026-07-07',
+  'the-kortz-center-heist': '2026-07-16',
+  'pegassi-ignus-pursuit': '2026-07-29',
+};
+
+const worldModifiedDates: Record<string, string> = {
+  'gta-6-animals': '2026-08-13',
+  'gta-6-weather': '2026-10-01',
+};
+
+const mapModifiedDates: Record<string, string> = {
+  'size': '2026-09-02',
+  'interiors': '2026-09-25',
+};
+
+// Currently translated pages in Spanish (slugs)
+const SPANISH_TRANSLATED_NEWS_SLUGS = [
+  'gta-6-release-date',
+  'gta-6-november-release',
+  'gta-6-leaks-escalation',
+  'gta-6-leaks-timeline',
+  'gta-6-artworks',
+  'gta-6-netflix-viewership',
+  'gta-6-gameplay',
+  'rockstar-crews',
+  'gta-6-timeline',
+  'gta-6-china-censorship'
+];
+
+const SPANISH_TRANSLATED_STORY_SLUGS = [
+  'gta-6-lucia-voice-actress',
+  'gta-6-jason-voice-actor',
+  'stephen-root-gta-6'
+];
+
+export interface SitemapItem {
+  url: string;
+  // Real content-modified date (YYYY-MM-DD). Omit entirely when no
+  // truthful date exists — never fabricate today's date, or Google
+  // stops trusting every lastmod on the site.
+  lastmod?: string;
+  changefreq: string;
+  priority: string;
+  alternates?: {
+    lang: string;
+    href: string;
+  }[];
+}
+
+export function getEnglishUrls(): SitemapItem[] {
+  const items: SitemapItem[] = [];
+
+  // Static Routes — lastmod only where a real content date is known;
+  // omitted (undefined) otherwise instead of claiming "today".
+  const staticRoutes: { path: string; changefreq: string; priority: string; lastmod?: string }[] = [
+    { path: '', changefreq: 'daily', priority: '1.0' },
+    { path: '/vehicles/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/vehicles/gta-6-cars/', changefreq: 'weekly', priority: '0.8' },
+    { path: '/vehicles/gta-6-bikes/', changefreq: 'weekly', priority: '0.8' },
+    { path: '/weapons/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/mods/', changefreq: 'weekly', priority: '0.9', lastmod: '2026-08-20' },
+    { path: '/cheats/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/trophies/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/guides/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/guides/character-customization/', changefreq: 'weekly', priority: '0.8' },
+    { path: '/guides/gta-6-preload-unlock-times/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-02' },
+    { path: '/guides/gta-6-wanted-system/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-06' },
+    { path: '/map/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/faq/', changefreq: 'daily', priority: '0.9' },
+    { path: '/quiz/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/story/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/tech/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/compare/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/compare/gta-6-vs-gta-5/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-07-23' },
+    { path: '/compare/gta-6-vs-rdr2/', changefreq: 'weekly', priority: '0.8' },
+    { path: '/compare/is-gta-6-worth-buying-in-2026/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-07-23' },
+    { path: '/compare/ps5-vs-xbox-series-x/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-07-28' },
+    { path: '/about/', changefreq: 'monthly', priority: '0.5', lastmod: '2026-07-25' },
+    { path: '/contact/', changefreq: 'monthly', priority: '0.5', lastmod: '2026-07-25' },
+    { path: '/privacy-policy/', changefreq: 'monthly', priority: '0.3', lastmod: '2026-07-25' },
+    { path: '/terms-of-service/', changefreq: 'monthly', priority: '0.3', lastmod: '2026-07-25' },
+    { path: '/cookie-policy/', changefreq: 'monthly', priority: '0.3', lastmod: '2026-07-25' },
+    { path: '/disclaimer/', changefreq: 'monthly', priority: '0.3', lastmod: '2026-07-25' },
+    { path: '/dmca/', changefreq: 'monthly', priority: '0.3', lastmod: '2026-07-25' },
+    { path: '/online/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/world/', changefreq: 'weekly', priority: '0.9' },
+  ];
+
+  staticRoutes.forEach(route => {
+    items.push({
+      url: `${baseUrl}${route.path}`,
+      lastmod: route.lastmod,
+      changefreq: route.changefreq,
+      priority: route.priority
+    });
+  });
+
+  // News hub with alternates
+  items.push({
+    url: `${baseUrl}/news/`,
+    changefreq: 'daily',
+    priority: '0.9',
+    alternates: [
+      { lang: 'en', href: `${baseUrl}/news/` },
+      { lang: 'es-es', href: `${baseUrl}/es/news/` },
+      { lang: 'x-default', href: `${baseUrl}/news/` }
+    ]
+  });
+
+  // Map slugs
+  getAllMapArticleSlugs().forEach(slug => {
+    const modDate = mapModifiedDates[slug];
+    items.push({
+      url: `${baseUrl}/map/${slug}/`,
+      lastmod: modDate,
+      changefreq: 'weekly',
+      priority: '0.8'
+    });
+  });
+
+  // News slugs
+  getAllArticleSlugs().forEach(slug => {
+    const modDate = newsModifiedDates[slug];
+    const hasSpanish = SPANISH_TRANSLATED_NEWS_SLUGS.includes(slug);
+    
+    const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+    if (rootSlugs.includes(slug)) {
+      items.push({
+        url: `${baseUrl}/${slug}/`,
+        lastmod: modDate,
+        changefreq: 'daily',
+        priority: '0.8',
+        alternates: hasSpanish ? [
+          { lang: 'en', href: `${baseUrl}/${slug}/` },
+          { lang: 'es-es', href: `${baseUrl}/es/${slug}/` },
+          { lang: 'x-default', href: `${baseUrl}/${slug}/` }
+        ] : undefined
+      });
+    } else {
+      items.push({
+        url: `${baseUrl}/news/${slug}/`,
+        lastmod: modDate,
+        changefreq: 'daily',
+        priority: '0.8',
+        alternates: hasSpanish ? [
+          { lang: 'en', href: `${baseUrl}/news/${slug}/` },
+          { lang: 'es-es', href: `${baseUrl}/es/news/${slug}/` },
+          { lang: 'x-default', href: `${baseUrl}/news/${slug}/` }
+        ] : undefined
+      });
+    }
+  });
+
+  // Story slugs
+  getAllStoryArticleSlugs().forEach(slug => {
+    const modDate = storyModifiedDates[slug];
+    const hasSpanish = SPANISH_TRANSLATED_STORY_SLUGS.includes(slug);
+    items.push({
+      url: `${baseUrl}/story/${slug}/`,
+      lastmod: modDate,
+      changefreq: 'weekly',
+      priority: '0.8',
+      alternates: hasSpanish ? [
+        { lang: 'en', href: `${baseUrl}/story/${slug}/` },
+        { lang: 'es-es', href: `${baseUrl}/es/story/${slug}/` },
+        { lang: 'x-default', href: `${baseUrl}/story/${slug}/` }
+      ] : undefined
+    });
+  });
+
+  // Tech slugs
+  getAllTechArticleSlugs().forEach(slug => {
+    const modDate = techModifiedDates[slug];
+    items.push({
+      url: `${baseUrl}/tech/${slug}/`,
+      lastmod: modDate,
+      changefreq: 'weekly',
+      priority: '0.8'
+    });
+  });
+
+  // Online slugs
+  getAllOnlineArticleSlugs().forEach(slug => {
+    const modDate = onlineModifiedDates[slug];
+    items.push({
+      url: `${baseUrl}/online/${slug}/`,
+      lastmod: modDate,
+      changefreq: 'weekly',
+      priority: '0.8'
+    });
+  });
+
+  // World slugs
+  getAllWorldArticleSlugs().forEach(slug => {
+    const modDate = worldModifiedDates[slug];
+    items.push({
+      url: `${baseUrl}/world/${slug}/`,
+      lastmod: modDate,
+      changefreq: 'weekly',
+      priority: '0.8'
+    });
+  });
+
+  return items;
+}
+
+export function getSpanishUrls(): SitemapItem[] {
+  const items: SitemapItem[] = [];
+
+  // Spanish News Hub
+  items.push({
+    url: `${baseUrl}/es/news/`,
+    changefreq: 'daily',
+    priority: '0.9',
+    alternates: [
+      { lang: 'en', href: `${baseUrl}/news/` },
+      { lang: 'es-es', href: `${baseUrl}/es/news/` },
+      { lang: 'x-default', href: `${baseUrl}/news/` }
+    ]
+  });
+
+  SPANISH_TRANSLATED_NEWS_SLUGS.forEach(slug => {
+    const modDate = newsModifiedDates[slug];
+    
+    const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+    if (rootSlugs.includes(slug)) {
+      items.push({
+        url: `${baseUrl}/es/${slug}/`,
+        lastmod: modDate,
+        changefreq: 'weekly',
+        priority: '0.8',
+        alternates: [
+          { lang: 'en', href: `${baseUrl}/${slug}/` },
+          { lang: 'es-es', href: `${baseUrl}/es/${slug}/` },
+          { lang: 'x-default', href: `${baseUrl}/${slug}/` }
+        ]
+      });
+    } else {
+      items.push({
+        url: `${baseUrl}/es/news/${slug}/`,
+        lastmod: modDate,
+        changefreq: 'weekly',
+        priority: '0.8',
+        alternates: [
+          { lang: 'en', href: `${baseUrl}/news/${slug}/` },
+          { lang: 'es-es', href: `${baseUrl}/es/news/${slug}/` },
+          { lang: 'x-default', href: `${baseUrl}/news/${slug}/` }
+        ]
+      });
+    }
+  });
+
+  SPANISH_TRANSLATED_STORY_SLUGS.forEach(slug => {
+    const modDate = storyModifiedDates[slug];
+    items.push({
+      url: `${baseUrl}/es/story/${slug}/`,
+      lastmod: modDate,
+      changefreq: 'weekly',
+      priority: '0.8',
+      alternates: [
+        { lang: 'en', href: `${baseUrl}/story/${slug}/` },
+        { lang: 'es-es', href: `${baseUrl}/es/story/${slug}/` },
+        { lang: 'x-default', href: `${baseUrl}/story/${slug}/` }
+      ]
+    });
+  });
+
+  return items;
+}
