@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Has Dedicated Writers for NPC Dialogue and Radio',
+    desc: 'Rockstar confirms dedicated writing teams for GTA 6 pedestrian dialogue, radio, and ads, based in Los Angeles, New York, and London.',
+    date: 'October 6, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-dedicated-writers-npc-dialogue-radio/',
+    img: '/images/news/gta-6-dedicated-writers-npc-dialogue-radio-featured.webp',
+  },
+  {
     title: 'GTA 6 LOVE Magazine Cover: New Screenshots & Details',
     desc: 'GTA 6 is on the LOVE magazine cover with new Jason and Lucia screenshots. Every new detail, quote, and story reveal from Rockstar\u2019s cover story.',
     date: 'October 5, 2026',
