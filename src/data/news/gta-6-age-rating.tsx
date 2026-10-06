@@ -9,7 +9,7 @@ export const gta6AgeRating: ArticleData = {
   focusKeyword: 'gta 6 age rating',
   h1: 'GTA 6 Age Rating: ESRB Rating & ID Verification Guide',
   publishedDate: 'August 21, 2026',
-  modifiedDate: 'October 3, 2026',
+  modifiedDate: 'October 6, 2026',
   author: 'Qamar Farooq',
   featureImage: '/images/news/gta-6-age-rating.webp',
   featureImageAlt: 'Minimalist game controller icon over an M-rating style box at sunset, representing the GTA 6 age rating.',
@@ -21,7 +21,8 @@ export const gta6AgeRating: ArticleData = {
           <strong>October 2026 update: the rating is now official.</strong> Rockstar added the ESRB <strong>M for Mature (17+)</strong> badge to rockstargames.com/VI, and PlayStation and Xbox store pages now show final ratings. 
           Europe is confirmed at <strong>PEGI 18</strong>, and Australian and New Zealand store listings explicitly name "sex scenes." 
           There's no official announcement from Rockstar requiring mandatory ID uploads or facial scanning to play the game. 
-          Any age verification checks will occur at the platform store level (PlayStation/Xbox) rather than within the game itself.
+          Any age verification checks will occur at the platform store level (PlayStation/Xbox) rather than within the game itself. 
+          In early October 2026, PEGI also briefly published, then removed, an unusually detailed content summary for the game; what was reported from it is covered below.
         </p>
       </div>
 
@@ -45,8 +46,21 @@ export const gta6AgeRating: ArticleData = {
       <p>
         The detail drawing the most attention is in the Australian and New Zealand PlayStation Store listings, which name <strong>"sex scenes"</strong> outright. 
         This is the first GTA game to use that exact wording: GTA V's Australian listing said only "Sex." 
-        The descriptors describe content categories for buyers and parents, not an announcement of new gameplay systems. 
-        A PEGI content summary briefly appeared online and was then removed; the details reported from it come from a single outlet and remain unverified, so treat them with caution.
+        The descriptors describe content categories for buyers and parents, not an announcement of new gameplay systems.
+      </p>
+
+      <h2>The Deleted PEGI Listing: What Was Reported</h2>
+      <p>
+        On October 2, 2026, pegi.info briefly displayed a detailed write-up for Grand Theft Auto VI next to its PEGI 18 rating. By October 3, the page showed a not-found notice, as reported by Video Games Chronicle. The Internet Archive's Wayback Machine captured the page on October 2 before it disappeared.
+      </p>
+      <p>
+        Several outlets, including IGN, VGC and PC Gamer, reported the same content details from the listing. On violence, the summary reportedly described it as bloody with a high degree of realism, adding that certain weapons can cause detailed decapitation and dismemberment. Drug use was described as frequent and prominent, with the listing reportedly singling out cocaine as something the player can carry and use directly from their hand at any time.
+      </p>
+      <p>
+        The sexual content section was the most specific: the reported wording mentioned scenes of intercourse and occasional scenes of sexual fetishes, plus nightclub scenes where players can pay for private dances. The listing also noted that domestic animals can be harmed, though with less injury detail than violence against people.
+      </p>
+      <p>
+        Neither PEGI nor Rockstar has commented on the listing or explained why it was removed, so treat every detail in this section as reported rather than confirmed. The rating itself, PEGI 18, was never in doubt and matches the game's other regional ratings.
       </p>
 
       <h2>What "In-Game Purchases" on the Rating Label Means</h2>
@@ -164,6 +178,13 @@ export const gta6AgeRating: ArticleData = {
           <h3 className={styles.faqQuestion}>Can children play GTA 6?</h3>
           <p className={styles.faqAnswer}>
             The game contains mature themes, violence, and strong language, making it unsuitable for children and audiences under 17.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>What did the deleted PEGI listing reportedly reveal about GTA 6?</h3>
+          <p className={styles.faqAnswer}>
+            Before its removal, the listing reportedly described bloody realistic violence with decapitation and dismemberment from certain weapons, frequent drug use including cocaine used directly from the player's hand, sexual content with intercourse scenes and fetishes, nightclub private dances, and harmable domestic animals. PEGI has not commented, so these details remain reported rather than confirmed.
           </p>
         </div>
 
