@@ -24,10 +24,10 @@ const NewsCTAButton = ({ href, children, isExternal }: { href: string; children:
 };
 
 export const gta6XboxExclusiveStreamingRights: ArticleData = {
-  title: 'Xbox Reportedly Gets Exclusive GTA 6 Streaming Rights',
-  metaDescription: "Xbox has reportedly secured exclusive GTA 6 cloud streaming rights, per The Verge's Tom Warren. What it means for PC players, Game Pass caps, and launch.",
+  title: 'Xbox Denies Exclusive GTA 6 Streaming Rights Reports',
+  metaDescription: "Xbox CSO Matthew Ball denied reports of exclusive GTA 6 streaming rights on Oct 7. What he said, what it rules out for PC players, and what may still be true.",
   focusKeyword: 'gta 6 xbox cloud streaming',
-  h1: 'Xbox Reportedly Gets Exclusive GTA 6 Streaming Rights',
+  h1: 'Xbox Denies Exclusive GTA 6 Streaming Rights Reports',
   publishedDate: 'October 7, 2026',
   modifiedDate: 'October 7, 2026',
   author: 'Editorial Staff',
@@ -83,26 +83,53 @@ export const gta6XboxExclusiveStreamingRights: ArticleData = {
         .fw-flag.reported { background: #fef3c7; color: #92400e; }
         .fw-quote { border-left: 3px solid #d6246e; padding: 0.25rem 0 0.25rem 1rem; margin: 1rem 0; font-style: italic; color: #334155; }
         .fw-quote cite { display: block; margin-top: 0.4rem; font-style: normal; font-size: 0.85rem; color: #64748b; }
+        .fw-tweet { border: 1px solid #e2e8f0; border-radius: 12px; padding: 1rem 1.25rem; margin: 1.25rem 0; background: #ffffff; }
+        .fw-tweet-head { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.6rem; }
+        .fw-tweet-avatar { width: 40px; height: 40px; border-radius: 50%; background: #0f1419; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0; }
+        .fw-tweet-name { font-weight: 700; font-size: 0.95rem; }
+        .fw-tweet-handle { font-weight: 400; color: #64748b; }
+        .fw-tweet-date { margin-left: auto; font-size: 0.82rem; color: #64748b; white-space: nowrap; }
+        .fw-tweet-text { margin: 0 0 0.75rem; font-size: 1rem; line-height: 1.55; }
+        .fw-tweet-link { display: inline-block; font-size: 0.85rem; font-weight: 700; color: #1d9bf0; text-decoration: none; border: 1px solid #1d9bf0; border-radius: 20px; padding: 4px 14px; }
+        .fw-tweet-link:hover { background: #1d9bf0; color: #ffffff; }
       `}} />
 
       <p>Xbox has reportedly locked down exclusive cloud streaming rights for GTA 6, which would make Xbox Cloud Gaming the only service allowed to stream the game at launch. The report comes from The Verge's Tom Warren, citing an Xbox internal meeting and sources familiar with Microsoft's plans. If it holds, this is the first major GTA 6 platform win for Xbox, and it quietly answers the biggest open question for PC players.</p>
 
+      <p><span className="fw-flag confirmed">Update October 7</span> <strong>Xbox has denied this report.</strong> Chief strategy officer Matthew Ball said GTA 6 "will not be streaming exclusively or to PC." Full details in the update section below.</p>
+
       <div className="fw-quick">
         <strong>Quick answers</strong>
         <ul>
-          <li><span className="fw-flag reported">Reported</span> Xbox has exclusive GTA 6 game streaming rights, per The Verge's Tom Warren (October 6-7, 2026).</li>
-          <li><span className="fw-flag reported">Reported</span> Only Xbox Cloud Gaming could stream GTA 6 at the <Link href="/news/gta-6-release-date/">November 19 launch</Link>; no other cloud service.</li>
-          <li><span className="fw-flag confirmed">Confirmed</span> No native PC version of GTA 6 has been announced, so streaming may be the only way to play on PC at launch.</li>
-          <li><span className="fw-flag reported">Reported</span> Neither Microsoft nor Rockstar Games has officially confirmed the deal as of October 7.</li>
+          <li><span className="fw-flag confirmed">Update October 7</span> Xbox CSO Matthew Ball denied the report: GTA 6 "will not be streaming exclusively or to PC."</li>
+          <li><span className="fw-flag reported">Reported</span> The Verge's Tom Warren originally reported exclusive streaming rights, citing Xbox CEO Asha Sharma's internal comments and sources.</li>
+          <li><span className="fw-flag confirmed">Confirmed</span> No native PC version of GTA 6 has been announced; with PC streaming now also ruled out, PC players keep waiting.</li>
+          <li><span className="fw-flag reported">Reported</span> The Verge still believes some non-exclusive Xbox-Rockstar streaming arrangement may exist; Warren apologized for the initial confusion.</li>
         </ul>
       </div>
 
+      <h2>Update: Xbox denies the exclusive deal</h2>
+      <p><span className="fw-flag confirmed">Confirmed</span> Hours after the report spread, Xbox chief strategy officer Matthew Ball publicly pushed back. In a post on X on October 7, 2026, Ball said the excitement around GTA 6 and Xbox had "led to some misreporting," and clarified: "We are looking forward to launching GTA VI on Xbox November 19, though the game will not be streaming exclusively or to PC."</p>
+
+      <div className="fw-tweet">
+        <div className="fw-tweet-head">
+          <span className="fw-tweet-avatar">MB</span>
+          <span className="fw-tweet-name">Matthew Ball <span className="fw-tweet-handle">@ballmatthew</span></span>
+          <span className="fw-tweet-date">Oct 7, 2026</span>
+        </div>
+        <p className="fw-tweet-text">"While the excitement for GTA VI and Xbox is great to see, it has also led to some misreporting. We are looking forward to launching GTA VI on Xbox November 19, though the game will not be streaming exclusively or to PC."</p>
+        <a className="fw-tweet-link" href="https://x.com/ballmatthew/status/2107667069797802443" target="_blank" rel="noopener noreferrer">View post on X</a>
+      </div>
+
+      <p>Two things are now settled: there is <strong>no exclusive streaming deal</strong>, and GTA 6 <strong>will not stream to PC</strong> through Xbox Cloud Gaming at launch. The Verge's Tom Warren apologized for the confusion, saying the situation "appears to be more complicated" than first reported.</p>
+      <p>What is <em>not</em> ruled out: a non-exclusive cloud arrangement. Ball's wording denies exclusivity, not streaming entirely, and The Verge still believes some kind of Xbox-Rockstar streaming deal exists. For now, though, PC players should assume no cloud workaround at launch.</p>
+
       <h2>Key takeaways</h2>
       <ul>
-        <li>The Verge reports Xbox CEO Asha Sharma told staff the company has something in place with GTA 6 that "no other platform holder is doing."</li>
-        <li>Sources told The Verge the deal is exclusive streaming rights, meaning rival services like GeForce Now could not offer GTA 6 while it lasts.</li>
-        <li>The timing lines up with Xbox's November cloud overhaul: monthly streaming hour caps plus a new pay-as-you-go option for non-subscribers.</li>
-        <li>This flips the platform narrative. Nearly all GTA 6 platform news so far has favored PlayStation, from PS5 Pro enhancements to limited-edition controllers.</li>
+        <li>Xbox CSO Matthew Ball denied the exclusive streaming report on October 7: no exclusivity, and no GTA 6 streaming to PC at launch.</li>
+        <li>The original report came from The Verge's Tom Warren, who cited Xbox CEO Asha Sharma's "no other platform holder is doing" comment; Warren later apologized, calling the situation "more complicated."</li>
+        <li>What survives: a non-exclusive cloud deal is still possible, and Xbox's November cloud overhaul (hour caps, pay-as-you-go) is real.</li>
+        <li>For PC players, the takeaway flipped: with no native port announced and no PC streaming, the wait continues.</li>
       </ul>
 
       <h2>What did Tom Warren actually report?</h2>
@@ -140,7 +167,7 @@ export const gta6XboxExclusiveStreamingRights: ArticleData = {
 
       <h2>What is still unconfirmed?</h2>
       <ul>
-        <li><strong>The deal itself:</strong> no official word from Microsoft or Rockstar Games. Everything traces back to Warren's sources.</li>
+        <li><strong>The deal itself:</strong> Xbox denied exclusivity, but The Verge still believes some non-exclusive arrangement exists. Nothing officially confirmed beyond the denial.</li>
         <li><strong>Exclusivity length:</strong> the report does not say how long other cloud services would be locked out. Months or years, nobody outside the deal knows.</li>
         <li><strong>Pricing model:</strong> whether streaming GTA 6 needs Game Pass, a game purchase plus hours, or some new bundle is unreported.</li>
         <li><strong>GeForce Now and others:</strong> the report says Xbox Cloud Gaming is the exclusive partner, which implies rivals are out, but no rival service has commented.</li>
@@ -151,10 +178,10 @@ export const gta6XboxExclusiveStreamingRights: ArticleData = {
         <h2>Frequently Asked Questions</h2>
 
         <h3>Did Xbox confirm the exclusive GTA 6 streaming deal?</h3>
-        <p>No. The deal was reported by The Verge's Tom Warren, citing Xbox CEO Asha Sharma's comments at an internal all-hands meeting and sources familiar with Microsoft's plans. As of October 7, 2026, neither Microsoft nor Rockstar Games has officially announced it.</p>
+        <p>No, and it went further than that. Xbox chief strategy officer Matthew Ball publicly denied the report on October 7, 2026, saying GTA 6 "will not be streaming exclusively or to PC." The original claim came from The Verge's Tom Warren, who later apologized for the confusion.</p>
 
         <h3>Will GTA 6 be playable on PC at launch?</h3>
-        <p>There is no native PC version announced. If the reported deal holds, Xbox Cloud Gaming would be the only way to play GTA 6 on a PC at launch, streamed rather than downloaded. See our <Link href="/news/gta-6-pc-release-date/">PC release date breakdown</Link> for the full picture on a native port.</p>
+        <p>No. There is no native PC version announced, and Xbox has now ruled out PC streaming through Xbox Cloud Gaming at launch as well. See our <Link href="/news/gta-6-pc-release-date/">PC release date breakdown</Link> for the full picture on a native port.</p>
 
         <h3>Is GTA 6 coming to Xbox Game Pass?</h3>
         <p>The report covers streaming rights, not Game Pass inclusion. Based on the reporting, you would likely still buy the game and stream it through Xbox Cloud Gaming's "Stream Your Own Game" feature. Do not treat this as a day-one Game Pass announcement.</p>
@@ -169,11 +196,11 @@ export const gta6XboxExclusiveStreamingRights: ArticleData = {
         <p>Under the reported November overhaul, Game Pass tiers get monthly streaming caps (15 hours for Ultimate, 10 for Premium, 5 for Essential), with extra hours available for purchase. A pay-as-you-go option for non-subscribers is also reportedly opening in November.</p>
       </div>
 
-      <p>Bottom line: a single well-sourced report says Xbox owns the cloud window for the biggest game launch ever, and the timing with its November streaming overhaul makes the story hard to dismiss. Until Microsoft or Rockstar confirms it, keep the "reported" label on. If you are a PC player with no console, this is the most hopeful GTA 6 news you have had all year.</p>
+      <p>Bottom line: the exclusive streaming story lasted less than a day. Xbox's CSO denied it outright on October 7, ruling out both exclusivity and PC streaming at launch. A non-exclusive cloud deal is still theoretically possible, but PC players should plan on waiting for the native port, not a cloud workaround.</p>
 
       <p>Getting ready for launch night? Check our <Link href="/guides/gta-6-preload-unlock-times/">GTA 6 pre-load and unlock times guide</Link> so you know exactly when you can start playing.</p>
 
-      <p><em>Last checked: October 7, 2026. Sources: <a href="https://insider-gaming.com/xbox-secures-exclusive-game-streaming-rights-for-gta-6/" target="_blank" rel="noopener noreferrer">Insider Gaming</a> and <a href="https://rockstarintel.com/xbox-acquires-exclusive-gta-6-rights-for-streaming/" target="_blank" rel="noopener noreferrer">RockstarINTEL</a> reporting on The Verge's Tom Warren.</em></p>
+      <p><em>Last checked: October 7, 2026. Sources: <a href="https://www.gamespot.com/articles/gta-6-will-not-stream-to-pc-through-xbox-despite-earlier-report/" target="_blank" rel="noopener noreferrer">GameSpot</a>, <a href="https://kotaku.com/xbox-lands-exclusive-streaming-rights-for-gta-6-at-launch-2000741146" target="_blank" rel="noopener noreferrer">Kotaku</a> and <a href="https://www.gosugamers.net/entertainment/news/79311-xbox-denies-claims-that-gta-vi-will-stream-exclusively-through-xbox-cloud-gaming" target="_blank" rel="noopener noreferrer">GosuGamers</a> on Matthew Ball's October 7 denial; <a href="https://insider-gaming.com/xbox-secures-exclusive-game-streaming-rights-for-gta-6/" target="_blank" rel="noopener noreferrer">Insider Gaming</a> and <a href="https://rockstarintel.com/xbox-acquires-exclusive-gta-6-rights-for-streaming/" target="_blank" rel="noopener noreferrer">RockstarINTEL</a> on the original Tom Warren report.</em></p>
     </ImageLightbox>
   ),
 };
