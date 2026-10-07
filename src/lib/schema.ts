@@ -134,20 +134,18 @@ export function getFaqsFromFile(slug: string, category: 'news' | 'map' | 'story'
       return [];
     }
     const fileContent = fs.readFileSync(filePath, 'utf8');
-    
-    // Regular expression to match FAQ sections and individual items
-    const faqItemRegex = /<div className=\{styles\.faqItem\}>[\s\S]*?<h3 className=\{styles\.faqQuestion\}>([\s\S]*?)<\/h3>[\s\S]*?<p className=\{styles\.faqAnswer\}>([\s\S]*?)<\/p>[\s\S]*?<\/div>/g;
-    
+
     const faqs: { question: string; answer: string }[] = [];
-    let match;
-    while ((match = faqItemRegex.exec(fileContent)) !== null) {
-      const question = match[1].trim();
-      const answer = match[2]
+
+    // Strip JSX tags/entities down to plain text for search indexing
+    const cleanAnswer = (raw: string): string =>
+      raw
         .trim()
         .replace(/\s+/g, ' ')
         // Remove JSX elements like <Link>, <strong>, etc., to get plain text for search indexing
         .replace(/<Link[^>]*>([\s\S]*?)<\/Link>/g, '$1')
         .replace(/<strong>([\s\S]*?)<\/strong>/g, '$1')
+        .replace(/<em>([\s\S]*?)<\/em>/g, '$1')
         .replace(/<a[^>]*>([\s\S]*?)<\/a>/g, '$1')
         .replace(/<code[^>]*>([\s\S]*?)<\/code>/g, '$1')
         .replace(/&amp;/g, '&')
@@ -155,8 +153,27 @@ export function getFaqsFromFile(slug: string, category: 'news' | 'map' | 'story'
         .replace(/&#39;/g, "'")
         .replace(/&lt;/g, '<')
         .replace(/&gt;/g, '>');
-      faqs.push({ question, answer });
+
+    // Format 1: legacy one-Q/A-per-block style, e.g.
+    // <div className={styles.faqItem}><h3 className={styles.faqQuestion}>Q</h3><p className={styles.faqAnswer}>A</p></div>
+    const faqItemRegex = /<div className=\{styles\.faqItem\}>[\s\S]*?<h3 className=\{styles\.faqQuestion\}>([\s\S]*?)<\/h3>[\s\S]*?<p className=\{styles\.faqAnswer\}>([\s\S]*?)<\/p>[\s\S]*?<\/div>/g;
+    let match;
+    while ((match = faqItemRegex.exec(fileContent)) !== null) {
+      faqs.push({ question: match[1].trim(), answer: cleanAnswer(match[2]) });
     }
+
+    // Formats 2 & 3: multi-Q/A container styles used by newer posts, e.g.
+    // <div className="fw-faq"><h2>...</h2><h3>Q</h3><p>A</p>...</div>
+    // <div className="heat-faq"><h3>Q</h3><p>A</p>...</div>
+    const faqContainerRegex = /<div className="(fw-faq|heat-faq)">([\s\S]*?)<\/div>/g;
+    while ((match = faqContainerRegex.exec(fileContent)) !== null) {
+      const pairRegex = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/g;
+      let pair;
+      while ((pair = pairRegex.exec(match[2])) !== null) {
+        faqs.push({ question: pair[1].trim(), answer: cleanAnswer(pair[2]) });
+      }
+    }
+
     return faqs;
   } catch (error) {
     console.error(`Failed to parse FAQs for ${category}/${slug}:`, error);
