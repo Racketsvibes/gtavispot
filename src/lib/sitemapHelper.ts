@@ -14,6 +14,7 @@ const newsModifiedDates: Record<string, string> = {
   'ps5-firmware-1410-gta-6': '2026-10-05',
   'gta-6-love-magazine-cover-story': '2026-10-05',
   'gta-6-dedicated-writers-npc-dialogue-radio': '2026-10-06',
+  'gta-6-xbox-exclusive-streaming-rights': '2026-10-07',
   'gta-6-single-player': '2026-09-27',
   'gta-6-biker-gang': '2026-09-27',
   'gta-6-budget': '2026-09-27',
