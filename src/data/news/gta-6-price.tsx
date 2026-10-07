@@ -24,11 +24,11 @@ export const gta6Price: ArticleData = {
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Standard Edition:</strong> $79.99 / £79.99 / €89.99 (Includes base game and pre-order bonuses).</span>
+            <span><strong>Standard Edition:</strong> $79.99 / £69.99 / €79.99 (Includes base game and pre-order bonuses).</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Ultimate Edition:</strong> $99.99 (Includes base game and Ultimate Edition digital bonuses).</span>
+            <span><strong>Ultimate Edition:</strong> $99.99 / £89.99 / €99.99 (Includes base game and Ultimate Edition digital bonuses).</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -50,7 +50,7 @@ export const gta6Price: ArticleData = {
         During Take-Two Interactive's investor conference calls, Strauss Zelnick explained their pricing philosophy. Zelnick stated that their goal is to deliver value that far exceeds the purchase price, arguing that the depth and replayability of GTA 6 justifies the $80 cost. This statement was made to address social media rumors suggesting the game would launch at $150 or more.
       </p>
       <p>
-        While $80 is the standard price for US players, international pricing will vary due to exchange rates and local taxes. In the United Kingdom, the game is expected to retail at £79.99, while European Union markets will see a price of €89.99. These price points represent the standard pricing structure for modern AAA releases in those regions.
+        While $80 is the standard price for US players, international pricing varies by region. In the United Kingdom, the game retails at £69.99 on both the PlayStation Store and the Xbox Store, while European Union markets list it at €79.99. The Ultimate Edition is £89.99 in the UK and €99.99 in the EU.
       </p>
       <p>
         For details on how to reserve your copy at these price points, visit our <Link href="/news/gta-6-pre-order/">GTA 6 pre-order guide</Link> for retail listings.
@@ -162,14 +162,14 @@ export const gta6Price: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>How much is GTA 6?</h3>
           <p className={styles.faqAnswer}>
-            GTA 6 Standard Edition is priced at $79.99 (£79.99 / €89.99 / ₹5,999) at retail launch, matching next-gen premium tiers.
+            GTA 6 Standard Edition is priced at $79.99 (£69.99 / €79.99 / ₹5,999) at retail launch, matching next-gen premium tiers.
           </p>
         </div>
 
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>How much will GTA 6 cost UK?</h3>
           <p className={styles.faqAnswer}>
-            In the United Kingdom, the Standard Edition of GTA 6 is expected to cost £79.99, while the Ultimate Edition is priced at £99.99.
+            In the United Kingdom, the Standard Edition of GTA 6 retails at £69.99, while the Ultimate Edition is priced at £89.99.
           </p>
         </div>
 
