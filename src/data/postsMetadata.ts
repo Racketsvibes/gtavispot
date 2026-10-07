@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Xbox Reportedly Gets Exclusive GTA 6 Streaming Rights',
+    desc: 'Xbox has reportedly secured exclusive GTA 6 cloud streaming rights, per The Verge. What it means for PC players, Game Pass, and the November 19 launch.',
+    date: 'October 7, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-xbox-exclusive-streaming-rights/',
+    img: '/images/news/gta-6-xbox-exclusive-streaming-rights-featured.webp',
+  },
+  {
     title: 'GTA 6 Wanted System Explained: 6 Stars, Heat & Escape',
     desc: 'GTA 6 brings back six wanted stars plus a Heat system that tracks your clothes, face, car and partner. Star states, evidence icons and escapes.',
     date: 'October 6, 2026',
