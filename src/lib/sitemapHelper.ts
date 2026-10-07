@@ -41,7 +41,7 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-physical-copy': '2026-09-25',
   'gta-6-ultimate-edition-vs-standard': '2026-08-18',
   'gta-6-pre-order': '2026-08-18',
-  'gta-6-price': '2026-08-18',
+  'gta-6-price': '2026-10-07',
   'gta-6-pre-order-sales': '2026-07-14',
   'gta-6-release-date': '2026-06-25',
   'gta-6-november-release': '2026-06-25',
