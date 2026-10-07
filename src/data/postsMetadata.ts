@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Cheat Codes: Will There Be Any? (Honest Answer)',
+    desc: 'No GTA 6 cheat codes are confirmed. The honest answer on whether cheats will exist, how they will likely work, and how to spot fake cheat sites.',
+    date: 'October 7, 2026',
+    tag: 'GUIDE',
+    href: '/guides/gta-6-cheats/',
+    img: '/images/gta-6-cheats-feature.webp',
+  },
+  {
     title: 'GTA 6 Wanted System Explained: 6 Stars, Heat & Escape',
     desc: 'GTA 6 brings back six wanted stars plus a Heat system that tracks your clothes, face, car and partner. Star states, evidence icons and escapes.',
     date: 'October 6, 2026',
