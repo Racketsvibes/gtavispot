@@ -41,6 +41,7 @@ import { miamiHeatViceCityNight } from './news/miami-heat-vice-city-night-gta-6'
 import { ps5Firmware1410Gta6 } from './news/ps5-firmware-1410-gta-6';
 import { gta6LoveMagazineCoverStory } from './news/gta-6-love-magazine-cover-story';
 import { gta6DedicatedWritersNpcDialogueRadio } from './news/gta-6-dedicated-writers-npc-dialogue-radio';
+import { gta6XboxExclusiveStreamingRights } from './news/gta-6-xbox-exclusive-streaming-rights';
 
 
 
@@ -114,6 +115,7 @@ const articlesMap: Record<string, ArticleData> = {
   'ps5-firmware-1410-gta-6': ps5Firmware1410Gta6,
   'gta-6-love-magazine-cover-story': gta6LoveMagazineCoverStory,
   'gta-6-dedicated-writers-npc-dialogue-radio': gta6DedicatedWritersNpcDialogueRadio,
+  'gta-6-xbox-exclusive-streaming-rights': gta6XboxExclusiveStreamingRights,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
