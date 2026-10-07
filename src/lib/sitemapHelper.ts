@@ -129,7 +129,7 @@ export function getEnglishUrls(): SitemapItem[] {
     { path: '/vehicles/gta-6-bikes/', changefreq: 'weekly', priority: '0.8' },
     { path: '/weapons/', changefreq: 'weekly', priority: '0.9' },
     { path: '/mods/', changefreq: 'weekly', priority: '0.9', lastmod: '2026-08-20' },
-    { path: '/cheats/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/cheats/', changefreq: 'weekly', priority: '0.9', lastmod: '2026-10-07' },
     { path: '/trophies/', changefreq: 'weekly', priority: '0.9' },
     { path: '/guides/', changefreq: 'weekly', priority: '0.9' },
     { path: '/guides/character-customization/', changefreq: 'weekly', priority: '0.8' },
