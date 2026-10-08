@@ -137,6 +137,7 @@ export function getEnglishUrls(): SitemapItem[] {
     { path: '/guides/character-customization/', changefreq: 'weekly', priority: '0.8' },
     { path: '/guides/gta-6-preload-unlock-times/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-02' },
     { path: '/guides/gta-6-wanted-system/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-06' },
+    { path: '/guides/gta-6-weapons/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-08' },
     { path: '/map/', changefreq: 'weekly', priority: '0.9' },
     { path: '/faq/', changefreq: 'daily', priority: '0.9' },
     { path: '/quiz/', changefreq: 'weekly', priority: '0.9' },

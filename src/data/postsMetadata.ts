@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Weapons: Every Confirmed Gun So Far',
+    desc: 'Every confirmed GTA 6 weapon so far: Duke 556 rifle, Moreland 850 shotgun, Klose K17 and Girardi ES9 pistols. Where to buy, carry rules and exclusives.',
+    date: 'October 8, 2026',
+    tag: 'GUIDE',
+    href: '/guides/gta-6-weapons/',
+    img: '/images/Extended_Look_2.webp',
+  },
+  {
     title: 'GTA 6 Discord Event Leaked: Theme, Quest and Dates',
     desc: "A Discord datamine reportedly reveals a GTA 6 'Hexagon' campaign starting Nov 17: themed app icon, Vice City theme, custom font and a quest with unknown reward.",
     date: 'October 8, 2026',
