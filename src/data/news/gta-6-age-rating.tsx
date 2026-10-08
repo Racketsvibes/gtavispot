@@ -9,7 +9,7 @@ export const gta6AgeRating: ArticleData = {
   focusKeyword: 'gta 6 age rating',
   h1: 'GTA 6 Age Rating: ESRB Rating & ID Verification Guide',
   publishedDate: 'August 21, 2026',
-  modifiedDate: 'October 6, 2026',
+  modifiedDate: 'October 8, 2026',
   author: 'Qamar Farooq',
   featureImage: '/images/news/gta-6-age-rating.webp',
   featureImageAlt: 'Minimalist game controller icon over an M-rating style box at sunset, representing the GTA 6 age rating.',
@@ -47,6 +47,122 @@ export const gta6AgeRating: ArticleData = {
         The detail drawing the most attention is in the Australian and New Zealand PlayStation Store listings, which name <strong>"sex scenes"</strong> outright. 
         This is the first GTA game to use that exact wording: GTA V's Australian listing said only "Sex." 
         The descriptors describe content categories for buyers and parents, not an announcement of new gameplay systems.
+      </p>
+
+      <h2>What Is the GTA 6 Age Rating in Each Country?</h2>
+      <p>
+        Rockstar did not announce the ratings through a press release. They appeared on PlayStation and Xbox store pages in the first days of October 2026, with entries from the official boards behind them.
+        This is the full picture as of October 2026:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Region</th>
+            <th>Rating board</th>
+            <th>Rating</th>
+            <th>Content listed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>United States, Canada, Mexico</td>
+            <td>ESRB</td>
+            <td><strong>Mature 17+</strong></td>
+            <td>Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol, plus In-Game Purchases</td>
+          </tr>
+          <tr>
+            <td>Europe and United Kingdom</td>
+            <td>PEGI (store listings)</td>
+            <td><strong>18</strong></td>
+            <td>Violence, Sex, Drugs, Nudity, In-Game Purchases</td>
+          </tr>
+          <tr>
+            <td>Australia</td>
+            <td>Australian Classification Board (August 27, 2026)</td>
+            <td><strong>R18+</strong></td>
+            <td>High impact violence, sex scenes, drug use</td>
+          </tr>
+          <tr>
+            <td>New Zealand</td>
+            <td>New Zealand Classification Office (October 2, 2026)</td>
+            <td><strong>R18</strong></td>
+            <td>Graphic violence, drug use, offensive language, sex scenes, nudity</td>
+          </tr>
+          <tr>
+            <td>Singapore</td>
+            <td>PlayStation Store (IARC)</td>
+            <td><strong>18+</strong></td>
+            <td>Discriminatory language, extreme violence, nudity, strong language</td>
+          </tr>
+          <tr>
+            <td>Saudi Arabia and UAE</td>
+            <td>Store listing</td>
+            <td><strong>21+</strong></td>
+            <td>No detailed breakdown published yet</td>
+          </tr>
+          <tr>
+            <td>South Korea</td>
+            <td>Store listing</td>
+            <td><strong>19+</strong></td>
+            <td>No detailed breakdown published yet</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        One oddity in the rollout: Australian PlayStation ads briefly showed an X18+ badge before the official R18+ rating was confirmed. That category does not exist for games in Australia, so it was a store error, not a real rating.
+      </p>
+      <p>
+        Germany&apos;s USK and Japan&apos;s CERO had not published their GTA 6 ratings when this was last checked.
+      </p>
+
+      <h2>How Does the GTA 6 Rating Compare to GTA 5?</h2>
+      <p>
+        On paper, the two games sit in the same age band almost everywhere. The ESRB&apos;s seven content descriptors for GTA 6 are the same seven GTA 5 received: Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, and Use of Drugs and Alcohol.
+        The differences show up in the labels around them:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Comparison point</th>
+            <th>GTA 5</th>
+            <th>GTA 6</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ESRB rating</td>
+            <td>Mature 17+</td>
+            <td>Mature 17+</td>
+          </tr>
+          <tr>
+            <td>PEGI rating</td>
+            <td>18</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Australia</td>
+            <td>R18+</td>
+            <td>R18+</td>
+          </tr>
+          <tr>
+            <td>Gambling descriptor</td>
+            <td>Present on the PS5 re-release</td>
+            <td>Absent from all six ratings published so far</td>
+          </tr>
+          <tr>
+            <td>Sexual content wording (Australia / New Zealand)</td>
+            <td>Listed only as &quot;Sex&quot;</td>
+            <td>Listed as &quot;sex scenes&quot;</td>
+          </tr>
+          <tr>
+            <td>&quot;Users Interact&quot; label (online multiplayer)</td>
+            <td>Present</td>
+            <td>Absent, which matches the single-player launch</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The missing gambling label is the most telling difference. Rockstar&apos;s recent games all carry it, and PEGI has required the gambling descriptor for casino-style games since 2020. Its absence means the base game has no playable casino gambling worth flagging, which also lines up with GTA 6 Online arriving as a separate product later.
       </p>
 
       <h2>The Deleted PEGI Listing: What Was Reported</h2>
@@ -194,7 +310,18 @@ export const gta6AgeRating: ArticleData = {
             Rockstar utilizes self-reported birthdate entry during Rockstar Social Club sign-up, restricting adult features from underage profiles.
           </p>
         </div>
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Is the GTA 6 age rating the same in every country?</h3>
+          <p className={styles.faqAnswer}>
+            No. The minimum age differs by region: 17+ in North America, 18 in Europe, the UK, Australia, New Zealand and Singapore, 19 in South Korea, and 21 in Saudi Arabia and the UAE. Every region bans sale to players below its own threshold, so the stricter the country, the stricter the gate.
+          </p>
+        </div>
+
       </section>
+
+      <p>
+        <em>Last checked: October 8, 2026.</em>
+      </p>
     </>
   ),
 };
