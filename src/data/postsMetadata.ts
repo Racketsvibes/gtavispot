@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Discord Event Leaked: Theme, Quest and Dates',
+    desc: "A Discord datamine reportedly reveals a GTA 6 'Hexagon' campaign starting Nov 17: themed app icon, Vice City theme, custom font and a quest with unknown reward.",
+    date: 'October 8, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-discord-collaboration/',
+    img: '/images/news/gta-6-love-magazine-jason-lucia-neon-bar.webp',
+  },
+  {
     title: 'Xbox Reportedly Gets Exclusive GTA 6 Streaming Rights',
     desc: 'Xbox has reportedly secured exclusive GTA 6 cloud streaming rights, per The Verge. What it means for PC players, Game Pass, and the November 19 launch.',
     date: 'October 7, 2026',
