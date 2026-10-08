@@ -56,7 +56,7 @@ export const gta6ReleaseDate: ArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Confirmed Price:</strong> $79.99 Standard Edition, $99.99 Ultimate Edition.</span>
+            <span><strong>Reported Price:</strong> $79.99 Standard Edition, $99.99 Ultimate Edition (per MarketWatch).</span>
           </li>
         </ul>
       </div>
