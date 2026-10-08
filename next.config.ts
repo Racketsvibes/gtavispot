@@ -9,6 +9,19 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 31536000,
   },
   poweredByHeader: false,
+  // Include article data files in the serverless bundle so getFaqsFromFile()
+  // (src/lib/schema.ts) can read them at runtime for FAQPage JSON-LD.
+  // Without this, dynamically rendered article pages get no FAQ schema.
+  outputFileTracingIncludes: {
+    '/news/[slug]': ['./src/data/news/**/*'],
+    '/guides/[slug]': ['./src/data/guides/**/*'],
+    '/story/[slug]': ['./src/data/story/**/*'],
+    '/tech/[slug]': ['./src/data/tech/**/*'],
+    '/online/[slug]': ['./src/data/online/**/*'],
+    '/compare/[slug]': ['./src/data/compare/**/*'],
+    '/world/[slug]': ['./src/data/world/**/*'],
+    '/map/[slug]': ['./src/data/map/**/*'],
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
