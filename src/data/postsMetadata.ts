@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Watercraft: Every Boat, Yacht & Jet Ski Confirmed',
+    desc: 'Every confirmed GTA 6 boat so far: Seashark jet skis, Dinka Marquis yachts, Squalo speedboats and Everglades airboats. Where to find watercraft in Leonida.',
+    date: 'October 8, 2026',
+    tag: 'VEHICLES',
+    href: '/vehicles/gta-6-watercraft/',
+    img: '/images/Watercraft_2.webp',
+  },
+  {
     title: 'GTA 6 Discord Event Leaked: Theme, Quest and Dates',
     desc: "A Discord datamine reportedly reveals a GTA 6 'Hexagon' campaign starting Nov 17: themed app icon, Vice City theme, custom font and a quest with unknown reward.",
     date: 'October 8, 2026',
