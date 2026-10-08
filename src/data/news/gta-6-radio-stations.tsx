@@ -252,6 +252,12 @@ export const gta6RadioStations: ArticleData = {
 
       <NewsCTAButton href="/news/gta-6-soundtrack-album/">GTA 6 soundtrack album: everything confirmed so far</NewsCTAButton>
 
+      <p>
+        <span className="fw-flag confirmed">Confirmed</span> The announcement also ties into Grand Theft Auto VI: The Album, which features 34 original tracks. Rockstar is offering pre-saves alongside vinyl and CD pre-orders through the official album page.
+      </p>
+
+      <NewsCTAButton href="https://gtavi-thealbum.lnk.to/gtavithealbum" isExternal>Pre-save the official GTA VI album</NewsCTAButton>
+
       <h2>What are the GTA 6 podcasts?</h2>
       <p>
         <span className="fw-flag confirmed">Confirmed</span> For the first time in series history, GTA VI will feature a series of on-demand podcasts for Jason and Lucia to experience beyond Leonida's terrestrial radio. Rockstar has not yet named the podcast shows or their hosts, so expect a follow-up announcement closer to launch.
@@ -348,7 +354,7 @@ export const gta6RadioStations: ArticleData = {
         </div>
       </div>
 
-      <p><em>Last checked: October 8, 2026. Sources: <a href="https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations" target="_blank" rel="noopener noreferrer">Rockstar Games Newswire</a>, <a href="https://x.com/RockstarGames/status/2108197013711958139" target="_blank" rel="noopener noreferrer">Rockstar Games on X</a>, <a href="https://www.pushsquare.com/news/2026/10/gta-6-in-game-radio-stations-announced-and-you-can-preview-them-right-now" target="_blank" rel="noopener noreferrer">Push Square</a> and <a href="https://finalweapon.net/2026/10/08/grand-theft-auto-vi-releases-radio-station-previews/" target="_blank" rel="noopener noreferrer">Final Weapon</a> on the station previews.</em></p>
+      <p><em>Last checked: October 8, 2026. Sources: <a href="https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations" target="_blank" rel="noopener noreferrer">Rockstar Games Newswire</a>, <a href="https://x.com/RockstarGames/status/2108197013711958139" target="_blank" rel="noopener noreferrer">Rockstar Games on X</a>, <a href="https://www.pushsquare.com/news/2026/10/gta-6-in-game-radio-stations-announced-and-you-can-preview-them-right-now" target="_blank" rel="noopener noreferrer">Push Square</a>  <a href="https://finalweapon.net/2026/10/08/grand-theft-auto-vi-releases-radio-station-previews/" target="_blank" rel="noopener noreferrer">Final Weapon</a> on the station previews and the <a href="https://gtavi-thealbum.lnk.to/gtavithealbum" target="_blank" rel="noopener noreferrer">official GTA VI album page</a>.</em></p>
     </ImageLightbox>
   ),
 };
