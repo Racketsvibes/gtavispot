@@ -20,7 +20,7 @@ export const gta6Weapons: ArticleData = {
         Rockstar Games is shifting toward tactical realism with the confirmed <strong>gta 6 weapons</strong> lineup. Unlike previous entries where characters carried a small army's worth of hardware in their pockets, this game limits your on-person arsenal. Here is the verified list of what you'll shoot, modify, and carry around Leonida.
       </p>
       <p>
-        <strong>Updated October 8, 2026:</strong> this guide now includes the newly named Duke 556 assault rifle and Moreland 850 shotgun spotted in the Extended Look, Phil's Ammu-Nation from Trailer 2, and the Ultimate Edition exclusive weapons.
+        <strong>Updated October 8, 2026:</strong> added the Duke 556, Moreland 850, Phil's Ammu-Nation, and Ultimate Edition exclusives.
       </p>
 
       <div className={styles.quickAnswer}>
