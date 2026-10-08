@@ -43,6 +43,7 @@ import { gta6LoveMagazineCoverStory } from './news/gta-6-love-magazine-cover-sto
 import { gta6DedicatedWritersNpcDialogueRadio } from './news/gta-6-dedicated-writers-npc-dialogue-radio';
 import { gta6XboxExclusiveStreamingRights } from './news/gta-6-xbox-exclusive-streaming-rights';
 import { gta6DiscordCollaboration } from './news/gta-6-discord-collaboration';
+import { gta6RadioStations } from './news/gta-6-radio-stations';
 
 
 
@@ -118,6 +119,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-dedicated-writers-npc-dialogue-radio': gta6DedicatedWritersNpcDialogueRadio,
   'gta-6-xbox-exclusive-streaming-rights': gta6XboxExclusiveStreamingRights,
   'gta-6-discord-collaboration': gta6DiscordCollaboration,
+  'gta-6-radio-stations': gta6RadioStations,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {

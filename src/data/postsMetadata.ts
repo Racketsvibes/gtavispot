@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Radio Stations: All 6 Official Stations & Hosts',
+    desc: 'Rockstar revealed 6 official GTA 6 radio stations and first-ever on-demand podcasts. Full station list, hosts, sample tracks and how to listen.',
+    date: 'October 8, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-radio-stations/',
+    img: '/images/news/gta-6-radio-stations-featured.webp',
+  },
+  {
     title: 'GTA 6 Watercraft: Every Boat, Yacht & Jet Ski Confirmed',
     desc: 'Every confirmed GTA 6 boat so far: Seashark jet skis, Dinka Marquis yachts, Squalo speedboats and Everglades airboats. Where to find watercraft in Leonida.',
     date: 'October 8, 2026',
