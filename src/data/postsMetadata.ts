@@ -9,6 +9,15 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Money Missions: Earn Cash to Advance Story',
+    desc: 'Rockstar North’s Rob Nelson confirms GTA 6 ties story progress to cash: at certain points, players must earn money in the open world before missions continue.',
+    date: 'October 9, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-money-story-missions/',
+    img: '/images/news/gta-6-money-missions-featured.webp',
+  },
+
+  {
     title: 'GTA 6 Radio Stations: All 6 Official Stations & Hosts',
     desc: 'Rockstar revealed 6 official GTA 6 radio stations and first-ever on-demand podcasts. Full station list, hosts, sample tracks and how to listen.',
     date: 'October 8, 2026',

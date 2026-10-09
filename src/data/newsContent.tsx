@@ -44,6 +44,7 @@ import { gta6DedicatedWritersNpcDialogueRadio } from './news/gta-6-dedicated-wri
 import { gta6XboxExclusiveStreamingRights } from './news/gta-6-xbox-exclusive-streaming-rights';
 import { gta6DiscordCollaboration } from './news/gta-6-discord-collaboration';
 import { gta6RadioStations } from './news/gta-6-radio-stations';
+import { gta6MoneyStoryMissions } from './news/gta-6-money-story-missions';
 
 
 
@@ -120,6 +121,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-xbox-exclusive-streaming-rights': gta6XboxExclusiveStreamingRights,
   'gta-6-discord-collaboration': gta6DiscordCollaboration,
   'gta-6-radio-stations': gta6RadioStations,
+  'gta-6-money-story-missions': gta6MoneyStoryMissions,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
