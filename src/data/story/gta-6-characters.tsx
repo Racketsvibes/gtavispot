@@ -10,7 +10,7 @@ export const gta6Characters: StoryArticleData = {
   focusKeyword: 'GTA 6 Characters',
   h1: 'GTA 6 Characters: Protagonists, Cast & Real Life Rumors',
   publishedDate: 'June 26, 2026',
-  modifiedDate: 'July 9, 2026',
+  modifiedDate: 'October 9, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/gta-6-characters-feature.webp',
   featureImageAlt: 'GTA 6 characters group screenshot of the main cast together',
@@ -41,6 +41,8 @@ export const gta6Characters: StoryArticleData = {
           </li>
         </ul>
       </div>
+
+      <p>Last checked: October 9, 2026.</p>
 
       <h2>Who Are the Confirmed GTA 6 Characters?</h2>
       <p>
@@ -232,6 +234,60 @@ export const gta6Characters: StoryArticleData = {
         For Jason, <strong>Gregory Connors</strong> is the leading candidate. A credit listing for a lead role in a 2025 Rockstar Games project appeared on his portfolio before being quickly deleted. To read more about the voice talent, check out our <Link href="/story/voice-actors/">GTA 6 voice actors list</Link>.
       </p>
 
+      <h2>Which GTA 6 Characters Are Confirmed and Which Are Rumored?</h2>
+      <p>
+        Rockstar keeps most casting details secret, so it helps to separate what is confirmed from what is only rumored.
+        The table below sums up the current status for every major name linked to the GTA 6 characters.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Actor</th>
+            <th>Linked Character</th>
+            <th>Status</th>
+            <th>Evidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Stephen Root</td>
+            <td>Brian Heder (site research pairing)</td>
+            <td><strong>Confirmed involvement</strong></td>
+            <td>Root confirmed to the Associated Press that he is involved in GTA 6. He did not name his character; pairing him with Brian Heder is this site&apos;s research inference.</td>
+          </tr>
+          <tr>
+            <td>Manni L. Perez</td>
+            <td>Lucia Caminos</td>
+            <td>Rumored</td>
+            <td>Voice and facial features match Lucia in trailers; identified by fans from her TV work. No official confirmation.</td>
+          </tr>
+          <tr>
+            <td>Gregory Connors</td>
+            <td>Jason Duval</td>
+            <td>Rumored</td>
+            <td>A lead-role credit for a Rockstar Games project appeared on his portfolio and was quickly deleted. No official confirmation.</td>
+          </tr>
+          <tr>
+            <td>Dylan Rourke</td>
+            <td>Jason Duval (alternate theory)</td>
+            <td>Rumored</td>
+            <td>Named in community speculation as a possible Jason voice. Weaker evidence than the Connors listing.</td>
+          </tr>
+          <tr>
+            <td>Unannounced</td>
+            <td>Boobie Ike, Cal Hampton, DreQuan Priest, Raul Bautista, Real Dimez</td>
+            <td>No credible rumors</td>
+            <td>No reliable source has linked a performer to these supporting roles yet.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Until Rockstar publishes an official cast list, treat every name except Stephen Root&apos;s involvement as unconfirmed.
+        We update this table whenever a performer confirms a role or new evidence appears.
+      </p>
+
       <h2>GTA 5 Characters vs GTA 6 Characters</h2>
       <p>
         When comparing the new cast to the iconic <strong>GTA v Characters</strong>, the storytelling style has evolved significantly. While the previous game relied on three distinct stories that occasionally crossed paths, the new system is built around a single, cooperative campaign.
@@ -301,6 +357,13 @@ export const gta6Characters: StoryArticleData = {
           <h3 className={styles.faqQuestion}>How does character switching work in GTA 6?</h3>
           <p className={styles.faqAnswer}>
             You can switch instantly between Lucia and Jason during free-roam, while heists require you to coordinate tasks in real-time.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Which GTA 6 actors are confirmed and which are just rumored?</h3>
+          <p className={styles.faqAnswer}>
+            Stephen Root is the only confirmed name, after telling the Associated Press he is involved in the game (his exact character was not named). Manni L. Perez as Lucia and Gregory Connors as Jason are the strongest rumors, backed by voice comparisons and a deleted portfolio credit, but neither is officially confirmed.
           </p>
         </div>
       </section>
