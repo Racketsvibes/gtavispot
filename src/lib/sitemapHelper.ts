@@ -128,7 +128,7 @@ export function getEnglishUrls(): SitemapItem[] {
   // omitted (undefined) otherwise instead of claiming "today".
   const staticRoutes: { path: string; changefreq: string; priority: string; lastmod?: string }[] = [
     { path: '', changefreq: 'daily', priority: '1.0' },
-    { path: '/vehicles/', changefreq: 'weekly', priority: '0.9' },
+    { path: '/vehicles/', changefreq: 'weekly', priority: '0.9', lastmod: '2026-10-09' },
     { path: '/vehicles/gta-6-cars/', changefreq: 'weekly', priority: '0.8' },
     { path: '/vehicles/gta-6-bikes/', changefreq: 'weekly', priority: '0.8' },
     { path: '/vehicles/gta-6-watercraft/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-08' },
