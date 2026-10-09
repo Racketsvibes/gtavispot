@@ -286,6 +286,7 @@ export const gta6Characters: StoryArticleData = {
       <p>
         Until Rockstar publishes an official cast list, treat every name except Stephen Root&apos;s involvement as unconfirmed.
         We update this table whenever a performer confirms a role or new evidence appears.
+        For a deeper per-actor breakdown, see our <Link href="/story/gta-6-cast-in-real-life/">GTA 6 cast in real life guide</Link>.
       </p>
 
       <h2>GTA 5 Characters vs GTA 6 Characters</h2>
