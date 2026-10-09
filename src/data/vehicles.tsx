@@ -10,7 +10,7 @@ export const gta6Vehicles: ArticleData = {
   focusKeyword: 'GTA 6 Vehicles',
   h1: 'GTA 6 Vehicles: Confirmed Cars, Bikes, Boats & Planes',
   publishedDate: 'June 27, 2026',
-  modifiedDate: 'June 27, 2026',
+  modifiedDate: 'October 9, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/gta-6-vehicles-feature.webp',
   featureImageAlt: 'Official GTA 6 Vehicles Guide: Confirmed Cars, Bikes, Boats & Planes',
@@ -25,7 +25,7 @@ export const gta6Vehicles: ArticleData = {
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>Total Confirmed:</strong> Over 100 vehicles spotted across official trailers and leaks.</span>
+            <span><strong>Total Identified:</strong> Around 298 vehicles spotted across official trailers, screenshots, and the Extended Look (community-tracked; Rockstar has named only seven).</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -47,7 +47,7 @@ export const gta6Vehicles: ArticleData = {
         Vehicle handling in GTA 6 runs on an upgraded version of the Rockstar Advanced Game Engine (RAGE). This updates how wheels interact with pavement, dirt, and water. Vehicle enthusiasts have tracked every trailer frame to identify these <strong>GTA 6 Vehicles</strong>.
       </p>
       <p>
-        For those looking to secure premium rides, several pre-orders feature exclusive <strong>GTA vi Vehicles</strong> that unlock during the campaign. The ultimate edition packages, for example, include custom safehouse additions and tuned variants right away. You can explore how these heists tie into your drivers in our standalone <Link href="/story/gta-6-characters/">GTA 6 Characters Guide</Link>.
+        For those looking to secure premium rides, several pre-orders feature exclusive <strong>GTA 6 Vehicles</strong> that unlock during the campaign. The ultimate edition packages, for example, include custom safehouse additions and tuned variants right away. You can explore how these heists tie into your drivers in our standalone <Link href="/story/gta-6-characters/">GTA 6 Characters Guide</Link>.
       </p>
 
       <div className={styles.featureImageContainer}>
@@ -139,7 +139,7 @@ export const gta6Vehicles: ArticleData = {
 
       <h2>Can You Fly GTA 6 Planes and Helicopters?</h2>
       <p>
-        Take to the skies with various <strong>gta 6 planes</strong>, from light props to luxury jets. Skyward flight provides a massive view of the entire Leonida map. You can steel cargo planes from regional airports or purchase luxury jets through the in-game internet.
+        Take to the skies with various <strong>gta 6 planes</strong>, from light props to luxury jets. Skyward flight provides a massive view of the entire Leonida map. You can steal cargo planes from regional airports or purchase luxury jets through the in-game internet.
       </p>
       <ul>
         <li><strong>Buckingham Shamal:</strong> A premium twin-engine executive business jet.</li>
@@ -168,6 +168,33 @@ export const gta6Vehicles: ArticleData = {
           className={styles.featureImage}
         />
       </div>
+
+      <h2>Which New Vehicles Did the August 2026 Extended Look Add?</h2>
+      <p>
+        The August 2026 Extended Look grew the community-tracked list with several new models spotted in official footage. Jason's daily driver is a <strong>Vapid Ganado</strong>, a two-door coupe-ute styled like a classic Ford Ranchero. His bike is the new <strong>Principe Alvino V1</strong> superbike. Brian Heder rolls in a <strong>Vapid Caracara 4x4</strong>, and the footage also showed a <strong>Lurepredator L35P</strong> fishing boat, Airgator airboats for the wetlands, and Declasse Tulip sedans used as everyday traffic and getaway cars.
+      </p>
+      <p>
+        The same footage confirmed <strong>RydeMe</strong>, a ride-share fast-travel service where you can interact with passengers, which is one more way to get around Leonida without owning the car yourself.
+      </p>
+
+      <h2>Which Vehicles Are Exclusive to the GTA 6 Ultimate Edition?</h2>
+      <p>
+        Every pre-order, standard or ultimate, includes the <strong>Vintage Vice City Pack</strong>: a '55 Vapid Stanier sedan, a personal garage in Ocean Beach, retro outfits and hairstyles, a Tommy Vercetti-era weapon pattern, and a free month of GTA+. This is the reported universal pre-order bonus, per Rockstar's official pre-order page.
+      </p>
+      <p>
+        The <strong>Ultimate Edition</strong> (reported at $100, digital-only) adds the '95 Grotti Cheetah, the '67 Vapid Dominator Buggy with a Paradise Garage in Watson Bay, an army-green Dinka Enduro plus a Crest Kayak at Jason's safehouse, and a Shitzu Squalo boat with an explosives weapons crate. Jason's Vapid Ganado gets a Retro modkit with a cab spoiler, aerials, and livery. These unlock progressively as you play through the story, not all at once, so don't expect the full garage on day one.
+      </p>
+      <p>
+        Two mod shops are also exclusive to the Ultimate Edition: <strong>Rideout Customs</strong> in Vice City for interiors, rims, and donk styling, and <strong>One-Eyed Willie's</strong> near Lake Leonida for off-road builds. A Classic Car Collection side commission has you track down and restore abandoned cars, with four reportedly exclusive to this edition. For the full car-by-car breakdown, see our <Link href="/vehicles/gta-6-cars/">GTA 6 Cars guide</Link>.
+      </p>
+
+      <h2>How Do Car Theft and Vehicle Security Work in GTA 6?</h2>
+      <p>
+        You can't hotwire everything you see. Rob Nelson, Rockstar North's co-studio head, told IGN that certain parked cars stay locked until you progress the story and earn the right tools. Every break-in gives you two options: smash the window (fast but loud, and it draws attention) or use a slim jim (quiet, with a lockpicking minigame where the target bar shrinks on harder cars).
+      </p>
+      <p>
+        Newer and more expensive cars carry <strong>trackers</strong>, so police can follow your location after a theft. You'll need to earn a tracker-disabling item through story or side objectives, though driving fast enough can break the signal. A phone app lets you scan any car to see which tool you need, its resale value, and what it costs to register it as your own. Cops also remember the vehicle you were driving, which ties into the <Link href="/guides/gta-6-wanted-system/">wanted system</Link>.
+      </p>
 
       <h2>How Do GTA 5 Vehicles Compare to GTA 6?</h2>
       <p>
@@ -215,7 +242,7 @@ export const gta6Vehicles: ArticleData = {
       </table>
 
       <p>
-        Getaway driver <Link href="/story/lucia/">Lucia</Link> and her partner <Link href="/story/jason/">Jason</Link> will utilize these handling systems during heists. Standard street sedans are fine for simple getaways, but high-end pursuits require custom tuner cars.
+        Getaway driver <Link href="/story/lucia/">Lucia</Link> and her partner <Link href="/story/jason/">Jason</Link> will use these handling systems during heists. Standard street sedans are fine for simple getaways, but high-end pursuits require custom tuner cars.
       </p>
 
       <h2>GTA 6 Vehicles: Frequently Asked Questions</h2>
@@ -223,7 +250,7 @@ export const gta6Vehicles: ArticleData = {
         <div className={styles.faqItem}>
           <span className={styles.faqQuestion}>How many vehicles are confirmed for GTA 6?</span>
           <p className={styles.faqAnswer}>
-            Trailers and leaked developmental footage have confirmed over 100 unique vehicle models. These span classic sports cars, trucks, SUVs, speedboats, choppers, and civilian aircraft.
+            Fan trackers at <a href="https://www.gtabase.com/gta-6/vehicles" target="_blank" rel="noopener">GTABase</a> have identified around 298 vehicles across official trailers, screenshots, and the August 2026 Extended Look, with over 90 of them new to the series. Rockstar itself has named only seven by name: the Grotti Cheetah, Vapid Stanier, Vapid Dominator Buggy, Shitzu Squalo, Dinka Enduro, Crest Kayak, and Vapid Ganado. Counts vary between trackers because some list every identified model while others keep a curated named list.
           </p>
         </div>
         <div className={styles.faqItem}>
@@ -250,10 +277,31 @@ export const gta6Vehicles: ArticleData = {
             No, rumor leaks suggest cars do not require manual refueling. However, electric vehicles display battery charge levels, and internal combustion cars show functional fuel gauges as visual elements.
           </p>
         </div>
+        <div className={styles.faqItem}>
+          <span className={styles.faqQuestion}>Which vehicles come with the GTA 6 Ultimate Edition?</span>
+          <p className={styles.faqAnswer}>
+            The reported Ultimate Edition bonuses include the '95 Grotti Cheetah, the '67 Vapid Dominator Buggy, an army-green Dinka Enduro, a Crest Kayak, and a Shitzu Squalo boat, plus the Ganado Retro modkit and two exclusive mod shops, Rideout Customs and One-Eyed Willie's. They unlock progressively through the story rather than all at once.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <span className={styles.faqQuestion}>Can you transfer GTA Online vehicles to GTA 6?</span>
+          <p className={styles.faqAnswer}>
+            Rockstar has not said anything about vehicle transfers from GTA Online to GTA 6. Until the studio confirms it, assume your GTA Online garage stays in GTA Online.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <span className={styles.faqQuestion}>Do stolen cars stay stolen in GTA 6?</span>
+          <p className={styles.faqAnswer}>
+            Not always. Expensive cars carry trackers that let police follow you after a theft, and cops remember the vehicle you were driving. You will need to earn a tracker-disabling item through the story, or drive fast enough to break the signal.
+          </p>
+        </div>
       </div>
 
       <p>
         The selection of <strong>GTA 6 Vehicles</strong> will satisfy every gearhead looking to tear up Vice City's Ocean Beach or off-road through the keys. Prepare your garage today by exploring the latest options in the <Link href="/news/gta-6-pre-order/">GTA 6 Pre-Order Guide</Link>, or check out our <Link href="/guides/">GTA 6 ultimate guide</Link> to plan your escape routes.
+      </p>
+      <p>
+        <strong>Last checked: October 9, 2026.</strong> Refreshed with the community-tracked vehicle count, Extended Look sightings, Ultimate Edition exclusives, and the new vehicle security mechanics.
       </p>
     </>
   )
