@@ -85,7 +85,7 @@ const worldModifiedDates: Record<string, string> = {
 };
 
 const mapModifiedDates: Record<string, string> = {
-  'size': '2026-09-02',
+  'size': '2026-10-10',
   'interiors': '2026-09-25',
 };
 
