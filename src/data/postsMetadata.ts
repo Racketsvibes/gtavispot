@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Nintendo President Won\u2019t Rule Out GTA 6 on Switch 2',
+    desc: 'Nintendo of America president Devon Pritchard told Variety a GTA 6 Switch 2 port is Take-Two and Rockstar\u2019s call, declining to rule one out.',
+    date: 'October 10, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-switch-2/',
+    img: '/images/news/gta-6-switch-2-featured.webp',
+  },
+  {
     title: 'GTA 6 Money Missions: Earn Cash to Advance Story',
     desc: 'Rockstar North’s Rob Nelson confirms GTA 6 ties story progress to cash: at certain points, players must earn money in the open world before missions continue.',
     date: 'October 9, 2026',
