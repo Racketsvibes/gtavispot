@@ -106,7 +106,10 @@ const SPANISH_TRANSLATED_NEWS_SLUGS = [
 const SPANISH_TRANSLATED_STORY_SLUGS = [
   'gta-6-lucia-voice-actress',
   'gta-6-jason-voice-actor',
-  'stephen-root-gta-6'
+  'stephen-root-gta-6',
+  'voice-actors',
+  'gta-6-cast-in-real-life',
+  'gta-6-characters'
 ];
 
 export interface SitemapItem {
