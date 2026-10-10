@@ -17,6 +17,14 @@ export const latestPublishedPosts: PostMetadata[] = [
     img: '/images/news/gta-6-switch-2-featured.webp',
   },
   {
+    title: 'GTA 6 Radio Stations: All 6 Official Stations & Hosts',
+    desc: 'Rockstar revealed 6 GTA 6 radio stations hosted by Bad Bunny, Lana Del Rey, Burna Boy and more, plus first-ever on-demand podcasts. Stations, DJs, songs.',
+    date: 'October 10, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-radio-stations/',
+    img: '/images/news/gta-6-radio-stations-featured.webp',
+  },
+  {
     title: 'GTA 6 Money Missions: Earn Cash to Advance Story',
     desc: 'Rockstar North’s Rob Nelson confirms GTA 6 ties story progress to cash: at certain points, players must earn money in the open world before missions continue.',
     date: 'October 9, 2026',
@@ -25,14 +33,6 @@ export const latestPublishedPosts: PostMetadata[] = [
     img: '/images/news/gta-6-money-missions-featured.webp',
   },
 
-  {
-    title: 'GTA 6 Radio Stations: All 6 Official Stations & Hosts',
-    desc: 'Rockstar revealed 6 official GTA 6 radio stations and first-ever on-demand podcasts. Full station list, hosts, sample tracks and how to listen.',
-    date: 'October 8, 2026',
-    tag: 'NEWS',
-    href: '/news/gta-6-radio-stations/',
-    img: '/images/news/gta-6-radio-stations-featured.webp',
-  },
   {
     title: 'GTA 6 Watercraft: Every Boat, Yacht & Jet Ski Confirmed',
     desc: 'Every confirmed GTA 6 boat so far: Seashark jet skis, Dinka Marquis yachts, Squalo speedboats and Everglades airboats. Where to find watercraft in Leonida.',

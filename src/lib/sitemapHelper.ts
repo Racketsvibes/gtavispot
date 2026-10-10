@@ -17,7 +17,7 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-dedicated-writers-npc-dialogue-radio': '2026-10-06',
   'gta-6-xbox-exclusive-streaming-rights': '2026-10-07',
   'gta-6-discord-collaboration': '2026-10-08',
-  'gta-6-radio-stations': '2026-10-08',
+  'gta-6-radio-stations': '2026-10-10',
   'gta-6-money-story-missions': '2026-10-09',
   'gta-6-single-player': '2026-09-27',
   'gta-6-biker-gang': '2026-09-27',
