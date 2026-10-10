@@ -23,7 +23,7 @@ export const size: MapArticleData = {
   focusKeyword: 'GTA 6 map size',
   h1: 'GTA 6 Map Size: How Big Is It vs GTA 5 & RDR2?',
   publishedDate: 'June 18, 2026',
-  modifiedDate: 'September 2, 2026',
+  modifiedDate: 'October 10, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTA_6_Map_Size.webp',
   featureImageAlt: 'GTA 6 map size comparison chart against GTA 5 and RDR2',
@@ -90,6 +90,8 @@ export const size: MapArticleData = {
           </li>
         </ul>
       </div>
+
+      <p>Last checked: October 10, 2026.</p>
 
       <h2>How big is the GTA 6 map compared to GTA 5?</h2>
       <p>
@@ -214,6 +216,60 @@ export const size: MapArticleData = {
         Explore 700+ Enterable Buildings & Interiors
       </MapCTAButton>
 
+      <h2>How many counties are in GTA 6? The six-county breakdown</h2>
+      <p>
+        Counties and regions are not the same thing in GTA 6, and mixing them up is the most common map mistake. Rockstar officially divides Leonida into six <strong>regions</strong>. In a <a href="https://www.notebookcheck.net/Rockstar-says-GTA-6-players-won-t-explore-the-entire-map-by-finishing-the-story.1414127.0.html" target="_blank" rel="noopener noreferrer">Game Informer cover story</a> published September 29, 2026, Rockstar North co-studio head Aaron Garbut named all six: <Link href="/map/vice-city/">Vice City</Link>, <Link href="/map/leonida-keys/">the Leonida Keys</Link>, <Link href="/map/grassrivers/">Grassrivers</Link>, <Link href="/map/port-gellhorn/">Port Gellhorn</Link>, <Link href="/map/ambrosia/">Ambrosia</Link>, and <Link href="/map/mount-kalaga/">Mount Kalaga</Link> National Park. Garbut said Leonida is around twice the size of GTA 5 and the largest world the studio has built by some distance. Senior vice president of narrative Rupert Humphries added that finishing the story alone will not take players across the whole map.
+      </p>
+      <p>
+        The <strong>county</strong> names in the table below come from a different source: badges, police cars, and road signs spotted in official trailers, plus the community mapping project that reads them. Four counties are visible in official footage. The last two are reported, not confirmed, and the table labels each one honestly.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>County</th>
+            <th>Where it sits</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Vice-Dale County</td>
+            <td>Southeast, around Vice City</td>
+            <td>Seen on a sheriff badge in trailer 1</td>
+          </tr>
+          <tr>
+            <td>Leonard County</td>
+            <td>East of Vice City</td>
+            <td>Seen on a police car in trailer 1</td>
+          </tr>
+          <tr>
+            <td>Kelly County</td>
+            <td>Northwest, toward the wetlands</td>
+            <td>Seen on road signs in trailer 1</td>
+          </tr>
+          <tr>
+            <td>Mariana County</td>
+            <td>Southwest, wetlands and the southern keys</td>
+            <td>Seen on a Route 404 East road sign in trailer 2</td>
+          </tr>
+          <tr>
+            <td>Ambrosia County</td>
+            <td>Northeast, inland around Ambrosia</td>
+            <td>Official region name; county status comes from the mapping community</td>
+          </tr>
+          <tr>
+            <td>Lummox County</td>
+            <td>North, around Mount Kalaga</td>
+            <td>Reported only: appears on the leaked CyberLeek map, unconfirmed by Rockstar</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        One note on the numbers: the 2.7x figure used earlier on this page comes from the fan-run <a href="https://gtaforums.com" target="_blank" rel="noopener noreferrer">GTAForums Coordinate Mapping Project</a>. Rockstar's own on-the-record figure is lower, roughly double GTA 5. Both are estimates until launch, but the developer's number is the one to quote.
+      </p>
+
       <h2>Will the map feel too big or empty?</h2>
       <p>
         The developers have designed the map to prevent it from feeling empty. Random events can trigger anywhere, including animal attacks in the swamps and police chases on the highways.
@@ -281,6 +337,13 @@ export const size: MapArticleData = {
           <h3 className={styles.faqQuestion}>How long does it take to run across the map?</h3>
           <p className={styles.faqAnswer}>
             Running on foot from the southern coast to the northernmost peak takes approximately one hour and twenty minutes.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Are the GTA 6 county names officially confirmed?</h3>
+          <p className={styles.faqAnswer}>
+            Partly. Vice-Dale, Leonard, Kelly, and Mariana counties all appear on badges, police cars, or road signs in official trailers. Ambrosia is an official region name, and the fan mapping community lists it as a county. Lummox County comes only from the leaked CyberLeek map and is unconfirmed. The division Rockstar itself uses is six regions: Vice City, the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, and Mount Kalaga National Park.
           </p>
         </div>
       </section>
