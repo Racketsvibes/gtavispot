@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 10, 2026: Added 3 new Spanish story translations - GTA 6 voice actors dubbing guide (/es/story/voice-actors/), cast in real life (/es/story/gta-6-cast-in-real-life/) and characters guide (/es/story/gta-6-characters/) - with Spanish internal linking, sitemap hreflang entries and metadata.*
+*Last updated: October 10, 2026: Expanded the map size guide (/map/size/) with the six-county Leonida taxonomy table (official trailer evidence vs reported counties), Rockstar's official word that Leonida is around twice GTA 5 and its largest world yet (Game Informer, Sept 29, 2026), one new county FAQ, a Last checked: October 10, 2026 stamp, modifiedDate bump and sitemap lastmod 2026-10-10.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
