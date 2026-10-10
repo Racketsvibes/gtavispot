@@ -131,6 +131,18 @@ export const gta6Switch2: ArticleData = {
         That said, this is the closest thing to an official statement Nintendo has given on the topic, and the framing is deliberate. A flat no would have killed the conversation. Instead, Switch 2 owners got a non-denial from the top of Nintendo of America, which is why the interview made headlines across the gaming press within hours.
       </p>
 
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-switch-2-devon-pritchard.webp"
+          alt="Devon Pritchard, president of Nintendo of America"
+          width={800}
+          height={449}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.featureImage}
+        />
+      </div>
+      <p className="img-credit">Devon Pritchard, president of Nintendo of America.</p>
+
       <NewsCTAButton href="/news/gta-6-release-date/">GTA 6 release date: everything confirmed for November 19</NewsCTAButton>
 
       <h2>Which platforms is GTA 6 launching on?</h2>
