@@ -25,11 +25,11 @@ const NewsCTAButton = ({ href, children, isExternal }: { href: string; children:
 
 export const gta6RadioStations: ArticleData = {
   title: 'GTA 6 Radio Stations: All 6 Official Stations & Hosts',
-  metaDescription: 'Rockstar revealed 6 official GTA 6 radio stations and first-ever on-demand podcasts. Full station list, hosts, sample tracks and how to listen.',
+  metaDescription: 'Rockstar revealed 6 GTA 6 radio stations hosted by Bad Bunny, Lana Del Rey, Burna Boy and more, plus first-ever on-demand podcasts. Stations, DJs, songs.',
   focusKeyword: 'gta 6 radio stations',
   h1: 'GTA 6 Radio Stations: All 6 Official Stations & Hosts',
   publishedDate: 'October 8, 2026',
-  modifiedDate: 'October 8, 2026',
+  modifiedDate: 'October 10, 2026',
   author: 'Editorial Staff',
   featureImage: '/images/news/gta-6-radio-stations-featured.webp',
   featureImageAlt: 'GTA 6 Vice City highway with traffic, official screenshot from Rockstar Games',
@@ -95,6 +95,10 @@ export const gta6RadioStations: ArticleData = {
             <span className={styles.quickAnswerDot}>•</span>
             <span><strong>Listening:</strong> In vehicles and on foot through new headphones and earbuds linked to the in-game smartphone.</span>
           </li>
+          <li className={styles.quickAnswerItem}>
+            <span className={styles.quickAnswerDot}>•</span>
+            <span><strong>Star DJs:</strong> Real artists host under on-air names, including Bad Bunny, Lana Del Rey, Burna Boy, Robyn and members of Slayer.</span>
+          </li>
         </ul>
       </div>
 
@@ -105,6 +109,8 @@ export const gta6RadioStations: ArticleData = {
         <li>On-demand podcasts debut in GTA VI, a first for the series.</li>
         <li>Radio and podcasts work on foot for the first time, through in-game headphones and earbuds connected to the smartphone.</li>
         <li>This is not the complete list: Rockstar says stations will range from Classic Rock to Talk Radio.</li>
+        <li>The on-air personas hide real stars: Rolling Stone and Pitchfork report Bad Bunny, Lana Del Rey, Morgan Wallen, Burna Boy, Robyn, Kerry King, Tom Araya, Trick Daddy and Trina are the voices behind the microphones.</li>
+        <li>More stations are still to come. Rockstar lists future genres from Classic Rock and Modern Hip-Hop to Electronic, Blues, Ballads and Talk Radio.</li>
       </ul>
 
       <h2>What radio stations are confirmed for GTA 6?</h2>
@@ -250,10 +256,97 @@ export const gta6RadioStations: ArticleData = {
         <span className="fw-flag confirmed">Confirmed</span> Trick and Trina bring Southern hospitality to the airwaves with regional rap and hip-hop classics. From the beach to the block, nobody reps Leonida and the South like they do, according to Rockstar.
       </p>
 
+      <h2>Who are the real DJs behind the GTA 6 radio hosts?</h2>
+      <p>
+        <span className="fw-flag reported">Reported</span> Rockstar listed only the on-air personas on October 8, but Rolling Stone and Pitchfork named the real artists behind the microphones the same day. Every one of the six revealed stations is hosted by genuine music stars:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>On-air persona</th>
+            <th>Station</th>
+            <th>Real artist</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>El Martillo</td>
+            <td>Cocoteo FM</td>
+            <td>Bad Bunny</td>
+          </tr>
+          <tr>
+            <td>La Gata</td>
+            <td>Cocoteo FM</td>
+            <td>RaiNao</td>
+          </tr>
+          <tr>
+            <td>MW</td>
+            <td>Back Country Radio</td>
+            <td>Morgan Wallen</td>
+          </tr>
+          <tr>
+            <td>Delta Dawne</td>
+            <td>Back Country Radio</td>
+            <td>Lana Del Rey</td>
+          </tr>
+          <tr>
+            <td>Mud Dog Mike</td>
+            <td>Back Country Radio</td>
+            <td>Jeremy Dufrene</td>
+          </tr>
+          <tr>
+            <td>Burna</td>
+            <td>AfroBank FM</td>
+            <td>Burna Boy</td>
+          </tr>
+          <tr>
+            <td>Palmsy</td>
+            <td>AfroBank FM</td>
+            <td>Palms Trax</td>
+          </tr>
+          <tr>
+            <td>DJ Kerry</td>
+            <td>The Chamber 106.6</td>
+            <td>Kerry King (Slayer)</td>
+          </tr>
+          <tr>
+            <td>DJ Tom</td>
+            <td>The Chamber 106.6</td>
+            <td>Tom Araya (Slayer)</td>
+          </tr>
+          <tr>
+            <td>Robyn</td>
+            <td>Flash FM</td>
+            <td>Robyn</td>
+          </tr>
+          <tr>
+            <td>Alex</td>
+            <td>Flash FM</td>
+            <td>Alex Consani</td>
+          </tr>
+          <tr>
+            <td>Trick</td>
+            <td>Dirty South Classics</td>
+            <td>Trick Daddy</td>
+          </tr>
+          <tr>
+            <td>Trina</td>
+            <td>Dirty South Classics</td>
+            <td>Trina</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Lana Del Rey told Rolling Stone the role is "a privilege", noting relatives who first came to Los Angeles already knew its roads from playing GTA. RaiNao told Pitchfork that Cocoteo FM gets her people's slang, music and traditions right. Jeremy Dufrene, the voice of swamp weatherman Mud Dog Mike, is Del Rey's husband and a real-life airboat captain.
+      </p>
+      <p>
+        Celebrity DJs are a series tradition: Iggy Pop hosted a station in GTA IV and Kenny Loggins hosted one in GTA V. This time every announced station has star power behind the desk, and Rockstar says more stations, and more hosts, are still to be revealed.
+      </p>
+
       <NewsCTAButton href="/news/gta-6-soundtrack-album/">GTA 6 soundtrack album: everything confirmed so far</NewsCTAButton>
 
       <p>
-        <span className="fw-flag confirmed">Confirmed</span> The announcement also ties into Grand Theft Auto VI: The Album, which features 34 original tracks. Rockstar is offering pre-saves alongside vinyl and CD pre-orders through the official album page.
+        <span className="fw-flag confirmed">Confirmed</span> The announcement also ties into Grand Theft Auto VI: The Album, which features 34 original tracks. On October 9, Rockstar added two more singles, "Suzuki" by Fuerza Regida and "Don't Chart" by Cardi B, bringing the named total to 8 of 34. Cardi B had teased her track with a photo of Lucia's baddie hoodie from the Extended Look. Rockstar is offering pre-saves alongside vinyl and CD pre-orders through the official album page, with the CD at $19.98, standard vinyl at $49.98 and a limited-edition vinyl at $124.98.
       </p>
 
       <NewsCTAButton href="https://gtavi-thealbum.lnk.to/gtavithealbum" isExternal>Pre-save the official GTA VI album</NewsCTAButton>
@@ -312,7 +405,7 @@ export const gta6RadioStations: ArticleData = {
 
       <h2>Is this the full GTA 6 station list?</h2>
       <p>
-        <span className="fw-flag confirmed">Confirmed</span> No. Rockstar says the stations will range from Classic Rock to Talk Radio, which means more stations are still unannounced. PlayStation Universe notes this first wave is not the complete list, so expect further reveals in the coming weeks.
+        <span className="fw-flag confirmed">Confirmed</span> No. Rockstar says the stations will range from Classic Rock to Talk Radio, which means more stations are still unannounced. In the announcement, the studio listed the full spread it is aiming for: Classic Rock, Modern Hip-Hop, Pop, Metal, Dance, Latin, '80s, Electronic, Blues, Ballads, Talk Radio, Podcasts, and more. PlayStation Universe notes this first wave is not the complete list, so expect further reveals in the coming weeks. Note the station previews on the official site are short snippets, not full tracklists.
       </p>
 
       <div className={styles.faqSection}>
@@ -352,9 +445,23 @@ export const gta6RadioStations: ArticleData = {
             Rockstar added a music section to the official GTA VI website where each of the six revealed stations can be previewed right now.
           </p>
         </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Who are the real DJs hosting the GTA 6 radio stations?</h3>
+          <p className={styles.faqAnswer}>
+            Rolling Stone and Pitchfork report the on-air personas hide real music stars. Bad Bunny and RaiNao voice El Martillo and La Gata on Cocoteo FM; Morgan Wallen and Lana Del Rey are MW and Delta Dawne on Back Country Radio; Burna Boy and Palms Trax run AfroBank FM; Slayer's Kerry King and Tom Araya are DJ Kerry and DJ Tom on The Chamber 106.6; Robyn and model Alex Consani host Flash FM; Trick Daddy and Trina host Dirty South Classics.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How many GTA 6 album songs are out now?</h3>
+          <p className={styles.faqAnswer}>
+            Eight of the 34 tracks on Grand Theft Auto VI: The Album are streaming as of October 9, 2026: Yung Lean's "That's It", Travis Scott's "RHYNO", "Sexy Magic", Morgan Wallen's "Last Thing You Need", Rauw Alejandro's "Macacoa 2000", Keith Richards' "Bright Lights, Big City", Fuerza Regida's "Suzuki" and Cardi B's "Don't Chart". The full album releases on November 19, 2026.
+          </p>
+        </div>
       </div>
 
-      <p><em>Last checked: October 8, 2026. Sources: <a href="https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations" target="_blank" rel="noopener noreferrer">Rockstar Games Newswire</a>, <a href="https://x.com/RockstarGames/status/2108197013711958139" target="_blank" rel="noopener noreferrer">Rockstar Games on X</a>, <a href="https://www.pushsquare.com/news/2026/10/gta-6-in-game-radio-stations-announced-and-you-can-preview-them-right-now" target="_blank" rel="noopener noreferrer">Push Square</a>  <a href="https://finalweapon.net/2026/10/08/grand-theft-auto-vi-releases-radio-station-previews/" target="_blank" rel="noopener noreferrer">Final Weapon</a> on the station previews and the <a href="https://gtavi-thealbum.lnk.to/gtavithealbum" target="_blank" rel="noopener noreferrer">official GTA VI album page</a>.</em></p>
+      <p><em>Last checked: October 10, 2026. Sources: <a href="https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations" target="_blank" rel="noopener noreferrer">Rockstar Games Newswire</a>, <a href="https://x.com/RockstarGames/status/2108197013711958139" target="_blank" rel="noopener noreferrer">Rockstar Games on X</a>, <a href="https://www.pushsquare.com/news/2026/10/gta-6-in-game-radio-stations-announced-and-you-can-preview-them-right-now" target="_blank" rel="noopener noreferrer">Push Square</a>, <a href="https://finalweapon.net/2026/10/08/grand-theft-auto-vi-releases-radio-station-previews/" target="_blank" rel="noopener noreferrer">Final Weapon</a> on the station previews, Rolling Stone and Pitchfork on the DJ identities via <a href="https://heistatlas.com/en/updates/2026-10-09-gta6-radio-hosts-bad-bunny-lana-del-rey/" target="_blank" rel="noopener noreferrer">Heist Atlas</a>, <a href="https://rockstarintel.com/gta-6-album-gets-2-new-singles-ahead-of-its-release/" target="_blank" rel="noopener noreferrer">RockstarINTEL</a> and <a href="https://gta6-life.com/en/news/gta-6-soundtrack-vinyl/" target="_blank" rel="noopener noreferrer">GTA6-Life</a> on the October 9 album singles, and the <a href="https://gtavi-thealbum.lnk.to/gtavithealbum" target="_blank" rel="noopener noreferrer">official GTA VI album page</a>.</em></p>
     </ImageLightbox>
   ),
 };

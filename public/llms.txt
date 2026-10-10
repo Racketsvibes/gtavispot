@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 10, 2026: Published new post on Nintendo of America president Devon Pritchard declining to rule out a GTA 6 Switch 2 port (Variety interview, Oct 9) - story background, what she did and did not say, 4 FAQs and Last checked stamp; registered in news hub, sitemap and posts metadata.*
+*Last updated: October 10, 2026: Updated the GTA 6 radio stations post with the real artists behind the DJ personas (Bad Bunny, Lana Del Rey, Burna Boy and more, via Rolling Stone/Pitchfork reports), the Oct 9 album singles (Fuerza Regida 'Suzuki', Cardi B 'Don't Chart'), 2 new FAQs and Last checked stamp; sitemap lastmod and posts metadata bumped.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -53,6 +53,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 
 ## News Articles
 - [Nintendo President Won\u2019t Rule Out GTA 6 on Switch 2](https://gtavispot.com/news/gta-6-switch-2/)
+- [GTA 6 Radio Stations: All 6 Official Stations & Hosts](https://gtavispot.com/news/gta-6-radio-stations/)
 - [GTA 6 Biker Gang: The Final Chapter MC (Ambrosia)](https://gtavispot.com/news/gta-6-biker-gang/)
 - [GTA 6 Release Date](https://gtavispot.com/news/gta-6-release-date/)
 - [Delay History Analysis](https://gtavispot.com/news/gta-6-delay/)
