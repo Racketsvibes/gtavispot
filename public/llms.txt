@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 10, 2026: Updated the GTA 6 radio stations post with the real artists behind the DJ personas (Bad Bunny, Lana Del Rey, Burna Boy and more, via Rolling Stone/Pitchfork reports), the Oct 9 album singles (Fuerza Regida 'Suzuki', Cardi B 'Don't Chart'), 2 new FAQs and Last checked stamp; sitemap lastmod and posts metadata bumped.*
+*Last updated: October 10, 2026: Added 3 new Spanish story translations - GTA 6 voice actors dubbing guide (/es/story/voice-actors/), cast in real life (/es/story/gta-6-cast-in-real-life/) and characters guide (/es/story/gta-6-characters/) - with Spanish internal linking, sitemap hreflang entries and metadata.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -159,6 +159,9 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Stephen Root en GTA 6: Guía del Actor de Brian Heder](https://gtavispot.com/es/story/stephen-root-gta-6/)
 - [Rockstar Censura el Tráiler de GTA 6 en China](https://gtavispot.com/es/news/gta-6-china-censorship/)
 
+- [Actores de Voz de GTA 6: Doblaje de Lucia y Jason](https://gtavispot.com/es/story/voice-actors/)
+- [GTA 6 Cast en la Vida Real: Actores y Personajes](https://gtavispot.com/es/story/gta-6-cast-in-real-life/)
+- [GTA 6 Personajes: Protagonistas, Elenco y Rumores](https://gtavispot.com/es/story/gta-6-characters/)
 ## Utility & Legal Pages
 - [About Us](https://gtavispot.com/about/)
 - [Contact Us](https://gtavispot.com/contact/)
