@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 11, 2026: New post /news/gta-6-build-leak-threat/ covering Cyberleek's reported $30M meme-coin ultimatum (full story build leak threat, Take-Two disc demand), with a Last checked: October 11, 2026 stamp, modifiedDate bump, sitemap lastmod 2026-10-11 and newest-first homepage placement.*
+*Last updated: October 11, 2026: New guide /guides/gta-6-side-activities/ covering every confirmed GTA 6 side activity (kayaking, fishing, hunting, gyms, zoos, racing), money earners and the Jason and Lucia bond system, with a Last checked: October 11, 2026 stamp, modifiedDate bump, sitemap lastmod 2026-10-11 and newest-first homepage placement.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -24,6 +24,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Character Customization Guide](https://gtavispot.com/guides/character-customization/)
 - [GTA 6 Pre-Load Date & Unlock Times Guide](https://gtavispot.com/guides/gta-6-preload-unlock-times/)
 - [GTA 6 Wanted System Explained: 6 Stars, Heat & Escape](https://gtavispot.com/guides/gta-6-wanted-system/)
+- [GTA 6 Side Activities: Everything to Do in Leonida](https://gtavispot.com/guides/gta-6-side-activities/)
 - [World Hub](https://gtavispot.com/world/)
 - [FAQ Hub](https://gtavispot.com/faq/)
 
@@ -125,6 +126,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Character Customization Guide](https://gtavispot.com/guides/character-customization/)
 - [GTA 6 Pre-Load Date & Unlock Times Guide](https://gtavispot.com/guides/gta-6-preload-unlock-times/)
 - [GTA 6 Wanted System Explained: 6 Stars, Heat & Escape](https://gtavispot.com/guides/gta-6-wanted-system/)
+- [GTA 6 Side Activities: Everything to Do in Leonida](https://gtavispot.com/guides/gta-6-side-activities/)
 - [GTA 6 Launch Preparation Guide](https://gtavispot.com/guides/)
 - [GTA 6 Cheats & Input Codes Guide](https://gtavispot.com/cheats/)
 
