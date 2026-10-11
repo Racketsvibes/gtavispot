@@ -13,7 +13,7 @@ export const gta6SideActivities: GuideArticleData = {
   modifiedDate: 'October 11, 2026',
   author: 'Editorial Staff',
   featureImage: '/images/news/gta-6-side-activities-featured.webp',
-  featureImageAlt: 'Photorealistic image of two people kayaking a yellow tandem kayak through a Florida-style swamp river at golden hour, an alligator in the distance',
+  featureImageAlt: 'Official GTA 6 screenshot of an airboat tour through the Grassrivers swamp, an alligator resting on the boat deck',
   content: (
     <>
       <p>
