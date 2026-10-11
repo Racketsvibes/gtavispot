@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 11, 2026: Expanded /guides/gta-6-preload-unlock-times/ with a New Zealand trick safety warning (Xbox tolerated-not-approved status, wallet and region-switch risks, PS5 account risk) and a pre-load checklist (purchase check, storage, auto-download settings, fake file-size screenshots), plus a Last checked: October 11, 2026 stamp, modifiedDate bump and sitemap lastmod 2026-10-11.*
+*Last updated: October 11, 2026: Added 2 new Spanish pages: /es/news/gta-6-trailer-3/ (Tráiler 3 de GTA 6) and /es/news/gta-6-pc-release-date/ (GTA 6 en PC), with Spanish sitemap entries, lastmod 2026-10-11, and Spanish-only internal links.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -159,6 +159,8 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [¿Quién Hace la Voz de Jason en GTA 6? Dylan Rourke vs Gregory Connors](https://gtavispot.com/es/story/gta-6-jason-voice-actor/)
 - [Stephen Root en GTA 6: Guía del Actor de Brian Heder](https://gtavispot.com/es/story/stephen-root-gta-6/)
 - [Rockstar Censura el Tráiler de GTA 6 en China](https://gtavispot.com/es/news/gta-6-china-censorship/)
+- [Tráiler 3 de GTA 6: Análisis Completo y Qué Esperar](https://gtavispot.com/es/news/gta-6-trailer-3/)
+- [GTA 6 en PC: Fecha Estimada y Requisitos](https://gtavispot.com/es/news/gta-6-pc-release-date/)
 
 - [Actores de Voz de GTA 6: Doblaje de Lucia y Jason](https://gtavispot.com/es/story/voice-actors/)
 - [GTA 6 Cast en la Vida Real: Actores y Personajes](https://gtavispot.com/es/story/gta-6-cast-in-real-life/)
