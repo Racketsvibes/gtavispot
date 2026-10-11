@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Side Activities: Everything to Do in Leonida',
+    desc: 'Every confirmed GTA 6 side activity: kayaking, fishing, hunting, gyms, zoos and racing. Which earn money, which build the Jason and Lucia bond.',
+    date: 'October 11, 2026',
+    tag: 'GUIDE',
+    href: '/guides/gta-6-side-activities/',
+    img: '/images/news/gta-6-side-activities-featured.webp',
+  },
+  {
     title: 'Cyberleek Threatens GTA 6 Build Leak at $30M Coin Cap',
     desc: 'GTA 6 leaker Cyberleek threatens to release a full playable build if its meme coin hits a $30M market cap, demanding discs and an apology from Take-Two.',
     date: 'October 11, 2026',
