@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Cyberleek Threatens GTA 6 Build Leak at $30M Coin Cap',
+    desc: 'GTA 6 leaker Cyberleek threatens to release a full playable build if its meme coin hits a $30M market cap, demanding discs and an apology from Take-Two.',
+    date: 'October 11, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-build-leak-threat/',
+    img: '/images/news/gta-6-build-leak-threat-featured.webp',
+  },
+  {
     title: 'Nintendo President Won\u2019t Rule Out GTA 6 on Switch 2',
     desc: 'Nintendo of America president Devon Pritchard told Variety a GTA 6 Switch 2 port is Take-Two and Rockstar\u2019s call, declining to rule one out.',
     date: 'October 10, 2026',
