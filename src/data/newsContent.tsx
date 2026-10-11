@@ -46,6 +46,7 @@ import { gta6DiscordCollaboration } from './news/gta-6-discord-collaboration';
 import { gta6RadioStations } from './news/gta-6-radio-stations';
 import { gta6MoneyStoryMissions } from './news/gta-6-money-story-missions';
 import { gta6Switch2 } from './news/gta-6-switch-2';
+import { gta6BuildLeakThreat } from './news/gta-6-build-leak-threat';
 
 
 
@@ -124,6 +125,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-radio-stations': gta6RadioStations,
   'gta-6-money-story-missions': gta6MoneyStoryMissions,
   'gta-6-switch-2': gta6Switch2,
+  'gta-6-build-leak-threat': gta6BuildLeakThreat,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {

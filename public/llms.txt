@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 10, 2026: Expanded the map size guide (/map/size/) with the six-county Leonida taxonomy table (official trailer evidence vs reported counties), Rockstar's official word that Leonida is around twice GTA 5 and its largest world yet (Game Informer, Sept 29, 2026), one new county FAQ, a Last checked: October 10, 2026 stamp, modifiedDate bump and sitemap lastmod 2026-10-10.*
+*Last updated: October 11, 2026: New post /news/gta-6-build-leak-threat/ covering Cyberleek's reported $30M meme-coin ultimatum (full story build leak threat, Take-Two disc demand), with a Last checked: October 11, 2026 stamp, modifiedDate bump, sitemap lastmod 2026-10-11 and newest-first homepage placement.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -52,6 +52,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Watercraft: Boats, Yachts & Jet Skis](https://gtavispot.com/vehicles/gta-6-watercraft/)
 
 ## News Articles
+- [Cyberleek Threatens GTA 6 Build Leak at $30M Coin Cap](https://gtavispot.com/news/gta-6-build-leak-threat/)
 - [Nintendo President Won\u2019t Rule Out GTA 6 on Switch 2](https://gtavispot.com/news/gta-6-switch-2/)
 - [GTA 6 Radio Stations: All 6 Official Stations & Hosts](https://gtavispot.com/news/gta-6-radio-stations/)
 - [GTA 6 Biker Gang: The Final Chapter MC (Ambrosia)](https://gtavispot.com/news/gta-6-biker-gang/)
