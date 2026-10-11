@@ -10,7 +10,7 @@ export const gta6PreloadUnlockTimes: GuideArticleData = {
   focusKeyword: 'GTA 6 pre-load',
   h1: 'GTA 6 Unlock Times by Time Zone: Pre-Load Date and Release',
   publishedDate: 'October 2, 2026',
-  modifiedDate: 'October 2, 2026',
+  modifiedDate: 'October 11, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/news/gta-6-preload-unlock-times-feature.webp',
   featureImageAlt: 'Illustration of a GTA 6 pre-load download bar with a world map showing GTA 6 release time zones',
@@ -49,6 +49,25 @@ export const gta6PreloadUnlockTimes: GuideArticleData = {
       <p>
         If the date holds, digital pre-orders on PS5 and Xbox Series X/S download the full game from November 12, giving you a full week before launch. Boxed-copy buyers aren&apos;t left out either: the code-in-box editions let you redeem and pre-load from the same reported date. Xbox currently shows only a tiny placeholder file — a few hundred megabytes — which gets replaced by the real download once pre-load opens.
       </p>
+
+      <h2>What should you do before GTA 6 pre-load starts?</h2>
+      <p>
+        Pre-load only saves you time if it starts cleanly. A short checklist before the reported November 12 window:
+      </p>
+      <ul>
+        <li>
+          <strong>Confirm your purchase is tied to your account.</strong> Pre-load only triggers if the game shows in your library or order history, digital or code-in-box. Boxed copies ship with a download code instead of a disc, so redeem it before November 12.
+        </li>
+        <li>
+          <strong>Clear storage early.</strong> No official file size is published; the real number appears on the store listing once pre-load opens. Make room on internal storage or a console expansion card now, since current-gen games must run from fast storage, not a USB hard drive.
+        </li>
+        <li>
+          <strong>Turn on automatic downloads.</strong> On PS5: Settings, Saved Data and Game/App Settings, Automatic Updates, Auto-Download, plus Features Available in Rest Mode set to Stay Connected to the Internet, and leave the console in rest mode. On Xbox: Settings, System, Updates, Keep my games and apps up to date, with Power options on Sleep.
+        </li>
+        <li>
+          <strong>Ignore viral file-size screenshots.</strong> Insider Gaming traced the widely shared &quot;676.7 GB&quot; Xbox image to a parody account, and the older &quot;328.7 GB&quot; post was admitted as a joke by its own poster. Check the store listing on November 12 instead of a screenshot.
+        </li>
+      </ul>
 
       <h2>How does GTA 6&apos;s rolling midnight launch work?</h2>
       <p>
@@ -127,6 +146,17 @@ export const gta6PreloadUnlockTimes: GuideArticleData = {
         Two honest caveats. First, the Xbox unlock schedule itself is <strong>assumed, not published</strong> — no official source confirms Xbox follows the same rolling windows as PlayStation. Second, there&apos;s no PS5 equivalent: you&apos;d need a new New Zealand PSN account and a second copy of the game bought on that account. Code-in-box buyers should also check their code&apos;s region — some boxed codes are region-locked and won&apos;t redeem on a mismatched account.
       </p>
 
+      <h2>Is the New Zealand trick safe?</h2>
+      <p>
+        On Xbox, the honest answer is: tolerated, not approved. Millions of players use this trick at every big launch, and there is no record of Microsoft banning anyone for a region switch alone. The Xbox Australia and New Zealand account even joked publicly about the wave of temporary &quot;residents&quot; during Forza Horizon 5&apos;s launch week. That history is reassuring, but it is not a guarantee.
+      </p>
+      <p>
+        Microsoft&apos;s own support pages say you should only change your console region when you actually move countries, and the company reserves the right to flag accounts that misrepresent their location. The practical risks are smaller but real. Your Microsoft Store wallet balance does not carry over to the New Zealand storefront, so do not buy anything while the region is switched. Switch back to your real region right after the game unlocks, and do not flip regions repeatedly, since rapid back-and-forth switching is the behavior most likely to draw a flag.
+      </p>
+      <p>
+        The PlayStation route carries more risk. It needs a separate New Zealand PSN account and a second copy of the game, and Sony&apos;s terms prohibit accounts created to dodge regional pricing, so a flagged account can be suspended. Fund that account only with New Zealand gift cards, and keep it separate from your main library to limit the damage if anything goes wrong.
+      </p>
+
       <div className={styles.featureImageContainer} style={{ marginBottom: '24px' }}>
         <Image
           src="/images/news/gta-6-preload-unlock-times-feature.webp"
@@ -159,7 +189,7 @@ export const gta6PreloadUnlockTimes: GuideArticleData = {
 
       <h2>Where do these dates and times come from?</h2>
       <p>
-        Last verified: October 2, 2026. The November 19 release date is confirmed by Rockstar and Take-Two. Everything else on this page — the November 12 pre-load date and every unlock window — comes from regional PlayStation Store listing data compiled by fan trackers and reported by outlets including{' '}
+        Last checked: October 11, 2026. The November 19 release date is confirmed by Rockstar and Take-Two. Everything else on this page — the November 12 pre-load date and every unlock window — comes from regional PlayStation Store listing data compiled by fan trackers and reported by outlets including{' '}
         <a href="https://www.dualshockers.com/gta-6-global-release-times-unveiled/" target="_blank" rel="noopener">DualShockers</a>,{' '}
         <a href="https://www.gadgets360.com/games/news/gta-6-global-release-timings-midnight-local-time-playstation-store-rockstar-games-12017494" target="_blank" rel="noopener">Gadgets360</a>, and{' '}
         <a href="https://allthings.how/gta-6-release-times-by-region-and-how-to-play-early-on-xbox/" target="_blank" rel="noopener">AllThingsHow</a>.
@@ -196,6 +226,18 @@ export const gta6PreloadUnlockTimes: GuideArticleData = {
           <h3 className={styles.faqQuestion}>Does GTA 6 unlock at the same time everywhere?</h3>
           <p className={styles.faqAnswer}>
             No. It&apos;s a rolling midnight launch across roughly 15 regional windows spanning about 19 hours, from New Zealand first to Mexico and Central America last.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Is the New Zealand trick safe?</h3>
+          <p className={styles.faqAnswer}>
+            On Xbox it is widely used and there is no record of bans for region switching alone, but Microsoft&apos;s official stance is that you should only change regions when you move countries, so treat it as tolerated rather than approved. Your store wallet balance does not carry over, so switch back right after the game unlocks and do not flip regions repeatedly. The PlayStation version needs a separate NZ account and a second copy of the game, and Sony&apos;s terms work against accounts created to dodge regional pricing.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How do I get ready for GTA 6 pre-load?</h3>
+          <p className={styles.faqAnswer}>
+            First, confirm the game shows in your account&apos;s library or order history, and redeem any code-in-box copy before November 12. Then clear storage, turn on auto-download with rest mode or Sleep downloads, and ignore viral file-size screenshots until the store listing shows the real number when pre-load opens.
           </p>
         </div>
       </div>
