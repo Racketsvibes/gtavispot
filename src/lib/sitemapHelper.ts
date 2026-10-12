@@ -8,6 +8,7 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'gta-6-online-release-date': '2026-10-12',
   'gta-6-trailer-3': '2026-10-11',
   'gta-6-pc-release-date': '2026-10-11',
   'gta-6-build-leak-threat': '2026-10-11',
