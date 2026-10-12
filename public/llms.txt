@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 11, 2026: Added 2 new Spanish pages: /es/news/gta-6-trailer-3/ (Tráiler 3 de GTA 6) and /es/news/gta-6-pc-release-date/ (GTA 6 en PC), with Spanish sitemap entries, lastmod 2026-10-11, and Spanish-only internal links.*
+*Last updated: October 12, 2026: Fixed LAZMI miss from PR #49 — added /guides/gta-6-side-activities/ to sitemap-en.xml (lastmod 2026-10-11) and llms.txt Guides section.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -127,6 +127,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Wanted System Explained: 6 Stars, Heat & Escape](https://gtavispot.com/guides/gta-6-wanted-system/)
 - [GTA 6 Launch Preparation Guide](https://gtavispot.com/guides/)
 - [GTA 6 Cheats & Input Codes Guide](https://gtavispot.com/cheats/)
+- [GTA 6 Side Activities: Everything to Do in Leonida](https://gtavispot.com/guides/gta-6-side-activities/)
 
 ## Comparison Articles
 - [GTA 6 vs GTA 5](https://gtavispot.com/compare/gta-6-vs-gta-5/)
