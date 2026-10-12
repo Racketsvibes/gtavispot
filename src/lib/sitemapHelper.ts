@@ -8,7 +8,6 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
-  'gta-6-online-release-date': '2026-10-12',
   'gta-6-trailer-3': '2026-10-11',
   'gta-6-pc-release-date': '2026-10-11',
   'gta-6-build-leak-threat': '2026-10-11',
@@ -78,6 +77,7 @@ const techModifiedDates: Record<string, string> = {
 };
 
 const onlineModifiedDates: Record<string, string> = {
+  'gta-6-online-release-date': '2026-10-12',
   'gta-plus': '2026-07-07',
   'the-kortz-center-heist': '2026-07-16',
   'pegassi-ignus-pursuit': '2026-07-29',
