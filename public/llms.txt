@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 12, 2026: Expanded /tech/gta-6-system-requirements/ with Digital Foundry 2026 gameplay analysis (1440p/30fps CPU verdict), a can-you-run-it hardware tier table, a per-platform file-size table (gta 6 file size keyword), and 3 new FAQs; modifiedDate and sitemap lastmod set to 2026-10-12.*
+*Last updated: October 12, 2026: Added 2 Spanish translations — 'Precio de GTA 6' (/es/news/gta-6-price/, keyword 'precio GTA 6') and 'Reservar GTA 6' (/es/news/gta-6-pre-order/, keyword 'reservar GTA 6'); registered in Spanish sitemap and llms.txt with Spanish internal linking.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -163,6 +163,8 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [Rockstar Censura el Tráiler de GTA 6 en China](https://gtavispot.com/es/news/gta-6-china-censorship/)
 - [Tráiler 3 de GTA 6: Análisis Completo y Qué Esperar](https://gtavispot.com/es/news/gta-6-trailer-3/)
 - [GTA 6 en PC: Fecha Estimada y Requisitos](https://gtavispot.com/es/news/gta-6-pc-release-date/)
+- [Precio de GTA 6: ediciones, costos y cuánto vale](https://www.gtavispot.com/es/news/gta-6-price/)
+- [Reservar GTA 6: guía de preventa y bonos](https://www.gtavispot.com/es/news/gta-6-pre-order/)
 
 - [Actores de Voz de GTA 6: Doblaje de Lucia y Jason](https://gtavispot.com/es/story/voice-actors/)
 - [GTA 6 Cast en la Vida Real: Actores y Personajes](https://gtavispot.com/es/story/gta-6-cast-in-real-life/)
