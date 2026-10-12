@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 12, 2026: Fixed LAZMI miss from PR #49 — added /guides/gta-6-side-activities/ to sitemap-en.xml (lastmod 2026-10-11) and llms.txt Guides section.*
+*Last updated: October 12, 2026: Published new post 'When Is GTA 6 Online Coming Out? 2027 Reports Explained' (/news/gta-6-online-release-date/) - 2027 window reports (Clancy/Bloomberg, Forbes), ESRB missing Users Interact label, GTA Online future, confirmed-vs-reported table, 6 FAQs; registered in news hub, sitemap and posts metadata.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -53,6 +53,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 
 ## News Articles
 - [Cyberleek Threatens GTA 6 Build Leak at $30M Coin Cap](https://gtavispot.com/news/gta-6-build-leak-threat/)
+- [When Is GTA 6 Online Coming Out? 2027 Reports Explained](https://gtavispot.com/news/gta-6-online-release-date/)
 - [Nintendo President Won\u2019t Rule Out GTA 6 on Switch 2](https://gtavispot.com/news/gta-6-switch-2/)
 - [GTA 6 Radio Stations: All 6 Official Stations & Hosts](https://gtavispot.com/news/gta-6-radio-stations/)
 - [GTA 6 Biker Gang: The Final Chapter MC (Ambrosia)](https://gtavispot.com/news/gta-6-biker-gang/)
