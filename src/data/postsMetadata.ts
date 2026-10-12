@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'When Is GTA 6 Online Coming Out? 2027 Reports Explained',
+    desc: 'No official GTA 6 Online release date yet, but Twitch CEO Dan Clancy points to 2027. What Rockstar confirmed, the ESRB clue, and GTA Online’s future.',
+    date: 'October 12, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-online-release-date/',
+    img: '/images/news/gta-6-online-release-date-featured.webp',
+  },
+  {
     title: 'GTA 6 Side Activities: Everything to Do in Leonida',
     desc: 'Every confirmed GTA 6 side activity: kayaking, fishing, hunting, gyms, zoos and racing. Which earn money, which build the Jason and Lucia bond.',
     date: 'October 11, 2026',
