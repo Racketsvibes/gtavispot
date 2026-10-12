@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 12, 2026: Moved 'When Is GTA 6 Online Coming Out?' from /news/ to the GTA Online cluster at /online/gta-6-online-release-date/ (header Online menu, 301 redirect from old URL); feature image set to existing GTA Online mission creator screenshot.*
+*Last updated: October 12, 2026: Expanded /tech/gta-6-system-requirements/ with Digital Foundry 2026 gameplay analysis (1440p/30fps CPU verdict), a can-you-run-it hardware tier table, a per-platform file-size table (gta 6 file size keyword), and 3 new FAQs; modifiedDate and sitemap lastmod set to 2026-10-12.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)

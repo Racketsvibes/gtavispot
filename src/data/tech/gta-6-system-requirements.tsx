@@ -24,7 +24,7 @@ export const gta6SystemRequirements: ArticleData = {
   focusKeyword: 'gta 6 system requirements',
   h1: 'GTA 6 System Requirements: PS5 & Xbox Hardware Specs',
   publishedDate: 'July 20, 2026',
-  modifiedDate: 'September 25, 2026',
+  modifiedDate: 'October 12, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/tech/gta-6-system-requirements.webp',
   featureImageAlt: 'GTA 6 system requirements hardware specs for PlayStation 5 and Xbox Series X',
@@ -199,6 +199,49 @@ export const gta6SystemRequirements: ArticleData = {
         However, players wondering <strong>will gta 6 be on ps5 pro only</strong> can rest assured that the game is fully playable on standard PS5 and Xbox Series consoles. Sony's enhanced model simply offers higher frame rate stability and advanced ray-traced reflections.
       </p>
 
+      <h2>What Did Digital Foundry's 2026 Gameplay Analysis Confirm?</h2>
+      <p>
+        Digital Foundry put the Extended Look gameplay footage under the microscope in 2026 (reported by Gamespot), and the verdict is now specific: the base PS5 build renders at 1440p internal resolution, holds a stable 30 FPS, and runs full ray-traced global illumination and reflections on top of dense NPC and traffic simulation.
+      </p>
+      <p>
+        The bottleneck is the CPU, not the GPU. DF's analysis is clear that Leonida's AI, physics and high-speed traversal systems push the PS5's Zen 2 chip to its ceiling, which is why the team calls a 60 FPS target on current console hardware extremely unlikely. One detail matters for expectations: the footage shows no upscaling artifacts, which leaves room for PSSR or similar upscalers to sharpen the image before launch.
+      </p>
+      <p>
+        What does that mean for the hardware you own? The table below turns the console spec sheet into plain tiers: what each machine will realistically deliver, and where a future PC version fits in. For the ray tracing details behind these targets, see our <Link href="/tech/gta-6-graphics/">GTA 6 graphics breakdown</Link>.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Your Setup</th>
+            <th>What to Expect at Launch</th>
+            <th>Verdict</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Base PS5 / Xbox Series X</strong></td>
+            <td>1440p internal rendering, stable 30 FPS, full ray-traced lighting</td>
+            <td>Ready day one, the standard experience</td>
+          </tr>
+          <tr>
+            <td><strong>PS5 Pro</strong></td>
+            <td>Likely the same CPU-bound 30 FPS target, with possible gains in ray tracing quality or resolution</td>
+            <td>Best console option, but do not buy it expecting 60 FPS</td>
+          </tr>
+          <tr>
+            <td><strong>Xbox Series S</strong></td>
+            <td>1080p-class rendering, 30 FPS, scaled-back ray tracing</td>
+            <td>Works fine, with the smallest drive to manage</td>
+          </tr>
+          <tr>
+            <td><strong>PC (expected 2027-2028)</strong></td>
+            <td>No official specs yet; DF sees this as the realistic 60 FPS platform</td>
+            <td>If 60 FPS is your priority, wait for the PC edition</td>
+          </tr>
+        </tbody>
+      </table>
+
       <div className={styles.featureImageContainer}>
         <Image 
           src="/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_01.webp" 
@@ -298,6 +341,59 @@ export const gta6SystemRequirements: ArticleData = {
         Read PC Release Date Breakdown
       </TechCTAButton>
 
+      <h2>How Much Storage Does GTA 6 Need?</h2>
+      <p>
+        There is no official figure. The US PlayStation Store listing (checked October 6, 2026) shows the release date, a PS5 Pro Enhanced badge and a 7-day pre-load label, but no install size. The Xbox Store shows no size either, and Take-Two's pre-order announcement says nothing about one. Anyone quoting an exact number is estimating (verified via vice-atlas and playingvi, October 2026).
+      </p>
+      <p>
+        The honest planning range: GamesRadar+ puts the floor at at least 120-130 GB, community analysis centers on 150-200 GB, and a "just under 200 GB" rumor from X accounts has no named source behind it. The table below reflects the credible estimates per platform:
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th>Estimated Install</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>PS5</strong></td>
+            <td>150-180 GB</td>
+            <td>~667 GB usable on the base drive, less once your library grows</td>
+          </tr>
+          <tr>
+            <td><strong>PS5 Pro</strong></td>
+            <td>150-180 GB</td>
+            <td>Same build, more headroom on the 2 TB drive</td>
+          </tr>
+          <tr>
+            <td><strong>Xbox Series X</strong></td>
+            <td>150-180 GB</td>
+            <td>~802 GB usable, the most comfortable console</td>
+          </tr>
+          <tr>
+            <td><strong>Xbox Series S</strong></td>
+            <td>110-140 GB (trimmed build)</td>
+            <td>~364 GB usable on the 512 GB model, plan carefully</td>
+          </tr>
+          <tr>
+            <td><strong>PC</strong></td>
+            <td>150-200+ GB (estimated)</td>
+            <td>Edition not yet announced</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        The 676.7 GB claim is fake. It comes from a viral Xbox screenshot first posted on Christmas Eve 2025 and debunked by Mashable, and it says "Install on your home Xbox One," a console GTA 6 is not coming to. It resurfaced again around pre-order day in June 2026 from a parody account. Ignore it. For timing, our <Link href="/guides/gta-6-preload-unlock-times/">pre-load unlock times guide</Link> covers the November 12 pre-load window.
+      </p>
+      <p>
+        The practical move: keep 250 GB free on fast internal storage before pre-load opens on November 12, because GTA Online arrives after launch and the footprint will only grow from there.
+      </p>
+
+
       <h2>Technical Video Breakdown & Performance Analysis</h2>
       <p>
         Watch this in-depth hardware breakdown video analyzing console specs, PSSR upscaling capabilities, and frame rate targets for GTA 6:
@@ -364,6 +460,27 @@ export const gta6SystemRequirements: ArticleData = {
             No, GTA 6 launches on console first on November 19, 2026. The desktop edition is expected to follow roughly 12 to 14 months later in late 2027 or early 2028.
           </p>
         </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How much storage do I need for GTA 6?</h3>
+          <p className={styles.faqAnswer}>
+            Rockstar has not announced an official size. Credible estimates center on 150-200 GB, with GamesRadar+ setting the floor at 120-130 GB. Keep 250 GB free on fast internal storage before pre-load opens on November 12. The viral 676.7 GB figure is a debunked fake.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Can my PC run GTA 6?</h3>
+          <p className={styles.faqAnswer}>
+            There are no official PC requirements because the PC edition has not been announced and is expected in late 2027 or early 2028. Preliminary estimates put a base-PS5-equivalent machine at an Intel Core i7-11700K or AMD Ryzen 7 5800X with an RTX 3070. Digital Foundry's analysis suggests PC is where a real 60 FPS mode is most likely, since the console limitation is the CPU.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Will a 60 FPS patch ever come to PS5?</h3>
+          <p className={styles.faqAnswer}>
+            Unlikely without heavy compromises. Digital Foundry's analysis says 60 FPS would need far more CPU headroom than any current console offers, and points to a possible 40 FPS mode as the realistic middle ground if Rockstar offers anything above 30.
+          </p>
+        </div>
       </section>
 
       <p>
@@ -378,6 +495,11 @@ export const gta6SystemRequirements: ArticleData = {
           Check Official Release Schedule
         </TechCTAButton>
       </div>
+      <p>
+        Last checked: October 12, 2026. Frame-rate expectations verified against Digital Foundry's 2026 gameplay analysis (reported by Gamespot); file-size figures cross-checked against October 2026 store-listing checks (vice-atlas, playingvi). No official install size or PC specs announced.
+      </p>
+
     </>
+
   ),
 };
