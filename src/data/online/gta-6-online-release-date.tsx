@@ -31,8 +31,8 @@ export const gta6OnlineReleaseDate: ArticleData = {
   publishedDate: 'October 12, 2026',
   modifiedDate: 'October 12, 2026',
   author: 'Editorial Staff',
-  featureImage: '/images/news/gta-6-online-release-date-featured.webp',
-  featureImageAlt: 'Photorealistic neon-lit Miami-style city street at night with luxury sports cars and palm trees',
+  featureImage: '/images/GTA online/gta-online-mission-creator.webp',
+  featureImageAlt: 'GTA Online mission creator interface showing multiplayer setup options',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `

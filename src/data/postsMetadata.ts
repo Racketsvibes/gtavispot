@@ -13,8 +13,8 @@ export const latestPublishedPosts: PostMetadata[] = [
     desc: 'No official GTA 6 Online release date yet, but Twitch CEO Dan Clancy points to 2027. What Rockstar confirmed, the ESRB clue, and GTA Online’s future.',
     date: 'October 12, 2026',
     tag: 'NEWS',
-    href: '/news/gta-6-online-release-date/',
-    img: '/images/news/gta-6-online-release-date-featured.webp',
+    href: '/online/gta-6-online-release-date/',
+    img: '/images/GTA online/gta-online-mission-creator.webp',
   },
   {
     title: 'GTA 6 Side Activities: Everything to Do in Leonida',

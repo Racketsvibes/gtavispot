@@ -75,6 +75,11 @@ const nextConfig: NextConfig = {
         destination: '/vehicles/',
         permanent: true,
       },
+      {
+        source: '/news/gta-6-online-release-date/',
+        destination: '/online/gta-6-online-release-date/',
+        permanent: true,
+      },
       // Orphan page redirects — 301 permanent
       {
         source: '/gallery/',

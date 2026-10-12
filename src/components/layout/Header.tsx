@@ -153,6 +153,14 @@ const vehiclesSubNav = [
   { label: 'GTA 6 Bikes & Motorcycles', href: '/vehicles/gta-6-bikes/' },
 ];
 
+const onlineSubNav = [
+  { label: 'Online Hub', href: '/online/' },
+  { label: 'GTA 6 Online Release Date', href: '/online/gta-6-online-release-date/' },
+  { label: 'GTA+ Membership', href: '/online/gta-plus/' },
+  { label: 'Kortz Center Heist', href: '/online/the-kortz-center-heist/' },
+  { label: 'Pegassi Ignus Pursuit', href: '/online/pegassi-ignus-pursuit/' },
+];
+
 const primaryNav = [
   { label: 'Release Date', href: '/news/gta-6-release-date/' },
   { label: 'Characters', href: '/story/gta-6-characters/' },
@@ -162,7 +170,6 @@ const primaryNav = [
 
 const moreNav = [
   { label: 'Guides', href: '/guides/' },
-  { label: 'Online', href: '/online/' },
   { label: 'Tech & Platform', href: '/tech/' },
   { label: 'Trophies', href: '/trophies/' },
   { label: 'Mods', href: '/mods/' },
@@ -227,6 +234,7 @@ export default function Header() {
   const [voiceActorsOpen, setVoiceActorsOpen] = useState(false);
   const [newsOpen, setNewsOpen] = useState(false);
   const [mapOpen, setMapOpen] = useState(false);
+  const [onlineOpen, setOnlineOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const [policiesOpen, setPoliciesOpen] = useState(false);
   const [vehiclesOpen, setVehiclesOpen] = useState(false);
@@ -249,6 +257,7 @@ export default function Header() {
   const storyRef = useRef<HTMLDivElement>(null);
   const newsRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<HTMLDivElement>(null);
+  const onlineRef = useRef<HTMLDivElement>(null);
   const vehiclesRef = useRef<HTMLDivElement>(null);
   const moreRef = useRef<HTMLDivElement>(null);
   const policiesRef = useRef<HTMLDivElement>(null);
@@ -273,6 +282,9 @@ export default function Header() {
       }
       if (mapRef.current && !mapRef.current.contains(target)) {
         setMapOpen(false);
+      }
+      if (onlineRef.current && !onlineRef.current.contains(target)) {
+        setOnlineOpen(false);
       }
       if (moreRef.current && !moreRef.current.contains(target)) {
         setMoreOpen(false);
@@ -530,6 +542,43 @@ export default function Header() {
               )}
             </div>
 
+            {/* Online Dropdown */}
+            <div
+              className={styles.moreWrapper}
+              ref={onlineRef}
+              onMouseEnter={() => setOnlineOpen(true)}
+              onMouseLeave={() => setOnlineOpen(false)}
+            >
+              <button
+                className={getDropdownBtnClass('/online')}
+                onClick={() => setOnlineOpen(!onlineOpen)}
+                aria-expanded={onlineOpen}
+                aria-haspopup="true"
+                type="button"
+              >
+                Online
+                <svg className={`${styles.moreChevron} ${onlineOpen ? styles.chevronUp : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              {onlineOpen && (
+                <div className={styles.dropdown}>
+                  <div className={styles.dropdownGrid}>
+                    {onlineSubNav.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={styles.dropdownLink}
+                        onClick={() => setOnlineOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* Vehicles Dropdown */}
             <div
               className={styles.moreWrapper}
@@ -765,6 +814,21 @@ export default function Header() {
             <span className={styles.mobileNavLabel}>Map & World</span>
             <div className={styles.mobileLinkGrid}>
               {mapSubNav.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={styles.mobileNavLink}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className={styles.mobileNavSection}>
+            <span className={styles.mobileNavLabel}>GTA Online</span>
+            <div className={styles.mobileLinkGrid}>
+              {onlineSubNav.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
