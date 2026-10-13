@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 13, 2026: Published the /news/gta-6-rockstar-union-tribunal/ story on the Glasgow employment tribunal over 30+ GTA 6 developer firings (Kotaku, The Times, WDC News 6); updated /news/gta-6-build-leak-threat/ with the October 12 Cyberleek leak roadmap and the 50% meme-coin crash to ~$2.2M.*
+*Last updated: October 13, 2026: Published the /tech/gta-6-crossplay/ guide on GTA 6 crossplay and cross-save status (unconfirmed; 13 years of GTA Online with zero crossplay as the honest precedent); homepage latest-posts list refreshed.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -142,6 +142,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 System Requirements: PS5, Xbox & PC Specs](https://gtavispot.com/tech/gta-6-system-requirements/)
 - [GTA 6 PC Requirements: Minimum & Recommended Specs](https://gtavispot.com/tech/gta-6-pc-requirements/)
 - [GTA 6 Graphics](https://gtavispot.com/tech/gta-6-graphics/)
+- [Does GTA 6 Have Crossplay? Cross-Save Status](https://gtavispot.com/tech/gta-6-crossplay/)
 
 ## World Articles
 - [GTA 6 Animals](https://gtavispot.com/world/gta-6-animals/)
