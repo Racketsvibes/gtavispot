@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 13, 2026: Published the /tech/gta-6-crossplay/ guide on GTA 6 crossplay and cross-save status (unconfirmed; 13 years of GTA Online with zero crossplay as the honest precedent); homepage latest-posts list refreshed.*
+*Last updated: October 13, 2026: Expanded /tech/gta-6-graphics/ with verified 30fps vs 60fps status (Rob Nelson's September 2026 statements) plus PS5 Pro Enhanced expectations (PSSR upscaling route, 60fps unlikely on CPU grounds) and two new FAQs; sitemap lastmod for the slug set to 2026-10-13.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)

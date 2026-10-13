@@ -78,6 +78,7 @@ const techModifiedDates: Record<string, string> = {
   'gta-6-system-requirements': '2026-10-12',
   'gta-6-pc-requirements': '2026-09-25',
   'gta-6-pc-release-date': '2026-10-06',
+  'gta-6-graphics': '2026-10-13',
 };
 
 const onlineModifiedDates: Record<string, string> = {

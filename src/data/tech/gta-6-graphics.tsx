@@ -10,7 +10,7 @@ export const gta6Graphics: ArticleData = {
   focusKeyword: 'GTA 6 graphics',
   h1: 'GTA 6 Graphics: Specs, Requirements & Visual Leaks',
   publishedDate: 'August 18, 2026',
-  modifiedDate: 'August 18, 2026',
+  modifiedDate: 'October 13, 2026',
   author: 'GTA Vi Spot Editorial',
   featureImage: '/images/tech/gta-6-graphics.webp',
   featureImageAlt: 'GTA 6 Graphics photorealistic rendering feature showcase showing Vice City sunset and sports car',
@@ -139,6 +139,28 @@ export const gta6Graphics: ArticleData = {
         However, the PS5 Pro's upgraded GPU and PSSR upscaling will likely allow a dedicated performance mode, making it the premier platform to experience high-fidelity console visuals. This extra computing headroom will help maintain image clarity during fast-paced sequences where base consoles might suffer from visible upscaling artifacts.
       </p>
 
+      <h2>Will GTA 6 Run at 60fps? What Rob Nelson Actually Said</h2>
+      <p>
+        In September 2026, Rockstar invited several creators to Rockstar North for a closer look at the game, and that is where we got the clearest statement yet on frame rate. Head of development and co-studio head Rob Nelson told content creator Davy Jones that the current console builds run at 30 frames per second. Asked about a possible 60fps performance mode, Nelson made no promise and said he would need to consult the technical team first.
+      </p>
+      <p>
+        The wording matters. Nelson was describing the game in its current state during development, not a locked launch specification. Rockstar has still not published an official list of final graphics modes, and the studio historically confirms performance details close to release. So both extremes, "locked at 30fps forever" and "60fps is guaranteed," go beyond what Rockstar has actually said.
+      </p>
+      <p>
+        The 30fps figure lines up with everything else on record. Rockstar confirmed the trailers were captured on a base PS5 targeting 1440p at 30fps, and analysts point to CPU simulation load, NPCs, traffic, physics, and streaming, as the real ceiling rather than raw graphics power. Hitting 60fps on base consoles would demand visual cuts Rockstar may simply not accept.
+      </p>
+
+      <h2>What Should PS5 Pro Owners Expect from GTA 6?</h2>
+      <p>
+        GTA 6 carries the PS5 Pro Enhanced tag on its PlayStation Store pre-order pages, as spotted in June 2026. Rockstar has not announced what the enhancements include, so treat any detailed claims with care.
+      </p>
+      <p>
+        Leaked Sony guidelines, reported by Moore's Law is Dead, show the Enhanced tag can be earned through PSSR upscaling to 2160p, a higher frame-rate target, or improved ray tracing. But the PS5 Pro's CPU is only a modest clock-speed bump over the base PS5 on the same AMD Zen 2 architecture, and analysts at Digital Foundry say a CPU-bound open world makes stable 60fps unlikely. The safer expectation is that Rockstar spends the extra GPU headroom on image quality: cleaner near-4K output through PSSR with fewer dynamic-resolution artifacts, and possibly a 40fps mode on 120Hz displays.
+      </p>
+      <p>
+        If you are deciding whether to buy a Pro for GTA 6, the honest read is this: the Pro should be the best-looking console version of the game, but it is not a confirmed ticket to 60fps. Wait for Rockstar's official modes list before paying a premium for a performance mode that may never arrive. For the full hardware picture, see our <Link href="/tech/gta-6-system-requirements/">GTA 6 system requirements guide</Link>.
+      </p>
+
       <h2>Watch the GTA 6 vs GTA 5 Graphics Comparison Video</h2>
       <p>
         A side-by-side comparison is the best way to visualize these differences. Watch this video comparison to see how the character models, lighting, and environments stack up against older games:
@@ -166,7 +188,19 @@ export const gta6Graphics: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Will GTA 6 run at 60 FPS on consoles?</h3>
           <p className={styles.faqAnswer}>
-            Standard current-gen consoles (PS5 and Xbox Series X) are expected to target 30 FPS. A 60 FPS mode will likely be exclusive to the PS5 Pro using PSSR upscaling.
+            No 60fps mode is confirmed on any console. In September 2026, Rockstar's Rob Nelson said current builds run at 30fps and a 60fps option is still undecided. Analysts consider 60fps unlikely even on PS5 Pro, where the CPU is the bottleneck, though a 40fps mode on 120Hz displays is plausible.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Is GTA 6 PS5 Pro Enhanced?</h3>
+          <p className={styles.faqAnswer}>
+            Yes. The PlayStation Store pre-order page carries the PS5 Pro Enhanced tag, though Rockstar has not announced what the enhancements include. Analysts expect improved image quality through PSSR upscaling rather than a higher frame rate.
+          </p>
+        </div>
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Why would GTA 6 stay at 30fps even on PS5 Pro?</h3>
+          <p className={styles.faqAnswer}>
+            The bottleneck is the CPU, not the GPU. Leonida's simulation, NPC AI, traffic, physics, and world streaming all run on the processor, and the PS5 Pro's CPU is only slightly faster than the base PS5's. Digital Foundry's analysis says doubling the frame rate needs roughly double the CPU headroom, which no current console offers.
           </p>
         </div>
         <div className={styles.faqItem}>
@@ -197,6 +231,10 @@ export const gta6Graphics: ArticleData = {
 
       <p>
         Ultimately, the evolution of <strong>GTA 6 graphics</strong> represents a defining moment for the gaming industry, setting a new benchmark for open-world photorealism.
+      </p>
+
+      <p>
+        Last checked: October 13, 2026. Frame-rate status verified against Rob Nelson's September 2026 statements at Rockstar North and October 2026 PS5 Pro analysis (Digital Foundry, TweakTown, Softonic). No official graphics-modes list published by Rockstar.
       </p>
     </>
   ),
