@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 13, 2026: Expanded /tech/gta-6-graphics/ with verified 30fps vs 60fps status (Rob Nelson's September 2026 statements) plus PS5 Pro Enhanced expectations (PSSR upscaling route, 60fps unlikely on CPU grounds) and two new FAQs; sitemap lastmod for the slug set to 2026-10-13.*
+*Last updated: October 13, 2026: Added Spanish editions of /es/news/gta-6-delay/ (Retraso de GTA 6) and /es/news/gta-6-collectors-edition/ (Edición Coleccionista); sitemap lastmod for both slugs set to 2026-10-13.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -167,6 +167,8 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 en PC: Fecha Estimada y Requisitos](https://gtavispot.com/es/news/gta-6-pc-release-date/)
 - [Precio de GTA 6: ediciones, costos y cuánto vale](https://www.gtavispot.com/es/news/gta-6-price/)
 - [Reservar GTA 6: guía de preventa y bonos](https://www.gtavispot.com/es/news/gta-6-pre-order/)
+- [Retraso de GTA 6: historial completo de fechas](https://www.gtavispot.com/es/news/gta-6-delay/)
+- [GTA 6 Edición Coleccionista: precio y detalles](https://www.gtavispot.com/es/news/gta-6-collectors-edition/)
 
 - [Actores de Voz de GTA 6: Doblaje de Lucia y Jason](https://gtavispot.com/es/story/voice-actors/)
 - [GTA 6 Cast en la Vida Real: Actores y Personajes](https://gtavispot.com/es/story/gta-6-cast-in-real-life/)
