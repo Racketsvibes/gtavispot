@@ -74,6 +74,7 @@ const storyModifiedDates: Record<string, string> = {
 };
 
 const techModifiedDates: Record<string, string> = {
+  'gta-6-crossplay': '2026-10-13',
   'gta-6-system-requirements': '2026-10-12',
   'gta-6-pc-requirements': '2026-09-25',
   'gta-6-pc-release-date': '2026-10-06',

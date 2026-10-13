@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Does GTA 6 Have Crossplay? Cross-Save Status (2026)',
+    desc: 'Rockstar has not confirmed GTA 6 crossplay. Crossplay and cross-save status for PS5, Xbox and PC, plus what 13 years of GTA Online says about it.',
+    date: 'October 13, 2026',
+    tag: 'TECH',
+    href: '/tech/gta-6-crossplay/',
+    img: '/images/tech/gta-6-crossplay.webp',
+  },
+  {
     title: 'GTA 6 Dev Firings: Rockstar HR Questioned in Tribunal',
     desc: 'Rockstar HR chief Charlie Kinloch faced a Glasgow tribunal over an alleged Discord mole and the timing of 30+ GTA 6 developer firings. What both sides claim.',
     date: 'October 13, 2026',

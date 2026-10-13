@@ -3,6 +3,7 @@ import { howBigWillGta6Be } from './tech/how-big-will-gta-6-be';
 import { gta6SystemRequirements } from './tech/gta-6-system-requirements';
 import { gta6PcRequirements } from './tech/gta-6-pc-requirements';
 import { gta6Graphics } from './tech/gta-6-graphics';
+import { gta6Crossplay } from './tech/gta-6-crossplay';
 
 export interface VideoSchema {
   name: string;
@@ -33,6 +34,7 @@ const techArticlesMap: Record<string, ArticleData> = {
   'gta-6-system-requirements': gta6SystemRequirements,
   'gta-6-pc-requirements': gta6PcRequirements,
   'gta-6-graphics': gta6Graphics,
+  'gta-6-crossplay': gta6Crossplay,
 };
 
 export function getTechArticleBySlug(slug: string): ArticleData | undefined {
