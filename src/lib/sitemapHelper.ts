@@ -8,11 +8,12 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'gta-6-rockstar-union-tribunal': '2026-10-13',
   'gta-6-trailer-3': '2026-10-11',
   'gta-6-pc-release-date': '2026-10-11',
   'gta-6-price': '2026-10-12',
   'gta-6-pre-order': '2026-10-12',
-  'gta-6-build-leak-threat': '2026-10-11',
+  'gta-6-build-leak-threat': '2026-10-13',
   'gta-6-switch-2': '2026-10-10',
   'gta-6-soundtrack-album': '2026-10-02',
   'gta-6-game-informer-cover-story': '2026-10-03',

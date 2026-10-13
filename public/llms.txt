@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 12, 2026: Added 2 Spanish translations — 'Precio de GTA 6' (/es/news/gta-6-price/, keyword 'precio GTA 6') and 'Reservar GTA 6' (/es/news/gta-6-pre-order/, keyword 'reservar GTA 6'); registered in Spanish sitemap and llms.txt with Spanish internal linking.*
+*Last updated: October 13, 2026: Published the /news/gta-6-rockstar-union-tribunal/ story on the Glasgow employment tribunal over 30+ GTA 6 developer firings (Kotaku, The Times, WDC News 6); updated /news/gta-6-build-leak-threat/ with the October 12 Cyberleek leak roadmap and the 50% meme-coin crash to ~$2.2M.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -52,6 +52,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Watercraft: Boats, Yachts & Jet Skis](https://gtavispot.com/vehicles/gta-6-watercraft/)
 
 ## News Articles
+- [GTA 6 Dev Firings: Rockstar HR Questioned in Tribunal](https://gtavispot.com/news/gta-6-rockstar-union-tribunal/)
 - [Cyberleek Threatens GTA 6 Build Leak at $30M Coin Cap](https://gtavispot.com/news/gta-6-build-leak-threat/)
 - [When Is GTA 6 Online Coming Out? 2027 Reports Explained](https://gtavispot.com/online/gta-6-online-release-date/)
 - [Nintendo President Won\u2019t Rule Out GTA 6 on Switch 2](https://gtavispot.com/news/gta-6-switch-2/)
