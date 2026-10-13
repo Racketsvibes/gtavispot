@@ -13,6 +13,8 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-pc-release-date': '2026-10-11',
   'gta-6-price': '2026-10-12',
   'gta-6-pre-order': '2026-10-12',
+  'gta-6-delay': '2026-10-13',
+  'gta-6-collectors-edition': '2026-10-13',
   'gta-6-build-leak-threat': '2026-10-13',
   'gta-6-switch-2': '2026-10-10',
   'gta-6-soundtrack-album': '2026-10-02',
@@ -113,7 +115,9 @@ const SPANISH_TRANSLATED_NEWS_SLUGS = [
   'gta-6-trailer-3',
   'gta-6-pc-release-date',
   'gta-6-price',
-  'gta-6-pre-order'
+  'gta-6-pre-order',
+  'gta-6-delay',
+  'gta-6-collectors-edition'
 ];
 
 const SPANISH_TRANSLATED_STORY_SLUGS = [
