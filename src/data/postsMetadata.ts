@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Dev Firings: Rockstar HR Questioned in Tribunal',
+    desc: 'Rockstar HR chief Charlie Kinloch faced a Glasgow tribunal over an alleged Discord mole and the timing of 30+ GTA 6 developer firings. What both sides claim.',
+    date: 'October 13, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-rockstar-union-tribunal/',
+    img: '/images/news/gta-6-rockstar-union-tribunal-featured.webp',
+  },
+  {
     title: 'When Is GTA 6 Online Coming Out? 2027 Reports Explained',
     desc: 'No official GTA 6 Online release date yet, but Twitch CEO Dan Clancy points to 2027. What Rockstar confirmed, the ESRB clue, and GTA Online’s future.',
     date: 'October 12, 2026',

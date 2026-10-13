@@ -29,7 +29,7 @@ export const gta6BuildLeakThreat: ArticleData = {
   focusKeyword: 'gta 6 build leak',
   h1: 'Cyberleek Threatens GTA 6 Build Leak at $30M Coin Cap',
   publishedDate: 'October 11, 2026',
-  modifiedDate: 'October 11, 2026',
+  modifiedDate: 'October 13, 2026',
   author: 'Editorial Staff',
   featureImage: '/images/news/gta-6-build-leak-threat-featured.webp',
   featureImageAlt: 'A cracked video game disc on a dark desk with neon city lights reflecting, photorealistic editorial photo',
@@ -77,7 +77,7 @@ export const gta6BuildLeakThreat: ArticleData = {
         <cite>Cyberleek's "offer" notice, as quoted by Kotaku</cite>
       </div>
       <p>
-        Whether the leaker actually holds a complete build is unverified. No playable build has gone public as of October 11, 2026. Here is what the threat says, what is confirmed, and what players should know 39 days before launch.
+        Whether the leaker actually holds a complete build is unverified. No playable build has gone public as of October 13, 2026. Here is what the threat says, what is confirmed, and what players should know 37 days before launch.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -105,7 +105,7 @@ export const gta6BuildLeakThreat: ArticleData = {
       <h2>Key takeaways</h2>
       <ul>
         <li>Cyberleek posted the ultimatum on its own website on October 10, 2026, as reported by Kotaku, Insider Gaming, TalkEsport and others.</li>
-        <li>The trigger is the leaker's Solana meme coin reaching a $30 million market cap, reportedly sitting around $3 to $4 million as of October 10 to 11.</li>
+        <li>The trigger is the leaker's Solana meme coin reaching a $30 million market cap. It crashed roughly 50% to about $2.2 million on October 12, per Kotaku's reading of CoinMarketCap data, leaving the trigger nowhere in sight.</li>
         <li>Take-Two gets "one way out": physical discs and a public apology. The notice carries no deadline.</li>
         <li>The claim that Cyberleek holds a complete playable build is unverified. Reported footage so far totals over an hour of clips, not a playable build.</li>
         <li>GTA 6 still launches November 19, 2026 on PS5 and Xbox Series X|S, and the leaks have not changed that date.</li>
@@ -168,6 +168,17 @@ export const gta6BuildLeakThreat: ArticleData = {
         Neither company has publicly responded to this specific $30 million ultimatum. That silence is normal: engaging with the threat would only amplify it. For a longer view of how the leaks unfolded, see our <Link href="/news/gta-6-leaks-timeline/">GTA 6 leaks timeline</Link> and the <Link href="/news/gta-6-leaks-escalation/">escalation coverage</Link>.
       </p>
 
+      <h2>October 12 update: leak roadmap published as the coin crashes</h2>
+      <p>
+        <span className="fw-flag reported">Reported</span> On October 12, Cyberleek published what it called a leak roadmap, tying further footage drops to coin milestones: a mini tank clip at $5 million, a tank at $9 million, a police shootout at $13 million, a fighter jet at $21 million, a "train vs train" clip at $25 million, and the full 200GB-plus build at $30 million, according to Kotaku, Gaming Ideology and mxdwn.
+      </p>
+      <p>
+        The same day, the scheme's finances moved the wrong way for the leaker. Kotaku reported the token crashed roughly 50% in 24 hours to about $2.2 million in market cap, leaving the $30 million trigger nowhere in sight. The leaker's framing stayed the same: Take-Two can stop all of it with physical discs and a public apology, a demand the publisher has shown no sign of entertaining.
+      </p>
+      <p>
+        Take-Two, meanwhile, keeps hunting the source. mxdwn reports the publisher's investigation into the leaker is "rapidly evolving", with subpoenas filed to Discord seeking information on specific servers and users, though earlier subpoena requests were withdrawn. SC Media adds a warning that fake "GTA 6 build" downloads carrying malware are already circulating, which is worth repeating: no playable build has gone public, so every download claiming to be one is fake.
+      </p>
+
       <h2>What should players do before November 19?</h2>
       <p>
         <span className="fw-flag confirmed">Confirmed</span> First, protect yourself from spoilers. If a full build ever goes public, ending footage would spread across X, TikTok and YouTube within hours. Muting terms like "GTA 6 ending", "Lucia" and "Cyberleek" now is cheap insurance, as TalkEsport's coverage advises.
@@ -185,7 +196,7 @@ export const gta6BuildLeakThreat: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Has Cyberleek released the full GTA 6 build?</h3>
           <p className={styles.faqAnswer}>
-            No. As of October 11, 2026, Cyberleek has released clips adding up to more than an hour of footage, but no playable build has gone public. The $30 million threat describes what the leaker says would happen, not something that has happened.
+            No. As of October 13, 2026, Cyberleek has released clips adding up to more than an hour of footage, but no playable build has gone public. The $30 million threat describes what the leaker says would happen, not something that has happened.
           </p>
         </div>
 
@@ -199,7 +210,7 @@ export const gta6BuildLeakThreat: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Is GTA 6 still releasing on November 19?</h3>
           <p className={styles.faqAnswer}>
-            Yes. Rockstar has kept the November 19, 2026 launch date for PS5 and Xbox Series X|S, and the leaks have not changed it. The game is 39 days away as of October 11.
+            Yes. Rockstar has kept the November 19, 2026 launch date for PS5 and Xbox Series X|S, and the leaks have not changed it. The game is 37 days away as of October 13.
           </p>
         </div>
 
@@ -218,7 +229,7 @@ export const gta6BuildLeakThreat: ArticleData = {
         </div>
       </div>
 
-      <p><em>Last checked: October 11, 2026. Sources: <a href="https://kotaku.com/gta-6-leaker-threatens-rockstar-with-doomsday-scenario-if-meme-coin-hits-30-million-2000743779" target="_blank" rel="noopener noreferrer">Kotaku</a>, <a href="https://www.talkesport.com/news/gaming/cyberleek-gta-6-full-build-leak-threat/" target="_blank" rel="noopener noreferrer">TalkEsport</a>, <a href="https://www.shanethegamer.com/news/gta-6-leaker-cyberleek-threatens-full-story-build-leak-unless-take-two-ships-discs/" target="_blank" rel="noopener noreferrer">Shane the Gamer</a>, <a href="https://thedailygame.news/story/2026-10-10-cyberleek-will-leak-full-gta-6-story-build-if-its-crypto-hits-30m-market--3e7b16fb" target="_blank" rel="noopener noreferrer">The Daily Game News</a>, <a href="https://onlinetechguru.co.uk/gta-6-leaker-escalates-crypto-scheme-with-further-threats/" target="_blank" rel="noopener noreferrer">Online Tech Guru</a>.</em></p>
+      <p><em>Last checked: October 13, 2026. Sources: <a href="https://kotaku.com/gta-6-leaker-promises-escalating-mayhem-as-meme-coin-crashes-2000744617" target="_blank" rel="noopener noreferrer">Kotaku (Oct 12)</a>, <a href="https://kotaku.com/gta-6-leaker-threatens-rockstar-with-doomsday-scenario-if-meme-coin-hits-30-million-2000743779" target="_blank" rel="noopener noreferrer">Kotaku</a>, <a href="https://www.talkesport.com/news/gaming/cyberleek-gta-6-full-build-leak-threat/" target="_blank" rel="noopener noreferrer">TalkEsport</a>, <a href="https://www.shanethegamer.com/news/gta-6-leaker-cyberleek-threatens-full-story-build-leak-unless-take-two-ships-discs/" target="_blank" rel="noopener noreferrer">Shane the Gamer</a>, <a href="https://thedailygame.news/story/2026-10-10-cyberleek-will-leak-full-gta-6-story-build-if-its-crypto-hits-30m-market--3e7b16fb" target="_blank" rel="noopener noreferrer">The Daily Game News</a>, <a href="https://onlinetechguru.co.uk/gta-6-leaker-escalates-crypto-scheme-with-further-threats/" target="_blank" rel="noopener noreferrer">Online Tech Guru</a>.</em></p>
     </ImageLightbox>
   ),
 };
