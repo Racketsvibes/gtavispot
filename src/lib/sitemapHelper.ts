@@ -72,7 +72,7 @@ const storyModifiedDates: Record<string, string> = {
   'side-missions': '2026-08-20',
   'walkthrough': '2026-07-17',
   'ending': '2026-09-25',
-  'how-long-to-beat': '2026-09-25',
+  'how-long-to-beat': '2026-10-14',
 };
 
 const techModifiedDates: Record<string, string> = {
@@ -163,6 +163,7 @@ export function getEnglishUrls(): SitemapItem[] {
     { path: '/guides/gta-6-preload-unlock-times/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-11' },
     { path: '/guides/gta-6-wanted-system/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-06' },
     { path: '/guides/gta-6-side-activities/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-11' },
+    { path: '/guides/gta-6-parents-guide/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-14' },
     { path: '/map/', changefreq: 'weekly', priority: '0.9' },
     { path: '/faq/', changefreq: 'daily', priority: '0.9' },
     { path: '/quiz/', changefreq: 'weekly', priority: '0.9' },
