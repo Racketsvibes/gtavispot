@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Parents Guide: Age Rating, Content & Controls',
+    desc: 'GTA 6 is rated Mature 17+ with seven content descriptors. What is actually in the game, how PS5 and Xbox parental controls work, and our advice for teens.',
+    date: 'October 14, 2026',
+    tag: 'GUIDE',
+    href: '/guides/gta-6-parents-guide/',
+    img: '/images/news/gta-6-parents-guide-featured.webp',
+  },
+  {
     title: 'Does GTA 6 Have Crossplay? Cross-Save Status (2026)',
     desc: 'Rockstar has not confirmed GTA 6 crossplay. Crossplay and cross-save status for PS5, Xbox and PC, plus what 13 years of GTA Online says about it.',
     date: 'October 13, 2026',
