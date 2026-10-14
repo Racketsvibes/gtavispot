@@ -3,6 +3,7 @@ import { characterCustomization } from './guides/character-customization';
 import { gta6PreloadUnlockTimes } from './guides/gta-6-preload-unlock-times';
 import { gta6WantedSystem } from './guides/gta-6-wanted-system';
 import { gta6SideActivities } from './guides/gta-6-side-activities';
+import { gta6ParentsGuide } from './guides/gta-6-parents-guide';
 
 export interface VideoSchema {
   name: string;
@@ -33,6 +34,7 @@ const guideArticlesMap: Record<string, GuideArticleData> = {
   'gta-6-preload-unlock-times': gta6PreloadUnlockTimes,
   'gta-6-wanted-system': gta6WantedSystem,
   'gta-6-side-activities': gta6SideActivities,
+  'gta-6-parents-guide': gta6ParentsGuide,
 };
 
 export function getGuideArticleBySlug(slug: string): GuideArticleData | undefined {
