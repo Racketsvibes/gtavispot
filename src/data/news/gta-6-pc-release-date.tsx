@@ -9,14 +9,14 @@ export const gta6PcReleaseDate: ArticleData = {
   focusKeyword: 'GTA 6 PC release date',
   h1: 'GTA 6 PC Release Date: Expectations & Specs',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'October 6, 2026',
+  modifiedDate: 'October 14, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_Pc_Release_Date.webp',
   featureImageAlt: 'GTA 6 PC release date artwork showing gaming PC setup',
   content: (
     <>
       <p>
-        Grand Theft Auto 6 is not releasing on PC on day one. The game is scheduled to launch on PlayStation 5 and Xbox Series X|S on November 19, 2026, leaving desktop players to wait for a port. Based on Rockstar's historical release cycles, the <strong>GTA 6 PC release date</strong> is expected in late 2027 or early 2028.
+        Grand Theft Auto 6 is not releasing on PC on day one. The game is scheduled to launch on PlayStation 5 and Xbox Series X|S on November 19, 2026, leaving desktop players to wait for a port. Based on Rockstar's historical release cycles, the <strong>GTA 6 PC release date</strong> was expected in late 2027 or early 2028. An October 13, 2026 report from GamesBeat, citing four industry sources familiar with Rockstar's plans, claims the PC version could arrive as early as Q1 2027. Rockstar has not confirmed any PC version.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -24,7 +24,11 @@ export const gta6PcReleaseDate: ArticleData = {
         <ul className={styles.quickAnswerList}>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>PC Release Window:</strong> Expected late 2027 or early 2028 (12–14 months after console).</span>
+            <span><strong>New Report (October 13, 2026):</strong> GamesBeat says four industry sources point to a PC release in Q1 2027, two to four months after consoles. Rockstar has not confirmed it.</span>
+          </li>
+          <li className={styles.quickAnswerItem}>
+            <span className={styles.quickAnswerDot}>•</span>
+            <span><strong>Previous Estimate:</strong> Late 2027 or early 2028 (12-14 months after console), based on Rockstar's past port gaps.</span>
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
@@ -79,12 +83,31 @@ export const gta6PcReleaseDate: ArticleData = {
             <td>Rockstar has not ruled PC out. Zelnick has said Take-Two wants its games on platforms with a meaningful audience, as reported by GameRant</td>
           </tr>
           <tr>
+            <td>PC release in Q1 2027 (January to March)</td>
+            <td>Reported, not official</td>
+            <td>GamesBeat, October 13, 2026: four anonymous industry sources familiar with Rockstar's plans. Rockstar did not respond to a request for comment</td>
+          </tr>
+          <tr>
             <td>Console launch: November 19, 2026, PS5 and Xbox Series X|S</td>
             <td>Confirmed</td>
             <td>Rockstar's official announcement</td>
           </tr>
         </tbody>
       </table>
+
+      <h2>October 2026 Report: Is the PC Version Planned for Early 2027?</h2>
+      <p>
+        On October 13, 2026, GamesBeat reported that Rockstar plans to release the PC version of Grand Theft Auto VI in the first quarter of 2027, meaning sometime between January and March. The outlet says four industry sources familiar with Rockstar's plans confirmed the window, all speaking on condition of anonymity. A Rockstar representative did not respond to GamesBeat's request for comment.
+      </p>
+      <p>
+        This is not an official announcement, and Rockstar's public position has not changed: GTA 6 is still confirmed only for PlayStation 5 and Xbox Series X|S on November 19, 2026. Internal release targets can also move, and Rockstar has shifted dates late in development before. But the report carries more weight than a typical rumor, because it is a named outlet citing multiple independent sources rather than a single social media claim. You can read the original report on <a href="https://gamesbeat.com/grand-theft-auto-vis-pc-release-is-slated-for-q1-2027/" target="_blank" rel="noopener">GamesBeat</a>.
+      </p>
+      <p>
+        If the window holds, it would be a sharp break from Rockstar's past. The gap between console and PC was roughly 19 months for GTA V and about 12 months for Red Dead Redemption 2. A Q1 2027 PC release would mean a wait of only two to four months after launch, the fastest PC turnaround Rockstar has ever done.
+      </p>
+      <p>
+        Some circumstantial details point the same way. In April 2026, X user DetectiveSeeds claimed three former Rockstar employees had named February 2027 as the PC target. Take-Two's product release table for the fiscal year ending March 31, 2027 lists GTA 6 only on PS5 and Xbox Series X|S, but Take-Two has said platform announcements come from Rockstar, so the table does not rule out a late addition. One counterweight: Bloomberg's Jason Schreier said his forthcoming GTA 6 article is not connected to the PC report and that he has heard nothing about an early 2027 PC plan.
+      </p>
 
       <h2>Rockstar's Historical Console-to-PC Release Gaps</h2>
       <p>
@@ -125,14 +148,14 @@ export const gta6PcReleaseDate: ArticleData = {
           <tr>
             <td>Grand Theft Auto VI</td>
             <td>November 19, 2026</td>
-            <td>Expected Late 2027 / 2028</td>
-            <td>Estimated 12–14 months</td>
+            <td>Q1 2027 (reported, unconfirmed)</td>
+            <td>2-4 months (reported)</td>
           </tr>
         </tbody>
       </table>
 
       <p>
-        The average gap is roughly 12 to 14 months. The 19-month delay for GTA 5 was extended due to the transition between console generations (Xbox 360/PS3 to Xbox One/PS4), which required rewriting asset files. Since GTA 6 is designed for modern hardware, the PC port should follow the 12-month timeline of Red Dead Redemption 2, pointing to a late 2027 launch.
+        The average gap is roughly 12 to 14 months. The 19-month delay for GTA 5 was extended due to the transition between console generations (Xbox 360/PS3 to Xbox One/PS4), which required rewriting asset files. Since GTA 6 is designed for modern hardware, the PC port should follow the 12-month timeline of Red Dead Redemption 2, pointing to a late 2027 launch based on history. If the October 2026 report proves accurate, the actual gap would be much shorter, just two to four months.
       </p>
       <p>
         For information on the console release schedule and time zone details, visit our <Link href="/news/gta-6-release-date/">GTA 6 release date guide</Link>.
@@ -154,7 +177,7 @@ export const gta6PcReleaseDate: ArticleData = {
 
       <h2>Should PC Players Wait for the Port or Buy a Console?</h2>
       <p>
-        If playing on day one matters most, buy a console. GTA 6 launches November 19, 2026 on PS5 and Xbox Series X|S, and the PC wait will likely be a year or more after that. Nothing about the current situation suggests the port will arrive sooner.
+        If playing on day one matters most, buy a console. GTA 6 launches November 19, 2026 on PS5 and Xbox Series X|S, and the PC wait has historically been a year or more after console launch. A new October 2026 report claims the PC version could arrive as early as Q1 2027, but Rockstar has not confirmed it, so treat that as a possibility, not a plan.
       </p>
       <p>
         If mods, ultrawide monitors, high refresh rates, and unlocked graphics settings are your thing, waiting for PC is the smarter play. Rockstar's PC ports have historically added unlocked framerates, advanced ray tracing options, and wider mod support, and GTA 6's PC version should follow the same pattern.
@@ -218,13 +241,20 @@ export const gta6PcReleaseDate: ArticleData = {
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
         <p>
-          GTA 6 PC release is expected in late 2027 or early 2028. The delay allows for optimization and security audits. System requirements will demand modern CPU and SSD configurations. The launcher client will likely feature a 30-day exclusivity window.
+          Rockstar has not announced a PC version of GTA 6. Based on past ports, late 2027 or early 2028 was the working estimate, but an October 13, 2026 GamesBeat report claims four industry sources point to Q1 2027. The delay allows for optimization and security audits. System requirements will demand modern CPU and SSD configurations. The launcher client will likely feature a 30-day exclusivity window.
         </p>
       </div>
 
       <section className={styles.faqSection}>
         <h2>Frequently Asked Questions</h2>
         
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Is GTA 6 coming to PC in early 2027?</h3>
+          <p className={styles.faqAnswer}>
+            That is what a GamesBeat report from October 13, 2026 claims, citing four anonymous industry sources familiar with Rockstar's plans. Rockstar did not respond to a request for comment, and the company has announced no PC version at all. Treat Q1 2027 as a reported window, not a confirmed date.
+          </p>
+        </div>
+
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>Is GTA 6 coming to PC?</h3>
           <p className={styles.faqAnswer}>
@@ -263,7 +293,7 @@ export const gta6PcReleaseDate: ArticleData = {
         <div className={styles.faqItem}>
           <h3 className={styles.faqQuestion}>When is GTA 6 coming out on PC?</h3>
           <p className={styles.faqAnswer}>
-            The GTA 6 PC release date is expected in late 2027 or early 2028, roughly 12 to 14 months after the initial console launch.
+            The working estimate based on Rockstar's past port gaps was late 2027 or early 2028. However, an October 13, 2026 GamesBeat report, citing four industry sources, claims the PC version could arrive as early as Q1 2027, two to four months after the November 19, 2026 console launch. Rockstar has not confirmed any PC date.
           </p>
         </div>
 
@@ -283,7 +313,7 @@ export const gta6PcReleaseDate: ArticleData = {
       </section>
 
       <p>
-        <em>Last checked: October 6, 2026</em>
+        <em>Last checked: October 14, 2026</em>
       </p>
     </>
   ),
