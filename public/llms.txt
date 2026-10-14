@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 14, 2026: Added new guide /guides/gta-6-parents-guide/ (GTA 6 Parents Guide: Age Rating, Content & Controls); sitemap lastmod for the slug set to 2026-10-14.*
+*Last updated: October 14, 2026: Expanded /story/how-long-to-beat/ with the Rob Nelson 80-hour GTA 6 story length report, an extended franchise comparison table (added GTA IV figures), and a new FAQ; sitemap lastmod for the slug set to 2026-10-14. Earlier today: added new guide /guides/gta-6-parents-guide/.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
