@@ -72,7 +72,7 @@ const storyModifiedDates: Record<string, string> = {
   'side-missions': '2026-08-20',
   'walkthrough': '2026-07-17',
   'ending': '2026-09-25',
-  'how-long-to-beat': '2026-09-25',
+  'how-long-to-beat': '2026-10-14',
 };
 
 const techModifiedDates: Record<string, string> = {

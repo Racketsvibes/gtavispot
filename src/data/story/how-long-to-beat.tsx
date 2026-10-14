@@ -10,7 +10,7 @@ export const howLongToBeat: StoryArticleData = {
   focusKeyword: 'GTA 6 how long to beat',
   h1: 'GTA 6 How Long to Beat: Story & 100% Playtimes (2026)',
   publishedDate: 'June 21, 2026',
-  modifiedDate: 'September 25, 2026',
+  modifiedDate: 'October 14, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_02.webp',
   featureImageAlt: 'Jason Duval screenshot illustrating GTA 6 story length estimates',
@@ -18,6 +18,10 @@ export const howLongToBeat: StoryArticleData = {
     <>
       <p>
         The time investment required to complete the state of Leonida is a key question for players, with the <strong>GTA 6 how long to beat</strong> metrics setting a new standard for open-world games. Whether you plan to rush through the main story campaign or pursue a 100% completion run, this guide outlines the estimated hours expected for each playstyle, based on GTA 5 and RDR2 completion times.
+      </p>
+
+      <p>
+        Last checked: October 14, 2026. Added the Rob Nelson 80-hour playthrough report (The New York Times, August 2026), extended the franchise comparison table with GTA IV figures from HowLongToBeat, and refreshed estimates against October 2026 reporting. No official GTA 6 playtime has been confirmed by Rockstar.
       </p>
 
       <div className={styles.quickAnswer}>
@@ -179,6 +183,12 @@ export const howLongToBeat: StoryArticleData = {
             <td>81 Hours</td>
             <td>100 Missions</td>
           </tr>
+          <tr>
+            <td>Grand Theft Auto IV</td>
+            <td>28 Hours</td>
+            <td>76 Hours</td>
+            <td>94 Missions</td>
+          </tr>
         </tbody>
       </table>
       <p>
@@ -186,6 +196,23 @@ export const howLongToBeat: StoryArticleData = {
       </p>
       <p>
         For a step-by-step walkthrough of each act, see our <Link href="/story/walkthrough/">GTA 6 story walkthrough</Link>.
+      </p>
+      <p>
+        Franchise figures above are player averages from HowLongToBeat, rounded. GTA 6 figures remain the site's pre-launch estimates, since Rockstar has not confirmed any official playtime.
+      </p>
+
+      <h2>Is the GTA 6 Story Really 80 Hours? The 80-Hour Claim Explained</h2>
+      <p>
+        The <strong>80-hour GTA 6 story length</strong> figure comes from Rob Nelson, the co-studio head of Rockstar North. Speaking to The New York Times in August 2026, during the same week the Netflix Extended Look premiered, Nelson said his own playthrough of the game had taken roughly 80 hours. The quote was picked up by GameSpot and others within hours.
+      </p>
+      <p>
+        The detail that matters: those 80 hours covered the main story plus what Nelson called "optional goals with narrative ramifications." His run also included time spent simply living in Leonida. Nelson described the fantasy directly: getting up in the morning, having coffee, showering, exercising, meeting people, exploring, getting into trouble, robbing places, making money. GameSpot's own framing put it well: 80 hours is the "live in it" number, not a speedrun, and the critical path is likely well short of it.
+      </p>
+      <p>
+        A little skepticism is healthy here. This was one developer's playthrough of a pre-release build, completed back in February 2026, by someone who knows the game better than any future player will. Rockstar has never published an official playtime figure, and the claim cannot be independently verified until the game launches on November 19, 2026. Some outlets also shortened the story to "the GTA 6 campaign is 80 hours," which skips the optional-content part entirely.
+      </p>
+      <p>
+        How should you read it? A focused story-only run will probably land under 80 hours, while players who mix in side content should expect to pass it. That lines up with the estimates above: 35 to 45 hours for the main story, 60 to 70 with side quests, and 80 to 100+ for 100%. Treat Nelson's 80 hours as story plus optional objectives plus immersion, not a promise that the campaign alone runs 80 hours.
       </p>
 
       <h2>Speedrun Records and Pacing Tips</h2>
@@ -208,7 +235,7 @@ export const howLongToBeat: StoryArticleData = {
       </div>
 
       <p>
-        The current estimated "Any%" speedrun target is around 12 to 14 hours. Achieving this requires you to skip all cutscenes, utilize fast sports cars for travel, and use Jason\'s Combat Focus ability to clear shootout segments in seconds.
+        The current estimated "Any%" speedrun target is around 12 to 14 hours. Achieving this requires you to skip all cutscenes, use fast sports cars for travel, and Jason\'s Combat Focus ability to clear shootout segments in seconds.
       </p>
       <p>
         You can learn more about how Jason\'s combat perks can speed up your missions in our <Link href="/story/jason/">GTA 6 Jason character guide</Link>.
@@ -261,6 +288,13 @@ export const howLongToBeat: StoryArticleData = {
           <h3 className={styles.faqQuestion}>Is there a fast travel system in GTA 6?</h3>
           <p className={styles.faqAnswer}>
             Yes, buying safehouses across Leonida allows you to travel between them, which significantly reduces travel times during the post-game.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>How long does it take to beat GTA 6?</h3>
+          <p className={styles.faqAnswer}>
+            Current estimates put the main story at 35 to 45 hours, story plus side content at 60 to 70 hours, and 100% completion at 80 to 100+ hours. Rockstar North's Rob Nelson reported an 80-hour personal playthrough that mixed the story with optional objectives, so plan on a long stay in Leonida either way.
           </p>
         </div>
       </section>
