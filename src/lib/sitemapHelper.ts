@@ -10,7 +10,7 @@ const baseUrl = 'https://www.gtavispot.com';
 const newsModifiedDates: Record<string, string> = {
   'gta-6-rockstar-union-tribunal': '2026-10-13',
   'gta-6-trailer-3': '2026-10-11',
-  'gta-6-pc-release-date': '2026-10-11',
+  'gta-6-pc-release-date': '2026-10-14',
   'gta-6-price': '2026-10-12',
   'gta-6-pre-order': '2026-10-12',
   'gta-6-delay': '2026-10-13',
@@ -79,7 +79,7 @@ const techModifiedDates: Record<string, string> = {
   'gta-6-crossplay': '2026-10-13',
   'gta-6-system-requirements': '2026-10-12',
   'gta-6-pc-requirements': '2026-09-25',
-  'gta-6-pc-release-date': '2026-10-06',
+  'gta-6-pc-release-date': '2026-10-14',
   'gta-6-graphics': '2026-10-13',
 };
 
