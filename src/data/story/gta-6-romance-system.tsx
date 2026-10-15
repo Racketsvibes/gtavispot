@@ -11,8 +11,8 @@ export const gta6RomanceSystem: StoryArticleData = {
   publishedDate: 'October 15, 2026',
   modifiedDate: 'October 15, 2026',
   author: 'Editorial Staff',
-  featureImage: '/images/news/gta-6-romance-system-featured.webp',
-  featureImageAlt: 'Jason and Lucia walking hand in hand through a neon-lit Vice City street at sunset',
+  featureImage: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_01.webp',
+  featureImageAlt: 'Lucia Caminos, one of the two protagonists of GTA 6',
   content: (
     <>
       <p>
@@ -122,6 +122,13 @@ export const gta6RomanceSystem: StoryArticleData = {
         </tbody>
       </table>
 
+      <img
+        src="/images/GTAVI_Screenshots/People/Jason_Duval/Jason_Duval_01.webp"
+        alt="Jason Duval, one of the two protagonists of GTA 6"
+        loading="lazy"
+        style={{ width: '100%', height: 'auto', borderRadius: '8px', margin: '1.5rem 0' }}
+      />
+
       <h2>What does the texting system do?</h2>
       <p>
         Jason and Lucia keep in touch when they are apart. You can text or call the other protagonist at any point from the in-game phone, and if you spend a full day as one character, the other may check in: asking if everything is okay, or saying goodnight.
@@ -204,6 +211,13 @@ export const gta6RomanceSystem: StoryArticleData = {
       <p>
         GTA 6 goes the other way: no scheduling, no perk unlocks, no dating menu. The romance is embedded in the open world and in the story of two specific people, which is why outlets compare it more to how Red Dead Redemption 2 let Arthur&apos;s choices color the camp than to any dating sim. The <Link href="/story/dual-protagonists/">dual protagonists system</Link> is the other half of that design: two people with their own routines who react to each other, not blank avatars.
       </p>
+
+      <img
+        src="/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_02.webp"
+        alt="Lucia Caminos in Vice City"
+        loading="lazy"
+        style={{ width: '100%', height: 'auto', borderRadius: '8px', margin: '1.5rem 0' }}
+      />
 
       <h2>Frequently Asked Questions</h2>
 
