@@ -119,7 +119,9 @@ const SPANISH_TRANSLATED_NEWS_SLUGS = [
   'gta-6-price',
   'gta-6-pre-order',
   'gta-6-delay',
-  'gta-6-collectors-edition'
+  'gta-6-collectors-edition',
+  'gta-6-online',
+  'gta-6-mapa'
 ];
 
 const SPANISH_TRANSLATED_STORY_SLUGS = [
