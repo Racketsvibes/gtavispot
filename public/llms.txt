@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 15, 2026: Updated /news/gta-6-review/ with a new preview-impressions H2 (Trois Couleurs Avatar comparison, Vavra "zero story hook" criticism, Zelnick "terrifying" expectations quote, Schreier played-it-but-embargoed report, Rockstar dev two-hour open-world anecdote) plus 2 new review FAQs; post modifiedDate, "Last checked" line and sitemap lastmod set to 2026-10-15.*
+*Last updated: October 15, 2026: Added 2 new Spanish posts: /es/news/gta-6-online/ (GTA 6 Online en español, focus keyword "gta 6 online") and /es/news/gta-6-mapa/ (Mapa de GTA 6 en español, focus keyword "mapa gta 6"); both with Spanish internal linking, sitemap entries, and "Última revisión" lines.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
