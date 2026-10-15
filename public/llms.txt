@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 15, 2026: Added new post /news/rockstar-next-game-after-gta-6/ (Rockstar says its next game after GTA 6 will not take as long; Phil Hooker to Bloomberg; staff grew 2,441 to 4,711; Project Americas timeline); sitemap lastmod for the slug set to 2026-10-15.*
+*Last updated: October 15, 2026: Added new post /story/gta-6-romance-system/ (GTA 6 Romance System: Jason & Lucia's Relationship; optional romance confirmed by Rob Nelson; activities, texting, breakups; confirmed-vs-reported table); sitemap lastmod for the slug set to 2026-10-15.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -122,6 +122,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 How Long to Beat: 35–45 Hrs Story & 100% Playtime](https://gtavispot.com/story/how-long-to-beat/)
 - [GTA 6 Ending Explained: All 3 Endings & Who Dies](https://gtavispot.com/story/ending/)
 - [Dual Protagonists System](https://gtavispot.com/story/dual-protagonists/)
+- [GTA 6 Romance System: Jason & Lucia's Relationship](https://gtavispot.com/story/gta-6-romance-system/)
 
 ## Guides & Completionist Resources
 - [GTA 6 Trophies & Achievements Guide](https://gtavispot.com/trophies/)
