@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: "GTA 6 Romance System: Jason & Lucia's Relationship",
+    desc: "Romance in GTA 6 is fully optional. How Jason and Lucia's relationship works: open-world dates, texting, breakups, and what changes in the story.",
+    date: 'October 15, 2026',
+    tag: 'STORY',
+    href: '/story/gta-6-romance-system/',
+    img: '/images/news/gta-6-romance-system-featured.webp',
+  },
+  {
     title: "Rockstar Says Next Game Won't Take as Long as GTA 6",
     desc: 'Rockstar says its next game after GTA 6 will not take as long. Phil Hooker told Bloomberg the engine, tools and 4,711-strong team will speed up future games.',
     date: 'October 15, 2026',
