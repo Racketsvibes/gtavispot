@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 14, 2026: Updated /news/gta-6-pc-release-date/ with the October 2026 GamesBeat report (PC reportedly planned for Q1 2027, unconfirmed); sitemap lastmod for the slug set to 2026-10-14. Expanded /story/how-long-to-beat/ with the Rob Nelson 80-hour GTA 6 story length report, an extended franchise comparison table (added GTA IV figures), and a new FAQ; sitemap lastmod for the slug set to 2026-10-14. Earlier today: added new guide /guides/gta-6-parents-guide/.*
+*Last updated: October 15, 2026: Added new post /news/rockstar-next-game-after-gta-6/ (Rockstar says its next game after GTA 6 will not take as long; Phil Hooker to Bloomberg; staff grew 2,441 to 4,711; Project Americas timeline); sitemap lastmod for the slug set to 2026-10-15.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -52,6 +52,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Watercraft: Boats, Yachts & Jet Skis](https://gtavispot.com/vehicles/gta-6-watercraft/)
 
 ## News Articles
+- [Rockstar Says Next Game Won't Take as Long as GTA 6](https://gtavispot.com/news/rockstar-next-game-after-gta-6/)
 - [GTA 6 Dev Firings: Rockstar HR Questioned in Tribunal](https://gtavispot.com/news/gta-6-rockstar-union-tribunal/)
 - [Cyberleek Threatens GTA 6 Build Leak at $30M Coin Cap](https://gtavispot.com/news/gta-6-build-leak-threat/)
 - [When Is GTA 6 Online Coming Out? 2027 Reports Explained](https://gtavispot.com/online/gta-6-online-release-date/)
