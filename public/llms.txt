@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 15, 2026: Added new post /story/gta-6-romance-system/ (GTA 6 Romance System: Jason & Lucia's Relationship; optional romance confirmed by Rob Nelson; activities, texting, breakups; confirmed-vs-reported table); sitemap lastmod for the slug set to 2026-10-15.*
+*Last updated: October 15, 2026: Updated /news/gta-6-review/ with a new preview-impressions H2 (Trois Couleurs Avatar comparison, Vavra "zero story hook" criticism, Zelnick "terrifying" expectations quote, Schreier played-it-but-embargoed report, Rockstar dev two-hour open-world anecdote) plus 2 new review FAQs; post modifiedDate, "Last checked" line and sitemap lastmod set to 2026-10-15.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
