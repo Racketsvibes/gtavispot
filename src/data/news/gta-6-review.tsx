@@ -29,7 +29,7 @@ export const gta6Review: ArticleData = {
   focusKeyword: 'GTA 6 Review',
   h1: 'GTA 6 Pre-Release Review: Analyzing the Extended Look Gameplay',
   publishedDate: 'September 25, 2026',
-  modifiedDate: 'September 25, 2026',
+  modifiedDate: 'October 15, 2026',
   author: 'Qamar Farooq',
   featureImage: '/images/news/gta-6-review-feature.webp',
   featureImageAlt: 'GTA 6 review feature image showing Lucia and Jason looking over Vice City skyline',
@@ -75,6 +75,10 @@ export const gta6Review: ArticleData = {
           GTA 6 launches November 19, 2026, delivering a $1.5 billion technical powerhouse running on the new RAGE 9 engine. The 26-minute Extended Look gameplay confirms a map three times larger than Los Santos and a rock-solid 30fps on PS5 hardware. While the $80 base price and lack of a 60fps mode are controversial, the game sets a new industry standard with its forensic six-star wanted system and full ray-traced global illumination.
         </p>
       </div>
+
+      <p>
+        <strong>Last checked: October 15, 2026</strong>
+      </p>
 
       <h2>How Does the Extended Look Gameplay Hold Up?</h2>
       <p>
@@ -162,6 +166,29 @@ export const gta6Review: ArticleData = {
       </p>
       <p>
         IGN's exclusive interview with Rockstar's Rob Nelson highlighted how the studio avoided standard "checklist design." The world map hides its activities naturally instead of vomiting hundreds of icons onto your screen. PC Gamer praised the life-sim atmosphere but noted that some scripted missions still feel a bit restrictive.
+      </p>
+
+      <h2>What Are the Early Preview Impressions of GTA 6?</h2>
+      <p>
+        As of mid-October 2026, no major outlet has published a scored review of GTA 6. Rockstar has not confirmed review copies or an embargo date, so the August hands-off previews remain the most detailed impressions available. But the preview phase has already produced two very different reactions, and both tell you something real about the game.
+      </p>
+      <p>
+        The most striking impression came from the French magazine Trois Couleurs, which said GTA 6's opening feels like watching Avatar for the first time. The comparison was not about raw graphics but about the feeling of experiencing something entirely new and deeply immersive. According to the magazine's preview, Leonida is so dense with life that many players will spend more time exploring and interacting with the world than pushing through story missions.
+      </p>
+      <p>
+        The loudest counterpoint came from Kingdom Come: Deliverance 2 director Daniel Vávra. Writing on X on August 28, 2026, after the Extended Look, he called the footage "an absolutely fantastic tech demo bordering on a technological miracle" with an open world unlike anything anyone has ever created. His criticism was aimed at the story, not the tech: he said the footage gave him "zero story hook" and described Jason and Lucia as "two uninteresting sociopaths chaotically committing mass murders."
+      </p>
+      <p>
+        Treat that verdict as one developer's reading of a marketing reel, not a review of the game. Vávra himself noted that the 26-minute video showed only disconnected scenes with no context, and Rockstar has a long history of keeping the real story twists hidden until launch. The 80-hour story may answer every one of his objections, or none of them.
+      </p>
+      <p>
+        Expectations from the top are just as intense. Take-Two CEO Strauss Zelnick told Bloomberg's Jason Schreier that the run-up to launch is "terrifying" because expectations are so high, adding that 10 million sales, an enormous figure for any other studio, would be disastrous for a game of this scale. In an earlier interview with Conner Mather, he called GTA 6 "breathtaking" and said his teams aim "to deliver perfection."
+      </p>
+      <p>
+        Schreier himself confirmed on Reddit in October 2026 that he has played GTA 6, but Rockstar did not allow him to share any impressions publicly. His October 14 report focused instead on the development challenges behind the game and how Rockstar's company culture has changed over the past decade.
+      </p>
+      <p>
+        The most human preview so far may come from inside Rockstar. Senior developer Phil Hooker told Bloomberg he spent two hours in a build just trying to reach a story mission. A fender bender on the way turned into a fistfight, an insulted NPC started another fight, an empty shop register turned into a robbery, and the escape ended with a police chase after he stole an expensive car. That is the emergent open world Rockstar is selling, and if the final game delivers even half of that density, the scored reviews will have their headline.
       </p>
 
       <h2>What Are the Main Concerns and Controversies?</h2>
@@ -271,6 +298,24 @@ export const gta6Review: ArticleData = {
           <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
             <div className={styles.faqAnswer} itemProp="text">
               <p>Rockstar has not announced an official PC release date yet. Based on historical release patterns, expect the PC version to launch 12 to 18 months after the console versions.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.faqItem} itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+          <h3 className={styles.faqQuestion} itemProp="name">Has GTA 6 received any scored reviews yet?</h3>
+          <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+            <div className={styles.faqAnswer} itemProp="text">
+              <p>No. As of October 15, 2026, no outlet has published a scored review of GTA 6, and Rockstar has not announced a review embargo date. The August 2026 hands-off previews are the most detailed impressions available so far. Scored reviews are expected in the days just before the November 19 launch.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.faqItem} itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+          <h3 className={styles.faqQuestion} itemProp="name">What did Daniel Vávra say about GTA 6?</h3>
+          <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+            <div className={styles.faqAnswer} itemProp="text">
+              <p>The Kingdom Come: Deliverance 2 director praised the Extended Look as a technological miracle but said it gave him "zero story hook" and criticized how Jason and Lucia were presented. His comments reflect one developer's reaction to a 26-minute marketing reel, not a review of the finished game, whose 80-hour story remains largely hidden.</p>
             </div>
           </div>
         </div>
