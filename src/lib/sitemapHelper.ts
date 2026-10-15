@@ -74,6 +74,7 @@ const storyModifiedDates: Record<string, string> = {
   'walkthrough': '2026-07-17',
   'ending': '2026-09-25',
   'how-long-to-beat': '2026-10-14',
+  'gta-6-romance-system': '2026-10-15',
 };
 
 const techModifiedDates: Record<string, string> = {
