@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: "Rockstar Says Next Game Won't Take as Long as GTA 6",
+    desc: 'Rockstar says its next game after GTA 6 will not take as long. Phil Hooker told Bloomberg the engine, tools and 4,711-strong team will speed up future games.',
+    date: 'October 15, 2026',
+    tag: 'NEWS',
+    href: '/news/rockstar-next-game-after-gta-6/',
+    img: '/images/news/rockstar-next-game-after-gta-6-featured.webp',
+  },
+  {
     title: 'GTA 6 Parents Guide: Age Rating, Content & Controls',
     desc: 'GTA 6 is rated Mature 17+ with seven content descriptors. What is actually in the game, how PS5 and Xbox parental controls work, and our advice for teens.',
     date: 'October 14, 2026',
