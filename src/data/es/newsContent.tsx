@@ -15,6 +15,8 @@ import { gta6PriceEs } from './news/gta-6-price';
 import { gta6PreOrderEs } from './news/gta-6-pre-order';
 import { gta6DelayEs } from './news/gta-6-delay';
 import { gta6CollectorsEditionEs } from './news/gta-6-collectors-edition';
+import { gta6OnlineEs } from './news/gta-6-online';
+import { gta6MapaEs } from './news/gta-6-mapa';
 
 
 
@@ -37,6 +39,8 @@ const articlesMapEs: Record<string, ArticleData> = {
   'gta-6-pre-order': gta6PreOrderEs,
   'gta-6-delay': gta6DelayEs,
   'gta-6-collectors-edition': gta6CollectorsEditionEs,
+  'gta-6-online': gta6OnlineEs,
+  'gta-6-mapa': gta6MapaEs,
 };
 
 export function getSpanishArticleBySlug(slug: string): ArticleData | undefined {
