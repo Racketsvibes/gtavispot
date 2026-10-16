@@ -50,7 +50,7 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-collectors-edition': '2026-08-11',
   'gta-6-extended-look': '2026-08-06',
   'gta-6-region-lock': '2026-07-29',
-  'gta-6-hacker': '2026-08-20',
+  'gta-6-hacker': '2026-10-16',
   'gta-6-leaks': '2026-08-20',
   'gta-6-physical-copy': '2026-09-25',
   'gta-6-ultimate-edition-vs-standard': '2026-08-18',
