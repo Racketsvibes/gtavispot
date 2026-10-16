@@ -9,7 +9,7 @@ export const gta6Hacker: ArticleData = {
   focusKeyword: 'GTA 6 Hacker',
   h1: 'GTA 6 Hacker: Sentencing, Retrial, and Latest Updates',
   publishedDate: 'July 19, 2026',
-  modifiedDate: 'July 19, 2026',
+  modifiedDate: 'October 16, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/gta-6-hacker-leak.webp',
   featureImageAlt: 'A glowing magenta and purple neon computer terminal showing encrypted data files and lines of code representing the GTA 6 hacker security breach.',
@@ -38,10 +38,14 @@ export const gta6Hacker: ArticleData = {
           </li>
           <li className={styles.quickAnswerItem}>
             <span className={styles.quickAnswerDot}>•</span>
-            <span><strong>July 2026 Latest Status:</strong> Transferred to a standard prison and awaiting a criminal retrial in November 2026.</span>
+            <span><strong>October 2026 Latest Status:</strong> Held in a standard prison; full criminal trial reported to begin November 9, 2026.</span>
           </li>
         </ul>
       </div>
+
+      <p>
+        <strong>Last checked: October 16, 2026</strong>
+      </p>
 
       <h2>The Amazon Fire TV Stick Breach: How Did Kurtaj Hack Rockstar Games?</h2>
       <p>
@@ -92,6 +96,27 @@ export const gta6Hacker: ArticleData = {
         During the upcoming trial, prosecutors will seek to establish standard criminal liability. 
         Unlike the 2023 fact-finding hearing, this trial will feature full cross-examinations and standard jury deliberations. 
         This represents the <strong>GTA 6 Hacker Latest Update</strong> that fans have tracked closely since the 2022 security breach.
+      </p>
+
+      <h2>Is the GTA 6 Hacker Going to Trial in November 2026?</h2>
+      <p>
+        Reporting in October 2026 puts the trial start at November 9, 2026, the same month Grand Theft Auto VI launches.
+        <a href="https://www.talkesport.com/gta-6/gta-6-leaker-trial-november-9-arion-kurtaj/" target="_blank" rel="noopener noreferrer">TalkEsport reported the November 9 date</a>, citing ongoing coverage of the case.
+        Treat the exact date as reported rather than confirmed, because no public court filing with the schedule has appeared so far.
+      </p>
+      <p>
+        One detail is worth getting right. Much of the coverage calls this a retrial, but TalkEsport notes that November would technically be Kurtaj's first full criminal trial.
+        The 2023 proceeding was a trial of facts: because he had been ruled unfit to stand trial, the jury only decided whether he committed the hacks and could not return a guilty or not guilty verdict.
+        A full criminal trial means standard evidence, cross-examination, and an actual verdict this time.
+      </p>
+      <p>
+        The July transfer is what made all of this possible.
+        BBC cyber correspondent Joe Tidy reported on July 14, 2026 that Kurtaj had moved from the secure hospital to an ordinary prison after a High Court judge lifted reporting restrictions.
+        Doctors had judged him fit to stand trial, ending the indefinite hospital order that had kept him in the facility since December 2023.
+      </p>
+      <p>
+        The timing is hard to miss. If the reported schedule holds, Kurtaj will face court on November 9, 2026, only ten days before GTA 6 launches on November 19.
+        The leak that shaped years of speculation about the game would be resolved in court in the same month the game finally reaches players.
       </p>
 
       <h2>Lapsus$ Cyberattacks: Comparing the Hacker's Targets and Impact</h2>
@@ -197,9 +222,10 @@ export const gta6Hacker: ArticleData = {
         </div>
 
         <div className={styles.faqItem}>
-          <h3 className={styles.faqQuestion}>What is the latest update on Arion Kurtaj in July 2026?</h3>
+          <h3 className={styles.faqQuestion}>What is the latest update on Arion Kurtaj in October 2026?</h3>
           <p className={styles.faqAnswer}>
-            Psychiatrists recently determined that Kurtaj is fit to stand trial. He was moved to a standard prison and is awaiting a new trial scheduled for November 2026.
+            He remains in a standard prison after his July 2026 transfer from the secure hospital.
+            Reporting in October 2026 puts his full criminal trial start at November 9, 2026, the same month GTA 6 launches, though the date is reported rather than confirmed by a court filing.
           </p>
         </div>
 
@@ -214,6 +240,14 @@ export const gta6Hacker: ArticleData = {
           <h3 className={styles.faqQuestion}>How much money did the Rockstar Games leak cost?</h3>
           <p className={styles.faqAnswer}>
             Rockstar Games revealed in court that the Lapsus$ security breach cost the studio $5 million. It also required thousands of hours of developer labor to repair.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Is the November 2026 trial a retrial?</h3>
+          <p className={styles.faqAnswer}>
+            Strictly, no. The 2023 hearing was a trial of facts, not a criminal trial, because Kurtaj had been ruled unfit to stand trial.
+            TalkEsport's breakdown of the case notes that November 2026 would be his first full criminal trial, with standard evidence and a possible verdict.
           </p>
         </div>
       </section>
