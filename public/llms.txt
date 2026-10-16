@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 16, 2026: Added new news post /news/gta-6-launch-trailer/ (GTA 6 Launch Trailer, focus keyword "gta 6 launch trailer"), with quick-answer box, 5 FAQs, sitemap lastmod, and a photorealistic featured image for upload.*
+*Last updated: October 16, 2026: Published the /gta-6-everything-we-know/ living pillar hub (everything we know about GTA 6: release date, Jason and Lucia, Leonida map, gameplay systems, pricing, launch trailer, open questions); homepage latest-posts list refreshed.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -88,6 +88,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Artworks](https://gtavispot.com/news/gta-6-artworks/)
 - [GTA 6 Netflix Viewership](https://gtavispot.com/news/gta-6-netflix-viewership/)
 - [GTA 6 Gameplay](https://gtavispot.com/gta-6-gameplay/)
+- [Everything We Know About GTA 6](https://gtavispot.com/gta-6-everything-we-know/)
 - [GTA 6 Timeline](https://gtavispot.com/gta-6-timeline/)
 - [Rockstar Crews](https://gtavispot.com/news/rockstar-crews/)
 - [Rockstar Censors GTA 6 Trailer for China](https://gtavispot.com/news/gta-6-china-censorship/)

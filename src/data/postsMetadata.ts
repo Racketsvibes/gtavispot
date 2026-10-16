@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Everything We Know About GTA 6 (Updated Daily)',
+    desc: 'GTA 6 hub: November 19, 2026 release date, Jason and Lucia, the Leonida map, new gameplay systems, pricing, the launch trailer, and the open questions. Updated daily.',
+    date: 'October 16, 2026',
+    tag: 'NEWS',
+    href: '/gta-6-everything-we-know/',
+    img: '/images/Official_Cover_Art/Official_Cover_Art_landscape.webp',
+  },
+  {
     title: 'GTA 6 Launch Trailer: New Footage, Justice Song Debut',
     desc: 'Rockstar released the GTA 6 launch trailer on October 15: 90 seconds of new PS5 footage plus a new Justice song featuring Tame Impala, SZA and King Gizzard.',
     date: 'October 16, 2026',
