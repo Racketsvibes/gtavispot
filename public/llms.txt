@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 15, 2026: Added 2 new Spanish posts: /es/news/gta-6-online/ (GTA 6 Online en español, focus keyword "gta 6 online") and /es/news/gta-6-mapa/ (Mapa de GTA 6 en español, focus keyword "mapa gta 6"); both with Spanish internal linking, sitemap entries, and "Última revisión" lines.*
+*Last updated: October 16, 2026: Added new news post /news/gta-6-launch-trailer/ (GTA 6 Launch Trailer, focus keyword "gta 6 launch trailer"), with quick-answer box, 5 FAQs, sitemap lastmod, and a photorealistic featured image for upload.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -52,6 +52,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Watercraft: Boats, Yachts & Jet Skis](https://gtavispot.com/vehicles/gta-6-watercraft/)
 
 ## News Articles
+- [GTA 6 Launch Trailer: New Footage, Justice Song Debut](https://gtavispot.com/news/gta-6-launch-trailer/)
 - [Rockstar Says Next Game Won't Take as Long as GTA 6](https://gtavispot.com/news/rockstar-next-game-after-gta-6/)
 - [GTA 6 Dev Firings: Rockstar HR Questioned in Tribunal](https://gtavispot.com/news/gta-6-rockstar-union-tribunal/)
 - [Cyberleek Threatens GTA 6 Build Leak at $30M Coin Cap](https://gtavispot.com/news/gta-6-build-leak-threat/)
