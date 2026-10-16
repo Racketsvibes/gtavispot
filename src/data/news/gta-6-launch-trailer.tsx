@@ -128,6 +128,99 @@ export const gta6LaunchTrailer: ArticleData = {
         Read our breakdown of <Link href="/story/gta-6-romance-system/">Jason and Lucia's relationship system</Link> for how their bond shapes the story.
       </p>
 
+      <h2>GTA 6 launch trailer screenshots</h2>
+      <p>
+        Key frames from the official launch trailer, captured on PlayStation 5.
+      </p>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-launch-trailer-play-has-no-limits.webp"
+          alt="Play Has No Limits title card from the GTA 6 launch trailer"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-launch-trailer-november-19-2026-preorder.webp"
+          alt="November 19, 2026 release date and pre-order now screen from the GTA 6 launch trailer"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-launch-trailer-helicopter-night-vice-city.webp"
+          alt="Helicopter escape over Vice City at night from the GTA 6 launch trailer"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-launch-trailer-jason-leonida-keys.webp"
+          alt="Jason looking over the Leonida Keys waterfront from the GTA 6 launch trailer"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-launch-trailer-gta-vi-logo-vice-city.webp"
+          alt="GTA VI logo over Vice City skyline from the GTA 6 launch trailer"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-launch-trailer-ps5-plays-best.webp"
+          alt="Plays Best on PS5 branding from the GTA 6 launch trailer"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-launch-trailer-character-snake-scene.webp"
+          alt="Character scene from the GTA 6 launch trailer"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/news/gta-6-launch-trailer-logo-neon.webp"
+          alt="Neon GTA logo from the GTA 6 launch trailer"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+
       <NewsCTAButton href="/news/gta-6-release-date/">GTA 6 release date: everything confirmed for November 19</NewsCTAButton>
 
       <h2>What is the song in the GTA 6 launch trailer?</h2>
