@@ -31,8 +31,8 @@ export const gta6LaunchTrailer: ArticleData = {
   publishedDate: 'October 16, 2026',
   modifiedDate: 'October 16, 2026',
   author: 'Editorial Staff',
-  featureImage: '/images/news/gta-6-launch-trailer-featured.webp',
-  featureImageAlt: 'Neon-lit Vice City style waterfront boulevard at dusk with palm trees and glowing skyline, photorealistic editorial photo',
+  featureImage: '/images/news/gta-6-launch-trailer-helicopter-night-vice-city.webp',
+  featureImageAlt: 'Helicopter escape over Vice City at night from the official GTA 6 launch trailer',
   content: (
     <ImageLightbox>
       <style dangerouslySetInnerHTML={{__html: `
@@ -107,15 +107,48 @@ export const gta6LaunchTrailer: ArticleData = {
 
       <div className={styles.featureImageContainer}>
         <Image
-          src="/images/news/gta-6-launch-trailer-featured.webp"
-          alt="Neon-lit Vice City style waterfront boulevard at dusk with palm trees and glowing skyline, photorealistic editorial photo"
+          src="/images/news/gta-6-launch-trailer-helicopter-night-vice-city.webp"
+          alt="Helicopter escape over Vice City at night from the official GTA 6 launch trailer"
           width={1200}
           height={675}
           sizes="(max-width: 768px) 100vw, 840px"
           className={styles.featureImage}
+          priority
         />
       </div>
-      <p className="img-credit">Image: AI-generated editorial photo for gtavispot.com</p>
+      <p className="img-credit">Image: Rockstar Games (GTA 6 launch trailer screenshot)</p>
+
+      <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', margin: '1.5rem 0', borderRadius: '8px' }}>
+        <iframe
+          src="https://www.youtube.com/embed/rz1B4B2yBZY"
+          title="GTA 6 Launch Trailer - Rockstar Games"
+          style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          loading="lazy"
+        />
+      </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{__html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "GTA 6 Launch Trailer",
+          "description": "Rockstar Games released the official GTA 6 launch trailer on October 15, 2026: 90 seconds of new PS5 footage featuring Jason Duval and Lucia Caminos, debuting the song Flower in a Hurricane by Justice.",
+          "thumbnailUrl": "https://www.gtavispot.com/images/news/gta-6-launch-trailer-helicopter-night-vice-city.webp",
+          "uploadDate": "2026-10-15",
+          "duration": "PT1M30S",
+          "embedUrl": "https://www.youtube.com/embed/rz1B4B2yBZY",
+          "contentUrl": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Rockstar Games",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.gtavispot.com/images/news/gta-6-launch-trailer-helicopter-night-vice-city.webp"
+            }
+          }
+        })}} />
 
       <h2>What happens in the GTA 6 launch trailer?</h2>
       <p>
