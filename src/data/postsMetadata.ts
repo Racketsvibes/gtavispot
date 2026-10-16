@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Launch Trailer: New Footage, Justice Song Debut',
+    desc: 'Rockstar released the GTA 6 launch trailer on October 15: 90 seconds of new PS5 footage plus a new Justice song featuring Tame Impala, SZA and King Gizzard.',
+    date: 'October 16, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-launch-trailer/',
+    img: '/images/news/gta-6-launch-trailer-featured.webp',
+  },
+  {
     title: "GTA 6 Romance System: Jason & Lucia's Relationship",
     desc: "Romance in GTA 6 is fully optional. How Jason and Lucia's relationship works: open-world dates, texting, breakups, and what changes in the story.",
     date: 'October 15, 2026',
