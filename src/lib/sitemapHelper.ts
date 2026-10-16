@@ -8,6 +8,7 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'gta-6-everything-we-know': '2026-10-16',
   'gta-6-launch-trailer': '2026-10-16',
   'rockstar-next-game-after-gta-6': '2026-10-15',
   'gta-6-rockstar-union-tribunal': '2026-10-13',
@@ -227,7 +228,7 @@ export function getEnglishUrls(): SitemapItem[] {
     const modDate = newsModifiedDates[slug];
     const hasSpanish = SPANISH_TRANSLATED_NEWS_SLUGS.includes(slug);
     
-    const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+    const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline', 'gta-6-everything-we-know'];
     if (rootSlugs.includes(slug)) {
       items.push({
         url: `${baseUrl}/${slug}/`,
@@ -326,7 +327,7 @@ export function getSpanishUrls(): SitemapItem[] {
   SPANISH_TRANSLATED_NEWS_SLUGS.forEach(slug => {
     const modDate = newsModifiedDates[slug];
     
-    const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+    const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline', 'gta-6-everything-we-know'];
     if (rootSlugs.includes(slug)) {
       items.push({
         url: `${baseUrl}/es/${slug}/`,

@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props) {
     'gta-6-china-censorship'
   ].includes(slug);
 
-  const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+  const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline', 'gta-6-everything-we-know'];
   const isRootPath = rootSlugs.includes(slug);
   const canonicalUrl = isRootPath ? `https://www.gtavispot.com/${slug}/` : `https://www.gtavispot.com/news/${slug}/`;
   const englishUrl = isRootPath ? `https://www.gtavispot.com/${slug}/` : `https://www.gtavispot.com/news/${slug}/`;
@@ -96,7 +96,7 @@ export default async function ArticlePage({ params }: Props) {
     ? `https://www.gtavispot.com${article.featureImage}` 
     : 'https://www.gtavispot.com/images/desktop.webp';
 
-  const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline'];
+  const rootSlugs = ['gta-6-gameplay', 'gta-6-timeline', 'gta-6-everything-we-know'];
   const isRootPath = rootSlugs.includes(slug);
   const canonicalUrl = isRootPath ? `https://www.gtavispot.com/${slug}/` : `https://www.gtavispot.com/news/${slug}/`;
 
