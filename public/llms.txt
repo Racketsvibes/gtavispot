@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 17, 2026: Published new news post /news/gta-6-gone-gold/ (GTA 6 not gone gold yet, reported via Bloomberg's Jason Schreier; Rockstar director of technology Phil Hooker on final-build polishing and expected November platform certification).*
+*Last updated: October 17, 2026: Published new guide /guides/gta-6-fast-travel/ (GTA 6 fast travel: Ryde Me ride-share app, buses, trains, trams and taxis; fares, train skip option and unlock rules still unconfirmed; preview-coverage sources attributed).*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
@@ -24,6 +24,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Character Customization Guide](https://gtavispot.com/guides/character-customization/)
 - [GTA 6 Pre-Load Date & Unlock Times Guide](https://gtavispot.com/guides/gta-6-preload-unlock-times/)
 - [GTA 6 Wanted System Explained: 6 Stars, Heat & Escape](https://gtavispot.com/guides/gta-6-wanted-system/)
+- [GTA 6 Fast Travel: Ryde Me, Taxis & Getting Around](https://gtavispot.com/guides/gta-6-fast-travel/)
 - [World Hub](https://gtavispot.com/world/)
 - [FAQ Hub](https://gtavispot.com/faq/)
 
@@ -134,6 +135,7 @@ The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, 
 - [GTA 6 Launch Preparation Guide](https://gtavispot.com/guides/)
 - [GTA 6 Cheats & Input Codes Guide](https://gtavispot.com/cheats/)
 - [GTA 6 Side Activities: Everything to Do in Leonida](https://gtavispot.com/guides/gta-6-side-activities/)
+- [GTA 6 Fast Travel: Ryde Me, Taxis & Getting Around](https://gtavispot.com/guides/gta-6-fast-travel/)
 
 ## Comparison Articles
 - [GTA 6 vs GTA 5](https://gtavispot.com/compare/gta-6-vs-gta-5/)
