@@ -30,7 +30,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     date: 'October 16, 2026',
     tag: 'NEWS',
     href: '/news/gta-6-launch-trailer/',
-    img: '/images/news/gta-6-launch-trailer-featured.webp',
+    img: '/images/news/gta-6-launch-trailer-helicopter-night-vice-city.webp',
   },
   {
     title: "GTA 6 Romance System: Jason & Lucia's Relationship",
@@ -38,7 +38,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     date: 'October 15, 2026',
     tag: 'STORY',
     href: '/story/gta-6-romance-system/',
-    img: '/images/news/gta-6-romance-system-featured.webp',
+    img: '/images/GTAVI_Screenshots/People/Lucia_Caminos/Lucia_Caminos_01.webp',
   },
   {
     title: "Rockstar Says Next Game Won't Take as Long as GTA 6",
