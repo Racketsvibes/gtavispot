@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 17, 2026: Published new guide /guides/gta-6-fast-travel/ (GTA 6 fast travel: Ryde Me ride-share app, buses, trains, trams and taxis; fares, train skip option and unlock rules still unconfirmed; preview-coverage sources attributed).*
+*Last updated: October 17, 2026: Expanded /news/gta-6-new-features/ with a confirmed side-activities table (14 activities, source column, hunting money and fishing catch-and-release details, Jason and Lucia relationship ties), cross-linked the side-activities guide, added 2 FAQs; modifiedDate and sitemap lastmod set to 2026-10-17.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
