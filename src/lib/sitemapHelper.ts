@@ -9,6 +9,7 @@ const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
   'gta-6-gone-gold': '2026-10-17',
+  'gta-6-new-features': '2026-10-17',
   'gta-6-launch-trailer': '2026-10-16',
   'rockstar-next-game-after-gta-6': '2026-10-15',
   'gta-6-rockstar-union-tribunal': '2026-10-13',
