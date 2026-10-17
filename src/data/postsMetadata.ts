@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Fast Travel: Ryde Me, Taxis & Getting Around',
+    desc: 'GTA 6 fast travel works through Ryde Me, buses, trains, trams and taxis. Every confirmed travel option, what costs money, and what is still unknown.',
+    date: 'October 17, 2026',
+    tag: 'GUIDE',
+    href: '/guides/gta-6-fast-travel/',
+    img: '/images/news/gta-6-fast-travel-featured.webp',
+  },
+  {
     title: 'GTA 6 Not Gone Gold Yet, Report Says',
     desc: 'GTA 6 has not gone gold yet, per Bloomberg\u2019s Jason Schreier. Rockstar execs on the final build, certification and the November 19 launch.',
     date: 'October 17, 2026',

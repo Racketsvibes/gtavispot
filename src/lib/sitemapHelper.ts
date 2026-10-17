@@ -170,6 +170,7 @@ export function getEnglishUrls(): SitemapItem[] {
     { path: '/guides/gta-6-wanted-system/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-06' },
     { path: '/guides/gta-6-side-activities/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-11' },
     { path: '/guides/gta-6-parents-guide/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-14' },
+    { path: '/guides/gta-6-fast-travel/', changefreq: 'weekly', priority: '0.8', lastmod: '2026-10-17' },
     { path: '/map/', changefreq: 'weekly', priority: '0.9' },
     { path: '/faq/', changefreq: 'daily', priority: '0.9' },
     { path: '/quiz/', changefreq: 'weekly', priority: '0.9' },
