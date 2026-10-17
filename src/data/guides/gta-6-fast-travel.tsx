@@ -12,8 +12,8 @@ export const gta6FastTravel: GuideArticleData = {
   publishedDate: 'October 17, 2026',
   modifiedDate: 'October 17, 2026',
   author: 'Editorial Staff',
-  featureImage: '/images/news/gta-6-fast-travel-featured.webp',
-  featureImageAlt: 'Yellow taxi cab on a neon-lit Miami-style boulevard at dusk with a smartphone showing a ride-share app map in the foreground',
+  featureImage: '/images/guides/gta-6-fast-travel-featured.webp',
+  featureImageAlt: 'Jason and Lucia overlooking Vice City with fast travel route markers in GTA 6',
   content: (
     <>
       <p>
