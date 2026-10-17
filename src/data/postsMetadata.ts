@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'GTA 6 Not Gone Gold Yet, Report Says',
+    desc: 'GTA 6 has not gone gold yet, per Bloomberg\u2019s Jason Schreier. Rockstar execs on the final build, certification and the November 19 launch.',
+    date: 'October 17, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-gone-gold/',
+    img: '/images/news/gta-6-november-launch.jpg',
+  },
+  {
     title: 'GTA 6 Launch Trailer: New Footage, Justice Song Debut',
     desc: 'Rockstar released the GTA 6 launch trailer on October 15: 90 seconds of new PS5 footage plus a new Justice song featuring Tame Impala, SZA and King Gizzard.',
     date: 'October 16, 2026',
