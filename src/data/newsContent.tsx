@@ -50,6 +50,7 @@ import { gta6BuildLeakThreat } from './news/gta-6-build-leak-threat';
 import { gta6RockstarUnionTribunal } from './news/gta-6-rockstar-union-tribunal';
 import { rockstarNextGameAfterGta6 } from './news/rockstar-next-game-after-gta-6';
 import { gta6LaunchTrailer } from './news/gta-6-launch-trailer';
+import { gta6GoneGold } from './news/gta-6-gone-gold';
 
 
 
@@ -132,6 +133,7 @@ const articlesMap: Record<string, ArticleData> = {
   'gta-6-rockstar-union-tribunal': gta6RockstarUnionTribunal,
   'rockstar-next-game-after-gta-6': rockstarNextGameAfterGta6,
   'gta-6-launch-trailer': gta6LaunchTrailer,
+  'gta-6-gone-gold': gta6GoneGold,
 };
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
