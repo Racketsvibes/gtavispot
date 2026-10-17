@@ -9,7 +9,7 @@ export const gta6NewFeatures: ArticleData = {
   focusKeyword: 'GTA 6 new features',
   h1: 'GTA 6 New Features: Confirmed Changes & Upgrades',
   publishedDate: 'June 17, 2026',
-  modifiedDate: 'June 25, 2026',
+  modifiedDate: 'October 17, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/Cluster_1/GTA_6_New_Features.webp',
   featureImageAlt: 'GTA 6 new features artwork comparing gameplay changes to GTA 5',
@@ -130,6 +130,100 @@ export const gta6NewFeatures: ArticleData = {
         To see when the next gameplay footage will showcase these interiors, check our <Link href="/news/gta-6-trailer-3/">GTA 6 trailer 3 breakdown</Link>.
       </p>
 
+      <h2>What Side Activities Are Confirmed in GTA 6?</h2>
+      <p>
+        A large share of GTA 6&apos;s new gameplay happens away from story missions. Rockstar has confirmed or clearly shown around 25 to 30 side activities, drawn from the August 27, 2026 Extended Look on Netflix, Game Informer&apos;s cover story, and Rockstar North co-studio head Rob Nelson&apos;s press interviews. Our full <Link href="/guides/gta-6-side-activities/">GTA 6 side activities guide</Link> tracks every entry with the source behind it. Here is the confirmed core of the list:
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Activity</th>
+            <th>What you do</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Kayaking</strong></td>
+            <td>Paddle Leonida&apos;s rivers and keys; counts as a date with the other protagonist</td>
+            <td>Extended Look; Nelson via Game Informer</td>
+          </tr>
+          <tr>
+            <td><strong>Fishing</strong></td>
+            <td>Red Dead Redemption 2 level depth, but catch and release only; feeds collectibles and challenges</td>
+            <td>Nelson, reported via press hands-on</td>
+          </tr>
+          <tr>
+            <td><strong>Hunting</strong></td>
+            <td>Track wildlife across Kelly County; earns money outside the crime economy</td>
+            <td>Nelson, reported via press hands-on</td>
+          </tr>
+          <tr>
+            <td><strong>Gyms / working out</strong></td>
+            <td>Lift weights and use treadmills; visibly builds muscle and raises stamina</td>
+            <td>Nelson via WCCFTech</td>
+          </tr>
+          <tr>
+            <td><strong>Zoos</strong></td>
+            <td>Visit Leonida&apos;s zoos to blow off steam; doubles as a bond activity</td>
+            <td>Game Informer cover story</td>
+          </tr>
+          <tr>
+            <td><strong>Airboating</strong></td>
+            <td>Pilot airboats through the Grassrivers swamps</td>
+            <td>Game Informer; Extended Look</td>
+          </tr>
+          <tr>
+            <td><strong>Scuba diving / snorkeling</strong></td>
+            <td>Explore reefs and shipwrecks; also counts as couple quality time</td>
+            <td>Game Informer; Nelson via IGN</td>
+          </tr>
+          <tr>
+            <td><strong>Base jumping / parachuting</strong></td>
+            <td>Jump from Leonida&apos;s tallest points; feeds the relationship system</td>
+            <td>Game Informer; Nelson via IGN</td>
+          </tr>
+          <tr>
+            <td><strong>Street and off-road racing</strong></td>
+            <td>Illegal circuits and drag races plus rally and dirt-bike races</td>
+            <td>Game Informer; WCCFTech</td>
+          </tr>
+          <tr>
+            <td><strong>Jet skiing</strong></td>
+            <td>Water racing and free riding around the Keys</td>
+            <td>Game Informer; Extended Look</td>
+          </tr>
+          <tr>
+            <td><strong>Billiards / mini golf</strong></td>
+            <td>Dive-bar pool tables and family-park mini golf; both feed the bond system</td>
+            <td>Game Informer; Nelson via GameSpot</td>
+          </tr>
+          <tr>
+            <td><strong>Store robberies</strong></td>
+            <td>Three-tier system: hold up stores solo or as a duo, loud or quiet</td>
+            <td>Nelson via WCCFTech and GameSpot</td>
+          </tr>
+          <tr>
+            <td><strong>Studying wildlife</strong></td>
+            <td>A Red Dead Redemption 2 style animal-study collection mechanic</td>
+            <td>Nelson via IGN</td>
+          </tr>
+          <tr>
+            <td><strong>Cage fighting / wrestling</strong></td>
+            <td>Underground fighting tournaments (spotted, not named by Rockstar)</td>
+            <td>Extended Look footage (spotted)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Two activities connect to money and story. Hunting reportedly earns cash outside the crime economy through a character Jason knows, while fishing is catch and release only, so it pays in collectibles and challenges instead of cash. Several activities also feed the Jason and Lucia relationship system: kayaking, mini golf, pool, zoo visits and duo store robberies all count as time the pair spends together.
+      </p>
+      <p>
+        The October 15, 2026 launch trailer stayed focused on story beats and the Justice score rather than announcing new activities, so the list above remains current. Last checked: October 17, 2026.
+      </p>
+
       <div className={styles.callout}>
         <span className={styles.calloutTitle}>Key Takeaways</span>
         <p>
@@ -172,6 +266,20 @@ export const gta6NewFeatures: ArticleData = {
           <h3 className={styles.faqQuestion}>Are the physics different from GTA 5?</h3>
           <p className={styles.faqAnswer}>
             Yes, vehicle handling, crash deformation, and environmental destruction are more realistic under the RAGE 9 engine.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Which GTA 6 side activities earn money?</h3>
+          <p className={styles.faqAnswer}>
+            Hunting is the confirmed earner: press reporting on Rob Nelson&apos;s comments ties it to a character Jason knows and says it pays outside the crime economy. Store robberies pay as well, with a three-tier system for solo or duo jobs. Fishing is recreational only, with no cash payout.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>Do GTA 6 side activities count toward 100 percent completion?</h3>
+          <p className={styles.faqAnswer}>
+            Rockstar has not published the 100 percent completion checklist, so no official list exists yet. In GTA V, hobbies and pastimes were part of the requirement, and the size of this activity list suggests the same here, but that is inference, not confirmation.
           </p>
         </div>
       </section>
