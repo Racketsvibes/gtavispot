@@ -14,7 +14,7 @@ export const latestPublishedPosts: PostMetadata[] = [
     date: 'October 17, 2026',
     tag: 'GUIDE',
     href: '/guides/gta-6-fast-travel/',
-    img: '/images/news/gta-6-fast-travel-featured.webp',
+    img: '/images/guides/gta-6-fast-travel-featured.webp',
   },
   {
     title: 'GTA 6 Not Gone Gold Yet, Report Says',
