@@ -64,6 +64,18 @@ export const gta6FastTravel: GuideArticleData = {
         What nobody has confirmed yet is the price. GTA 6 has a rebuilt money system where cash, bank money and loot all behave differently, and several outlets expect Ryde Me fares to cost in-game money, the way taxi rides did in GTA V. That is speculation, though. No preview attendee reported seeing a fare screen, so treat any price you read online as invented until Rockstar or the launch build says otherwise.
       </p>
 
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_01.webp"
+          alt="Vice City street with traffic in GTA 6"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
+
       <h2>What public transit options exist in GTA 6?</h2>
       <p>
         Beyond the app, Leonida runs a public transport network, and Rockstar North studio co-head Rob Nelson confirmed the game uses it for fast travel. The details below come from YouTuber TGG, who attended a hands-off preview and published a full breakdown that other outlets corroborated.
@@ -102,6 +114,18 @@ export const gta6FastTravel: GuideArticleData = {
       <p>
         The design philosophy is the point: rather than a loading screen behind a menu, Rockstar keeps you inside the world for the trip. Buses arrive on routes, passengers get on and off, and you choose how much of the journey you actually experience. For a map this size, that is arguably better than a teleport. It also fits the game&apos;s broader pitch: everything in Leonida is meant to feel like a place, not a backdrop.
       </p>
+
+      <div className={styles.featureImageContainer}>
+        <Image
+          src="/images/GTAVI_Screenshots/Places/Vice_City/Vice_City_02.webp"
+          alt="Vice City boulevard with vehicles in GTA 6"
+          width={1200}
+          height={675}
+          sizes="(max-width: 768px) 100vw, 840px"
+          className={styles.featureImage}
+          loading="lazy"
+        />
+      </div>
 
       <h2>Can you skip taxi rides in GTA 6 like in older games?</h2>
       <p>
