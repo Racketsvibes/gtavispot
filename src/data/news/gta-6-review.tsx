@@ -176,10 +176,10 @@ export const gta6Review: ArticleData = {
         The most striking impression came from the French magazine Trois Couleurs, which said GTA 6's opening feels like watching Avatar for the first time. The comparison was not about raw graphics but about the feeling of experiencing something entirely new and deeply immersive. According to the magazine's preview, Leonida is so dense with life that many players will spend more time exploring and interacting with the world than pushing through story missions.
       </p>
       <p>
-        The loudest counterpoint came from Kingdom Come: Deliverance 2 director Daniel VÃ¡vra. Writing on X on August 28, 2026, after the Extended Look, he called the footage "an absolutely fantastic tech demo bordering on a technological miracle" with an open world unlike anything anyone has ever created. His criticism was aimed at the story, not the tech: he said the footage gave him "zero story hook" and described Jason and Lucia as "two uninteresting sociopaths chaotically committing mass murders."
+        The loudest counterpoint came from Kingdom Come: Deliverance 2 director Daniel Vávra. Writing on X on August 28, 2026, after the Extended Look, he called the footage "an absolutely fantastic tech demo bordering on a technological miracle" with an open world unlike anything anyone has ever created. His criticism was aimed at the story, not the tech: he said the footage gave him "zero story hook" and described Jason and Lucia as "two uninteresting sociopaths chaotically committing mass murders."
       </p>
       <p>
-        Treat that verdict as one developer's reading of a marketing reel, not a review of the game. VÃ¡vra himself noted that the 26-minute video showed only disconnected scenes with no context, and Rockstar has a long history of keeping the real story twists hidden until launch. The 80-hour story may answer every one of his objections, or none of them.
+        Treat that verdict as one developer's reading of a marketing reel, not a review of the game. Vávra himself noted that the 26-minute video showed only disconnected scenes with no context, and Rockstar has a long history of keeping the real story twists hidden until launch. The 80-hour story may answer every one of his objections, or none of them.
       </p>
       <p>
         Expectations from the top are just as intense. Take-Two CEO Strauss Zelnick told Bloomberg's Jason Schreier that the run-up to launch is "terrifying" because expectations are so high, adding that 10 million sales, an enormous figure for any other studio, would be disastrous for a game of this scale. In an earlier interview with Conner Mather, he called GTA 6 "breathtaking" and said his teams aim "to deliver perfection."
@@ -350,7 +350,7 @@ export const gta6Review: ArticleData = {
         </div>
 
         <div className={styles.faqItem} itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-          <h3 className={styles.faqQuestion} itemProp="name">What did Daniel VÃ¡vra say about GTA 6?</h3>
+          <h3 className={styles.faqQuestion} itemProp="name">What did Daniel Vávra say about GTA 6?</h3>
           <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
             <div className={styles.faqAnswer} itemProp="text">
               <p>The Kingdom Come: Deliverance 2 director praised the Extended Look as a technological miracle but said it gave him "zero story hook" and criticized how Jason and Lucia were presented. His comments reflect one developer's reaction to a 26-minute marketing reel, not a review of the finished game, whose 80-hour story remains largely hidden.</p>
