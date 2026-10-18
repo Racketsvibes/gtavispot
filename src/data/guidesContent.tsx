@@ -5,6 +5,7 @@ import { gta6WantedSystem } from './guides/gta-6-wanted-system';
 import { gta6SideActivities } from './guides/gta-6-side-activities';
 import { gta6ParentsGuide } from './guides/gta-6-parents-guide';
 import { gta6FastTravel } from './guides/gta-6-fast-travel';
+import { gta6HowToStealCars } from './guides/gta-6-how-to-steal-cars';
 
 export interface VideoSchema {
   name: string;
@@ -37,6 +38,7 @@ const guideArticlesMap: Record<string, GuideArticleData> = {
   'gta-6-side-activities': gta6SideActivities,
   'gta-6-parents-guide': gta6ParentsGuide,
   'gta-6-fast-travel': gta6FastTravel,
+  'gta-6-how-to-steal-cars': gta6HowToStealCars,
 };
 
 export function getGuideArticleBySlug(slug: string): GuideArticleData | undefined {

@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'How to Steal Cars in GTA 6: Security Levels Explained',
+    desc: 'GTA 6 ends one-button car theft. Security levels, the WAINK scanner app, Slim Jim and key cloner tools, GPS trackers, and selling or registering stolen cars.',
+    date: 'October 18, 2026',
+    tag: 'GUIDE',
+    href: '/guides/gta-6-how-to-steal-cars/',
+    img: '/images/95_Grotti_Cheetah.webp',
+  },
+  {
     title: 'GTA 6 Fast Travel: Ryde Me, Taxis & Getting Around',
     desc: 'GTA 6 fast travel works through Ryde Me, buses, trains, trams and taxis. Every confirmed travel option, what costs money, and what is still unknown.',
     date: 'October 17, 2026',
