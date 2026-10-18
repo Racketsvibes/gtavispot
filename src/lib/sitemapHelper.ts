@@ -139,7 +139,7 @@ const SPANISH_TRANSLATED_STORY_SLUGS = [
 export interface SitemapItem {
   url: string;
   // Real content-modified date (YYYY-MM-DD). Omit entirely when no
-  // truthful date exists â never fabricate today's date, or Google
+  // truthful date exists — never fabricate today's date, or Google
   // stops trusting every lastmod on the site.
   lastmod?: string;
   changefreq: string;
@@ -153,7 +153,7 @@ export interface SitemapItem {
 export function getEnglishUrls(): SitemapItem[] {
   const items: SitemapItem[] = [];
 
-  // Static Routes â lastmod only where a real content date is known;
+  // Static Routes — lastmod only where a real content date is known;
   // omitted (undefined) otherwise instead of claiming "today".
   const staticRoutes: { path: string; changefreq: string; priority: string; lastmod?: string }[] = [
     { path: '', changefreq: 'daily', priority: '1.0' },
