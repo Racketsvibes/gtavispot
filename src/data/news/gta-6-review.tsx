@@ -29,7 +29,7 @@ export const gta6Review: ArticleData = {
   focusKeyword: 'GTA 6 Review',
   h1: 'GTA 6 Pre-Release Review: Analyzing the Extended Look Gameplay',
   publishedDate: 'September 25, 2026',
-  modifiedDate: 'October 15, 2026',
+  modifiedDate: 'October 18, 2026',
   author: 'Qamar Farooq',
   featureImage: '/images/news/gta-6-review-feature.webp',
   featureImageAlt: 'GTA 6 review feature image showing Lucia and Jason looking over Vice City skyline',
@@ -77,7 +77,7 @@ export const gta6Review: ArticleData = {
       </div>
 
       <p>
-        <strong>Last checked: October 15, 2026</strong>
+        <strong>Last checked: October 18, 2026. Every claim in this post was checked today against the sources below. Sources: Insider Gaming, NateTheHate (ResetEra), Notebookcheck, GameRant, Rockstar Games, Take-Two Interactive.</strong>
       </p>
 
       <h2>How Does the Extended Look Gameplay Hold Up?</h2>
@@ -170,7 +170,7 @@ export const gta6Review: ArticleData = {
 
       <h2>What Are the Early Preview Impressions of GTA 6?</h2>
       <p>
-        As of mid-October 2026, no major outlet has published a scored review of GTA 6. Rockstar has not confirmed review copies or an embargo date, so the August hands-off previews remain the most detailed impressions available. But the preview phase has already produced two very different reactions, and both tell you something real about the game.
+        As of mid-October 2026, no major outlet has published a scored review of GTA 6. Fresh reporting now says review copies will go out before the end of October and the embargo will expire before the November 19 launch (details below), but Rockstar has not confirmed those details, so the August hands-off previews remain the most detailed impressions available. The preview phase has already produced two very different reactions, and both tell you something real about the game.
       </p>
       <p>
         The most striking impression came from the French magazine Trois Couleurs, which said GTA 6's opening feels like watching Avatar for the first time. The comparison was not about raw graphics but about the feeling of experiencing something entirely new and deeply immersive. According to the magazine's preview, Leonida is so dense with life that many players will spend more time exploring and interacting with the world than pushing through story missions.
@@ -245,7 +245,27 @@ export const gta6Review: ArticleData = {
         </table>
       </div>
 
-      <div className={styles.faqSection}>
+            <h2>When Will GTA 6 Reviews Come Out?</h2>
+      <p>
+        No scored reviews are out yet, but the first real signals about the review plan landed in mid-October 2026. Two separate reports, both from named sources, point to the same picture: critics get the game early, and their verdicts go live before the November 19 launch.
+      </p>
+      <p>
+        On October 14, Insider Gaming reported that GTA 6 reviews will go live before the release. The outlet added that it knows the preliminary embargo date but is withholding it, since the date could still change. This was the first credible signal that Rockstar plans a normal review cycle rather than holding verdicts until launch day.
+      </p>
+      <p>
+        A day later, insider NateTheHate answered a fan question on the ResetEra forum about whether review copies were already circulating. His answer was short: "Not yet but they will before end of the month." If that holds, critics will have more than two weeks with the game, a generous window for an open world of this size, and a sharp contrast to the panic earlier in the year that GTA 6 would get no pre-launch reviews at all.
+      </p>
+      <p>
+        The new reporting undercuts an earlier, very different claim. In May 2026, Brazilian journalist Pedro Henrique Lutti Lippe said Rockstar would skip review keys entirely and instead have reviewers play at a supervised location. Rockstar never confirmed that claim, and it has never confirmed the October reports either, so treat both as reported claims from named sources, not official announcements.
+      </p>
+      <p>
+        History sides with a pre-launch embargo. Rockstar lifted the Red Dead Redemption 2 embargo on October 25, 2018, one day before launch, and the GTA 5 embargo on September 16, 2013, one day before release. A pre-launch embargo would also make GTA 6 eligible for The Game Awards 2026 nominations, whose cutoff has historically fallen on the third Friday of November. You can follow the countdown on our <Link href="/news/gta-6-release-date/">GTA 6 release date</Link> page, and read about the final development stretch in our <Link href="/news/gta-6-gone-gold/">gold status report</Link>. For more on the October reports, see the <a href="https://rockstarintel.com/gta-6-will-be-sent-out-very-soon-to-reviewers-its-claimed/" target="_blank" rel="noopener noreferrer">RockstarINTEL roundup</a> and <a href="https://www.notebookcheck.net/GTA-6-review-copies-reportedly-go-out-3-weeks-before-release-date-despite-leak-risk.1424312.0.html" target="_blank" rel="noopener noreferrer">Notebookcheck coverage</a>.
+      </p>
+      <p>
+        <strong>Last checked: October 18, 2026.</strong> Nothing here is officially confirmed by Rockstar or Take-Two; the review-copy and embargo details are reported claims from Insider Gaming and NateTheHate, checked against Notebookcheck and GameRant coverage on October 18, 2026.
+      </p>
+
+<div className={styles.faqSection}>
         <h2>Frequently Asked Questions</h2>
         
         <div className={styles.faqItem} itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
@@ -306,7 +326,25 @@ export const gta6Review: ArticleData = {
           <h3 className={styles.faqQuestion} itemProp="name">Has GTA 6 received any scored reviews yet?</h3>
           <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
             <div className={styles.faqAnswer} itemProp="text">
-              <p>No. As of October 15, 2026, no outlet has published a scored review of GTA 6, and Rockstar has not announced a review embargo date. The August 2026 hands-off previews are the most detailed impressions available so far. Scored reviews are expected in the days just before the November 19 launch.</p>
+              <p>No. As of October 18, 2026, no outlet has published a scored review of GTA 6. But the picture has changed since mid-October: Insider Gaming reported on October 14 that reviews will go live before the November 19 launch, and insider NateTheHate says review copies will reach critics before the end of October. Rockstar has still not announced an official embargo date. The August 2026 hands-off previews remain the most detailed impressions available so far.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.faqItem} itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+          <h3 className={styles.faqQuestion} itemProp="name">When will GTA 6 review copies be sent out?</h3>
+          <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+            <div className={styles.faqAnswer} itemProp="text">
+              <p>According to insider NateTheHate, who answered a fan question on the ResetEra forum on October 15, review copies are not yet circulating but will be sent out before the end of October 2026. That would give critics more than two weeks with the game ahead of the November 19 launch. Rockstar has not confirmed this, so it remains a reported claim, not an official announcement.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.faqItem} itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+          <h3 className={styles.faqQuestion} itemProp="name">Will GTA 6 reviews come out before launch?</h3>
+          <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+            <div className={styles.faqAnswer} itemProp="text">
+              <p>Yes, if the latest reporting holds. On October 14, Insider Gaming reported that GTA 6's review embargo will expire before the November 19 release, adding that it knows the preliminary embargo date but is withholding it because it could change. That contradicts earlier May 2026 rumors that Rockstar would skip review copies and hold all verdicts until after launch.</p>
             </div>
           </div>
         </div>

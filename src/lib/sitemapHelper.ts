@@ -34,7 +34,7 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-single-player': '2026-09-27',
   'gta-6-biker-gang': '2026-09-27',
   'gta-6-budget': '2026-09-27',
-  'gta-6-review': '2026-10-15',
+  'gta-6-review': '2026-10-18',
   'gta-6-vice-city-collection': '2026-09-24',
   'gta-6-china-censorship': '2026-09-05',
   'gta-6-timeline': '2026-08-30',

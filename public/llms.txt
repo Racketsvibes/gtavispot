@@ -4,7 +4,7 @@
 
 The ultimate Grand Theft Auto 6 (GTA 6) resource: latest news, interactive map, character guides, cheat codes, and launch details for Leonida / Vice City.
 
-*Last updated: October 17, 2026: Expanded /news/gta-6-new-features/ with a confirmed side-activities table (14 activities, source column, hunting money and fishing catch-and-release details, Jason and Lucia relationship ties), cross-linked the side-activities guide, added 2 FAQs; modifiedDate and sitemap lastmod set to 2026-10-17.*
+*Last updated: October 18, 2026: Updated /news/gta-6-review/ with October 14-15 review-copy reports (Insider Gaming: reviews go live before launch; NateTheHate: copies out before end of October), new question H2 plus 2 FAQs, refreshed outdated embargo text; modifiedDate and sitemap lastmod set to 2026-10-18.*
 
 ## Main Navigation Pages
 - [Home](https://gtavispot.com/)
