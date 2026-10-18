@@ -25,7 +25,7 @@ export const gta6Timeline: ArticleData = {
   focusKeyword: 'gta 6 timeline',
   h1: 'The Official GTA 6 Timeline: Every Announcement in Order',
   publishedDate: 'August 30, 2026',
-  modifiedDate: 'August 30, 2026',
+  modifiedDate: 'October 18, 2026',
   author: 'Marcus Vance',
   featureImage: '/images/gta-6-grand-theft-auto-6-official-extended-gameplay.webp',
   featureImageAlt: 'Grand Theft Auto VI official timeline banner with sunset city background and gameplay logo.',
@@ -272,6 +272,94 @@ export const gta6Timeline: ArticleData = {
             Read Crews Guide
           </TimelineButton>
         </div>
+
+        {/* Checkpoint Sep 10, 2026 */}
+        <div style={{ position: 'relative' }}>
+          <div style={{ position: 'absolute', left: '-1.95rem', top: '0.2rem', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#3b1578', border: '3px solid #fff' }}></div>
+          <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#e84590', textTransform: 'uppercase', letterSpacing: '0.05em' }}>September 10, 2026</span>
+          <h3 style={{ margin: '0.2rem 0 0.5rem 0', fontSize: '1.25rem' }}>Dazed "New Idols" Issue Hits Newsstands</h3>
+          <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
+            Rockstar put GTA 6 on the cover of Dazed's autumn 2026 "New Idols" issue, revealed on August 26 and on sale internationally from September 10. 
+            The feature presented seven official screenshots as a fashion editorial and carried an on-record Rockstar interview, the first time the studio 
+            handed a fashion magazine a batch of its stills.
+          </p>
+        </div>
+
+        {/* Checkpoint Sep 17, 2026 */}
+        <div style={{ position: 'relative' }}>
+          <div style={{ position: 'absolute', left: '-1.95rem', top: '0.2rem', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#3b1578', border: '3px solid #fff' }}></div>
+          <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#e84590', textTransform: 'uppercase', letterSpacing: '0.05em' }}>September 17, 2026</span>
+          <h3 style={{ margin: '0.2rem 0 0.5rem 0', fontSize: '1.25rem' }}>GTA VI: The Album Announced</h3>
+          <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
+            Rockstar and Atlantic Records announced Grand Theft Auto VI: The Album: 34 original tracks, released on November 19 alongside the game. 
+            Six singles went live the same day, including Travis Scott's "RHYNO" and Yung Lean's "That's It" with Future and Metro Boomin, and vinyl and CD 
+            editions went on pre-order. Two more singles, Fuerza Regida's "Suzuki" and Cardi B's "Don't Chart", followed on October 9, bringing the named 
+            total to eight of 34.
+          </p>
+          <TimelineButton href="/news/gta-6-soundtrack-album/">
+            View Soundtrack Details
+          </TimelineButton>
+        </div>
+
+        {/* Checkpoint Oct 1, 2026 */}
+        <div style={{ position: 'relative' }}>
+          <div style={{ position: 'absolute', left: '-1.95rem', top: '0.2rem', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#3b1578', border: '3px solid #fff' }}></div>
+          <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#e84590', textTransform: 'uppercase', letterSpacing: '0.05em' }}>October 1, 2026</span>
+          <h3 style={{ margin: '0.2rem 0 0.5rem 0', fontSize: '1.25rem' }}>ESRB Mature 17+ Rating Finalized</h3>
+          <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
+            Rockstar replaced the long-standing Rating Pending badge on its official GTA VI site with the finalized ESRB Mature 17+ certificate, seven weeks 
+            before launch. The listing carries the same seven content descriptors as GTA 5, an In-Game Purchases notice, and no "Users Interact" label, which 
+            points to a single-player-only game at launch. Store pages in Europe, Australia, and New Zealand followed in the first days of October.
+          </p>
+          <TimelineButton href="/news/gta-6-age-rating/">
+            Read Age Rating Guide
+          </TimelineButton>
+        </div>
+
+        {/* Checkpoint Oct 2, 2026 */}
+        <div style={{ position: 'relative' }}>
+          <div style={{ position: 'absolute', left: '-1.95rem', top: '0.2rem', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#3b1578', border: '3px solid #fff' }}></div>
+          <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#e84590', textTransform: 'uppercase', letterSpacing: '0.05em' }}>October 2, 2026</span>
+          <h3 style={{ margin: '0.2rem 0 0.5rem 0', fontSize: '1.25rem' }}>Miami Heat Announce "A Night in Vice City"</h3>
+          <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
+            The Miami Heat announced a partnership with Rockstar Games for "A Night in Vice City" on November 18, 2026, the night before launch. The Heat host 
+            the Milwaukee Bucks at Kaseya Center at 7:00 PM ET, playing under the Vice City name on a custom court in a brand-new uniform, with the game airing 
+            nationally on ESPN and locally on Local 10.
+          </p>
+          <TimelineButton href="/news/miami-heat-vice-city-night-gta-6/">
+            Read Vice City Night Details
+          </TimelineButton>
+        </div>
+
+        {/* Checkpoint Oct 5, 2026 */}
+        <div style={{ position: 'relative' }}>
+          <div style={{ position: 'absolute', left: '-1.95rem', top: '0.2rem', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#3b1578', border: '3px solid #fff' }}></div>
+          <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#e84590', textTransform: 'uppercase', letterSpacing: '0.05em' }}>October 5, 2026</span>
+          <h3 style={{ margin: '0.2rem 0 0.5rem 0', fontSize: '1.25rem' }}>LOVE Magazine Issue 27 on Sale</h3>
+          <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
+            LOVE magazine's Issue 27 went on sale on October 5, three days after the cover was announced. The original Rockstar illustration of Jason and Lucia 
+            carries the tagline "America's Most Wanted" across six cover variants, and the issue sold out within minutes. Inside, Rockstar's writing team talks 
+            about a decade of world-building and a more modest American Dream.
+          </p>
+          <TimelineButton href="/news/gta-6-love-magazine-cover-story/">
+            Read LOVE Cover Story
+          </TimelineButton>
+        </div>
+
+        {/* Checkpoint Oct 15, 2026 */}
+        <div style={{ position: 'relative' }}>
+          <div style={{ position: 'absolute', left: '-1.95rem', top: '0.2rem', width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#3b1578', border: '3px solid #fff' }}></div>
+          <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#e84590', textTransform: 'uppercase', letterSpacing: '0.05em' }}>October 15, 2026</span>
+          <h3 style={{ margin: '0.2rem 0 0.5rem 0', fontSize: '1.25rem' }}>Launch Trailer Released</h3>
+          <p style={{ margin: 0, fontSize: '0.95rem', color: '#4a4a68' }}>
+            Rockstar released the 90-second Grand Theft Auto VI Launch Trailer with no advance teaser, its third official trailer. Captured entirely in-game on 
+            a PlayStation 5, it leans into Jason and Lucia's story and debuts Justice's new single "Flower in a Hurricane", featuring Tame Impala, SZA, and King 
+            Gizzard and the Lizard Wizard. It passed 21 million views on Rockstar's channel in its first day.
+          </p>
+          <TimelineButton href="/news/gta-6-launch-trailer/">
+            Watch Launch Trailer
+          </TimelineButton>
+        </div>
       </div>
 
       <h2>How do we verify the official sources?</h2>
@@ -301,11 +389,16 @@ export const gta6Timeline: ArticleData = {
           </tr>
           <tr>
             <td>Pre-Launch Campaign</td>
-            <td>5 milestones</td>
-            <td>Netflix streaming data, Social Club portals, retail pre-order logs</td>
+            <td>11 milestones</td>
+            <td>Netflix streaming data, Social Club portals, retail pre-order logs, ESRB/PEGI listings, magazine features, album announcements</td>
           </tr>
         </tbody>
       </table>
+
+      <p>
+        <strong>Last checked: October 18, 2026.</strong> The timeline now runs through the October 15 launch trailer, the finalized ESRB rating, the Miami Heat 
+        partnership, and the Dazed, LOVE, and album milestones of September and October.
+      </p>
 
       <p>
         As we approach the final launch steps, keep this <strong>gta 6 timeline</strong> bookmarked to track the remaining countdown events.
@@ -346,6 +439,15 @@ export const gta6Timeline: ArticleData = {
           <h3 className={styles.faqQuestion}>Where can I track the official timeline announcements?</h3>
           <p className={styles.faqAnswer}>
             You can verify dates directly through the Rockstar Games Newswire or by tracking our curated development timeline.
+          </p>
+        </div>
+
+        <div className={styles.faqItem}>
+          <h3 className={styles.faqQuestion}>When was GTA 6 officially rated by the ESRB?</h3>
+          <p className={styles.faqAnswer}>
+            Rockstar replaced the Rating Pending badge with the finalized ESRB Mature 17+ rating on October 1, 2026, about seven weeks before launch. The listing 
+            carries the same seven content descriptors as GTA 5 plus an In-Game Purchases notice, and the missing "Users Interact" label points to a single-player-only 
+            launch.
           </p>
         </div>
       </section>

@@ -37,7 +37,7 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-review': '2026-10-18',
   'gta-6-vice-city-collection': '2026-09-24',
   'gta-6-china-censorship': '2026-09-05',
-  'gta-6-timeline': '2026-08-30',
+  'gta-6-timeline': '2026-10-18',
   'rockstar-crews': '2026-08-30',
   'gta-6-gameplay': '2026-08-29',
   'gta-6-netflix-viewership': '2026-08-29',
