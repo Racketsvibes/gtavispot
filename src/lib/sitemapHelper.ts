@@ -34,7 +34,7 @@ const newsModifiedDates: Record<string, string> = {
   'gta-6-single-player': '2026-09-27',
   'gta-6-biker-gang': '2026-09-27',
   'gta-6-budget': '2026-09-27',
-  'gta-6-review': '2026-10-15',
+  'gta-6-review': '2026-10-18',
   'gta-6-vice-city-collection': '2026-09-24',
   'gta-6-china-censorship': '2026-09-05',
   'gta-6-timeline': '2026-08-30',
@@ -139,7 +139,7 @@ const SPANISH_TRANSLATED_STORY_SLUGS = [
 export interface SitemapItem {
   url: string;
   // Real content-modified date (YYYY-MM-DD). Omit entirely when no
-  // truthful date exists — never fabricate today's date, or Google
+  // truthful date exists â never fabricate today's date, or Google
   // stops trusting every lastmod on the site.
   lastmod?: string;
   changefreq: string;
@@ -153,7 +153,7 @@ export interface SitemapItem {
 export function getEnglishUrls(): SitemapItem[] {
   const items: SitemapItem[] = [];
 
-  // Static Routes — lastmod only where a real content date is known;
+  // Static Routes â lastmod only where a real content date is known;
   // omitted (undefined) otherwise instead of claiming "today".
   const staticRoutes: { path: string; changefreq: string; priority: string; lastmod?: string }[] = [
     { path: '', changefreq: 'daily', priority: '1.0' },
