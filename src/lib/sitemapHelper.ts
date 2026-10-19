@@ -8,6 +8,7 @@ import { getAllWorldArticleSlugs } from '@/data/worldContent';
 const baseUrl = 'https://www.gtavispot.com';
 
 const newsModifiedDates: Record<string, string> = {
+  'gta-6-rockstar-staff-take-two-stock': '2026-10-19',
   'gta-6-gone-gold': '2026-10-17',
   'gta-6-new-features': '2026-10-17',
   'gta-6-launch-trailer': '2026-10-16',

@@ -9,6 +9,14 @@ export interface PostMetadata {
 
 export const latestPublishedPosts: PostMetadata[] = [
   {
+    title: 'Rockstar Doubled Staff for GTA 6 as Take-Two Stock Falls',
+    desc: 'Rockstar grew to 4,711 staff across 12 studios for GTA 6 as Take-Two shares fell about 21% in a year. Analysts reportedly expect 40M copies and $3B in revenue.',
+    date: 'October 19, 2026',
+    tag: 'NEWS',
+    href: '/news/gta-6-rockstar-staff-take-two-stock/',
+    img: '/images/news/gta-6-rockstar-staff-take-two-stock-featured.webp',
+  },
+  {
     title: 'How to Steal Cars in GTA 6: Security Levels Explained',
     desc: 'GTA 6 ends one-button car theft. Security levels, the WAINK scanner app, Slim Jim and key cloner tools, GPS trackers, and selling or registering stolen cars.',
     date: 'October 18, 2026',
